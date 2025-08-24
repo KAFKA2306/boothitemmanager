@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Build script for BoothList ETL pipeline."""
-
 import sys
 import os
 from pathlib import Path
@@ -11,6 +8,5 @@ sys.path.insert(0, str(src_path))
 
 # Import and run the main ETL pipeline
 from boothlist.main import main
-
-if __name__ == '__main__':
+Wf __name__ == '__main__':
     main()
