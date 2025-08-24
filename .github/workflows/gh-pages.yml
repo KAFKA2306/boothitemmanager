@@ -1,0 +1,103 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allow manual triggering
+  workflow_dispatch:
+  # Run weekly to refresh BOOTH metadata
+  schedule:
+    - cron: '0 2 * * 0'  # Every Sunday at 2 AM UTC
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Cache BOOTH metadata
+      uses: actions/cache@v3
+      with:
+        path: booth_item_cache.json
+        key: booth-cache-${{ hashFiles('input/**') }}
+        restore-keys: |
+          booth-cache-
+
+    - name: Run ETL pipeline
+      run: |
+        python build.py --input-dir input --output-dir dist --verbose
+      env:
+        # Add any environment variables if needed
+        PYTHONPATH: ${{ github.workspace }}/src
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: boothlist-build
+        path: |
+          dist/
+          booth_item_cache.json
+
+    - name: Setup Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/configure-pages@v3
+
+    - name: Upload to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: dist/
+
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      id: deployment
+      uses: actions/deploy-pages@v2
+
+    - name: Comment PR with preview
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const path = require('path');
+          
+          // Read metrics for PR comment
+          let metricsPath = path.join('dist', 'metrics.yml');
+          let comment = '## =Ê BoothList Build Results\n\n';
+          
+          if (fs.existsSync(metricsPath)) {
+            comment += ' Build completed successfully!\n\n';
+            comment += 'Generated files:\n';
+            comment += '- `catalog.yml` - Normalized item catalog\n';
+            comment += '- `metrics.yml` - Analytics and rankings\n';
+            comment += '- `index.html` - Dashboard interface\n\n';
+            comment += 'The dashboard will be deployed to GitHub Pages when merged to main.\n';
+          } else {
+            comment += 'L Build failed - please check the logs.\n';
+          }
+
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });

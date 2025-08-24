@@ -1,0 +1,1636 @@
+items:
+- item_id: 6893042
+  type: tool
+  name: BoneSync Pro
+  shop_name: Studio Kafka
+  creator_id: studiokafka.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6893042
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: BoneSyncPro.zip
+    version: null
+    size: null
+    hash: null
+  - filename: BoneSyncPro2.zip
+    version: null
+    size: null
+    hash: null
+  - filename: BoneSyncPro3.zip
+    version: null
+    size: null
+    hash: null
+  - filename: BoneSyncPro_取扱説明書_2025-05-14作成_.pdf
+    version: null
+    size: null
+    hash: null
+  - filename: BoneVisualizer.zip
+    version: null
+    size: null
+    hash: null
+  - filename: BoneSyncPro3.4.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155313'
+- item_id: 5589706
+  type: costume
+  name: 【8アバター対応】🍭Marshmallow🍭
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5589706
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Kanae_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Kikyo_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Manuka_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Marshmallow_Material_Pack_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Marshmallow_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Selestia_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Chiffon_Lime_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Moe_Marshmallow_Ver1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  - filename: Shinano_Marshmallow_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  targets:
+  - code: Moe
+    name: 萌
+  - code: Selestia
+    name: セレスティア
+  - code: Kikyo
+    name: 桔梗
+  - code: Kanae
+    name: かなえ
+  - code: Manuka
+    name: マヌカ
+  - code: Shinano
+    name: しなの
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155496'
+- item_id: 5957830
+  type: avatar
+  name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】
+  shop_name: IKUSIA
+  creator_id: paryi.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5957830
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: rurunePanel.zip
+    version: null
+    size: null
+    hash: null
+  - filename: rurune_v1.1.1.zip
+    version: 1.1.1
+    size: null
+    hash: null
+  - filename: animationonly_v1.1.2.zip
+    version: 1.1.2
+    size: null
+    hash: null
+  - filename: rurune_v1.1.2.zip
+    version: 1.1.2
+    size: null
+    hash: null
+  targets:
+  - code: Rurune
+    name: ルルネ
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155525'
+- item_id: 6138340
+  type: costume
+  name: ✨45%✨『しなの-shinano-対応』outfit 7set
+  shop_name: HB_shop
+  creator_id: hb1975.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6138340
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: HB_chill_charm_shinano.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_dongtan_shinano.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_FDA_shinano.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_Rusty_shinano.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_urbisvortex_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_chill_charm_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: dontan_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_FDA_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_Unchain_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_rusty_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_Unchain_shinano_V_1_01.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_UrbisVortex_shinano_V_1_02.zip
+    version: null
+    size: null
+    hash: null
+  - filename: HB_city_life_wear_shinano_V_1_02.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Shinano
+    name: しなの
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155588'
+- item_id: 6979335
+  type: costume
+  name: 💖SALE💖【11アバター対応】Lovique🎀
+  shop_name: KingSoap
+  creator_id: kingsoap.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6979335
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: __Material.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Moe.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Lovique_PSD_2048_.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155608'
+- item_id: 6778526
+  type: avatar
+  name: 「SUN －サン－」ver1.1.3
+  shop_name: ジャム蔵
+  creator_id: jamzo.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6778526
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: SUN_add04_AdultLong_roomWare_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add03_HarfUpLong_swimWare_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add05_FuwabobEX_CamiCode_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add01_twinTail_school_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add02_girlyLong_sweter_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add06_WavrTwinEX_Meido_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add07_BoyishOverAll_CasketSideTail_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add08_SleepWare_MushShort_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add09_Yukata_ElegantWave_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_v1_1_3_NoUpperChest.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_v1_1_3.zip
+    version: '1'
+    size: null
+    hash: null
+  - filename: SUN_add10_PaleoSwim_HimeLong_v1_1.zip
+    version: '1'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155654'
+- item_id: 5933400
+  type: other
+  name: RBS SuiminSystem 2 - メニュー操作なしで寝返り / OVRで高さ調整【ModularAvatar対応】
+  shop_name: らずべりー工房(はるる早苗)
+  creator_id: raspberry-studio.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5933400
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: RBS_MAS2_LICENSE.zip
+    version: null
+    size: null
+    hash: null
+  - filename: rbs_ma-suimin-system-2_v1.0.1.zip
+    version: 1.0.1
+    size: null
+    hash: null
+  - filename: _beta_rbs_ma-suimin-system-2_v1.1.0-rc.1.zip
+    version: 1.1.0
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155729'
+- item_id: 5453882
+  type: gimmick
+  name: 【VRChat】Breast Physics Plus Plus 物理演算胸揺れギミック
+  shop_name: nHarukaの実験室
+  creator_id: nharuka.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5453882
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: BreastPhysics++_v1.9.0.zip
+    version: 1.9.0
+    size: null
+    hash: null
+  - filename: BreastPhysics++_v2.9.0.zip
+    version: 2.9.0
+    size: null
+    hash: null
+  - filename: BreastPhysics++_v3.4.3.zip
+    version: 3.4.3
+    size: null
+    hash: null
+  - filename: BreastPhysics++_v3.4.4.zip
+    version: 3.4.4
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155757'
+- item_id: 6618690
+  type: costume
+  name: 【12アバター対応】❤️Mellow_Puff❤️
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6618690
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: _Mellow_Puff_PSD_Material.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Mellow_Puff_Selestia_Ver1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  targets:
+  - code: Selestia
+    name: セレスティア
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155777'
+- item_id: 6349460
+  type: costume
+  name: 【12アバター対応】☃️Winter_Glow☃️
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6349460
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: _Winter_Glow_Material_Pack_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: _Winter_Glow_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Winter_Glow_Selestia_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  targets:
+  - code: Selestia
+    name: セレスティア
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155797'
+- item_id: 6089156
+  type: costume
+  name: 【8アバター対応】ユウナギ Yuunagi
+  shop_name: 鈴屋RinYa
+  creator_id: isekaisuzuya.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6089156
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: N040_Texture_Materials.zip
+    version: null
+    size: null
+    hash: null
+  - filename: N040_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: N040_3_Mizuki_Yuunagi.zip
+    version: null
+    size: null
+    hash: null
+  - filename: N040_4_Rurune_Yuunagi.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Rurune
+    name: ルルネ
+  - code: Mizuki
+    name: 瑞希
+  tags: []
+  updated_at: '2025-08-24T16:02:37.155879'
+- item_id: 5098059
+  type: costume
+  name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット
+  shop_name: CatPrincess
+  creator_id: himeso.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5098059
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: _Off-shoulder_Materials_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  - filename: Mafuyu.Cian_Off-shoulder_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  - filename: _CombatMaidDress_Materials_v1.1.0.zip
+    version: 1.1.0
+    size: null
+    hash: null
+  - filename: Mafuyu_Cian__CombatMaidDress_v1.1.0.zip
+    version: 1.1.0
+    size: null
+    hash: null
+  - filename: _Swagger_Materials_v1.1.0.zip
+    version: 1.1.0
+    size: null
+    hash: null
+  - filename: Mafuyu_Cian__Swagger_v1.1.0.zip
+    version: 1.1.0
+    size: null
+    hash: null
+  - filename: _one-piece_Materials_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  - filename: Mafuyu.Cian_one-piece_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  - filename: _see-through_Dress_Materials_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  - filename: Mafuyu_Cian__see-through_Dress_v1.2.0.zip
+    version: 1.2.0
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156102'
+- item_id: 5271972
+  type: costume
+  name: 『だらりんパジャマ』複数アバター対応衣装
+  shop_name: CatPrincess
+  creator_id: himeso.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5271972
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Fullset_DararinPajamas1.0.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Momone_DararinPajamas1.0.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Ririka_DararinPajamas1.0.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Milfy_DararinPajamas1.0.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156134'
+- item_id: 5876740
+  type: costume
+  name: セレスティア用の水着（2024年版）
+  shop_name: wakamaru shop
+  creator_id: wakamaru.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5876740
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: 2024_Swimwear_Selestia_wk.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Selestia
+    name: セレスティア
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156147'
+- item_id: 4274213
+  type: other
+  name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊
+  shop_name: Atelier Astra
+  creator_id: vic.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4274213
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Sweat_Texture_-Selestia-.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156210'
+- item_id: 4035411
+  type: avatar
+  name: オリジナル3Dモデル「セレスティア」ver1.02
+  shop_name: STUDIO JINGO
+  creator_id: jingo1016.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4035411
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: SELESTIA_ver1.02.zip
+    version: '1.02'
+    size: null
+    hash: null
+  targets:
+  - code: Selestia
+    name: セレスティア
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156283'
+- item_id: 5315109
+  type: costume
+  name: まふろん 【 髪型2種セット / 吐息パーティクル付き 】 MafuLon Hair
+  shop_name: はまのしす -hamanosis-
+  creator_id: hamanosis.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5315109
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: hamanosis_MafuLon_Shinano.zip
+    version: null
+    size: null
+    hash: null
+  - filename: hamanosis_MafuLon_PSD.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Shinano
+    name: しなの
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156308'
+- item_id: 6231687
+  type: costume
+  name: 【9アバター対応】✨Heritage_Chic✨
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6231687
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: _Heritage_Chic_Material_Pack_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: _Heritage_Chic_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Heritage_Chic_Shinano_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  targets:
+  - code: Shinano
+    name: しなの
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156329'
+- item_id: 5216107
+  type: avatar
+  name: 【3Dモデル】 PUPPET BONNY:2023 Halloween Edition
+  shop_name: DIMGRAY
+  creator_id: dimgray.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5216107
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: __Dimgray-Puppet_bonny__Full_Package_.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156343'
+- item_id: 5028358
+  type: avatar
+  name: 【3Dモデル】【Chasa - HA BAEK】
+  shop_name: DIMGRAY
+  creator_id: dimgray.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5028358
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Dimgray_-_Chasa_-_HA_BAEG.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156354'
+- item_id: 4771424
+  type: costume
+  name: NecoLong
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4771424
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Neco_Long.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156366'
+- item_id: 4213786
+  type: avatar
+  name: オリジナル3Dモデル「INABA」「椎名」「狐雨」
+  shop_name: ゴールデン商会
+  creator_id: goldentakasan.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4213786
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: 01KIMONO.ver.1.0.3.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 01_INABA_ver4.0.1.zip
+    version: 4.0.1
+    size: null
+    hash: null
+  - filename: 01Shiina_ver2.0.1.zip
+    version: 2.0.1
+    size: null
+    hash: null
+  - filename: 狐雨ver.2.0.0.zip
+    version: null
+    size: null
+    hash: null
+  - filename: UnderWearSet.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156395'
+- item_id: 6007326
+  type: costume
+  name: 清楚はんなり NEO 【 髪型4種類セット / アップヘア 】
+  shop_name: はまのしす -hamanosis-
+  creator_id: hamanosis.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/6007326
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: hamanosis_Seiso_hannari_NEO_Manuka.zip
+    version: null
+    size: null
+    hash: null
+  - filename: hamanosis_Seiso_hannari_NEO_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: hamanosis_Seiso_hannari_NEO_Material_v1.1.zip
+    version: '1.1'
+    size: null
+    hash: null
+  targets:
+  - code: Manuka
+    name: マヌカ
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156416'
+- item_id: 5907551
+  type: costume
+  name: 【8アバター対応】🌙Night Kitty🐈‍⬛
+  shop_name: Libero Boutique
+  creator_id: liberoboutique.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5907551
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Libero_Night_Kitty_Material__1.02.zip
+    version: '1.02'
+    size: null
+    hash: null
+  - filename: Libero_Night_Kitty_Cat__1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  - filename: Libero_Night_Kitty_Kikyo__1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  targets:
+  - code: Kikyo
+    name: 桔梗
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156438'
+- item_id: 4854979
+  type: tool
+  name: Kiseru / Cloth Toolbox
+  shop_name: ショップ・ピエロトピカ
+  creator_id: pielotopica.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4854979
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: PielotopicaToolBox.unitypackage.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Kiseru.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156453'
+- item_id: 5426419
+  type: costume
+  name: 【9アバター対応】🧸Cutie_Pie🧸
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5426419
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Kikyo_Cutie_Pie_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Cutie_Pie_Material_Pack_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Cute_Pie_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  targets:
+  - code: Kikyo
+    name: 桔梗
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156472'
+- item_id: 5381043
+  type: costume
+  name: 【7アバター対応】✨Lottie✨Voyage出展衣装
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5381043
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Kikyo_Lottie_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Lottie_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Lottie_Material_Pack_Ver1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  targets:
+  - code: Kikyo
+    name: 桔梗
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156491'
+- item_id: 5485641
+  type: costume
+  name: 2024年第1弾『断罪セーラー』Danzai Sailor 💜
+  shop_name: EXTENSION CLOTHING
+  creator_id: extension.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5485641
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Danzai_Sailor_Material_Pack.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Danzai_Sailor_For_Kikyo_V1.0.0.zip
+    version: 1.0.0
+    size: null
+    hash: null
+  - filename: Danzai_Sailor_PSD.psd
+    version: null
+    size: null
+    hash: null
+  - filename: Instruction_Manual.png
+    version: null
+    size: null
+    hash: null
+  - filename: 説明書.png
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Kikyo
+    name: 桔梗
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156519'
+- item_id: 5513166
+  type: gimmick
+  name: 【MA対応】札束とハートがばらまけるギミック
+  shop_name: ななせ堂
+  creator_id: nanasevrc.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5513166
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: baramaki_full.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156531'
+- item_id: 5370827
+  type: bundle
+  name: QuQu福袋2024
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5370827
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Blue.png
+    version: null
+    size: null
+    hash: null
+  - filename: matsu0.0.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156544'
+- item_id: 3964938
+  type: other
+  name: 【3Dモデル】のらなべやカフェセット
+  shop_name: '#のらなべや'
+  creator_id: noranabeya.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3964938
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: CakeSet_MetalParts.zip
+    version: null
+    size: null
+    hash: null
+  - filename: CakeSet_nora.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156617'
+- item_id: 5231705
+  type: world
+  name: Re:OCEAN VIEW 【PC / クエスト対応ホームワールド】
+  shop_name: same不動産開発
+  creator_id: same0609.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5231705
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Re_OceanView_ver1.2.1.zip
+    version: 1.2.1
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156637'
+- item_id: 4560435
+  type: other
+  name: 神聖な瞳テクスチャ　16枚　めいゆんちゃん、フィオナちゃん、薄荷ちゃん、森羅ちゃん、New ネコメイドちゃん、萌ちゃん、Bowちゃん用
+  shop_name: white72
+  creator_id: white72.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4560435
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: 神聖な瞳_めいゆんちゃん用__少し変更.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_めいゆんちゃん用_.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_薄荷ちゃん用_.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_フィオナちゃん用_少し変更.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_newネコメイドちゃん用_.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_Bowちゃん用_.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_森羅ちゃん用_.zip
+    version: null
+    size: null
+    hash: null
+  - filename: 神聖な瞳_萌ちゃん用_ver2.0.zip
+    version: '2.0'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156738'
+- item_id: 5269401
+  type: costume
+  name: NecoMuffler
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5269401
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: NecoMuffler.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156755'
+- item_id: 5213035
+  type: costume
+  name: GothicPopセット
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5213035
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: GothicPop1.0.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156765'
+- item_id: 4648328
+  type: costume
+  name: '[5 アバター対応] cozy knit'
+  shop_name: KingSoap
+  creator_id: kingsoap.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4648328
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Kanae_cozy_knit.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Kanae
+    name: かなえ
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156836'
+- item_id: 5211794
+  type: costume
+  name: 【PB対応】Clover Acc
+  shop_name: ShimaShi_Shop
+  creator_id: shima-shi209.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/5211794
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: CloverAcc_ShimashiShop__ver1.2.zip
+    version: '1.2'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156855'
+- item_id: 4441209
+  type: costume
+  name: つまみ細工風髪飾り カラバリ8種【VRChat想定】
+  shop_name: Firmiana
+  creator_id: firmiana.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4441209
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Japanese_Hairaccessory_ver1.1.zip
+    version: '1.1'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.156868'
+- item_id: 4700046
+  type: other
+  name: 【マダミス風人狼系STG(GM必須、PL5)】白城館に潜む殺意
+  shop_name: はくらっこSTORE🦦
+  creator_id: akutsumn.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4700046
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: _個別HO_PC5蕭バメイ_v1.02.zip
+    version: '1.02'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157019'
+- item_id: 4816688
+  type: costume
+  name: 「薄荷」専用【3D衣装モデル】薄荷ちゃんセールパッケージ
+  shop_name: Noah’sArk【α】
+  creator_id: woodapple.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4816688
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Hakka_LyraZERO_Ver_1.0.0.zip
+    version: '1.0'
+    size: null
+    hash: null
+  - filename: Hakka_Petunia_Ver_1.0.0.zip
+    version: '1.0'
+    size: null
+    hash: null
+  - filename: Hakka_Toneriko_Ver_1.0.0.zip
+    version: '1.0'
+    size: null
+    hash: null
+  targets:
+  - code: Hakka
+    name: 薄荷
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157050'
+- item_id: 4768519
+  type: costume
+  name: 【桔梗、セレスティア対応】ナイト・イン・シャンハイ
+  shop_name: VAGRANT
+  creator_id: vagrant.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4768519
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: _VAGRANT__Night_in_Shanghai_PSD.zip
+    version: null
+    size: null
+    hash: null
+  - filename: _VAGRANT__Night_in_Shanghai_for_Kikyo1.01a.zip
+    version: null
+    size: null
+    hash: null
+  - filename: _VAGRANT_NiS_Butterfly_for_Kaihen.zip
+    version: null
+    size: null
+    hash: null
+  - filename: _VAGRANT_Night_in_Shanghai_for_Kikyo_v1.03.zip
+    version: '1.03'
+    size: null
+    hash: null
+  targets:
+  - code: Kikyo
+    name: 桔梗
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157076'
+- item_id: 3560999
+  type: other
+  name: PB　ゆめかわネイルチップ　ネイルピアス付き
+  shop_name: もちもちしょっぷ
+  creator_id: mocchiriomochi.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3560999
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: HakkaPB.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157144'
+- item_id: 4252664
+  type: avatar
+  name: 【オリジナル3Dモデル】New NecoMaid
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4252664
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Necomaid.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Necomaid1.1.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Neco_Santa_Tex.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Necomaid1.1.0.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Necomaid1.1.1.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157179'
+- item_id: 4657371
+  type: costume
+  name: 【11アバター対応】Classy
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4657371
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Kanae_Classy_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Classy_PSD_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  - filename: Classy_Material_Pack_Ver1.00.zip
+    version: '1.00'
+    size: null
+    hash: null
+  targets:
+  - code: Kanae
+    name: かなえ
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157200'
+- item_id: 4606216
+  type: gimmick
+  name: 【追従ペット】ぷかぷかっぷけーき
+  shop_name: からあげの衣
+  creator_id: agetamono.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4606216
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Cupcake_ver1.20.zip
+    version: '1.20'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157211'
+- item_id: 4688899
+  type: avatar
+  name: myu65 みゅうアバター
+  shop_name: myu65
+  creator_id: myu65.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4688899
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: myu65_avatar.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157276'
+- item_id: 4616378
+  type: costume
+  name: 【薄荷-Hakka-用衣装】季節の移ろい
+  shop_name: ふぃーねちゃんのあれこれ
+  creator_id: 3dfactorydayo.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4616378
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Hakka_uniform2023.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Hakka_uniform2023_v1.01.zip
+    version: '1.01'
+    size: null
+    hash: null
+  targets:
+  - code: Hakka
+    name: 薄荷
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157299'
+- item_id: 4511536
+  type: gimmick
+  name: つぶせる！押せる！ましゅまろPB(Marshmallow PB)
+  shop_name: 綿飴屋 Wataameya
+  creator_id: wataame89.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4511536
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Marshmallow_PB_ver1.0.zip
+    version: '1.0'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.1.zip
+    version: '1.1'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.2.zip
+    version: '1.2'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.3_VRCSDK_ver3.1.12-only_.zip
+    version: '1.3'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.3.1_VRCSDK_ver3.1.12-only_.zip
+    version: 1.3.1
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.4.zip
+    version: '1.4'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.5.zip
+    version: '1.5'
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.5.1.zip
+    version: 1.5.1
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.5.2.zip
+    version: 1.5.2
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.5.3.zip
+    version: 1.5.3
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.5.4.zip
+    version: 1.5.4
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.6.0.zip
+    version: 1.6.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.6.1.zip
+    version: 1.6.1
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.6.2.zip
+    version: 1.6.2
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.6.3.zip
+    version: 1.6.3
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.0.zip
+    version: 1.7.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.1.zip
+    version: 1.7.1
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.2.zip
+    version: 1.7.2
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.3.zip
+    version: 1.7.3
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.4.zip
+    version: 1.7.4
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.5.zip
+    version: 1.7.5
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.6.zip
+    version: 1.7.6
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.7.zip
+    version: 1.7.7
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.8.zip
+    version: 1.7.8
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.9.zip
+    version: 1.7.9
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.10.zip
+    version: 1.7.10
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.11.zip
+    version: 1.7.11
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.12.zip
+    version: 1.7.12
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.13.zip
+    version: 1.7.13
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.14.zip
+    version: 1.7.14
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.15.zip
+    version: 1.7.15
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.16.zip
+    version: 1.7.16
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver1.7.17.zip
+    version: 1.7.17
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.0__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.1__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.2__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.3__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.4__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  - filename: Marshmallow_PB_ver2.0.0_beta1.5__対応アバター少_.zip
+    version: 2.0.0
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157511'
+- item_id: 4001390
+  type: costume
+  name: '#病みかわTWIN'
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4001390
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: Yamikawa_Twin.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157531'
+- item_id: 4417480
+  type: bundle
+  name: QuQu 福袋 2023
+  shop_name: QuQu
+  creator_id: sonovr.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4417480
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: QuQu_Fukubukuro2023.zip
+    version: null
+    size: null
+    hash: null
+  - filename: QuQuKimono2023.0.1.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157547'
+- item_id: 3732851
+  type: other
+  name: '#ブルーアワーネイル　【ネイルテクスチャ】'
+  shop_name: '#ぬいぬい堂'
+  creator_id: nuinui01418.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3732851
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: hakka.PNG
+    version: null
+    size: null
+    hash: null
+  - filename: read_me_.pdf
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157618'
+- item_id: 4159412
+  type: costume
+  name: 【VRC想定】♡ moderately sweet ♡ for Hakka
+  shop_name: 3up♡♡♡
+  creator_id: xxx-3up.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4159412
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: moderately_sweet_Hakka_ver.1.1.zip
+    version: null
+    size: null
+    hash: null
+  - filename: moderately_sweet_Hakka_ver.1.2.zip
+    version: null
+    size: null
+    hash: null
+  - filename: moderately_sweet_Hakka_ver.1.3.zip
+    version: null
+    size: null
+    hash: null
+  targets:
+  - code: Hakka
+    name: 薄荷
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157650'
+- item_id: 3367395
+  type: other
+  name: 【VRCスケールチェンジシステム】VRChat上で大きさを自由自在に変えるギミック【VRC Avatar scaling System】
+  shop_name: VRC合法チート研究会
+  creator_id: goho-cheat-vrc.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3367395
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: 利用規約_Third-partyCredits_.zip
+    version: null
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157720'
+- item_id: 3406857
+  type: other
+  name: 【VRC睡眠システム】3点トラッキングでも快適にVRC睡眠！【VRC sleeping system】
+  shop_name: VRC合法チート研究会
+  creator_id: goho-cheat-vrc.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3406857
+  current_price: 0
+  description_excerpt: null
+  files:
+  - filename: VRCSleepingSystem_Readme.zip
+    version: null
+    size: null
+    hash: null
+  - filename: SleepingSystem_5.0.2.zip
+    version: '5.0'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157798'
+- item_id: 4276444
+  type: avatar
+  name: オリジナル3dモデル 「かなえ」 Kanae 카나에
+  shop_name: cherry neru
+  creator_id: neru0606.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/4276444
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: COLOR_PNG.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Kanae_cloth.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Kanae_Sweat_Shirt.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Kanae_Onepiece.zip
+    version: null
+    size: null
+    hash: null
+  - filename: Kanae_ver1.06.zip
+    version: '1.06'
+    size: null
+    hash: null
+  targets:
+  - code: Kanae
+    name: かなえ
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157833'
+- item_id: 3931778
+  type: costume
+  name: 【VRChat想定】浴衣　＊キュート＊【お着替え用】
+  shop_name: choco*shop
+  creator_id: rihyaco.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/3931778
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Hakka_cute_yukata_ver1.0.zip
+    version: '1.0'
+    size: null
+    hash: null
+  targets:
+  - code: Hakka
+    name: 薄荷
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157845'
+- item_id: 2310161
+  type: costume
+  name: 『ワンサイドロングヘアー』 - VRC用 A-TYPE
+  shop_name: snori
+  creator_id: snori.booth.pm
+  image_url: null
+  url: https://booth.pm/ja/items/2310161
+  current_price: null
+  description_excerpt: null
+  files:
+  - filename: Snori__One_Side_Long_1.5.zip
+    version: '1.5'
+    size: null
+    hash: null
+  targets: []
+  tags: []
+  updated_at: '2025-08-24T16:02:37.157856'
