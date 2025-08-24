@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Build script for BoothList ETL pipeline."""
+
 import sys
 import os
 from pathlib import Path

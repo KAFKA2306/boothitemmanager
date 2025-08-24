@@ -1,0 +1,49 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+# 競合を防ぐ推奨設定（任意）
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Pages 用セットアップ
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      # ここでサイトをビルドして dist/ 等に出力する
+      - name: Build static site
+        run: |
+          # 例) プロジェクト固有のビルドを実行
+          # python -m pip install -r requirements.txt
+          # python -m boothlist.main --input-dir input --output-dir dist
+          echo "Put your build steps here"
+      # Pages 用アーティファクトをアップロード（dist/ 等の出力先を指定）
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    # 必須権限
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
