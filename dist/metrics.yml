@@ -2,7 +2,7 @@ summary:
   items_total: 56
   variants_total: 7
   shops_total: 38
-  avatars_supported: 9
+  avatars_supported: 13
   price_stats:
     total_value: 90170
     average_price: 1803
@@ -14,14 +14,6 @@ summary:
     unknown_price_items: 1
 rankings:
   avatar_costume_combinations:
-  - avatar_item_id: avatar_Kikyo
-    costume_item_id: 5589706
-    avatar_name: 桔梗
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
   - avatar_item_id: avatar_Shinano
     costume_item_id: 5589706
     avatar_name: しなの
@@ -30,18 +22,25 @@ rankings:
     total_price: 990
     avg_price: 990
     median_price: 990
-  - avatar_item_id: 4276444
+  - avatar_item_id: avatar_Kikyo
     costume_item_id: 5589706
-    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
+    avatar_name: 桔梗
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 990
     avg_price: 990
     median_price: 990
-  - avatar_item_id: 4274213
+  - avatar_item_id: 4035411
     costume_item_id: 5589706
-    avatar_name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊ - Atelier
-      Astra - BOOTH
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 990
+    avg_price: 990
+    median_price: 990
+  - avatar_item_id: avatar_Moe
+    costume_item_id: 5589706
+    avatar_name: 萌
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 990
@@ -55,10 +54,9 @@ rankings:
     total_price: 990
     avg_price: 990
     median_price: 990
-  - avatar_item_id: 4560435
+  - avatar_item_id: 4276444
     costume_item_id: 5589706
-    avatar_name: 神聖な瞳テクスチャ　16枚　めいゆんちゃん、フィオナちゃん、薄荷ちゃん、森羅ちゃん、New ネコメイドちゃん、萌ちゃん、Bowちゃん用
-      - white72 - BOOTH
+    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 990
@@ -72,24 +70,30 @@ rankings:
     total_price: 1300
     avg_price: 1300
     median_price: 1300
-  - avatar_item_id: 4274213
+  - avatar_item_id: 4035411
     costume_item_id: 6618690
-    avatar_name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊ - Atelier
-      Astra - BOOTH
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: 【12アバター対応】❤️Mellow_Puff❤️ - cherry neru - BOOTH
     count: 1
     total_price: 990
     avg_price: 990
     median_price: 990
-  - avatar_item_id: 4274213
+  - avatar_item_id: 4035411
     costume_item_id: 6349460
-    avatar_name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊ - Atelier
-      Astra - BOOTH
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: 【12アバター対応】☃️Winter_Glow☃️ - cherry neru - BOOTH
     count: 1
     total_price: 990
     avg_price: 990
     median_price: 990
+  - avatar_item_id: 5957830
+    costume_item_id: 6089156
+    avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】 - IKUSIA - BOOTH
+    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 1400
+    avg_price: 1400
+    median_price: 1400
   - avatar_item_id: avatar_Mizuki
     costume_item_id: 6089156
     avatar_name: 瑞希
@@ -106,27 +110,17 @@ rankings:
     total_price: 1400
     avg_price: 1400
     median_price: 1400
-  - avatar_item_id: 5957830
+  - avatar_item_id: avatar_Moe
     costume_item_id: 6089156
-    avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】 - IKUSIA - BOOTH
+    avatar_name: 萌
     costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
     total_price: 1400
     avg_price: 1400
     median_price: 1400
-  - avatar_item_id: 4560435
-    costume_item_id: 6089156
-    avatar_name: 神聖な瞳テクスチャ　16枚　めいゆんちゃん、フィオナちゃん、薄荷ちゃん、森羅ちゃん、New ネコメイドちゃん、萌ちゃん、Bowちゃん用
-      - white72 - BOOTH
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
-    count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
-  - avatar_item_id: 4274213
+  - avatar_item_id: 4035411
     costume_item_id: 5876740
-    avatar_name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊ - Atelier
-      Astra - BOOTH
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: セレスティア用の水着（2024年版） - wakamaru shop - BOOTH
     count: 1
     total_price: 2500
@@ -204,35 +198,43 @@ rankings:
     count: 1
   popular_avatars:
   - avatar_code: Selestia
-    count: 8
+    count: 9
   - avatar_code: Kikyo
+    count: 7
+  - avatar_code: Moe
     count: 7
   - avatar_code: Shinano
     count: 6
+  - avatar_code: Manuka
+    count: 6
   - avatar_code: Kanae
     count: 6
-  - avatar_code: Moe
-    count: 6
-  - avatar_code: Manuka
-    count: 5
   - avatar_code: Hakka
-    count: 4
+    count: 5
   - avatar_code: Rurune
     count: 2
+  - avatar_code: SUN
+    count: 1
   - avatar_code: Mizuki
+    count: 1
+  - avatar_code: INABA
+    count: 1
+  - avatar_code: Shiina
+    count: 1
+  - avatar_code: KitsuneAme
     count: 1
   type_distribution:
   - type: costume
     count: 30
   - type: avatar
-    count: 15
+    count: 9
   - type: gimmick
+    count: 7
+  - type: texture
     count: 4
   - type: tool
     count: 2
   - type: bundle
     count: 2
-  - type: texture
-    count: 2
   - type: world
-    count: 1
+    count: 2

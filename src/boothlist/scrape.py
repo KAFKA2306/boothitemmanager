@@ -255,14 +255,21 @@ class BoothScraper:
         return None
     
     def _pick_price(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[int]:
-        """Extract price with enhanced free item detection."""
-        # Priority 1: OG price amount
+        """Extract price with enhanced free item detection per pximg.md spec."""
+        # Priority 1: OG price amount with currency handling
         og_price = og_data.get('price:amount')
         if og_price:
             try:
-                price_match = re.search(r'[\d,]+', str(og_price))
+                # Handle various price formats including currency symbols
+                price_text = str(og_price).strip()
+                # Remove currency symbols and extract numbers
+                price_match = re.search(r'[\d,]+', price_text)
                 if price_match:
-                    return int(price_match.group().replace(',', ''))
+                    price_value = int(price_match.group().replace(',', ''))
+                    # Check if it's explicitly marked as free
+                    if price_value == 0 or re.search(r'無料|Free|free', price_text, re.IGNORECASE):
+                        return 0
+                    return price_value
             except (ValueError, TypeError):
                 pass
         
@@ -281,8 +288,8 @@ class BoothScraper:
             if elem:
                 price_text = elem.get_text(strip=True)
                 
-                # Check for free indicators first
-                if re.search(r'無料|Free|¥0\b', price_text, re.IGNORECASE):
+                # Enhanced free item detection with more patterns
+                if re.search(r'無料|Free|¥0\b|0円|0 JPY|フリー', price_text, re.IGNORECASE):
                     return 0
                 
                 # Extract numeric price
@@ -301,11 +308,12 @@ class BoothScraper:
                     except ValueError:
                         continue
         
-        # Priority 3: Check for free text anywhere in main content
+        # Priority 3: Enhanced free text detection in main content
         main_content_selectors = [
             '.item-description',
             '.item-detail', 
             '.item-header',
+            '.price-info',
             'main'
         ]
         
@@ -313,7 +321,8 @@ class BoothScraper:
             elem = soup.select_one(selector)
             if elem:
                 content_text = elem.get_text(strip=True)
-                if re.search(r'無料|Free', content_text, re.IGNORECASE):
+                # Enhanced free detection patterns
+                if re.search(r'無料|Free|フリー|0円|¥0\b', content_text, re.IGNORECASE):
                     return 0
         
         return None
@@ -323,12 +332,8 @@ class BoothScraper:
         # Priority 1: OG image (often high quality)
         if og_data.get('image'):
             og_image_url = urljoin(base_url, og_data['image'])
-            # Try to get higher quality version
-            if '/c/' in og_image_url:
-                # BOOTH uses /c/{size}x{size}/... format, try to get largest
-                high_quality_url = re.sub(r'/c/\d+x\d+/', '/c/1200x1200/', og_image_url)
-                return high_quality_url
-            return og_image_url
+            # Remove /c/{W}x{H}/ segments to get original quality
+            return self._normalize_image_quality(og_image_url)
         
         # Priority 2: Enhanced DOM selectors with quality preferences
         image_selectors = [
@@ -341,6 +346,8 @@ class BoothScraper:
             '.product-image img:first-child',
             '.item-gallery img:first-child',
             '.booth-image img',
+            'img.item-image',
+            'img.main-image',
             # Generic high-quality selectors
             'img[itemprop="image"]',
             'img[class*="main"]',
@@ -360,11 +367,11 @@ class BoothScraper:
         for i, selector in enumerate(image_selectors):
             img_elem = soup.select_one(selector)
             if img_elem:
-                # Check multiple src attributes
-                src = (img_elem.get('src') or 
+                # Check multiple src attributes with priority for original quality
+                src = (img_elem.get('data-original') or  # Highest quality first
+                       img_elem.get('src') or 
                        img_elem.get('data-src') or 
-                       img_elem.get('data-lazy-src') or
-                       img_elem.get('data-original'))
+                       img_elem.get('data-lazy-src'))
                 
                 if src:
                     full_url = urljoin(base_url, src)
@@ -378,9 +385,9 @@ class BoothScraper:
                         best_image = full_url
                         best_priority = total_score
         
-        # Try to enhance image quality if found
+        # Normalize image quality if found
         if best_image:
-            return self._enhance_image_quality(best_image)
+            return self._normalize_image_quality(best_image)
         
         return None
     
@@ -437,31 +444,49 @@ class BoothScraper:
         return files
     
     def _extract_related_item_ids(self, soup: BeautifulSoup) -> List[int]:
-        """Extract related item IDs from page content for recursive analysis."""
+        """Extract related item IDs from page content for recursive analysis per pximg.md spec."""
         related_ids = []
         
-        # Search description and body text for BOOTH item URLs
+        # Enhanced search in multiple content areas including HTML links
         content_selectors = [
             '.item-description',
             '.item-detail-description', 
             '.booth-description',
-            '.item-body'
+            '.item-body',
+            '.markdown',  # Markdown content areas
+            '.related-items',  # Explicit related items sections
         ]
         
         for selector in content_selectors:
             elem = soup.select_one(selector)
             if elem:
+                # Extract from both text content and href attributes
                 content_text = elem.get_text()
-                # Extract item IDs from URLs in format: items/(\d+)
+                
+                # Extract item IDs from URLs in text: items/(\d+)
                 item_id_matches = re.findall(r'items/(\d+)', content_text)
                 for match in item_id_matches:
                     try:
                         related_id = int(match)
-                        if related_id not in related_ids:
+                        if 1_000_000 <= related_id <= 99_999_999 and related_id not in related_ids:
                             related_ids.append(related_id)
                     except ValueError:
                         continue
+                
+                # Also check href attributes in links
+                links = elem.find_all('a', href=True)
+                for link in links:
+                    href = link.get('href', '')
+                    link_matches = re.findall(r'items/(\d+)', href)
+                    for match in link_matches:
+                        try:
+                            related_id = int(match)
+                            if 1_000_000 <= related_id <= 99_999_999 and related_id not in related_ids:
+                                related_ids.append(related_id)
+                        except ValueError:
+                            continue
         
+        logger.debug(f"Extracted {len(related_ids)} related item IDs: {related_ids[:5]}{'...' if len(related_ids) > 5 else ''}")
         return related_ids
     
     def _score_image_quality(self, url: str, img_elem) -> int:
@@ -501,20 +526,18 @@ class BoothScraper:
         
         return score
     
-    def _enhance_image_quality(self, url: str) -> str:
-        """Attempt to get higher quality version of image."""
-        # BOOTH image enhancement patterns
-        if 'booth.pm' in url or 'booth.pximg.net' in url:
-            # Try common quality enhancement patterns
-            if '/c/' in url:
-                # Replace with larger size
-                url = re.sub(r'/c/\d+x\d+/', '/c/1200x1200/', url)
-            elif '_s.' in url:
-                # Replace small indicator with master
-                url = url.replace('_s.', '_master1200.')
-            elif '_m.' in url:
-                # Replace medium with master
-                url = url.replace('_m.', '_master1200.')
+    def _normalize_image_quality(self, url: str) -> str:
+        """Normalize image URL to get original quality by removing resize segments."""
+        if not url:
+            return url
+            
+        # BOOTH image quality normalization per pximg.md specification
+        if 'booth.pximg.net' in url or 'booth.pm' in url:
+            # Remove /c/{W}x{H}/ segments to get original quality
+            # Pattern: /c/1200x1200/ -> remove entirely
+            normalized_url = re.sub(r'/c/\d+x\d+/', '/', url)
+            logger.debug(f"Normalized image URL: {url} -> {normalized_url}")
+            return normalized_url
         
         return url
     

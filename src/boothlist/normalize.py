@@ -1,11 +1,14 @@
 """Data normalization with avatar dictionary and schema transformation."""
 
 import re
+import yaml
+import unicodedata
 from typing import List, Dict, Any, Optional, Set
 from dataclasses import dataclass, asdict
 from datetime import datetime
 from collections import defaultdict
 import logging
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
@@ -85,10 +88,58 @@ class Avatar:
 
 
 class AvatarDictionary:
-    """Avatar dictionary for normalizing avatar names and aliases."""
+    """Avatar dictionary for normalizing avatar names and aliases using aliases.yml."""
     
-    def __init__(self):
-        # Based on design.md specifications
+    def __init__(self, aliases_file: str = 'aliases.yml'):
+        self.aliases_file = aliases_file
+        self.avatars = {}
+        self.alias_to_code = {}
+        self.type_aliases = {}
+        self.options = {}
+        self._load_aliases()
+    
+    def _load_aliases(self):
+        """Load avatar and type aliases from YAML file."""
+        aliases_path = Path(self.aliases_file)
+        
+        # Fallback to hardcoded if file doesn't exist
+        if not aliases_path.exists():
+            logger.warning(f"Aliases file {self.aliases_file} not found, using hardcoded avatars")
+            self._load_hardcoded_avatars()
+            return
+        
+        try:
+            with open(aliases_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+            
+            self.options = data.get('options', {})
+            
+            # Load avatars
+            avatars_data = data.get('avatars', {})
+            for code, avatar_data in avatars_data.items():
+                avatar = Avatar(
+                    code=code,
+                    name_ja=avatar_data.get('name_ja', code),
+                    aliases=avatar_data.get('aliases', [])
+                )
+                self.avatars[code] = avatar
+            
+            # Load type aliases
+            types_data = data.get('types', {})
+            for type_name, type_data in types_data.items():
+                self.type_aliases[type_name] = type_data.get('aliases', [])
+            
+            # Build reverse lookup
+            self._build_alias_lookup()
+            
+            logger.info(f"Loaded {len(self.avatars)} avatars and {len(self.type_aliases)} type categories from {self.aliases_file}")
+            
+        except Exception as e:
+            logger.error(f"Error loading aliases file {self.aliases_file}: {e}")
+            self._load_hardcoded_avatars()
+    
+    def _load_hardcoded_avatars(self):
+        """Fallback hardcoded avatar definitions."""
         self.avatars = {
             'Selestia': Avatar(
                 code='Selestia',
@@ -134,23 +185,82 @@ class AvatarDictionary:
                 code='Mizuki',
                 name_ja='瑞希',
                 aliases=['瑞希', 'mizuki', 'MIZUKI']
+            ),
+            # New avatars
+            'SUN': Avatar(
+                code='SUN',
+                name_ja='SUN',
+                aliases=['SUN', 'Sun', 'サン']
+            ),
+            'INABA': Avatar(
+                code='INABA',
+                name_ja='INABA',
+                aliases=['INABA', 'Inaba', 'いなば', 'イナバ']
+            ),
+            'Shiina': Avatar(
+                code='Shiina',
+                name_ja='椎名',
+                aliases=['椎名', 'Shiina', 'SHIINA', 'しいな', 'シイナ']
+            ),
+            'KitsuneAme': Avatar(
+                code='KitsuneAme',
+                name_ja='狐雨',
+                aliases=['狐雨', 'kitsuneame', 'KITSUNEAME', 'キツネアメ', 'きつねあめ']
+            ),
+            'NekoMaid': Avatar(
+                code='NekoMaid',
+                name_ja='猫メイド',
+                aliases=['猫メイド', 'ネコメイド', 'nekomaid', 'NekoMaid', 'neko maid', 'ネコ メイド']
             )
         }
-        
-        # Build reverse lookup for aliases
+        self._build_alias_lookup()
+    
+    def _build_alias_lookup(self):
+        """Build reverse lookup for aliases with text normalization."""
         self.alias_to_code = {}
+        
         for avatar in self.avatars.values():
             # Add the code itself
+            normalized_code = self._normalize_text(avatar.code)
             self.alias_to_code[avatar.code] = avatar.code
-            self.alias_to_code[avatar.code.lower()] = avatar.code
+            self.alias_to_code[normalized_code] = avatar.code
             
             # Add all aliases
             for alias in avatar.aliases:
+                normalized_alias = self._normalize_text(alias)
                 self.alias_to_code[alias] = avatar.code
-                self.alias_to_code[alias.lower()] = avatar.code
+                self.alias_to_code[normalized_alias] = avatar.code
+    
+    def _normalize_text(self, text: str) -> str:
+        """Normalize text according to options in aliases.yml."""
+        if not text:
+            return text
+        
+        # Apply Unicode normalization
+        if self.options.get('unicode_normalization') == 'NFKC':
+            text = unicodedata.normalize('NFKC', text)
+        
+        # Case normalization
+        if self.options.get('case_insensitive', True):
+            text = text.lower()
+        
+        # Trim whitespace
+        if self.options.get('trim_whitespace', True):
+            text = text.strip()
+        
+        # Collapse inner spaces
+        if self.options.get('collapse_inner_spaces', True):
+            text = re.sub(r'\s+', ' ', text)
+        
+        # Strip symbols
+        strip_symbols = self.options.get('strip_symbols', [])
+        for symbol in strip_symbols:
+            text = text.replace(symbol, '')
+        
+        return text
     
     def normalize_avatar(self, avatar_text: str) -> Optional[str]:
-        """Normalize avatar text to standard code."""
+        """Normalize avatar text to standard code using enhanced matching."""
         if not avatar_text:
             return None
         
@@ -158,9 +268,19 @@ class AvatarDictionary:
         if avatar_text in self.alias_to_code:
             return self.alias_to_code[avatar_text]
         
-        # Case-insensitive lookup
-        if avatar_text.lower() in self.alias_to_code:
-            return self.alias_to_code[avatar_text.lower()]
+        # Normalized lookup
+        normalized_text = self._normalize_text(avatar_text)
+        if normalized_text in self.alias_to_code:
+            return self.alias_to_code[normalized_text]
+        
+        # Fallback: try to find partial matches for Japanese names in brackets
+        # Handle patterns like "「SUN」" or "【椎名】" or "(Shiina)"
+        bracket_pattern = r'[「【\(]([^」】\)]+)[」】\)]'
+        match = re.search(bracket_pattern, avatar_text)
+        if match:
+            bracket_content = self._normalize_text(match.group(1))
+            if bracket_content in self.alias_to_code:
+                return self.alias_to_code[bracket_content]
         
         return None
     
@@ -179,17 +299,22 @@ class AvatarDictionary:
 class DataNormalizer:
     """Normalizes raw data to structured schema."""
     
-    # Category mapping from input to normalized type
+    # Hardcoded category mapping (fallback if aliases.yml is not available)
     CATEGORY_MAPPING = {
         '3D Avatar': 'avatar',
-        '3D Clothing': 'costume',
+        '3D Clothing': 'costume', 
         '3D Accessory': 'accessory',
         'Tool': 'tool',
         'Gimmick': 'gimmick',
+        'gimick': 'gimmick',  # Common typo
         'World': 'world',
         'Texture': 'texture',
+        'texture': 'texture',  # Case variation
+        'TEXTURE': 'texture',
         'Scenario': 'scenario',
         'Bundle': 'bundle',
+        'Goods': 'other',  # Fix goods classification
+        'GOODS': 'other',
         # Japanese categories
         'アバター': 'avatar',
         '衣装': 'costume',
@@ -202,26 +327,41 @@ class DataNormalizer:
         '素材': 'texture',
         'シナリオ': 'scenario',
         'セット': 'bundle',
+        'グッズ': 'other',
     }
     
     def __init__(self):
         self.avatar_dict = AvatarDictionary()
     
     def normalize_type(self, category: Optional[str]) -> str:
-        """Normalize category to standard type."""
+        """Normalize category to standard type using aliases.yml or fallback mapping."""
         if not category:
             return 'other'
         
-        # Direct mapping
+        # First try aliases from YAML file
+        if self.avatar_dict.type_aliases:
+            normalized_category = self.avatar_dict._normalize_text(category)
+            
+            for type_name, aliases in self.avatar_dict.type_aliases.items():
+                # Check direct alias match
+                if category in aliases:
+                    return type_name
+                
+                # Check normalized alias match
+                normalized_aliases = [self.avatar_dict._normalize_text(alias) for alias in aliases]
+                if normalized_category in normalized_aliases:
+                    return type_name
+        
+        # Fallback to hardcoded mapping
         if category in self.CATEGORY_MAPPING:
             return self.CATEGORY_MAPPING[category]
         
-        # Case-insensitive search
+        # Case-insensitive search in hardcoded mapping
         for key, value in self.CATEGORY_MAPPING.items():
             if category.lower() == key.lower():
                 return value
         
-        # Partial matching for common terms
+        # Partial matching for common terms (fallback)
         category_lower = category.lower()
         if 'avatar' in category_lower or 'アバター' in category_lower:
             return 'avatar'
@@ -274,49 +414,81 @@ class DataNormalizer:
         return None
     
     def extract_avatar_targets(self, name: str, files: List[str], description: Optional[str] = None) -> List[AvatarRef]:
-        """Extract avatar targets from name, files, and description."""
+        """Extract avatar targets from name, files, and description with enhanced matching."""
         avatar_codes = set()
         
         # Check filename patterns first (highest confidence)
         for filename in files:
             for avatar_code in self.avatar_dict.avatars.keys():
-                # Check prefix patterns: Kikyo_, Selestia_
-                if filename.startswith(f"{avatar_code}_"):
-                    avatar_codes.add(avatar_code)
-                    continue
-                
-                # Check suffix patterns: _Kikyo, _Selestia  
-                if f"_{avatar_code}" in filename:
-                    avatar_codes.add(avatar_code)
-                    continue
-                
-                # Check case-insensitive patterns
-                filename_lower = filename.lower()
                 avatar_lower = avatar_code.lower()
-                if filename_lower.startswith(f"{avatar_lower}_") or f"_{avatar_lower}" in filename_lower:
+                filename_lower = filename.lower()
+                
+                # Check prefix patterns: Kikyo_, Selestia_, SUN_
+                if filename_lower.startswith(f"{avatar_lower}_"):
                     avatar_codes.add(avatar_code)
+                    logger.debug(f"Found avatar {avatar_code} from filename prefix: {filename}")
+                    continue
+                
+                # Check suffix patterns: _Kikyo, _Selestia, _SUN
+                if f"_{avatar_lower}" in filename_lower:
+                    avatar_codes.add(avatar_code)
+                    logger.debug(f"Found avatar {avatar_code} from filename suffix: {filename}")
+                    continue
+                    
+                # Check version patterns: SUN_v1.1.3, 01_INABA_ver4.0.1
+                version_patterns = [
+                    rf'{re.escape(avatar_lower)}[_\s]*v\d',
+                    rf'\d+_{re.escape(avatar_lower)}_ver',
+                    rf'{re.escape(avatar_lower)}ver',
+                ]
+                
+                for pattern in version_patterns:
+                    if re.search(pattern, filename_lower):
+                        avatar_codes.add(avatar_code)
+                        logger.debug(f"Found avatar {avatar_code} from version pattern: {filename}")
+                        break
+                        
+                # Check Japanese name in filename
+                avatar = self.avatar_dict.avatars[avatar_code]
+                if avatar.name_ja and avatar.name_ja in filename:
+                    avatar_codes.add(avatar_code)
+                    logger.debug(f"Found avatar {avatar_code} from Japanese name in filename: {filename}")
         
         # Check name and description for explicit mentions
         combined_text = (name or '') + ' ' + (description or '')
         
-        # Japanese patterns
+        # Enhanced Japanese patterns including new avatars
         japanese_patterns = [
             r'対応アバター[：:]\s*([^。\n]+)',
-            r'対応[：:]?\s*([^。\n]*(?:セレスティア|桔梗|かなえ|しなの|マヌカ|萌|ルルネ|薄荷|瑞希)[^。\n]*)',
+            r'対応[：:]?\s*([^。\n]*(?:セレスティア|桔梗|かなえ|しなの|マヌカ|萌|ルルネ|薄荷|瑞希|SUN|INABA|椎名|狐雨|猫メイド)[^。\n]*)',
+            # Bracket patterns for avatar names
+            r'「([^」]+)」',
+            r'【([^】]+)】',
         ]
         
         for pattern in japanese_patterns:
             matches = re.findall(pattern, combined_text, re.IGNORECASE)
             for match in matches:
+                # Try to match each avatar in the text
                 for avatar_code in self.avatar_dict.avatars.keys():
                     avatar = self.avatar_dict.avatars[avatar_code]
-                    if avatar.name_ja in match:
+                    
+                    # Check Japanese name
+                    if avatar.name_ja and avatar.name_ja in match:
                         avatar_codes.add(avatar_code)
+                        logger.debug(f"Found avatar {avatar_code} from Japanese pattern: {match}")
+                    
+                    # Check code and aliases
+                    normalized_code = self.avatar_dict.normalize_avatar(match.strip())
+                    if normalized_code == avatar_code:
+                        avatar_codes.add(avatar_code)
+                        logger.debug(f"Found avatar {avatar_code} from normalized text: {match}")
         
-        # English patterns  
+        # Enhanced English patterns including new avatars
         english_patterns = [
-            r'for\s+(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki)',
-            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki)\s*用',
+            r'for\s+(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)',
+            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)\s*用',
+            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)\s+compatible',
         ]
         
         for pattern in english_patterns:
@@ -325,6 +497,7 @@ class DataNormalizer:
                 normalized = self.avatar_dict.normalize_avatar(match)
                 if normalized:
                     avatar_codes.add(normalized)
+                    logger.debug(f"Found avatar {normalized} from English pattern: {match}")
         
         # Convert to AvatarRef objects
         avatar_refs = []
@@ -333,6 +506,7 @@ class DataNormalizer:
             if ref:
                 avatar_refs.append(ref)
         
+        logger.debug(f"Extracted {len(avatar_refs)} avatar targets: {[ref.code for ref in avatar_refs]}")
         return avatar_refs
     
     def normalize_item(self, raw_item, metadata) -> Item:
@@ -385,62 +559,141 @@ class DataNormalizer:
         return item
     
     def _infer_type_from_text(self, name: str, description: Optional[str]) -> str:
-        """Infer item type from name and description text."""
+        """Infer item type from name and description text with priority-based scoring."""
         combined_text = ((name or '') + ' ' + (description or '')).lower()
         
-        # Type keywords mapping (Japanese and English)
+        # Priority-based type keywords (higher number = higher priority)
+        # Priority order per aliases.md: gimmick > tool > world > texture > accessory > costume
         type_keywords = {
-            'avatar': ['avatar', 'アバター', '3dアバター', '3d avatar'],
-            'costume': ['costume', '衣装', 'clothing', 'dress', 'outfit', 'コスチューム', 'ワンピース', '服装'],
-            'accessory': ['accessory', 'アクセサリ', 'アクセサリー', 'hair', 'ヘア', '髪型', 'hat', '帽子', 'glasses', 'メガネ'],
-            'texture': ['texture', 'テクスチャ', '素材', 'material', 'skin', 'スキン', 'nail', 'ネイル'],
-            'gimmick': ['gimmick', 'ギミック', 'script', 'スクリプト', 'animation', 'アニメーション'],
-            'world': ['world', 'ワールド', 'scene', 'シーン', '背景', 'background'],
-            'tool': ['tool', 'ツール', 'unity', 'blender', 'editor', 'エディタ'],
-            'scenario': ['scenario', 'シナリオ', 'story', 'ストーリー', '物語']
+            'gimmick': {
+                'priority': 10,
+                'keywords': ['gimmick', 'gimick', 'ギミック', 'modularavatar', 'モジュラーアバター', 
+                           'system', 'システム', '仕組み', '機能', '寝返り', 'ovr', 'アニメーション制御']
+            },
+            'tool': {
+                'priority': 9,
+                'keywords': ['tool', 'ツール', 'unity', 'editor', 'エディタ', 'インストーラ', 
+                           'installer', 'script', 'スクリプト', 'unitypackage', 'ユニティ']
+            },
+            'world': {
+                'priority': 8, 
+                'keywords': ['world', 'ワールド', 'scene', 'シーン', '背景', 'background', 
+                           'ステージ', 'マップ', 'ロケーション', '空間', 'カフェ', 'cafe', '会場']
+            },
+            'texture': {
+                'priority': 7,
+                'keywords': ['texture', 'テクスチャ', '素材', 'material', 'skin', 'スキン', 
+                           'nail', 'ネイル', '肌', 'ボディ', 'ボディテクスチャ', '顔', 'フェイス',
+                           'リップ', '唇', '眉', 'まゆ', '瞳', '目', '虹彩']
+            },
+            'accessory': {
+                'priority': 6,
+                'keywords': ['accessory', 'アクセサリ', 'アクセサリー', 'hair', 'ヘア', '髪型', 
+                           'hat', '帽子', 'glasses', 'メガネ', 'ピアス', 'イヤリング', '靴', 'シューズ']
+            },
+            'costume': {
+                'priority': 5,
+                'keywords': ['costume', '衣装', 'clothing', 'dress', 'outfit', 'コスチューム', 
+                           'ワンピース', '服装', 'ドレス', 'スカート', '水着', '浴衣', 'セーラー', 'メイド服']
+            },
+            'avatar': {
+                'priority': 4,
+                'keywords': ['avatar', 'アバター', '3dアバター', '3d avatar']
+            },
+            'scenario': {
+                'priority': 3,
+                'keywords': ['scenario', 'シナリオ', 'story', 'ストーリー', '物語', '台本', 'セリフ']
+            },
+            'bundle': {
+                'priority': 2,
+                'keywords': ['bundle', 'セット', 'セット商品', 'フルセット', 'full set', 
+                           'パック', 'pack', 'コレクション', 'collection']
+            },
+            'other': {
+                'priority': 1,
+                'keywords': ['goods', 'グッズ', '物販', 'アクスタ', 'ステッカー']
+            }
         }
         
-        # Check for keywords in text
-        for item_type, keywords in type_keywords.items():
-            for keyword in keywords:
+        # Score each type based on keyword matches
+        type_scores = {}
+        
+        for item_type, config in type_keywords.items():
+            score = 0
+            priority = config['priority']
+            
+            for keyword in config['keywords']:
                 if keyword in combined_text:
-                    logger.debug(f"Inferred type '{item_type}' from keyword '{keyword}' in text")
-                    return item_type
+                    # Base score from priority, bonus for exact matches
+                    score += priority * 10
+                    logger.debug(f"Found keyword '{keyword}' for type '{item_type}', score: {score}")
+                    
+            if score > 0:
+                type_scores[item_type] = score
         
-        # Check filename patterns for additional clues
-        for item_type, keywords in type_keywords.items():
-            for keyword in keywords:
-                if any(keyword in filename.lower() for filename in (name or '').split()):
-                    return item_type
+        # Return the highest scoring type
+        if type_scores:
+            best_type = max(type_scores.items(), key=lambda x: x[1])
+            logger.debug(f"Inferred type '{best_type[0]}' with score {best_type[1]} from text analysis")
+            return best_type[0]
         
+        logger.debug(f"No keywords matched, using 'other' for text: {combined_text[:100]}...")
         return 'other'
     
     def _auto_assign_avatar_targets(self, name: str, description: Optional[str]) -> List[AvatarRef]:
-        """Auto-assign avatar targets for avatar-type items."""
+        """Auto-assign avatar targets for avatar-type items with enhanced pattern matching."""
         avatar_refs = []
         combined_text = (name or '') + ' ' + (description or '')
         
-        # Try to identify the avatar from name/description
-        for avatar_code, avatar in self.avatar_dict.avatars.items():
-            # Check main name and aliases
-            if avatar_code.lower() in combined_text.lower():
-                ref = self.avatar_dict.get_avatar_ref(avatar_code)
-                if ref and ref not in avatar_refs:
-                    avatar_refs.append(ref)
-                    break
+        # Enhanced patterns for avatar detection
+        patterns_to_try = [
+            # Japanese brackets patterns
+            r'「([^」]+)」',
+            r'【([^】]+)】', 
+            # Version patterns
+            r'([A-Za-z][A-Za-z0-9]*)[\s_]*[vV]?\d',
+            # Direct name patterns
+            combined_text,
+        ]
+        
+        for pattern in patterns_to_try:
+            if pattern == combined_text:
+                # Direct text search
+                search_texts = [combined_text]
+            else:
+                # Regex pattern search
+                matches = re.findall(pattern, combined_text)
+                search_texts = matches if matches else []
             
-            if avatar.name_ja in combined_text:
-                ref = self.avatar_dict.get_avatar_ref(avatar_code)
-                if ref and ref not in avatar_refs:
-                    avatar_refs.append(ref)
-                    break
-            
-            for alias in avatar.aliases:
-                if alias.lower() in combined_text.lower():
-                    ref = self.avatar_dict.get_avatar_ref(avatar_code)
-                    if ref and ref not in avatar_refs:
-                        avatar_refs.append(ref)
-                        break
+            for search_text in search_texts:
+                # Try to identify the avatar from each search text
+                for avatar_code, avatar in self.avatar_dict.avatars.items():
+                    # Check main code (case insensitive)
+                    if avatar_code.lower() in search_text.lower():
+                        ref = self.avatar_dict.get_avatar_ref(avatar_code)
+                        if ref and ref not in avatar_refs:
+                            avatar_refs.append(ref)
+                            logger.debug(f"Auto-assigned avatar {avatar_code} from code match in: {search_text}")
+                            continue
+                    
+                    # Check Japanese name
+                    if avatar.name_ja in search_text:
+                        ref = self.avatar_dict.get_avatar_ref(avatar_code)
+                        if ref and ref not in avatar_refs:
+                            avatar_refs.append(ref)
+                            logger.debug(f"Auto-assigned avatar {avatar_code} from Japanese name in: {search_text}")
+                            continue
+                    
+                    # Check aliases with normalization
+                    normalized_search = self.avatar_dict._normalize_text(search_text)
+                    for alias in avatar.aliases:
+                        normalized_alias = self.avatar_dict._normalize_text(alias)
+                        if normalized_alias and normalized_alias in normalized_search:
+                            ref = self.avatar_dict.get_avatar_ref(avatar_code)
+                            if ref and ref not in avatar_refs:
+                                avatar_refs.append(ref)
+                                logger.debug(f"Auto-assigned avatar {avatar_code} from alias '{alias}' in: {search_text}")
+                                break
         
         return avatar_refs
     
