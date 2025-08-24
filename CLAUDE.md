@@ -17,12 +17,13 @@ The project is designed as a **Python-based ETL pipeline** that:
 
 ### Key Components
 
-- **Data Processing**: `input/hitaiall.py` - Main ETL script with Google Sheets integration, web scraping, and dashboard generation
-- **Input Data**: 
-  - `input/booth.md` - Raw BOOTH purchase history (copy-paste format)
-  - `input/booth3.yaml` - Structured purchase data with metadata
-  - `datasheets/booth.yml` - Processed datasheet
-- **Requirements**: `docs/requirements.md` - Comprehensive technical specification (Japanese)
+- **Design Documentation**: 
+  - `docs/requirements.md` - Comprehensive technical specification (Japanese)
+  - `docs/design.md` - MVP design document with concrete algorithms (Japanese)
+- **Input Data Sources**: 
+  - `input/booth3.yaml` - Structured purchase data with metadata (primary)
+  - `input/booth.md` - Raw BOOTH purchase history (copy-paste format, large)
+  - `datasheets/booth.yml` - Processed datasheet (if present)
 
 ### Data Models
 
@@ -34,30 +35,39 @@ The system works with these key entities:
 
 ## Development Commands
 
-### Running the ETL Pipeline
+This project currently has no main executable or build commands as it's in early development phase. The system is designed as a Python-based ETL pipeline with the following development workflow:
+
+### Common Development Tasks
 ```bash
-python input/hitaiall.py
+# Check input data structure
+head -20 input/booth3.yaml
+
+# View cache status
+ls -la booth_item_cache.json
+
+# Validate generated output
+ls -la index.html catalog.yml metrics.yml
+
+# Clean cache (force re-scraping)
+rm booth_item_cache.json
 ```
 
-This script:
-- Reads from Google Sheets (configured in Config class)
-- Scrapes BOOTH for item metadata (with caching)
-- Generates HTML dashboard
-- Can upload to GitHub (if tokens configured)
-
-### Data Processing
-- Input files are processed from `input/` directory
-- Cache is stored in `booth_item_cache.json`
-- Output HTML is generated as `index.html`
+### Data Processing Flow
+1. **Input Processing**: Files from `input/` directory → normalized item list
+2. **Metadata Enrichment**: Web scraping with `booth_item_cache.json` caching  
+3. **Set Decomposition**: Recursive analysis (max depth 2) → virtual variants
+4. **Output Generation**: `catalog.yml`, `metrics.yml`, `index.html`
 
 ## Key Features
 
 ### Set Product Decomposition
 The system's core innovation is **recursive set analysis**:
-- Parses item descriptions and file names to identify avatar compatibility
-- Extracts related item URLs and analyzes them recursively (max depth 2)
-- Creates virtual sub-item IDs: `{parent_item_id}#variant:{avatar_code}:{variant_name}`
-- Handles circular references with visited set tracking
+- **Heuristic Detection**: Analyzes file names (e.g., "Kikyo_", "Selestia_") and item descriptions
+- **Avatar Pattern Matching**: Uses dictionary of known avatars with aliases (Japanese/English)
+- **Recursive Analysis**: Extracts related item URLs and analyzes them (currently depth 1 in MVP, max depth 2 planned)
+- **Virtual ID Generation**: Creates unique IDs like `{parent_item_id}#variant:{avatar_code}:{variant_name}`
+- **Confidence Scoring**: Filename patterns (0.9), explicit text (0.95), contextual mentions (0.8)
+- **Circular Reference Prevention**: Tracks visited items to avoid infinite loops
 
 ### Avatar Dictionary
 Supports major VRChat avatars including:
@@ -69,29 +79,25 @@ Supports major VRChat avatars including:
 - Moe (萌)
 - Rurune (ルルネ)
 - Hakka (薄荷)
+- Mizuki (瑞希)
 
 ### Dashboard Features
 - Global search and filtering by avatar, type, shop, price range
 - Avatar compatibility matrix
 - Set product hierarchical view
 - Static HTML output for GitHub Pages deployment
-- Ranking system for popular avatar/costume combinations
+## Configuration & Architecture Details
 
-## Configuration
+### MVP Scope (Current Implementation)
+- **Input Processing**: Text/CSV/YAML normalization from `input/` directory
+- **Metadata Scraping**: Public BOOTH pages with single-layer YAML cache
+- **Set Decomposition**: Heuristic analysis with depth-1 recursion
+- **Static Output**: Dashboard SPA with client-side search/filtering
+- **Avatar Support**: ~9 major VRChat avatars with Japanese/English aliases
 
-Main configuration is in the `Config` class within `hitaiall.py`:
-- Google Sheets integration (spreadsheet_id)
-- GitHub deployment settings (currently with empty token)
-- Cache file paths
-- Output file names
-
-## Important Notes
-
-- The system is designed for **Japanese content** (BOOTH marketplace)
-- Uses **web scraping** with rate limiting (1 second delays)
-- Implements **caching** to avoid repeated API calls
-- **No authentication required** - works with public BOOTH data only
-- Built for **static deployment** (GitHub Pages compatible)
+### Implementation Notes
+- **Target Audience**: Japanese VRChat community (BOOTH marketplace)
+- **Data Format**: YAML-centric with fallbacks for various input formats
 
 ## Files to Avoid Modifying
 
@@ -101,9 +107,31 @@ Main configuration is in the `Config` class within `hitaiall.py`:
 
 ## Development Workflow
 
-1. Update input data in `input/booth3.yaml` or configure Google Sheets
-2. Run the ETL pipeline: `python input/hitaiall.py`
-3. Review generated `index.html` dashboard
-4. Deploy to static hosting if needed
+### Planned Development Structure (from docs/tasks.md)
+The project is organized into development milestones:
+- **M1**: ETL pipeline foundation and catalog generation
+- **M2**: Set decomposition (depth 1) and aggregation  
+- **M3**: Dashboard (static SPA) and publication
 
-The system is designed to be run periodically to update the dashboard with new purchases and price changes.
+### Planned Module Structure
+```
+src/boothlist/
+├── input_loader.py    # md/csv/yml import & normalization
+├── scrape.py          # metadata extraction, rate control, caching
+├── extract.py         # set decomposition: text/filenames/related items
+├── normalize.py       # schema formatting, alias integration
+├── aggregate.py       # metrics generation
+└── export.py          # catalog.yml/metrics.yml output
+```
+
+### Development Patterns
+- **Iterative Processing**: System handles partial failures gracefully via caching
+- **Cache Management**: Delete `booth_item_cache.json` to force full re-scraping
+- **Data Validation**: Check logs for scraping failures or parsing errors
+- **Testing**: Verify set decomposition results in generated catalog.yml
+
+### Key Algorithms to Understand
+- **Item ID Extraction**: Multiple URL pattern matching for BOOTH links
+- **Set Detection**: File naming patterns + text analysis for avatar compatibility  
+- **Recursive Expansion**: Related item discovery with circular reference prevention
+- **Virtual ID Schema**: `{item_id}#variant:{avatar}:{slug}` for unique subitem identification
