@@ -370,13 +370,13 @@ class DataNormalizer:
             shop_name=metadata.shop_name,
             creator_id=metadata.creator_id,
             image_url=metadata.image_url,
-            url=metadata.canonical_url or raw_item.url,
+            url=self._build_canonical_url(metadata.canonical_path) or raw_item.url,
             current_price=metadata.current_price,
             description_excerpt=metadata.description_excerpt,
             files=normalized_files,
             targets=targets,
             tags=[],  # TODO: Implement tag extraction
-            updated_at=metadata.updated_at or datetime.now().isoformat()
+            updated_at=metadata.page_updated_at or metadata.scraped_at or datetime.now().isoformat()
         )
         
         # Generate variants if this appears to be a set product
@@ -608,6 +608,12 @@ class DataNormalizer:
         """Generate virtual ID for variant."""
         slug = self.create_slug(variant_name)
         return f"{parent_item_id}#variant:{avatar_code}:{slug}"
+    
+    def _build_canonical_url(self, canonical_path: Optional[str]) -> Optional[str]:
+        """Build full URL from canonical path."""
+        if not canonical_path:
+            return None
+        return f"https://booth.pm{canonical_path}"
 
 
 def main():

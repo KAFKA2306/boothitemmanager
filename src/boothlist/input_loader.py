@@ -33,10 +33,16 @@ class InputLoader:
     """Loads and normalizes purchase data from various input formats."""
     
     BOOTH_URL_PATTERNS = [
-        r'https?://booth\.pm/(?:ja/)?items/(\d+)',
+        r'https?://booth\.pm/(?:ja/|en/)?items/(\d+)',
         r'https?://[\w-]+\.booth\.pm/items/(\d+)',
-        r'booth\.pm/(?:ja/)?items/(\d+)',
-        r'items/(\d+)',
+        r'booth\.pm/(?:ja/|en/)?items/(\d+)',
+        r'items/(\d+)(?:[/?#]|$)',
+        r'booth\.pm/items/(\d+)',
+        r'booth\.pm/(\d+)',  # Short format
+        r'/items/(\d+)',
+        r'item[_-]?id[=:](\d+)',  # Query parameter format
+        r'(?:item|product)[_-]?(\d+)',  # Generic item format
+        r'(\d{7,8})(?:[^\d]|$)'  # Standalone 7-8 digit numbers (BOOTH item IDs)
     ]
     
     def __init__(self):
@@ -241,19 +247,53 @@ class InputLoader:
         return unique_items
     
     def validate_items(self, items: List[RawItem]) -> List[RawItem]:
-        """Validate and filter items."""
+        """Validate and filter items with enhanced checks."""
         valid_items = []
+        validation_errors = []
         
         for item in items:
-            if not item.item_id or item.item_id <= 0:
-                logger.warning(f"Invalid item_id: {item.item_id}")
+            # Check item_id validity
+            if not item.item_id:
+                validation_errors.append(f"Missing item_id for item: {item.name or 'Unknown'}")
                 continue
+            
+            if not isinstance(item.item_id, int) or item.item_id <= 0:
+                validation_errors.append(f"Invalid item_id: {item.item_id}")
+                continue
+            
+            # BOOTH item ID range validation
+            if not (1000000 <= item.item_id <= 99999999):
+                validation_errors.append(f"Item_id {item.item_id} outside valid BOOTH range (1M-99M)")
+                continue
+            
+            # Construct URL if missing
+            if not item.url:
+                item.url = f"https://booth.pm/ja/items/{item.item_id}"
             
             # Basic validation passed
             valid_items.append(item)
         
+        # Log validation summary
+        if validation_errors:
+            logger.warning(f"Validation errors ({len(validation_errors)}):")
+            for error in validation_errors[:5]:  # Show first 5 errors
+                logger.warning(f"  {error}")
+            if len(validation_errors) > 5:
+                logger.warning(f"  ... and {len(validation_errors) - 5} more errors")
+        
         logger.info(f"Validated {len(valid_items)} items out of {len(items)}")
         return valid_items
+    
+    def get_extraction_stats(self, items: List[RawItem]) -> Dict[str, Any]:
+        """Get statistics about ID extraction success."""
+        total_items = len(items)
+        valid_ids = sum(1 for item in items if item.item_id and 1000000 <= item.item_id <= 99999999)
+        
+        return {
+            'total_items': total_items,
+            'valid_ids': valid_ids,
+            'extraction_rate': (valid_ids / total_items) * 100 if total_items > 0 else 0
+        }
 
 
 def main():

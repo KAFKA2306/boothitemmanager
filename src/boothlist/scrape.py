@@ -2,14 +2,15 @@
 
 import json
 import time
+import random
 import requests
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 from dataclasses import dataclass, asdict
 from datetime import datetime
 import logging
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
@@ -17,25 +18,30 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class ItemMetadata:
-    """Metadata extracted from BOOTH item page."""
+    """Metadata extracted from BOOTH item page - Enhanced per boothid.md spec."""
     item_id: int
     name: Optional[str] = None
     shop_name: Optional[str] = None
     creator_id: Optional[str] = None
-    image_url: Optional[str] = None
-    current_price: Optional[int] = None
-    description_excerpt: Optional[str] = None
-    canonical_url: Optional[str] = None
-    files: list = None
-    updated_at: Optional[str] = None
-    scraped_at: Optional[str] = None
-    error: Optional[str] = None
+    image_url: Optional[str] = None  # Absolute URL
+    current_price: Optional[int] = None  # JPY, 0 for free items
+    description_excerpt: Optional[str] = None  # ~200 chars
+    canonical_path: str = None  # /ja/items/{item_id} format
+    files: list = None  # List of filenames if available
+    scraped_at: Optional[str] = None  # ISO8601 timestamp
+    page_updated_at: Optional[str] = None  # ISO8601 if available from JSON-LD
+    related_item_ids: list = None  # For recursive analysis
+    error: Optional[str] = None  # Error message if scraping failed
     
     def __post_init__(self):
         if self.files is None:
             self.files = []
+        if self.related_item_ids is None:
+            self.related_item_ids = []
         if self.scraped_at is None:
             self.scraped_at = datetime.now().isoformat()
+        if self.canonical_path is None:
+            self.canonical_path = f"/ja/items/{self.item_id}"
 
 
 class BoothScraper:
@@ -48,14 +54,16 @@ class BoothScraper:
         self.last_request_time = 0
         self.cache = self._load_cache()
         
-        # Common headers to avoid blocking
+        # Enhanced headers per boothid.md specification  
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'ja-JP,ja;q=0.9,en;q=0.8',
-            'Accept-Encoding': 'gzip, deflate',
+            'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none'
         }
     
     def _load_cache(self) -> Dict[str, Dict[str, Any]]:
@@ -95,6 +103,51 @@ class BoothScraper:
         
         self.last_request_time = time.time()
     
+    def _get_with_retry(self, url: str, max_retries: int = 3) -> requests.Response:
+        """Make HTTP request with exponential backoff retry logic per boothid.md spec."""
+        base_delays = [1.0, 2.0, 4.0]  # Base delays in seconds
+        
+        for attempt in range(max_retries):
+            try:
+                # Enforce rate limiting (minimum 1 second between requests)
+                self._rate_limit_wait()
+                
+                logger.debug(f"Attempt {attempt + 1}/{max_retries} for {url}")
+                response = requests.get(url, headers=self.headers, timeout=30)
+                
+                if response.status_code == 200:
+                    return response
+                elif response.status_code in [429, 503]:  # Rate limited or service unavailable
+                    if attempt < max_retries - 1:
+                        delay = base_delays[attempt] + random.uniform(-0.2, 0.2)  # Add jitter
+                        logger.warning(f"Rate limited (HTTP {response.status_code}), retrying in {delay:.1f}s")
+                        time.sleep(delay)
+                        continue
+                else:
+                    # Other HTTP errors, return immediately
+                    return response
+                    
+            except requests.exceptions.Timeout:
+                if attempt < max_retries - 1:
+                    delay = base_delays[attempt] + random.uniform(-0.2, 0.2)
+                    logger.warning(f"Request timeout, retrying in {delay:.1f}s")
+                    time.sleep(delay)
+                    continue
+                else:
+                    # Final attempt failed due to timeout
+                    raise
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    delay = base_delays[attempt] + random.uniform(-0.2, 0.2)
+                    logger.warning(f"Request failed with {str(e)}, retrying in {delay:.1f}s")
+                    time.sleep(delay)
+                    continue
+                else:
+                    raise
+        
+        # Should not reach here, but return last response if available
+        return response
+    
     def _parse_json_ld(self, soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
         """Extract JSON-LD structured data from page."""
         try:
@@ -121,171 +174,250 @@ class BoothScraper:
                 og_data[property_name] = content
         return og_data
     
-    def _extract_metadata(self, html: str, item_id: int) -> ItemMetadata:
-        """Extract metadata from BOOTH item page HTML with JSON-LD and OG fallbacks."""
-        soup = BeautifulSoup(html, 'html.parser')
-        metadata = ItemMetadata(item_id=item_id)
+    def _pick_name(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[str]:
+        """Extract name with prioritized approach: OG -> DOM fallback."""
+        # Priority 1: OG title
+        if og_data.get('title'):
+            return og_data['title'].strip()
         
-        # Parse structured data first for higher reliability
-        json_ld = self._parse_json_ld(soup)
-        og_data = self._parse_og_tags(soup)
+        # Priority 2: DOM selectors with multiple candidates
+        name_selectors = [
+            'h1.item-name',
+            'h1.u-tpg-title1', 
+            'h1[itemprop="name"]',
+            '.item-name h1',
+            '.item-header h1',
+            'h1[data-tracking-label="item_name"]'
+        ]
         
-        # Extract name - JSON-LD first, then OG, then DOM
-        if json_ld and json_ld.get('name'):
-            metadata.name = json_ld['name']
-        elif og_data.get('title'):
-            metadata.name = og_data['title']
-        else:
-            # DOM fallback
-            name_selectors = [
-                'h1.item-name',
-                '.item-name h1',
-                '.item-header h1',
-                'h1[data-tracking-label="item_name"]',
-                '.item-detail-title h1'
-            ]
-            
-            for selector in name_selectors:
-                name_elem = soup.select_one(selector)
-                if name_elem:
-                    metadata.name = name_elem.get_text(strip=True)
-                    break
+        for selector in name_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                name = elem.get_text(strip=True)
+                if name:
+                    return name
         
-        # Shop name
+        # Final fallback to og:title again
+        return og_data.get('title')
+    
+    def _pick_shop_name(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[str]:
+        """Extract shop name with multiple selector fallbacks."""
         shop_selectors = [
-            '.shop-name a',
+            'a.shop-name',
+            'div.u-text-ellipsis > a',
+            'a[itemprop="author"]',
             '.shop-name',
             '.booth-user-name a',
             '.user-name a'
         ]
         
         for selector in shop_selectors:
-            shop_elem = soup.select_one(selector)
-            if shop_elem:
-                metadata.shop_name = shop_elem.get_text(strip=True)
-                # Try to extract creator_id from URL
-                href = shop_elem.get('href', '')
-                creator_match = re.search(r'/([^/]+)/?$', href)
-                if creator_match:
-                    metadata.creator_id = creator_match.group(1)
-                break
+            elem = soup.select_one(selector)
+            if elem:
+                shop_name = elem.get_text(strip=True)
+                if shop_name:
+                    return shop_name
         
-        # Extract price - JSON-LD first, then DOM
-        if json_ld and 'offers' in json_ld:
-            offers = json_ld['offers']
-            if isinstance(offers, dict) and 'price' in offers:
-                try:
-                    price_str = str(offers['price'])
-                    # Handle both string and numeric prices
-                    if price_str == '0' or price_str.lower() in ['free', '無料']:
-                        metadata.current_price = 0
-                    else:
-                        # Extract numeric part
-                        price_match = re.search(r'[\d,]+', price_str)
-                        if price_match:
-                            metadata.current_price = int(price_match.group().replace(',', ''))
-                except (ValueError, TypeError) as e:
-                    logger.debug(f"Error parsing JSON-LD price: {e}")
+        # Fallback to OG site name
+        return og_data.get('site_name')
+    
+    def _pick_creator_id(self, soup: BeautifulSoup, response_url: str) -> Optional[str]:
+        """Extract creator_id from shop URLs and subdomains."""
+        # Method 1: Extract from shop links in page
+        shop_link_selectors = [
+            'a.shop-name',
+            'div.u-text-ellipsis > a',
+            'a[itemprop="author"]',
+            '.booth-user-name a'
+        ]
         
-        # DOM fallback for price
-        if metadata.current_price is None:
-            price_selectors = [
-                '.price .yen',
-                '.item-price .yen',
-                '.current-price .yen',
-                '.price-tag .yen',
-                '.booth-price',
-                '.item-price'
-            ]
-            
-            for selector in price_selectors:
-                price_elem = soup.select_one(selector)
-                if price_elem:
-                    price_text = price_elem.get_text(strip=True)
-                    # Extract number from price text (remove ¥ and commas)
-                    price_match = re.search(r'[\d,]+', price_text)
-                    if price_match:
-                        try:
-                            metadata.current_price = int(price_match.group().replace(',', ''))
-                            break
-                        except ValueError:
-                            continue
+        for selector in shop_link_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                href = elem.get('href', '')
+                # Pattern: https://{sub}.booth.pm
+                subdomain_match = re.search(r'https://([^.]+)\.booth\.pm', href)
+                if subdomain_match:
+                    return subdomain_match.group(1)
+                
+                # Pattern: /shop/{creator}
+                shop_match = re.search(r'/shop/([^/?]+)', href)
+                if shop_match:
+                    return shop_match.group(1)
         
-        # Check for free items if price still not found
-        if metadata.current_price is None:
-            free_indicators = soup.find_all(string=re.compile(r'無料|free|¥0', re.IGNORECASE))
-            if free_indicators:
-                metadata.current_price = 0
+        # Method 2: Extract from response URL subdomain
+        parsed_url = urlparse(response_url)
+        if parsed_url.hostname and parsed_url.hostname.endswith('.booth.pm'):
+            subdomain = parsed_url.hostname.split('.')[0]
+            if subdomain != 'booth':  # Not main domain
+                return subdomain
         
-        # Extract image - JSON-LD first, then OG, then DOM
-        if json_ld and json_ld.get('image'):
-            image = json_ld['image']
-            if isinstance(image, str):
-                metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", image)
-            elif isinstance(image, dict) and image.get('url'):
-                metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", image['url'])
-            elif isinstance(image, list) and len(image) > 0:
-                first_image = image[0]
-                if isinstance(first_image, str):
-                    metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", first_image)
-                elif isinstance(first_image, dict) and first_image.get('url'):
-                    metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", first_image['url'])
+        return None
+    
+    def _pick_price(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[int]:
+        """Extract price with enhanced free item detection."""
+        # Priority 1: OG price amount
+        og_price = og_data.get('price:amount')
+        if og_price:
+            try:
+                price_match = re.search(r'[\d,]+', str(og_price))
+                if price_match:
+                    return int(price_match.group().replace(',', ''))
+            except (ValueError, TypeError):
+                pass
         
-        # OG fallback
-        if not metadata.image_url and og_data.get('image'):
-            metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", og_data['image'])
+        # Priority 2: DOM selectors
+        price_selectors = [
+            'div.price',
+            'span[itemprop="price"]',
+            '.price .yen',
+            '.item-price .yen',
+            '.current-price .yen',
+            '.price-tag .yen'
+        ]
         
-        # DOM fallback for image
-        if not metadata.image_url:
-            image_selectors = [
-                '.item-image img',
-                '.main-image img',
-                '.product-image img',
-                '.item-header img',
-                '.item-gallery img:first-child'
-            ]
-            
-            for selector in image_selectors:
-                img_elem = soup.select_one(selector)
-                if img_elem:
-                    src = img_elem.get('src') or img_elem.get('data-src')
-                    if src:
-                        metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", src)
-                        break
+        for selector in price_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                price_text = elem.get_text(strip=True)
+                
+                # Check for free indicators first
+                if re.search(r'無料|Free|¥0\b', price_text, re.IGNORECASE):
+                    return 0
+                
+                # Extract numeric price
+                price_match = re.search(r'¥\s*([\d,]+)', price_text)
+                if price_match:
+                    try:
+                        return int(price_match.group(1).replace(',', ''))
+                    except ValueError:
+                        continue
+                
+                # Fallback numeric extraction
+                price_match = re.search(r'[\d,]+', price_text)
+                if price_match:
+                    try:
+                        return int(price_match.group().replace(',', ''))
+                    except ValueError:
+                        continue
         
-        # Extract description - JSON-LD first, then OG, then DOM
-        if json_ld and json_ld.get('description'):
-            desc_text = json_ld['description']
-            metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
-        elif og_data.get('description'):
-            desc_text = og_data['description']
-            metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
-        else:
-            # DOM fallback with more comprehensive selectors
-            desc_selectors = [
-                '.item-description .markdown',
-                '.item-description',
-                '.description .markdown',
-                '.item-detail-description',
-                '.booth-description',
-                '.item-body',
-                '.product-description'
-            ]
-            
-            for selector in desc_selectors:
-                desc_elem = soup.select_one(selector)
-                if desc_elem:
-                    # Remove script and style content
-                    for script in desc_elem(['script', 'style']):
-                        script.decompose()
+        # Priority 3: Check for free text anywhere in main content
+        main_content_selectors = [
+            '.item-description',
+            '.item-detail', 
+            '.item-header',
+            'main'
+        ]
+        
+        for selector in main_content_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                content_text = elem.get_text(strip=True)
+                if re.search(r'無料|Free', content_text, re.IGNORECASE):
+                    return 0
+        
+        return None
+    
+    def _pick_image(self, soup: BeautifulSoup, og_data: Dict[str, str], base_url: str) -> Optional[str]:
+        """Extract image with enhanced fallback chain and quality optimization."""
+        # Priority 1: OG image (often high quality)
+        if og_data.get('image'):
+            og_image_url = urljoin(base_url, og_data['image'])
+            # Try to get higher quality version
+            if '/c/' in og_image_url:
+                # BOOTH uses /c/{size}x{size}/... format, try to get largest
+                high_quality_url = re.sub(r'/c/\d+x\d+/', '/c/1200x1200/', og_image_url)
+                return high_quality_url
+            return og_image_url
+        
+        # Priority 2: Enhanced DOM selectors with quality preferences
+        image_selectors = [
+            # BOOTH-specific selectors (updated)
+            'img.market-item-image',
+            'img.market-item-detail-image', 
+            'div.item-image img',
+            'div.main-image img',
+            '.image-container img',
+            '.product-image img:first-child',
+            '.item-gallery img:first-child',
+            '.booth-image img',
+            # Generic high-quality selectors
+            'img[itemprop="image"]',
+            'img[class*="main"]',
+            'img[class*="primary"]',
+            'img[class*="hero"]',
+            'img[class*="banner"]',
+            # Fallback selectors
+            '.item-detail img:first-child',
+            'main img:first-child',
+            'article img:first-child'
+        ]
+        
+        # Track best image found
+        best_image = None
+        best_priority = -1
+        
+        for i, selector in enumerate(image_selectors):
+            img_elem = soup.select_one(selector)
+            if img_elem:
+                # Check multiple src attributes
+                src = (img_elem.get('src') or 
+                       img_elem.get('data-src') or 
+                       img_elem.get('data-lazy-src') or
+                       img_elem.get('data-original'))
+                
+                if src:
+                    full_url = urljoin(base_url, src)
                     
-                    desc_text = desc_elem.get_text(strip=True)
-                    if desc_text:
-                        # Limit to first 200 characters
-                        metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
-                        break
+                    # Quality scoring - prefer larger images
+                    quality_score = self._score_image_quality(full_url, img_elem)
+                    priority_score = len(image_selectors) - i  # Earlier selectors get higher priority
+                    total_score = quality_score + (priority_score * 10)
+                    
+                    if total_score > best_priority:
+                        best_image = full_url
+                        best_priority = total_score
         
-        # Files (from download section if visible)
+        # Try to enhance image quality if found
+        if best_image:
+            return self._enhance_image_quality(best_image)
+        
+        return None
+    
+    def _pick_description(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[str]:
+        """Extract description excerpt (~200 chars)."""
+        # Priority 1: OG description
+        if og_data.get('description'):
+            desc = og_data['description'].strip()
+            return desc[:200] + '...' if len(desc) > 200 else desc
+        
+        # Priority 2: DOM description areas
+        desc_selectors = [
+            '.item-description .markdown',
+            '.item-description',
+            '.description .markdown', 
+            '.item-detail-description',
+            '.booth-description',
+            '.item-body'
+        ]
+        
+        for selector in desc_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                # Remove script and style content
+                for script in elem(['script', 'style']):
+                    script.decompose()
+                
+                desc_text = elem.get_text(strip=True)
+                if desc_text:
+                    # Compress whitespace and newlines
+                    desc_text = re.sub(r'\s+', ' ', desc_text)
+                    return desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
+        
+        return None
+    
+    def _pick_files(self, soup: BeautifulSoup) -> List[str]:
+        """Extract file names if visible (optional)."""
         file_selectors = [
             '.download-list .file-name',
             '.file-list .file-name',
@@ -302,16 +434,128 @@ class BoothScraper:
                 if filename:
                     files.append(filename)
         
-        metadata.files = files
-        metadata.canonical_url = f"https://booth.pm/ja/items/{item_id}"
+        return files
+    
+    def _extract_related_item_ids(self, soup: BeautifulSoup) -> List[int]:
+        """Extract related item IDs from page content for recursive analysis."""
+        related_ids = []
         
-        # Extract page updated date from JSON-LD if available
+        # Search description and body text for BOOTH item URLs
+        content_selectors = [
+            '.item-description',
+            '.item-detail-description', 
+            '.booth-description',
+            '.item-body'
+        ]
+        
+        for selector in content_selectors:
+            elem = soup.select_one(selector)
+            if elem:
+                content_text = elem.get_text()
+                # Extract item IDs from URLs in format: items/(\d+)
+                item_id_matches = re.findall(r'items/(\d+)', content_text)
+                for match in item_id_matches:
+                    try:
+                        related_id = int(match)
+                        if related_id not in related_ids:
+                            related_ids.append(related_id)
+                    except ValueError:
+                        continue
+        
+        return related_ids
+    
+    def _score_image_quality(self, url: str, img_elem) -> int:
+        """Score image quality based on URL patterns and attributes."""
+        score = 0
+        
+        # Size indicators in URL
+        if re.search(r'\d{3,4}x\d{3,4}', url):
+            size_match = re.search(r'(\d{3,4})x(\d{3,4})', url)
+            if size_match:
+                width = int(size_match.group(1))
+                score += min(width // 100, 10)  # Higher score for larger images
+        
+        # Quality indicators in URL
+        if 'original' in url.lower():
+            score += 15
+        elif 'large' in url.lower():
+            score += 10
+        elif 'medium' in url.lower():
+            score += 5
+        
+        # File extension preferences
+        if url.lower().endswith('.jpg') or url.lower().endswith('.jpeg'):
+            score += 3
+        elif url.lower().endswith('.png'):
+            score += 5
+        elif url.lower().endswith('.webp'):
+            score += 4
+        
+        # Element attributes
+        width = img_elem.get('width')
+        height = img_elem.get('height')
+        if width and width.isdigit():
+            score += min(int(width) // 100, 5)
+        if height and height.isdigit():
+            score += min(int(height) // 100, 5)
+        
+        return score
+    
+    def _enhance_image_quality(self, url: str) -> str:
+        """Attempt to get higher quality version of image."""
+        # BOOTH image enhancement patterns
+        if 'booth.pm' in url or 'booth.pximg.net' in url:
+            # Try common quality enhancement patterns
+            if '/c/' in url:
+                # Replace with larger size
+                url = re.sub(r'/c/\d+x\d+/', '/c/1200x1200/', url)
+            elif '_s.' in url:
+                # Replace small indicator with master
+                url = url.replace('_s.', '_master1200.')
+            elif '_m.' in url:
+                # Replace medium with master
+                url = url.replace('_m.', '_master1200.')
+        
+        return url
+    
+    def _extract_metadata(self, html: str, item_id: int, response_url: str) -> ItemMetadata:
+        """Enhanced metadata extraction per boothid.md specification."""
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Parse structured data
+        json_ld = self._parse_json_ld(soup)
+        og_data = self._parse_og_tags(soup)
+        
+        # Extract metadata using prioritized approach
+        name = self._pick_name(soup, og_data)
+        shop_name = self._pick_shop_name(soup, og_data)
+        creator_id = self._pick_creator_id(soup, response_url)
+        current_price = self._pick_price(soup, og_data)
+        image_url = self._pick_image(soup, og_data, response_url)
+        description_excerpt = self._pick_description(soup, og_data)
+        files = self._pick_files(soup)
+        related_item_ids = self._extract_related_item_ids(soup)
+        
+        # Extract page_updated_at from JSON-LD if available
+        page_updated_at = None
         if json_ld:
             date_modified = json_ld.get('dateModified') or json_ld.get('datePublished')
             if date_modified:
-                metadata.updated_at = date_modified
+                page_updated_at = date_modified
         
-        return metadata
+        return ItemMetadata(
+            item_id=item_id,
+            name=name,
+            shop_name=shop_name,
+            creator_id=creator_id,
+            image_url=image_url,
+            current_price=current_price,
+            description_excerpt=description_excerpt,
+            canonical_path=f"/ja/items/{item_id}",
+            files=files,
+            page_updated_at=page_updated_at,
+            related_item_ids=related_item_ids
+        )
     
     def scrape_item(self, item_id: int, force_refresh: bool = False) -> ItemMetadata:
         """Scrape metadata for a single item with caching."""
@@ -319,7 +563,27 @@ class BoothScraper:
         
         # Check cache first
         if not force_refresh and cache_key in self.cache:
-            cached_data = self.cache[cache_key]
+            cached_data = self.cache[cache_key].copy()
+            
+            # Handle cache migration from old format
+            if 'canonical_url' in cached_data:
+                # Convert old canonical_url to canonical_path
+                canonical_url = cached_data.pop('canonical_url')
+                if canonical_url:
+                    parsed = urlparse(canonical_url)
+                    cached_data['canonical_path'] = parsed.path
+                else:
+                    cached_data['canonical_path'] = f"/ja/items/{item_id}"
+            
+            # Add missing fields with defaults
+            if 'page_updated_at' not in cached_data:
+                cached_data['page_updated_at'] = cached_data.get('updated_at')
+            if 'related_item_ids' not in cached_data:
+                cached_data['related_item_ids'] = []
+            
+            # Remove obsolete fields
+            cached_data.pop('updated_at', None)
+            
             # Check if cached data has error - retry if it's an old error
             if 'error' in cached_data:
                 cached_time = datetime.fromisoformat(cached_data.get('scraped_at', '1970-01-01'))
@@ -331,18 +595,15 @@ class BoothScraper:
                 logger.debug(f"Using cached data for item {item_id}")
                 return ItemMetadata(**cached_data)
         
-        # Apply rate limiting
-        self._rate_limit_wait()
-        
-        # Scrape the item
+        # Scrape the item using enhanced retry logic
         url = f"https://booth.pm/ja/items/{item_id}"
         
         try:
             logger.debug(f"Scraping item {item_id}: {url}")
-            response = requests.get(url, headers=self.headers, timeout=30)
+            response = self._get_with_retry(url)
             
             if response.status_code == 200:
-                metadata = self._extract_metadata(response.text, item_id)
+                metadata = self._extract_metadata(response.text, item_id, response.url)
                 logger.info(f"Successfully scraped item {item_id}: {metadata.name}")
                 
                 # Cache successful result
@@ -355,7 +616,7 @@ class BoothScraper:
                 error_msg = f"Item {item_id} not found (404)"
                 logger.warning(error_msg)
                 
-                # Cache 404 errors to avoid repeated requests
+                # Cache 404 errors to avoid repeated requests (permanent error)
                 error_metadata = ItemMetadata(item_id=item_id, error=error_msg)
                 self.cache[cache_key] = asdict(error_metadata)
                 self._save_cache()
@@ -366,7 +627,7 @@ class BoothScraper:
                 error_msg = f"HTTP {response.status_code} for item {item_id}"
                 logger.warning(error_msg)
                 
-                # Cache other HTTP errors temporarily
+                # Cache other HTTP errors with shortened retry time for temporary failures
                 error_metadata = ItemMetadata(item_id=item_id, error=error_msg)
                 self.cache[cache_key] = asdict(error_metadata)
                 self._save_cache()
@@ -374,7 +635,7 @@ class BoothScraper:
                 return error_metadata
         
         except requests.exceptions.Timeout:
-            error_msg = f"Timeout scraping item {item_id}"
+            error_msg = f"Timeout scraping item {item_id} after retries"
             logger.warning(error_msg)
             
             error_metadata = ItemMetadata(item_id=item_id, error=error_msg)
