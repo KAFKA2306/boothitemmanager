@@ -161,6 +161,14 @@ def extract_variants_mvp(item_id, visited=set()):
     return variants
 ```
 
+### item_idに基づく追加データ取得
+- item_id だけで /ja/items/{id} を取得し、約1req/sec＋再試行（指数バックオフ）で安定収集。  
+- 抽出は JSON-LD 優先→OG/meta→DOM の順で name/shop/creator/image/price/description を取得し、本文から related_ids（items/数値）も抽出（files は任意）。  
+- 対応アバターはファイル名・本文・辞書で推定、セット品は avatar 別に Variant 生成（subitem_id 規約、MVP は深さ1）。  
+- キャッシュは item_id キーで保存（成功はTTL/手動更新、失敗は24h 再試行抑制）、price 不明時は wish_price でメトリクス補助。  
+- 404/429 等の例外処理を実施し、avatar アイテムには自明な targets を付与、メトリクスは有料と無料（free count）を分離可視化。
+
+
 ## 7. メタ取得とキャッシュ
 - スクレイピング先: 公開の商品ページ（item_name, shop_name, creator_id, image_url, current_price, canonical_url）
 - レート制御: 約1req/sec

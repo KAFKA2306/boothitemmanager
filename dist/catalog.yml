@@ -35,7 +35,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.155313'
+  updated_at: '2025-08-24T16:33:38.524492'
 - item_id: 5589706
   type: costume
   name: 【8アバター対応】🍭Marshmallow🍭
@@ -83,20 +83,93 @@ items:
     size: null
     hash: null
   targets:
-  - code: Moe
-    name: 萌
-  - code: Selestia
-    name: セレスティア
-  - code: Kikyo
-    name: 桔梗
   - code: Kanae
     name: かなえ
-  - code: Manuka
-    name: マヌカ
+  - code: Selestia
+    name: セレスティア
+  - code: Moe
+    name: 萌
   - code: Shinano
     name: しなの
+  - code: Manuka
+    name: マヌカ
+  - code: Kikyo
+    name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.155496'
+  updated_at: '2025-08-24T16:33:38.524664'
+  variants:
+  - subitem_id: 5589706#variant:Kanae:8アバター対応marshmallow-for-かなえ
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for かなえ
+    targets:
+    - code: Kanae
+      name: かなえ
+    files:
+    - filename: Kanae_Marshmallow_Ver1.00.zip
+      version: '1.00'
+      size: null
+      hash: null
+    notes: 'Files: Kanae_Marshmallow_Ver1.00.zip'
+  - subitem_id: 5589706#variant:Kikyo:8アバター対応marshmallow-for-桔梗
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for 桔梗
+    targets:
+    - code: Kikyo
+      name: 桔梗
+    files:
+    - filename: Kikyo_Marshmallow_Ver1.00.zip
+      version: '1.00'
+      size: null
+      hash: null
+    notes: 'Files: Kikyo_Marshmallow_Ver1.00.zip'
+  - subitem_id: 5589706#variant:Manuka:8アバター対応marshmallow-for-マヌカ
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for マヌカ
+    targets:
+    - code: Manuka
+      name: マヌカ
+    files:
+    - filename: Manuka_Marshmallow_Ver1.00.zip
+      version: '1.00'
+      size: null
+      hash: null
+    notes: 'Files: Manuka_Marshmallow_Ver1.00.zip'
+  - subitem_id: 5589706#variant:Selestia:8アバター対応marshmallow-for-セレスティア
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for セレスティア
+    targets:
+    - code: Selestia
+      name: セレスティア
+    files:
+    - filename: Selestia_Marshmallow_Ver1.00.zip
+      version: '1.00'
+      size: null
+      hash: null
+    notes: 'Files: Selestia_Marshmallow_Ver1.00.zip'
+  - subitem_id: 5589706#variant:Moe:8アバター対応marshmallow-for-萌
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for 萌
+    targets:
+    - code: Moe
+      name: 萌
+    files:
+    - filename: Moe_Marshmallow_Ver1.01.zip
+      version: '1.01'
+      size: null
+      hash: null
+    notes: 'Files: Moe_Marshmallow_Ver1.01.zip'
+  - subitem_id: 5589706#variant:Shinano:8アバター対応marshmallow-for-しなの
+    parent_item_id: 5589706
+    variant_name: 【8アバター対応】🍭Marshmallow🍭 for しなの
+    targets:
+    - code: Shinano
+      name: しなの
+    files:
+    - filename: Shinano_Marshmallow_Ver1.00.zip
+      version: '1.00'
+      size: null
+      hash: null
+    notes: 'Files: Shinano_Marshmallow_Ver1.00.zip'
 - item_id: 5957830
   type: avatar
   name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】
@@ -127,7 +200,7 @@ items:
   - code: Rurune
     name: ルルネ
   tags: []
-  updated_at: '2025-08-24T16:02:37.155525'
+  updated_at: '2025-08-24T16:33:38.524839'
 - item_id: 6138340
   type: costume
   name: ✨45%✨『しなの-shinano-対応』outfit 7set
@@ -194,7 +267,7 @@ items:
   - code: Shinano
     name: しなの
   tags: []
-  updated_at: '2025-08-24T16:02:37.155588'
+  updated_at: '2025-08-24T16:33:38.524909'
 - item_id: 6979335
   type: costume
   name: 💖SALE💖【11アバター対応】Lovique🎀
@@ -219,7 +292,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.155608'
+  updated_at: '2025-08-24T16:33:38.525018'
 - item_id: 6778526
   type: avatar
   name: 「SUN －サン－」ver1.1.3
@@ -280,9 +353,9 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.155654'
+  updated_at: '2025-08-24T16:33:38.525077'
 - item_id: 5933400
-  type: other
+  type: avatar
   name: RBS SuiminSystem 2 - メニュー操作なしで寝返り / OVRで高さ調整【ModularAvatar対応】
   shop_name: らずべりー工房(はるる早苗)
   creator_id: raspberry-studio.booth.pm
@@ -305,7 +378,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.155729'
+  updated_at: '2025-08-24T16:33:38.525204'
 - item_id: 5453882
   type: gimmick
   name: 【VRChat】Breast Physics Plus Plus 物理演算胸揺れギミック
@@ -334,7 +407,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.155757'
+  updated_at: '2025-08-24T16:33:38.525232'
 - item_id: 6618690
   type: costume
   name: 【12アバター対応】❤️Mellow_Puff❤️
@@ -357,7 +430,7 @@ items:
   - code: Selestia
     name: セレスティア
   tags: []
-  updated_at: '2025-08-24T16:02:37.155777'
+  updated_at: '2025-08-24T16:33:38.525253'
 - item_id: 6349460
   type: costume
   name: 【12アバター対応】☃️Winter_Glow☃️
@@ -384,7 +457,7 @@ items:
   - code: Selestia
     name: セレスティア
   tags: []
-  updated_at: '2025-08-24T16:02:37.155797'
+  updated_at: '2025-08-24T16:33:38.525273'
 - item_id: 6089156
   type: costume
   name: 【8アバター対応】ユウナギ Yuunagi
@@ -412,12 +485,12 @@ items:
     size: null
     hash: null
   targets:
-  - code: Rurune
-    name: ルルネ
   - code: Mizuki
     name: 瑞希
+  - code: Rurune
+    name: ルルネ
   tags: []
-  updated_at: '2025-08-24T16:02:37.155879'
+  updated_at: '2025-08-24T16:33:38.525345'
 - item_id: 5098059
   type: costume
   name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット
@@ -470,7 +543,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156102'
+  updated_at: '2025-08-24T16:33:38.525489'
 - item_id: 5271972
   type: costume
   name: 『だらりんパジャマ』複数アバター対応衣装
@@ -499,7 +572,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156134'
+  updated_at: '2025-08-24T16:33:38.525579'
 - item_id: 5876740
   type: costume
   name: セレスティア用の水着（2024年版）
@@ -518,9 +591,9 @@ items:
   - code: Selestia
     name: セレスティア
   tags: []
-  updated_at: '2025-08-24T16:02:37.156147'
+  updated_at: '2025-08-24T16:33:38.525602'
 - item_id: 4274213
-  type: other
+  type: texture
   name: 「セレスティア対応」ぬるてか水滴ボディテクスチャ～Sweat Texture～＊2023/06/09 Update!＊
   shop_name: Atelier Astra
   creator_id: vic.booth.pm
@@ -535,7 +608,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156210'
+  updated_at: '2025-08-24T16:33:38.525702'
 - item_id: 4035411
   type: avatar
   name: オリジナル3Dモデル「セレスティア」ver1.02
@@ -554,7 +627,7 @@ items:
   - code: Selestia
     name: セレスティア
   tags: []
-  updated_at: '2025-08-24T16:02:37.156283'
+  updated_at: '2025-08-24T16:33:38.525762'
 - item_id: 5315109
   type: costume
   name: まふろん 【 髪型2種セット / 吐息パーティクル付き 】 MafuLon Hair
@@ -577,7 +650,7 @@ items:
   - code: Shinano
     name: しなの
   tags: []
-  updated_at: '2025-08-24T16:02:37.156308'
+  updated_at: '2025-08-24T16:33:38.525787'
 - item_id: 6231687
   type: costume
   name: 【9アバター対応】✨Heritage_Chic✨
@@ -604,7 +677,7 @@ items:
   - code: Shinano
     name: しなの
   tags: []
-  updated_at: '2025-08-24T16:02:37.156329'
+  updated_at: '2025-08-24T16:33:38.525862'
 - item_id: 5216107
   type: avatar
   name: 【3Dモデル】 PUPPET BONNY:2023 Halloween Edition
@@ -621,7 +694,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156343'
+  updated_at: '2025-08-24T16:33:38.525892'
 - item_id: 5028358
   type: avatar
   name: 【3Dモデル】【Chasa - HA BAEK】
@@ -638,7 +711,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156354'
+  updated_at: '2025-08-24T16:33:38.525910'
 - item_id: 4771424
   type: costume
   name: NecoLong
@@ -655,7 +728,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156366'
+  updated_at: '2025-08-24T16:33:38.525921'
 - item_id: 4213786
   type: avatar
   name: オリジナル3Dモデル「INABA」「椎名」「狐雨」
@@ -688,7 +761,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156395'
+  updated_at: '2025-08-24T16:33:38.525953'
 - item_id: 6007326
   type: costume
   name: 清楚はんなり NEO 【 髪型4種類セット / アップヘア 】
@@ -715,7 +788,7 @@ items:
   - code: Manuka
     name: マヌカ
   tags: []
-  updated_at: '2025-08-24T16:02:37.156416'
+  updated_at: '2025-08-24T16:33:38.525976'
 - item_id: 5907551
   type: costume
   name: 【8アバター対応】🌙Night Kitty🐈‍⬛
@@ -742,7 +815,7 @@ items:
   - code: Kikyo
     name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.156438'
+  updated_at: '2025-08-24T16:33:38.526054'
 - item_id: 4854979
   type: tool
   name: Kiseru / Cloth Toolbox
@@ -763,7 +836,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156453'
+  updated_at: '2025-08-24T16:33:38.526080'
 - item_id: 5426419
   type: costume
   name: 【9アバター対応】🧸Cutie_Pie🧸
@@ -790,7 +863,7 @@ items:
   - code: Kikyo
     name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.156472'
+  updated_at: '2025-08-24T16:33:38.526102'
 - item_id: 5381043
   type: costume
   name: 【7アバター対応】✨Lottie✨Voyage出展衣装
@@ -817,7 +890,7 @@ items:
   - code: Kikyo
     name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.156491'
+  updated_at: '2025-08-24T16:33:38.526123'
 - item_id: 5485641
   type: costume
   name: 2024年第1弾『断罪セーラー』Danzai Sailor 💜
@@ -852,7 +925,7 @@ items:
   - code: Kikyo
     name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.156519'
+  updated_at: '2025-08-24T16:33:38.526151'
 - item_id: 5513166
   type: gimmick
   name: 【MA対応】札束とハートがばらまけるギミック
@@ -869,7 +942,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156531'
+  updated_at: '2025-08-24T16:33:38.526166'
 - item_id: 5370827
   type: bundle
   name: QuQu福袋2024
@@ -890,7 +963,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156544'
+  updated_at: '2025-08-24T16:33:38.526180'
 - item_id: 3964938
   type: other
   name: 【3Dモデル】のらなべやカフェセット
@@ -911,7 +984,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156617'
+  updated_at: '2025-08-24T16:33:38.526269'
 - item_id: 5231705
   type: world
   name: Re:OCEAN VIEW 【PC / クエスト対応ホームワールド】
@@ -928,9 +1001,9 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156637'
+  updated_at: '2025-08-24T16:33:38.526341'
 - item_id: 4560435
-  type: other
+  type: texture
   name: 神聖な瞳テクスチャ　16枚　めいゆんちゃん、フィオナちゃん、薄荷ちゃん、森羅ちゃん、New ネコメイドちゃん、萌ちゃん、Bowちゃん用
   shop_name: white72
   creator_id: white72.booth.pm
@@ -973,7 +1046,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156738'
+  updated_at: '2025-08-24T16:33:38.526474'
 - item_id: 5269401
   type: costume
   name: NecoMuffler
@@ -990,7 +1063,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156755'
+  updated_at: '2025-08-24T16:33:38.526499'
 - item_id: 5213035
   type: costume
   name: GothicPopセット
@@ -1007,7 +1080,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156765'
+  updated_at: '2025-08-24T16:33:38.526510'
 - item_id: 4648328
   type: costume
   name: '[5 アバター対応] cozy knit'
@@ -1026,7 +1099,7 @@ items:
   - code: Kanae
     name: かなえ
   tags: []
-  updated_at: '2025-08-24T16:02:37.156836'
+  updated_at: '2025-08-24T16:33:38.526593'
 - item_id: 5211794
   type: costume
   name: 【PB対応】Clover Acc
@@ -1043,7 +1116,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156855'
+  updated_at: '2025-08-24T16:33:38.526611'
 - item_id: 4441209
   type: costume
   name: つまみ細工風髪飾り カラバリ8種【VRChat想定】
@@ -1060,7 +1133,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.156868'
+  updated_at: '2025-08-24T16:33:38.526623'
 - item_id: 4700046
   type: other
   name: 【マダミス風人狼系STG(GM必須、PL5)】白城館に潜む殺意
@@ -1077,7 +1150,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157019'
+  updated_at: '2025-08-24T16:33:38.526737'
 - item_id: 4816688
   type: costume
   name: 「薄荷」専用【3D衣装モデル】薄荷ちゃんセールパッケージ
@@ -1104,7 +1177,7 @@ items:
   - code: Hakka
     name: 薄荷
   tags: []
-  updated_at: '2025-08-24T16:02:37.157050'
+  updated_at: '2025-08-24T16:33:38.526765'
 - item_id: 4768519
   type: costume
   name: 【桔梗、セレスティア対応】ナイト・イン・シャンハイ
@@ -1135,9 +1208,9 @@ items:
   - code: Kikyo
     name: 桔梗
   tags: []
-  updated_at: '2025-08-24T16:02:37.157076'
+  updated_at: '2025-08-24T16:33:38.526794'
 - item_id: 3560999
-  type: other
+  type: texture
   name: PB　ゆめかわネイルチップ　ネイルピアス付き
   shop_name: もちもちしょっぷ
   creator_id: mocchiriomochi.booth.pm
@@ -1152,7 +1225,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157144'
+  updated_at: '2025-08-24T16:33:38.526880'
 - item_id: 4252664
   type: avatar
   name: 【オリジナル3Dモデル】New NecoMaid
@@ -1185,7 +1258,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157179'
+  updated_at: '2025-08-24T16:33:38.526917'
 - item_id: 4657371
   type: costume
   name: 【11アバター対応】Classy
@@ -1212,7 +1285,7 @@ items:
   - code: Kanae
     name: かなえ
   tags: []
-  updated_at: '2025-08-24T16:02:37.157200'
+  updated_at: '2025-08-24T16:33:38.526942'
 - item_id: 4606216
   type: gimmick
   name: 【追従ペット】ぷかぷかっぷけーき
@@ -1229,7 +1302,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157211'
+  updated_at: '2025-08-24T16:33:38.526981'
 - item_id: 4688899
   type: avatar
   name: myu65 みゅうアバター
@@ -1246,7 +1319,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157276'
+  updated_at: '2025-08-24T16:33:38.527043'
 - item_id: 4616378
   type: costume
   name: 【薄荷-Hakka-用衣装】季節の移ろい
@@ -1269,7 +1342,7 @@ items:
   - code: Hakka
     name: 薄荷
   tags: []
-  updated_at: '2025-08-24T16:02:37.157299'
+  updated_at: '2025-08-24T16:33:38.527067'
 - item_id: 4511536
   type: gimmick
   name: つぶせる！押せる！ましゅまろPB(Marshmallow PB)
@@ -1438,7 +1511,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157511'
+  updated_at: '2025-08-24T16:33:38.527252'
 - item_id: 4001390
   type: costume
   name: '#病みかわTWIN'
@@ -1455,7 +1528,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157531'
+  updated_at: '2025-08-24T16:33:38.527303'
 - item_id: 4417480
   type: bundle
   name: QuQu 福袋 2023
@@ -1476,9 +1549,9 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157547'
+  updated_at: '2025-08-24T16:33:38.527318'
 - item_id: 3732851
-  type: other
+  type: texture
   name: '#ブルーアワーネイル　【ネイルテクスチャ】'
   shop_name: '#ぬいぬい堂'
   creator_id: nuinui01418.booth.pm
@@ -1497,7 +1570,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157618'
+  updated_at: '2025-08-24T16:33:38.527417'
 - item_id: 4159412
   type: costume
   name: 【VRC想定】♡ moderately sweet ♡ for Hakka
@@ -1524,9 +1597,9 @@ items:
   - code: Hakka
     name: 薄荷
   tags: []
-  updated_at: '2025-08-24T16:02:37.157650'
+  updated_at: '2025-08-24T16:33:38.527450'
 - item_id: 3367395
-  type: other
+  type: avatar
   name: 【VRCスケールチェンジシステム】VRChat上で大きさを自由自在に変えるギミック【VRC Avatar scaling System】
   shop_name: VRC合法チート研究会
   creator_id: goho-cheat-vrc.booth.pm
@@ -1541,7 +1614,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157720'
+  updated_at: '2025-08-24T16:33:38.527562'
 - item_id: 3406857
   type: other
   name: 【VRC睡眠システム】3点トラッキングでも快適にVRC睡眠！【VRC sleeping system】
@@ -1562,7 +1635,7 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157798'
+  updated_at: '2025-08-24T16:33:38.527676'
 - item_id: 4276444
   type: avatar
   name: オリジナル3dモデル 「かなえ」 Kanae 카나에
@@ -1597,7 +1670,7 @@ items:
   - code: Kanae
     name: かなえ
   tags: []
-  updated_at: '2025-08-24T16:02:37.157833'
+  updated_at: '2025-08-24T16:33:38.527711'
 - item_id: 3931778
   type: costume
   name: 【VRChat想定】浴衣　＊キュート＊【お着替え用】
@@ -1616,7 +1689,7 @@ items:
   - code: Hakka
     name: 薄荷
   tags: []
-  updated_at: '2025-08-24T16:02:37.157845'
+  updated_at: '2025-08-24T16:33:38.527728'
 - item_id: 2310161
   type: costume
   name: 『ワンサイドロングヘアー』 - VRC用 A-TYPE
@@ -1633,4 +1706,4 @@ items:
     hash: null
   targets: []
   tags: []
-  updated_at: '2025-08-24T16:02:37.157856'
+  updated_at: '2025-08-24T16:33:38.527740'

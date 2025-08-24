@@ -114,6 +114,8 @@ class CatalogExporter:
         
         # Price statistics
         prices = [item.current_price for item in items if item.current_price is not None and item.current_price > 0]
+        free_items = [item for item in items if item.current_price is not None and item.current_price == 0]
+        unknown_price_items = [item for item in items if item.current_price is None]
         
         # Summary statistics
         metrics['summary'] = {
@@ -127,7 +129,9 @@ class CatalogExporter:
                 'median_price': round(statistics.median(prices)) if prices else 0,
                 'min_price': min(prices) if prices else 0,
                 'max_price': max(prices) if prices else 0,
-                'priced_items': len(prices)
+                'priced_items': len(prices),
+                'free_items_count': len(free_items),
+                'unknown_price_items': len(unknown_price_items)
             }
         }
         
@@ -157,8 +161,12 @@ class CatalogExporter:
     
     def _calculate_avatar_costume_combinations(self, items: List[Item]) -> List[Dict[str, Any]]:
         """Calculate avatar × costume combinations with statistics."""
-        # Find avatar items
-        avatar_items = {item.item_id: item for item in items if item.type == 'avatar'}
+        # Find avatar items and create avatar code to item mapping
+        avatar_items_by_code = defaultdict(list)
+        for item in items:
+            if item.type == 'avatar':
+                for target in item.targets:
+                    avatar_items_by_code[target.code].append(item)
         
         # Find costume items and their avatar targets
         costume_combinations = defaultdict(lambda: {
@@ -171,22 +179,26 @@ class CatalogExporter:
         for item in items:
             if item.type == 'costume':
                 for target in item.targets:
-                    # Find matching avatar item
-                    avatar_item = None
-                    for av_item in avatar_items.values():
-                        # Match by avatar code in targets or by name similarity
-                        for av_target in av_item.targets:
-                            if av_target.code == target.code:
-                                avatar_item = av_item
-                                break
-                        if avatar_item:
-                            break
+                    # Find matching avatar items by target code
+                    matching_avatars = avatar_items_by_code.get(target.code, [])
                     
-                    if avatar_item:
+                    if matching_avatars:
+                        # Use the first matching avatar (or could use the most popular one)
+                        avatar_item = matching_avatars[0]
                         combo_key = (avatar_item.item_id, item.item_id)
                         combo_data = costume_combinations[combo_key]
                         combo_data['count'] += 1
                         combo_data['avatar_name'] = avatar_item.name
+                        combo_data['costume_name'] = item.name
+                        
+                        if item.current_price is not None:
+                            combo_data['prices'].append(item.current_price)
+                    else:
+                        # Create a virtual combination even without a specific avatar item
+                        combo_key = (f"avatar_{target.code}", item.item_id)
+                        combo_data = costume_combinations[combo_key]
+                        combo_data['count'] += 1
+                        combo_data['avatar_name'] = target.name  # Use avatar name from target
                         combo_data['costume_name'] = item.name
                         
                         if item.current_price is not None:

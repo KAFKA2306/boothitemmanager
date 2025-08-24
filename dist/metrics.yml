@@ -1,6 +1,6 @@
 summary:
   items_total: 57
-  variants_total: 0
+  variants_total: 6
   shops_total: 39
   avatars_supported: 9
   price_stats:
@@ -10,8 +10,18 @@ summary:
     min_price: 0
     max_price: 0
     priced_items: 0
+    free_items_count: 26
+    unknown_price_items: 31
 rankings:
   avatar_costume_combinations:
+  - avatar_item_id: 4276444
+    costume_item_id: 5589706
+    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에
+    costume_name: 【8アバター対応】🍭Marshmallow🍭
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
   - avatar_item_id: 4035411
     costume_item_id: 5589706
     avatar_name: オリジナル3Dモデル「セレスティア」ver1.02
@@ -20,10 +30,42 @@ rankings:
     total_price: 0
     avg_price: 0
     median_price: 0
-  - avatar_item_id: 4276444
+  - avatar_item_id: avatar_Moe
     costume_item_id: 5589706
-    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에
+    avatar_name: 萌
     costume_name: 【8アバター対応】🍭Marshmallow🍭
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 5589706
+    avatar_name: しなの
+    costume_name: 【8アバター対応】🍭Marshmallow🍭
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Manuka
+    costume_item_id: 5589706
+    avatar_name: マヌカ
+    costume_name: 【8アバター対応】🍭Marshmallow🍭
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5589706
+    avatar_name: 桔梗
+    costume_name: 【8アバター対応】🍭Marshmallow🍭
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 6138340
+    avatar_name: しなの
+    costume_name: ✨45%✨『しなの-shinano-対応』outfit 7set
     count: 1
     total_price: 0
     avg_price: 0
@@ -44,6 +86,14 @@ rankings:
     total_price: 0
     avg_price: 0
     median_price: 0
+  - avatar_item_id: avatar_Mizuki
+    costume_item_id: 6089156
+    avatar_name: 瑞希
+    costume_name: 【8アバター対応】ユウナギ Yuunagi
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
   - avatar_item_id: 5957830
     costume_item_id: 6089156
     avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】
@@ -60,18 +110,66 @@ rankings:
     total_price: 0
     avg_price: 0
     median_price: 0
-  - avatar_item_id: 4276444
-    costume_item_id: 4648328
-    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에
-    costume_name: '[5 アバター対応] cozy knit'
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 5315109
+    avatar_name: しなの
+    costume_name: まふろん 【 髪型2種セット / 吐息パーティクル付き 】 MafuLon Hair
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 6231687
+    avatar_name: しなの
+    costume_name: 【9アバター対応】✨Heritage_Chic✨
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Manuka
+    costume_item_id: 6007326
+    avatar_name: マヌカ
+    costume_name: 清楚はんなり NEO 【 髪型4種類セット / アップヘア 】
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5907551
+    avatar_name: 桔梗
+    costume_name: 【8アバター対応】🌙Night Kitty🐈‍⬛
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5426419
+    avatar_name: 桔梗
+    costume_name: 【9アバター対応】🧸Cutie_Pie🧸
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5381043
+    avatar_name: 桔梗
+    costume_name: 【7アバター対応】✨Lottie✨Voyage出展衣装
+    count: 1
+    total_price: 0
+    avg_price: 0
+    median_price: 0
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5485641
+    avatar_name: 桔梗
+    costume_name: 2024年第1弾『断罪セーラー』Danzai Sailor 💜
     count: 1
     total_price: 0
     avg_price: 0
     median_price: 0
   - avatar_item_id: 4276444
-    costume_item_id: 4657371
+    costume_item_id: 4648328
     avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에
-    costume_name: 【11アバター対応】Classy
+    costume_name: '[5 アバター対応] cozy knit'
     count: 1
     total_price: 0
     avg_price: 0
@@ -99,32 +197,34 @@ rankings:
     count: 1
   popular_avatars:
   - avatar_code: Kikyo
-    count: 6
+    count: 7
   - avatar_code: Selestia
-    count: 5
+    count: 6
   - avatar_code: Kanae
-    count: 4
+    count: 5
   - avatar_code: Shinano
-    count: 4
+    count: 5
   - avatar_code: Hakka
     count: 4
   - avatar_code: Manuka
+    count: 3
+  - avatar_code: Moe
     count: 2
   - avatar_code: Rurune
     count: 2
-  - avatar_code: Moe
-    count: 1
   - avatar_code: Mizuki
     count: 1
   type_distribution:
   - type: costume
     count: 30
   - type: avatar
-    count: 9
-  - type: other
-    count: 9
+    count: 11
   - type: gimmick
     count: 4
+  - type: texture
+    count: 4
+  - type: other
+    count: 3
   - type: tool
     count: 2
   - type: bundle

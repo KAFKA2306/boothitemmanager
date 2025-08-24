@@ -11,5 +11,5 @@ sys.path.insert(0, str(src_path))
 
 # Import and run the main ETL pipeline
 from boothlist.main import main
-Wf __name__ == '__main__':
+if __name__ == '__main__':
     main()

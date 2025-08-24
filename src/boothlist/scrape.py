@@ -95,25 +95,61 @@ class BoothScraper:
         
         self.last_request_time = time.time()
     
+    def _parse_json_ld(self, soup: BeautifulSoup) -> Optional[Dict[str, Any]]:
+        """Extract JSON-LD structured data from page."""
+        try:
+            json_ld_scripts = soup.find_all('script', type='application/ld+json')
+            for script in json_ld_scripts:
+                if script.string:
+                    data = json.loads(script.string)
+                    if isinstance(data, dict) and '@type' in data:
+                        return data
+                    elif isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
+                        return data[0]
+        except (json.JSONDecodeError, KeyError) as e:
+            logger.debug(f"Error parsing JSON-LD: {e}")
+        return None
+    
+    def _parse_og_tags(self, soup: BeautifulSoup) -> Dict[str, str]:
+        """Extract Open Graph meta tags."""
+        og_data = {}
+        og_tags = soup.find_all('meta', property=lambda x: x and x.startswith('og:'))
+        for tag in og_tags:
+            property_name = tag.get('property', '')[3:]  # Remove 'og:' prefix
+            content = tag.get('content')
+            if property_name and content:
+                og_data[property_name] = content
+        return og_data
+    
     def _extract_metadata(self, html: str, item_id: int) -> ItemMetadata:
-        """Extract metadata from BOOTH item page HTML."""
+        """Extract metadata from BOOTH item page HTML with JSON-LD and OG fallbacks."""
         soup = BeautifulSoup(html, 'html.parser')
         metadata = ItemMetadata(item_id=item_id)
         
-        # Item name - multiple selectors as fallback
-        name_selectors = [
-            'h1.item-name',
-            '.item-name h1',
-            '.item-header h1',
-            'h1[data-tracking-label="item_name"]',
-            '.item-detail-title h1'
-        ]
+        # Parse structured data first for higher reliability
+        json_ld = self._parse_json_ld(soup)
+        og_data = self._parse_og_tags(soup)
         
-        for selector in name_selectors:
-            name_elem = soup.select_one(selector)
-            if name_elem:
-                metadata.name = name_elem.get_text(strip=True)
-                break
+        # Extract name - JSON-LD first, then OG, then DOM
+        if json_ld and json_ld.get('name'):
+            metadata.name = json_ld['name']
+        elif og_data.get('title'):
+            metadata.name = og_data['title']
+        else:
+            # DOM fallback
+            name_selectors = [
+                'h1.item-name',
+                '.item-name h1',
+                '.item-header h1',
+                'h1[data-tracking-label="item_name"]',
+                '.item-detail-title h1'
+            ]
+            
+            for selector in name_selectors:
+                name_elem = soup.select_one(selector)
+                if name_elem:
+                    metadata.name = name_elem.get_text(strip=True)
+                    break
         
         # Shop name
         shop_selectors = [
@@ -134,70 +170,128 @@ class BoothScraper:
                     metadata.creator_id = creator_match.group(1)
                 break
         
-        # Current price
-        price_selectors = [
-            '.price .yen',
-            '.item-price .yen',
-            '.current-price .yen',
-            '.price-tag .yen'
-        ]
+        # Extract price - JSON-LD first, then DOM
+        if json_ld and 'offers' in json_ld:
+            offers = json_ld['offers']
+            if isinstance(offers, dict) and 'price' in offers:
+                try:
+                    price_str = str(offers['price'])
+                    # Handle both string and numeric prices
+                    if price_str == '0' or price_str.lower() in ['free', '無料']:
+                        metadata.current_price = 0
+                    else:
+                        # Extract numeric part
+                        price_match = re.search(r'[\d,]+', price_str)
+                        if price_match:
+                            metadata.current_price = int(price_match.group().replace(',', ''))
+                except (ValueError, TypeError) as e:
+                    logger.debug(f"Error parsing JSON-LD price: {e}")
         
-        for selector in price_selectors:
-            price_elem = soup.select_one(selector)
-            if price_elem:
-                price_text = price_elem.get_text(strip=True)
-                # Extract number from price text (remove ¥ and commas)
-                price_match = re.search(r'[\d,]+', price_text)
-                if price_match:
-                    try:
-                        metadata.current_price = int(price_match.group().replace(',', ''))
-                        break
-                    except ValueError:
-                        continue
+        # DOM fallback for price
+        if metadata.current_price is None:
+            price_selectors = [
+                '.price .yen',
+                '.item-price .yen',
+                '.current-price .yen',
+                '.price-tag .yen',
+                '.booth-price',
+                '.item-price'
+            ]
+            
+            for selector in price_selectors:
+                price_elem = soup.select_one(selector)
+                if price_elem:
+                    price_text = price_elem.get_text(strip=True)
+                    # Extract number from price text (remove ¥ and commas)
+                    price_match = re.search(r'[\d,]+', price_text)
+                    if price_match:
+                        try:
+                            metadata.current_price = int(price_match.group().replace(',', ''))
+                            break
+                        except ValueError:
+                            continue
         
-        # Check for free items
+        # Check for free items if price still not found
         if metadata.current_price is None:
             free_indicators = soup.find_all(string=re.compile(r'無料|free|¥0', re.IGNORECASE))
             if free_indicators:
                 metadata.current_price = 0
         
-        # Main image
-        image_selectors = [
-            '.item-image img',
-            '.main-image img',
-            '.product-image img',
-            '.item-header img'
-        ]
+        # Extract image - JSON-LD first, then OG, then DOM
+        if json_ld and json_ld.get('image'):
+            image = json_ld['image']
+            if isinstance(image, str):
+                metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", image)
+            elif isinstance(image, dict) and image.get('url'):
+                metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", image['url'])
+            elif isinstance(image, list) and len(image) > 0:
+                first_image = image[0]
+                if isinstance(first_image, str):
+                    metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", first_image)
+                elif isinstance(first_image, dict) and first_image.get('url'):
+                    metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", first_image['url'])
         
-        for selector in image_selectors:
-            img_elem = soup.select_one(selector)
-            if img_elem:
-                src = img_elem.get('src') or img_elem.get('data-src')
-                if src:
-                    metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", src)
-                    break
+        # OG fallback
+        if not metadata.image_url and og_data.get('image'):
+            metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", og_data['image'])
         
-        # Description excerpt
-        desc_selectors = [
-            '.item-description .markdown',
-            '.item-description',
-            '.description .markdown',
-            '.item-detail-description'
-        ]
+        # DOM fallback for image
+        if not metadata.image_url:
+            image_selectors = [
+                '.item-image img',
+                '.main-image img',
+                '.product-image img',
+                '.item-header img',
+                '.item-gallery img:first-child'
+            ]
+            
+            for selector in image_selectors:
+                img_elem = soup.select_one(selector)
+                if img_elem:
+                    src = img_elem.get('src') or img_elem.get('data-src')
+                    if src:
+                        metadata.image_url = urljoin(f"https://booth.pm/ja/items/{item_id}", src)
+                        break
         
-        for selector in desc_selectors:
-            desc_elem = soup.select_one(selector)
-            if desc_elem:
-                desc_text = desc_elem.get_text(strip=True)
-                # Limit to first 200 characters
-                metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
-                break
+        # Extract description - JSON-LD first, then OG, then DOM
+        if json_ld and json_ld.get('description'):
+            desc_text = json_ld['description']
+            metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
+        elif og_data.get('description'):
+            desc_text = og_data['description']
+            metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
+        else:
+            # DOM fallback with more comprehensive selectors
+            desc_selectors = [
+                '.item-description .markdown',
+                '.item-description',
+                '.description .markdown',
+                '.item-detail-description',
+                '.booth-description',
+                '.item-body',
+                '.product-description'
+            ]
+            
+            for selector in desc_selectors:
+                desc_elem = soup.select_one(selector)
+                if desc_elem:
+                    # Remove script and style content
+                    for script in desc_elem(['script', 'style']):
+                        script.decompose()
+                    
+                    desc_text = desc_elem.get_text(strip=True)
+                    if desc_text:
+                        # Limit to first 200 characters
+                        metadata.description_excerpt = desc_text[:200] + '...' if len(desc_text) > 200 else desc_text
+                        break
         
         # Files (from download section if visible)
         file_selectors = [
             '.download-list .file-name',
             '.file-list .file-name',
-            '.attachment-list .file-name'
+            '.attachment-list .file-name',
+            '.download-item .filename',
+            '.file-item .name'
         ]
         
         files = []
@@ -210,6 +304,12 @@ class BoothScraper:
         
         metadata.files = files
         metadata.canonical_url = f"https://booth.pm/ja/items/{item_id}"
+        
+        # Extract page updated date from JSON-LD if available
+        if json_ld:
+            date_modified = json_ld.get('dateModified') or json_ld.get('datePublished')
+            if date_modified:
+                metadata.updated_at = date_modified
         
         return metadata
     
