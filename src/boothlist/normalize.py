@@ -643,7 +643,9 @@ class DataNormalizer:
             # Check for strong avatar indicators first (original avatars)
             strong_avatar_indicators = ['オリジナル3dモデル', 'オリジナルアバター', 'original avatar',
                                       'vrchat向け　オリジナルアバター', 'アバター本体', '3dキャラクター',
-                                      'character model', 'base model', 'アバターモデル']
+                                      'character model', 'base model', 'アバターモデル',
+                                      '3dモデルお買い得セット', 'vrc上での使用を想定', '3dモデル.*セット',
+                                      'お買い得セット.*3dモデル']
             
             strong_avatar_score = sum(50 for indicator in strong_avatar_indicators if indicator in combined_text)
             
