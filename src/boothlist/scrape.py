@@ -254,9 +254,53 @@ class BoothScraper:
         
         return None
     
-    def _pick_price(self, soup: BeautifulSoup, og_data: Dict[str, str]) -> Optional[int]:
-        """Extract price with enhanced free item detection per pximg.md spec."""
-        # Priority 1: OG price amount with currency handling
+    def _pick_price(self, soup: BeautifulSoup, og_data: Dict[str, str], json_ld: Optional[Dict[str, Any]] = None) -> Optional[int]:
+        """Extract price with JSON-LD support and enhanced detection."""
+        
+        # Priority 1: JSON-LD structured data (highest priority for accuracy)
+        if json_ld:
+            try:
+                # Handle schema.org Product with offers
+                offers = json_ld.get('offers')
+                if offers:
+                    # Handle single offer
+                    if isinstance(offers, dict):
+                        price = offers.get('price')
+                        if price is not None:
+                            try:
+                                price_value = int(float(str(price).replace(',', '')))
+                                logger.debug(f"Extracted price from JSON-LD single offer: {price_value}")
+                                return price_value
+                            except (ValueError, TypeError):
+                                pass
+                        
+                        # Handle price range with lowPrice/highPrice
+                        low_price = offers.get('lowPrice')
+                        high_price = offers.get('highPrice')
+                        if low_price is not None:
+                            try:
+                                price_value = int(float(str(low_price).replace(',', '')))
+                                logger.debug(f"Extracted price from JSON-LD lowPrice: {price_value}")
+                                return price_value
+                            except (ValueError, TypeError):
+                                pass
+                    
+                    # Handle array of offers
+                    elif isinstance(offers, list) and len(offers) > 0:
+                        first_offer = offers[0]
+                        if isinstance(first_offer, dict):
+                            price = first_offer.get('price')
+                            if price is not None:
+                                try:
+                                    price_value = int(float(str(price).replace(',', '')))
+                                    logger.debug(f"Extracted price from JSON-LD offer array: {price_value}")
+                                    return price_value
+                                except (ValueError, TypeError):
+                                    pass
+            except Exception as e:
+                logger.debug(f"Error parsing JSON-LD price: {e}")
+        
+        # Priority 2: OG price amount with currency handling  
         og_price = og_data.get('price:amount')
         if og_price:
             try:
@@ -266,65 +310,100 @@ class BoothScraper:
                 price_match = re.search(r'[\d,]+', price_text)
                 if price_match:
                     price_value = int(price_match.group().replace(',', ''))
-                    # Check if it's explicitly marked as free
-                    if price_value == 0 or re.search(r'無料|Free|free', price_text, re.IGNORECASE):
+                    # Only return 0 if explicitly marked as free
+                    if price_value == 0 and re.search(r'無料|Free|free', price_text, re.IGNORECASE):
                         return 0
-                    return price_value
+                    elif price_value > 0:
+                        logger.debug(f"Extracted price from OG data: {price_value}")
+                        return price_value
             except (ValueError, TypeError):
                 pass
         
-        # Priority 2: DOM selectors
+        # Priority 3: Enhanced DOM selectors with modern BOOTH structure
         price_selectors = [
+            # Traditional selectors
             'div.price',
-            'span[itemprop="price"]',
+            'span[itemprop="price"]', 
             '.price .yen',
             '.item-price .yen',
             '.current-price .yen',
-            '.price-tag .yen'
+            '.price-tag .yen',
+            # Generic selectors for modern BOOTH structure
+            'div:contains("¥")',  # Any div containing yen symbol
+            '*:contains("¥")',    # Any element containing yen symbol
         ]
         
         for selector in price_selectors:
-            elem = soup.select_one(selector)
-            if elem:
-                price_text = elem.get_text(strip=True)
-                
-                # Enhanced free item detection with more patterns
-                if re.search(r'無料|Free|¥0\b|0円|0 JPY|フリー', price_text, re.IGNORECASE):
-                    return 0
-                
-                # Extract numeric price
-                price_match = re.search(r'¥\s*([\d,]+)', price_text)
-                if price_match:
-                    try:
-                        return int(price_match.group(1).replace(',', ''))
-                    except ValueError:
+            if 'contains' in selector:
+                # Use more specific search for yen-containing elements
+                elems = soup.find_all(lambda tag: tag.string and '¥' in tag.get_text())
+                for elem in elems:
+                    price_text = elem.get_text(strip=True)
+                    
+                    # Skip if this looks like unrelated content (too long)
+                    if len(price_text) > 50:
                         continue
-                
-                # Fallback numeric extraction
-                price_match = re.search(r'[\d,]+', price_text)
-                if price_match:
-                    try:
-                        return int(price_match.group().replace(',', ''))
-                    except ValueError:
-                        continue
+                    
+                    # Extract numeric price with yen symbol
+                    price_match = re.search(r'¥\s*([\d,]+)', price_text)
+                    if price_match:
+                        try:
+                            price_value = int(price_match.group(1).replace(',', ''))
+                            # Only treat as free if explicitly marked
+                            if price_value == 0 and re.search(r'無料|Free|フリー', price_text, re.IGNORECASE):
+                                return 0
+                            elif price_value > 0:
+                                logger.debug(f"Extracted price from DOM search: {price_value}")
+                                return price_value
+                        except ValueError:
+                            continue
+            else:
+                elem = soup.select_one(selector)
+                if elem:
+                    price_text = elem.get_text(strip=True)
+                    
+                    # Extract numeric price
+                    price_match = re.search(r'¥\s*([\d,]+)', price_text)
+                    if price_match:
+                        try:
+                            price_value = int(price_match.group(1).replace(',', ''))
+                            # Only treat as free if explicitly marked  
+                            if price_value == 0 and re.search(r'無料|Free|フリー', price_text, re.IGNORECASE):
+                                return 0
+                            elif price_value > 0:
+                                logger.debug(f"Extracted price from selector {selector}: {price_value}")
+                                return price_value
+                        except ValueError:
+                            continue
+                    
+                    # Fallback numeric extraction
+                    price_match = re.search(r'[\d,]+', price_text)
+                    if price_match:
+                        try:
+                            price_value = int(price_match.group().replace(',', ''))
+                            if price_value > 0:
+                                logger.debug(f"Extracted price from fallback numeric: {price_value}")
+                                return price_value
+                        except ValueError:
+                            continue
         
-        # Priority 3: Enhanced free text detection in main content
-        main_content_selectors = [
+        # Priority 4: Explicit free item detection only (reduced scope)
+        free_detection_selectors = [
             '.item-description',
-            '.item-detail', 
-            '.item-header',
-            '.price-info',
-            'main'
+            '.item-detail',
+            '.item-header'
         ]
         
-        for selector in main_content_selectors:
+        for selector in free_detection_selectors:
             elem = soup.select_one(selector)
             if elem:
                 content_text = elem.get_text(strip=True)
-                # Enhanced free detection patterns
-                if re.search(r'無料|Free|フリー|0円|¥0\b', content_text, re.IGNORECASE):
+                # Only detect as free if explicitly stated with specific patterns
+                if re.search(r'\b(無料|Free|フリー|0円)\b', content_text, re.IGNORECASE):
+                    logger.debug(f"Detected free item from content: {selector}")
                     return 0
         
+        logger.debug("No price found using any extraction method")
         return None
     
     def _pick_image(self, soup: BeautifulSoup, og_data: Dict[str, str], base_url: str) -> Optional[str]:
@@ -553,7 +632,7 @@ class BoothScraper:
         name = self._pick_name(soup, og_data)
         shop_name = self._pick_shop_name(soup, og_data)
         creator_id = self._pick_creator_id(soup, response_url)
-        current_price = self._pick_price(soup, og_data)
+        current_price = self._pick_price(soup, og_data, json_ld)
         image_url = self._pick_image(soup, og_data, response_url)
         description_excerpt = self._pick_description(soup, og_data)
         files = self._pick_files(soup)

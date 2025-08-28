@@ -4,108 +4,84 @@ summary:
   shops_total: 38
   avatars_supported: 13
   price_stats:
-    total_value: 90170
-    average_price: 1803
-    median_price: 1300
-    min_price: 150
-    max_price: 10000
-    priced_items: 50
-    free_items_count: 5
-    unknown_price_items: 1
+    total_value: 75390
+    average_price: 1396
+    median_price: 1000
+    min_price: 100
+    max_price: 7000
+    priced_items: 54
+    free_items_count: 2
+    unknown_price_items: 0
 rankings:
   avatar_costume_combinations:
-  - avatar_item_id: avatar_Shinano
-    costume_item_id: 5589706
-    avatar_name: しなの
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
-  - avatar_item_id: avatar_Kikyo
-    costume_item_id: 5589706
-    avatar_name: 桔梗
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
-  - avatar_item_id: 4035411
-    costume_item_id: 5589706
-    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
-  - avatar_item_id: avatar_Moe
-    costume_item_id: 5589706
-    avatar_name: 萌
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
-  - avatar_item_id: avatar_Manuka
-    costume_item_id: 5589706
-    avatar_name: マヌカ
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
   - avatar_item_id: 4276444
     costume_item_id: 5589706
     avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Manuka
+    costume_item_id: 5589706
+    avatar_name: マヌカ
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: 4035411
+    costume_item_id: 5589706
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Kikyo
+    costume_item_id: 5589706
+    avatar_name: 桔梗
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Moe
+    costume_item_id: 5589706
+    avatar_name: 萌
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 5589706
+    avatar_name: しなの
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
   - avatar_item_id: avatar_Shinano
     costume_item_id: 6138340
     avatar_name: しなの
     costume_name: ✨45%✨『しなの-shinano-対応』outfit 7set - HB_shop - BOOTH
     count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
+    total_price: 2800
+    avg_price: 2800
+    median_price: 2800
   - avatar_item_id: 4035411
     costume_item_id: 6618690
     avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: 【12アバター対応】❤️Mellow_Puff❤️ - cherry neru - BOOTH
     count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
+    total_price: 1500
+    avg_price: 1500
+    median_price: 1500
   - avatar_item_id: 4035411
     costume_item_id: 6349460
     avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: 【12アバター対応】☃️Winter_Glow☃️ - cherry neru - BOOTH
-    count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
-  - avatar_item_id: 5957830
-    costume_item_id: 6089156
-    avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ-【1周年記念8/25日まで半額セール】 - IKUSIA - BOOTH
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
-    count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
-  - avatar_item_id: avatar_Mizuki
-    costume_item_id: 6089156
-    avatar_name: 瑞希
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
-    count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
-  - avatar_item_id: avatar_Manuka
-    costume_item_id: 6089156
-    avatar_name: マヌカ
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
     total_price: 1400
     avg_price: 1400
@@ -115,66 +91,90 @@ rankings:
     avatar_name: 萌
     costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
+    total_price: 1300
+    avg_price: 1300
+    median_price: 1300
+  - avatar_item_id: 5957830
+    costume_item_id: 6089156
+    avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ- - IKUSIA - BOOTH
+    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 1300
+    avg_price: 1300
+    median_price: 1300
+  - avatar_item_id: avatar_Manuka
+    costume_item_id: 6089156
+    avatar_name: マヌカ
+    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 1300
+    avg_price: 1300
+    median_price: 1300
+  - avatar_item_id: avatar_Mizuki
+    costume_item_id: 6089156
+    avatar_name: 瑞希
+    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 1300
+    avg_price: 1300
+    median_price: 1300
   - avatar_item_id: 4035411
     costume_item_id: 5876740
     avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
     costume_name: セレスティア用の水着（2024年版） - wakamaru shop - BOOTH
     count: 1
-    total_price: 2500
-    avg_price: 2500
-    median_price: 2500
+    total_price: 1000
+    avg_price: 1000
+    median_price: 1000
   - avatar_item_id: avatar_Shinano
     costume_item_id: 5315109
     avatar_name: しなの
     costume_name: まふろん 【 髪型2種セット / 吐息パーティクル付き 】 MafuLon Hair - はまのしす -hamanosis- -
       BOOTH
     count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
+    total_price: 1000
+    avg_price: 1000
+    median_price: 1000
   - avatar_item_id: avatar_Shinano
     costume_item_id: 6231687
     avatar_name: しなの
     costume_name: 【9アバター対応】✨Heritage_Chic✨ - cherry neru - BOOTH
     count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
+    total_price: 1500
+    avg_price: 1500
+    median_price: 1500
   - avatar_item_id: avatar_Manuka
     costume_item_id: 6007326
     avatar_name: マヌカ
     costume_name: 清楚はんなり NEO 【 髪型4種類セット / アップヘア 】 - はまのしす -hamanosis- - BOOTH
     count: 1
-    total_price: 1400
-    avg_price: 1400
-    median_price: 1400
+    total_price: 1000
+    avg_price: 1000
+    median_price: 1000
   - avatar_item_id: avatar_Kikyo
     costume_item_id: 5907551
     avatar_name: 桔梗
     costume_name: 【8アバター対応】🌙Night Kitty🐈‍⬛ - Libero Boutique - BOOTH
     count: 1
-    total_price: 1800
-    avg_price: 1800
-    median_price: 1800
+    total_price: 1600
+    avg_price: 1600
+    median_price: 1600
   - avatar_item_id: avatar_Kikyo
     costume_item_id: 5426419
     avatar_name: 桔梗
     costume_name: 【9アバター対応】🧸Cutie_Pie🧸 - cherry neru - BOOTH
     count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
+    total_price: 1600
+    avg_price: 1600
+    median_price: 1600
   - avatar_item_id: avatar_Kikyo
     costume_item_id: 5381043
     avatar_name: 桔梗
     costume_name: 【7アバター対応】✨Lottie✨Voyage出展衣装 - cherry neru - BOOTH
     count: 1
-    total_price: 990
-    avg_price: 990
-    median_price: 990
+    total_price: 1890
+    avg_price: 1890
+    median_price: 1890
   popular_shops:
   - shop_name: cherry neru
     count: 8
@@ -203,11 +203,11 @@ rankings:
     count: 7
   - avatar_code: Moe
     count: 7
-  - avatar_code: Shinano
+  - avatar_code: Kanae
     count: 6
   - avatar_code: Manuka
     count: 6
-  - avatar_code: Kanae
+  - avatar_code: Shinano
     count: 6
   - avatar_code: Hakka
     count: 5
