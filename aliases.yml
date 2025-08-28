@@ -155,6 +155,74 @@ avatars:
       - "neko maid"
       - "ネコ メイド"
 
+  Cian:
+    name_ja: "シアン"
+    name_en: "Cian"
+    aliases:
+      - "シアン"
+      - "Cian"
+      - "CIAN"
+      - "cian"
+
+  Mafuyu:
+    name_ja: "真冬"
+    name_en: "Mafuyu"
+    aliases:
+      - "真冬"
+      - "Mafuyu"
+      - "MAFUYU"
+      - "mafuyu"
+      - "まふゆ"
+      - "マフユ"
+
+  Myu65:
+    name_ja: "myu65"
+    name_en: "myu65"
+    aliases:
+      - "myu65"
+      - "MYU65"
+      - "Myu65"
+      - "みゅう"
+      - "ミユウ"
+
+  Meiyun:
+    name_ja: "めいゆん"
+    name_en: "Meiyun"
+    aliases:
+      - "めいゆん"
+      - "メイユン"
+      - "meiyun"
+      - "Meiyun"
+      - "MEIYUN"
+
+  Fiona:
+    name_ja: "フィオナ"
+    name_en: "Fiona"
+    aliases:
+      - "フィオナ"
+      - "fiona"
+      - "Fiona"
+      - "FIONA"
+
+  Shinra:
+    name_ja: "森羅"
+    name_en: "Shinra"
+    aliases:
+      - "森羅"
+      - "shinra"
+      - "Shinra"
+      - "SHINRA"
+      - "しんら"
+      - "シンラ"
+
+  Bow:
+    name_ja: "Bow"
+    name_en: "Bow"
+    aliases:
+      - "Bow"
+      - "BOW"
+      - "bow"
+
 types:
   avatar:
     aliases:

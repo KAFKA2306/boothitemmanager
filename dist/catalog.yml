@@ -87,18 +87,18 @@ items:
     size: null
     hash: null
   targets:
-  - code: Kanae
-    name: かなえ
-  - code: Manuka
-    name: マヌカ
   - code: Selestia
     name: セレスティア
-  - code: Kikyo
-    name: 桔梗
-  - code: Moe
-    name: 萌
   - code: Shinano
     name: しなの
+  - code: Manuka
+    name: マヌカ
+  - code: Kanae
+    name: かなえ
+  - code: Moe
+    name: 萌
+  - code: Kikyo
+    name: 桔梗
   tags: []
   updated_at: '2025-08-28T18:47:33.442291'
   variants:
@@ -507,14 +507,14 @@ items:
     size: null
     hash: null
   targets:
-  - code: Moe
-    name: 萌
-  - code: Rurune
-    name: ルルネ
-  - code: Manuka
-    name: マヌカ
   - code: Mizuki
     name: 瑞希
+  - code: Rurune
+    name: ルルネ
+  - code: Moe
+    name: 萌
+  - code: Manuka
+    name: マヌカ
   tags: []
   updated_at: '2025-08-28T18:47:42.901040'
 - item_id: 5098059
@@ -569,9 +569,35 @@ items:
     version: 1.2.0
     size: null
     hash: null
-  targets: []
+  targets:
+  - code: Cian
+    name: シアン
+  - code: Mafuyu
+    name: 真冬
   tags: []
   updated_at: '2025-08-28T18:47:45.512026'
+  variants:
+  - subitem_id: 5098059#variant:Mafuyu:シアン-cian真冬-mafuyu過去作対応5点セット-catprincess-booth-for
+    parent_item_id: 5098059
+    variant_name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット - CatPrincess - BOOTH for 真冬
+    targets:
+    - code: Mafuyu
+      name: 真冬
+    files:
+    - filename: Mafuyu_Cian__CombatMaidDress_v1.1.0.zip
+      version: 1.1.0
+      size: null
+      hash: null
+    - filename: Mafuyu_Cian__Swagger_v1.1.0.zip
+      version: 1.1.0
+      size: null
+      hash: null
+    - filename: Mafuyu_Cian__see-through_Dress_v1.2.0.zip
+      version: 1.2.0
+      size: null
+      hash: null
+    notes: 'Files: Mafuyu_Cian__CombatMaidDress_v1.1.0.zip, Mafuyu_Cian__Swagger_v1.1.0.zip,
+      Mafuyu_Cian__see-through_Dress_v1.2.0.zip'
 - item_id: 5271972
   type: costume
   name: 『だらりんパジャマ』複数アバター対応衣装 - CatPrincess - BOOTH
@@ -721,7 +747,7 @@ items:
   tags: []
   updated_at: '2025-08-28T18:47:52.537968'
 - item_id: 5216107
-  type: avatar
+  type: costume
   name: 【3Dモデル】 PUPPET BONNY:2023 Halloween Edition - DIMGRAY - BOOTH
   shop_name: DIMGRAY
   creator_id: null
@@ -740,7 +766,7 @@ items:
   tags: []
   updated_at: '2025-08-28T18:47:53.428533'
 - item_id: 5028358
-  type: avatar
+  type: costume
   name: 【3Dモデル】【Chasa - HA BAEK】(for minase) - DIMGRAY - BOOTH
   shop_name: DIMGRAY
   creator_id: null
@@ -776,7 +802,7 @@ items:
   tags: []
   updated_at: '2025-08-28T18:47:55.433750'
 - item_id: 4213786
-  type: avatar
+  type: accessory
   name: オリジナル3Dモデル「INABA」「椎名」「狐雨」 - ゴールデン商会 - BOOTH
   shop_name: ゴールデン商会
   creator_id: null
@@ -808,12 +834,12 @@ items:
     size: null
     hash: null
   targets:
-  - code: INABA
-    name: INABA
-  - code: Shiina
-    name: 椎名
   - code: KitsuneAme
     name: 狐雨
+  - code: Shiina
+    name: 椎名
+  - code: INABA
+    name: INABA
   tags: []
   updated_at: '2025-08-28T18:47:56.348039'
 - item_id: 6007326
@@ -1115,10 +1141,18 @@ items:
     size: null
     hash: null
   targets:
-  - code: Hakka
-    name: 薄荷
+  - code: Meiyun
+    name: めいゆん
+  - code: Shinra
+    name: 森羅
   - code: Moe
     name: 萌
+  - code: Bow
+    name: Bow
+  - code: Fiona
+    name: フィオナ
+  - code: Hakka
+    name: 薄荷
   tags: []
   updated_at: '2025-08-28T18:48:05.871369'
 - item_id: 5269401
@@ -1274,12 +1308,12 @@ items:
     size: null
     hash: null
   targets:
-  - code: Selestia
-    name: セレスティア
-  - code: Kikyo
-    name: 桔梗
   - code: Moe
     name: 萌
+  - code: Kikyo
+    name: 桔梗
+  - code: Selestia
+    name: セレスティア
   tags: []
   updated_at: '2025-08-28T18:48:14.959950'
 - item_id: 3560999
@@ -1360,14 +1394,16 @@ items:
     size: null
     hash: null
   targets:
-  - code: Moe
-    name: 萌
-  - code: Kanae
-    name: かなえ
+  - code: Shinra
+    name: 森羅
   - code: Shinano
     name: しなの
   - code: Manuka
     name: マヌカ
+  - code: Kanae
+    name: かなえ
+  - code: Moe
+    name: 萌
   tags: []
   updated_at: '2025-08-28T18:48:17.973998'
   variants:
@@ -1416,7 +1452,9 @@ items:
     version: null
     size: null
     hash: null
-  targets: []
+  targets:
+  - code: Myu65
+    name: myu65
   tags: []
   updated_at: '2025-08-28T18:48:21.741385'
 - item_id: 4616378
@@ -1615,10 +1653,10 @@ items:
   targets:
   - code: Moe
     name: 萌
-  - code: Selestia
-    name: セレスティア
   - code: Manuka
     name: マヌカ
+  - code: Selestia
+    name: セレスティア
   tags: []
   updated_at: '2025-08-28T18:48:24.152343'
 - item_id: 4001390

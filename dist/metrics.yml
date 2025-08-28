@@ -1,8 +1,8 @@
 summary:
   items_total: 56
-  variants_total: 7
+  variants_total: 8
   shops_total: 38
-  avatars_supported: 13
+  avatars_supported: 20
   price_stats:
     total_value: 75390
     average_price: 1396
@@ -14,9 +14,17 @@ summary:
     unknown_price_items: 0
 rankings:
   avatar_costume_combinations:
-  - avatar_item_id: 4276444
+  - avatar_item_id: 4035411
     costume_item_id: 5589706
-    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 5589706
+    avatar_name: しなの
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 1800
@@ -30,17 +38,9 @@ rankings:
     total_price: 1800
     avg_price: 1800
     median_price: 1800
-  - avatar_item_id: 4035411
+  - avatar_item_id: 4276444
     costume_item_id: 5589706
-    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 1800
-    avg_price: 1800
-    median_price: 1800
-  - avatar_item_id: avatar_Kikyo
-    costume_item_id: 5589706
-    avatar_name: 桔梗
+    avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 1800
@@ -54,9 +54,9 @@ rankings:
     total_price: 1800
     avg_price: 1800
     median_price: 1800
-  - avatar_item_id: avatar_Shinano
+  - avatar_item_id: avatar_Kikyo
     costume_item_id: 5589706
-    avatar_name: しなの
+    avatar_name: 桔梗
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 1800
@@ -86,9 +86,9 @@ rankings:
     total_price: 1400
     avg_price: 1400
     median_price: 1400
-  - avatar_item_id: avatar_Moe
+  - avatar_item_id: avatar_Mizuki
     costume_item_id: 6089156
-    avatar_name: 萌
+    avatar_name: 瑞希
     costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
     total_price: 1300
@@ -102,6 +102,14 @@ rankings:
     total_price: 1300
     avg_price: 1300
     median_price: 1300
+  - avatar_item_id: avatar_Moe
+    costume_item_id: 6089156
+    avatar_name: 萌
+    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 1300
+    avg_price: 1300
+    median_price: 1300
   - avatar_item_id: avatar_Manuka
     costume_item_id: 6089156
     avatar_name: マヌカ
@@ -110,14 +118,22 @@ rankings:
     total_price: 1300
     avg_price: 1300
     median_price: 1300
-  - avatar_item_id: avatar_Mizuki
-    costume_item_id: 6089156
-    avatar_name: 瑞希
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+  - avatar_item_id: avatar_Cian
+    costume_item_id: 5098059
+    avatar_name: シアン
+    costume_name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット - CatPrincess - BOOTH
     count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
+    total_price: 800
+    avg_price: 800
+    median_price: 800
+  - avatar_item_id: avatar_Mafuyu
+    costume_item_id: 5098059
+    avatar_name: 真冬
+    costume_name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット - CatPrincess - BOOTH
+    count: 1
+    total_price: 800
+    avg_price: 800
+    median_price: 800
   - avatar_item_id: 4035411
     costume_item_id: 5876740
     avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
@@ -159,22 +175,6 @@ rankings:
     total_price: 1600
     avg_price: 1600
     median_price: 1600
-  - avatar_item_id: avatar_Kikyo
-    costume_item_id: 5426419
-    avatar_name: 桔梗
-    costume_name: 【9アバター対応】🧸Cutie_Pie🧸 - cherry neru - BOOTH
-    count: 1
-    total_price: 1600
-    avg_price: 1600
-    median_price: 1600
-  - avatar_item_id: avatar_Kikyo
-    costume_item_id: 5381043
-    avatar_name: 桔梗
-    costume_name: 【7アバター対応】✨Lottie✨Voyage出展衣装 - cherry neru - BOOTH
-    count: 1
-    total_price: 1890
-    avg_price: 1890
-    median_price: 1890
   popular_shops:
   - shop_name: cherry neru
     count: 8
@@ -199,37 +199,51 @@ rankings:
   popular_avatars:
   - avatar_code: Selestia
     count: 9
-  - avatar_code: Kikyo
-    count: 7
   - avatar_code: Moe
     count: 7
-  - avatar_code: Kanae
+  - avatar_code: Kikyo
+    count: 7
+  - avatar_code: Shinano
     count: 6
   - avatar_code: Manuka
     count: 6
-  - avatar_code: Shinano
+  - avatar_code: Kanae
     count: 6
   - avatar_code: Hakka
     count: 5
   - avatar_code: Rurune
     count: 2
+  - avatar_code: Mafuyu
+    count: 2
+  - avatar_code: Shinra
+    count: 2
   - avatar_code: SUN
     count: 1
   - avatar_code: Mizuki
     count: 1
-  - avatar_code: INABA
-    count: 1
-  - avatar_code: Shiina
+  - avatar_code: Cian
     count: 1
   - avatar_code: KitsuneAme
     count: 1
+  - avatar_code: Shiina
+    count: 1
+  - avatar_code: INABA
+    count: 1
+  - avatar_code: Meiyun
+    count: 1
+  - avatar_code: Bow
+    count: 1
+  - avatar_code: Fiona
+    count: 1
+  - avatar_code: Myu65
+    count: 1
   type_distribution:
   - type: costume
-    count: 30
-  - type: avatar
-    count: 9
+    count: 32
   - type: gimmick
     count: 7
+  - type: avatar
+    count: 6
   - type: texture
     count: 4
   - type: tool
@@ -238,3 +252,5 @@ rankings:
     count: 2
   - type: world
     count: 2
+  - type: accessory
+    count: 1

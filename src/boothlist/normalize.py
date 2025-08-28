@@ -460,10 +460,11 @@ class DataNormalizer:
         # Enhanced Japanese patterns including new avatars
         japanese_patterns = [
             r'対応アバター[：:]\s*([^。\n]+)',
-            r'対応[：:]?\s*([^。\n]*(?:セレスティア|桔梗|かなえ|しなの|マヌカ|萌|ルルネ|薄荷|瑞希|SUN|INABA|椎名|狐雨|猫メイド)[^。\n]*)',
+            r'対応[：:]?\s*([^。\n]*(?:セレスティア|桔梗|かなえ|しなの|マヌカ|萌|ルルネ|薄荷|瑞希|SUN|INABA|椎名|狐雨|猫メイド|シアン|真冬|myu65|めいゆん|フィオナ|森羅|Bow)[^。\n]*)',
             # Bracket patterns for avatar names
             r'「([^」]+)」',
             r'【([^】]+)】',
+            r'『([^』]+)』',
         ]
         
         for pattern in japanese_patterns:
@@ -486,9 +487,9 @@ class DataNormalizer:
         
         # Enhanced English patterns including new avatars
         english_patterns = [
-            r'for\s+(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)',
-            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)\s*用',
-            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid)\s+compatible',
+            r'for\s+(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)',
+            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)\s*用',
+            r'(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)\s+compatible',
         ]
         
         for pattern in english_patterns:
@@ -517,9 +518,15 @@ class DataNormalizer:
         # Normalize type
         item_type = self.normalize_type(raw_item.category)
         
-        # Improve type inference from name and description if type is 'other'
+        # Improve type inference from name and description if type is 'other' or ambiguous '3D Avatar'
         if item_type == 'other':
             item_type = self._infer_type_from_text(name, metadata.description_excerpt)
+        elif item_type == 'avatar' and raw_item.category in ['3D Avatar', '3D avatar', '3Dアバター']:
+            # Re-analyze ambiguous '3D Avatar/Model' items using context
+            inferred_type = self._infer_type_from_text(name, metadata.description_excerpt)
+            if inferred_type != 'other':  # Use inferred type if it's more specific
+                item_type = inferred_type
+                logger.debug(f"Re-classified 3D Avatar item {raw_item.item_id} from 'avatar' to '{inferred_type}'")
         
         # Normalize files
         file_list = metadata.files if metadata.files else raw_item.files
@@ -598,7 +605,7 @@ class DataNormalizer:
             },
             'avatar': {
                 'priority': 4,
-                'keywords': ['avatar', 'アバター', '3dアバター', '3d avatar']
+                'keywords': ['avatar', 'アバター', '3dアバター', '3d avatar', 'vrchat向け', 'オリジナルアバター']
             },
             'scenario': {
                 'priority': 3,
@@ -630,6 +637,43 @@ class DataNormalizer:
                     
             if score > 0:
                 type_scores[item_type] = score
+        
+        # Special handling for ambiguous "3Dモデル" cases
+        if '3dモデル' in combined_text or '3d model' in combined_text:
+            # Check for strong avatar indicators first (original avatars)
+            strong_avatar_indicators = ['オリジナル3dモデル', 'オリジナルアバター', 'original avatar',
+                                      'vrchat向け　オリジナルアバター', 'アバター本体', '3dキャラクター',
+                                      'character model', 'base model', 'アバターモデル']
+            
+            strong_avatar_score = sum(50 for indicator in strong_avatar_indicators if indicator in combined_text)
+            
+            if strong_avatar_score > 0:
+                type_scores['avatar'] = type_scores.get('avatar', 0) + strong_avatar_score
+                logger.debug(f"Strong avatar context detected, boosted avatar score by {strong_avatar_score}")
+            else:
+                # Check for costume indicators in 3Dモデル context
+                costume_indicators = ['衣装', '服', 'clothing', '着せ替え', 'ウェア', 'wear', 'dress', 
+                                    '服の形', '服装', 'outfit', 'ファッション', 'fashion', 'costume',
+                                    '構造が複雑', 'フィジックスボーン', '着用', '試着', 'halloween edition',
+                                    'for minase', 'for [a-z]+', 'puppet', 'bonny', 'ハロウィン',
+                                    '衣装.*テクスチャ', '衣装.*の.*テクスチャ']
+                
+                costume_score = 0
+                for indicator in costume_indicators:
+                    if indicator in combined_text:
+                        costume_score += 20
+                        logger.debug(f"Found costume indicator: '{indicator}'")
+                
+                # Special pattern matching for "for [avatar_name]"
+                for_pattern_matches = re.findall(r'for\s+([a-z]+)', combined_text, re.IGNORECASE)
+                if for_pattern_matches:
+                    costume_score += 30 * len(for_pattern_matches)
+                    logger.debug(f"Found 'for [avatar]' patterns: {for_pattern_matches}")
+                
+                if costume_score > 0:
+                    # Strong costume context in 3D model, override other classifications
+                    type_scores['costume'] = type_scores.get('costume', 0) + costume_score + 50
+                    logger.debug(f"3Dモデル classified as costume with score boost: {costume_score + 50}")
         
         # Return the highest scoring type
         if type_scores:
@@ -790,7 +834,7 @@ class DataNormalizer:
         patterns = [
             r'対応[アバター]*[：:]\s*([^。\n]+)',
             r'Compatible\s+with[：:]?\s*([^.\n]+)',
-            r'for\s+([^.\n]*(?:Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki)[^.\n]*)'
+            r'for\s+([^.\n]*(?:Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)[^.\n]*)'
         ]
         
         for pattern in patterns:
