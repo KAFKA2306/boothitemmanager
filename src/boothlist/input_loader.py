@@ -204,6 +204,36 @@ class InputLoader:
             return int(price_clean) if price_clean.isdigit() else None
         except (ValueError, AttributeError):
             return None
+
+    def load_chrome_history(
+        self,
+        days_back: int = 90,
+        history_path: Optional[Union[str, Path]] = None,
+    ) -> List[RawItem]:
+        """Load BOOTH items from Chrome history database."""
+        try:
+            from .chrome_history import ChromeHistoryExtractor
+        except ImportError as e:
+            logger.error(f"Chrome history extractor not available: {e}")
+            return []
+
+        extractor = ChromeHistoryExtractor(
+            history_path=Path(history_path) if history_path else None
+        )
+        records = extractor.extract_booth_ids(days_back=days_back)
+
+        items: List[RawItem] = []
+        for rec in records:
+            items.append(
+                RawItem(
+                    item_id=rec["item_id"],
+                    name=rec.get("title"),
+                    url=rec.get("url"),
+                )
+            )
+
+        logger.info(f"Loaded {len(items)} items from Chrome history")
+        return items
     
     def load_from_directory(self, input_dir: Union[str, Path]) -> List[RawItem]:
         """Load all supported files from input directory."""
