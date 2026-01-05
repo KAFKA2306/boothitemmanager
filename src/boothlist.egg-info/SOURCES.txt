@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/boothlist/__init__.py
+src/boothlist/chrome_history.py
+src/boothlist/export.py
+src/boothlist/input_loader.py
+src/boothlist/main.py
+src/boothlist/normalize.py
+src/boothlist/scrape.py
+src/boothlist.egg-info/PKG-INFO
+src/boothlist.egg-info/SOURCES.txt
+src/boothlist.egg-info/dependency_links.txt
+src/boothlist.egg-info/requires.txt
+src/boothlist.egg-info/top_level.txt
