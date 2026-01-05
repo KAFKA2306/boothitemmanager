@@ -1,19 +1,43 @@
 summary:
-  items_total: 56
+  items_total: 54
   variants_total: 8
-  shops_total: 38
-  avatars_supported: 20
+  shops_total: 36
+  avatars_supported: 17
   price_stats:
-    total_value: 75390
-    average_price: 1396
+    total_value: 67850
+    average_price: 1357
     median_price: 1000
     min_price: 100
-    max_price: 7000
-    priced_items: 54
-    free_items_count: 2
+    max_price: 6000
+    priced_items: 50
+    free_items_count: 4
     unknown_price_items: 0
 rankings:
   avatar_costume_combinations:
+  - avatar_item_id: 4035411
+    costume_item_id: 5589706
+    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Shinano
+    costume_item_id: 5589706
+    avatar_name: しなの
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
+  - avatar_item_id: avatar_Moe
+    costume_item_id: 5589706
+    avatar_name: 萌
+    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
+    count: 1
+    total_price: 1800
+    avg_price: 1800
+    median_price: 1800
   - avatar_item_id: avatar_Manuka
     costume_item_id: 5589706
     avatar_name: マヌカ
@@ -30,33 +54,9 @@ rankings:
     total_price: 1800
     avg_price: 1800
     median_price: 1800
-  - avatar_item_id: avatar_Shinano
-    costume_item_id: 5589706
-    avatar_name: しなの
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 1800
-    avg_price: 1800
-    median_price: 1800
-  - avatar_item_id: 4035411
-    costume_item_id: 5589706
-    avatar_name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 1800
-    avg_price: 1800
-    median_price: 1800
   - avatar_item_id: 4276444
     costume_item_id: 5589706
     avatar_name: オリジナル3dモデル 「かなえ」 Kanae 카나에 - cherry neru - BOOTH
-    costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
-    count: 1
-    total_price: 1800
-    avg_price: 1800
-    median_price: 1800
-  - avatar_item_id: avatar_Moe
-    costume_item_id: 5589706
-    avatar_name: 萌
     costume_name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
     count: 1
     total_price: 1800
@@ -89,35 +89,35 @@ rankings:
   - avatar_item_id: 5957830
     costume_item_id: 6089156
     avatar_name: サメっ子オリジナル3Dモデル「rurune」-ルルネ- - IKUSIA - BOOTH
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    costume_name: 😇50%Off😇【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
-  - avatar_item_id: avatar_Manuka
-    costume_item_id: 6089156
-    avatar_name: マヌカ
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
-    count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
-  - avatar_item_id: avatar_Mizuki
-    costume_item_id: 6089156
-    avatar_name: 瑞希
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
-    count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
+    total_price: 650
+    avg_price: 650
+    median_price: 650
   - avatar_item_id: avatar_Moe
     costume_item_id: 6089156
     avatar_name: 萌
-    costume_name: 【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    costume_name: 😇50%Off😇【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
     count: 1
-    total_price: 1300
-    avg_price: 1300
-    median_price: 1300
+    total_price: 650
+    avg_price: 650
+    median_price: 650
+  - avatar_item_id: avatar_Mizuki
+    costume_item_id: 6089156
+    avatar_name: 瑞希
+    costume_name: 😇50%Off😇【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 650
+    avg_price: 650
+    median_price: 650
+  - avatar_item_id: avatar_Manuka
+    costume_item_id: 6089156
+    avatar_name: マヌカ
+    costume_name: 😇50%Off😇【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
+    count: 1
+    total_price: 650
+    avg_price: 650
+    median_price: 650
   - avatar_item_id: avatar_Cian
     costume_item_id: 5098059
     avatar_name: シアン
@@ -172,21 +172,21 @@ rankings:
     avatar_name: 桔梗
     costume_name: 【8アバター対応】🌙Night Kitty🐈‍⬛ - Libero Boutique - BOOTH
     count: 1
-    total_price: 1600
-    avg_price: 1600
-    median_price: 1600
+    total_price: 1260
+    avg_price: 1260
+    median_price: 1260
   popular_shops:
   - shop_name: cherry neru
     count: 8
   - shop_name: QuQu
     count: 7
+  - shop_name: ジャム蔵
+    count: 2
   - shop_name: KingSoap
     count: 2
   - shop_name: CatPrincess
     count: 2
   - shop_name: はまのしす -hamanosis-
-    count: 2
-  - shop_name: DIMGRAY
     count: 2
   - shop_name: VRC合法チート研究会
     count: 2
@@ -198,24 +198,22 @@ rankings:
     count: 1
   popular_avatars:
   - avatar_code: Selestia
-    count: 9
+    count: 8
   - avatar_code: Kikyo
     count: 7
-  - avatar_code: Moe
-    count: 7
-  - avatar_code: Manuka
-    count: 6
   - avatar_code: Shinano
     count: 6
   - avatar_code: Kanae
     count: 6
-  - avatar_code: Hakka
+  - avatar_code: Moe
     count: 5
+  - avatar_code: Manuka
+    count: 5
+  - avatar_code: Hakka
+    count: 4
   - avatar_code: Rurune
     count: 2
   - avatar_code: Mafuyu
-    count: 2
-  - avatar_code: Shinra
     count: 2
   - avatar_code: SUN
     count: 1
@@ -223,29 +221,25 @@ rankings:
     count: 1
   - avatar_code: Cian
     count: 1
+  - avatar_code: KitsuneAme
+    count: 1
   - avatar_code: INABA
     count: 1
   - avatar_code: Shiina
     count: 1
-  - avatar_code: KitsuneAme
-    count: 1
-  - avatar_code: Bow
-    count: 1
-  - avatar_code: Meiyun
-    count: 1
-  - avatar_code: Fiona
+  - avatar_code: Shinra
     count: 1
   - avatar_code: Myu65
     count: 1
   type_distribution:
   - type: costume
-    count: 32
+    count: 30
   - type: avatar
-    count: 7
+    count: 8
   - type: gimmick
     count: 7
   - type: texture
-    count: 4
+    count: 3
   - type: tool
     count: 2
   - type: bundle

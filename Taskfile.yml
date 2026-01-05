@@ -1,0 +1,37 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build the dashboard
+    cmds:
+      - uv run python3 -m boothlist.main
+
+  serve:
+    desc: Serve the generated site
+    cmds:
+      - cd dist && python3 -m http.server 8080
+    interactive: true
+
+  clean:
+    desc: Clean build artifacts
+    cmds:
+      - rm -rf dist
+
+  clean-cache:
+    desc: Clean metadata cache
+    cmds:
+      - rm booth_item_cache.json
+
+  lint:
+    desc: Lint code
+    cmds:
+      - uv run ruff check src
+
+  format:
+    desc: Format code
+    cmds:
+      - uv run ruff format src
+
+  check:
+    desc: Run lint and format
+    deps: [lint, format]

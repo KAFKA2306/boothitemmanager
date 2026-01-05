@@ -1,0 +1,5 @@
+input_dir: "input"
+output_dir: "dist"
+cache_file: "booth_item_cache.json"
+rate_limit: 1.0
+model: "gemini-2.5-flash"
