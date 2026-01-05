@@ -210,18 +210,18 @@ items:
     size: null
     hash: null
   targets:
-  - code: Kanae
-    name: かなえ
-  - code: Manuka
-    name: マヌカ
   - code: Shinano
     name: しなの
   - code: Selestia
     name: セレスティア
-  - code: Moe
-    name: 萌
   - code: Kikyo
     name: 桔梗
+  - code: Moe
+    name: 萌
+  - code: Kanae
+    name: かなえ
+  - code: Manuka
+    name: マヌカ
   tags: []
   updated_at: '2026-01-05T12:00:57.753419'
   variants:
@@ -664,14 +664,14 @@ items:
     size: null
     hash: null
   targets:
-  - code: Rurune
-    name: ルルネ
-  - code: Manuka
-    name: マヌカ
   - code: Mizuki
     name: 瑞希
+  - code: Rurune
+    name: ルルネ
   - code: Moe
     name: 萌
+  - code: Manuka
+    name: マヌカ
   tags: []
   updated_at: '2026-01-05T12:01:07.478698'
 - item_id: 5034673
@@ -779,10 +779,10 @@ items:
     size: null
     hash: null
   targets:
-  - code: Mafuyu
-    name: 真冬
   - code: Cian
     name: シアン
+  - code: Mafuyu
+    name: 真冬
   tags: []
   updated_at: '2026-01-05T12:01:10.695229'
   variants:
@@ -1056,12 +1056,12 @@ items:
     size: null
     hash: null
   targets:
+  - code: KitsuneAme
+    name: 狐雨
   - code: Shiina
     name: 椎名
   - code: INABA
     name: INABA
-  - code: KitsuneAme
-    name: 狐雨
   tags: []
   updated_at: '2026-01-05T12:01:21.445091'
 - item_id: 6007326
@@ -1279,7 +1279,7 @@ items:
   tags: []
   updated_at: '2026-01-05T12:01:29.704558'
 - item_id: 3964938
-  type: world
+  type: texture
   name: '【3Dモデル】のらなべやカフェセット - #のらなべや - BOOTH'
   shop_name: '#のらなべや'
   creator_id: null
@@ -1361,18 +1361,18 @@ items:
     size: null
     hash: null
   targets:
-  - code: Hakka
-    name: 薄荷
-  - code: Shinra
-    name: 森羅
-  - code: Bow
-    name: Bow
-  - code: Moe
-    name: 萌
   - code: Fiona
     name: フィオナ
   - code: Meiyun
     name: めいゆん
+  - code: Shinra
+    name: 森羅
+  - code: Moe
+    name: 萌
+  - code: Bow
+    name: Bow
+  - code: Hakka
+    name: 薄荷
   tags: []
   updated_at: '2026-01-05T12:01:32.421389'
 - item_id: 5269401
@@ -1617,12 +1617,12 @@ items:
     size: null
     hash: null
   targets:
+  - code: Kikyo
+    name: 桔梗
   - code: Moe
     name: 萌
   - code: Selestia
     name: セレスティア
-  - code: Kikyo
-    name: 桔梗
   tags: []
   updated_at: '2026-01-05T12:01:42.757870'
 - item_id: 3560999
@@ -1703,16 +1703,16 @@ items:
     size: null
     hash: null
   targets:
-  - code: Kanae
-    name: かなえ
-  - code: Shinra
-    name: 森羅
-  - code: Manuka
-    name: マヌカ
   - code: Shinano
     name: しなの
+  - code: Shinra
+    name: 森羅
   - code: Moe
     name: 萌
+  - code: Kanae
+    name: かなえ
+  - code: Manuka
+    name: マヌカ
   tags: []
   updated_at: '2026-01-05T12:01:45.886409'
   variants:
@@ -2305,23 +2305,8 @@ items:
     name: しなの
   tags: []
   updated_at: '2026-01-05T20:29:51.290291'
-- item_id: 7447193
-  type: gimmick
-  name: Charmveil -チャームベイル-　 - SKYMY Workshop - BOOTH
-  shop_name: SKYMY Workshop
-  creator_id: null
-  image_url: https://booth.pximg.net/485718ed-c70c-4717-853c-0320a79dd784/i/7447193/e73abc1a-3328-4f6e-b7cb-b4c581025213_base_resized.jpg
-  url: /ja/items/7447193
-  current_price: 1700
-  description_excerpt: ・ModularAvatar セットアップ済み です。アバターの直下にPrefabを入れるだけで簡単に着せられます。
-    ・各パーツは メニューから着脱可能 です。 ・各アバターにはあらかじめ カラーバリエーション付きのPrefab をご用意しています。お好きな組み合わせに近いものを選び、改変してお楽しみください。
-    さらに、胸のニット部分をずらせるギミック（ClothShift） を搭載しています。こ
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T20:29:52.727208'
 - item_id: 6947422
-  type: world
+  type: costume
   name: '『OCEAN BLUE BIKINI』SELECT SHOP-Cornet- #オーシャンブルービキニ #セレコル - SELECT SHOP -Cornet-
     - BOOTH'
   shop_name: SELECT SHOP -Cornet-
@@ -2337,7 +2322,7 @@ items:
   tags: []
   updated_at: '2026-01-05T20:29:53.665757'
 - item_id: 6110958
-  type: avatar
+  type: costume
   name: 🩷本命ニット🩷【19アバター対応】 - てんぱすおおもり - BOOTH
   shop_name: てんぱすおおもり
   creator_id: null
@@ -2437,7 +2422,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:40.950571'
 - item_id: 6218001
-  type: tool
+  type: avatar
   name: 年末特別セール！オリジナル3Dモデル「愛狼 -Melow-」#Melow_3D - AVAKIN' - BOOTH
   shop_name: AVAKIN'
   creator_id: null
@@ -2452,7 +2437,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:41.737423'
 - item_id: 6406377
-  type: accessory
+  type: avatar
   name: ヘビっ娘オリジナル3Dモデル「うろぼ -urobo-」#urobo_3D - AVAKIN' - BOOTH
   shop_name: AVAKIN'
   creator_id: null
@@ -2498,7 +2483,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:44.893310'
 - item_id: 6333504
-  type: tool
+  type: avatar
   name: 年末特別セール！オリジナル3Dモデル「イトネ -itone-」#itone_3D - AVAKIN' - BOOTH
   shop_name: AVAKIN'
   creator_id: null
@@ -2544,7 +2529,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:47.761358'
 - item_id: 7552195
-  type: tool
+  type: gimmick
   name: もちふぃった～用プロファイル for MARUBODY - KUROMARU9 - BOOTH
   shop_name: KUROMARU9
   creator_id: null
@@ -2559,7 +2544,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:48.668033'
 - item_id: 7701184
-  type: costume
+  type: gimmick
   name: もちふぃった～変換プロファイル / まめふれんず・うささき対応 - もち山金魚 - BOOTH
   shop_name: もち山金魚
   creator_id: null
@@ -2618,7 +2603,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:51.777793'
 - item_id: 2417889
-  type: costume
+  type: avatar
   name: オリジナル3Dモデル「ユウ」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2647,7 +2632,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:53.850076'
 - item_id: 3413206
-  type: tool
+  type: avatar
   name: オリジナル3Dモデル「ミル」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2662,7 +2647,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:54.779416'
 - item_id: 4074925
-  type: tool
+  type: avatar
   name: オリジナル3Dモデル「ティナ」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2677,7 +2662,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:55.831125'
 - item_id: 4360868
-  type: accessory
+  type: avatar
   name: オリジナル3Dモデル「レイ」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2692,7 +2677,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:54.494209'
 - item_id: 4897562
-  type: accessory
+  type: avatar
   name: オリジナル3Dモデル「リリカ」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2720,7 +2705,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:56.374656'
 - item_id: 5859318
-  type: costume
+  type: avatar
   name: オリジナル3Dモデル「はるか」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2735,7 +2720,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:57.327322'
 - item_id: 6311566
-  type: costume
+  type: avatar
   name: オリジナル3Dモデル「サラ」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2749,7 +2734,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:58.687648'
 - item_id: 7108322
-  type: world
+  type: avatar
   name: オリジナル3Dアバター「もも」 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2763,7 +2748,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:22:59.491288'
 - item_id: 7723665
-  type: world
+  type: costume
   name: リナ＆リナちゃんニット衣装 - わこーのあとりえ - BOOTH
   shop_name: わこーのあとりえ
   creator_id: null
@@ -2777,7 +2762,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:00.674208'
 - item_id: 7698155
-  type: texture
+  type: gimmick
   name: U10ちゃんズ用もちふぃった〜プロファイル - KinderGarten21／常世界機構 - BOOTH
   shop_name: KinderGarten21／常世界機構
   creator_id: null
@@ -2806,7 +2791,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:02.294642'
 - item_id: 3445873
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル「チオ -Thio-」 - Fanatail - BOOTH
   shop_name: Fanatail
   creator_id: null
@@ -2821,7 +2806,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:03.282997'
 - item_id: 4054324
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル「ロックローズ -Rockrose-」 - Fanatail - BOOTH
   shop_name: Fanatail
   creator_id: null
@@ -2836,7 +2821,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:04.464021'
 - item_id: 4926106
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル「翠嵐 -Suiran-」 - Fanatail - BOOTH
   shop_name: Fanatail
   creator_id: null
@@ -2851,7 +2836,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:05.390716'
 - item_id: 6868371
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル「マトカ -Matka-」 - Fanatail - BOOTH
   shop_name: Fanatail
   creator_id: null
@@ -2925,7 +2910,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:10.471933'
 - item_id: 7427949
-  type: world
+  type: avatar
   name: 【オリジナル3Dモデル】ルリエ -Lurie-【XMAS~新年セール】 - 仮想VoidCat - BOOTH
   shop_name: 仮想VoidCat
   creator_id: null
@@ -2935,11 +2920,13 @@ items:
   description_excerpt: オリジナル3Dモデル「ルリエ(Lurie)」です。 サンプルワールド https://vrchat.com/home/world/wrld_6be503a9-01f6-416f-8c46-8df729d89e7a/info
     Designer:Yueou Modeler:Yueou 質問や問題あればBoothのDMで連絡してください。 没有Booth支付方式的朋友请从爱发电购买，不建议使用其他第三方
   files: []
-  targets: []
+  targets:
+  - code: SUN
+    name: SUN
   tags: []
   updated_at: '2026-01-05T14:23:11.393207'
 - item_id: 7643644
-  type: tool
+  type: gimmick
   name: もちふぃった～用プロファイル for KUMINBODY - NEKOKAREYA - BOOTH
   shop_name: NEKOKAREYA
   creator_id: null
@@ -2953,7 +2940,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:12.222474'
 - item_id: 7631172
-  type: tool
+  type: avatar
   name: もちふぃった～用プロファイル for ベニちゃん - イルファ商店街 - BOOTH
   shop_name: イルファ商店街
   creator_id: null
@@ -2968,7 +2955,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:13.265602'
 - item_id: 7663206
-  type: costume
+  type: gimmick
   name: はてな商店アバター用もちふぃった～プロファイル - はてな商店はなぞの店 - BOOTH
   shop_name: はてな商店はなぞの店
   creator_id: null
@@ -3043,7 +3030,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:18.333516'
 - item_id: 7746939
-  type: avatar
+  type: gimmick
   name: Seafoodsアバター　もちふぃった～プロファイル - seafoods - BOOTH
   shop_name: seafoods
   creator_id: null
@@ -3057,7 +3044,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:19.341490'
 - item_id: 5360670
-  type: accessory
+  type: avatar
   name: オリジナル3Dモデル 【きゃろん -Kyalóng- 迦龍】＋ 猫々チャイナ服 ＆ 髪型 - ゴールデン商会 - BOOTH
   shop_name: ゴールデン商会
   creator_id: null
@@ -3087,7 +3074,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:21.347875'
 - item_id: 4839004
-  type: tool
+  type: avatar
   name: オリジナル3Dアバター「右近弐式(Ukon second type)」Ver.2.04＋追加パーカー衣装 - 狐の迷い宿 - BOOTH
   shop_name: 狐の迷い宿
   creator_id: null
@@ -3102,7 +3089,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:22.349022'
 - item_id: 5558366
-  type: tool
+  type: avatar
   name: オリジナル3Dアバター「ちび右近(Chibi Ukon)」 - 狐の迷い宿 - BOOTH
   shop_name: 狐の迷い宿
   creator_id: null
@@ -3244,7 +3231,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:38.151493'
 - item_id: 5255692
-  type: accessory
+  type: avatar
   name: 【50％OFF】オリジナル3Dモデル「ラズリ -Lazuli-」 - Elychiffon - BOOTH
   shop_name: Elychiffon
   creator_id: null
@@ -3259,7 +3246,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:44.843844'
 - item_id: 5922294
-  type: tool
+  type: avatar
   name: 【無料】Quanstella - クアンステーラ　VRChat用アバター - もやししなしな - BOOTH
   shop_name: もやししなしな
   creator_id: null
@@ -3274,7 +3261,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:45.188132'
 - item_id: 6278885
-  type: gimmick
+  type: avatar
   name: オリジナル3Dモデル「ぺちにあ」 - 日良冬屋こんこ - BOOTH
   shop_name: 日良冬屋こんこ
   creator_id: null
@@ -3289,7 +3276,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:46.144623'
 - item_id: 4362233
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル「あまのよどみ」 - 日良冬屋こんこ - BOOTH
   shop_name: 日良冬屋こんこ
   creator_id: null
@@ -3304,7 +3291,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:47.116006'
 - item_id: 4342835
-  type: costume
+  type: avatar
   name: オリジナル3Dモデル『ニヴ(N.I.V.H)』 - Frank Factory＋ - BOOTH
   shop_name: Frank Factory＋
   creator_id: null
@@ -3333,7 +3320,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:49.281324'
 - item_id: 4666323
-  type: tool
+  type: gimmick
   name: オリジナル３Dモデル [E-tA-イータ-] - 黒岩工房-KuroiwaDigitalFactory- - BOOTH
   shop_name: 黒岩工房-KuroiwaDigitalFactory-
   creator_id: null
@@ -3362,7 +3349,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:51.209276'
 - item_id: 7573056
-  type: other
+  type: gimmick
   name: 変換プロファイル(もちふぃった~対応)forステラ級素体 - くまきち商店ワークス - BOOTH
   shop_name: くまきち商店ワークス
   creator_id: null
@@ -3375,7 +3362,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:52.127741'
 - item_id: 7641371
-  type: tool
+  type: gimmick
   name: もちふぃった～プロファイル【めりあ、フィラム】 - しそこんぶバーチャル支店 - BOOTH
   shop_name: しそこんぶバーチャル支店
   creator_id: null
@@ -3401,12 +3388,12 @@ items:
     ☆利用規約 本規約は、あしやまひろこ(@hiorko_TB)氏が作成したVN3ライセンス( https://ww
   files: []
   targets:
+  - code: KitsuneAme
+    name: 狐雨
   - code: Shiina
     name: 椎名
   - code: INABA
     name: INABA
-  - code: KitsuneAme
-    name: 狐雨
   tags: []
   updated_at: '2026-01-05T14:23:54.115241'
 - item_id: 7186439
@@ -3425,7 +3412,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:55.279182'
 - item_id: 7672328
-  type: costume
+  type: gimmick
   name: ワッテ2用　もちふぃった～変換プロファイル - Murixir workshop - BOOTH
   shop_name: Murixir workshop
   creator_id: null
@@ -3440,7 +3427,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:56.062814'
 - item_id: 7653708
-  type: costume
+  type: gimmick
   name: ルメラナ用　もちふぃった～変換プロファイル - Murixir workshop - BOOTH
   shop_name: Murixir workshop
   creator_id: null
@@ -3515,7 +3502,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:58.643441'
 - item_id: 7703298
-  type: costume
+  type: gimmick
   name: 【もちふぃった～】ロロミちゃんアバター向け変換プロファイル - 663-chan Shop - BOOTH
   shop_name: 663-chan Shop
   creator_id: null
@@ -3530,7 +3517,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:23:59.718003'
 - item_id: 7690877
-  type: costume
+  type: gimmick
   name: 【もちふぃった～】Minuet_Dollアバター用プロファイル ver1_1 - Minuet_Doll×72ca - BOOTH
   shop_name: Minuet_Doll×72ca
   creator_id: null
@@ -3556,7 +3543,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:01.622978'
 - item_id: 7751109
-  type: tool
+  type: gimmick
   name: '[SYOBI/HARU] もちふぃった〜 変換プロファイル | MochiFitter Profile - furplus - BOOTH'
   shop_name: furplus
   creator_id: null
@@ -3571,7 +3558,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:02.601961'
 - item_id: 7755770
-  type: avatar
+  type: gimmick
   name: おーがーめいどアバター　もちふぃった～変換プロファイル - おーがーめいど - BOOTH
   shop_name: おーがーめいど
   creator_id: null
@@ -3586,7 +3573,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:03.597959'
 - item_id: 7760017
-  type: texture
+  type: gimmick
   name: こここやアバター用もちふぃった～変換プロファイル - こここや - BOOTH
   shop_name: こここや
   creator_id: null
@@ -3692,7 +3679,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:10.745175'
 - item_id: 7696751
-  type: accessory
+  type: gimmick
   name: 【もちふぃった～】ブロキマナクアバター用プロファイル※現在順方向のみ - brochiManac - BOOTH
   shop_name: brochiManac
   creator_id: null
@@ -3722,7 +3709,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:12.623526'
 - item_id: 7534638
-  type: texture
+  type: avatar
   name: 【SALE】オリジナル3Dモデル　「翠羽 -Suiha-」 - 荒嵜造船所 - BOOTH
   shop_name: 荒嵜造船所
   creator_id: null
@@ -3736,7 +3723,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:13.773677'
 - item_id: 7796861
-  type: tool
+  type: avatar
   name: 【オリジナル3Dモデル】結月 -ゆづき-対応　もちふぃった～プロファイル - Midoya - BOOTH
   shop_name: Midoya
   creator_id: null
@@ -3823,7 +3810,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:19.689928'
 - item_id: 6905649
-  type: world
+  type: avatar
   name: オリジナル3Dモデル「ルミリ」-Rumily_Ver1.1.5 - RAKUIRO - BOOTH
   shop_name: RAKUIRO
   creator_id: null
@@ -3833,7 +3820,9 @@ items:
   description_excerpt: ⊹ ｡ ﾟ⁖ オリジナル3Dモデル「ルミリ」𓂃꙳ 🪽 ⊹ ｡ ﾟ⁖ 試着ワールド：https://vrchat.com/home/launch?worldId=wrld_3f1ce9b3-9e6b-4c40-a29c-bcfebacf7f8b
     サンプルアバターURL：（Webでログイン後、change avatarを選択で着替えられます） デフォールト：https://vrchat.com/hom
   files: []
-  targets: []
+  targets:
+  - code: SUN
+    name: SUN
   tags: []
   updated_at: '2026-01-05T14:24:20.652722'
 - item_id: 5827815
@@ -3866,7 +3855,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:22.674524'
 - item_id: 5929122
-  type: tool
+  type: avatar
   name: オリジナル3Dモデル「バイラン / Bairan」 - らんぷ商店 - BOOTH
   shop_name: らんぷ商店
   creator_id: null
@@ -3897,7 +3886,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:24.658294'
 - item_id: 7653844
-  type: texture
+  type: avatar
   name: 【無料】ヒイロ/オリジナル3Dモデル【もちふぃった～対応】 - おにいざん本舗 - BOOTH
   shop_name: おにいざん本舗
   creator_id: null
@@ -3911,7 +3900,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:25.612659'
 - item_id: 5099202
-  type: gimmick
+  type: avatar
   name: オリジナル3Dモデル「トラグルス」 - スフィア/Sphere モデル置き場 - BOOTH
   shop_name: スフィア/Sphere モデル置き場
   creator_id: null
@@ -3922,11 +3911,13 @@ items:
     VRChatへのパブリックアップロードについては、 本モデルの販売を促進するようなものであれば許可します。 例えば、本モデルの公式サンプルにさらに 自作ギミックや自作衣装を追加したデータの
     パブリックアップロードを許可します。
   files: []
-  targets: []
+  targets:
+  - code: SUN
+    name: SUN
   tags: []
   updated_at: '2026-01-05T14:24:24.416269'
 - item_id: 6382745
-  type: world
+  type: avatar
   name: 山羊のメア -Goat Mea- - masui - BOOTH
   shop_name: masui
   creator_id: null
@@ -3936,7 +3927,9 @@ items:
   description_excerpt: オリジナル3Dモデル「山羊のメア/-Goat Mea-」です。 本モデルはVRChatでの使用を想定して製作したモデルデータとなります。
     もちふぃった～用 山羊のメア順方向プロファイルを追加しました。 以下サンプルアバターを試着できるワールドです https://vrchat.com/home/world/wrld_03aab7a1-6e75-431e-b387-960e8d8c7854/info
   files: []
-  targets: []
+  targets:
+  - code: SUN
+    name: SUN
   tags: []
   updated_at: '2026-01-05T14:24:25.451698'
 - item_id: 7678585
@@ -3980,7 +3973,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:28.309958'
 - item_id: 7687000
-  type: costume
+  type: gimmick
   name: シエルちゃん - もちふぃった～変換プロファイル - ArmoireLepus -アルモワール レプス- - BOOTH
   shop_name: ArmoireLepus -アルモワール レプス-
   creator_id: null
@@ -4023,7 +4016,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:31.323286'
 - item_id: 7643193
-  type: tool
+  type: avatar
   name: オリジナル3Dモデル「あまね」 - すてぃあのおみせ - BOOTH
   shop_name: すてぃあのおみせ
   creator_id: null
@@ -4037,7 +4030,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:32.182546'
 - item_id: 4096181
-  type: tool
+  type: avatar
   name: Beryl-Terrsa(ベリル・テルサ) ExF Ver.1.0.1【VRC想定オリジナル3Dモデル】 - SakuSaku-Solid - BOOTH
   shop_name: SakuSaku-Solid
   creator_id: null
@@ -4065,7 +4058,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:35.341634'
 - item_id: 5722793
-  type: texture
+  type: avatar
   name: オリジナル3Dモデル　韻 -Hibiki- - nolilon - BOOTH
   shop_name: nolilon
   creator_id: null
@@ -4094,7 +4087,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:37.260315'
 - item_id: 7757990
-  type: tool
+  type: gimmick
   name: もちふぃった～プロファイル for【ShiChuKa-シチュカ】 - ポポん堂 - BOOTH
   shop_name: ポポん堂
   creator_id: null
@@ -4123,7 +4116,7 @@ items:
   tags: []
   updated_at: '2026-01-05T14:24:39.175591'
 - item_id: 7783861
-  type: other
+  type: gimmick
   name: もちふぃった～プロファイル「狐雪, LSbody, etc」【非公式】 - 楊枝製作所 - BOOTH
   shop_name: 楊枝製作所
   creator_id: null

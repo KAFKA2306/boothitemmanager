@@ -116,20 +116,55 @@ class AvatarDictionary:
 
     def _load_hardcoded_avatars(self):
         self.avatars = {
-            "Selestia": Avatar(code="Selestia", name_ja="セレスティア", aliases=["セレスティア", "selestia", "SELESTIA", "Celestia"]),
-            "Kikyo": Avatar(code="Kikyo", name_ja="桔梗", aliases=["桔梗", "kikyo", "KIKYO", "kikyou", "Kikyou"]),
-            "Kanae": Avatar(code="Kanae", name_ja="かなえ", aliases=["かなえ", "kanae", "KANAE", "カナエ"]),
-            "Shinano": Avatar(code="Shinano", name_ja="しなの", aliases=["しなの", "shinano", "SHINANO", "シナノ"]),
-            "Manuka": Avatar(code="Manuka", name_ja="マヌカ", aliases=["マヌカ", "manuka", "MANUKA"]),
+            "Selestia": Avatar(
+                code="Selestia",
+                name_ja="セレスティア",
+                aliases=["セレスティア", "selestia", "SELESTIA", "Celestia"],
+            ),
+            "Kikyo": Avatar(
+                code="Kikyo", name_ja="桔梗", aliases=["桔梗", "kikyo", "KIKYO", "kikyou", "Kikyou"]
+            ),
+            "Kanae": Avatar(
+                code="Kanae", name_ja="かなえ", aliases=["かなえ", "kanae", "KANAE", "カナエ"]
+            ),
+            "Shinano": Avatar(
+                code="Shinano", name_ja="しなの", aliases=["しなの", "shinano", "SHINANO", "シナノ"]
+            ),
+            "Manuka": Avatar(
+                code="Manuka", name_ja="マヌカ", aliases=["マヌカ", "manuka", "MANUKA"]
+            ),
             "Moe": Avatar(code="Moe", name_ja="萌", aliases=["萌", "moe", "MOE"]),
-            "Rurune": Avatar(code="Rurune", name_ja="ルルネ", aliases=["ルルネ", "rurune", "RURUNE"]),
+            "Rurune": Avatar(
+                code="Rurune", name_ja="ルルネ", aliases=["ルルネ", "rurune", "RURUNE"]
+            ),
             "Hakka": Avatar(code="Hakka", name_ja="薄荷", aliases=["薄荷", "hakka", "HAKKA"]),
             "Mizuki": Avatar(code="Mizuki", name_ja="瑞希", aliases=["瑞希", "mizuki", "MIZUKI"]),
             "SUN": Avatar(code="SUN", name_ja="SUN", aliases=["SUN", "Sun", "サン"]),
-            "INABA": Avatar(code="INABA", name_ja="INABA", aliases=["INABA", "Inaba", "いなば", "イナバ"]),
-            "Shiina": Avatar(code="Shiina", name_ja="椎名", aliases=["椎名", "Shiina", "SHIINA", "しいな", "シイナ"]),
-            "KitsuneAme": Avatar(code="KitsuneAme", name_ja="狐雨", aliases=["狐雨", "kitsuneame", "KITSUNEAME", "キツネアメ", "きつねあめ"]),
-            "NekoMaid": Avatar(code="NekoMaid", name_ja="猫メイド", aliases=["猫メイド", "ネコメイド", "nekomaid", "NekoMaid", "neko maid", "ネコ メイド"]),
+            "INABA": Avatar(
+                code="INABA", name_ja="INABA", aliases=["INABA", "Inaba", "いなば", "イナバ"]
+            ),
+            "Shiina": Avatar(
+                code="Shiina",
+                name_ja="椎名",
+                aliases=["椎名", "Shiina", "SHIINA", "しいな", "シイナ"],
+            ),
+            "KitsuneAme": Avatar(
+                code="KitsuneAme",
+                name_ja="狐雨",
+                aliases=["狐雨", "kitsuneame", "KITSUNEAME", "キツネアメ", "きつねあめ"],
+            ),
+            "NekoMaid": Avatar(
+                code="NekoMaid",
+                name_ja="猫メイド",
+                aliases=[
+                    "猫メイド",
+                    "ネコメイド",
+                    "nekomaid",
+                    "NekoMaid",
+                    "neko maid",
+                    "ネコ メイド",
+                ],
+            ),
         }
         self._build_alias_lookup()
 
@@ -185,13 +220,32 @@ class AvatarDictionary:
 
 class DataNormalizer:
     CATEGORY_MAPPING = {
-        "3D Avatar": "avatar", "3D Clothing": "costume", "3D Accessory": "accessory",
-        "Tool": "tool", "Gimmick": "gimmick", "gimick": "gimmick", "World": "world",
-        "Texture": "texture", "texture": "texture", "TEXTURE": "texture", "Scenario": "scenario",
-        "Bundle": "bundle", "Goods": "other", "GOODS": "other",
-        "アバター": "avatar", "衣装": "costume", "アクセサリ": "accessory", "アクセサリー": "accessory",
-        "ツール": "tool", "ギミック": "gimmick", "ワールド": "world", "テクスチャ": "texture",
-        "素材": "texture", "シナリオ": "scenario", "セット": "bundle", "グッズ": "other",
+        "3D Avatar": "avatar",
+        "3D Clothing": "costume",
+        "3D Accessory": "accessory",
+        "Tool": "tool",
+        "Gimmick": "gimmick",
+        "gimick": "gimmick",
+        "World": "world",
+        "Texture": "texture",
+        "texture": "texture",
+        "TEXTURE": "texture",
+        "Scenario": "scenario",
+        "Bundle": "bundle",
+        "Goods": "other",
+        "GOODS": "other",
+        "アバター": "avatar",
+        "衣装": "costume",
+        "アクセサリ": "accessory",
+        "アクセサリー": "accessory",
+        "ツール": "tool",
+        "ギミック": "gimmick",
+        "ワールド": "world",
+        "テクスチャ": "texture",
+        "素材": "texture",
+        "シナリオ": "scenario",
+        "セット": "bundle",
+        "グッズ": "other",
     }
 
     def __init__(self):
@@ -237,13 +291,21 @@ class DataNormalizer:
         return assets
 
     def _extract_version(self, filename: str) -> str | None:
-        version_patterns = [r"[vV](\d+(?:\.\d+)*)", r"Ver(\d+(?:\.\d+)*)", r"ver(\d+(?:\.\d+)*)", r"V(\d+(?:\.\d+)*)", r"_(\d+\.\d+)(?:\.|_|$)"]
+        version_patterns = [
+            r"[vV](\d+(?:\.\d+)*)",
+            r"Ver(\d+(?:\.\d+)*)",
+            r"ver(\d+(?:\.\d+)*)",
+            r"V(\d+(?:\.\d+)*)",
+            r"_(\d+\.\d+)(?:\.|_|$)",
+        ]
         for pattern in version_patterns:
             if match := re.search(pattern, filename):
                 return match.group(1)
         return None
 
-    def extract_avatar_targets(self, name: str, files: list[str], description: str | None = None) -> list[AvatarRef]:
+    def extract_avatar_targets(
+        self, name: str, files: list[str], description: str | None = None
+    ) -> list[AvatarRef]:
         avatar_codes = set()
         for filename in files:
             for avatar_code in self.avatar_dict.avatars.keys():
@@ -255,7 +317,11 @@ class DataNormalizer:
                 if f"_{avatar_lower}" in filename_lower:
                     avatar_codes.add(avatar_code)
                     continue
-                version_patterns = [rf"{re.escape(avatar_lower)}[_\s]*v\d", rf"\d+_{re.escape(avatar_lower)}_ver", rf"{re.escape(avatar_lower)}ver"]
+                version_patterns = [
+                    rf"{re.escape(avatar_lower)}[_\s]*v\d",
+                    rf"\d+_{re.escape(avatar_lower)}_ver",
+                    rf"{re.escape(avatar_lower)}ver",
+                ]
                 for pattern in version_patterns:
                     if re.search(pattern, filename_lower):
                         avatar_codes.add(avatar_code)
@@ -263,12 +329,14 @@ class DataNormalizer:
                 avatar = self.avatar_dict.avatars[avatar_code]
                 if avatar.name_ja and avatar.name_ja in filename:
                     avatar_codes.add(avatar_code)
-        
+
         combined_text = (name or "") + " " + (description or "")
         japanese_patterns = [
             r"対応アバター[：:]\s*([^。\n]+)",
             r"対応[：:]?\s*([^。\n]*(?:セレスティア|桔梗|かなえ|しなの|マヌカ|萌|ルルネ|薄荷|瑞希|SUN|INABA|椎名|狐雨|猫メイド|シアン|真冬|myu65|めいゆん|フィオナ|森羅|Bow)[^。\n]*)",
-            r"「([^」]+)」", r"【([^】]+)】", r"『([^』]+)』",
+            r"「([^」]+)」",
+            r"【([^】]+)】",
+            r"『([^』]+)』",
         ]
         for pattern in japanese_patterns:
             for match in re.findall(pattern, combined_text, re.IGNORECASE):
@@ -278,7 +346,7 @@ class DataNormalizer:
                         avatar_codes.add(avatar_code)
                     if self.avatar_dict.normalize_avatar(match.strip()) == avatar_code:
                         avatar_codes.add(avatar_code)
-        
+
         english_patterns = [
             r"for\s+(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)",
             r"(Selestia|Kikyo|Kanae|Shinano|Manuka|Moe|Rurune|Hakka|Mizuki|SUN|INABA|Shiina|KitsuneAme|NekoMaid|Cian|Mafuyu|myu65|Meiyun|Fiona|Shinra|Bow)\s*用",
@@ -288,7 +356,7 @@ class DataNormalizer:
             for match in re.findall(pattern, combined_text, re.IGNORECASE):
                 if normalized := self.avatar_dict.normalize_avatar(match):
                     avatar_codes.add(normalized)
-        
+
         return [ref for code in avatar_codes if (ref := self.avatar_dict.get_avatar_ref(code))]
 
     def normalize_item(self, raw_item, metadata) -> Item:
@@ -296,14 +364,20 @@ class DataNormalizer:
         item_type = self.normalize_type(raw_item.category)
         if item_type == "other":
             item_type = self._infer_type_from_text(name, metadata.description_excerpt)
-        elif item_type == "avatar" and raw_item.category in ["3D Avatar", "3D avatar", "3Dアバター"]:
+        elif item_type == "avatar" and raw_item.category in [
+            "3D Avatar",
+            "3D avatar",
+            "3Dアバター",
+        ]:
             inferred_type = self._infer_type_from_text(name, metadata.description_excerpt)
             if inferred_type != "other":
                 item_type = inferred_type
 
         file_list = metadata.files if metadata.files else raw_item.files
         normalized_files = self.normalize_files(file_list)
-        targets = self.extract_avatar_targets(name=name, files=file_list, description=metadata.description_excerpt)
+        targets = self.extract_avatar_targets(
+            name=name, files=file_list, description=metadata.description_excerpt
+        )
         if item_type == "avatar" and not targets:
             targets = self._auto_assign_avatar_targets(name, metadata.description_excerpt)
 
@@ -320,7 +394,9 @@ class DataNormalizer:
             files=normalized_files,
             targets=targets,
             tags=[],
-            updated_at=metadata.page_updated_at or metadata.scraped_at or datetime.now().isoformat(),
+            updated_at=metadata.page_updated_at
+            or metadata.scraped_at
+            or datetime.now().isoformat(),
         )
         item.variants = self.generate_variants(item)
         return item
@@ -328,16 +404,170 @@ class DataNormalizer:
     def _infer_type_from_text(self, name: str, description: str | None) -> str:
         combined_text = ((name or "") + " " + (description or "")).lower()
         type_keywords = {
-            "gimmick": {"priority": 10, "keywords": ["gimmick", "gimick", "ギミック", "modularavatar", "モジュラーアバター", "system", "システム", "仕組み", "機能", "寝返り", "ovr", "アニメーション制御"]},
-            "tool": {"priority": 9, "keywords": ["tool", "ツール", "unity", "editor", "エディタ", "インストーラ", "installer", "script", "スクリプト", "unitypackage", "ユニティ"]},
-            "world": {"priority": 8, "keywords": ["world", "ワールド", "scene", "シーン", "背景", "background", "ステージ", "マップ", "ロケーション", "空間", "カフェ", "cafe", "会場"]},
-            "texture": {"priority": 7, "keywords": ["texture", "テクスチャ", "素材", "material", "skin", "スキン", "nail", "ネイル", "肌", "ボディ", "ボディテクスチャ", "顔", "フェイス", "リップ", "唇", "眉", "まゆ", "瞳", "目", "虹彩"]},
-            "accessory": {"priority": 6, "keywords": ["accessory", "アクセサリ", "アクセサリー", "hair", "ヘア", "髪型", "hat", "帽子", "glasses", "メガネ", "ピアス", "イヤリング", "靴", "シューズ"]},
-            "costume": {"priority": 5, "keywords": ["costume", "衣装", "clothing", "dress", "outfit", "コスチューム", "ワンピース", "服装", "ドレス", "スカート", "水着", "浴衣", "セーラー", "メイド服"]},
-            "avatar": {"priority": 4, "keywords": ["avatar", "アバター", "3dアバター", "3d avatar", "vrchat向け", "オリジナルアバター"]},
-            "scenario": {"priority": 3, "keywords": ["scenario", "シナリオ", "story", "ストーリー", "物語", "台本", "セリフ"]},
-            "bundle": {"priority": 2, "keywords": ["bundle", "セット", "セット商品", "フルセット", "full set", "パック", "pack", "コレクション", "collection"]},
-            "other": {"priority": 1, "keywords": ["goods", "グッズ", "物販", "アクスタ", "ステッカー"]},
+            "gimmick": {
+                "priority": 10,
+                "keywords": [
+                    "gimmick",
+                    "gimick",
+                    "ギミック",
+                    "modularavatar",
+                    "モジュラーアバター",
+                    "system",
+                    "システム",
+                    "仕組み",
+                    "機能",
+                    "寝返り",
+                    "ovr",
+                    "アニメーション制御",
+                    "プロファイル",
+                ],
+            },
+            "tool": {
+                "priority": 9,
+                "keywords": [
+                    "tool",
+                    "ツール",
+                    "unity",
+                    "editor",
+                    "エディタ",
+                    "インストーラ",
+                    "installer",
+                    "script",
+                    "スクリプト",
+                    "unitypackage",
+                    "ユニティ",
+                ],
+            },
+            "world": {
+                "priority": 8,
+                "keywords": [
+                    "vrchatワールド",
+                    "vrcワールド",
+                    "ワールドデータ",
+                    "world asset",
+                    "ワールドアセット",
+                    "背景ステージ",
+                    "撮影ステージ",
+                ],
+            },
+            "texture": {
+                "priority": 7,
+                "keywords": [
+                    "texture",
+                    "テクスチャ",
+                    "素材",
+                    "material",
+                    "skin",
+                    "スキン",
+                    "nail",
+                    "ネイル",
+                    "肌",
+                    "ボディ",
+                    "ボディテクスチャ",
+                    "顔",
+                    "フェイス",
+                    "リップ",
+                    "唇",
+                    "眉",
+                    "まゆ",
+                    "瞳",
+                    "目",
+                    "虹彩",
+                ],
+            },
+            "accessory": {
+                "priority": 6,
+                "keywords": [
+                    "accessory",
+                    "アクセサリ",
+                    "アクセサリー",
+                    "hair",
+                    "ヘア",
+                    "髪型",
+                    "hat",
+                    "帽子",
+                    "glasses",
+                    "メガネ",
+                    "ピアス",
+                    "イヤリング",
+                    "靴",
+                    "シューズ",
+                ],
+            },
+            "costume": {
+                "priority": 5,
+                "keywords": [
+                    "costume",
+                    "衣装",
+                    "clothing",
+                    "dress",
+                    "outfit",
+                    "コスチューム",
+                    "ワンピース",
+                    "服装",
+                    "ドレス",
+                    "スカート",
+                    "水着",
+                    "浴衣",
+                    "セーラー",
+                    "メイド服",
+                    "シャツ",
+                    "ニット",
+                    "ビキニ",
+                    "bikini",
+                    "shirt",
+                    "knit",
+                    "パーカー",
+                    "ジャケット",
+                    "コート",
+                    "パンツ",
+                    "アバター対応",
+                    "ベイル",
+                    "veil",
+                ],
+            },
+            "avatar": {
+                "priority": 11,
+                "keywords": [
+                    "オリジナル3dアバター",
+                    "オリジナル3dモデル",
+                    "オリジナルアバター",
+                    "3dアバター",
+                    "3d avatar",
+                    "vrchat向け",
+                    "avatar本体",
+                ],
+            },
+            "scenario": {
+                "priority": 3,
+                "keywords": [
+                    "scenario",
+                    "シナリオ",
+                    "story",
+                    "ストーリー",
+                    "物語",
+                    "台本",
+                    "セリフ",
+                ],
+            },
+            "bundle": {
+                "priority": 2,
+                "keywords": [
+                    "bundle",
+                    "セット",
+                    "セット商品",
+                    "フルセット",
+                    "full set",
+                    "パック",
+                    "pack",
+                    "コレクション",
+                    "collection",
+                ],
+            },
+            "other": {
+                "priority": 1,
+                "keywords": ["goods", "グッズ", "物販", "アクスタ", "ステッカー"],
+            },
         }
         type_scores = {}
         for item_type, config in type_keywords.items():
@@ -347,15 +577,55 @@ class DataNormalizer:
                     score += config["priority"] * 10
             if score > 0:
                 type_scores[item_type] = score
-        
+
         if "3dモデル" in combined_text or "3d model" in combined_text:
-            strong_avatar_indicators = ["オリジナル3dモデル", "オリジナルアバター", "original avatar", "vrchat向け　オリジナルアバター", "アバター本体", "3dキャラクター", "character model", "base model", "アバターモデル", "3dモデルお買い得セット", "vrc上での使用を想定", "3dモデル.*セット", "お買い得セット.*3dモデル"]
-            strong_avatar_score = sum(50 for indicator in strong_avatar_indicators if indicator in combined_text)
+            strong_avatar_indicators = [
+                "オリジナル3dモデル",
+                "オリジナルアバター",
+                "original avatar",
+                "vrchat向け　オリジナルアバター",
+                "アバター本体",
+                "3dキャラクター",
+                "character model",
+                "base model",
+                "アバターモデル",
+                "3dモデルお買い得セット",
+                "vrc上での使用を想定",
+                "3dモデル.*セット",
+                "お買い得セット.*3dモデル",
+            ]
+            strong_avatar_score = sum(
+                50 for indicator in strong_avatar_indicators if indicator in combined_text
+            )
             if strong_avatar_score > 0:
                 type_scores["avatar"] = type_scores.get("avatar", 0) + strong_avatar_score
             else:
                 costume_indicators = [
-                    "衣装", "服", "clothing", "着せ替え", "ウェア", "wear", "dress", "服の形", "服装", "outfit", "ファッション", "fashion", "costume", "構造が複雑", "フィジックスボーン", "着用", "試着", "halloween edition", "for minase", "for [a-z]+", "puppet", "bonny", "ハロウィン", "衣装.*テクスチャ", "衣装.*の.*テクスチャ",
+                    "衣装",
+                    "服",
+                    "clothing",
+                    "着せ替え",
+                    "ウェア",
+                    "wear",
+                    "dress",
+                    "服の形",
+                    "服装",
+                    "outfit",
+                    "ファッション",
+                    "fashion",
+                    "costume",
+                    "構造が複雑",
+                    "フィジックスボーン",
+                    "着用",
+                    "試着",
+                    "halloween edition",
+                    "for minase",
+                    "for [a-z]+",
+                    "puppet",
+                    "bonny",
+                    "ハロウィン",
+                    "衣装.*テクスチャ",
+                    "衣装.*の.*テクスチャ",
                 ]
                 costume_score = 0
                 for indicator in costume_indicators:

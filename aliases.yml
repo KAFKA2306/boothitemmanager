@@ -3,17 +3,17 @@ updated_at: "2025-08-24"
 
 options:
   # 文字正規化の基本方針（実装側で可能なら適用）
-  case_insensitive: true           # 大文字小文字を区別しない
-  unicode_normalization: "NFKC"    # 全角/半角や互換文字を正規化
-  trim_whitespace: true            # 前後の空白を除去
-  collapse_inner_spaces: true      # 連続スペース/タブ/全角空白の圧縮
+  case_insensitive: true # 大文字小文字を区別しない
+  unicode_normalization: "NFKC" # 全角/半角や互換文字を正規化
+  trim_whitespace: true # 前後の空白を除去
+  collapse_inner_spaces: true # 連続スペース/タブ/全角空白の圧縮
   strip_symbols:
     - "_"
     - "-"
     - "–"
     - "—"
     - "・"
-  dedupe_aliases: true             # 重複エイリアスを自動削除
+  dedupe_aliases: true # 重複エイリアスを自動削除
 
 avatars:
   Selestia:
@@ -256,6 +256,23 @@ types:
       - "トップス"
       - "ボトムス"
       - "アウター"
+      - "シャツ"
+      - "ニット"
+      - "ビキニ"
+      - "bikini"
+      - "shirt"
+      - "knit"
+      - "Tシャツ"
+      - "パーカー"
+      - "ジャケット"
+      - "コート"
+      - "パンツ"
+      - "ショーツ"
+      - "下着"
+      - "ランジェリー"
+      - "アバター対応"
+      - "ベイル"
+      - "veil"
 
   accessory:
     aliases:
@@ -300,7 +317,7 @@ types:
       - "ギミック"
       - "gimmick"
       - "GIMMICK"
-      - "gimick"     # 誤字対策
+      - "gimick" # 誤字対策
       - "ModularAvatar"
       - "モジュラーアバター"
       - "System"
