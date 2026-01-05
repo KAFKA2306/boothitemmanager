@@ -27,6 +27,7 @@ class BoothListETL:
         item_ids = [item.item_id for item in validated_items]
         metadata_dict = self.scraper.scrape_items(item_ids, force_refresh=self.config.get("force_refresh", False))
         
+        normalized_items = []
         for raw_item in validated_items:
             metadata = metadata_dict.get(raw_item.item_id)
             if not metadata:
@@ -47,4 +48,7 @@ def main():
     config = load_config()
     etl = BoothListETL(config)
     etl.run()
+
+if __name__ == "__main__":
+    main()
 

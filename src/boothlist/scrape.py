@@ -208,6 +208,11 @@ class BoothScraper:
             if "related_item_ids" not in cached_data:
                 cached_data["related_item_ids"] = []
             cached_data.pop("updated_at", None)
+            cached_data.pop("error", None)
+            valid_keys = {'item_id', 'name', 'shop_name', 'creator_id', 'image_url', 
+                         'current_price', 'description_excerpt', 'canonical_path', 
+                         'files', 'scraped_at', 'page_updated_at', 'related_item_ids'}
+            cached_data = {k: v for k, v in cached_data.items() if k in valid_keys}
             return ItemMetadata(**cached_data)
 
         url = f"https://booth.pm/ja/items/{item_id}"
