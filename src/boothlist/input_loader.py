@@ -159,6 +159,8 @@ class InputLoader:
             all_items.extend(self.load_markdown(md_file))
         for csv_file in input_dir.glob("*.csv"):
             all_items.extend(self.load_csv(csv_file))
+        for txt_file in input_dir.glob("*.txt"):
+            all_items.extend(self.load_markdown(txt_file))
 
         seen_ids = set()
         unique_items = []
