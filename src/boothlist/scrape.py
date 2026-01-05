@@ -24,7 +24,7 @@ class ItemMetadata:
     scraped_at: str | None = None
     page_updated_at: str | None = None
     related_item_ids: list = None
-    error: str | None = None
+    related_item_ids: list = None
 
     def __post_init__(self):
         if self.files is None: self.files = []
@@ -213,18 +213,12 @@ class BoothScraper:
         url = f"https://booth.pm/ja/items/{item_id}"
         self._rate_limit_wait()
         
-        response = requests.get(url, headers=self.headers, timeout=30)
-        if response.status_code == 200:
-            metadata = self._extract_metadata(response.text, item_id, response.url)
-            self.cache[cache_key] = asdict(metadata)
-            self._save_cache()
-            return metadata
-        else:
-            error_msg = f"HTTP {response.status_code} for item {item_id}"
-            error_metadata = ItemMetadata(item_id=item_id, error=error_msg)
-            self.cache[cache_key] = asdict(error_metadata)
-            self._save_cache()
-            return error_metadata
+        response = requests.get(url, headers=self.headers)
+        response.raise_for_status()
+        metadata = self._extract_metadata(response.text, item_id, response.url)
+        self.cache[cache_key] = asdict(metadata)
+        self._save_cache()
+        return metadata
 
     def scrape_items(self, item_ids: list, force_refresh: bool = False) -> dict[int, ItemMetadata]:
         results = {}

@@ -42,18 +42,13 @@ class ChromeHistoryExtractor:
             f"Chrome history not found at {history_path}. Please ensure Chrome is installed and has been used."
         )
 
-    def extract_booth_id_from_url(self, url: str) -> Optional[int]:
+    def extract_booth_id_from_url(self, url: str) -> int | None:
         if not url:
             return None
         for regex in self.url_regex:
             match = regex.search(url)
             if match:
-                try:
-                    item_id = int(match.group(1))
-                    if 1000000 <= item_id <= 99999999:
-                        return item_id
-                except (ValueError, IndexError):
-                    continue
+                return int(match.group(1))
         return None
 
     def extract_booth_ids(self, days_back: int = 90) -> List[Dict[str, Any]]:
@@ -62,12 +57,7 @@ class ChromeHistoryExtractor:
 
         with tempfile.NamedTemporaryFile(delete=False, suffix=".db") as tmp:
             temp_path = tmp.name
-            try:
-                shutil.copy2(self.history_path, temp_path)
-            except PermissionError:
-                raise PermissionError(
-                    "Cannot access Chrome history database. Please close Chrome and try again."
-                )
+        shutil.copy2(self.history_path, temp_path)
 
         try:
             conn = sqlite3.connect(temp_path)
@@ -203,48 +193,18 @@ class ChromeHistoryExtractor:
 
 
 def main():
-    try:
-        print("Chrome履歴からBOOTH IDを抽出中...")
-        print("=" * 50)
-        extractor = ChromeHistoryExtractor()
-        items = extractor.extract_booth_ids(days_back=90)
-        if not items:
-            print("No BOOTH items found in Chrome history.")
-            return
-        print(f"\n抽出結果: {len(items)}件のBOOTH商品")
-        print("-" * 30)
-        item_ids = [item["item_id"] for item in items]
-        visit_counts = [item["visit_count"] for item in items]
-        print(f"ID範囲: {min(item_ids)} - {max(item_ids)}")
-        print(f"総訪問回数: {sum(visit_counts)}")
-        print(f"平均訪問回数: {sum(visit_counts) / len(visit_counts):.1f}")
-        print(f"最新訪問: {items[0]['last_visit'] if items else 'N/A'}")
-        print(f"\n最も訪問回数の多い10件:")
-        top_items = sorted(items, key=lambda x: x["visit_count"], reverse=True)[:10]
-        for i, item in enumerate(top_items, 1):
-            print(f"  {i:2d}. {item['item_id']}: {item['title'][:50]} (訪問: {item['visit_count']}回)")
-        print("\nファイル出力中...")
-        extractor.export_to_csv(items)
-        extractor.export_id_list(items)
-        extractor.export_analysis_json(items)
-        extractor.create_input_csv_for_boothlist(items)
-        print("\n出力ファイル:")
-        print("  - booth_ids.csv: 詳細な商品情報")
-        print("  - booth_item_ids.txt: ID一覧のみ")
-        print("  - booth_analysis.json: 詳細分析結果")
-        print("  - input/extracted_booth_ids.csv: BoothList入力用")
-        print(f"\n抽出完了! {len(items)}件のBOOTH商品IDを取得しました。")
-    except FileNotFoundError as e:
-        print(f"エラー: {e}")
-        print("Chrome がインストールされているか、履歴が存在することを確認してください。")
-    except PermissionError as e:
-        print(f"アクセスエラー: {e}")
-        print("Chrome を完全に終了してから再度実行してください。")
-    except Exception as e:
-        print(f"予期しないエラー: {e}")
-        import traceback
-        traceback.print_exc()
-
+    print("Chrome履歴からBOOTH IDを抽出中...")
+    extractor = ChromeHistoryExtractor()
+    items = extractor.extract_booth_ids(days_back=90)
+    if not items:
+        print("No BOOTH items found in Chrome history.")
+        return
+    print(f"\n抽出結果: {len(items)}件のBOOTH商品")
+    extractor.export_to_csv(items)
+    extractor.export_id_list(items)
+    extractor.export_analysis_json(items)
+    extractor.create_input_csv_for_boothlist(items)
+    print("Derived files created.")
 
 if __name__ == "__main__":
     main()

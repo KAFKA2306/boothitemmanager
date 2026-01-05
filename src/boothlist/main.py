@@ -27,10 +27,9 @@ class BoothListETL:
         item_ids = [item.item_id for item in validated_items]
         metadata_dict = self.scraper.scrape_items(item_ids, force_refresh=self.config.get("force_refresh", False))
         
-        normalized_items = []
         for raw_item in validated_items:
             metadata = metadata_dict.get(raw_item.item_id)
-            if not metadata or (metadata.error and "not found" in metadata.error.lower()):
+            if not metadata:
                 continue
             normalized_items.append(self.normalizer.normalize_item(raw_item, metadata))
 

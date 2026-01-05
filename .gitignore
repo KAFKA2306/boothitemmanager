@@ -1,5 +1,31 @@
+# Strict gitignore
+*
+
+# Directories to track
+!*/
+!src/
+!docs/
+!.github/
+
+# Files to track
+!src/**
+!docs/**
+!.github/**
+!pyproject.toml
+!README.md
+!CLAUDE.md
+!Taskfile.yml
+!aliases.yml
+!.gitignore
+!config.yaml
+
+# Force ignore clutter even within tracked categories if they appear (just in case)
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.ruff_cache/
+dist/
+booth_item_cache.json
 input/
-*Identifier
-*cache*
-input/hitaiall.py
-*test*
+*.egg-info/
