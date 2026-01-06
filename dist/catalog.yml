@@ -85,82 +85,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:00:52.258373'
-- item_id: 6890855
-  type: tool
-  name: ScaleSync Pro
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/6890855
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: ScaleSyncPro.zip
-    version: null
-    size: null
-    hash: null
-  - filename: ScaleSyncPro2.zip
-    version: null
-    size: null
-    hash: null
-  - filename: ScaleSyncPro_取扱説明書_2025-05-14.pdf
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:00:53.147597'
-- item_id: 5615535
-  type: costume
-  name: 薔薇のレイピア/Rose rapier
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5615535
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: 薔薇のレイピア.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:00:54.148838'
-- item_id: 5341080
-  type: costume
-  name: 【VRChat向け】Wedding Ring / 結婚指輪
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5341080
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Wedding_Ring.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:00:55.152647'
-- item_id: 5565467
-  type: costume
-  name: 【VRChat向け】snowflake_accessory/雪の結晶アクセサリー
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5565467
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: snowflake_choker.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:00:56.144106'
 - item_id: 5589706
   type: costume
   name: 【8アバター対応】🍭Marshmallow🍭 - cherry neru - BOOTH
@@ -602,39 +526,6 @@ items:
     name: セレスティア
   tags: []
   updated_at: '2026-01-05T12:01:05.738304'
-- item_id: 6437467
-  type: bundle
-  name: 2024 ALL PACK [ THANKS!! ]
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/6437467
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: MaisonUSAGI_ALLPACK_03.zip
-    version: null
-    size: null
-    hash: null
-  - filename: MaisonUSAGI_ALLPACK_01.zip
-    version: null
-    size: null
-    hash: null
-  - filename: MaisonUSAGI_ALLPACK_02.zip
-    version: null
-    size: null
-    hash: null
-  - filename: MAMEGHXXST_v1.01.zip
-    version: '1.01'
-    size: null
-    hash: null
-  - filename: AMA_FJ_v1.01.zip
-    version: '1.01'
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:06.147733'
 - item_id: 6089156
   type: costume
   name: 😇50%Off😇【8アバター対応】ユウナギ Yuunagi - 鈴屋RinYa - BOOTH
@@ -674,58 +565,6 @@ items:
     name: マヌカ
   tags: []
   updated_at: '2026-01-05T12:01:07.478698'
-- item_id: 5034673
-  type: costume
-  name: 【5アバター対応】BLACKFriSALE中 Fearless
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5034673
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Selestia_Fearless_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  - filename: Fearless_PSD_Girls_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  - filename: Fearless_Material_Pack_Girls_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  targets:
-  - code: Selestia
-    name: セレスティア
-  tags: []
-  updated_at: '2026-01-05T12:01:08.150168'
-- item_id: 4746202
-  type: costume
-  name: '【8アバター対応】BLACKFriSALE中 Cherish : Stay with me'
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/4746202
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Cherish_Material_Pack_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  - filename: Cherish_PSD_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  - filename: Cherish_Ver1.00.zip
-    version: '1.00'
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:09.152163'
 - item_id: 5098059
   type: costume
   name: 『シアン Cian』＆『真冬 Mafuyu』過去作対応5点セット - CatPrincess - BOOTH
@@ -881,23 +720,6 @@ items:
     name: セレスティア
   tags: []
   updated_at: '2026-01-05T12:01:13.463779'
-- item_id: 5680914
-  type: texture
-  name: '[目eye texture] 25_o''clock. Selestia(セレスティア)'
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5680914
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: 25_o_clock.Selestia.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:14.177589'
 - item_id: 4035411
   type: avatar
   name: オリジナル3Dモデル「セレスティア」ver1.02 - STUDIO JINGO - BOOTH
@@ -972,40 +794,6 @@ items:
     name: しなの
   tags: []
   updated_at: '2026-01-05T12:01:17.658949'
-- item_id: 5216107
-  type: costume
-  name: 【3Dモデル】 PUPPET BONNY:2023 Halloween Edition
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5216107
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: __Dimgray-Puppet_bonny__Full_Package_.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:18.154226'
-- item_id: 5028358
-  type: avatar
-  name: 【3Dモデル】【Chasa - HA BAEK】
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5028358
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Dimgray_-_Chasa_-_HA_BAEG.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:19.156048'
 - item_id: 4771424
   type: costume
   name: NecoLong - QuQu - BOOTH
@@ -1318,63 +1106,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:01:31.613517'
-- item_id: 4560435
-  type: texture
-  name: 神聖な瞳テクスチャ　16枚　めいゆんちゃん、フィオナちゃん、薄荷ちゃん、森羅ちゃん、New ネコメイドちゃん、萌ちゃん、Bowちゃん用
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/4560435
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: 神聖な瞳_めいゆんちゃん用__少し変更.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_めいゆんちゃん用_.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_薄荷ちゃん用_.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_フィオナちゃん用_少し変更.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_newネコメイドちゃん用_.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_Bowちゃん用_.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_森羅ちゃん用_.zip
-    version: null
-    size: null
-    hash: null
-  - filename: 神聖な瞳_萌ちゃん用_ver2.0.zip
-    version: '2.0'
-    size: null
-    hash: null
-  targets:
-  - code: Fiona
-    name: フィオナ
-  - code: Meiyun
-    name: めいゆん
-  - code: Shinra
-    name: 森羅
-  - code: Moe
-    name: 萌
-  - code: Bow
-    name: Bow
-  - code: Hakka
-    name: 薄荷
-  tags: []
-  updated_at: '2026-01-05T12:01:32.421389'
 - item_id: 5269401
   type: costume
   name: NecoMuffler - QuQu - BOOTH
@@ -1411,23 +1142,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:01:34.682705'
-- item_id: 5282061
-  type: bundle
-  name: 【85% Sale】 Black Friday Pack 【VRChat想定】
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/5282061
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: G_Set.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:35.449785'
 - item_id: 4648328
   type: costume
   name: '[5 アバター対応] cozy knit - KingSoap - BOOTH'
@@ -1487,31 +1201,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:01:38.609062'
-- item_id: 4838804
-  type: scenario
-  name: 【こちらシナリオ本編でありません】哀悼の星と、月夜の慟哭【公演用】
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/4838804
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: キャラクター紹介.pdf
-    version: null
-    size: null
-    hash: null
-  - filename: トレーラー.png
-    version: null
-    size: null
-    hash: null
-  - filename: シナリオの特徴_注意事項.pdf
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:39.447771'
 - item_id: 4693440
   type: costume
   name: 『萌(moe)ー対応』【3D衣装モデル】clothes 5set
@@ -1747,23 +1436,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:01:44.178963'
-- item_id: 3464565
-  type: gimmick
-  name: 【販売終了】しゃがみ置き換え+α【SDK3のみ】
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/3464565
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: しゃがみ置き換え_ver.1.22.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:47.416300'
 - item_id: 4688899
   type: avatar
   name: myu65 みゅうアバター - myu65 - BOOTH
@@ -1808,31 +1480,6 @@ items:
     name: 薄荷
   tags: []
   updated_at: '2026-01-05T12:01:49.850165'
-- item_id: 4483146
-  type: gimmick
-  name: ConvenientCollection - CC / シンプルな便利ギミック集
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/4483146
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Pass_for_ABT.zip
-    version: null
-    size: null
-    hash: null
-  - filename: CC_Gimmick.Ver.1.2.3.zip
-    version: null
-    size: null
-    hash: null
-  - filename: CC_Gimmick.Ver.2.0.4.zip
-    version: null
-    size: null
-    hash: null
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:01:50.425650'
 - item_id: 4511536
   type: gimmick
   name: つぶせる！押せる！ましゅまろPB(Marshmallow PB) - 綿飴屋 Wataameya - BOOTH
@@ -2213,50 +1860,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:02:00.694712'
-- item_id: 2215270
-  type: avatar
-  name: '薄荷 オリジナル3Dモデル #Hakka3D'
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/2215270
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: Hakka_v1.2_Textures_20210630.zip
-    version: '1.2'
-    size: null
-    hash: null
-  - filename: Hakka.vrm
-    version: null
-    size: null
-    hash: null
-  - filename: Hakka_VRC_v1.6-20240402.zip
-    version: '1.6'
-    size: null
-    hash: null
-  - filename: Hakka_VRC_v1.7.1-20250626.zip
-    version: 1.7.1
-    size: null
-    hash: null
-  targets:
-  - code: Hakka
-    name: 薄荷
-  tags: []
-  updated_at: '2026-01-05T12:02:01.446108'
-- item_id: 2841783
-  type: other
-  name: Item 2841783
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/2841783
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:02:02.453264'
 - item_id: 5468117
   type: other
   name: '[Mini Noir] - 桔梗 Kikyo, セレスティア Selestia, 萌 Moe, マヌカ Manuka, 愛莉 Airi, しなの
@@ -2365,45 +1968,6 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T20:29:56.133311'
-- item_id: 20210630
-  type: other
-  name: Item 20210630
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/20210630
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:02:03.451687'
-- item_id: 20240402
-  type: other
-  name: Item 20240402
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/20240402
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:02:04.442642'
-- item_id: 20250626
-  type: other
-  name: Item 20250626
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/20250626
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:02:05.446183'
 - item_id: 4825073
   type: avatar
   name: 【オリジナル3Dモデル】Lasyusha〈ラシューシャ〉 - Keenoo - BOOTH
@@ -4143,107 +3707,3 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T14:24:41.212425'
-- item_id: 73097838
-  type: other
-  name: Item 73097838
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/73097838
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:34.648788'
-- item_id: 70787649
-  type: other
-  name: Item 70787649
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/70787649
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:35.597990'
-- item_id: 70667040
-  type: other
-  name: Item 70667040
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/70667040
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:36.599704'
-- item_id: 65755217
-  type: other
-  name: Item 65755217
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/65755217
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:37.611117'
-- item_id: 51335035
-  type: other
-  name: Item 51335035
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/51335035
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:39.621715'
-- item_id: 42436576
-  type: other
-  name: Item 42436576
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/42436576
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:41.602783'
-- item_id: 43962216
-  type: other
-  name: Item 43962216
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/43962216
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:15:42.614669'
-- item_id: 12345678
-  type: other
-  name: Item 12345678
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/12345678
-  current_price: null
-  description_excerpt: null
-  files: []
-  targets: []
-  tags: []
-  updated_at: '2026-01-05T12:40:11.291157'
