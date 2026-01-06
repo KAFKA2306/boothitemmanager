@@ -72,30 +72,78 @@
             document.getElementById('total-value').textContent = ps.total_value ? `¥${ps.total_value.toLocaleString()}` : '-';
         }
         function setupFilters() {
+            // Standard Type Filters
             const types = new Set(['all']);
             allItems.forEach(item => types.add(item.type));
             const container = document.getElementById('filters');
             container.innerHTML = '';
+            
+            // Usage Filters (New)
+            const usageFilters = [
+                { id: 'all', label: 'All Items' },
+                { id: 'direct', label: 'Direct Use (Owned)' },
+                { id: 'mochi', label: 'Mochifitter Use' },
+                { id: 'orphaned', label: 'Orphaned' }
+            ];
+            
+            usageFilters.forEach(f => {
+                 const div = document.createElement('div');
+                 div.className = 'filter' + (activeFilter === f.id ? ' active' : '');
+                 div.textContent = f.label;
+                 div.dataset.type = f.id;
+                 div.addEventListener('click', () => setFilter(f.id));
+                 container.appendChild(div);
+            });
+            
+            // Separator
+             const sep = document.createElement('div');
+             sep.style.width = '100%';
+             sep.style.height = '1px';
+             sep.style.background = '#ddd';
+             sep.style.margin = '10px 0';
+             container.appendChild(sep);
+
             types.forEach(type => {
+                if (type === 'all') return; // Handled above
                 const div = document.createElement('div');
-                div.className = 'filter' + (type === 'all' ? ' active' : '');
+                div.className = 'filter' + (activeFilter === type ? ' active' : '');
                 div.textContent = type.charAt(0).toUpperCase() + type.slice(1);
                 div.dataset.type = type;
                 div.addEventListener('click', () => setFilter(type));
                 container.appendChild(div);
             });
         }
+
         function setFilter(type) {
             activeFilter = type;
-            document.querySelectorAll('.filter').forEach(f => f.classList.remove('active'));
-            document.querySelector(`[data-type="${type}"]`).classList.add('active');
+            document.querySelectorAll('.filter').forEach(f => {
+                f.classList.remove('active');
+                if (f.dataset.type === type) f.classList.add('active');
+            });
             filterItems();
         }
+
         function filterItems() {
             const term = document.getElementById('search').value.toLowerCase();
             filteredItems = allItems.filter(item => {
-                const matchFilter = activeFilter === 'all' || item.type === activeFilter;
-                const matchSearch = !term || item.name.toLowerCase().includes(term) || (item.shop_name && item.shop_name.toLowerCase().includes(term)) || (item.targets && item.targets.some(t => t.name.toLowerCase().includes(term) || t.code.toLowerCase().includes(term)));
+                let matchFilter = true;
+                if (activeFilter === 'all') {
+                    matchFilter = true;
+                } else if (activeFilter === 'direct') {
+                    matchFilter = item.tags && item.tags.includes('owned_support');
+                } else if (activeFilter === 'mochi') {
+                    matchFilter = item.tags && item.tags.includes('mochifitter_support');
+                } else if (activeFilter === 'orphaned') {
+                    matchFilter = item.tags && item.tags.includes('orphaned_support');
+                } else {
+                    // Type filter
+                    matchFilter = item.type === activeFilter;
+                }
+
+                const matchSearch = !term || item.name.toLowerCase().includes(term) 
+                    || (item.shop_name && item.shop_name.toLowerCase().includes(term)) 
+                    || (item.targets && item.targets.some(t => t.name.toLowerCase().includes(term) || t.code.toLowerCase().includes(term)));
+                
                 return matchFilter && matchSearch;
             });
             renderItems();

@@ -5,7 +5,7 @@ items:
   shop_name: ジャム蔵
   creator_id: null
   image_url: https://booth.pximg.net/9783dea9-bb6b-47a2-ae9c-f03b977eb305/i/3984867/528446cd-e0fd-4cc7-8e0f-2597b916c800_base_resized.jpg
-  url: /ja/items/3984867
+  url: https://booth.pm/ja/items/3984867
   current_price: 4000
   description_excerpt: VRChat向け　オリジナルアバター AOI －アオイ－ Ver5.2 ■■　試着はこちら　Add To FavoritesしてVRChat内で選んでください。■■
     https://vrchat.com/home/avatar/avtr_67e71961-cf36-49ec-a981-ba62e052b4ae ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
@@ -52,7 +52,7 @@ items:
   shop_name: Studio Kafka
   creator_id: null
   image_url: https://booth.pximg.net/17a86267-f14b-4150-8e46-4d10bb2e887d/i/6893042/be036888-bf24-430d-bd36-283e5758090a_base_resized.jpg
-  url: /ja/items/6893042
+  url: https://booth.pm/ja/items/6893042
   current_price: 1000
   description_excerpt: BoneSyncPro ～その「着せたい！」を、Unityだけで、もっと賢く、もっと手軽に～ 「この素敵な衣装、うちの子に着せたいのに、ボーンの構造が違いすぎて合わない…」
     「手作業でボーン名を一つ一つ見比べて、調整するなんて、気が遠くなる…」 「Blenderみたいな専門ソフトは難しそうだし、もっとUnityの中でサクッと解決したい！」
@@ -91,7 +91,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/5589706/84f45e37-11d6-420c-92eb-eb5596325faf_base_resized.jpg
-  url: /ja/items/5589706
+  url: https://booth.pm/ja/items/5589706
   current_price: 1800
   description_excerpt: しなのをフルセットに更新しました! 시나노를 풀세트에 업데이트 하였습니다! 3月20日から3月27日まで 1800円->1600円
     セール! (200円OFF) フルセット 3600円->3200円 セール! (400円OFF) 3월 20일부터 3월 27일까지 1800엔->1600엔
@@ -134,19 +134,20 @@ items:
     size: null
     hash: null
   targets:
-  - code: Shinano
-    name: しなの
-  - code: Selestia
-    name: セレスティア
-  - code: Kikyo
-    name: 桔梗
-  - code: Moe
-    name: 萌
   - code: Kanae
     name: かなえ
+  - code: Shinano
+    name: しなの
+  - code: Moe
+    name: 萌
+  - code: Kikyo
+    name: 桔梗
   - code: Manuka
     name: マヌカ
-  tags: []
+  - code: Selestia
+    name: セレスティア
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:00:57.753419'
   variants:
   - subitem_id: 5589706#variant:Kanae:8アバター対応marshmallow-cherry-neru-booth-for-かなえ
@@ -227,7 +228,7 @@ items:
   shop_name: IKUSIA
   creator_id: null
   image_url: https://booth.pximg.net/96d1d589-6879-4d30-8891-a2c6b8d64186/i/5957830/a4e0ae5b-7797-448b-80b1-e852c861e080_base_resized.jpg
-  url: /ja/items/5957830
+  url: https://booth.pm/ja/items/5957830
   current_price: 6000
   description_excerpt: 'オリジナル3Dモデル「rurune」-ルルネ- 製作者: Paryi ご購入の際は下記の商品説明と利用規約を一読ください。'
   files:
@@ -250,7 +251,8 @@ items:
   targets:
   - code: Rurune
     name: ルルネ
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:00:58.442516'
 - item_id: 6138340
   type: costume
@@ -258,7 +260,7 @@ items:
   shop_name: HB_shop
   creator_id: null
   image_url: https://booth.pximg.net/406f1641-9bb2-410e-bc9a-7269635a4e63/i/6138340/1df5069b-b313-4e0d-8b0e-cd1793f83eb6_base_resized.jpg
-  url: /ja/items/6138340
+  url: https://booth.pm/ja/items/6138340
   current_price: 2800
   description_excerpt: 『しなの-shinano-対応』【3D衣装モデル】outfit 7setです 衣装の個別購入は以下のリンクに移動してください
     https://hb1975.booth.pm/items/6020523 -Unchain https://hb1975.booth.pm/items/5850455
@@ -319,7 +321,8 @@ items:
   targets:
   - code: Shinano
     name: しなの
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:00:59.527550'
 - item_id: 6979335
   type: costume
@@ -327,7 +330,7 @@ items:
   shop_name: KingSoap
   creator_id: null
   image_url: https://booth.pximg.net/01031b78-5e76-4492-acda-5dfe5475171d/i/6979335/00f99d7a-227c-4181-b497-016abfa36638_base_resized.jpg
-  url: /ja/items/6979335
+  url: https://booth.pm/ja/items/6979335
   current_price: 1300
   description_excerpt: 5月29日から6月4日まで 1300円→680円 セール! フルセット 2500円→1350円 セール! 5월 29일부터
     6월 4일까지 1300엔→680엔 세일 중! 풀세트 2500엔→1350엔 세일 중! ▒▒▒▒▒▒ 商品説明▒▒▒▒▒▒▒ -これはvrcアバター専用の服です。
@@ -354,7 +357,7 @@ items:
   shop_name: ジャム蔵
   creator_id: null
   image_url: https://booth.pximg.net/9783dea9-bb6b-47a2-ae9c-f03b977eb305/i/6778526/48a925c3-5db4-4ab8-8973-43afe6c2c0ae_base_resized.jpg
-  url: /ja/items/6778526
+  url: https://booth.pm/ja/items/6778526
   current_price: 3000
   description_excerpt: VRChat向け　オリジナルアバター SUN －サン－ トリセツはこちら https://www.youtube.com/playlist?list=PL9JAm1YVRI-4FXF4rDP3KVEHfCejoLZ0k
     試着は こちら https://vrchat.com/home/avatar/avtr_846377ac-f77d-4e25-8001-a9363217a95a
@@ -411,7 +414,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:01.324027'
 - item_id: 5933400
   type: gimmick
@@ -420,7 +424,7 @@ items:
   shop_name: らずべりー工房
   creator_id: null
   image_url: https://booth.pximg.net/afb44726-f89d-476c-bc22-1fbfcdd41a49/i/5933400/daeff612-3204-4b7c-88e2-3edcf157c494_base_resized.jpg
-  url: /ja/items/5933400
+  url: https://booth.pm/ja/items/5933400
   current_price: 0
   description_excerpt: 'らずべりー式睡眠システムが1からの作り直しでパワーアップ！ 「「RBS SuiminSystem 2」」 主な特徴
     - 自動寝返り(仰向け,うつ伏せ,左右) - OVRでの高さ調整 - FootAnchor無しでも動作可 （サムネイル・動画のアバターは付属しません） 最新の更新：
@@ -447,7 +451,7 @@ items:
   shop_name: nHarukaの実験室
   creator_id: null
   image_url: https://booth.pximg.net/097baf76-9858-45ba-86a5-30a1e5273196/i/5453882/dbc0bde0-dd96-40ac-a471-fdd451fe1ffe_base_resized.jpg
-  url: /ja/items/5453882
+  url: https://booth.pm/ja/items/5453882
   current_price: 1000
   description_excerpt: 物理演算コンポーネントを主体とした胸揺れギミックです。 従来のPhysBoneによる胸揺れはボーンの回転（円弧運動）しか行わないため、半流体に近い胸を揺らすにはいささか能力不足なところがありました。
     そこで、物理演算コンポーネントを活用し、動きをよりリアルなものにしたのが本ギミックです。とにかく動画を見てください。 以下のような特徴があります。 ・物理演算による位置/角度の高度な制御
@@ -478,7 +482,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/6618690/77e92e33-6fc4-400f-b142-e946d6f8596b_base_resized.jpg
-  url: /ja/items/6618690
+  url: https://booth.pm/ja/items/6618690
   current_price: 1500
   description_excerpt: 📅 2025/2/21~2025/2/22 🎉ONE DAY BIG SALE🎉 ⭐Full-Set/フルセット 2800円
     -> 1980円 ⭐Single Item/単品 1500円 -> 990円 📅 2025/2/23~2025/3/9 🎉OPEN SALE🎉 ⭐Full-Set/フルセット
@@ -495,7 +499,8 @@ items:
   targets:
   - code: Selestia
     name: セレスティア
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:04.458423'
 - item_id: 6349460
   type: costume
@@ -503,7 +508,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/6349460/cce909e6-c33c-4360-945b-49695f2e1a7c_base_resized.jpg
-  url: /ja/items/6349460
+  url: https://booth.pm/ja/items/6349460
   current_price: 1400
   description_excerpt: 12/25までSALEします！ 1400円→990円 セール! フルセット 2600円→1800円 セール! 1400엔→990엔
     세일 중! 풀세트 2600엔→1800엔 세일 중! ✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼ ♣ 商品説明 ♣ vrchat以外のプラットフォームで発生したエラーに関するお問い合わせは受け付けておりません。
@@ -524,7 +529,8 @@ items:
   targets:
   - code: Selestia
     name: セレスティア
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:05.738304'
 - item_id: 6089156
   type: costume
@@ -532,7 +538,7 @@ items:
   shop_name: 鈴屋RinYa
   creator_id: null
   image_url: https://booth.pximg.net/fc331385-0db9-4af3-bd60-23c43474b8df/i/6089156/e17d5fcb-a436-4a78-b158-c2a4c6272ad3_base_resized.jpg
-  url: /ja/items/6089156
+  url: https://booth.pm/ja/items/6089156
   current_price: 650
   description_excerpt: 25.12.24から クリスマス＆年末年始セールを行います！！ 😇50％Off😇 ユウナギと言う、フリルがポイントである和風のミニドレスです。
     対応アバター（Support) 愛莉ちゃん（Airi）：https://kyubihome.booth.pm/items/6082686 萌ちゃん（Moe)　：https://kyubihome.booth.pm/items/4667400
@@ -557,13 +563,14 @@ items:
   targets:
   - code: Mizuki
     name: 瑞希
-  - code: Rurune
-    name: ルルネ
   - code: Moe
     name: 萌
   - code: Manuka
     name: マヌカ
-  tags: []
+  - code: Rurune
+    name: ルルネ
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:07.478698'
 - item_id: 5098059
   type: costume
@@ -571,7 +578,7 @@ items:
   shop_name: CatPrincess
   creator_id: null
   image_url: https://booth.pximg.net/fda1763e-ec8b-4454-9f28-02dbb6a45451/i/5098059/0f60e924-aa5d-4608-9045-44347945ecf0_base_resized.jpg
-  url: /ja/items/5098059
+  url: https://booth.pm/ja/items/5098059
   current_price: 800
   description_excerpt: 『シアン　Cian』＆『真冬　Mafuyu』対応衣装5点セットの3Dモデルです。 CatPrincess過去作品5点に対応しました！（個別販売もあり）
     セット販売は通常価格の30％OFFで少しお得になっていますのでこの機会にぜひ！ 6500円→4550円！ 　　♡┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈♡
@@ -622,7 +629,8 @@ items:
     name: シアン
   - code: Mafuyu
     name: 真冬
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:10.695229'
   variants:
   - subitem_id: 5098059#variant:Mafuyu:シアン-cian真冬-mafuyu過去作対応5点セット-catprincess-booth-for
@@ -652,7 +660,7 @@ items:
   shop_name: CatPrincess
   creator_id: null
   image_url: https://booth.pximg.net/fda1763e-ec8b-4454-9f28-02dbb6a45451/i/5271972/6c4598e9-1e02-4455-9d2e-70345f763f50_base_resized.jpg
-  url: /ja/items/5271972
+  url: https://booth.pm/ja/items/5271972
   current_price: 800
   description_excerpt: 複数アバター対応衣装『だらりんパジャマ』の3Dモデルです しわくちゃでだるだるな、ゆったりしたパジャマです 部屋着やVR睡眠などにお使いください！
     ※胸サイズ最小のみだよ！※ 　　♡┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈♡ 色改変やプリントの変更もとっても簡単にできます（ペイントツールを使った色相改変やliltoonのHDR等）
@@ -683,7 +691,7 @@ items:
   shop_name: wakamaru shop
   creator_id: null
   image_url: https://booth.pximg.net/ba1632d1-d7a2-47bf-b5c7-b1b4c83290fc/i/5876740/5180c5ad-406f-496b-a7fd-15d51558d80f_base_resized.jpg
-  url: /ja/items/5876740
+  url: https://booth.pm/ja/items/5876740
   current_price: 1000
   description_excerpt: セレスティア用の水着（2024年版）です。 リングビキニの上下セットにシャツとショートパンツを合わせました。 ビキニだけで使うのも良いと思います。
     パッケージに含まれる衣装 ビキニトップ、ビキニボトム、シャツ、ショートパンツ セレスティアは、STUDIO JINGO、ジンゴ様が制作されたモデルです。 https://jingo1016.booth.pm/items/4035411
@@ -696,7 +704,8 @@ items:
   targets:
   - code: Selestia
     name: セレスティア
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:12.488462'
 - item_id: 4274213
   type: texture
@@ -705,7 +714,7 @@ items:
   shop_name: Atelier Astra
   creator_id: null
   image_url: https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/4274213/483d9adc-0bcd-4ec1-8024-4955d8c4a60d_base_resized.jpg
-  url: /ja/items/4274213
+  url: https://booth.pm/ja/items/4274213
   current_price: 800
   description_excerpt: (English follows Japanese) ぬるぬる！てかてか！ リアルに反射する水滴とてかてかする肌質感！
     アバターのデフォルト肌テクスチャーをベースに 肌質感と水滴テクスチャーを追加する形のマテリアルなので カスタム・購入肌テクスチャーお持ちの方は この商品のマテリアルと一緒に使えます！
@@ -718,7 +727,8 @@ items:
   targets:
   - code: Selestia
     name: セレスティア
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:13.463779'
 - item_id: 4035411
   type: avatar
@@ -726,7 +736,7 @@ items:
   shop_name: STUDIO JINGO
   creator_id: null
   image_url: https://booth.pximg.net/8a7426aa-ba62-4ef0-9e7d-2c8ea96e7c9b/i/4035411/6f839883-1ab0-48fa-bfca-10c73ab7a33d_base_resized.jpg
-  url: /ja/items/4035411
+  url: https://booth.pm/ja/items/4035411
   current_price: 6000
   description_excerpt: 'オリジナル3Dモデル「セレスティア」 製作者: 진권/ジンゴ このモデルはBlender 2.83で製作されました。
     他のプログラムでの互換性は保障いたしません。'
@@ -738,7 +748,8 @@ items:
   targets:
   - code: Selestia
     name: セレスティア
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:15.274612'
 - item_id: 5315109
   type: costume
@@ -746,7 +757,7 @@ items:
   shop_name: はまのしす -hamanosis-
   creator_id: null
   image_url: https://booth.pximg.net/a5df68b2-f3ac-40b8-8d79-af96a90030da/i/5315109/fae01266-1188-4619-b418-955230c9457f_base_resized.jpg
-  url: /ja/items/5315109
+  url: https://booth.pm/ja/items/5315109
   current_price: 1000
   description_excerpt: マフラーに合わせたロングヘアです。 “マフラーしまい髪”と呼ばれるマフラー付き髪型と、マフラー無しロングヘアの2種セットです。
     吐息パーティクルは、「冬まふガール（ https://hamanosis.booth.pm/items/4385592 ）」と同じものです。 「まふろん」はModular
@@ -763,7 +774,8 @@ items:
   targets:
   - code: Shinano
     name: しなの
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:14.144691'
 - item_id: 6231687
   type: costume
@@ -771,7 +783,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/6231687/7bcddf10-d552-4e9b-ad3f-47316b331b9c_base_resized.jpg
-  url: /ja/items/6231687
+  url: https://booth.pm/ja/items/6231687
   current_price: 1500
   description_excerpt: 11/13までSALEします！ 1500円→1300円 セール! フルセット 2800円→2400円 セール! 1500엔→1300엔
     세일 중! 풀세트 2800엔→2400엔 세일 중! ✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼ ♣ 商品説明 ♣ vrchat以外のプラットフォームで発生したエラーに関するお問い合わせは受け付けておりません。
@@ -792,7 +804,8 @@ items:
   targets:
   - code: Shinano
     name: しなの
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:17.658949'
 - item_id: 4771424
   type: costume
@@ -800,7 +813,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/4771424/c8f5e1ea-5405-4d23-b58f-7beefa251e16_base_resized.jpg
-  url: /ja/items/4771424
+  url: https://booth.pm/ja/items/4771424
   current_price: 500
   description_excerpt: サラフワのロングヘアで あなたの美少女化は限界突破する！？
   files:
@@ -817,7 +830,7 @@ items:
   shop_name: ゴールデン商会
   creator_id: null
   image_url: https://booth.pximg.net/8867f724-9eb3-4336-ab8e-687a91a84ba8/i/4213786/6012ccf6-4d32-470d-ba8a-430d437d9272_base_resized.jpg
-  url: /ja/items/4213786
+  url: https://booth.pm/ja/items/4213786
   current_price: 0
   description_excerpt: 【大特価】3Dモデルお買い得セット！！ INABAと椎名と狐雨がセットになった！！ VRC上での使用を想定していますが、配信等でもご利用頂けます。
     通常7,000円 x 3モデル = 21,000円 　　　　　↓　↓　↓　 【セット価格】 =　7000円 もちふぃった～対応済み！ 変換にはINABAのFBXが必要です
@@ -844,13 +857,14 @@ items:
     size: null
     hash: null
   targets:
-  - code: KitsuneAme
-    name: 狐雨
   - code: Shiina
     name: 椎名
   - code: INABA
     name: INABA
-  tags: []
+  - code: KitsuneAme
+    name: 狐雨
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:21.445091'
 - item_id: 6007326
   type: costume
@@ -858,7 +872,7 @@ items:
   shop_name: はまのしす -hamanosis-
   creator_id: null
   image_url: https://booth.pximg.net/a5df68b2-f3ac-40b8-8d79-af96a90030da/i/6007326/d95c514f-a6ea-47b3-9d0b-dedd94e62976_base_resized.jpg
-  url: /ja/items/6007326
+  url: https://booth.pm/ja/items/6007326
   current_price: 1000
   description_excerpt: 「清楚はんなりヘア（ https://hamanosis.booth.pm/items/3485915 ）」をバージョンアップさせた、アレンジアップヘアです。
     サイドヘアが、ストレート、ふわふわ、ロング、すっきりの4パターンあります。 着物、ドレス、普段使いにもぴったりの髪型です。 「清楚はんなり NEO」はModular
@@ -879,7 +893,8 @@ items:
   targets:
   - code: Manuka
     name: マヌカ
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:22.603024'
 - item_id: 5907551
   type: costume
@@ -887,7 +902,7 @@ items:
   shop_name: Libero Boutique
   creator_id: null
   image_url: https://booth.pximg.net/1eb81c23-307c-4d3f-aab7-7c4c2ffd03ba/i/5907551/d815162c-3b01-4424-b0b7-495be1424a0d_base_resized.jpg
-  url: /ja/items/5907551
+  url: https://booth.pm/ja/items/5907551
   current_price: 1260
   description_excerpt: 販売記念 3週間 セール [Avatar]_Pack 1800円 -> 1200円 Full_Pack 3600円 ->
     2400円 ------------------------------------------------------------ Libero Boutiqueが誇らしげにお届けする初の衣装、『Night
@@ -908,7 +923,8 @@ items:
   targets:
   - code: Kikyo
     name: 桔梗
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:23.524556'
 - item_id: 4854979
   type: tool
@@ -916,7 +932,7 @@ items:
   shop_name: ショップ・ピエロトピカ
   creator_id: null
   image_url: https://booth.pximg.net/81cbb68a-3b61-404c-b85d-a653daeec881/i/4854979/089b7f64-d1de-4035-be7c-ab47fee440a5_base_resized.jpg
-  url: /ja/items/4854979
+  url: https://booth.pm/ja/items/4854979
   current_price: 500
   description_excerpt: 衣装の対応、作成に便利なツールを詰め合わせました！ UnityでのPB作業に便利なツールと、Blenderでの着せ替えに便利なツールが入っています。
     ・Kiseru (Blender) ・Skirt PB Installer (Unity) ・Animation Baker (Unity) の3つの機能があります！
@@ -939,7 +955,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/5426419/245af02e-ede4-4dda-8fd1-4014545f030c_base_resized.jpg
-  url: /ja/items/5426419
+  url: https://booth.pm/ja/items/5426419
   current_price: 1600
   description_excerpt: ☆Cute Bear!☆
   files:
@@ -958,7 +974,8 @@ items:
   targets:
   - code: Kikyo
     name: 桔梗
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:25.739732'
 - item_id: 5381043
   type: costume
@@ -966,7 +983,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/5381043/0fdb8460-1409-4f44-81b5-b12630e4239c_base_resized.jpg
-  url: /ja/items/5381043
+  url: https://booth.pm/ja/items/5381043
   current_price: 1890
   description_excerpt: 12月29日から1月5日まで 1890円→1690円 セール! (200円OFF) フルセット 3690円→3290円
     セール! (400円OFF) 12월 29일부터 1월 5일까지 1890엔→1690엔 세일중! (200엔OFF) 풀세트 3690엔→3290엔 세일중!
@@ -987,7 +1004,8 @@ items:
   targets:
   - code: Kikyo
     name: 桔梗
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:26.685133'
 - item_id: 5485641
   type: costume
@@ -995,7 +1013,7 @@ items:
   shop_name: EXTENSION CLOTHING
   creator_id: null
   image_url: https://booth.pximg.net/87b70515-e32e-4a2e-bf41-317cf2c2177c/i/5485641/0cfec889-4f2c-4983-9b80-ffb359c6eb0d_base_resized.jpg
-  url: /ja/items/5485641
+  url: https://booth.pm/ja/items/5485641
   current_price: 1800
   description_excerpt: EXTENSION CLOTHING 2024年最初の作品はセクシーキュートなメンヘラハーネスセーラー『断罪セーラー』です！！！
     2024年もEXTENSION CLOTHINGをよろしくお願いいたします💜 ―――――――――――――――――――――――――― ※フルパックはアバターが追加された際に無料で追加分をダウンロードできます。
@@ -1024,7 +1042,8 @@ items:
   targets:
   - code: Kikyo
     name: 桔梗
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T12:01:28.313994'
 - item_id: 5513166
   type: gimmick
@@ -1032,7 +1051,7 @@ items:
   shop_name: ななせ堂
   creator_id: null
   image_url: https://booth.pximg.net/aaeb6c84-5eea-4d67-a6d5-16797c527d7a/i/5513166/eae27fe7-a1fb-4e28-b9eb-7cb339cebc9f_base_resized.jpg
-  url: /ja/items/5513166
+  url: https://booth.pm/ja/items/5513166
   current_price: 300
   description_excerpt: 優越感と承認欲求を得たい人の為に作りました。 札束とハートをばらまけます 札束▶︎頭上に確定演出済みのパチンコ台が出現し、札束をばらまきます。
     当たり判定も搭載済みです。 ハート▶︎ハートをばら撒きますが、当たった場所から複数のハートが爆発し、相手をメロメロにします。 設定環境：Unity 2019.4.31f1
@@ -1050,7 +1069,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/5370827/8a1dc0f1-9b8a-411b-b8b9-a3271b600873_base_resized.jpg
-  url: /ja/items/5370827
+  url: https://booth.pm/ja/items/5370827
   current_price: 500
   description_excerpt: 🌸ワクワクの選択、幸せの到来。福袋で新年に彩りを🌸 販売期間終了後は単品での販売もしくは非公開となります。 ※再販の予定のお問い合わせをいただいても返信することはありません。ご容赦くださいますようお願い申し上げます。
     また、限定品を特別に買わせてくれないか等のご相談もお応えしかねますのでご容赦くださいますよう、お願いいたします。
@@ -1072,7 +1091,7 @@ items:
   shop_name: '#のらなべや'
   creator_id: null
   image_url: https://booth.pximg.net/2d436811-2a83-4a78-b85e-7f91f2b64288/i/3964938/7fb33e5e-1e54-4956-a23e-d05592f6fb02_base_resized.jpg
-  url: /ja/items/3964938
+  url: https://booth.pm/ja/items/3964938
   current_price: 100
   description_excerpt: 【更新】「おまとめセット」を追加しました。3品まとめてのご購入やギフトとしてのご利用にお役立てください。 （※単品で全て購入するのと全く同じデータ、全く同じお値段となっております。重複購入にご注意ください。）
     カフェっぽいメニューの3Dアイテムです。 ◆仕様◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆ ・マテリアル数：　各セット 1つ ・テクスチャ数；　各セット
@@ -1095,7 +1114,7 @@ items:
   shop_name: same不動産開発
   creator_id: null
   image_url: https://booth.pximg.net/176b79f1-d82c-4937-ab68-ec1771a02b1a/i/5231705/6310649a-0547-4169-b84b-654d4a7b4756_base_resized.jpg
-  url: /ja/items/5231705
+  url: https://booth.pm/ja/items/5231705
   current_price: 2000
   description_excerpt: VRChatで撮影した大切な思い出の写真を展示できるギャラリーを備えた、夕焼けの海を一望できる別荘ワールドです。 ミラー・切り替え式ピクチャーフレーム・明るさ調節機能・ジョインログ等の基本的ギミックおよびフルスクラッチの家具・ライトベイクデータ等は全て含まれておりますので、お気に入りの写真を差し替えるだけで自分だけの快適なホームワールドを所有いただけます。
   files:
@@ -1112,7 +1131,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/5269401/1aacb250-9f35-47ff-b64d-7c28ff7c21cb_base_resized.jpg
-  url: /ja/items/5269401
+  url: https://booth.pm/ja/items/5269401
   current_price: 500
   description_excerpt: 好評だったGothicPopセットにピッタリの 猫耳マフラーが登場！
   files:
@@ -1129,7 +1148,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/5213035/99b56d9d-db0b-471f-8f0f-d3a8920eeab0_base_resized.jpg
-  url: /ja/items/5213035
+  url: https://booth.pm/ja/items/5213035
   current_price: 900
   description_excerpt: ふわぬくっ♡VR生活も衣替え！ 色や柄が違うパターンが たくさんあってとってもお得🉐 VRCでたくさん写真も 撮ったのでそれも見てくださいね🫶
     VRCを想定した3Dモデルです。 ボディ付きコスチューム以外のモデルは付属しません。 □NewNecoMaidで使用時 アバターランクはpoorです。 △約34,800
@@ -1148,7 +1167,7 @@ items:
   shop_name: KingSoap
   creator_id: null
   image_url: https://booth.pximg.net/01031b78-5e76-4492-acda-5dfe5475171d/i/4648328/32439116-384f-46df-9cd0-448dbacb7f00_base_resized.jpg
-  url: /ja/items/4648328
+  url: https://booth.pm/ja/items/4648328
   current_price: 300
   description_excerpt: ▒▒▒▒▒▒ 商品説明▒▒▒▒▒▒▒ -これはvrcアバター専用の服です。 アバターは付属していません。 https://booth.pm/ko/items/3681787
     [Kikyo] https://booth.pm/ko/items/4035411 [Selestia] https://booth.pm/en/items/4013951
@@ -1161,7 +1180,8 @@ items:
   targets:
   - code: Kanae
     name: かなえ
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:36.794714'
 - item_id: 5211794
   type: costume
@@ -1169,7 +1189,7 @@ items:
   shop_name: ShimaShi_Shop
   creator_id: null
   image_url: https://booth.pximg.net/bc7effa3-af0e-4174-9d37-0fd3f4254b27/i/5211794/6b091ff4-4a3d-409e-bb2d-90abbfe6d8f8_base_resized.jpg
-  url: /ja/items/5211794
+  url: https://booth.pm/ja/items/5211794
   current_price: 250
   description_excerpt: 【商品概要】 幸運の四つ葉のクローバーのアクセサリーです！ 内容物はピアス（2種類）、ヘアピン（2種類）、指輪です。
     Green、Silver、GoldPinkの３色あります。（マテリアルにて色変更可能です！） Piass、HairPinはかなえ用に位置調整済みのPrefabがありますが、
@@ -1188,7 +1208,7 @@ items:
   shop_name: Firmiana
   creator_id: null
   image_url: https://booth.pximg.net/6dac1d4d-a87e-4015-a8d5-b0c554154c12/i/4441209/a8b3e367-c76a-4c3a-8d73-6108ca04df96_base_resized.jpg
-  url: /ja/items/4441209
+  url: https://booth.pm/ja/items/4441209
   current_price: 300
   description_excerpt: 【お知らせ】 ・カラバリ追加しました（計8種） ・左右反転モデルとpurefabを追加しました ・漢字無しverのテクスチャを追加しました
     ・メッシュの軽微な修正を行いました 和風モチーフの髪飾り3Dモデルです。VRChatアバター向けのアクセサリーにご利用頂けます。着物や和風改変にいかがでしょうか。
@@ -1201,60 +1221,13 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T12:01:38.609062'
-- item_id: 4693440
-  type: costume
-  name: 『萌(moe)ー対応』【3D衣装モデル】clothes 5set
-  shop_name: null
-  creator_id: null
-  image_url: null
-  url: /ja/items/4693440
-  current_price: null
-  description_excerpt: null
-  files:
-  - filename: HB_winter_shawl_dress_moe.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_city_life_wear_moe.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_loose_fit_knit_moe.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_LOPM_goth_moe.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_loose_fit_knit_moe_1_01.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_loose_fit_knit_moe_1_02.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_city_life_wear_moe_v_1_01.zip
-    version: null
-    size: null
-    hash: null
-  - filename: HB_swimwear_2se_moe_v_1_01.zip
-    version: null
-    size: null
-    hash: null
-  targets:
-  - code: Moe
-    name: 萌
-  tags: []
-  updated_at: '2026-01-05T12:01:40.429790'
 - item_id: 4816688
   type: costume
   name: 「薄荷」専用【3D衣装モデル】薄荷ちゃんセールパッケージ - Noah’sArk【α】 - BOOTH
   shop_name: Noah’sArk【α】
   creator_id: null
   image_url: https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/4816688/d86126e2-6ce8-4bb9-b7b3-363eb4d1caf3_base_resized.jpg
-  url: /ja/items/4816688
+  url: https://booth.pm/ja/items/4816688
   current_price: 2500
   description_excerpt: 「薄荷」専用【3D衣装モデル】薄荷ちゃんセールパッケージ Noah’sArkにより制作された、オリジナル3D衣装モデルです。
     以下に、商品に関しましての説明、利用規約が記載されておりますので、 ご購入の前に必ずお読みいただき、ご了承された上でご購入をお願い致します。 〔mio〕オリジナル3Dモデル「薄荷（はっか）」専用衣装モデルになります。
@@ -1275,7 +1248,8 @@ items:
   targets:
   - code: Hakka
     name: 薄荷
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:41.691504'
 - item_id: 4768519
   type: costume
@@ -1283,7 +1257,7 @@ items:
   shop_name: VAGRANT
   creator_id: null
   image_url: https://booth.pximg.net/4a8b2e27-d374-4781-866c-9257a10bf56d/i/4768519/615a046f-2949-42a2-aca9-7761778f9e5a_base_resized.jpg
-  url: /ja/items/4768519
+  url: https://booth.pm/ja/items/4768519
   current_price: 2200
   description_excerpt: 皆様のご要望にお応えするため、萌ちゃん用のナイト・イン・シャンハイを桔梗ちゃんとセレスティアちゃんに対応した商品です。
     ・適用にはAvatarToolsを推奨します(使わないと胸の部分がはみ出るかもしれません) https://booth.pm/ja/items/1564788
@@ -1306,13 +1280,14 @@ items:
     size: null
     hash: null
   targets:
-  - code: Kikyo
-    name: 桔梗
   - code: Moe
     name: 萌
   - code: Selestia
     name: セレスティア
-  tags: []
+  - code: Kikyo
+    name: 桔梗
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:42.757870'
 - item_id: 3560999
   type: texture
@@ -1320,7 +1295,7 @@ items:
   shop_name: もちもちしょっぷ
   creator_id: null
   image_url: https://booth.pximg.net/3fd813bf-9595-4e56-86e3-97aba0ee8c51/i/3560999/672a0a84-cd6a-4dfb-8154-0b41ce02f5a9_base_resized.jpg
-  url: /ja/items/3560999
+  url: https://booth.pm/ja/items/3560999
   current_price: 200
   description_excerpt: ページをご覧頂きありがとうございます。 当ページの文面を必ず一読されてからのご購入をお願い致します。す。 *9アバター対応のゆめかわネイルチップです。
     *PB設定済で、ネイルピアスが付いています。 *ネイルパーツをオフにすることで、シンプルなネイルとしても使用できます。 *alphaマスク入りで爪先は透け感があります。
@@ -1339,7 +1314,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/4252664/feefdd8a-7aeb-4a32-8523-0831572e34d3_base_resized.jpg
-  url: /ja/items/4252664
+  url: https://booth.pm/ja/items/4252664
   current_price: 1500
   description_excerpt: 💗スキ10000ありがとうございます💗 良かったらスキボタンぽちっとお願いします<(_ _)> 公式対応衣装・アイテムもぞくぞく登場🎉
     NecoMaidアバターの完全ガイド https://ququ.fanbox.cc/posts/8358152
@@ -1373,7 +1348,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/4657371/18edc45c-e897-43ce-8830-b8e399f772ce_base_resized.jpg
-  url: /ja/items/4657371
+  url: https://booth.pm/ja/items/4657371
   current_price: 1200
   description_excerpt: フルセ,萌,森羅,しなの,愛莉ットにマヌカ対応追加しました！ 마누카,모에,신라,시나노,아이리를 풀세트에 업데이트
     하였습니다 =====【商品説明】===== 商品画像に該当するアバターは提供されておりません。 https://booth.pm/ko/items/4035411[Selestia]
@@ -1392,17 +1367,18 @@ items:
     size: null
     hash: null
   targets:
-  - code: Shinano
-    name: しなの
-  - code: Shinra
-    name: 森羅
-  - code: Moe
-    name: 萌
   - code: Kanae
     name: かなえ
+  - code: Shinra
+    name: 森羅
+  - code: Shinano
+    name: しなの
+  - code: Moe
+    name: 萌
   - code: Manuka
     name: マヌカ
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:45.886409'
   variants:
   - subitem_id: 4657371#variant:Kanae:11アバター対応classy-cherry-neru-booth-for-かなえ
@@ -1423,7 +1399,7 @@ items:
   shop_name: からあげの衣
   creator_id: null
   image_url: https://booth.pximg.net/14150ae9-94f9-42b0-8335-f886886354bb/i/4606216/438b3291-d672-4f48-8f0e-1de4a58d5319_base_resized.jpg
-  url: /ja/items/4606216
+  url: https://booth.pm/ja/items/4606216
   current_price: 200
   description_excerpt: ◆概要◆ ギミックのついたくまのカップケーキです🐻 ModularAvatar対応なので簡単に導入できます！ 動きは動画をご覧ください。
     ①追従する ②撫でると喜ぶ ③5秒ほど撫でるとクッキーを出す ④さくらんぼを引っ張ると表情が変わる ⑤頭に乗せられる クッキーは手にとって食べることができます！人にも食べさせられます！また、一定時間放置すると自動で懐に仕舞います。
@@ -1442,7 +1418,7 @@ items:
   shop_name: myu65
   creator_id: null
   image_url: https://booth.pximg.net/94b1016e-6978-486b-b6e7-ce53ee9998a3/i/4688899/41137c33-15b0-4b44-9111-5a3a23d9c8fc_base_resized.jpg
-  url: /ja/items/4688899
+  url: https://booth.pm/ja/items/4688899
   current_price: 500
   description_excerpt: みゅう声でみゅうアバターになる用のやつ https://myu65.booth.pm/items/4684361
   files:
@@ -1453,7 +1429,8 @@ items:
   targets:
   - code: Myu65
     name: myu65
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:48.520137'
 - item_id: 4616378
   type: costume
@@ -1461,7 +1438,7 @@ items:
   shop_name: ふぃーねちゃんのあれこれ
   creator_id: null
   image_url: https://booth.pximg.net/106a9b73-f127-496f-8459-cf9f7a37788c/i/4616378/91e71c88-8098-4bc4-892c-3a5e69518aca_base_resized.jpg
-  url: /ja/items/4616378
+  url: https://booth.pm/ja/items/4616378
   current_price: 1000
   description_excerpt: '*****他アバター対応版も含めたフルパックも出品されますのでフルパックが欲しい方は発売までお待ちください…！*****
     フルパック販売開始しました 【23アバター対応】季節の移ろい https://3dfactorydayo.booth.pm/items/4654152 VRChat想定の衣装になります！
@@ -1478,7 +1455,8 @@ items:
   targets:
   - code: Hakka
     name: 薄荷
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:49.850165'
 - item_id: 4511536
   type: gimmick
@@ -1486,7 +1464,7 @@ items:
   shop_name: 綿飴屋 Wataameya
   creator_id: null
   image_url: https://booth.pximg.net/fa10e05a-2beb-4ed5-bce0-808f4aa52e0b/i/4511536/1ad42baf-565a-467e-b4ff-8891eb62112a_base_resized.jpg
-  url: /ja/items/4511536
+  url: https://booth.pm/ja/items/4511536
   current_price: 0
   description_excerpt: ↓ [English version/한국어판/中文版本] ver2.0アップデート！ ver1.0からシステムを大幅に組み直し、より重量感のある揺れを実現！
     横つぶれ機能や貫通対策など、様々な新機能を追加しています！
@@ -1656,7 +1634,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/4001390/4efc257a-64b1-4c61-bd81-5570a7b5edc1_base_resized.jpg
-  url: /ja/items/4001390
+  url: https://booth.pm/ja/items/4001390
   current_price: 500
   description_excerpt: 💝PhysBone対応prefabあります💝 🎨UTS、liltoonそれぞれのPrefabあります🎨 △ポリゴン数約17,000
     マテリアル1つ ※liltoon用、UTS用それぞれ１４色改変用にご用意があります。 推奨アバター Uシリーズ U https://sonovr.booth.pm/items/2736146
@@ -1675,7 +1653,7 @@ items:
   shop_name: QuQu
   creator_id: null
   image_url: https://booth.pximg.net/4e6e372d-f626-416b-beec-b0f50d2c2743/i/4417480/5b2dc4cd-4918-4dd1-87f9-ac0a5ec4b0ed_base_resized.jpg
-  url: /ja/items/4417480
+  url: https://booth.pm/ja/items/4417480
   current_price: 500
   description_excerpt: 販売期間終了後は単品での販売もしくは非公開となります。 ※再販の予定のお問い合わせをいただいても返信することはありません。ご容赦くださいますようお願い申し上げます。
     また、限定品を特別に買わせてくれないか等のご相談もお応えしかねますのでご容赦くださいますよう、お願いいたします。 着物単品 https://sonovr.booth.pm/items/5283022
@@ -1698,7 +1676,7 @@ items:
   shop_name: '#ぬいぬい堂'
   creator_id: null
   image_url: https://booth.pximg.net/eb943a3d-16d6-4ee0-beb7-4adb575e5204/i/3732851/3891d0cc-71c2-47b1-acdf-f66dee737387_base_resized.jpg
-  url: /ja/items/3732851
+  url: https://booth.pm/ja/items/3732851
   current_price: 200
   description_excerpt: 夕焼けと夜空のテーマのネイルを片方ずつ、詰め込んだ少し欲張りなネイルです。改編次第で、片方だけのテーマにすることも可能です。
     おまけはここだけでしか貰えない限定アイテクスチャ。 (現在ソレイル対応のみ。メッセージにて対応増量要望受付中) 暖色と寒色の花火が、目の中にきれいに咲き誇ります。
@@ -1721,7 +1699,7 @@ items:
   shop_name: 3up♡♡♡
   creator_id: null
   image_url: https://booth.pximg.net/2fbe6a63-31d7-4787-8a46-7cd6b1c7786a/i/4159412/779080a3-1c00-4304-882f-ef211aee091b_base_resized.jpg
-  url: /ja/items/4159412
+  url: https://booth.pm/ja/items/4159412
   current_price: 800
   description_excerpt: ⋈ 最新アップデート ⋈ 9/21 足首のウェイトを少し修正しました　(ver.1.3)
   files:
@@ -1740,7 +1718,8 @@ items:
   targets:
   - code: Hakka
     name: 薄荷
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:01:55.566833'
 - item_id: 3367395
   type: gimmick
@@ -1749,7 +1728,7 @@ items:
   shop_name: VRC合法チート研究会
   creator_id: null
   image_url: https://booth.pximg.net/a8057578-1c7a-4a40-a854-194c23188696/i/3367395/87123df5-e387-4041-9477-cb29a401a8a0_base_resized.jpg
-  url: /ja/items/3367395
+  url: https://booth.pm/ja/items/3367395
   current_price: 0
   description_excerpt: 2023/08/01 VRChatのアップデートによりデフォルトでアバターのスケール変更機能が実装されました❗️❗️
     それに伴い、VRCスケールチェンジシステムの機能は使用不可となったため、価格を0円に変更いたします。 長らくのご愛顧ありがとうございました❗️❗️ -------------------------------------------------------------------...
@@ -1767,7 +1746,7 @@ items:
   shop_name: VRC合法チート研究会
   creator_id: null
   image_url: https://booth.pximg.net/a8057578-1c7a-4a40-a854-194c23188696/i/3406857/2fff66bb-f75e-4319-aedc-cc4853a29120_base_resized.jpg
-  url: /ja/items/3406857
+  url: https://booth.pm/ja/items/3406857
   current_price: 300
   description_excerpt: 導入簡単！30秒でアバターへの導入が完了します！ 3点トラッキングとデスクトップでどこでも寝る体勢や座る姿勢をとることができるようになるギミックです。視点が追従し、高さを調節できるので空を飛ぶこともできます。
     仰向けでVRC睡眠をしたい作者が、Questなど3点トラッキングで快適にVRC睡眠をする為に開発しました。Quest単体で動作します！ 3点でもフルトラッキング時と同じようにVRChat上で...
@@ -1789,7 +1768,7 @@ items:
   shop_name: cherry neru
   creator_id: null
   image_url: https://booth.pximg.net/b1574cea-1837-4fdb-9654-27cc43c52f3a/i/4276444/930cdcb0-1120-4388-9946-d028ec795e43_base_resized.jpg
-  url: /ja/items/4276444
+  url: https://booth.pm/ja/items/4276444
   current_price: 5000
   description_excerpt: 11/4(金)まで4500円でセールします。 =====【オリジナル3Dモデル「かなえ(Kanae)」】===== 本アバターは、
     VRChatや購入した使用者個人の創作媒体からの使用を想定したモデルです。 以下の利用規約、モデルの説明等が記載されておりますので、 購入前に必ずお読みいただき、ご購入ください。
@@ -1818,7 +1797,8 @@ items:
   targets:
   - code: Kanae
     name: かなえ
-  tags: []
+  tags:
+  - owned_support
   updated_at: '2026-01-05T12:01:58.806778'
 - item_id: 3931778
   type: costume
@@ -1826,7 +1806,7 @@ items:
   shop_name: choco*shop
   creator_id: null
   image_url: https://booth.pximg.net/a5f25c74-6fe2-4350-8ae7-8a8622333c7a/i/3931778/a00dfa26-8b1a-4861-a027-42e31d9323b8_base_resized.jpg
-  url: /ja/items/3931778
+  url: https://booth.pm/ja/items/3931778
   current_price: 500
   description_excerpt: VRChat想定モデル向けお着替え衣装　浴衣　＊キュート＊ 創作浴衣です。 袖のある上着のカラバリ14種 インナーなどのパーツのカラバリ14種
     組み合わせで色々なスタイルを楽しんで頂けると思います。 PB対応のみになります。(DBは対応していません) －－－－－－－－－－－－－－ ●まとめパック　各アバターのzipファイルが全て個別にDLしていただけます。
@@ -1839,7 +1819,8 @@ items:
   targets:
   - code: Hakka
     name: 薄荷
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T12:02:00.040124'
 - item_id: 2310161
   type: costume
@@ -1847,7 +1828,7 @@ items:
   shop_name: snori
   creator_id: null
   image_url: https://booth.pximg.net/c2c54fd9-8977-4fc3-ac8d-a7fc8c0b8a59/i/2310161/4388f906-4a2b-4200-9ca7-6adc5eecaf3f_base_resized.jpg
-  url: /ja/items/2310161
+  url: https://booth.pm/ja/items/2310161
   current_price: 700
   description_excerpt: VRChatでの使用を想定したアバター用のヘアモデルです。 新しいフィジックスボーンに対応しています。 耳のモデルが含まれているので耳がないアバターも使えます
     リスト下記のアバターについては髪の毛のポジションとスケールがカスタムされたPrefabを提供します。 ◆ 薄荷 − https://mio3works.booth.pm/items/2215270
@@ -1867,7 +1848,7 @@ items:
   shop_name: Eliya Workshop
   creator_id: null
   image_url: https://booth.pximg.net/61410ef3-64be-45c4-825a-1b5fa662d9c5/i/5468117/616f89fe-e984-4a1f-8e6e-8850a69114fc_base_resized.jpg
-  url: /ja/items/5468117
+  url: https://booth.pm/ja/items/5468117
   current_price: 1000
   description_excerpt: 桔梗, Kikyo,키쿄 https://ponderogen.booth.pm/items/3681787 セレスティア,
     Selestia, 셀레스티아 https://jingo1016.booth.pm/items/4035411 萌, Moe, 모에 https://kyubihome.booth.pm/items/4667400
@@ -1882,7 +1863,7 @@ items:
   shop_name: Axis
   creator_id: null
   image_url: https://booth.pximg.net/7563e70c-d293-4458-b2f6-38033c36c944/i/7018378/12d724d7-4128-4d0b-b777-440556fb9d28_base_resized.jpg
-  url: /ja/items/7018378
+  url: https://booth.pm/ja/items/7018378
   current_price: 1200
   description_excerpt: 🌹商品説明🌹 Axisから初めて披露する衣装『Rosé』です🌹 美しいがトゲを持っているバラのように、 かわいいけどセクシーさを持っている衣装を作りたかったです。
     薄いシルク素材とグラデーションカラーがまるで花びらのようなドレスのような感じを与えます。 フォロー＆RPイベントもやってるのでぜひよろしくお願いいたします！
@@ -1897,7 +1878,7 @@ items:
   shop_name: ZigZag
   creator_id: null
   image_url: https://booth.pximg.net/6462285b-148c-4f39-b3ca-45938cec32e2/i/7518517/5a4f3380-ea43-469d-9222-33b55fd464e7_base_resized.jpg
-  url: /ja/items/7518517
+  url: https://booth.pm/ja/items/7518517
   current_price: 500
   description_excerpt: だぼシャツ【9アバター対応】 ■オリジナル3Dモデル「しなの」ver1.02：ポンデロニウム研究所 様 https://ponderogen.booth.pm/items/6106863
     ■オリジナル3Dモデル「ミルティナ」ver1.01.1：DOLOS art 様 https://dolosart.booth.pm/items/6538026
@@ -1906,7 +1887,8 @@ items:
   targets:
   - code: Shinano
     name: しなの
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T20:29:51.290291'
 - item_id: 6947422
   type: costume
@@ -1915,7 +1897,7 @@ items:
   shop_name: SELECT SHOP -Cornet-
   creator_id: null
   image_url: https://booth.pximg.net/5494d858-22e9-43e3-87a3-5da434827fb5/i/6947422/2fae9b70-fd15-4278-b1a0-da8ae7edca60_base_resized.jpg
-  url: /ja/items/6947422
+  url: https://booth.pm/ja/items/6947422
   current_price: 1800
   description_excerpt: 👙セレコル初 三角ビキニ👙 『OCEAN BLUE BIKINI』 ２０２５年の夏を彩る、美しい三角ビキニとカーディガンの大人コーデ♥
     今年の夏の水着はこれで決まり♥ セレコル初の本格的な三角ビキニ リゾート地を意識した、カーディガンを身に纏い、 2025年の夏のシーンを華やかに彩ります。
@@ -1930,7 +1912,7 @@ items:
   shop_name: てんぱすおおもり
   creator_id: null
   image_url: https://booth.pximg.net/2bbfc6cd-c88d-4f80-8d45-2066fcd51c78/i/6110958/8b4d54d7-58ca-4c53-9a62-f365c4d267e0_base_resized.jpg
-  url: /ja/items/6110958
+  url: https://booth.pm/ja/items/6110958
   current_price: 2000
   description_excerpt: 🩷本命ニット🩷 19アバター対応のガーリーなニットコーデです。 本命の人に会いに行く、特別な日の一着。 カラーバリエーションは12色、クリアバックとパスケースで推し活にも🤍
   files: []
@@ -1943,7 +1925,7 @@ items:
   shop_name: Noru's shop
   creator_id: null
   image_url: https://booth.pximg.net/6e8e6fe1-45b2-4c87-9627-0fda913606a4/i/5237378/fe33e8b0-6992-4fb0-a383-482a121bb333_base_resized.jpg
-  url: /ja/items/5237378
+  url: https://booth.pm/ja/items/5237378
   current_price: 500
   description_excerpt: ■以下の説明を読み、規約に同意の上で購入を行ってください。 購入をもって同意とみなします。 ■商品情報 Dynamic
     Penetration System https://booth.pm/ja/items/2825903 およびSPSで使える"穴側"の設定をModular
@@ -1959,7 +1941,7 @@ items:
   shop_name: null
   creator_id: null
   image_url: https://booth.pximg.net/31430b20-fd10-4fb6-b25b-980de981addd/i/5001027/34823206-6211-4f10-9d17-a3a945cf0f14_base_resized.jpg
-  url: /ja/items/5001027
+  url: https://booth.pm/ja/items/5001027
   current_price: null
   description_excerpt: / Version 1.10 is freshly updated. If you found any errors
     or bugs, please mail me or text in my Discord server. \ * You are allowed to create
@@ -1968,13 +1950,52 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T20:29:56.133311'
+- item_id: 20210630
+  type: other
+  name: Item 20210630
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/20210630
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:02:03.451687'
+- item_id: 20240402
+  type: other
+  name: Item 20240402
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/20240402
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:02:04.442642'
+- item_id: 20250626
+  type: other
+  name: Item 20250626
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/20250626
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:02:05.446183'
 - item_id: 4825073
   type: avatar
   name: 【オリジナル3Dモデル】Lasyusha〈ラシューシャ〉 - Keenoo - BOOTH
   shop_name: Keenoo
   creator_id: null
   image_url: https://booth.pximg.net/de9ac79a-d2ba-4cc5-a4c4-002da7a40795/i/4825073/46d77d10-f243-47a9-9784-65266da975a9_base_resized.jpg
-  url: /ja/items/4825073
+  url: https://booth.pm/ja/items/4825073
   current_price: 0
   description_excerpt: VRCでの使用を想定したオリジナルアバターになります。 ココナ、カリファ、リーシュとは別素体になります。 こちらにサンプルがございます。
     https://vrchat.com/home/launch?worldId=wrld_b27d5514-b99a-4796-8ef6-4e6649089218
@@ -1983,7 +2004,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:22:40.950571'
 - item_id: 6218001
   type: avatar
@@ -1991,7 +2013,7 @@ items:
   shop_name: AVAKIN'
   creator_id: null
   image_url: https://booth.pximg.net/a4301a27-df49-4716-ad56-06de1593e9bd/i/6218001/efa07176-ce8d-45f9-aaa5-9a4c02bbd337_base_resized.jpg
-  url: /ja/items/6218001
+  url: https://booth.pm/ja/items/6218001
   current_price: 0
   description_excerpt: VRChatでの使用を想定したオリジナル3Dモデルです。 Unity2022、VRC_SDK3.0、PhysBoneに対応。
     Vanilla共通素体。 Nekonote Art Worksとのコラボ商品、『テックセット Spathiphyllum』も同梱されます！ https://ricerockets.booth.pm/
@@ -2006,7 +2028,7 @@ items:
   shop_name: AVAKIN'
   creator_id: null
   image_url: https://booth.pximg.net/a4301a27-df49-4716-ad56-06de1593e9bd/i/6406377/ceedfdf8-f4f5-44bf-a4be-554ca769827d_base_resized.jpg
-  url: /ja/items/6406377
+  url: https://booth.pm/ja/items/6406377
   current_price: 0
   description_excerpt: 2025年の干支にちなんだヘビっ娘アバターです Vanilla共通素体。 対応衣装・アクセサリー等の制作、対応していただける方を随時大募集
     🎉 👉参加条件 　VRC対応の衣装・アクセサリー等の販売実績がある方 参加希望の方はDMください✉️
@@ -2020,7 +2042,7 @@ items:
   shop_name: AVAKIN'
   creator_id: null
   image_url: https://booth.pximg.net/a4301a27-df49-4716-ad56-06de1593e9bd/i/5839326/c3a57f05-6530-44ca-8e42-ce65e4294daa_base_resized.jpg
-  url: /ja/items/5839326
+  url: https://booth.pm/ja/items/5839326
   current_price: 0
   description_excerpt: '葉月ねこコラボアバター第一弾！ VRChatでの使用を想定したオリジナル3Dモデルです。 Unity2022、VRC_SDK3.0、PhysBoneに対応。
     ※アバター本体と蛇と華チャイナドレスのヘアアクセサリーはうろぼに合わせて作成しているので、サイズ調整が必要です ※現在AVAKINで販売しているアバターは、全て共通素体です。
@@ -2035,7 +2057,7 @@ items:
   shop_name: AVAKIN'
   creator_id: null
   image_url: https://booth.pximg.net/a4301a27-df49-4716-ad56-06de1593e9bd/i/6119302/70ab3e56-c434-48e7-903c-e87dad0beb1e_base_resized.jpg
-  url: /ja/items/6119302
+  url: https://booth.pm/ja/items/6119302
   current_price: 0
   description_excerpt: 葉月ねこコラボアバター第２弾！ VRChatでの使用を想定したオリジナル3Dモデルです。 Unity2022、VRC_SDK3.0、PhysBoneに対応。
     Vanilla共通素体。 対応衣装・アクセサリー等の制作、対応していただける方を随時大募集 🎉 👉参加条件 　VRC対応の衣装・アクセサリー等の販売実績がある方
@@ -2044,7 +2066,8 @@ items:
   targets:
   - code: Shinano
     name: しなの
-  tags: []
+  tags:
+  - mochifitter_support
   updated_at: '2026-01-05T14:22:44.893310'
 - item_id: 6333504
   type: avatar
@@ -2052,7 +2075,7 @@ items:
   shop_name: AVAKIN'
   creator_id: null
   image_url: https://booth.pximg.net/a4301a27-df49-4716-ad56-06de1593e9bd/i/6333504/3e56122b-017c-4b26-b422-f3c195652b98_base_resized.jpg
-  url: /ja/items/6333504
+  url: https://booth.pm/ja/items/6333504
   current_price: 0
   description_excerpt: イラストレーターコラボ第２弾！ 新進気鋭のイラストレーター、ichi-モゝさんとのコラボです。 --------------------
     ※「イトネのショルダーバッグ」はイトネ本体にも同梱されています。 Vanilla共通素体。 VRChatでの使用を想定したオリジナル3Dモデルです。 Unity2022、VRC_SDK3.0、PhysBoneに対応。
@@ -2067,7 +2090,7 @@ items:
   shop_name: KUROMARU9
   creator_id: null
   image_url: https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/3828632/77568536-fcea-4ea0-b94f-c6ea29529174_base_resized.jpg
-  url: /ja/items/3828632
+  url: https://booth.pm/ja/items/3828632
   current_price: 0
   description_excerpt: kuromaru9が作成したオリジナル３Dモデル「びしょぬれのしずくさん」です。 いつも濡れている不思議な女の子。頭のわっかが関係しているのかも？
     サンプルアバターはこちら💁‍♂️ https://vrchat.com/home/avatar/avtr_7c8b09a8-1395-4843-b30d-64a0f5e017ec
@@ -2075,7 +2098,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:22:46.767394'
 - item_id: 2411814
   type: avatar
@@ -2083,7 +2107,7 @@ items:
   shop_name: KUROMARU9
   creator_id: null
   image_url: https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/2411814/3ec05bbf-456b-43c2-8029-8c2b6f24c975_base_resized.jpg
-  url: /ja/items/2411814
+  url: https://booth.pm/ja/items/2411814
   current_price: 0
   description_excerpt: kuromaru9制作のオリジナル3Dモデル「バナナのばななちゃん」です。 長い髪が特徴の、元気いっぱいな女の子！みんなと仲良くなりたいな✨
     バナナが大好き！ 👕衣装は3種類付属！ 衣装はすべて【びしょぬれのしずくさん】( https://kuromaru9.booth.pm/items/3828632
@@ -2098,7 +2122,7 @@ items:
   shop_name: KUROMARU9
   creator_id: null
   image_url: https://booth.pximg.net/40e6fb67-d32a-48f9-9820-e064ff7b8670/i/7552195/a3614954-9810-492f-a0f0-e79597947768_base_resized.jpg
-  url: /ja/items/7552195
+  url: https://booth.pm/ja/items/7552195
   current_price: 0
   description_excerpt: 'もちふぃった～用のMARUBODY向けプロファイルです。 おもちのびるさんが作成した非対応衣装着せ替えツール「もちふぃった～」で使用します。
     https://yamirin.booth.pm/items/7657840 もちふぃった～とレイマーチング宝石がセットになったベリルちゃんもおすすめです💁
@@ -2113,7 +2137,7 @@ items:
   shop_name: もち山金魚
   creator_id: null
   image_url: https://booth.pximg.net/c80ffe79-d9d7-4481-bc64-40d80bcd71e6/i/7701184/5edb385d-67b5-4d78-ba78-901dd8601e7d_base_resized.jpg
-  url: /ja/items/7701184
+  url: https://booth.pm/ja/items/7701184
   current_price: 200
   description_excerpt: 'この商品を利用するためには「もちふぃった～」の導入が必要です。 ---------- 📝用途について、<うささき用>を例に解説します
     ●順変換プロファイル：他アバター対応衣装を「うささき」に着せるために使用します。 ●逆変換プロファイル：「うささき」対応衣装を他アバターに着せるために使用します。
@@ -2128,7 +2152,7 @@ items:
   shop_name: FLASTORE
   creator_id: null
   image_url: https://booth.pximg.net/1888645c-afb8-44b1-a030-7735fc75cd11/i/7611477/c4ab2c8f-16ec-400b-8c10-236c14cdb61d_base_resized.jpg
-  url: /ja/items/7611477
+  url: https://booth.pm/ja/items/7611477
   current_price: 0
   description_excerpt: こちらは"Nine Gates"様の開発予定衣装変換ツール "もちふぃった～"の、FLASTORE対応変形データとなっております。
     アプリ本体は以下のリンクよりご取得ください。 https://booth.pm/ja/items/7657840 順方向、逆方向どちらの変換にも対応しております。
@@ -2143,7 +2167,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/1808374/90de90f0-9d36-40b3-acc4-69135947e224_base_resized.jpg
-  url: /ja/items/1808374
+  url: https://booth.pm/ja/items/1808374
   current_price: 5000
   description_excerpt: 3Dモデル　スピカ Avatars 3.0対応しました～～！ りーどみーや内容物が一部微妙に異なるためお気を付けください～～
     20220425 phisbone対応しました。合わせてシェーダーの変更(UTS→liltoon)が入っているためバックアップを取ってからの更新または新規プロジェクトでの使用を推奨します。
@@ -2158,7 +2182,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/2140459/4e908cd4-59dc-4a2a-b980-2b317e8d2e71_base_resized.jpg
-  url: /ja/items/2140459
+  url: https://booth.pm/ja/items/2140459
   current_price: 4000
   description_excerpt: 現在Vketセールにて、12/21まで アバター本体　5000円→4000円にセール中です！✨良ければ良ければ～！ オリジナル3Dモデル「ミラ」
     Avatars 3.0対応しました～～！ りーどみーや内容物が一部微妙に異なるためお気を付けください～～ 20220425 phisbone対応しました。合わせてシェーダーの変更(UTS→liltoon)が入っているためバックアップを取ってからの更新また
@@ -2172,7 +2196,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/2417889/2aea4747-414f-4005-9e5d-ec6c011e08f6_base_resized.jpg
-  url: /ja/items/2417889
+  url: https://booth.pm/ja/items/2417889
   current_price: 5000
   description_excerpt: オリジナル3Dモデル「ユウ」 2023/12/03 衣装の選択肢を増やすため、になちゃん素体verを追加しました。サムネイルに使用しているになちゃんの衣装自体は同梱していないためお気を付けください。
     I have added a Nina-chan bare-body ver to give you more choices of costumes. Please
@@ -2187,7 +2211,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/3092723/59a05d61-d0f0-45d2-aa60-c1ba2213ffb9_base_resized.jpg
-  url: /ja/items/3092723
+  url: https://booth.pm/ja/items/3092723
   current_price: 5000
   description_excerpt: 元気で可愛い狐っ子です！ VRCSDK3を使用して製作しています。 VRC(PC、Quest)、clusterに対応しています。
     LifhtにはunitypackageとVRMしか入れていないためpsdなどは本体の方をインストールしてください。 20220425 phisbone対応しました。合わせてシェーダーの変更(UTS→liltoon)が入っているためバックアップを取ってからの更新または新規
@@ -2201,7 +2225,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/3413206/3601812e-b8c1-4e8e-9672-0dfbd36c5861_base_resized.jpg
-  url: /ja/items/3413206
+  url: https://booth.pm/ja/items/3413206
   current_price: 5000
   description_excerpt: となしめな犬っ子ミルちゃんです！ VRCSDK3、Unity2019.4.31にて製作しています。 20220425
     physbone対応しました。合わせてシェーダーの変更と髪テクスチャの修正が入っているためバックアップを取ってからの更新または新規プロジェクトでの使用を推奨します。
@@ -2216,7 +2240,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/4074925/de9bf842-5e93-423b-a416-59973f302e7a_base_resized.jpg
-  url: /ja/items/4074925
+  url: https://booth.pm/ja/items/4074925
   current_price: 5000
   description_excerpt: オリジナル3Dモデル「ティナ」 いたずら好きの猫っ子ティナちゃんです！ VRCSDK3、Unity2019.4.31用に製作しています。
     素体はミルちゃん、リルちゃんとほぼ同じものを使用しているためミルリル対応の服は大体着せられると思います 本モデルを購入した時点で利用規約に同意したものとします。
@@ -2231,7 +2255,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/4360868/7a8623c1-038e-48ff-a75d-efdfa3af76af_base_resized.jpg
-  url: /ja/items/4360868
+  url: https://booth.pm/ja/items/4360868
   current_price: 5000
   description_excerpt: 3Dモデル　レイ 可愛いパーカーの女の子です！ 髪型をぱっつんにしたり後ろ髪や前髪の長さ変更や胸の大きさ調整シェイプキーなどがあるので、いっぱい自分好みのレイちゃんに改変してあげてください。
     デザイン：またろ(@@mtr_prpr) もしご不明な点やバグなどありましたらTwitterにて、わこー@wako_VRchatまでご連絡いただけると嬉しいです。
@@ -2246,7 +2270,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/4897562/9c04a5ba-c76f-4a54-83b4-a96a5b613b43_base_resized.jpg
-  url: /ja/items/4897562
+  url: https://booth.pm/ja/items/4897562
   current_price: 5000
   description_excerpt: '3Dモデル　リリカ サイドテールで猫っこな女の子です！ ツインテにしたり前髪を伸ばしたり胸の大きさを調整したりもできますので、いっぱい自分好みのリリカちゃんに改変してあげてください！
     また改変した子は #うちのこリリカちゃん などでツイートしてくださるとうれしいです！ もしご不明な点やバグなどありましたらboothの問い合わせか、twitterにてわこー@wako_VRchatまでご連絡いただける'
@@ -2260,7 +2284,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/5268564/7ae0bd02-86a3-4f0c-b8f0-5333e1d2e743_base_resized.jpg
-  url: /ja/items/5268564
+  url: https://booth.pm/ja/items/5268564
   current_price: 5000
   description_excerpt: 3Dモデル　にな お家でゲームとかが好きなインドア女の子です！ 服は前側を閉じたり、胸の大きさを調整することもできます。
     また改変した子は#うちのこになちゃんでツイートしてくださるとうれしいです！
@@ -2274,7 +2298,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/5859318/2f955add-c312-4729-9eef-ebaf7627879e_base_resized.jpg
-  url: /ja/items/5859318
+  url: https://booth.pm/ja/items/5859318
   current_price: 5000
   description_excerpt: 3Dモデル　はるか 　お花や桜をちりばめた衣装な茶髪の女の子です！ 表情もいくつかアニメーションで動く表情を実装していたり、たくさんこだわって作ったのでよければ～～！
     　また今回からは新規素体なので、以前販売した衣装のうち10着ほどセットにした衣装セットも同時販売しています～～！はるかちゃん(素体)以外の子は含まれませんが、とってもお得なセットだと思うのでぜひぜひ！
@@ -2289,7 +2313,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/6311566/d1c7a772-ac94-42d9-8204-f8a301ecc6a3_base_resized.jpg
-  url: /ja/items/6311566
+  url: https://booth.pm/ja/items/6311566
   current_price: 5000
   description_excerpt: 3Dモデル へそ出しお出かけコーデなギャルっぽい感じの女の子です！ 素体ははるかちゃんと共通素体なのではるかちゃん対応している服はすべて着ることができると思います！
     ★分かりやすくするために追加しましたが、サラちゃん用衣装パックは、はるかちゃん用衣装パックとほぼ同じものです！重ねて購入しないようにお気を付けください！
@@ -2303,7 +2327,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/7108322/8fb5aeb9-682e-47f2-95e2-254899965ec0_base_resized.jpg
-  url: /ja/items/7108322
+  url: https://booth.pm/ja/items/7108322
   current_price: 5000
   description_excerpt: 試着はこちらのワールドから試着できますっ！ https://vrchat.com/home/world/wrld_262757fd-1fd0-41b2-ab5c-1f9b9b18e978/info
     もこもこ可愛い飼いうさぎの女の子です！ 素体ははるかちゃん、サラちゃんと共通素体になります！ また衣装パックはわこーのあとりえから10着、ももちゃん対応分のみ衣装セットになります！収録内容はサムネイル9
@@ -2317,7 +2341,7 @@ items:
   shop_name: わこーのあとりえ
   creator_id: null
   image_url: https://booth.pximg.net/dfe3e7b0-7e4b-4353-9083-8af76f96029c/i/7723665/83245791-d84a-4a41-9608-70f300cf83e2_base_resized.jpg
-  url: /ja/items/7723665
+  url: https://booth.pm/ja/items/7723665
   current_price: 1800
   description_excerpt: とっても可愛いニット衣装の狐っ子、リナちゃんになります！ ↓こちらのワールドから試着もできますので良ければ～！ https://vrchat.com/home/world/wrld_a0a979bf-1407-4da6-949b-3bf2de963e93/info
     ※今回販売物が多いため必ず下の内容物をご確認の上ご購入ください～！ It will be Lina-chan, a super cut
@@ -2331,7 +2355,7 @@ items:
   shop_name: KinderGarten21／常世界機構
   creator_id: null
   image_url: https://booth.pximg.net/332cfc35-d465-4aa3-b8f3-1233909528cc/i/7698155/6954e47f-10e8-4ff6-a617-3a4bc95e3a9c_base_resized.jpg
-  url: /ja/items/7698155
+  url: https://booth.pm/ja/items/7698155
   current_price: 0
   description_excerpt: U10ちゃん用もちふぃった〜順変換プロファイルです。 これを使用して着せ替えをすることが可能です。 人間ボディの子と、メカ関節の子用の２種類があります。
     詳しくは同梱のREADMEをお読みください。 （ヤム用はヤムのDLページからDLしてください）
@@ -2345,7 +2369,7 @@ items:
   shop_name: Fanatail
   creator_id: null
   image_url: https://booth.pximg.net/0dcb072c-99a2-49be-a886-303570d34d3f/i/2186253/745dbd03-612f-4425-ab8e-b81c3a8a66ec_base_resized.jpg
-  url: /ja/items/2186253
+  url: https://booth.pm/ja/items/2186253
   current_price: 4000
   description_excerpt: オリジナルキャラクター「ラズロッテ」の3Dモデルデータです。 オッドアイと暗闇で光る羽が特徴的な魔族のお嬢様。 VRChatの設定済みでインポートしてすぐに使用できます。
     Virtual Castなどで使用できるVRM形式のファイルや、 テクスチャ改変用にUVMapのレイヤーを重ねたPSDファイルも同梱しています。 このモデルはAvatars
@@ -2360,7 +2384,7 @@ items:
   shop_name: Fanatail
   creator_id: null
   image_url: https://booth.pximg.net/0dcb072c-99a2-49be-a886-303570d34d3f/i/3445873/a7945a55-ddb0-4c69-953f-4c24c6a9b01a_base_resized.jpg
-  url: /ja/items/3445873
+  url: https://booth.pm/ja/items/3445873
   current_price: 5000
   description_excerpt: オリジナルキャラクター「チオ -Thio-」の3Dモデルデータです。 もふもふ尻尾が自慢のボーイッシュな女の子。 水着、下着、素体も同梱されています。
     褐色肌テクスチャのおまけ付き。 VRChatの設定済みでインポートしてすぐに使用できます。 様々なコンテンツで使用できるVRM形式のファイルや テクスチャ改変用にUVMapのレイヤーを重ねたPSDファイルも同梱しています。
@@ -2375,7 +2399,7 @@ items:
   shop_name: Fanatail
   creator_id: null
   image_url: https://booth.pximg.net/0dcb072c-99a2-49be-a886-303570d34d3f/i/4054324/64e7d83e-21ce-4de7-a786-e36d54ba3fa8_base_resized.jpg
-  url: /ja/items/4054324
+  url: https://booth.pm/ja/items/4054324
   current_price: 5000
   description_excerpt: オリジナルキャラクター「ロックローズ -Rockrose-」の3Dモデルデータです。 煌びやかな衣装に大きな縦ロールが映える絢爛華麗なロックローズ家のお嬢様。
     水着、下着、素体も同梱されています。 褐色肌テクスチャのおまけ付き。 VRChatの設定済みでインポートしてすぐに使用できます。 様々なコンテンツで使用できるVRM形式のファイルや
@@ -2390,7 +2414,7 @@ items:
   shop_name: Fanatail
   creator_id: null
   image_url: https://booth.pximg.net/0dcb072c-99a2-49be-a886-303570d34d3f/i/4926106/8361ce36-85dc-4961-ab0e-8bc595051bfa_base_resized.jpg
-  url: /ja/items/4926106
+  url: https://booth.pm/ja/items/4926106
   current_price: 5000
   description_excerpt: オリジナルキャラクター「翠嵐 -Suiran-」の3Dモデルデータです。 素体、下着、水着も同梱されています。 褐色肌テクスチャのおまけ付き。
     様々なコンテンツで使用できるVRM形式のファイルや テクスチャ改変用にUVMapのレイヤーを重ねたPSDファイルも同梱しています。 このモデルはAvatars
@@ -2405,7 +2429,7 @@ items:
   shop_name: Fanatail
   creator_id: null
   image_url: https://booth.pximg.net/0dcb072c-99a2-49be-a886-303570d34d3f/i/6868371/ad0f194d-4d3d-4481-84b2-32fc0882c602_base_resized.jpg
-  url: /ja/items/6868371
+  url: https://booth.pm/ja/items/6868371
   current_price: 5000
   description_excerpt: オリジナルキャラクター「マトカ -Matka-」の3Dモデルデータです。 下着、素体も同梱されています。 別カラーの衣装と褐色肌テクスチャのおまけ付き。
     衣装をほかアバターに着せて遊べる衣装のみのデータも入っています。 対応アバターは、ココット、翠嵐、ロックローズ、チオ テクスチャ改変用のPSDファイルも同梱しています。
@@ -2420,7 +2444,7 @@ items:
   shop_name: 仮想VoidCat
   creator_id: null
   image_url: https://booth.pximg.net/8e4c6e25-746f-4ea7-b9a8-51d10ed80b3b/i/3160480/7e407604-ca41-43aa-9e6f-43524b281372_base_resized.jpg
-  url: /ja/items/3160480
+  url: https://booth.pm/ja/items/3160480
   current_price: 0
   description_excerpt: オリジナル3Dモデル『心-556』556ちゃんです 質問や問題あればBoothのDMで連絡してください。 没有支付方式的朋友请从爱发电购买，不建议使用其他第三方代购服务。
     爱发电：https://afdian.net/item?plan_id=fc0f17d640cc11ed839752540025c377 E-mail：yueou.xu@gmail.com
@@ -2434,7 +2458,7 @@ items:
   shop_name: 仮想VoidCat
   creator_id: null
   image_url: https://booth.pximg.net/8e4c6e25-746f-4ea7-b9a8-51d10ed80b3b/i/3939858/20b2e407-f279-4a7f-bba0-147814ccb51b_base_resized.jpg
-  url: /ja/items/3939858
+  url: https://booth.pm/ja/items/3939858
   current_price: 0
   description_excerpt: オリジナル3Dモデル「サフィー(Sapphy)」です。 Booth4000💕スキありがとうございます！ 感謝としてサフィーちゃんSDバージョンを追加しました。
     Thank you for Booth 4000💕suki Added Sapphy SD version to files as Bonus. 感谢大家的Booth4000💕点赞
@@ -2449,7 +2473,7 @@ items:
   shop_name: 仮想VoidCat
   creator_id: null
   image_url: https://booth.pximg.net/8e4c6e25-746f-4ea7-b9a8-51d10ed80b3b/i/4670579/427b8346-b863-40fb-8812-6f5b5b4bea3a_base_resized.jpg
-  url: /ja/items/4670579
+  url: https://booth.pm/ja/items/4670579
   current_price: 0
   description_excerpt: オリジナル3Dモデル「ルフィナ(Rufina)」です。 Designer:Yueou Modeler:Yueou 質問や問題あればBoothのDMで連絡してください。
     没有Booth支付方式的朋友请从爱发电购买，不建议使用其他第三方代购服务。 爱发电：https://afdian.com/item/5c86ea2cd49c11edb5e152540025c377
@@ -2464,7 +2488,7 @@ items:
   shop_name: 仮想VoidCat
   creator_id: null
   image_url: https://booth.pximg.net/8e4c6e25-746f-4ea7-b9a8-51d10ed80b3b/i/5565569/138f87c6-4de8-4b23-8574-9db320d6d9d6_base_resized.jpg
-  url: /ja/items/5565569
+  url: https://booth.pm/ja/items/5565569
   current_price: 0
   description_excerpt: オリジナル3Dモデル「ペルラ(Perula)」です。 Designer:Yueou Modeler:Yueou 質問や問題あればBoothのDMで連絡してください。
     没有Booth支付方式的朋友请从爱发电购买，不建议使用其他第三方代购服务。 爱发电： https://afdian.com/item/f3da27e0e11111ee95a252540025c377
@@ -2479,7 +2503,7 @@ items:
   shop_name: 仮想VoidCat
   creator_id: null
   image_url: https://booth.pximg.net/8e4c6e25-746f-4ea7-b9a8-51d10ed80b3b/i/7427949/4145782f-51af-485c-97b1-8c64605cd446_base_resized.jpg
-  url: /ja/items/7427949
+  url: https://booth.pm/ja/items/7427949
   current_price: 0
   description_excerpt: オリジナル3Dモデル「ルリエ(Lurie)」です。 サンプルワールド https://vrchat.com/home/world/wrld_6be503a9-01f6-416f-8c46-8df729d89e7a/info
     Designer:Yueou Modeler:Yueou 質問や問題あればBoothのDMで連絡してください。 没有Booth支付方式的朋友请从爱发电购买，不建议使用其他第三方
@@ -2487,7 +2511,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:23:11.393207'
 - item_id: 7643644
   type: gimmick
@@ -2495,7 +2520,7 @@ items:
   shop_name: NEKOKAREYA
   creator_id: null
   image_url: https://booth.pximg.net/bd26c7a2-0750-4b26-8ed6-dcf85d33716d/i/7643644/55a3af4b-27a7-493b-846c-ad58186c3ec5_base_resized.jpg
-  url: /ja/items/7643644
+  url: https://booth.pm/ja/items/7643644
   current_price: 0
   description_excerpt: もちふぃった～用Kuminbody素体アバター向けプロファイルです。 もちふぃった～は、おもちのびるさんが作成した非対応衣装着せ替えツールです。
     https://yamirin.booth.pm/items/7657840
@@ -2509,7 +2534,7 @@ items:
   shop_name: イルファ商店街
   creator_id: null
   image_url: https://booth.pximg.net/4fef6d30-5a9e-4a4c-a16d-a5bd6897fee1/i/7631172/8a7c7544-c7a7-4871-aa67-f64b19fd78ae_base_resized.jpg
-  url: /ja/items/7631172
+  url: https://booth.pm/ja/items/7631172
   current_price: 0
   description_excerpt: もちふぃった～用のオリジナル3Dモデル「ベニちゃん」向けプロファイルです。 https://teicifer9999.booth.pm/items/4870402
     もちふぃった～は、おもちのびるさんが作成した非対応衣装着せ替えツールです。 現在はおもちのびるさん制作のアバター「ベリル」ちゃんに付属しています。 将来的には単体のソフトウェアとしてリリースが予定されているようです。
@@ -2524,7 +2549,7 @@ items:
   shop_name: はてな商店はなぞの店
   creator_id: null
   image_url: https://booth.pximg.net/c2d54ea8-eb38-4f07-9be0-78b79ba22164/i/7663206/de556fae-534b-4a3d-999a-9091023000d5_base_resized.jpg
-  url: /ja/items/7663206
+  url: https://booth.pm/ja/items/7663206
   current_price: 0
   description_excerpt: はてな商店アバターにもちふぃった～を使って他のアバターの衣装を着せるためのプロファイルです。 （はてな商店アバターの服を他のアバターに着せるためのプロファイルはついていません）
     ※アバター、衣装、もちふぃった～本体は同梱されていません もちふぃった～本体と使い方については下記をお願いします。 https://booth.pm/ja/items/7657840
@@ -2539,7 +2564,7 @@ items:
   shop_name: りすきーしょっぷ
   creator_id: null
   image_url: https://booth.pximg.net/f4dac57c-0c5c-4c3d-b1cc-8ca41f1af8db/i/5600327/ededb106-cb3b-4b46-bc51-8a50d3006f3f_base_resized.jpg
-  url: /ja/items/5600327
+  url: https://booth.pm/ja/items/5600327
   current_price: 4000
   description_excerpt: 'オリジナル3Dモデル　シィルLO-CielLO- VRChatでの使用を想定した、泣き虫天使のちっちゃいverです。
     VRC　Avatars3.0用にセットアップしてあります。 他のVRSNS・ゲーム等での組み込み使用も可能です。 詳しくは規約をご確認ください。 ■注意事項
@@ -2554,7 +2579,7 @@ items:
   shop_name: りすきーしょっぷ
   creator_id: null
   image_url: https://booth.pximg.net/f4dac57c-0c5c-4c3d-b1cc-8ca41f1af8db/i/5767548/602df970-ee50-4107-a25c-8365a595197a_base_resized.jpg
-  url: /ja/items/5767548
+  url: https://booth.pm/ja/items/5767548
   current_price: 3500
   description_excerpt: オリジナル3Dモデル　るぅ-Ruu- VRChatでの使用を想定した、ぷにもちねこみみアバターです。 VRC　Avatars3.0用にセットアップしてあります。
     サムネに写っている衣装すべて同梱。 他のVRSNS・ゲーム等での組み込み使用も可能です。 詳しくは規約をご確認ください。 ■注意事項 ・PC版VRChatに最適化した設定をしてあります。
@@ -2569,7 +2594,7 @@ items:
   shop_name: りすきーしょっぷ
   creator_id: null
   image_url: https://booth.pximg.net/f4dac57c-0c5c-4c3d-b1cc-8ca41f1af8db/i/7003322/4365dc1d-00cc-4b5a-b16c-0b6e45e7e808_base_resized.jpg
-  url: /ja/items/7003322
+  url: https://booth.pm/ja/items/7003322
   current_price: 5000
   description_excerpt: オリジナル3Dモデル　リリシア-Lilithia- VRChatでの使用を想定した、天使系でサキュバスちっくなおんなのこです。
     VRC　Avatars3.0用にセットアップしてあります。 他のVRSNS・ゲーム等での組み込み使用も可能です。 詳しくは規約をご確認ください。 ■注意事項
@@ -2584,7 +2609,7 @@ items:
   shop_name: りすきーしょっぷ
   creator_id: null
   image_url: https://booth.pximg.net/f4dac57c-0c5c-4c3d-b1cc-8ca41f1af8db/i/7572400/d9646661-2b05-479b-b2da-5740c15e9ce3_base_resized.jpg
-  url: /ja/items/7572400
+  url: https://booth.pm/ja/items/7572400
   current_price: 5000
   description_excerpt: オリジナル3Dモデル　くじらのくぅ-Kuu- VRChatでの使用を想定した、くじらモチーフなおんなのこです。 VRC　Avatars3.0用にセットアップしてあります。
     他のVRSNS・ゲーム等での組み込み使用も可能です。 詳しくは規約をご確認ください。 ■注意事項 ・PC版VRChatに最適化した設定をしてあります。 ・Quest版VRChatなどで使用する場合の動作保証は致しません。
@@ -2599,7 +2624,7 @@ items:
   shop_name: seafoods
   creator_id: null
   image_url: https://booth.pximg.net/46092d08-a17b-4f8f-b926-525ed00db4aa/i/7746939/9ecf78a8-e8f4-4668-b4e2-24adf5af5a7e_base_resized.jpg
-  url: /ja/items/7746939
+  url: https://booth.pm/ja/items/7746939
   current_price: 0
   description_excerpt: Seafoodsアバター用のもちふぃった～プロファイルです。 現在のプロファイル内容は下記 順方向・逆方向両対応 ・レンフア　https://seafoods.booth.pm/items/7544937
     順方向対応 ・ミュズ　https://seafoods.booth.pm/items/6627878 ・恋理type.Enthrall　https://seafoods.booth.pm/ite
@@ -2613,7 +2638,7 @@ items:
   shop_name: ゴールデン商会
   creator_id: null
   image_url: https://booth.pximg.net/8867f724-9eb3-4336-ab8e-687a91a84ba8/i/5360670/6fd4edda-2ab2-4105-ac63-d35ad7c86e35_base_resized.jpg
-  url: /ja/items/5360670
+  url: https://booth.pm/ja/items/5360670
   current_price: 0
   description_excerpt: '猫々チャイナ服＆髪型を追加しました。 https://vrchat.com/home/world/wrld_f0fb75f9-646a-42bf-a2d0-8a0430e1604a
     ↑で試着出来ます。 ● 推奨シェーダー liltoonの最新版が推奨シェーダーです。 ダウンロードURL: https://lilxyzw.github.io/lilToon/#/
@@ -2628,7 +2653,7 @@ items:
   shop_name: 狐の迷い宿
   creator_id: null
   image_url: https://booth.pximg.net/28775238-12ab-4ce8-99e3-a1ee57cf637f/i/2472916/162e6a22-ee95-4927-b3d1-0dc7ffb081e4_base_resized.jpg
-  url: /ja/items/2472916
+  url: https://booth.pm/ja/items/2472916
   current_price: 0
   description_excerpt: ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ ＜＜もちふぃった～対応＞＞ 自動衣装対応変換ツール「もちふぃった～(mochi
     fitter)」で「あずき」が使用できるように暫定対応データを作成しました！ 「もちふぃった～」はこちら https://booth.pm/ja/items/7657840
@@ -2643,7 +2668,7 @@ items:
   shop_name: 狐の迷い宿
   creator_id: null
   image_url: https://booth.pximg.net/28775238-12ab-4ce8-99e3-a1ee57cf637f/i/4839004/f20e14df-3605-4a88-aa4c-2433a89a3781_base_resized.jpg
-  url: /ja/items/4839004
+  url: https://booth.pm/ja/items/4839004
   current_price: 0
   description_excerpt: ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ ＜＜もちふぃった～対応＞＞ 自動衣装対応変換ツール「もちふぃった～(mochi
     fitter)」で右近弐式が使用できるように暫定対応データを作成しました！ 「もちふぃった～」はこちら https://booth.pm/ja/items/7657840
@@ -2658,7 +2683,7 @@ items:
   shop_name: 狐の迷い宿
   creator_id: null
   image_url: https://booth.pximg.net/28775238-12ab-4ce8-99e3-a1ee57cf637f/i/5558366/57a247d8-07c4-4e82-b5d9-b36b0c3e39e9_base_resized.jpg
-  url: /ja/items/5558366
+  url: https://booth.pm/ja/items/5558366
   current_price: 0
   description_excerpt: ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ ＜＜もちふぃった～対応＞＞ 自動衣装対応変換ツール「もちふぃった～(mochi
     fitter)」で「ちび右近」が使用できるように暫定対応データを作成しました！ 「もちふぃった～」はこちら https://booth.pm/ja/items/7657840
@@ -2673,7 +2698,7 @@ items:
   shop_name: ナナツキ.Studio
   creator_id: null
   image_url: https://booth.pximg.net/44083c43-41b8-4ba8-b873-af95d6ff1ad4/i/5685692/10e93c41-b5a1-42ee-9109-f42b35fa7c88_base_resized.jpg
-  url: /ja/items/5685692
+  url: https://booth.pm/ja/items/5685692
   current_price: 0
   description_excerpt: ※ナナツキ.Studioで制作されたアバター専用ツールです。 それ以外での動作は保証いたしません。 ・MochiFitter変換用データ
     ・7s Kit [7sUnderWear/7ss_VRCFaceTracking] ・7sUnderWear ・7ss_VRCFaceTracking
@@ -2687,7 +2712,7 @@ items:
   shop_name: '#ikshop'
   creator_id: null
   image_url: https://booth.pximg.net/ec9d8797-e97d-4d27-8629-8d3982b7b981/i/5147424/5832bb4e-057a-42bb-bf55-10a39d816409_base_resized.jpg
-  url: /ja/items/5147424
+  url: https://booth.pm/ja/items/5147424
   current_price: 4800
   description_excerpt: ■■■■■■■■■■■■■■■ もちふぃった～プロファイルは下記のGoogleDriveから取得できます。 順変換（他アバター向け衣装をセヴィルに着せる）のみ作成しています。
     https://drive.google.com/drive/folders/1Fp6lrhBj9YTlHKzeZbE9IgAg69G5PNiW ■■■■■■■■■■■■■■■
@@ -2696,7 +2721,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:23:25.466413'
 - item_id: 5789025
   type: avatar
@@ -2704,7 +2730,7 @@ items:
   shop_name: '#ikshop'
   creator_id: null
   image_url: https://booth.pximg.net/ec9d8797-e97d-4d27-8629-8d3982b7b981/i/5789025/6cac8089-ca4c-45b4-bca1-efdac4bb0def_base_resized.jpg
-  url: /ja/items/5789025
+  url: https://booth.pm/ja/items/5789025
   current_price: 4800
   description_excerpt: ■■■■■■■■■■■■■■■ もちふぃった～プロファイルは下記のGoogleDriveから取得できます。 順変換（他アバター向け衣装をキリセに着せる）のみ作成しています。
     https://drive.google.com/drive/folders/13b8N4tYzZueuJt5N9pez0TlfGfI7ngXv ■■■■■■■■■■■■■■■
@@ -2713,7 +2739,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:23:23.961707'
 - item_id: 6834358
   type: avatar
@@ -2721,7 +2748,7 @@ items:
   shop_name: '#ikshop'
   creator_id: null
   image_url: https://booth.pximg.net/ec9d8797-e97d-4d27-8629-8d3982b7b981/i/6834358/9c0f0e3e-1049-4719-945b-5217adf70841_base_resized.jpg
-  url: /ja/items/6834358
+  url: https://booth.pm/ja/items/6834358
   current_price: 4800
   description_excerpt: ■■■■■■■■■■■■■■■ もちふぃった～プロファイルは下記のGoogleDriveから取得できます。 順変換（他アバター向け衣装をツキセに着せる）のみ作成しています。
     https://drive.google.com/drive/folders/1iOIzapq6tw-zmS6tUxN3IG49A9FwW_DR ■■■■■■■■■■■■■■■
@@ -2730,7 +2757,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:23:27.491269'
 - item_id: 6915207
   type: avatar
@@ -2738,7 +2766,7 @@ items:
   shop_name: Sharono屋
   creator_id: null
   image_url: https://booth.pximg.net/d84d54f0-8809-4972-baee-3f190b4e9fd3/i/6915207/d78428a8-4c97-4aaf-bc33-978fef75129d_base_resized.jpg
-  url: /ja/items/6915207
+  url: https://booth.pm/ja/items/6915207
   current_price: 0
   description_excerpt: 3Dアバター『Racha / ラチャ』 製作者:Sharono バーチャル眼鏡ショップSharono屋においてはアバターは眼鏡置きの位置づけです。
     眼鏡を置いてください。（希望） ※以下に商品の説明と利用規約が記載されていますので，必ずご一読いただき，ご了承の上での購入をお願いします。 概要 本モデルはVRChatでの使用を想定してセットアップされています。
@@ -2753,7 +2781,7 @@ items:
   shop_name: Sharono屋
   creator_id: null
   image_url: https://booth.pximg.net/d84d54f0-8809-4972-baee-3f190b4e9fd3/i/6542661/162f093c-d0d8-419a-b55b-10a0cc72a566_base_resized.jpg
-  url: /ja/items/6542661
+  url: https://booth.pm/ja/items/6542661
   current_price: 0
   description_excerpt: 3Dアバター『Cocono / ココノ』 製作者:Sharono バーチャル眼鏡ショップSharono屋においてはアバターは眼鏡置きの位置づけです。
     眼鏡を置いてください。（希望） ※以下に商品の説明と利用規約が記載されていますので，必ずご一読いただき，ご了承の上での購入をお願いします。 概要 本モデルはVRChatでの使用を想定してセットアップされています。
@@ -2768,7 +2796,7 @@ items:
   shop_name: Sharono屋
   creator_id: null
   image_url: https://booth.pximg.net/d84d54f0-8809-4972-baee-3f190b4e9fd3/i/7711578/c4730dfe-ec35-4a2b-83b1-d789367e2a61_base_resized.jpg
-  url: /ja/items/7711578
+  url: https://booth.pm/ja/items/7711578
   current_price: 0
   description_excerpt: 3Dアバター『Yuzen / 柚然』 製作者:Sharono バーチャル眼鏡ショップSharono屋においてはアバターは眼鏡置きの位置づけです。
     眼鏡を置いてください。（希望） ※以下に商品の説明と利用規約が記載されていますので，必ずご一読いただき，ご了承の上での購入をお願いします。 概要 本モデルはVRChatでの使用を想定してセットアップされています。
@@ -2783,7 +2811,7 @@ items:
   shop_name: Elychiffon
   creator_id: null
   image_url: https://booth.pximg.net/c7d4472e-e799-4b3a-8937-1662143ddd1f/i/4768506/da741c44-9eef-4906-ab3e-291ede5fc86a_base_resized.jpg
-  url: /ja/items/4768506
+  url: https://booth.pm/ja/items/4768506
   current_price: 0
   description_excerpt: ……………………………………………………………………………… オリジナル3Dモデル「フレア-Flare-」 天使のようなふわふわな女の子です。
     主にVRChatでの使用を想定したモデルになります。 ⚠️商品内容と利用規約をお読みの上ご利用ください ………………………………………………………………………………
@@ -2792,7 +2820,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:23:38.151493'
 - item_id: 5255692
   type: avatar
@@ -2800,7 +2829,7 @@ items:
   shop_name: Elychiffon
   creator_id: null
   image_url: https://booth.pximg.net/c7d4472e-e799-4b3a-8937-1662143ddd1f/i/5255692/c05b88ec-e4b9-4679-a19b-9ae1e503e376_base_resized.jpg
-  url: /ja/items/5255692
+  url: https://booth.pm/ja/items/5255692
   current_price: 0
   description_excerpt: ……………………………………………………………………………… ✧ Lazuli Winter Fair ໒꒱ 2026/01/04
     ~ 2026/01/16 5000円→2500円 ……………………………………………………………………………… オリジナル3Dモデル「ラズリ -Lazuli-」
@@ -2815,7 +2844,7 @@ items:
   shop_name: もやししなしな
   creator_id: null
   image_url: https://booth.pximg.net/52f3180e-f8ea-400c-8d03-9cbc4cd1a285/i/5922294/168c1228-c700-4ab5-9ef4-81af3de373be_base_resized.jpg
-  url: /ja/items/5922294
+  url: https://booth.pm/ja/items/5922294
   current_price: 0
   description_excerpt: オリジナル3Dモデル「Quanstella クアンステーラ」 VRChat用にセットアップされたUnity Humanoid形式のアバターです。
     動画配信、映像制作、ゲーム組み込みにも利用可能です。 Quest 版 VRChat には対応していませんのでご注意ください。 基本仕様 ・アバターランク VeryPoor
@@ -2830,7 +2859,7 @@ items:
   shop_name: 日良冬屋こんこ
   creator_id: null
   image_url: https://booth.pximg.net/33dfd3a7-1202-459d-8148-2e433bf82c02/i/6278885/6502f761-3d07-41ab-a9c9-c680e0db6d9e_base_resized.jpg
-  url: /ja/items/6278885
+  url: https://booth.pm/ja/items/6278885
   current_price: 0
   description_excerpt: '-------------------------------------------------------------------------------------
     ちょっと毛先に滴る毒素(物理)を持つ調子乗りで打たれ弱い女の子。 錬金術で作られた魔法のシーシャを持っています。 3Dモデル「ペチニア」はVRChatでの使用を想定した3Dモデルです。
@@ -2845,7 +2874,7 @@ items:
   shop_name: 日良冬屋こんこ
   creator_id: null
   image_url: https://booth.pximg.net/33dfd3a7-1202-459d-8148-2e433bf82c02/i/4362233/e3c3a4f5-c767-4a52-a222-0c1266a6702d_base_resized.jpg
-  url: /ja/items/4362233
+  url: https://booth.pm/ja/items/4362233
   current_price: 0
   description_excerpt: 可哀想な目に遭いそうな頑張るギザ歯の女の子「あまのよどみ」です。 お名前の「よどみ」で呼んでね。 愛銃の名前はAngel
     7788。エンジェルナンバーです。グレポン。 V2.2アップデートにて、別3Dモデル「ぺちにあ」も所有されている場合 そちらの素体を使った「あまのよどみ」も利用できるようになります。
@@ -2860,7 +2889,7 @@ items:
   shop_name: Frank Factory＋
   creator_id: null
   image_url: https://booth.pximg.net/2cf476a7-55e4-4665-9ef3-7785117530a1/i/4342835/705ad22b-7b21-42a6-8ae4-a86be65d56a7_base_resized.jpg
-  url: /ja/items/4342835
+  url: https://booth.pm/ja/items/4342835
   current_price: 0
   description_excerpt: 終末世界で森林レンジャーを生業としている『ニヴ(N.I.V.H)』です。付属品に『アクセルボウ』『分離ナイフ』の他、衣装差分としてタイトスカートが付属しています。
     *VCCの環境が推奨です。 ＊胸部を大きくするシェイプキーはありません。 Unityバージョン2019.4.31f1で制作。 !!現在セール中!! 2023年12月24日～2024年1月7日まで！
@@ -2875,7 +2904,7 @@ items:
   shop_name: Frank Factory＋
   creator_id: null
   image_url: https://booth.pximg.net/2cf476a7-55e4-4665-9ef3-7785117530a1/i/6194876/bd4d639e-b057-4f72-8b3e-8b426d3316cf_base_resized.jpg
-  url: /ja/items/6194876
+  url: https://booth.pm/ja/items/6194876
   current_price: 0
   description_excerpt: ＊＊OldHunterCoatのお試し版の期間は終了いたしました。 ■概要『終末キャンパー:ボッカV2』 2020年4月29日にリリースしたアバター『ボッカ』の新規リニューアルしたバージョンです。旧版は付属しませんのでご注意ください。
     また、素体は非共通素体となります。 身長:約168cm 個別のパッケージはABCDのカテゴリに分け、画像の通りになります。 ＊導入の際は、_commmのファイルを必
@@ -2889,7 +2918,7 @@ items:
   shop_name: 黒岩工房-KuroiwaDigitalFactory-
   creator_id: null
   image_url: https://booth.pximg.net/8dcc9549-9031-4ae5-8ba3-704fa78367db/i/4666323/5ab232b8-cf44-48a0-ba53-7c2631755fc8_base_resized.jpg
-  url: /ja/items/4666323
+  url: https://booth.pm/ja/items/4666323
   current_price: 0
   description_excerpt: 2025/10/31 もちふぃった～変換、逆変換プロファイル追加 ※「もちふぃった～」はおもちのびる氏の販売アバター「ベリルちゃん」に
     先行で付属している非対応衣装変換ツールです、正式版は個別にリリースするとのことです 変換プロファイルだけでは動作しませんのでご注意ください ベリルちゃん https://yamirin.booth.pm/items/4930259
@@ -2904,7 +2933,7 @@ items:
   shop_name: 黒岩工房-KuroiwaDigitalFactory-
   creator_id: null
   image_url: https://booth.pximg.net/8dcc9549-9031-4ae5-8ba3-704fa78367db/i/7527463/41633d7f-36c5-4542-8add-ab90b51ca04b_base_resized.jpg
-  url: /ja/items/7527463
+  url: https://booth.pm/ja/items/7527463
   current_price: 0
   description_excerpt: 'アバターミュージアム13開催記念+年末年始セール！ 5500jpy→4500jpy！ 「鈴華」試着用URL https://vrchat.com/home/avatar/avtr_661bd1de-c11e-4baf-8dc9-3e638224a770
     妖怪界のスーパースター「鬼」をモチーフにしたVRChat想定の3Dモデルです！ 和風の衣装の他に当世風衣装や金棒、扇子、和傘、専用AFKなどなど '
@@ -2918,7 +2947,7 @@ items:
   shop_name: くまきち商店ワークス
   creator_id: null
   image_url: https://booth.pximg.net/6532652b-e023-4900-b8f3-4ba6c3a29217/i/7573056/98be4af5-b43e-41b5-9d8f-ef10b8233dfe_base_resized.jpg
-  url: /ja/items/7573056
+  url: https://booth.pm/ja/items/7573056
   current_price: 0
   description_excerpt: ステラ級素体に、ほか素体用の服を着せることができる、 もちふぃった~用の変換プロファイルデータの単体です。
   files: []
@@ -2931,7 +2960,7 @@ items:
   shop_name: しそこんぶバーチャル支店
   creator_id: null
   image_url: https://booth.pximg.net/cb2647e1-5b84-458b-bf25-6af264fd0fa5/i/7641371/2bc9e821-ae1b-4852-9e10-c1fbf6f5ee4f_base_resized.jpg
-  url: /ja/items/7641371
+  url: https://booth.pm/ja/items/7641371
   current_price: 0
   description_excerpt: しそこんぶアバターの「めりあ」「フィラム」のもちふぃった～用プロファイルです！ こちらの変換データを使えば、"もちふぃった～対応されているアバターの対応服"であれば衣装変換が可能です。
     ぽっちゃりした二人でも、色んな服が着せれる夢のようなツールです！ 是非色々な服を着せて、VR世界を楽しんでいただけたら幸いです。
@@ -2945,20 +2974,21 @@ items:
   shop_name: Vision-GirLs
   creator_id: null
   image_url: https://booth.pximg.net/b618bcce-6c89-4ba4-b6ad-16f188d550dc/i/5100113/9ba369fc-9fb0-4aa1-9587-2788cdf3ffa4_base_resized.jpg
-  url: /ja/items/5100113
+  url: https://booth.pm/ja/items/5100113
   current_price: 0
   description_excerpt: 「INABA」「椎名」「狐雨」と共通素体です。 【お買い得セット】オリジナル3Dモデル「INABA」「椎名」「狐雨」
     https://goldentakasan.booth.pm/items/4213786 オリジナル3Dモデル『ニヴ(N.I.V.H)』でお馴染みの茶巾氏が制作を担当！
     ☆利用規約 本規約は、あしやまひろこ(@hiorko_TB)氏が作成したVN3ライセンス( https://ww
   files: []
   targets:
-  - code: KitsuneAme
-    name: 狐雨
   - code: Shiina
     name: 椎名
   - code: INABA
     name: INABA
-  tags: []
+  - code: KitsuneAme
+    name: 狐雨
+  tags:
+  - owned_support
   updated_at: '2026-01-05T14:23:54.115241'
 - item_id: 7186439
   type: avatar
@@ -2966,7 +2996,7 @@ items:
   shop_name: Vision-GirLs
   creator_id: null
   image_url: https://booth.pximg.net/b618bcce-6c89-4ba4-b6ad-16f188d550dc/i/7186439/2ed61074-fe9b-4f81-b58e-6941363f250a_base_resized.jpg
-  url: /ja/items/7186439
+  url: https://booth.pm/ja/items/7186439
   current_price: 0
   description_excerpt: ゲーム好きのねこちゃんです デザイン goLden takasan https://x.com/goLdentakasan
     3Dモデル製作 NOXvenda85 https://x.com/xvenda85 AVAKIN共通素体のため、バニラ、スピルバ、愛狼、イトネ、うろぼの全5体のアバターと衣装の互換性があります。
@@ -2981,7 +3011,7 @@ items:
   shop_name: Murixir workshop
   creator_id: null
   image_url: https://booth.pximg.net/f25a9c13-a5b2-4029-b5a8-42f356c8f0ac/i/7672328/d6828d1d-68b6-44cf-8448-d5517adcc7f5_base_resized.jpg
-  url: /ja/items/7672328
+  url: https://booth.pm/ja/items/7672328
   current_price: 0
   description_excerpt: ワッテ２(https://murixir.booth.pm/items/6130457)用のもちふぃった～変換プロファイルです。順方向のみ対応。
     以下の点に注意して自己責任でご利用ください。 ・手、足は合わせていませんので衣装の歪みや貫通がでることがあります。 　というか手袋がグズグズになります。ストッキングくらいはいけるかも。
@@ -2996,7 +3026,7 @@ items:
   shop_name: Murixir workshop
   creator_id: null
   image_url: https://booth.pximg.net/f25a9c13-a5b2-4029-b5a8-42f356c8f0ac/i/7653708/dc0e8250-b30c-46d3-bef4-f40774935e57_base_resized.jpg
-  url: /ja/items/7653708
+  url: https://booth.pm/ja/items/7653708
   current_price: 0
   description_excerpt: ルメラナ(https://murixir.booth.pm/items/6488991)用のもちふぃった～変換プロファイルです。順方向のみ対応。
     以下の点に注意して自己責任でご利用ください。 ・手、足は合わせていませんので衣装の歪みや貫通がでることがあります。 というか手袋がグズグズになります。ストッキングくらいはいけるかも。
@@ -3011,7 +3041,7 @@ items:
   shop_name: ココナッツショップ
   creator_id: null
   image_url: https://booth.pximg.net/ffffcf37-7dab-4fae-9f6c-47e7e4842629/i/6533313/e25eaa6d-d158-4842-a73a-a987c5f662b1_base_resized.jpg
-  url: /ja/items/6533313
+  url: https://booth.pm/ja/items/6533313
   current_price: 0
   description_excerpt: 「都会の路地裏に潜む黒猫の噂…」 VRchat向けオリジナル3Dケモノアバターの「Re.3珠々羅」です。 サイバー世界に住む猫のキョンシーの女の子です。
     こちらの商品は2022年6月に出した珠々羅ちゃんのリメイク版の更にリメイク版となっています。前のモデルよりもサイバー感を強くしました。 フルトラッキング対応。アイトラッキング対応。
@@ -3026,7 +3056,7 @@ items:
   shop_name: ココナッツショップ
   creator_id: null
   image_url: https://booth.pximg.net/ffffcf37-7dab-4fae-9f6c-47e7e4842629/i/7643489/5ef7765c-cbf2-4f98-9a14-0a8f6075c103_base_resized.jpg
-  url: /ja/items/7643489
+  url: https://booth.pm/ja/items/7643489
   current_price: 0
   description_excerpt: VRC向けオリジナル3Dケモノアバターの「蓮華」です。 和×ギャルの狐の女の子です。 こちらのキャラクターはデザインを甘口さん（X:@amakuchi49407）にして頂きました。
     素体付き、リングメニューで衣装着脱可能となっております。 フルトラッキング、アイトラッキング対応。 お写真は＃ココナッツショップを付けて投稿していただけるととっても喜びます。
@@ -3041,7 +3071,7 @@ items:
   shop_name: alua7 Shop
   creator_id: null
   image_url: https://booth.pximg.net/060c8062-129d-4eac-b9c4-86a70bf74643/i/3978893/c99e903a-1ca5-44f5-94ef-aea556e13698_base_resized.jpg
-  url: /ja/items/3978893
+  url: https://booth.pm/ja/items/3978893
   current_price: 0
   description_excerpt: '★★★★★ 2026/01/25 までSALEします！ SALE 2500円→2000円 2500円→2000円 セール!
     ★★★★★ オリジナル3Dモデル【Nys】 ★ 製作者: Alua7 VRChatでの使用を想定した3Dモデルです。 VRC SDK3に対応しています。 ★★★【アバターの試着はこちら】★★★
@@ -3056,7 +3086,7 @@ items:
   shop_name: alua7 Shop
   creator_id: null
   image_url: https://booth.pximg.net/060c8062-129d-4eac-b9c4-86a70bf74643/i/5826600/09075b0d-5a8c-4163-ba54-65d3c9868c53_base_resized.jpg
-  url: /ja/items/5826600
+  url: https://booth.pm/ja/items/5826600
   current_price: 0
   description_excerpt: ★★★★★ 2026/01/25 までSALEします！ SALE 2500円→2000円 2500円→2000円 セール!
     ★★★★★ ★小夜-Koyoi VRChatでの使用を想定した3Dモデルです。 Unity2022.3.22f1でデータ作成をしています。 ★★★【アバターの試着はこちら】★★★
@@ -3071,7 +3101,7 @@ items:
   shop_name: 663-chan Shop
   creator_id: null
   image_url: https://booth.pximg.net/4607dca7-2c37-4556-910f-fc587d169571/i/7703298/e4c844e9-50aa-4e17-8703-79d504c226e6_base_resized.jpg
-  url: /ja/items/7703298
+  url: https://booth.pm/ja/items/7703298
   current_price: 0
   description_excerpt: ロロミちゃんアバターでもちふぃった～を利用する為の変換プロファイルです。 順方向のみ。逆方向の実装予定はありません(ポリゴン数が足りない為)
     また、さっちん素体のBreastシェイプキーには対応してません、ごめんぴ 変換プロファイルのみで、もちふぃった～本体及びアバターや衣装は付属しません 導入方法や使い方はもちふぃった～公式ページからご確認ください
@@ -3086,7 +3116,7 @@ items:
   shop_name: Minuet_Doll×72ca
   creator_id: null
   image_url: https://booth.pximg.net/da3e4894-0b83-47ed-b0a9-5526bd9f9722/i/7690877/54960e65-454a-4188-b8a3-2a6271aa2643_base_resized.jpg
-  url: /ja/items/7690877
+  url: https://booth.pm/ja/items/7690877
   current_price: 0
   description_excerpt: NINE GATES様の「もちふぃった～」を利用して作成した衣装変換用プロファイルです。
   files: []
@@ -3099,7 +3129,7 @@ items:
   shop_name: marimo-shop
   creator_id: null
   image_url: https://booth.pximg.net/898d497f-b293-4cc1-acf7-eb0d705ee785/i/7608437/9723159b-1c70-479f-a6a8-e3d8037388a8_base_resized.jpg
-  url: /ja/items/7608437
+  url: https://booth.pm/ja/items/7608437
   current_price: 0
   description_excerpt: まりもデジタル工房　オリジナル３Dモデル　第一弾
   files: []
@@ -3112,7 +3142,7 @@ items:
   shop_name: furplus
   creator_id: null
   image_url: https://booth.pximg.net/322a5e39-d5da-43d3-ae41-cdddf9c3d09e/i/7751109/a07e1eca-140d-4c81-aef8-c679b89eb41f_base_resized.jpg
-  url: /ja/items/7751109
+  url: https://booth.pm/ja/items/7751109
   current_price: 0
   description_excerpt: 'もちふぃった～ https://yamirin.booth.pm/items/7657840 의상 대응툴 もちふぃった〜의
     syobi와 haru를 위한 대응 파일 입니다. 신체구조상 변환한 의상이 완전하지 않을수 있습니다. 해당 아이템은 아바타 본체를 포함하고있지
@@ -3127,7 +3157,7 @@ items:
   shop_name: おーがーめいど
   creator_id: null
   image_url: https://booth.pximg.net/26e29cdf-042b-4d00-9bd9-0fc1521feed0/i/7755770/ef03f418-62b0-44e9-b861-4db48de61f09_base_resized.jpg
-  url: /ja/items/7755770
+  url: https://booth.pm/ja/items/7755770
   current_price: 0
   description_excerpt: おーがーめいどアバターのもちふぃった～変換プロファイルです。 順方向変換プロファイルのみとなります。 ↓もちふぃった～↓
     https://yamirin.booth.pm/items/7657840 278： https://maderobo145.booth.pm/items/4938054
@@ -3142,7 +3172,7 @@ items:
   shop_name: こここや
   creator_id: null
   image_url: https://booth.pximg.net/7ca85730-d4c0-45e1-81bc-92f88866e85c/i/7760017/0046854f-dcde-4250-9b3b-d6b212f33e63_base_resized.jpg
-  url: /ja/items/7760017
+  url: https://booth.pm/ja/items/7760017
   current_price: 0
   description_excerpt: こここやアバター用のもちふぃった～プロファイルになります。 _____________________________
     【対応アバターと変換種類】 ・リリエ　順変換 ・ヨズキ　順変換 ・ソラハ　順変換 つぼみ用の順変換は後々追加予定です。逆変換は現状実装日未定です。 ※サムネイルにあるアバター本体や、もちふぃった～本体、衣装等は同梱しておらず、別途購入する必要があります。
@@ -3157,7 +3187,7 @@ items:
   shop_name: 狸狐ねっとしょっぴんぐ
   creator_id: null
   image_url: https://booth.pximg.net/7ba59f99-9bed-43f6-aaad-df2797c414e5/i/5064727/7eaa9e07-dadd-47bb-bb09-de140eff387e_base_resized.jpg
-  url: /ja/items/5064727
+  url: https://booth.pm/ja/items/5064727
   current_price: 0
   description_excerpt: '🐺ましろちゃんはVRChatでの使用を想定したオリジナル3Dモデルです。 PC版のみ対応しています。 大人な雰囲気のあるオオカミのおねえさんです。（わんこじゃないよ！）
     【公式ハッシュタグ】 #ましろVRC ------------ 【サンプルアバター】 URL : https://vrchat.com/home/avatar/avtr_07cea883-d7a3-47a4-86d2-275088'
@@ -3165,7 +3195,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:05.666665'
 - item_id: 7065950
   type: avatar
@@ -3173,7 +3204,7 @@ items:
   shop_name: 狸狐ねっとしょっぴんぐ
   creator_id: null
   image_url: https://booth.pximg.net/7ba59f99-9bed-43f6-aaad-df2797c414e5/i/7065950/deeba9b5-4968-4b54-91b8-0410cddda3a2_base_resized.jpg
-  url: /ja/items/7065950
+  url: https://booth.pm/ja/items/7065950
   current_price: 0
   description_excerpt: 'リリーミヤちゃんはVRChatでの使用を想定したオリジナル3Dモデルです。 PC版のみ対応しています。 田舎生まれ、田舎育ちのドラゴン娘です。
     改変なしでも楽しめるように、たくさんの衣装や表情、ポーズを詰め込みました！ 【公式ハッシュタグ】 #LilymiyaVRC ------------ 【サンプルアバター】
@@ -3182,7 +3213,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:06.685222'
 - item_id: 5900934
   type: accessory
@@ -3190,7 +3222,7 @@ items:
   shop_name: Mochi Armor Shop
   creator_id: null
   image_url: https://booth.pximg.net/c6fceac6-9a40-449d-b9dc-86d07238045b/i/5900934/dcb44b47-bace-4bb5-b431-ebc662ecd39a_base_resized.jpg
-  url: /ja/items/5900934
+  url: https://booth.pm/ja/items/5900934
   current_price: 0
   description_excerpt: 本モデルはvrchatでの使用を想定して製作されました。 본 모델은 vrchat에서 의 사용을 상정하고 제작 되었습니다.
   files: []
@@ -3203,7 +3235,7 @@ items:
   shop_name: Mochi Armor Shop
   creator_id: null
   image_url: https://booth.pximg.net/c6fceac6-9a40-449d-b9dc-86d07238045b/i/6422675/c6fb8b15-9b93-4d68-9ced-f90b276abd6a_base_resized.jpg
-  url: /ja/items/6422675
+  url: https://booth.pm/ja/items/6422675
   current_price: 0
   description_excerpt: 高速アンドロイド系お嬢様ステラです。 고속 안드로이드타입 아가씨 스텔라입니다. 本モデルはvrchatでの使用を想定して製作されました。
     본 모델은 vrchat에서 의 사용을 상정하고 제작 되었습니다. もちふぃった～プロフィールデータ付 もちふぃった～프로필 데이터 포함
@@ -3217,7 +3249,7 @@ items:
   shop_name: Pochi by KT
   creator_id: null
   image_url: https://booth.pximg.net/bbcf8d8d-e1eb-4154-bac8-0657193e753c/i/6283622/258fe6d8-9162-4a15-a2c6-f04878a71c11_base_resized.jpg
-  url: /ja/items/6283622
+  url: https://booth.pm/ja/items/6283622
   current_price: 0
   description_excerpt: ◆VRChat向け フルスクラッチ オリジナル3Dモデル 「Pochi ポチ」 Pochiはあなたの憧れに寄り添う、ファッションブランド。
     説得力のある素材感にこだわり、 着る人の創造力を刺激するアイテムを製作しています。 第一弾アバター「Pochi ポチ」をお届けします。 モデルに憧れるたまごです。
@@ -3231,7 +3263,7 @@ items:
   shop_name: Pochi by KT
   creator_id: null
   image_url: https://booth.pximg.net/bbcf8d8d-e1eb-4154-bac8-0657193e753c/i/6626966/1c4c5734-1253-4bb9-81ae-bb0beb63d57e_base_resized.jpg
-  url: /ja/items/6626966
+  url: https://booth.pm/ja/items/6626966
   current_price: 5000
   description_excerpt: ◆VRChat向け フルスクラッチ オリジナル3Dモデル 「LeotaRiota レオタリオタ」 Pochiはあなたの憧れに寄り添う、ファッションブランド。
     説得力のある素材感にこだわり、 着る人の創造力を刺激するアイテムを製作しています。 第二弾アバター「LeotaRiota レオタリオタ」をお届けします。 シルバーダップルカラーのミニチュアダックスフンドモチーフのモデルです。
@@ -3240,7 +3272,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:10.745175'
 - item_id: 7696751
   type: gimmick
@@ -3248,7 +3281,7 @@ items:
   shop_name: brochiManac
   creator_id: null
   image_url: https://booth.pximg.net/2489e670-2dbe-4aad-b781-abb4ae1035a3/i/7696751/d5d69005-fbaa-4488-95e7-c994f9fac27f_base_resized.jpg
-  url: /ja/items/7696751
+  url: https://booth.pm/ja/items/7696751
   current_price: 0
   description_excerpt: おもちのびる様の「もちふぃった～」を用いて 他アバターさん向けの衣装を　ブロキマナクMサイズ用　へ変換するためのプロファイルです。
     【修正予定】 現在首から下のみの共通FBXを元にしてプロファイルを制作しているため、 首、頭の衣装が破綻するデータとなっています。 近日修正予定ですm(__)m
@@ -3263,7 +3296,7 @@ items:
   shop_name: エカシリコン
   creator_id: null
   image_url: https://booth.pximg.net/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/7787776/73465e77-1285-4631-a65f-a7c6ba10f17b_base_resized.jpg
-  url: /ja/items/7787776
+  url: https://booth.pm/ja/items/7787776
   current_price: 400
   description_excerpt: この商品は「もちふぃった～」対応の他アバター用の衣装を 黎焔対応に変換するためのデータセットです ★対応シェイプキー
     ・breast_adjust ・breast_small ・Foot_heel ・Foot_heel_high ◆できること 以下の変換に対応しています。
@@ -3278,7 +3311,7 @@ items:
   shop_name: 荒嵜造船所
   creator_id: null
   image_url: https://booth.pximg.net/3fc3a884-6aa8-4398-8ff5-ecd47104d55a/i/7534638/ecd7316f-32d3-461d-91d7-d112c738d907_base_resized.jpg
-  url: /ja/items/7534638
+  url: https://booth.pm/ja/items/7534638
   current_price: 0
   description_excerpt: 発売記念セール！！ 2026/1/10まで　5000円→4000円 また、1月31日まで腹筋テクスチャがダウンロードできます！
     ご購入の前に下記の商品説明と利用規約をお読み下さい
@@ -3292,7 +3325,7 @@ items:
   shop_name: Midoya
   creator_id: null
   image_url: https://booth.pximg.net/431a2646-b9ba-4240-b3f6-3f1cb5d9c1a1/i/7796861/94ac72d2-3111-4346-95dc-8bba85b7c421_base_resized.jpg
-  url: /ja/items/7796861
+  url: https://booth.pm/ja/items/7796861
   current_price: 0
   description_excerpt: 【オリジナル3Dモデル】結月 -ゆづき-用のもちふぃった～プロファイル(順方向)です。 ※こちらのプロファイル単体では動作しません。必ず下記のもちふぃった～本体をUnityにインポートした後、当プロファイルをインポートして下さい。
     もちふぃった～はこちら https://yamirin.booth.pm/items/7657840 結月のモデルはこちら https://booth.pm/ja/it
@@ -3306,7 +3339,7 @@ items:
   shop_name: 星ワタリノ空
   creator_id: null
   image_url: https://booth.pximg.net/6870a65c-5e2f-4a79-bbfc-e4436ee6660a/i/4168378/50e960d2-f74e-4501-bc96-ac25115d40cf_base_resized.jpg
-  url: /ja/items/4168378
+  url: https://booth.pm/ja/items/4168378
   current_price: 0
   description_excerpt: VRchat想定のオリジナル３Dアバター お揃い衣装の女の子と男の子のキャラクターです マスコットキャラも好評だったのでついでに追加しました
     バラ売り、セット売りがございますので 商品のご購入の際は間違えのないようにご注意ください ※購入後の商品の交換や返品はできません。 .｡.:*･ﾟ♡★♡ﾟ･*:.｡
@@ -3321,7 +3354,7 @@ items:
   shop_name: オトギバナシ
   creator_id: null
   image_url: https://booth.pximg.net/dc16eb3f-c515-498f-8a3c-f8e7c46beb2d/i/6354246/d39c0537-99c4-4931-9ccd-a02b1271879b_base_resized.jpg
-  url: /ja/items/6354246
+  url: https://booth.pm/ja/items/6354246
   current_price: 0
   description_excerpt: VRChat想定オリジナル3Dモデル、狼の女の子の「ストリア -Stria-」です。 商品内容と利用規約をお読みの上ご利用ください。
     サンプルアバターを用意しています。試着後の購入をお勧めいたします。 https://vrchat.com/home/avatar/avtr_f1e7339c-75a6-412e-8a5b-dbde46371491
@@ -3330,7 +3363,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:16.660651'
 - item_id: 3741802
   type: avatar
@@ -3338,7 +3372,7 @@ items:
   shop_name: 三丁目の魔界
   creator_id: null
   image_url: https://booth.pximg.net/3c39b721-63d9-4193-a883-507b13ff6ebc/i/3741802/0ecea6ff-9604-4881-9013-f42bc27073be_base_resized.jpg
-  url: /ja/items/3741802
+  url: https://booth.pm/ja/items/3741802
   current_price: 0
   description_excerpt: VRChat向けにセットアップされたアバターモデルです。無料です。
   files: []
@@ -3351,7 +3385,7 @@ items:
   shop_name: innoce
   creator_id: null
   image_url: https://booth.pximg.net/af3e0f0e-13f8-436b-b90b-e3a2ed57ca12/i/6214004/dd3cee5c-c52b-4bf4-b2ef-7fa3c15fae47_base_resized.jpg
-  url: /ja/items/6214004
+  url: https://booth.pm/ja/items/6214004
   current_price: 0
   description_excerpt: 優しげな狐の女の子。シンプルなデザインの中に工夫を詰め込みました。
   files: []
@@ -3364,7 +3398,7 @@ items:
   shop_name: QATYSOUQ
   creator_id: null
   image_url: https://booth.pximg.net/5f6402dd-f6b1-4103-93e7-d6b0c9bb807c/i/6143770/55088378-a7dd-4e36-bdcf-93aefc069568_base_resized.jpg
-  url: /ja/items/6143770
+  url: https://booth.pm/ja/items/6143770
   current_price: 0
   description_excerpt: ★アバターミュージアム11で試着できます。 https://vrchat.com/home/world/wrld_5da8116b-1fc7-4197-a0b6-09a231e93a66/info
     オリジナル3Dモデル　サマル-Samar- 踊り子っぽい女の子のアバターです。VRChatでの使用を想定しております。 VRChat以外のVRSNSやゲーム・配信等にも使用可能です。
@@ -3379,7 +3413,7 @@ items:
   shop_name: RAKUIRO
   creator_id: null
   image_url: https://booth.pximg.net/492029a7-8f19-465e-9ec4-87b368d19b80/i/6905649/d8b972af-2d07-4892-aec3-e861859aad8e_base_resized.jpg
-  url: /ja/items/6905649
+  url: https://booth.pm/ja/items/6905649
   current_price: 0
   description_excerpt: ⊹ ｡ ﾟ⁖ オリジナル3Dモデル「ルミリ」𓂃꙳ 🪽 ⊹ ｡ ﾟ⁖ 試着ワールド：https://vrchat.com/home/launch?worldId=wrld_3f1ce9b3-9e6b-4c40-a29c-bcfebacf7f8b
     サンプルアバターURL：（Webでログイン後、change avatarを選択で着替えられます） デフォールト：https://vrchat.com/hom
@@ -3387,7 +3421,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:20.652722'
 - item_id: 5827815
   type: avatar
@@ -3395,7 +3430,7 @@ items:
   shop_name: ステラー工房
   creator_id: null
   image_url: https://booth.pximg.net/8dd1ea6b-1c31-4d82-bfec-cbc05177d146/i/5827815/cc5a9581-ecc5-4a30-9596-ac144de3d1f5_base_resized.jpg
-  url: /ja/items/5827815
+  url: https://booth.pm/ja/items/5827815
   current_price: 0
   description_excerpt: '---------------------------------------------------- ■【VRChat想定
     オリジナル3Dモデル『ナナセ・ノワール -Nanase Noir-』■ PC版でのVRChatに対応したUnity Humanoid仕様の3Dキャラクターモデルです。
@@ -3410,7 +3445,7 @@ items:
   shop_name: 仕立て屋ラベンダー
   creator_id: null
   image_url: https://booth.pximg.net/24c76840-969b-40b0-a0fb-7d674f325113/i/6848538/67885475-3b14-46dc-9434-ff43aa0da2cb_base_resized.jpg
-  url: /ja/items/6848538
+  url: https://booth.pm/ja/items/6848538
   current_price: 0
   description_excerpt: いらっしゃいませ。 VRChat向けオリジナル3Dモデル「Lavendia(ラヴェンディア)」 ロココ調ドレスを身にまとう貴族令嬢…かもしれない女の子。をイメージした作品となっております。
     マニュアルにつきましては以下をご参照ください。 https://docs.google.com/document/d/1oz0yQM5s7g5mZDb59Tg38S0UNlPgKLRmppk1jDUxvsk/e
@@ -3424,7 +3459,7 @@ items:
   shop_name: らんぷ商店
   creator_id: null
   image_url: https://booth.pximg.net/9281c4f0-63af-4baa-b87b-60aa6d57de45/i/5929122/68d8666e-381a-4647-a32a-cb67ade8ecfe_base_resized.jpg
-  url: /ja/items/5929122
+  url: https://booth.pm/ja/items/5929122
   current_price: 0
   description_excerpt: 'VRChat向けオリジナル3Dモデル「バイラン / Bairan」 ホワイトタイガーの女の子です！ キャラデザ・テクスチャ：かがり（X:
     @kagari_viii） 3Dモデリング・Unityセットアップ：らんぱん（X: @rampan_pan）'
@@ -3438,7 +3473,7 @@ items:
   shop_name: Chloro † Terrace
   creator_id: null
   image_url: https://booth.pximg.net/fd8b4e15-87b7-4f5f-a3e1-3d1ff09776ca/i/6271911/3fcbbc4d-83a0-493f-9f0c-e0c94a3760bc_base_resized.jpg
-  url: /ja/items/6271911
+  url: https://booth.pm/ja/items/6271911
   current_price: 0
   description_excerpt: モデル名：Rion -リオン- 製作者　：Chlorotica（twitter:@Chlorotica_VRC） 本モデル「Rion
     -リオン-」はVRChatでの使用を想定した3Dモデルです。 利用規約の範囲内であれば配信など、自由に利用可能です。 とっても可愛い狐の女の子です(˶' ᵕ
@@ -3447,7 +3482,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:24.658294'
 - item_id: 7653844
   type: avatar
@@ -3455,7 +3491,7 @@ items:
   shop_name: おにいざん本舗
   creator_id: null
   image_url: https://booth.pximg.net/28147cb3-57dc-4649-a55c-6e586a9bb5bb/i/7653844/2ebedaac-9735-4ba3-83f9-a505cdea38b0_base_resized.jpg
-  url: /ja/items/7653844
+  url: https://booth.pm/ja/items/7653844
   current_price: 0
   description_excerpt: オリジナル３Dモデル『ヒイロ』 二作目です！ たくさんの人に使ってもらいたいので無料で配布します！ イメージは和服メイド+兎です
     VRChatでの使用を想定しています。 ※2025/11/20 もちふぃった～対応しました！ 詳しくは下記の更新履歴をご覧ください。
@@ -3469,7 +3505,7 @@ items:
   shop_name: スフィア/Sphere モデル置き場
   creator_id: null
   image_url: https://booth.pximg.net/f139bca2-eced-4429-81fb-e0d3644f3d78/i/5099202/0e1b8465-e933-495b-b75e-aacc7e013fe6_base_resized.jpg
-  url: /ja/items/5099202
+  url: https://booth.pm/ja/items/5099202
   current_price: 0
   description_excerpt: マメジカをモチーフにした女の子です。 本モデルはVRChatでの使用を想定していますが ゲームや配信等にも使用して大丈夫です。
     VRChatへのパブリックアップロードについては、 本モデルの販売を促進するようなものであれば許可します。 例えば、本モデルの公式サンプルにさらに 自作ギミックや自作衣装を追加したデータの
@@ -3478,7 +3514,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:24.416269'
 - item_id: 6382745
   type: avatar
@@ -3486,7 +3523,7 @@ items:
   shop_name: masui
   creator_id: null
   image_url: https://booth.pximg.net/7a39a294-a42f-4a98-ae6b-5e1bddea1bad/i/6382745/621e1422-ef6f-4540-ba7d-96eff50eda3f_base_resized.jpg
-  url: /ja/items/6382745
+  url: https://booth.pm/ja/items/6382745
   current_price: 0
   description_excerpt: オリジナル3Dモデル「山羊のメア/-Goat Mea-」です。 本モデルはVRChatでの使用を想定して製作したモデルデータとなります。
     もちふぃった～用 山羊のメア順方向プロファイルを追加しました。 以下サンプルアバターを試着できるワールドです https://vrchat.com/home/world/wrld_03aab7a1-6e75-431e-b387-960e8d8c7854/info
@@ -3494,7 +3531,8 @@ items:
   targets:
   - code: SUN
     name: SUN
-  tags: []
+  tags:
+  - orphaned_support
   updated_at: '2026-01-05T14:24:25.451698'
 - item_id: 7678585
   type: other
@@ -3502,7 +3540,7 @@ items:
   shop_name: 宇津保堂
   creator_id: null
   image_url: https://booth.pximg.net/d5b41aa3-9f93-4c15-bf29-f3b232592394/i/7678585/2576f195-96b5-495a-8be1-2e11eab17d0a_base_resized.jpg
-  url: /ja/items/7678585
+  url: https://booth.pm/ja/items/7678585
   current_price: 0
   description_excerpt: もちふぃったー用のファイルです。 こくりのMELLBODY はなちる を置いています。他の子は要望次第ということで・・・
   files: []
@@ -3515,7 +3553,7 @@ items:
   shop_name: Eggmaru
   creator_id: null
   image_url: https://booth.pximg.net/af517acf-e443-4cf8-b481-69addbd06f88/i/6753865/41a42113-d737-4262-9b56-0b5af54180b9_base_resized.jpg
-  url: /ja/items/6753865
+  url: https://booth.pm/ja/items/6753865
   current_price: 0
   description_excerpt: オリジナル3Dモデル【そよ / Soyo】 製作者:eggmaru
   files: []
@@ -3528,7 +3566,7 @@ items:
   shop_name: ラジアルウェブ
   creator_id: null
   image_url: https://booth.pximg.net/28542950-e311-4471-97e1-d4414a5f74b9/i/5743864/637f9d86-6df8-48ff-8eb5-de131f867718_base_resized.jpg
-  url: /ja/items/5743864
+  url: https://booth.pm/ja/items/5743864
   current_price: 0
   description_excerpt: '●対応衣装/アイテム制作者へのお知らせ こちらのアバターは対応衣装/アイテムを制作してくださる制作者様にアバターデータを無償提供させていただきます。ご要望の際はお手数ですがTwitterのDMまたは、説明文下部の連絡フォームからお知らせください。
     ※1 販売予定・配布予定のBOOTHショップやTwitterなど、できるだけ製作者様のお名前やショップ名がわかるアカウントからご連絡頂けると幸いです。 '
@@ -3542,7 +3580,7 @@ items:
   shop_name: ArmoireLepus -アルモワール レプス-
   creator_id: null
   image_url: https://booth.pximg.net/d398d5cc-41ab-4a3a-b7fe-eec9a3d94a3b/i/7687000/7b28b186-134a-4413-9046-24e0cdea89c1_base_resized.jpg
-  url: /ja/items/7687000
+  url: https://booth.pm/ja/items/7687000
   current_price: 0
   description_excerpt: シエル専用のもちふぃった～変換プロファイルです。 ご使用の際は必ず、アバター及び衣装データ販売元の規約に従ってご使用ください。
   files: []
@@ -3555,7 +3593,7 @@ items:
   shop_name: '#happalog-はっぱろぐ！-'
   creator_id: null
   image_url: https://booth.pximg.net/373204c6-e566-459f-ad9f-7c4ee8daa3f3/i/7065134/2679177f-4c5a-45e9-81bf-c45081d2b11a_base_resized.jpg
-  url: /ja/items/7065134
+  url: https://booth.pm/ja/items/7065134
   current_price: 0
   description_excerpt: 優しい天使の子。天使の羽は、実際に空を飛ぶことができます。 メイド服を着ていますが、メイドというわけではありません。
     いあは無償で自由に商用含めて使用できます。 始めてのアバターとして、自分に合わせて改変を作りこんで、お楽しみください。 ただし性的表現や有体化など、一部制限があるためVN3ライセンス表記をご確認ください。
@@ -3570,7 +3608,7 @@ items:
   shop_name: SPEK STROM
   creator_id: null
   image_url: https://booth.pximg.net/db4cd5f7-1dc4-4d39-9459-709029e9f287/i/7702172/d70c2bab-ede5-4ee5-b072-ee22c8a99908_base_resized.jpg
-  url: /ja/items/7702172
+  url: https://booth.pm/ja/items/7702172
   current_price: 0
   description_excerpt: ランティーネ用モチピタ対応データです。 ランティーネの場合、胸シェイプキーのサイズ偏差が激しいため、透け現象が発生する可能性が高いため、
     Shrinkシェイプキーと併用してください。 新しいシェイプキーを使用するため、ランティーネ 1.11バージョンから動作します。 란티네용 모찌피타 대응
@@ -3585,7 +3623,7 @@ items:
   shop_name: すてぃあのおみせ
   creator_id: null
   image_url: https://booth.pximg.net/cf83b66c-048c-44cf-ab1c-cb951a0cf4a8/i/7643193/9ff10ecc-c76c-4f02-a379-13621f8e84f7_base_resized.jpg
-  url: /ja/items/7643193
+  url: https://booth.pm/ja/items/7643193
   current_price: 0
   description_excerpt: VRChat想定のオリジナル3Dモデル「あまね」 Unity2022、Avatars 3.0、PhysBoneに対応
     地上に降りた天使をモチーフにした女の子です
@@ -3599,7 +3637,7 @@ items:
   shop_name: SakuSaku-Solid
   creator_id: null
   image_url: https://booth.pximg.net/3e013b9b-cd22-47e1-abbd-a7ad65b8a1e0/i/4096181/ca471f54-9c4d-4503-9d3f-0a15aacb6ffe_base_resized.jpg
-  url: /ja/items/4096181
+  url: https://booth.pm/ja/items/4096181
   current_price: 100
   description_excerpt: VRChat想定3Dモデル「Beryl-Terrsa(ベリル・テルサ)ExF」 Unity2019、Avatars3.0(VRCSDK3)対応済み
     VRCPhysBone、IK2.0対応済み VRChat内で試着できます https://vrchat.com/home/launch?worldId=wrld_c9935e06-c147-4c37-becd-4a519c23d436
@@ -3614,7 +3652,7 @@ items:
   shop_name: Eve Saint
   creator_id: null
   image_url: https://booth.pximg.net/36746032-ddd9-46c2-bf8b-14d8f7e785e4/i/5407120/676b5ef5-6d31-4914-92fd-af6d17a18e91_base_resized.jpg
-  url: /ja/items/5407120
+  url: https://booth.pm/ja/items/5407120
   current_price: 0
   description_excerpt: オリジナル3Dモデル「アレティア」
   files: []
@@ -3627,7 +3665,7 @@ items:
   shop_name: nolilon
   creator_id: null
   image_url: https://booth.pximg.net/aacfdd64-af0d-4cd6-a17a-5181f00c6feb/i/5722793/16d80e3b-6c69-4c72-bd19-e2d055848156_base_resized.jpg
-  url: /ja/items/5722793
+  url: https://booth.pm/ja/items/5722793
   current_price: 0
   description_excerpt: UPDATE記念で水着が今ならDL可能。（2025/12/25まで） ◆◆◆◆◆◆◆◆Ver2.0 アップデート◆◆◆◆◆◆◆
     変更点 ・さらなるフルトラ適正の向上のため些細ながら実際の身体とのずれを生んでいた箇所をなくし、ボーン配置・ウェイトを再設計 ・補助ボーンが増え腕を上げたとき胸が連動して動くように
@@ -3642,7 +3680,7 @@ items:
   shop_name: HATCH Planet
   creator_id: null
   image_url: https://booth.pximg.net/4eda8d4f-a754-4761-a277-35f7e5e0b54a/i/7743182/9f5d31b5-db4b-4db1-b50f-66b44f193f71_base_resized.jpg
-  url: /ja/items/7743182
+  url: https://booth.pm/ja/items/7743182
   current_price: 0
   description_excerpt: Sirone「シロネ」 https://hatchplanet.booth.pm/items/7601010 本商品はMochiFitter対応の他アバター用衣装をオリジナル3Dモデル「SIRONE」に変換して着用できるようサポートするデータセットです。
     他のキャラクターを対象に製作された衣装をSIRONEアバターに合わせて変換して着用することができます。 본 상품은 MochiFitter 대응
@@ -3656,7 +3694,7 @@ items:
   shop_name: ポポん堂
   creator_id: null
   image_url: https://booth.pximg.net/d379f84d-cf4d-4d87-af98-857f6617c432/i/7757990/d78e20e3-4d29-45bf-be58-deced8d80d17_base_resized.jpg
-  url: /ja/items/7757990
+  url: https://booth.pm/ja/items/7757990
   current_price: 0
   description_excerpt: もちふぃった～のShiChuKa_シチュカ用順変換プロファイルデータです。 順変換(『各アバターの衣装』→『シチュカへ着せ替え』)できます。
     ※逆変換も予定しています。 「もちふぃった～」はおもちのびるさんが作成した非対応衣装着せ替えツールです。 https://yamirin.booth.pm/items/7657840
@@ -3670,7 +3708,7 @@ items:
   shop_name: AMAGANE
   creator_id: null
   image_url: https://booth.pximg.net/433897c1-552c-4f96-abf7-309ff2235149/i/5907321/473114d1-88cf-4d95-9929-49917283007e_base_resized.jpg
-  url: /ja/items/5907321
+  url: https://booth.pm/ja/items/5907321
   current_price: 0
   description_excerpt: アプデ記念/🎄クリスマスギフト＆年末年始セール🎁で 今回に限り【90%オフ 600円】の特別大セールを開催中です！🎉
     Xの方ではフォローRPキャンペーンもやっていますのでぜひチェックしてください！ 🔗 https://x.com/tengusugoi/status/2003427869205168485?s=20
@@ -3685,7 +3723,7 @@ items:
   shop_name: 楊枝製作所
   creator_id: null
   image_url: https://booth.pximg.net/26208f9e-86cb-474f-80af-7e01a06dab3c/i/7783861/d6250283-68ac-4501-8016-137f15ba84f4_base_resized.jpg
-  url: /ja/items/7783861
+  url: https://booth.pm/ja/items/7783861
   current_price: 0
   description_excerpt: もちふぃった～プロファイル「狐雪、LSbody, etc」
   files: []
@@ -3698,7 +3736,7 @@ items:
   shop_name: ヨドバシラムダ バーチャルBOOTH店
   creator_id: null
   image_url: https://booth.pximg.net/67bba73b-9fdb-48bf-82d5-6f3627666a86/i/7810130/e0ef949f-3e3a-4962-a8c8-a5ffeb273ef3_base_resized.jpg
-  url: /ja/items/7810130
+  url: https://booth.pm/ja/items/7810130
   current_price: 0
   description_excerpt: VRChat向け3Dアバターモデル『ハネモモV2』に他アバター対応の衣装を着せるため『もちふぃった～』を使用してハネモモV2対応衣装に変換(順方向変換)するためのプロファイルデータです
     あらかじめ他アバターの逆方向変換プロファイルデータが存在するか確認してください 『Tポーズ』の衣装のみ対応しています 📚変換手順を解説する画像マニュアル付属
@@ -3707,3 +3745,107 @@ items:
   targets: []
   tags: []
   updated_at: '2026-01-05T14:24:41.212425'
+- item_id: 73097838
+  type: other
+  name: Item 73097838
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/73097838
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:34.648788'
+- item_id: 70787649
+  type: other
+  name: Item 70787649
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/70787649
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:35.597990'
+- item_id: 70667040
+  type: other
+  name: Item 70667040
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/70667040
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:36.599704'
+- item_id: 65755217
+  type: other
+  name: Item 65755217
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/65755217
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:37.611117'
+- item_id: 51335035
+  type: other
+  name: Item 51335035
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/51335035
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:39.621715'
+- item_id: 42436576
+  type: other
+  name: Item 42436576
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/42436576
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:41.602783'
+- item_id: 43962216
+  type: other
+  name: Item 43962216
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/43962216
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:15:42.614669'
+- item_id: 12345678
+  type: other
+  name: Item 12345678
+  shop_name: null
+  creator_id: null
+  image_url: null
+  url: https://booth.pm/ja/items/12345678
+  current_price: null
+  description_excerpt: null
+  files: []
+  targets: []
+  tags: []
+  updated_at: '2026-01-05T12:40:11.291157'

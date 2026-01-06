@@ -388,7 +388,8 @@ class DataNormalizer:
             shop_name=metadata.shop_name,
             creator_id=metadata.creator_id,
             image_url=metadata.image_url,
-            url=metadata.canonical_path or raw_item.url,
+
+            url=f"https://booth.pm/ja/items/{raw_item.item_id}",
             current_price=metadata.current_price,
             description_excerpt=metadata.description_excerpt,
             files=normalized_files,
