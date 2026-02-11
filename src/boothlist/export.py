@@ -3,13 +3,9 @@ import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
-
 import yaml
-
 from .normalize import AvatarRef, FileAsset, Item, Variant
-
 logger = logging.getLogger(__name__)
-
 class CatalogExporter:
     def export_catalog(self, items: list[Item], output_path: str = "catalog.yml") -> bool:
         catalog_data = {"items": []}
@@ -32,13 +28,11 @@ class CatalogExporter:
             if item.variants:
                 item_dict["variants"] = [self._variant_to_dict(v) for v in item.variants]
             catalog_data["items"].append(item_dict)
-
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
             yaml.dump(catalog_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         return True
-
     def export_metrics(self, items: list[Item], output_path: str = "metrics.yml") -> bool:
         metrics_data = self._generate_metrics(items)
         output_path = Path(output_path)
@@ -46,7 +40,6 @@ class CatalogExporter:
         with open(output_path, "w", encoding="utf-8") as f:
             yaml.dump(metrics_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         return True
-
     def _generate_metrics(self, items: list[Item]) -> dict[str, Any]:
         metrics = {
             "summary": {},
@@ -57,22 +50,18 @@ class CatalogExporter:
                 "type_distribution": [],
             },
         }
-
         total_items = len(items)
         total_variants = sum(len(item.variants) for item in items)
         type_counts = Counter(item.type for item in items)
         shop_counts = Counter(item.shop_name for item in items if item.shop_name)
-        
         avatar_counts = defaultdict(int)
         for item in items:
             for target in item.targets: avatar_counts[target.code] += 1
             for variant in item.variants:
                 for target in variant.targets: avatar_counts[target.code] += 1
-
         prices = [item.current_price for item in items if item.current_price is not None and item.current_price > 0]
         free_items = [item for item in items if item.current_price is not None and item.current_price == 0]
         unknown_price_items = [item for item in items if item.current_price is None]
-
         metrics["summary"] = {
             "items_total": total_items,
             "variants_total": total_variants,
@@ -89,21 +78,17 @@ class CatalogExporter:
                 "unknown_price_items": len(unknown_price_items),
             },
         }
-
         metrics["rankings"]["type_distribution"] = [{"type": t, "count": c} for t, c in type_counts.most_common()]
         metrics["rankings"]["popular_shops"] = [{"shop_name": s, "count": c} for s, c in shop_counts.most_common(10)]
         metrics["rankings"]["popular_avatars"] = [{"avatar_code": a, "count": c} for a, c in sorted(avatar_counts.items(), key=lambda x: x[1], reverse=True)]
         metrics["rankings"]["avatar_costume_combinations"] = self._calculate_avatar_costume_combinations(items)
         return metrics
-
     def _calculate_avatar_costume_combinations(self, items: list[Item]) -> list[dict[str, Any]]:
         avatar_items_by_code = defaultdict(list)
         for item in items:
             if item.type == "avatar":
                 for target in item.targets: avatar_items_by_code[target.code].append(item)
-
         costume_combinations = defaultdict(lambda: {"count": 0, "prices": [], "avatar_name": None, "costume_name": None})
-
         for item in items:
             if item.type == "costume":
                 for target in item.targets:
@@ -123,7 +108,6 @@ class CatalogExporter:
                         combo_data["avatar_name"] = target.name
                         combo_data["costume_name"] = item.name
                         if item.current_price is not None: combo_data["prices"].append(item.current_price)
-
         combinations = []
         for (avatar_item_id, costume_item_id), data in costume_combinations.items():
             prices = data["prices"]
@@ -138,16 +122,12 @@ class CatalogExporter:
                 "median_price": round(statistics.median(prices)) if prices else 0,
             }
             combinations.append(combo)
-
         combinations.sort(key=lambda x: x["count"], reverse=True)
         return combinations[:20]
-
     def _file_asset_to_dict(self, file_asset: FileAsset) -> dict[str, Any]:
         return {"filename": file_asset.filename, "version": file_asset.version, "size": file_asset.size, "hash": file_asset.hash}
-
     def _avatar_ref_to_dict(self, avatar_ref: AvatarRef) -> dict[str, Any]:
         return {"code": avatar_ref.code, "name": avatar_ref.name}
-
     def _variant_to_dict(self, variant: Variant) -> dict[str, Any]:
         return {
             "subitem_id": variant.subitem_id,
@@ -157,7 +137,6 @@ class CatalogExporter:
             "files": [self._file_asset_to_dict(f) for f in variant.files],
             "notes": variant.notes,
         }
-
 class HTMLDashboardExporter:
     def export_dashboard(self, output_path: str = "index.html") -> bool:
         html_content = self._generate_html_template()
@@ -166,7 +145,6 @@ class HTMLDashboardExporter:
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(html_content)
         return True
-
     def _generate_html_template(self) -> str:
         return """<!DOCTYPE html>
 <html lang="ja">
@@ -175,27 +153,27 @@ class HTMLDashboardExporter:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoothList - BOOTH Asset Dashboard</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background-color:
         .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #333; border-bottom: 2px solid #007acc; padding-bottom: 10px; }
-        .search-bar { width: 100%; padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 4px; margin-bottom: 20px; }
+        h1 { color:
+        .search-bar { width: 100%; padding: 12px; font-size: 16px; border: 2px solid
         .filters { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
-        .filter { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; cursor: pointer; }
-        .filter.active { background: #007acc; color: white; }
+        .filter { padding: 8px 12px; border: 1px solid
+        .filter.active { background:
         .items-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .item-card { border: 1px solid #ddd; border-radius: 8px; padding: 15px; background: white; transition: box-shadow 0.2s; }
+        .item-card { border: 1px solid
         .item-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .item-image { width: 100%; height: 150px; background: #f0f0f0; border-radius: 4px; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; color: #666; }
-        .item-title { font-weight: bold; margin-bottom: 5px; color: #333; }
-        .item-shop { color: #666; font-size: 14px; margin-bottom: 5px; }
-        .item-price { color: #007acc; font-weight: bold; }
+        .item-image { width: 100%; height: 150px; background:
+        .item-title { font-weight: bold; margin-bottom: 5px; color:
+        .item-shop { color:
+        .item-price { color:
         .item-targets { margin-top: 10px; }
-        .target-tag { display: inline-block; background: #e7f3ff; color: #007acc; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin: 2px; }
-        .loading { text-align: center; padding: 50px; color: #666; }
+        .target-tag { display: inline-block; background:
+        .loading { text-align: center; padding: 50px; color:
         .stats { display: flex; gap: 20px; margin-bottom: 30px; flex-wrap: wrap; }
-        .stat-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; min-width: 120px; }
-        .stat-number { font-size: 24px; font-weight: bold; color: #007acc; }
-        .stat-label { font-size: 14px; color: #666; margin-top: 5px; }
+        .stat-card { background:
+        .stat-number { font-size: 24px; font-weight: bold; color:
+        .stat-label { font-size: 14px; color:
     </style>
 </head>
 <body>
@@ -247,7 +225,6 @@ class HTMLDashboardExporter:
             allItems.forEach(item => types.add(item.type));
             const container = document.getElementById('filters');
             container.innerHTML = '';
-            
             // Usage Filters (New)
             const usageFilters = [
                 { id: 'all', label: 'All Items' },
@@ -255,7 +232,6 @@ class HTMLDashboardExporter:
                 { id: 'mochi', label: 'Mochifitter Use' },
                 { id: 'orphaned', label: 'Orphaned' }
             ];
-            
             usageFilters.forEach(f => {
                  const div = document.createElement('div');
                  div.className = 'filter' + (activeFilter === f.id ? ' active' : '');
@@ -264,15 +240,13 @@ class HTMLDashboardExporter:
                  div.addEventListener('click', () => setFilter(f.id));
                  container.appendChild(div);
             });
-            
             // Separator
              const sep = document.createElement('div');
              sep.style.width = '100%';
              sep.style.height = '1px';
-             sep.style.background = '#ddd';
+             sep.style.background = '
              sep.style.margin = '10px 0';
              container.appendChild(sep);
-
             types.forEach(type => {
                 if (type === 'all') return; // Handled above
                 const div = document.createElement('div');
@@ -283,7 +257,6 @@ class HTMLDashboardExporter:
                 container.appendChild(div);
             });
         }
-
         function setFilter(type) {
             activeFilter = type;
             document.querySelectorAll('.filter').forEach(f => {
@@ -292,7 +265,6 @@ class HTMLDashboardExporter:
             });
             filterItems();
         }
-
         function filterItems() {
             const term = document.getElementById('search').value.toLowerCase();
             filteredItems = allItems.filter(item => {
@@ -309,11 +281,9 @@ class HTMLDashboardExporter:
                     // Type filter
                     matchFilter = item.type === activeFilter;
                 }
-
                 const matchSearch = !term || item.name.toLowerCase().includes(term) 
                     || (item.shop_name && item.shop_name.toLowerCase().includes(term)) 
                     || (item.targets && item.targets.some(t => t.name.toLowerCase().includes(term) || t.code.toLowerCase().includes(term)));
-                
                 return matchFilter && matchSearch;
             });
             renderItems();
@@ -321,7 +291,7 @@ class HTMLDashboardExporter:
         function renderItems() {
             const container = document.getElementById('items');
             if (filteredItems.length === 0) {
-                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 50px; color: #666;">No items found</div>';
+                container.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 50px; color:
                 return;
             }
             container.innerHTML = filteredItems.map(item => `

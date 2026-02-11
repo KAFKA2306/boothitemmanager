@@ -6,10 +6,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin, urlparse
-
 import requests
 from bs4 import BeautifulSoup
-
 @dataclass
 class ItemMetadata:
     item_id: int
@@ -25,13 +23,11 @@ class ItemMetadata:
     page_updated_at: str | None = None
     related_item_ids: list = None
     related_item_ids: list = None
-
     def __post_init__(self):
         if self.files is None: self.files = []
         if self.related_item_ids is None: self.related_item_ids = []
         if self.scraped_at is None: self.scraped_at = datetime.now().isoformat()
         if self.canonical_path is None: self.canonical_path = f"/ja/items/{self.item_id}"
-
 class BoothScraper:
     def __init__(self, cache_file: str = "booth_item_cache.json", rate_limit: float = 1.0):
         self.cache_file = Path(cache_file)
@@ -41,25 +37,21 @@ class BoothScraper:
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         }
-
     def _load_cache(self) -> dict[str, dict[str, Any]]:
         if self.cache_file.exists():
             with open(self.cache_file, encoding="utf-8") as f:
                 return json.load(f)
         return {}
-
     def _save_cache(self):
         self.cache_file.parent.mkdir(parents=True, exist_ok=True)
         with open(self.cache_file, "w", encoding="utf-8") as f:
             json.dump(self.cache, f, ensure_ascii=False, indent=2)
-
     def _rate_limit_wait(self):
         current_time = time.time()
         time_since_last = current_time - self.last_request_time
         if time_since_last < self.rate_limit:
             time.sleep(self.rate_limit - time_since_last)
         self.last_request_time = time.time()
-
     def _parse_json_ld(self, soup: BeautifulSoup) -> dict[str, Any] | None:
         for script in soup.find_all("script", type="application/ld+json"):
             if script.string:
@@ -69,7 +61,6 @@ class BoothScraper:
                 elif isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
                     return data[0]
         return None
-
     def _parse_og_tags(self, soup: BeautifulSoup) -> dict[str, str]:
         og_data = {}
         for tag in soup.find_all("meta", property=lambda x: x and x.startswith("og:")):
@@ -78,20 +69,17 @@ class BoothScraper:
             if property_name and content:
                 og_data[property_name] = content
         return og_data
-
     def _pick_name(self, soup: BeautifulSoup, og_data: dict[str, str]) -> str | None:
         if og_data.get("title"): return og_data["title"].strip()
         for selector in ["h1.item-name", "h1.u-tpg-title1", 'h1[itemprop="name"]', ".item-name h1", ".item-header h1"]:
             elem = soup.select_one(selector)
             if elem: return elem.get_text(strip=True)
         return None
-
     def _pick_shop_name(self, soup: BeautifulSoup, og_data: dict[str, str]) -> str | None:
         for selector in ["a.shop-name", "div.u-text-ellipsis > a", 'a[itemprop="author"]', ".shop-name"]:
             elem = soup.select_one(selector)
             if elem: return elem.get_text(strip=True)
         return og_data.get("site_name")
-
     def _pick_creator_id(self, soup: BeautifulSoup, response_url: str) -> str | None:
         for selector in ["a.shop-name", "div.u-text-ellipsis > a", 'a[itemprop="author"]']:
             elem = soup.select_one(selector)
@@ -104,7 +92,6 @@ class BoothScraper:
             subdomain = parsed_url.hostname.split(".")[0]
             if subdomain != "booth": return subdomain
         return None
-
     def _pick_price(self, soup: BeautifulSoup, og_data: dict[str, str], json_ld: dict[str, Any] | None = None) -> int | None:
         if json_ld:
             offers = json_ld.get("offers")
@@ -114,27 +101,22 @@ class BoothScraper:
                     if (low_price := offers.get("lowPrice")) is not None: return int(float(str(low_price).replace(",", "")))
                 elif isinstance(offers, list) and len(offers) > 0:
                     if (price := offers[0].get("price")) is not None: return int(float(str(price).replace(",", "")))
-        
         if (og_price := og_data.get("price:amount")):
             if m := re.search(r"[\d,]+", str(og_price)): return int(m.group().replace(",", ""))
-
         for selector in ["div.price", 'span[itemprop="price"]', ".price .yen", ".item-price .yen"]:
             elem = soup.select_one(selector)
             if elem:
                 if m := re.search(r"¥\s*([\d,]+)", elem.get_text(strip=True)): return int(m.group(1).replace(",", ""))
         return None
-
     def _pick_image(self, soup: BeautifulSoup, og_data: dict[str, str], base_url: str) -> str | None:
         if og_data.get("image"): return self._normalize_image_quality(urljoin(base_url, og_data["image"]))
         return None
-
     def _pick_description(self, soup: BeautifulSoup, og_data: dict[str, str]) -> str | None:
         if og_data.get("description"): return og_data["description"].strip()[:200]
         for selector in [".item-description .markdown", ".item-description"]:
             elem = soup.select_one(selector)
             if elem: return elem.get_text(strip=True)[:200]
         return None
-
     def _pick_files(self, soup: BeautifulSoup) -> list[str]:
         files = []
         for selector in [".download-list .file-name", ".file-list .file-name"]:
@@ -142,7 +124,6 @@ class BoothScraper:
                 filename = elem.get_text(strip=True)
                 if filename: files.append(filename)
         return files
-
     def _extract_related_item_ids(self, soup: BeautifulSoup) -> list[int]:
         related_ids = []
         for selector in [".item-description", ".related-items", ".markdown"]:
@@ -160,24 +141,20 @@ class BoothScraper:
                         if 1_000_000 <= related_id <= 99_999_999 and related_id not in related_ids:
                             related_ids.append(related_id)
         return related_ids
-
     def _normalize_image_quality(self, url: str) -> str:
         if not url: return url
         if "booth.pximg.net" in url or "booth.pm" in url:
             normalized_url = re.sub(r"/c/\d+x\d+/", "/", url)
             return normalized_url
         return url
-
     def _extract_metadata(self, html: str, item_id: int, response_url: str) -> ItemMetadata:
         soup = BeautifulSoup(html, "html.parser")
         json_ld = self._parse_json_ld(soup)
         og_data = self._parse_og_tags(soup)
-        
         page_updated_at = None
         if json_ld:
             date_modified = json_ld.get("dateModified") or json_ld.get("datePublished")
             if date_modified: page_updated_at = date_modified
-
         return ItemMetadata(
             item_id=item_id,
             name=self._pick_name(soup, og_data),
@@ -191,7 +168,6 @@ class BoothScraper:
             page_updated_at=page_updated_at,
             related_item_ids=self._extract_related_item_ids(soup),
         )
-
     def scrape_item(self, item_id: int, force_refresh: bool = False) -> ItemMetadata:
         cache_key = str(item_id)
         if not force_refresh and cache_key in self.cache:
@@ -214,17 +190,14 @@ class BoothScraper:
                          'files', 'scraped_at', 'page_updated_at', 'related_item_ids'}
             cached_data = {k: v for k, v in cached_data.items() if k in valid_keys}
             return ItemMetadata(**cached_data)
-
         url = f"https://booth.pm/ja/items/{item_id}"
         self._rate_limit_wait()
-        
         response = requests.get(url, headers=self.headers)
         response.raise_for_status()
         metadata = self._extract_metadata(response.text, item_id, response.url)
         self.cache[cache_key] = asdict(metadata)
         self._save_cache()
         return metadata
-
     def scrape_items(self, item_ids: list, force_refresh: bool = False) -> dict[int, ItemMetadata]:
         results = {}
         for item_id in item_ids:

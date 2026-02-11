@@ -11,29 +11,22 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime, timedelta
 from collections import Counter
 import logging
-
 from .input_loader import InputLoader
-
 logger = logging.getLogger(__name__)
-
-
 class ChromeHistoryExtractor:
     """Extract BOOTH item IDs from Chrome history database."""
-
     def __init__(self, history_path: Optional[Path] = None):
         self.history_path = history_path or self._find_chrome_history_path()
-        # Compile regex patterns from InputLoader
         self.url_regex = [
             re.compile(pattern, re.IGNORECASE) for pattern in InputLoader.BOOTH_URL_PATTERNS
         ]
-
     def _find_chrome_history_path(self) -> Path:
         system = platform.system()
         if system == "Windows":
             base_path = Path.home() / "AppData/Local/Google/Chrome/User Data/Default"
-        elif system == "Darwin":  # macOS
+        elif system == "Darwin":
             base_path = Path.home() / "Library/Application Support/Google/Chrome/Default"
-        else:  # Linux and others
+        else:
             base_path = Path.home() / ".config/google-chrome/Default"
         history_path = base_path / "History"
         if history_path.exists():
@@ -41,7 +34,6 @@ class ChromeHistoryExtractor:
         raise FileNotFoundError(
             f"Chrome history not found at {history_path}. Please ensure Chrome is installed and has been used."
         )
-
     def extract_booth_id_from_url(self, url: str) -> int | None:
         if not url:
             return None
@@ -50,15 +42,12 @@ class ChromeHistoryExtractor:
             if match:
                 return int(match.group(1))
         return None
-
     def extract_booth_ids(self, days_back: int = 90) -> List[Dict[str, Any]]:
         """Extract BOOTH IDs from Chrome history database."""
         logger.info(f"Extracting BOOTH IDs from last {days_back} days using {self.history_path}")
-
         with tempfile.NamedTemporaryFile(delete=False, suffix=".db") as tmp:
             temp_path = tmp.name
         shutil.copy2(self.history_path, temp_path)
-
         try:
             conn = sqlite3.connect(temp_path)
             cursor = conn.cursor()
@@ -104,7 +93,6 @@ class ChromeHistoryExtractor:
                 os.unlink(temp_path)
             except OSError:
                 pass
-
     def export_to_csv(self, items: List[Dict[str, Any]], output_file: str = "booth_ids.csv"):
         if not items:
             logger.warning("No items to export")
@@ -124,7 +112,6 @@ class ChromeHistoryExtractor:
                     }
                 )
         logger.info(f"Exported {len(items)} items to {output_file}")
-
     def export_id_list(self, items: List[Dict[str, Any]], output_file: str = "booth_item_ids.txt"):
         if not items:
             logger.warning("No items to export")
@@ -133,7 +120,6 @@ class ChromeHistoryExtractor:
             for item in items:
                 f.write(f"{item['item_id']}\n")
         logger.info(f"Exported {len(items)} item IDs to {output_file}")
-
     def export_analysis_json(self, items: List[Dict[str, Any]], output_file: str = "booth_analysis.json"):
         if not items:
             logger.warning("No items to analyze")
@@ -171,7 +157,6 @@ class ChromeHistoryExtractor:
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(analysis, f, ensure_ascii=False, indent=2, default=str)
         logger.info(f"Exported analysis to {output_file}")
-
     def create_input_csv_for_boothlist(self, items: List[Dict[str, Any]], output_file: str = "input/extracted_booth_ids.csv"):
         if not items:
             logger.warning("No items to export")
@@ -190,8 +175,6 @@ class ChromeHistoryExtractor:
                     }
                 )
         logger.info(f"Created BoothList-compatible input file: {output_file}")
-
-
 def main():
     print("Chrome履歴からBOOTH IDを抽出中...")
     extractor = ChromeHistoryExtractor()
@@ -205,6 +188,5 @@ def main():
     extractor.export_analysis_json(items)
     extractor.create_input_csv_for_boothlist(items)
     print("Derived files created.")
-
 if __name__ == "__main__":
     main()
