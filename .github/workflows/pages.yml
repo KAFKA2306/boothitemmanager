@@ -73,23 +73,27 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # deploy-cf-pages:
-  #   runs-on: ubuntu-latest
-  #   needs: build-and-test
-  #   steps:
-  #     - name: Download artifact
-  #       uses: actions/download-artifact@v4
-  #       with:
-  #         name: github-pages
-  #         path: dist
-  #         
-  #     # Note: The artifact is a tar file for GH Pages, so you might need to extract it,
-  #     # or just rebuild/checkout for Cloudflare Pages.
-  #     #
-  #     # - name: Deploy to Cloudflare Pages
-  #     #   uses: cloudflare/pages-action@v1
-  #     #   with:
-  #     #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-  #     #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-  #     #     projectName: boothitemmanager
-  #     #     directory: dist
+  deploy-cf-pages:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: dist-archive
+          
+      - name: Extract artifact
+        run: |
+          mkdir -p dist
+          tar -xf dist-archive/artifact.tar -C dist/
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=boothitemmanager
