@@ -1,0 +1,25 @@
+{
+  "item_id": "6567455",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6567455",
+  "title": "真冬 Mafuyu 対応 [One-piec...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b13b7c68-766c-4554-a5aa-08db744dfaf4/i/6567455/328bd9c4-9ba5-4b35-b63e-c2971f875cb1_base_resized.jpg",
+  "creator_id": "chume",
+  "creator_name": "chume",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

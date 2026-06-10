@@ -1,0 +1,23 @@
+{
+  "item_id": "4740308",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4740308",
+  "title": "【Shinra Edition】Soie B...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2bbfc6cd-c88d-4f80-8d45-2066fcd51c78/i/4740308/4e2ca666-c612-41b1-9ddf-cbd8744327b1_base_resized.jpg",
+  "creator_id": "tempasta",
+  "creator_name": "tempasta",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4523088",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4523088",
+  "title": "「めいゆん向け」肌テクスチャ、メークアップ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ae60fb72-8b68-464a-8b6b-11e1033bc373/i/4523088/99da3a2f-7ce9-42cb-8590-d4ab0b704083_base_resized.jpg",
+  "creator_id": "hazumiya",
+  "creator_name": "hazumiya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Meiyun",
+      "name": "めいゆん"
+    }
+  ],
+  "files": []
+}

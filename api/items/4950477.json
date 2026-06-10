@@ -1,0 +1,27 @@
+{
+  "item_id": "4950477",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4950477",
+  "title": "【Moe/Lime/Selestia専用】P...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c434d3b-3ee2-452d-9a23-9fe01f47b7cc/i/4950477/0f374522-3d02-4951-9f79-22386545fd65_base_resized.jpg",
+  "creator_id": "no39",
+  "creator_name": "no39",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

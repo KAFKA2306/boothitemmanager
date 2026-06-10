@@ -1,0 +1,23 @@
+{
+  "item_id": "5487055",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5487055",
+  "title": "PS1マヌカ Manuka / 3Dモデル",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/561ac243-bb13-46b8-9c21-2cf4aa61daa1/i/5487055/f132e7c0-9bed-4a96-83c7-1d30d330b379_base_resized.jpg",
+  "creator_id": "ropesassets",
+  "creator_name": "ropesassets",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

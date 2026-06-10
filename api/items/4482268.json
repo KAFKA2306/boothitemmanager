@@ -1,0 +1,23 @@
+{
+  "item_id": "4482268",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4482268",
+  "title": "【桔梗ちゃん対応】Ringfashion",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e8ecfe84-7a7f-4523-81e6-6277ff423542/i/4482268/438642df-e0e7-46e0-a0ab-2d59a3c4854c_base_resized.jpg",
+  "creator_id": "cdws",
+  "creator_name": "cdws",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

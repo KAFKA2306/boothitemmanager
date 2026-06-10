@@ -1,0 +1,23 @@
+{
+  "item_id": "4847726",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4847726",
+  "title": "VRC 森羅 (Shinra) Sweet ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/711cd315-01bf-4fd7-9fe9-981d20aea7c1/i/4847726/ae3b2117-3344-4700-8d56-7958d3be48b5_base_resized.jpg",
+  "creator_id": "toruu",
+  "creator_name": "toruu",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

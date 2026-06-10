@@ -1,0 +1,31 @@
+{
+  "item_id": "5406801",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5406801",
+  "title": "[萌, マヌカ, 舞夜, 森羅, ウルフェリ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/53e6df17-2705-43ed-b8fb-59ca526d02ac/i/5406801/7ecbf592-e4f2-48b2-b8de-99d1ceefef1b_base_resized.jpg",
+  "creator_id": "inolilly",
+  "creator_name": "inolilly",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 250,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

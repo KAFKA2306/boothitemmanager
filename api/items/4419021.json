@@ -1,0 +1,23 @@
+{
+  "item_id": "4419021",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4419021",
+  "title": "【桔梗　アッシュ対応】衣装モデル「Proje...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5fcd48ff-5a3b-4d93-8bfb-c1ba7ea38b86/i/4419021/c8f95d36-69d2-4a23-ac85-03b55d350912_base_resized.jpg",
+  "creator_id": "himata",
+  "creator_name": "himata",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

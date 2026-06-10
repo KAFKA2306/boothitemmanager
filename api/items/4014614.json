@@ -1,0 +1,23 @@
+{
+  "item_id": "4014614",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4014614",
+  "title": "【PB対応】ハワイアン ビキニ ( 桔梗用 )",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e5c181b9-3dc0-4298-bcbd-d2120c078383/i/4014614/2acd6da6-8151-4d84-9dd3-1b31efba50f1_base_resized.jpg",
+  "creator_id": "km-shop",
+  "creator_name": "km-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

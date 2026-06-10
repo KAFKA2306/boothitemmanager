@@ -1,0 +1,23 @@
+{
+  "item_id": "4955860",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4955860",
+  "title": "L Shirt for Shinra 森羅",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b59da9eb-6d88-4f7c-aa4f-e67e335fb0c5/i/4955860/6042c9f9-d52c-4efe-aed8-d37974704c17_base_resized.jpg",
+  "creator_id": "vinsen",
+  "creator_name": "vinsen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 190,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

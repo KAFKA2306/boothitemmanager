@@ -1,0 +1,23 @@
+{
+  "item_id": "4728959",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4728959",
+  "title": "Shinra ACCENT",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/01031b78-5e76-4492-acda-5dfe5475171d/i/4728959/88cd4294-34d3-456b-bb67-71f8d8f87d62_base_resized.jpg",
+  "creator_id": "kingsoap",
+  "creator_name": "kingsoap",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

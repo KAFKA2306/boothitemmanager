@@ -1,0 +1,23 @@
+{
+  "item_id": "4059661",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4059661",
+  "title": "セレスティア専用　テクスチャセット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/aa211c37-fa76-45b9-bab1-b10c090078aa/i/4059661/7d9deadf-10de-4b89-a925-6acbce271259_base_resized.jpg",
+  "creator_id": "lalka-v",
+  "creator_name": "lalka-v",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

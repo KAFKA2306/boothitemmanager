@@ -1,0 +1,23 @@
+{
+  "item_id": "4356923",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4356923",
+  "title": "【Grus対応】ROAR Sunglasse...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/391f7884-fdf3-44b3-8408-aba404203401/i/4356923/eb69890a-9016-40a8-8c10-0ee3cb187ac0_base_resized.jpg",
+  "creator_id": "hitsujielectrics",
+  "creator_name": "hitsujielectrics",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

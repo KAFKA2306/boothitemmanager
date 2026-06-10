@@ -1,0 +1,23 @@
+{
+  "item_id": "4039025",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4039025",
+  "title": "【セレスティア向け】色素薄め肌テクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b5803eec-6774-4864-8ef4-47288963793e/i/4039025/196984d6-59f3-46cc-84a7-2748e3016837_base_resized.jpg",
+  "creator_id": "midorihadayo",
+  "creator_name": "midorihadayo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

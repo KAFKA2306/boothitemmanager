@@ -1,0 +1,23 @@
+{
+  "item_id": "5170236",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5170236",
+  "title": "【VRC向け】BOWBOWPONCHO【まめ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/53736367-44ab-4339-b951-90f318f8c00d/i/5170236/25b6b0a5-91fe-42bc-9508-037bdb519880_base_resized.jpg",
+  "creator_id": "kurekono3d",
+  "creator_name": "kurekono3d",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

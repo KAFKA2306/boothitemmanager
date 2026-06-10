@@ -1,0 +1,23 @@
+{
+  "item_id": "5272303",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5272303",
+  "title": "萌用 下着追加テクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/371bdb74-a860-4784-9792-f1523ac59a55/i/5272303/a6377449-b65a-47d3-85a0-c785b29e173a_base_resized.jpg",
+  "creator_id": "rbp-shop",
+  "creator_name": "rbp-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

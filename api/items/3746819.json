@@ -1,0 +1,23 @@
+{
+  "item_id": "3746819",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3746819",
+  "title": "【桔梗用】衣装モデル『シンプルジーンズセット...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9ce17800-a401-475b-8bd9-4309a7f6dc4b/i/3746819/559fb54c-0e8a-4f82-9d66-9dfa4665d492_base_resized.jpg",
+  "creator_id": "bobcat-world",
+  "creator_name": "bobcat-world",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

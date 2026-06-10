@@ -1,0 +1,23 @@
+{
+  "item_id": "3690605",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3690605",
+  "title": "【3Dモデル】Hoodie / 薄荷",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/27c22487-d64e-42f9-baeb-0e0d5dfc0cf1/i/3690605/f18012f7-eaf9-43aa-a215-4970e91432ac_base_resized.jpg",
+  "creator_id": "rakoko",
+  "creator_name": "rakoko",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

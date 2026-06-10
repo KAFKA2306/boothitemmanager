@@ -1,0 +1,23 @@
+{
+  "item_id": "5937496",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5937496",
+  "title": "【 森羅 / Shinra 専用 】 Noc...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9ae325eb-f7dd-46de-9753-f6f429ebf44d/i/5937496/9659ccc9-7282-49c3-9abc-c202345d2af3_base_resized.jpg",
+  "creator_id": "ce-cilia",
+  "creator_name": "ce-cilia",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 550,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

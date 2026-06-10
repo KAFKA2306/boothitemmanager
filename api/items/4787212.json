@@ -1,0 +1,23 @@
+{
+  "item_id": "4787212",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4787212",
+  "title": "【Grus/森羅対応】スキンジャケット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ad61827f-624c-496f-a02c-ff5e250313d1/i/4787212/1a340552-1191-472c-a4b2-29e3983ecb08_base_resized.jpg",
+  "creator_id": "8-dori",
+  "creator_name": "8-dori",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

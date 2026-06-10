@@ -1,0 +1,23 @@
+{
+  "item_id": "4249187",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4249187",
+  "title": "【桔梗用】 [For Kikyo] VOLA...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/35bfde31-a34b-4522-8ee1-480dbc590091/i/4249187/b36045eb-6a6a-4bc5-b064-0ab99ecc3fca_base_resized.jpg",
+  "creator_id": "harukappumen",
+  "creator_name": "harukappumen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

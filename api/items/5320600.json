@@ -1,0 +1,27 @@
+{
+  "item_id": "5320600",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5320600",
+  "title": "【ルルネ、瑞希専用】Plumery Bikini",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7517c25d-d598-46c1-8def-15136d07bc3f/i/5320600/80613cd1-6a29-4ffb-969d-f266891ca245_base_resized.jpg",
+  "creator_id": "zunwara",
+  "creator_name": "zunwara",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4363610",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4363610",
+  "title": "【セレスティア対応】Steller ダッフル...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b59839c2-973d-40cb-b7c3-d3f981c699b7/i/4363610/b1e7cf76-56fa-435c-9843-8df7b995f553_base_resized.jpg",
+  "creator_id": "oao",
+  "creator_name": "oao",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

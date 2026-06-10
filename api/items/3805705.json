@@ -1,0 +1,23 @@
+{
+  "item_id": "3805705",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3805705",
+  "title": "【桔梗用】バスタオル",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/747917e9-bfb4-437a-9a0c-242e6453303c/i/3805705/179ca46f-7e49-42ce-ae04-8e466b669712_base_resized.jpg",
+  "creator_id": "shurishuri",
+  "creator_name": "shurishuri",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

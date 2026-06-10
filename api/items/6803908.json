@@ -1,0 +1,23 @@
+{
+  "item_id": "6803908",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6803908",
+  "title": "AVVI しなの シューズセット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3b62d358-518d-47aa-b526-f1d48ab616ec/i/6803908/9b14e934-9948-47eb-8a7d-a08e7a9f9f9d_base_resized.jpg",
+  "creator_id": "kusutto",
+  "creator_name": "kusutto",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

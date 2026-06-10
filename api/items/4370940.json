@@ -1,0 +1,23 @@
+{
+  "item_id": "4370940",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4370940",
+  "title": "【FREE】Santa_Hat【サンタ帽子】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c9fc3d46-96b6-411f-a074-7b229ed7608d/i/4370940/77c2a0a0-fa7c-4a82-a022-43f27496c0a1_base_resized.jpg",
+  "creator_id": "halmond",
+  "creator_name": "halmond",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

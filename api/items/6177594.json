@@ -1,0 +1,27 @@
+{
+  "item_id": "6177594",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6177594",
+  "title": "【瑞希、ルルネ対応】どらきゅらあい【アイテク...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c6da6711-b91d-4edf-8762-e4c1d18fb2bf/i/6177594/19028ba0-4ccd-4a0d-afad-78848c98fa01_base_resized.jpg",
+  "creator_id": "tarottistore",
+  "creator_name": "tarottistore",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

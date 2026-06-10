@@ -1,0 +1,23 @@
+{
+  "item_id": "6868288",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6868288",
+  "title": "「ギミック付き3Dモデル」サングラスギミック...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/625aed31-8419-4ddf-846e-5c7436baa600/i/6868288/2102e611-41b0-4ceb-b79d-9a8c89f8fed1_base_resized.jpg",
+  "creator_id": "hachitai",
+  "creator_name": "hachitai",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

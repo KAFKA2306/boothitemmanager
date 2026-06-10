@@ -1,0 +1,31 @@
+{
+  "item_id": "5534686",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5534686",
+  "title": "チャイナセーター【桔梗 萌 セレスティア マ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/38ce0a06-7e57-4eda-bc0c-fd783077e52c/i/5534686/9ca9a7c7-2ea9-4d8d-97e4-9926db217c27_base_resized.jpg",
+  "creator_id": "inani",
+  "creator_name": "inani",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

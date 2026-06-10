@@ -1,0 +1,23 @@
+{
+  "item_id": "4223150",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4223150",
+  "title": "「桔梗・Kikyo」そばかす / Freckles",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f2ab3b7b-f630-45c6-b6e0-051b6f72141f/i/4223150/4ebdeaaf-457d-4494-ac5f-9168bbfb48e2_base_resized.jpg",
+  "creator_id": "raphiiko",
+  "creator_name": "raphiiko",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 450,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

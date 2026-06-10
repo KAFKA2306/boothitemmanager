@@ -1,0 +1,31 @@
+{
+  "item_id": "5951063",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5951063",
+  "title": "【VRChat】緋霜羽纏【桔梗/マヌカ/萌/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5951063/5ec7b06c-5512-4061-9f7a-243c8908a2d7_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 2300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6056475",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6056475",
+  "title": "【ルルネ専用】Tail Ring【VRChat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/979ebe58-a703-43c8-b899-c48b88bbc468/i/6056475/8d7f1368-b55f-4984-b593-e663d2e7b70b_base_resized.jpg",
+  "creator_id": "oniwashop",
+  "creator_name": "oniwashop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

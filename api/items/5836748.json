@@ -1,0 +1,27 @@
+{
+  "item_id": "5836748",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5836748",
+  "title": "[森羅/ 水瀬/ マヌカ/ しお/ Shal...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/765ef6dd-cbb7-4e23-ad40-51e83c1a9963/i/5836748/d16f015e-0f2b-49db-a3f4-66c3d01e9022_base_resized.jpg",
+  "creator_id": "bluecloud",
+  "creator_name": "bluecloud",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

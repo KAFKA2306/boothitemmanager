@@ -1,0 +1,27 @@
+{
+  "item_id": "4213786",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4213786",
+  "title": "オリジナル3Dモデル「INABA」「椎名」「...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8867f724-9eb3-4336-ab8e-687a91a84ba8/i/4213786/6012ccf6-4d32-470d-ba8a-430d437d9272_base_resized.jpg",
+  "creator_id": "goldentakasan",
+  "creator_name": "goldentakasan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 7000,
+  "targets": [
+    {
+      "code": "INABA",
+      "name": "INABA"
+    },
+    {
+      "code": "Shiina",
+      "name": "椎名"
+    }
+  ],
+  "files": []
+}

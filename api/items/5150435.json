@@ -1,0 +1,29 @@
+{
+  "item_id": "5150435",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5150435",
+  "title": "【真冬、シアン専用】Plumery Bikini",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7517c25d-d598-46c1-8def-15136d07bc3f/i/5150435/432f7846-61ba-4532-be64-c1b1cf3302f0_base_resized.jpg",
+  "creator_id": "zunwara",
+  "creator_name": "zunwara",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Cian",
+      "name": "シアン"
+    },
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

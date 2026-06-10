@@ -1,0 +1,23 @@
+{
+  "item_id": "7576395",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7576395",
+  "title": "【VRChat想定】スーパーハッカーPC",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9fcece59-7ff9-4a85-aa92-6fd017b7a09e/i/7576395/e548288d-c929-4cee-82cf-e69f3ba32c16_base_resized.jpg",
+  "creator_id": "geana",
+  "creator_name": "geana",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "4009444",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4009444",
+  "title": "【桔梗】【PB】Front Bow Dress",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b00126df-9556-4926-aae0-eedff6b14b16/i/4009444/d296e346-7d7d-4ec7-913f-41955c3876ef_base_resized.jpg",
+  "creator_id": "mari24",
+  "creator_name": "mari24",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

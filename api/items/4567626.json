@@ -1,0 +1,23 @@
+{
+  "item_id": "4567626",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4567626",
+  "title": "【セレスティア用】Cowboy bikini",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/901cc4ea-0746-4bdb-b21b-600afd21ccd7/i/4567626/067efa13-c042-4bb4-aa16-8290a80dd1c6_base_resized.jpg",
+  "creator_id": "goonga",
+  "creator_name": "goonga",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

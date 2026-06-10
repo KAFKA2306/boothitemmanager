@@ -1,0 +1,25 @@
+{
+  "item_id": "4034441",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4034441",
+  "title": "【PB対応】「桔梗・カリン」専用衣装～浴衣 ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/4034441/e1542276-0c01-4389-9025-d47efd21c455_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

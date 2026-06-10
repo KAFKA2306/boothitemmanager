@@ -1,0 +1,29 @@
+{
+  "item_id": "4537051",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4537051",
+  "title": "GothicDress【桔梗 セレスティア用】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9f5c82f7-d60c-48fe-b558-635985279866/i/4537051/9318bb8e-a303-4387-b47e-9ec36fb76a21_base_resized.jpg",
+  "creator_id": "reyuu",
+  "creator_name": "reyuu",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "ゴシック"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

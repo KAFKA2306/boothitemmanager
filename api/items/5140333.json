@@ -1,0 +1,23 @@
+{
+  "item_id": "5140333",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5140333",
+  "title": "【セレスティア対応】セーラーミズ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fee5452b-7e47-4ceb-8cfa-7a42da3bd03b/i/5140333/02dceae0-fb2d-4f26-a8e9-ece4613e86a0_base_resized.jpg",
+  "creator_id": "baec",
+  "creator_name": "baec",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

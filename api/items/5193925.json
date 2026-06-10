@@ -1,0 +1,23 @@
+{
+  "item_id": "5193925",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5193925",
+  "title": "WESTERN OUTFITS(マヌカ用衣装)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b732915f-af29-4075-9d97-5db97240560e/i/5193925/67b2392d-8248-44f3-8b95-3dc322c76c00_base_resized.jpg",
+  "creator_id": "iruka-nezumi",
+  "creator_name": "iruka-nezumi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

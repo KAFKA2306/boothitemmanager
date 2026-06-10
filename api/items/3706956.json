@@ -1,0 +1,23 @@
+{
+  "item_id": "3706956",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3706956",
+  "title": "(SDK FIX) Kikyo桔梗用のFX/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/78913dca-1c3d-48b7-aef8-68ebe3fc6716/i/3706956/d409e7d5-ed8a-44a5-8467-5ada6b5e87a7_base_resized.jpg",
+  "creator_id": "mirara",
+  "creator_name": "mirara",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

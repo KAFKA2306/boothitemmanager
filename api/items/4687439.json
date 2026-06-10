@@ -1,0 +1,23 @@
+{
+  "item_id": "4687439",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4687439",
+  "title": "[ Flower_Nail ] _Moe",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/341150f0-490c-42eb-92b6-c548cc1ea0ae/i/4687439/9e9f793b-ea97-44a8-903f-ad27a3bae877_base_resized.jpg",
+  "creator_id": "balgu",
+  "creator_name": "balgu",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

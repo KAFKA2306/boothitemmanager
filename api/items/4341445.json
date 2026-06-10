@@ -1,0 +1,25 @@
+{
+  "item_id": "4341445",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4341445",
+  "title": "セレスティア専用衣装【サイバーミリタリー】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b771614f-a4fe-48e8-a9dc-d1777f667e17/i/4341445/cc4c0420-4cc1-4a98-a98e-28ba63e6e160_base_resized.jpg",
+  "creator_id": "mikaneko",
+  "creator_name": "mikaneko",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

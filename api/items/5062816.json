@@ -1,0 +1,23 @@
+{
+  "item_id": "5062816",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5062816",
+  "title": "【マヌカ対応】アレステッド・レポート",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4a8b2e27-d374-4781-866c-9257a10bf56d/i/5062816/d6ef8df8-8f56-401d-886a-c89e24b13354_base_resized.jpg",
+  "creator_id": "vagrant",
+  "creator_name": "vagrant",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2400,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

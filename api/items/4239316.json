@@ -1,0 +1,23 @@
+{
+  "item_id": "4239316",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4239316",
+  "title": "【桔梗用】敏感EX～桔梗FX拡張システム～",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f2c95030-c409-40ab-8c4a-e6eeec6cab70/i/4239316/da520aad-9f23-48ef-98df-027e132a2c09_base_resized.jpg",
+  "creator_id": "gentleresearch",
+  "creator_name": "gentleresearch",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

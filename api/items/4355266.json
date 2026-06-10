@@ -1,0 +1,23 @@
+{
+  "item_id": "4355266",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4355266",
+  "title": "キツネ族 衣装 For Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0e03219a-1b80-42a2-ac6e-7fb5ea5c3a21/i/4355266/334c6efc-f9ed-4560-8f3d-db3e4fad43ca_base_resized.jpg",
+  "creator_id": "pampoa",
+  "creator_name": "pampoa",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

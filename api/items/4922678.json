@@ -1,0 +1,23 @@
+{
+  "item_id": "4922678",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4922678",
+  "title": "Shinra Traditional Tat...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d6e0a7e2-5544-411a-8d8e-ac138ccaaeb5/i/4922678/f16c6bbc-7e99-4519-855b-2b515b2d8ba8_base_resized.jpg",
+  "creator_id": "vinzo",
+  "creator_name": "vinzo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

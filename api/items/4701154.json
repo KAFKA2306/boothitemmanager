@@ -1,0 +1,25 @@
+{
+  "item_id": "4701154",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4701154",
+  "title": "【萌-Moe-対応】着物ドレス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/4701154/96da01b1-3e6a-42f0-bcbf-056604998b51_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "3302774",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3302774",
+  "title": "【薄荷専用】瞳宝石テクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8eb1885d-e384-4a6a-8113-e4fb7399a257/i/3302774/365d5248-9702-4547-bbd3-313c0e0f80a3_base_resized.jpg",
+  "creator_id": "mugcat1901",
+  "creator_name": "mugcat1901",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

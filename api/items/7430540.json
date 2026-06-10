@@ -1,0 +1,23 @@
+{
+  "item_id": "7430540",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7430540",
+  "title": "【MA対応】ルルネのサメちゃんライド",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b4d291d1-fe9e-4e1b-bb2b-e5db76c2f412/i/7430540/28fb57bc-0147-473c-962e-d46580bed1d6_base_resized.jpg",
+  "creator_id": "amingu",
+  "creator_name": "amingu",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

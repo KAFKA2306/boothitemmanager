@@ -1,0 +1,23 @@
+{
+  "item_id": "2163943",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2163943",
+  "title": "Bell Bow",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e194ecb1-a15c-402b-a15c-5460d9d7f5fb/i/2163943/0bdb43a7-24f7-487d-ab0f-bb4ed3cdcc0b_base_resized.jpg",
+  "creator_id": "apyr",
+  "creator_name": "apyr",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

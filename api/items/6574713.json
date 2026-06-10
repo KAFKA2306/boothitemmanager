@@ -1,0 +1,23 @@
+{
+  "item_id": "6574713",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6574713",
+  "title": "【ミルティナ・セレスティア対応】レギュラーレ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/18acbad3-99a6-456d-bd21-d6acd5fa12c0/i/6574713/b8a7a712-f1da-4d27-9e80-aad526ccfa75_base_resized.jpg",
+  "creator_id": "cocraft",
+  "creator_name": "cocraft",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

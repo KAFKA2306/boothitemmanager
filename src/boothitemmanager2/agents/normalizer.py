@@ -10,6 +10,54 @@ from ..core import TestBlock
 from ..schemas.storage import RawAssetPage, Item, ItemCategory, AvatarRef, FileAsset
 
 
+def _pick_like_count(soup: BeautifulSoup) -> int:
+    elem = soup.select_one('[data-wishlist-count]')
+    if elem and elem.get('data-wishlist-count'):
+        try:
+            return int(elem.get('data-wishlist-count'))
+        except: pass
+    button = soup.select_one('.wish-list-button')
+    if button:
+        count_text = button.get_text(strip=True)
+        match = re.search(r'(\d+)', count_text)
+        if match: return int(match.group(1))
+    return 0
+
+def _pick_published_at(soup: BeautifulSoup, json_ld: Optional[Dict[str, Any]]) -> Optional[datetime]:
+    if json_ld and json_ld.get('releaseDate'):
+        try:
+            return datetime.fromisoformat(json_ld['releaseDate'].replace('Z', '+00:00'))
+        except: pass
+    
+    date_elem = soup.select_one('.base-datetime')
+    if date_elem:
+        date_str = date_elem.get_text(strip=True)
+        try:
+            return datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
+        except: pass
+
+    time_tag = soup.find('time')
+    if time_tag and time_tag.get('datetime'):
+        try:
+            return datetime.fromisoformat(time_tag['datetime'].replace('Z', '+00:00'))
+        except: pass
+
+    return None
+
+def _extract_tech_tags(title: str, description: Optional[str], tags: List[str]) -> List[str]:
+    tech_tags = []
+    full_text = f"{title} {description or ''} {' '.join(tags)}"
+    keywords = {
+        "Modular Avatar": ["Modular Avatar", "MA対応", "ModularAvatar"],
+        "PhysBone": ["PhysBone", "PB対応", "Phys Bones"],
+        "lilToon": ["lilToon", "リルトゥーン"],
+        "Quest": ["Quest対応", "Quest版"]
+    }
+    for label, patterns in keywords.items():
+        if any(p.lower() in full_text.lower() for p in patterns):
+            tech_tags.append(label)
+    return tech_tags
+
 def normalize_html(raw_page: RawAssetPage, trace_id: str) -> TestBlock:
     """
     Normalizes HTML content from RawAssetPage into an Item model.
@@ -46,7 +94,12 @@ def normalize_html(raw_page: RawAssetPage, trace_id: str) -> TestBlock:
     targets = pick_targets(title, description, tags_raw, aliases)
     category = infer_category(title, description, tags_raw, targets, aliases)
     tags_generated = extract_mood_tags(title, description, tags_raw, aliases)
+    tech_tags = _extract_tech_tags(title, description, tags_raw)
+    tags_generated.extend(tech_tags)
+    
     files = _pick_files(soup)
+    like_count = _pick_like_count(soup)
+    published_at = _pick_published_at(soup, json_ld)
 
     item = Item(
         item_id=item_id,
@@ -57,11 +110,11 @@ def normalize_html(raw_page: RawAssetPage, trace_id: str) -> TestBlock:
         thumbnail_url=thumbnail_url or "",
         creator_id=creator_id or "unknown",
         creator_name=creator_name,
-        published_at=datetime.now(),
+        published_at=published_at,
         tags_raw=tags_raw,
         tags_generated=tags_generated,
         category=category,
-        like_count=0,
+        like_count=like_count,
         price=price,
         targets=targets,
         files=files
@@ -79,6 +132,7 @@ def normalize_html(raw_page: RawAssetPage, trace_id: str) -> TestBlock:
         diff={},
         result="SUCCESS"
     )
+
 
 
 def load_aliases() -> Dict[str, Any]:

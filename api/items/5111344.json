@@ -1,0 +1,31 @@
+{
+  "item_id": "5111344",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5111344",
+  "title": "[Manuka/Moe/Selestia] ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e5120ba0-e001-45d9-97a2-9444e62c88a6/i/5111344/699a1fbd-5fe2-4f72-8139-e51a09839118_base_resized.jpg",
+  "creator_id": "todaycloth",
+  "creator_name": "todaycloth",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "6120564",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6120564",
+  "title": "【ルルネ】サングラス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4f033c5c-d542-4374-8ffd-52e08b4a0d68/i/6120564/ccf2a44d-08b8-49a3-b480-5a3fcaf1a122_base_resized.jpg",
+  "creator_id": "sigu-rira",
+  "creator_name": "sigu-rira",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

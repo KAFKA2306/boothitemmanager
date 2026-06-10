@@ -1,0 +1,27 @@
+{
+  "item_id": "4142211",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4142211",
+  "title": "ボディピアス_2209【萌・森羅 追加!!】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/df05565a-61d7-4e8e-ac9e-97263adfeb98/i/4142211/21fbdaaa-f50c-468e-b021-a79f70281be1_base_resized.jpg",
+  "creator_id": "kuradeza",
+  "creator_name": "kuradeza",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

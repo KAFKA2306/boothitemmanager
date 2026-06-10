@@ -1,0 +1,27 @@
+{
+  "item_id": "4801656",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4801656",
+  "title": "【森羅・萌用衣装】湯上りバスタオル",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5494d858-22e9-43e3-87a3-5da434827fb5/i/4801656/ecdf194c-056b-452d-8052-b9d5451963b5_base_resized.jpg",
+  "creator_id": "selectshop",
+  "creator_name": "selectshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

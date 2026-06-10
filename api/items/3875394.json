@@ -1,0 +1,23 @@
+{
+  "item_id": "3875394",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3875394",
+  "title": "[桔梗向け]桔梗カジュアルセット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/04e84eed-52e3-4b23-8e59-5256ff475f4f/i/3875394/78d8dcdc-2700-4932-a06b-54e43591eed0_base_resized.jpg",
+  "creator_id": "dnagon",
+  "creator_name": "dnagon",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

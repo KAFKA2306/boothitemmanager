@@ -1,0 +1,35 @@
+{
+  "item_id": "5034049",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5034049",
+  "title": "「森羅・桔梗・萌・マヌカ」対応ロックな刺青",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5034049/b509864d-a4ed-43ba-a2ff-608fc413562f_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

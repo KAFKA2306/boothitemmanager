@@ -1,0 +1,31 @@
+{
+  "item_id": "4938397",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4938397",
+  "title": "天照の浄衣【対応アバター:萌・セレスティア・桔梗】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4a9b506c-da44-4a17-91f6-ebfd73acdbe4/i/4938397/63ef718a-1e8b-4f91-8ca3-0384371c14ac_base_resized.jpg",
+  "creator_id": "decoranaige",
+  "creator_name": "decoranaige",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

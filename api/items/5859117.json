@@ -1,0 +1,27 @@
+{
+  "item_id": "5859117",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5859117",
+  "title": "[Sio / Manuka / Kikyo ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ea1c03c7-73c7-4eeb-8620-6a21b54e1274/i/5859117/ef87fb31-c8c4-4c12-b4c8-7f1595e30e22_base_resized.jpg",
+  "creator_id": "niiikee",
+  "creator_name": "niiikee",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 250,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

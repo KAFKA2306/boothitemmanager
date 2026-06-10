@@ -1,0 +1,23 @@
+{
+  "item_id": "8053128",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/8053128",
+  "title": "【ギミック付き】ぱくっと食べれる！フルーツサンド🍓",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c488a66f-c650-4fe9-9c2f-2ffa8b1843b8/i/8053128/2696b23b-45d4-4c21-93a5-95e5dc8515ed_base_resized.jpg",
+  "creator_id": "atelier-rudy",
+  "creator_name": "atelier-rudy",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

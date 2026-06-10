@@ -1,0 +1,23 @@
+{
+  "item_id": "4686693",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4686693",
+  "title": "【萌(Moe) 専用】 NECO HOLIC",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ba557560-1aa1-433d-8f43-3eea697b3cb6/i/4686693/f5c2ebb1-070f-4749-98d7-b4a7ce9f48db_base_resized.jpg",
+  "creator_id": "seunchan",
+  "creator_name": "seunchan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "3701595",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3701595",
+  "title": "【桔梗用】透けTビキニ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/3701595/e8a3ac1a-3779-4553-aba1-af3e9e6afa1d_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "4475600",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4475600",
+  "title": "【Kikyo&Selestia】Knit D...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/46bc71ba-bc3c-4ce4-88a7-55edecba5764/i/4475600/fc34752c-c80d-44a0-bb7f-14f8a13caceb_base_resized.jpg",
+  "creator_id": "beta132",
+  "creator_name": "beta132",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

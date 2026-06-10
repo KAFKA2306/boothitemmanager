@@ -1,0 +1,27 @@
+{
+  "item_id": "7888718",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7888718",
+  "title": "【しなの・マヌカ対応】なりきりさきゅばすせっ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e87ab457-bc98-413d-82e1-4e72a5289e60/i/7888718/88d7eade-f765-4dce-ab8c-aba6a4f5a1b9_base_resized.jpg",
+  "creator_id": "twinpolaris",
+  "creator_name": "twinpolaris",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

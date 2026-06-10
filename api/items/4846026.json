@@ -1,0 +1,23 @@
+{
+  "item_id": "4846026",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4846026",
+  "title": "【森羅対応】オフショルダーYシャツ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9977852d-4f9c-4bdb-b624-ef88e781fa73/i/4846026/c6caa15d-50e2-4dcf-867e-715213a1abc0_base_resized.jpg",
+  "creator_id": "ai-works",
+  "creator_name": "ai-works",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 950,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

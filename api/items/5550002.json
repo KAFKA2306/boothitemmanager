@@ -1,0 +1,23 @@
+{
+  "item_id": "5550002",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5550002",
+  "title": "Cross bow（リロード＆発砲ギミック付）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5550002/3eb454c3-5974-444d-a472-76d6572eca62_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

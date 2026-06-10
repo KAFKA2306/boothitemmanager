@@ -1,0 +1,23 @@
+{
+  "item_id": "5371285",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5371285",
+  "title": "瑞希対応衣装【振袖セット】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/23faea2c-d320-4fd7-8fe5-063a916df9b0/i/5371285/6ef32d17-1c24-417c-bb1d-87e1e42f7aa4_base_resized.jpg",
+  "creator_id": "hajimata",
+  "creator_name": "hajimata",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "3762093",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3762093",
+  "title": "ひるね屋の前開きワイシャツ for Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4d603a5d-0611-4e3c-833c-41454379f04e/i/3762093/ef6e116f-4c39-4d98-ba3c-dcdc64ac5c71_base_resized.jpg",
+  "creator_id": "hirune-vr",
+  "creator_name": "hirune-vr",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4290067",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4290067",
+  "title": "TRACE (セレスティアちゃん対応)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/050d636d-d5b3-4ef3-b435-1778a687ae68/i/4290067/e5140533-ef1c-47c5-bbb8-303524e40e02_base_resized.jpg",
+  "creator_id": "childfactory",
+  "creator_name": "childfactory",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

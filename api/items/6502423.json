@@ -1,0 +1,23 @@
+{
+  "item_id": "6502423",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6502423",
+  "title": "[Shinra - 森羅] Baggy ca...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8aed2d00-bf64-4587-8f32-bc04789f8bd3/i/6502423/986b280e-7747-4a2e-b8ee-2cd104914211_base_resized.jpg",
+  "creator_id": "a2x4",
+  "creator_name": "a2x4",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

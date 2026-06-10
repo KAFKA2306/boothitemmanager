@@ -1,0 +1,23 @@
+{
+  "item_id": "5078146",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5078146",
+  "title": "【マヌカ対応】ナイト・イン・シャンハイ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4a8b2e27-d374-4781-866c-9257a10bf56d/i/5078146/c449e87b-f50a-46a5-a2e7-33d6f1b1661e_base_resized.jpg",
+  "creator_id": "vagrant",
+  "creator_name": "vagrant",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2200,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

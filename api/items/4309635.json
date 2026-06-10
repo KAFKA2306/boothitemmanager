@@ -1,0 +1,23 @@
+{
+  "item_id": "4309635",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4309635",
+  "title": "【Kikyo】振り巫女服",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/4309635/d0fc6f27-17ad-47ee-b425-413a225a2043_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4916717",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4916717",
+  "title": "【森羅-Shinra-用衣装】Rock St...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5494d858-22e9-43e3-87a3-5da434827fb5/i/4916717/e8d5ca53-e8ef-4d50-85a5-58a968dcbdc7_base_resized.jpg",
+  "creator_id": "selectshop",
+  "creator_name": "selectshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

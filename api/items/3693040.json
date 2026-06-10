@@ -1,0 +1,23 @@
+{
+  "item_id": "3693040",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3693040",
+  "title": "【桔梗用】セータービキニ２",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/3693040/76f7c5c0-1184-498a-86d0-a0f152a14b46_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

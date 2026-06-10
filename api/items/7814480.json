@@ -1,0 +1,27 @@
+{
+  "item_id": "7814480",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7814480",
+  "title": "【しなの・マヌカ対応】まきつきねこてーる【V...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e87ab457-bc98-413d-82e1-4e72a5289e60/i/7814480/5ae25dd5-bd76-416a-a11f-a19118e7b840_base_resized.jpg",
+  "creator_id": "twinpolaris",
+  "creator_name": "twinpolaris",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

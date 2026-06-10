@@ -1,0 +1,23 @@
+{
+  "item_id": "3950065",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3950065",
+  "title": "Violatio_Cloth【桔梗用】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7bbd280d-38bd-437e-a043-a3959c3cf162/i/3950065/35c0b411-e6f9-4c55-b305-ea905658ed44_base_resized.jpg",
+  "creator_id": "kindness",
+  "creator_name": "kindness",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

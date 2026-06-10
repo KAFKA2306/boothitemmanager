@@ -1,0 +1,23 @@
+{
+  "item_id": "6240003",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6240003",
+  "title": "さわれる舌 for Shinano",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c6c4fc1-cc07-4c72-9f20-35cd2f7f543a/i/6240003/420474d5-07ea-4a66-b43c-2e532d3f6f53_base_resized.jpg",
+  "creator_id": "ginnshop",
+  "creator_name": "ginnshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

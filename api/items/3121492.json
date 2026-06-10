@@ -1,0 +1,23 @@
+{
+  "item_id": "3121492",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3121492",
+  "title": "OVER_T_Sue(Hakka_Body)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a016cb60-c956-4842-9db3-11300ac7c153/i/3121492/cd4af848-ae7a-48b6-9c7f-59d087d83243_base_resized.jpg",
+  "creator_id": "shard",
+  "creator_name": "shard",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

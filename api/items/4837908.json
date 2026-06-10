@@ -1,0 +1,23 @@
+{
+  "item_id": "4837908",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4837908",
+  "title": "[森羅(Shinra)] Demon Eye...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7abb3805-8abc-4e8f-a1a2-3ace0dcaf291/i/4837908/e36729ce-9501-4416-b3f6-c716a47016bf_base_resized.jpg",
+  "creator_id": "hamco-factory",
+  "creator_name": "hamco-factory",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

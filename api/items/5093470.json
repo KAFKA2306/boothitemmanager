@@ -1,0 +1,23 @@
+{
+  "item_id": "5093470",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5093470",
+  "title": "[マヌカ対応]マヌカジ3",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/04e84eed-52e3-4b23-8e59-5256ff475f4f/i/5093470/629bc97f-1683-4e99-9c45-49ead510e4a8_base_resized.jpg",
+  "creator_id": "dnagon",
+  "creator_name": "dnagon",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

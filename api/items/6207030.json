@@ -1,0 +1,29 @@
+{
+  "item_id": "6207030",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6207030",
+  "title": "【マヌカ/真冬対応】やみカワあいてくすちゃ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e3e8f9d5-b8d3-411a-8398-b38d5705e672/i/6207030/7f87a9bb-5832-4e45-bb57-5a9504f589cd_base_resized.jpg",
+  "creator_id": "imu02",
+  "creator_name": "imu02",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 120,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4604093",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4604093",
+  "title": "[MP][桔梗/舞夜]オーシャン オブ ライ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/46e79cc1-3985-43f9-b2cc-60f1d8a85487/i/4604093/edc25ef1-354b-421c-b4c6-21962ac9787d_base_resized.jpg",
+  "creator_id": "haven",
+  "creator_name": "haven",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

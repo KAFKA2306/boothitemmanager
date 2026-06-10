@@ -1,0 +1,27 @@
+{
+  "item_id": "6026686",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6026686",
+  "title": "【えりをはだけるギミック】「瑞希・ルルネ・ラ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/6026686/ac974e3a-b128-4649-9dbe-75fdf952df1d_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

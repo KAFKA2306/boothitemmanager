@@ -1,0 +1,26 @@
+{
+  "item_id": "4823613",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4823613",
+  "title": "【セレスティア対応】CYBER MAID【V...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/4823613/926031e1-2d02-49c3-b4c0-5a368f8ce6aa_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド",
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

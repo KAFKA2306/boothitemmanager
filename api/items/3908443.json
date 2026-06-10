@@ -1,0 +1,23 @@
+{
+  "item_id": "3908443",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3908443",
+  "title": "【桔梗用】ジャケット水着3",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/3908443/dc4f5a5b-d47e-433f-9fcb-8c3b646ad38f_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

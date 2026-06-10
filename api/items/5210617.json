@@ -1,0 +1,23 @@
+{
+  "item_id": "5210617",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5210617",
+  "title": "Shinra Eye Texture [ O...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7ecf4d62-2308-4399-9b22-d03c885187a7/i/5210617/11e4a427-ae89-4448-9ec5-8577a4dceefc_base_resized.jpg",
+  "creator_id": "opheliacollins",
+  "creator_name": "opheliacollins",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

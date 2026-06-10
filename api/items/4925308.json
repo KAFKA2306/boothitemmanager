@@ -1,0 +1,23 @@
+{
+  "item_id": "4925308",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4925308",
+  "title": "モエ服 MOE outfit",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b772d28d-bdf3-417b-a546-b2c7c9fff400/i/4925308/76ad583e-f23a-45cb-86c9-3bde2944a0a7_base_resized.jpg",
+  "creator_id": "virt",
+  "creator_name": "virt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 980,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

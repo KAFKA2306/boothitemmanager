@@ -1,0 +1,23 @@
+{
+  "item_id": "3937555",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3937555",
+  "title": "【桔梗対応】温泉バスタオル【VRChat向け】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2d7472b0-db53-45a0-881c-11d2f392d2cd/i/3937555/4e8823bd-a3fe-4684-b492-092f89529f6c_base_resized.jpg",
+  "creator_id": "moon-nyannyan",
+  "creator_name": "moon-nyannyan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

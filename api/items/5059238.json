@@ -1,0 +1,23 @@
+{
+  "item_id": "5059238",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5059238",
+  "title": "【マヌカ対応】しゅわしゅわアイ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/802bd6bc-17ae-4b64-92f5-587d7a61caf7/i/5059238/ed5960f9-4b10-41a7-8150-4b6fe1089bb2_base_resized.jpg",
+  "creator_id": "karaage120en",
+  "creator_name": "karaage120en",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 120,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

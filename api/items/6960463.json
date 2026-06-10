@@ -1,0 +1,27 @@
+{
+  "item_id": "6960463",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6960463",
+  "title": "【瑞希＆ルルネ対応】Vivid Eve【VR...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/6960463/bd7bd654-3072-4e0d-95cf-d535a96088e9_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

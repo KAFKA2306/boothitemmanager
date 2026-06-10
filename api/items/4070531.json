@@ -1,0 +1,23 @@
+{
+  "item_id": "4070531",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4070531",
+  "title": "ひるね屋の縦セタ for Selestia",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4d603a5d-0611-4e3c-833c-41454379f04e/i/4070531/99de0cb1-7600-414a-8686-6744612a6afa_base_resized.jpg",
+  "creator_id": "hirune-vr",
+  "creator_name": "hirune-vr",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

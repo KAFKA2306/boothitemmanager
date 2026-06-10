@@ -1,0 +1,23 @@
+{
+  "item_id": "3772721",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3772721",
+  "title": "桔梗ちゃん用衣装 「ブラックポリス」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2b252a6b-baf5-4f89-a925-5487649661c3/i/3772721/53b00c7c-8b0d-4ab9-8120-e44612ddb38d_base_resized.jpg",
+  "creator_id": "koarare-atelier",
+  "creator_name": "koarare-atelier",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

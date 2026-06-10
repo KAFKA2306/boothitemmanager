@@ -1,0 +1,25 @@
+{
+  "item_id": "3043368",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3043368",
+  "title": "「薄荷」専用【3D衣装モデル】ホワイトメイド",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/3043368/6fc648a6-d2da-4790-ab08-ad69d64ea9a5_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

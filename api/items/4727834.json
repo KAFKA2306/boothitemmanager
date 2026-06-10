@@ -1,0 +1,27 @@
+{
+  "item_id": "4727834",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4727834",
+  "title": "[Maya/Selestia/Kikyo/M...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3030980a-9a8a-40e2-b0a8-54cda87439a8/i/4727834/615b448b-323e-481a-b050-45b7eb9b44d2_base_resized.jpg",
+  "creator_id": "exist-studio",
+  "creator_name": "exist-studio",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 350,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

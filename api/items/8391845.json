@@ -1,0 +1,23 @@
+{
+  "item_id": "8391845",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/8391845",
+  "title": "【しなの対応】Urban Utility",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/24363856-3bf0-44a3-89a7-277a1dc09a5a/i/8391845/11a5be48-a002-48ef-b462-61368d170eca_base_resized.jpg",
+  "creator_id": "yahoyaho",
+  "creator_name": "yahoyaho",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

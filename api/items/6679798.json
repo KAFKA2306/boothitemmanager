@@ -1,0 +1,23 @@
+{
+  "item_id": "6679798",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6679798",
+  "title": "【ルルネ専用】あんどんしっぽ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/edaa7fb2-a050-4e08-9b4d-3dc81c7d2551/i/6679798/c52171b5-3755-456e-88de-9225b683554e_base_resized.jpg",
+  "creator_id": "mp0x0qm",
+  "creator_name": "mp0x0qm",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

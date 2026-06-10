@@ -1,0 +1,23 @@
+{
+  "item_id": "4688631",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4688631",
+  "title": "Moe face expression an...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c890b9e-cbaf-4c17-9152-369c75a520a2/i/4688631/455bd3ae-0fd5-46d5-b76a-60fb49e29e57_base_resized.jpg",
+  "creator_id": "m1nt",
+  "creator_name": "m1nt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

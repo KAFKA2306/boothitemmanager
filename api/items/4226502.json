@@ -1,0 +1,23 @@
+{
+  "item_id": "4226502",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4226502",
+  "title": "モグモグ（桔梗 -Kikyo- 対応）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/69863605-24e8-4024-aa35-ef92202e254a/i/4226502/a589ebb0-b69d-4ad6-83f8-5e1d9c4e09c2_base_resized.jpg",
+  "creator_id": "unchihako",
+  "creator_name": "unchihako",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 150,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

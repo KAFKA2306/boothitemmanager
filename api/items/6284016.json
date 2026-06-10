@@ -1,0 +1,27 @@
+{
+  "item_id": "6284016",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6284016",
+  "title": "「しなの」もえもえ_MOEMOE makeu...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d5dc5233-9031-49de-8f81-0a5aaea7c939/i/6284016/3fb9fa30-ab57-47ee-90f1-07e3febf7f17_base_resized.jpg",
+  "creator_id": "juusan",
+  "creator_name": "juusan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 550,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6106863",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6106863",
+  "title": "オリジナル3Dモデル「しなの」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ed52788c-0b3b-4e38-9ded-1e5797daf0ef/i/6106863/07bd77df-a8ee-4244-8c4e-16cf7cb584bb_base_resized.jpg",
+  "creator_id": "ponderogen",
+  "creator_name": "ponderogen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 6000,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

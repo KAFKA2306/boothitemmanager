@@ -1,0 +1,23 @@
+{
+  "item_id": "3894232",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3894232",
+  "title": "【桔梗用衣装】湯上りバスタオル",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5494d858-22e9-43e3-87a3-5da434827fb5/i/3894232/2bea0180-d265-48be-8a68-869bddf0317e_base_resized.jpg",
+  "creator_id": "selectshop",
+  "creator_name": "selectshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

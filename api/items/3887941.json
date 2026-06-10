@@ -1,0 +1,23 @@
+{
+  "item_id": "3887941",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3887941",
+  "title": "ハムスターパーカー for Kikyo (桔梗)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/54edd7bc-43a3-4f28-8a8d-589d7db0c6d4/i/3887941/fb1e13fd-3ab1-4f93-97d4-9c5751a86067_base_resized.jpg",
+  "creator_id": "radish",
+  "creator_name": "radish",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

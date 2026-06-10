@@ -1,0 +1,23 @@
+{
+  "item_id": "6855419",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6855419",
+  "title": "【森羅】Sennight",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4f8434a5-1863-43d7-be15-d0dd1117689f/i/6855419/447ef01c-abae-48e9-920d-582c4fa962ce_base_resized.jpg",
+  "creator_id": "boothkyou",
+  "creator_name": "boothkyou",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 550,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4051497",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4051497",
+  "title": "Aimable - エマーブル【桔梗・ルーナ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/38ce0a06-7e57-4eda-bc0c-fd783077e52c/i/4051497/51bfaca7-d369-42af-93e1-5ca15f0119f1_base_resized.jpg",
+  "creator_id": "inani",
+  "creator_name": "inani",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

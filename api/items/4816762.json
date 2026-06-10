@@ -1,0 +1,23 @@
+{
+  "item_id": "4816762",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4816762",
+  "title": "桔梗対応 球体関節風テクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4bff2283-7698-42a0-85a6-b2ed9dc38c3f/i/4816762/ab679539-5ff2-436f-a0ce-2d62a7eca8d0_base_resized.jpg",
+  "creator_id": "goldstar",
+  "creator_name": "goldstar",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

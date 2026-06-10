@@ -1,0 +1,23 @@
+{
+  "item_id": "4256937",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4256937",
+  "title": "【桔梗ちゃん対応】衣装用3Dモデル「ハートバ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7ddc5b4a-9e11-4455-8c2c-7607cc08cbcf/i/4256937/db1df943-588d-44dd-adb5-5e4ea60d4f07_base_resized.jpg",
+  "creator_id": "namzaru-shop",
+  "creator_name": "namzaru-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

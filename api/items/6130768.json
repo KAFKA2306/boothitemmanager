@@ -1,0 +1,23 @@
+{
+  "item_id": "6130768",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6130768",
+  "title": "森羅/Shinra - Face Track...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/110dceb8-feef-45b1-b750-ac144404130b/i/6130768/43c5005b-c6e1-438b-81a0-1146a9e0a60a_base_resized.jpg",
+  "creator_id": "hashedits",
+  "creator_name": "hashedits",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 4500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

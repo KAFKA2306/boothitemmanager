@@ -1,0 +1,23 @@
+{
+  "item_id": "4744741",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4744741",
+  "title": "「森羅」 Shinra Face Expre...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9c63fe9f-2516-4a00-b987-4e7abc8731c3/i/4744741/1337b17b-819b-4cbd-baea-f469f61cd4f9_base_resized.jpg",
+  "creator_id": "xux",
+  "creator_name": "xux",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

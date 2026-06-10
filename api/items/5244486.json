@@ -1,0 +1,25 @@
+{
+  "item_id": "5244486",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5244486",
+  "title": "【真冬専用】もこもこニットセーター",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/16585cc4-975a-47ba-adad-8fe8e44fb32e/i/5244486/2f772681-c149-4aa6-8f5b-3f519a842eca_base_resized.jpg",
+  "creator_id": "kokonoka99",
+  "creator_name": "kokonoka99",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

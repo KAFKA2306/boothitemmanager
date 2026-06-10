@@ -1,0 +1,23 @@
+{
+  "item_id": "5481699",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5481699",
+  "title": "【マヌカ対応】Vigilant Style【...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5481699/783690fd-6cfd-40cf-acf9-24a3370dd702_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2300,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

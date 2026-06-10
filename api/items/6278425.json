@@ -1,0 +1,25 @@
+{
+  "item_id": "6278425",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6278425",
+  "title": "【しなの専用】冬霜の散歩道【3D衣装】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6f4896b4-9da4-40fe-a239-3bf967c5f773/i/6278425/aae89e38-a5b9-40e7-aa39-15f35c9f22b4_base_resized.jpg",
+  "creator_id": "nora-kura",
+  "creator_name": "nora-kura",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

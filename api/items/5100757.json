@@ -1,0 +1,23 @@
+{
+  "item_id": "5100757",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5100757",
+  "title": "Simple Shirt_マヌカ用 / Fo...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e5c181b9-3dc0-4298-bcbd-d2120c078383/i/5100757/3876e518-eaf0-45a5-a88e-00472546e778_base_resized.jpg",
+  "creator_id": "km-shop",
+  "creator_name": "km-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

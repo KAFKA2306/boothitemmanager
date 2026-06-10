@@ -1,0 +1,23 @@
+{
+  "item_id": "4150312",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4150312",
+  "title": "セレスティアちゃん用衣装 「柩砕聖装エクソシ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2b252a6b-baf5-4f89-a925-5487649661c3/i/4150312/c2822512-1d29-4d20-963b-d68a6725e41b_base_resized.jpg",
+  "creator_id": "koarare-atelier",
+  "creator_name": "koarare-atelier",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

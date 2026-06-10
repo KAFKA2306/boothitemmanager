@@ -1,0 +1,31 @@
+{
+  "item_id": "5207558",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5207558",
+  "title": "[Manuka/Moe/Kikyo/Sele...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e5120ba0-e001-45d9-97a2-9444e62c88a6/i/5207558/1b794523-81f2-4801-8dc8-223c18810f52_base_resized.jpg",
+  "creator_id": "todaycloth",
+  "creator_name": "todaycloth",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

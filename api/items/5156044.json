@@ -1,0 +1,25 @@
+{
+  "item_id": "5156044",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5156044",
+  "title": "【真冬ちゃん対応】シスターセット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5d2f52b0-3a5e-4930-a874-ad1a7b5c47ad/i/5156044/4b0ff191-37cb-4e69-a8a6-6f51051a5b38_base_resized.jpg",
+  "creator_id": "anomanice",
+  "creator_name": "anomanice",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

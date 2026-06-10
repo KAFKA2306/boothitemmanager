@@ -1,0 +1,23 @@
+{
+  "item_id": "7612807",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7612807",
+  "title": "Shinra natural materia...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f643cbc5-5dc4-4eb8-a8e1-a439c4db5118/i/7612807/f34f0c3f-7dc2-4940-83df-f4e16c218679_base_resized.jpg",
+  "creator_id": "ritzmade",
+  "creator_name": "ritzmade",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

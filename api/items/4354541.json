@@ -1,0 +1,27 @@
+{
+  "item_id": "4354541",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4354541",
+  "title": "【値下げ】【舞夜, カリン,マヌカ,萌対応】...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bb9409a7-8d31-4275-adf4-5809c6d44b4f/i/4354541/ba842c3d-734c-4788-be98-37c1c7414890_base_resized.jpg",
+  "creator_id": "hugetail",
+  "creator_name": "hugetail",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

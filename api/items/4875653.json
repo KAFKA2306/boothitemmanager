@@ -1,0 +1,23 @@
+{
+  "item_id": "4875653",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4875653",
+  "title": "【Modular Avatar対応】「萌」専...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/4875653/bc19cc33-2f19-4143-bee0-c03b88acdf42_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

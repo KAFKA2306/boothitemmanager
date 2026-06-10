@@ -1,0 +1,23 @@
+{
+  "item_id": "6140205",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6140205",
+  "title": "「しなの」専用【3D衣装モデル】アイアンシス...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/6140205/46e787c7-cab4-4d82-8a92-bc24e1e49716_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2300,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5987293",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5987293",
+  "title": "【マヌカ対応】竜華キサキ's outfit",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/27af8d77-caa3-48d7-a779-14917314f1e3/i/5987293/c6b53fed-1eec-48d3-9a9e-8a5196952464_base_resized.jpg",
+  "creator_id": "janku",
+  "creator_name": "janku",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

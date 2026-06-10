@@ -1,0 +1,23 @@
+{
+  "item_id": "5991980",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5991980",
+  "title": "【3D】Noble Liberty (森羅/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ebaa6de7-8ca7-4319-8a84-0e098ddaaa20/i/5991980/45941b84-492f-45b0-8a4b-3b3863f4f181_base_resized.jpg",
+  "creator_id": "lyra-o-o-o",
+  "creator_name": "lyra-o-o-o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5064201",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5064201",
+  "title": "Fruity EYE +α for MANUKA",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3fd813bf-9595-4e56-86e3-97aba0ee8c51/i/5064201/afcc30a1-ab76-4233-850b-b29b58a1640a_base_resized.jpg",
+  "creator_id": "mocchiriomochi",
+  "creator_name": "mocchiriomochi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

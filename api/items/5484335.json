@@ -1,0 +1,23 @@
+{
+  "item_id": "5484335",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5484335",
+  "title": "Moe_Suit・萌用スーツ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/67b0db83-68ae-4219-b034-b76df0ce5f1f/i/5484335/5d68c5ff-878e-459c-935a-2995dab7ddd7_base_resized.jpg",
+  "creator_id": "minamotosyun",
+  "creator_name": "minamotosyun",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

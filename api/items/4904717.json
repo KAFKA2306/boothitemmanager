@@ -1,0 +1,25 @@
+{
+  "item_id": "4904717",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4904717",
+  "title": "桔梗ちゃん対応（for Kikyo)『旅館浴衣』",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7c310aec-9882-4419-aa2e-1df875e85116/i/4904717/39c8efa8-e38f-48a2-8e3b-0bf19f6953f8_base_resized.jpg",
+  "creator_id": "balmaison01",
+  "creator_name": "balmaison01",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

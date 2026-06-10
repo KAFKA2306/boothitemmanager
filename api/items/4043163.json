@@ -1,0 +1,23 @@
+{
+  "item_id": "4043163",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4043163",
+  "title": "【セレスティア用】セータービキニ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/4043163/43168883-7249-4fcd-9b7a-cdb4f80bf9f8_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

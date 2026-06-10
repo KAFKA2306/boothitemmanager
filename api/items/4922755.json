@@ -1,0 +1,23 @@
+{
+  "item_id": "4922755",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4922755",
+  "title": "ミッドナイト・トラベラー（桔梗用）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ca266b92-5c4c-472d-bc80-e83f01ddd661/i/4922755/08cd4fff-9749-4dcc-af4b-a8984209c696_base_resized.jpg",
+  "creator_id": "creativeroom",
+  "creator_name": "creativeroom",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

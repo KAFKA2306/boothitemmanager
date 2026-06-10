@@ -1,0 +1,25 @@
+{
+  "item_id": "7051307",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7051307",
+  "title": "{ルルネ用}Cyber Tail Prism...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0850ba11-ba0b-4a14-a232-4b4b9adfa068/i/7051307/879f8495-b41d-4d90-a44e-ca2033ba52ef_base_resized.jpg",
+  "creator_id": "nyafshop",
+  "creator_name": "nyafshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

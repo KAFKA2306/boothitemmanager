@@ -1,0 +1,23 @@
+{
+  "item_id": "4469277",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4469277",
+  "title": "【セレスティア対応】Death Wedding",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5d2f52b0-3a5e-4930-a874-ad1a7b5c47ad/i/4469277/cdc02398-1865-4566-9388-546ab9803c36_base_resized.jpg",
+  "creator_id": "anomanice",
+  "creator_name": "anomanice",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

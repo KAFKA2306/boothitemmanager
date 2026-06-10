@@ -1,0 +1,26 @@
+{
+  "item_id": "4724138",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4724138",
+  "title": "【桔梗対応】CYBER MAID【VRChat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/4724138/6b213bcd-bea3-43ac-bc29-72fdf09f8ddc_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド",
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

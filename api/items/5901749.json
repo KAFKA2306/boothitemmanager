@@ -1,0 +1,23 @@
+{
+  "item_id": "5901749",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5901749",
+  "title": "[FREE] しんぷるわんぴーす / マヌカ用",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8c103339-63b6-487f-af05-cfc73702a119/i/5901749/8a90c87e-aeb1-4d69-ba24-568836d637bb_base_resized.jpg",
+  "creator_id": "sassy",
+  "creator_name": "sassy",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

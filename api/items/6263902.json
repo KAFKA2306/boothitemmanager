@@ -1,0 +1,29 @@
+{
+  "item_id": "6263902",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6263902",
+  "title": "「真冬・シアン」専用【3D衣装モデル】Ful...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/6263902/7f8094a7-6943-4882-b8fd-69f98856d1a4_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Cian",
+      "name": "シアン"
+    },
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4036026",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4036026",
+  "title": "Urban Tech Chrome【桔梗用】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f5d1aad1-8436-4e4e-8ebe-fa00ed8bab73/i/4036026/074503aa-2456-4ca4-a1fc-fcbb2886beef_base_resized.jpg",
+  "creator_id": "siromori",
+  "creator_name": "siromori",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

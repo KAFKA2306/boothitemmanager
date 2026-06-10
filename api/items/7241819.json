@@ -1,0 +1,25 @@
+{
+  "item_id": "7241819",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7241819",
+  "title": "【えりをはだけるギミック】「ミルティナ・真冬...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/7241819/a1454aed-7f77-4d51-a26b-cdad779ac719_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

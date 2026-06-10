@@ -1,0 +1,23 @@
+{
+  "item_id": "5476064",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5476064",
+  "title": "マヌカ ケモノ テクスチャ / MANUKA...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ccd44cd4-42a4-47f2-ab2e-a91c9d7c928d/i/5476064/e4429eb3-e35f-43e8-8419-03d9cd3b7e66_base_resized.jpg",
+  "creator_id": "zipfile",
+  "creator_name": "zipfile",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

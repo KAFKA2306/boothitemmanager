@@ -1,0 +1,23 @@
+{
+  "item_id": "5483702",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5483702",
+  "title": "Dragon Manuka ドラゴン「マヌカ」HD",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d6e0a7e2-5544-411a-8d8e-ac138ccaaeb5/i/5483702/b2860c8d-81fe-4568-9ef1-f4cacb9bfc1f_base_resized.jpg",
+  "creator_id": "vinzo",
+  "creator_name": "vinzo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 1700,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

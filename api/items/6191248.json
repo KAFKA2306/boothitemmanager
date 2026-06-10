@@ -1,0 +1,27 @@
+{
+  "item_id": "6191248",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6191248",
+  "title": "【しなの＆桔梗対応】テックバニー",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/6191248/35bdcd4e-4df0-4e88-af58-69562892a70f_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

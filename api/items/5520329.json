@@ -1,0 +1,27 @@
+{
+  "item_id": "5520329",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5520329",
+  "title": "瑞希・rurune用タイツテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8654c3d1-ecee-4444-a907-2b4306df0690/i/5520329/bd228eaf-621c-408a-91a2-ddeea885e8c1_base_resized.jpg",
+  "creator_id": "denyuken210",
+  "creator_name": "denyuken210",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "3744795",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3744795",
+  "title": "【桔梗用】ファー付きジャケット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/be60fb76-bc8e-4f78-9907-5ece5ce7c9e2/i/3744795/ce54052b-338f-427c-b16d-54a2349bc15f_base_resized.jpg",
+  "creator_id": "sawarano",
+  "creator_name": "sawarano",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

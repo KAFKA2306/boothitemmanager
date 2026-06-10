@@ -1,0 +1,23 @@
+{
+  "item_id": "4038337",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4038337",
+  "title": "セレスティア用衣装ルームウェア、キャミソール...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ba1632d1-d7a2-47bf-b5c7-b1b4c83290fc/i/4038337/ec7e0250-ce76-4780-978f-330b6af738e3_base_resized.jpg",
+  "creator_id": "wakamaru",
+  "creator_name": "wakamaru",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

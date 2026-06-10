@@ -1,0 +1,23 @@
+{
+  "item_id": "7595553",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7595553",
+  "title": "22 Avatars | Sunset",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1e846578-b646-4d35-8cf6-85e167590721/i/7595553/b292e161-cf82-4798-a343-33b5163a0e52_base_resized.jpg",
+  "creator_id": "yueby",
+  "creator_name": "yueby",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

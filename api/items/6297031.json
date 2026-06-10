@@ -1,0 +1,23 @@
+{
+  "item_id": "6297031",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6297031",
+  "title": "【セレスティアちゃん対応】衣装用3Dモデル「...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7ddc5b4a-9e11-4455-8c2c-7607cc08cbcf/i/6297031/8bd70dda-84b7-4e04-8cf3-cc74a386c98d_base_resized.jpg",
+  "creator_id": "namzaru-shop",
+  "creator_name": "namzaru-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

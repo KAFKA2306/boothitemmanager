@@ -1,0 +1,23 @@
+{
+  "item_id": "7501969",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7501969",
+  "title": "【森羅/Shinra対応】Madona So...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/19a63cf7-8101-41ab-8a49-3c2ea8b04463/i/7501969/1e8036fc-2304-41f4-812c-366766059b3e_base_resized.jpg",
+  "creator_id": "lueurpastel",
+  "creator_name": "lueurpastel",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

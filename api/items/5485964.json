@@ -1,0 +1,31 @@
+{
+  "item_id": "5485964",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5485964",
+  "title": "【3D】Soavità (森羅/マヌカ/萌/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ebaa6de7-8ca7-4319-8a84-0e098ddaaa20/i/5485964/865f6364-059c-4810-a3fa-21fd337a8fa3_base_resized.jpg",
+  "creator_id": "lyra-o-o-o",
+  "creator_name": "lyra-o-o-o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

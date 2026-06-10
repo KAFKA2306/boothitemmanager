@@ -1,0 +1,23 @@
+{
+  "item_id": "6329217",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6329217",
+  "title": "マヌカ対応衣装【Caped Coat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/23faea2c-d320-4fd7-8fe5-063a916df9b0/i/6329217/0b714f72-256f-4bbe-a1a5-3bc53fa19c6f_base_resized.jpg",
+  "creator_id": "hajimata",
+  "creator_name": "hajimata",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6033725",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6033725",
+  "title": "【rurune/ルルネ対応】ネイルテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/80f01c35-bb92-46d9-84dc-dd725fc873c9/i/6033725/be6572c4-f92f-42ea-a6e4-09b773cb6f3f_base_resized.jpg",
+  "creator_id": "38kankan",
+  "creator_name": "38kankan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

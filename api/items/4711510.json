@@ -1,0 +1,23 @@
+{
+  "item_id": "4711510",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4711510",
+  "title": "Kitty Ears for Moe",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f2302bfb-1d5d-4552-ba0d-4a7b6b5adba1/i/4711510/30b95d1b-ee90-4b83-9ca9-f49fc76e2a5f_base_resized.jpg",
+  "creator_id": "sohvi",
+  "creator_name": "sohvi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

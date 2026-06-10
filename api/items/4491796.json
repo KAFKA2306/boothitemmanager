@@ -1,0 +1,23 @@
+{
+  "item_id": "4491796",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4491796",
+  "title": "【セレスティア対応】くまちゃんパジャマ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/455aaf8d-5701-410d-a066-54ebee3f2c5b/i/4491796/a1f9d88e-6053-4a89-9cdf-4d49050d0c34_base_resized.jpg",
+  "creator_id": "m3k",
+  "creator_name": "m3k",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

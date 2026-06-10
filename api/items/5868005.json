@@ -1,0 +1,23 @@
+{
+  "item_id": "5868005",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5868005",
+  "title": "森羅のまつ毛をイカつくするやつ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/82a7ead6-a4c3-44d3-9381-dccf523c5b02/i/5868005/7c068ed6-9391-4da2-960e-ea6fedfe4d12_base_resized.jpg",
+  "creator_id": "nosignal",
+  "creator_name": "nosignal",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "2587944",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2587944",
+  "title": "サンタクロースの髭",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/abd52478-2ba9-4bac-8457-ed290accd240/i/2587944/4f8f5735-5464-4d6a-8f1b-80c0506486a7_base_resized.jpg",
+  "creator_id": "takatin",
+  "creator_name": "takatin",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5068751",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5068751",
+  "title": "【マヌカ対応】Idol Magica",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5d2f52b0-3a5e-4930-a874-ad1a7b5c47ad/i/5068751/9ecd0a4d-9176-4ff3-b175-ab7a41873e9f_base_resized.jpg",
+  "creator_id": "anomanice",
+  "creator_name": "anomanice",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "5176647",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5176647",
+  "title": "真冬 向けまとめパック",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a5f25c74-6fe2-4350-8ae7-8a8622333c7a/i/5176647/2e74962a-31b7-49c2-a27c-55e8484aa047_base_resized.jpg",
+  "creator_id": "rihyaco",
+  "creator_name": "rihyaco",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 3000,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

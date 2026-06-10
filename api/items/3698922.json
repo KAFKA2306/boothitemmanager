@@ -1,0 +1,25 @@
+{
+  "item_id": "3698922",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3698922",
+  "title": "【桔梗対応】着物ドレス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/3698922/378ca75c-f3ab-4186-8eb3-02a92ed925d0_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

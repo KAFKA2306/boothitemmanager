@@ -1,0 +1,23 @@
+{
+  "item_id": "5978197",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5978197",
+  "title": "☀️Sunday",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f9000cbe-d0e1-4cef-a7f5-f2b6551e725c/i/5978197/86428999-e453-43af-90f2-7ca47bf5788e_base_resized.jpg",
+  "creator_id": "bunnyhugs",
+  "creator_name": "bunnyhugs",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

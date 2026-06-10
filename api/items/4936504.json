@@ -1,0 +1,27 @@
+{
+  "item_id": "4936504",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4936504",
+  "title": "【Lime/Moe/Kikyo専用】Flow...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c434d3b-3ee2-452d-9a23-9fe01f47b7cc/i/4936504/36957ae4-7662-4167-9b63-004cd66dcfa7_base_resized.jpg",
+  "creator_id": "no39",
+  "creator_name": "no39",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 250,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

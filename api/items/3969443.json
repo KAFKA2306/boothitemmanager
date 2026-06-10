@@ -1,0 +1,23 @@
+{
+  "item_id": "3969443",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3969443",
+  "title": "桔梗ちゃん専用「光彩の目」アイテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0d9a29e0-e1d8-4bdf-bd0f-f560d28f7263/i/3969443/973f4d7c-6d0b-4f69-a51d-8aa6f1c53794_base_resized.jpg",
+  "creator_id": "moff",
+  "creator_name": "moff",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

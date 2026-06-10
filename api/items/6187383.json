@@ -1,0 +1,25 @@
+{
+  "item_id": "6187383",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6187383",
+  "title": "しなの対応衣装【Long skirt maid】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/23faea2c-d320-4fd7-8fe5-063a916df9b0/i/6187383/67fc1256-999a-4f22-8341-0978be9cf65b_base_resized.jpg",
+  "creator_id": "hajimata",
+  "creator_name": "hajimata",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

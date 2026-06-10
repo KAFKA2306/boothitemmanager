@@ -1,0 +1,25 @@
+{
+  "item_id": "5565760",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5565760",
+  "title": "【真冬対応】流れ星eye texture",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1662650c-6814-49d3-9af7-71f1ba798d64/i/5565760/ceed6f1a-6ddd-4003-a790-7a443bef12df_base_resized.jpg",
+  "creator_id": "9zn",
+  "creator_name": "9zn",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

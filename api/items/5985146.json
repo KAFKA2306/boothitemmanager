@@ -1,0 +1,23 @@
+{
+  "item_id": "5985146",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5985146",
+  "title": "Pure for Moe 萌",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b59da9eb-6d88-4f7c-aa4f-e67e335fb0c5/i/5985146/aa9ce433-9fc7-43c9-b50d-7816c0a9cdca_base_resized.jpg",
+  "creator_id": "vinsen",
+  "creator_name": "vinsen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 190,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

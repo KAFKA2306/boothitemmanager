@@ -1,0 +1,23 @@
+{
+  "item_id": "4801056",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4801056",
+  "title": "【森羅ちゃん対応】スリーピーススーツ【cal...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1792b528-d9d2-4466-adec-20e422de8461/i/4801056/a8158884-401d-4973-8c97-3e39a5da0d39_base_resized.jpg",
+  "creator_id": "akabanevrc",
+  "creator_name": "akabanevrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

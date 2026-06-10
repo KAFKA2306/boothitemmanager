@@ -1,0 +1,23 @@
+{
+  "item_id": "2658287",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2658287",
+  "title": "[Free] Sunshine Flare",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/da52898a-55fb-47ad-bd28-d1e52668811d/i/2658287/1cd367dd-b4a7-4066-9380-e3e99891a410_base_resized.jpg",
+  "creator_id": "s-ilent",
+  "creator_name": "s-ilent",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "5896367",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5896367",
+  "title": "セレスティア用水着【Anubis Summer】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b78b2663-3f39-4b66-8cfe-4b03b5d0283c/i/5896367/a2eec345-f4ab-4dc1-b79c-556167a6e0e1_base_resized.jpg",
+  "creator_id": "nyawatesou",
+  "creator_name": "nyawatesou",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "夏"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

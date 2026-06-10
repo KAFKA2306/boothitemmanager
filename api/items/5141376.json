@@ -1,0 +1,23 @@
+{
+  "item_id": "5141376",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5141376",
+  "title": "『彩雨』Raincoat セット【森羅対応】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0e2cdcb5-dd2d-494c-acf6-77a24a219d75/i/5141376/80b6b937-b5db-44a3-bff5-d9ac73f28eb0_base_resized.jpg",
+  "creator_id": "uni-humans",
+  "creator_name": "uni-humans",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

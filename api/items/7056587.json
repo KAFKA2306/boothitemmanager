@@ -1,0 +1,23 @@
+{
+  "item_id": "7056587",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7056587",
+  "title": "【32アバター対応】SUNMARINE",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fb6b1fad-86c2-45e3-89e8-e117c662ecc2/i/7056587/f8070402-cb2b-4d86-8a39-d269f9710a7e_base_resized.jpg",
+  "creator_id": "capettiya",
+  "creator_name": "capettiya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

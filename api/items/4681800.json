@@ -1,0 +1,23 @@
+{
+  "item_id": "4681800",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4681800",
+  "title": "【VRC】猫デカール【Sunbathing】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b610acaf-0838-433a-82b0-f46812aa16f1/i/4681800/21776475-e088-461c-b4b6-c4046543b711_base_resized.jpg",
+  "creator_id": "namazuda",
+  "creator_name": "namazuda",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5107985",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5107985",
+  "title": "マヌカ用タイツテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8654c3d1-ecee-4444-a907-2b4306df0690/i/5107985/7bb895c3-d1ae-4d58-bdc4-d73ac168ffea_base_resized.jpg",
+  "creator_id": "denyuken210",
+  "creator_name": "denyuken210",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "4039993",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4039993",
+  "title": "【PB対応】「セレスティア」専用衣装～浴衣 ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/4039993/42561ef7-bc1e-46f6-bffa-17e2db24897e_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

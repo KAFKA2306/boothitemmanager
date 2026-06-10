@@ -1,0 +1,23 @@
+{
+  "item_id": "4746552",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4746552",
+  "title": "森羅用アイテクスチャ 17color",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/56f463e5-92d7-4a12-9f2b-24f1541feeef/i/4746552/ef9dcbec-9fb5-4ef1-8022-68b24ca51d5a_base_resized.jpg",
+  "creator_id": "narcissus1o",
+  "creator_name": "narcissus1o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

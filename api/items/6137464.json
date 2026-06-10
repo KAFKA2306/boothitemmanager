@@ -1,0 +1,23 @@
+{
+  "item_id": "6137464",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6137464",
+  "title": "「しなの」ちゃんバリューパック",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/645655cd-064b-4537-b4f9-e6e8f55524d3/i/6137464/ecfab375-874a-4d5f-ae31-da8713a4ad9b_base_resized.jpg",
+  "creator_id": "qukumu-closet",
+  "creator_name": "qukumu-closet",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 3500,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4169687",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4169687",
+  "title": "セレスティア用衣装、オータムオフィスコーデ（...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ba1632d1-d7a2-47bf-b5c7-b1b4c83290fc/i/4169687/5ab88ee0-e601-4ccf-bf44-3d76a890bc64_base_resized.jpg",
+  "creator_id": "wakamaru",
+  "creator_name": "wakamaru",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

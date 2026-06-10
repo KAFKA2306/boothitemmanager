@@ -1,0 +1,23 @@
+{
+  "item_id": "7523740",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7523740",
+  "title": "【ルルネ対応衣装】Fiiright",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/13c8db83-3e5d-464b-9395-48dc1ea7187a/i/7523740/c14daec6-c74a-49f8-a62a-9b111c85b493_base_resized.jpg",
+  "creator_id": "regucreate",
+  "creator_name": "regucreate",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

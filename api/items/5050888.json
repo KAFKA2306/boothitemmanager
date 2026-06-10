@@ -1,0 +1,23 @@
+{
+  "item_id": "5050888",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5050888",
+  "title": "「桔梗」専用【3D衣装モデル】HIDE",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/5050888/e5a6ef38-ce31-45f4-8049-5dee0cb002eb_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

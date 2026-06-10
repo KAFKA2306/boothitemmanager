@@ -1,0 +1,27 @@
+{
+  "item_id": "5024119",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5024119",
+  "title": "[Selestia/Moe/Dami] To...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e5120ba0-e001-45d9-97a2-9444e62c88a6/i/5024119/9ccb9472-1656-4fcd-863e-8aef3b566e35_base_resized.jpg",
+  "creator_id": "todaycloth",
+  "creator_name": "todaycloth",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

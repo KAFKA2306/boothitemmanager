@@ -1,0 +1,25 @@
+{
+  "item_id": "6564143",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6564143",
+  "title": "森羅 / 黒髪用メイクテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/40a76795-b17c-4bfd-a5de-2469ae2d21f6/i/6564143/be3ad4a9-08cf-42d7-826c-3ae7eb1eb6cb_base_resized.jpg",
+  "creator_id": "favotime",
+  "creator_name": "favotime",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "黒髪"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

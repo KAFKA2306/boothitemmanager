@@ -1,0 +1,27 @@
+{
+  "item_id": "5608591",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5608591",
+  "title": "「伊奈波かや / 凪 / 瑞希・ルルネ / ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/5608591/57033a04-c3fd-4def-b5d8-bd732d298194_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

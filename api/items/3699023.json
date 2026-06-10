@@ -1,0 +1,23 @@
+{
+  "item_id": "3699023",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3699023",
+  "title": "【桔梗・エミスティア対応衣装】Assassi...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6c623b9a-37af-44db-917d-f7ae9b80387a/i/3699023/8ff6d22f-4556-42d7-aba1-6235abe1de29_base_resized.jpg",
+  "creator_id": "nunnun-seisaku",
+  "creator_name": "nunnun-seisaku",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

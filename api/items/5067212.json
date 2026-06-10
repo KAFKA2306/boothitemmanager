@@ -1,0 +1,23 @@
+{
+  "item_id": "5067212",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5067212",
+  "title": "【マヌカ専用】Eye texture \"AM 5\"",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/897603e1-d291-4d03-91d8-63bf5636e287/i/5067212/ffd5a061-ee35-4a04-bdf6-0362b3994774_base_resized.jpg",
+  "creator_id": "nemophilagarden",
+  "creator_name": "nemophilagarden",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

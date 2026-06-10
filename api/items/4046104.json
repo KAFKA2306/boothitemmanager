@@ -1,0 +1,23 @@
+{
+  "item_id": "4046104",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4046104",
+  "title": "【セレスティア用】Little Devil ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6c8d0b7b-6977-45b9-ac23-d45bd70067ce/i/4046104/01ca6495-1632-4b1f-be10-e1630029be39_base_resized.jpg",
+  "creator_id": "zaelah",
+  "creator_name": "zaelah",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

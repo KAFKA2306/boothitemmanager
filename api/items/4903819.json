@@ -1,0 +1,23 @@
+{
+  "item_id": "4903819",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4903819",
+  "title": "VRChat向け　Shinra -森羅- J...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1cb3c9fd-e141-4184-8574-bdf5b90ae391/i/4903819/618e6d67-bb64-41e2-b840-a64b6f5ae926_base_resized.jpg",
+  "creator_id": "elesato",
+  "creator_name": "elesato",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

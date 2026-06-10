@@ -1,0 +1,25 @@
+{
+  "item_id": "4936842",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4936842",
+  "title": "Gold Cyberpunk Shinra ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d6e0a7e2-5544-411a-8d8e-ac138ccaaeb5/i/4936842/1c345e61-47b1-4292-ae5a-54234dec15b0_base_resized.jpg",
+  "creator_id": "vinzo",
+  "creator_name": "vinzo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "サイバー"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

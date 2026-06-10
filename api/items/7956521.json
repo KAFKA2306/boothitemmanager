@@ -1,0 +1,23 @@
+{
+  "item_id": "7956521",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7956521",
+  "title": "【ルルネ専用】アホ毛ポニーテール【VRChat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/50d7270d-6931-4c15-82e2-6ccaaba8a3f0/i/7956521/9531a6ad-dd3f-487b-905b-a6dcf32fe74e_base_resized.jpg",
+  "creator_id": "creative-cha",
+  "creator_name": "creative-cha",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

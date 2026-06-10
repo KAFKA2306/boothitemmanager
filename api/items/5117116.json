@@ -1,0 +1,23 @@
+{
+  "item_id": "5117116",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5117116",
+  "title": "【マヌカ用】Water crystal Ey...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/937eaec3-70ad-4443-9759-0d2c93580024/i/5117116/f27b87a1-c640-4fd0-a8f0-cceed6821716_base_resized.jpg",
+  "creator_id": "hino-shop",
+  "creator_name": "hino-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

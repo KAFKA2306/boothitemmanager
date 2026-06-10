@@ -1,0 +1,23 @@
+{
+  "item_id": "5300391",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5300391",
+  "title": "「まぬか向け」肌テクスチャ「Manuka B...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ae60fb72-8b68-464a-8b6b-11e1033bc373/i/5300391/f92c374e-bc1d-49cb-968f-78082dc9b040_base_resized.jpg",
+  "creator_id": "hazumiya",
+  "creator_name": "hazumiya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

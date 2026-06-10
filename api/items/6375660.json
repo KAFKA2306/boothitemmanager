@@ -1,0 +1,23 @@
+{
+  "item_id": "6375660",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6375660",
+  "title": "Shinra Real Eye Animation",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/922da794-5691-4071-bcab-68701acf35d2/i/6375660/770a5dad-c987-4dbe-8458-e71842c72e9e_base_resized.jpg",
+  "creator_id": "vanillashop",
+  "creator_name": "vanillashop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

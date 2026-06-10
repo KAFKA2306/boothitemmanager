@@ -1,0 +1,23 @@
+{
+  "item_id": "4804013",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4804013",
+  "title": "【萌対応】ヴィーナス2023",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4a8b2e27-d374-4781-866c-9257a10bf56d/i/4804013/126ced15-ac11-4a7b-9ed4-02465fac088d_base_resized.jpg",
+  "creator_id": "vagrant",
+  "creator_name": "vagrant",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

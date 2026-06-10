@@ -1,0 +1,23 @@
+{
+  "item_id": "7373708",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7373708",
+  "title": "「ルルネ」専用【3D衣装モデル】ポワニー /...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/7373708/7c73ca78-0a40-4ad4-893b-5fa00fd2a678_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

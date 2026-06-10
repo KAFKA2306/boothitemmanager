@@ -1,0 +1,23 @@
+{
+  "item_id": "2627600",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2627600",
+  "title": "YEAHサングラス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2fa563eb-3205-458d-b047-8dcb113ddc5d/i/2627600/22ccff8a-e2be-4a59-8683-ff4dc98785ca_base_resized.jpg",
+  "creator_id": "alushop",
+  "creator_name": "alushop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

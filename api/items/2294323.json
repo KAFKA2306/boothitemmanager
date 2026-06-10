@@ -1,0 +1,23 @@
+{
+  "item_id": "2294323",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2294323",
+  "title": "オーバーオールセット　For Hakka",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c5e6ca9e-0060-44bc-918c-e161cccb358b/i/2294323/d2e36ef1-0d3f-44a8-b7d0-e622f65b3cbe_base_resized.jpg",
+  "creator_id": "reichan355",
+  "creator_name": "reichan355",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

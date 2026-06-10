@@ -6,11 +6,15 @@
 !src/
 !docs/
 !.github/
+!api/
+!data/structured/
 
 # Files to track
 !src/**
 !docs/**
 !.github/**
+!api/**
+!data/structured/catalog.json
 !pyproject.toml
 !README.md
 !CLAUDE.md

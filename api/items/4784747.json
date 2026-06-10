@@ -1,0 +1,23 @@
+{
+  "item_id": "4784747",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4784747",
+  "title": "[For SHINRA 森羅] Face M...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/82c21ebf-4571-4a6c-90b7-7046fc7e6f82/i/4784747/d1aed733-3dc6-4c84-b37b-7b095cc34232_base_resized.jpg",
+  "creator_id": "witchevy",
+  "creator_name": "witchevy",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

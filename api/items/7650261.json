@@ -1,0 +1,27 @@
+{
+  "item_id": "7650261",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7650261",
+  "title": "【ミルティナイチゴルルネ対応】スク水★サンタ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/efc163b6-4cf8-415d-94a1-56a986267ab9/i/7650261/29e385b0-fa59-45ee-86b9-0030a0b48e62_base_resized.jpg",
+  "creator_id": "rssetiment",
+  "creator_name": "rssetiment",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

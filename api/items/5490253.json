@@ -1,0 +1,23 @@
+{
+  "item_id": "5490253",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5490253",
+  "title": "【森羅対応】ArcanaNocta【VRChat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5490253/564edadf-cbf4-46aa-9aeb-05f24b53e505_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

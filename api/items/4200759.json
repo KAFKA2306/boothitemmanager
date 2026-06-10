@@ -1,0 +1,23 @@
+{
+  "item_id": "4200759",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4200759",
+  "title": "【桔梗用】パーカーkikyo【texture...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/35463dbe-1984-40f5-a9d8-bdddfc1c8baf/i/4200759/c676f19d-e938-4d95-8cd3-7c3b7b161164_base_resized.jpg",
+  "creator_id": "masa01501",
+  "creator_name": "masa01501",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

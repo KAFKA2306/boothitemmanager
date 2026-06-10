@@ -1,0 +1,23 @@
+{
+  "item_id": "4673955",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4673955",
+  "title": "Ver1.1【セレスティア用】オフショルダー...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9977852d-4f9c-4bdb-b624-ef88e781fa73/i/4673955/344cb728-b146-4004-a3a0-5961059e0203_base_resized.jpg",
+  "creator_id": "ai-works",
+  "creator_name": "ai-works",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 950,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

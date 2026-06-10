@@ -1,0 +1,27 @@
+{
+  "item_id": "6158291",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6158291",
+  "title": "ルルネ&瑞希対応衣装【Vampire Got...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/23faea2c-d320-4fd7-8fe5-063a916df9b0/i/6158291/0dc3d45c-e0fe-4054-adcc-c0b68ac3bf76_base_resized.jpg",
+  "creator_id": "hajimata",
+  "creator_name": "hajimata",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

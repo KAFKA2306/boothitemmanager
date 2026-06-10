@@ -1,0 +1,23 @@
+{
+  "item_id": "5994544",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5994544",
+  "title": "【VRChat】森羅専用 上履き（MA対応）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1cb3c9fd-e141-4184-8574-bdf5b90ae391/i/5994544/dc5d0fce-ce14-4b0d-9e79-b334f1a1c097_base_resized.jpg",
+  "creator_id": "elesato",
+  "creator_name": "elesato",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

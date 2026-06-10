@@ -1,0 +1,23 @@
+{
+  "item_id": "3260394",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3260394",
+  "title": "【杏里・透羽・薄荷素体対応】だぼパーカー",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/353a00f1-15b2-4333-90a2-0aaa36e0220c/i/3260394/8248cad8-053e-4d9f-8e51-97f6ec6721c5_base_resized.jpg",
+  "creator_id": "aikawa2",
+  "creator_name": "aikawa2",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

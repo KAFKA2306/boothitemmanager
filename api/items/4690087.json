@@ -1,0 +1,27 @@
+{
+  "item_id": "4690087",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4690087",
+  "title": "[萌 / 桔梗 / Grus ] Eye T...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/57fb3812-5c80-42d6-99de-8b098d690c51/i/4690087/75a86795-987a-4f2d-bc11-fdcadf0702a3_base_resized.jpg",
+  "creator_id": "unk00",
+  "creator_name": "unk00",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "6156542",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6156542",
+  "title": "059 [しなの / マヌカ]",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1676314d-9e39-4b02-8536-2142910c1fac/i/6156542/408eae79-df0d-41bd-84cc-c6ab3fd4a16b_base_resized.jpg",
+  "creator_id": "eh6666",
+  "creator_name": "eh6666",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

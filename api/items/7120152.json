@@ -1,0 +1,23 @@
+{
+  "item_id": "7120152",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7120152",
+  "title": "🌻Sunflower Dress🌻【キプフェ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f63c5140-8342-48e1-948d-4cf26f5ddf34/i/7120152/80952c08-bc5e-4924-afe7-543ff09d7e66_base_resized.jpg",
+  "creator_id": "mirumaru",
+  "creator_name": "mirumaru",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

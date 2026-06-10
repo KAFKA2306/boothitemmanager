@@ -1,0 +1,23 @@
+{
+  "item_id": "3543522",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3543522",
+  "title": "Nice Sunglasses",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e0b175a7-41d6-44df-96aa-e8ceb60f8148/i/3543522/652f6fda-0454-49de-97e7-10ce98e47db6_base_resized.jpg",
+  "creator_id": "yoriyoi",
+  "creator_name": "yoriyoi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

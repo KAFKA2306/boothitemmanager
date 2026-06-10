@@ -1,0 +1,25 @@
+{
+  "item_id": "5153322",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5153322",
+  "title": "【真冬(Mafuyu)用】YamiKawai...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/358f151e-2164-4218-880d-44cc914a42c2/i/5153322/359b70dd-064f-4348-b9c7-a97ecd8fd091_base_resized.jpg",
+  "creator_id": "amabami",
+  "creator_name": "amabami",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6014774",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6014774",
+  "title": "【ルルネ用】rurune texture pack",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b38718b4-e571-423a-b6da-497f639a5248/i/6014774/d6ef2924-eab9-4d1b-b90d-08e9261038f8_base_resized.jpg",
+  "creator_id": "halo-by",
+  "creator_name": "halo-by",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 250,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

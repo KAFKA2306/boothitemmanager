@@ -1,0 +1,27 @@
+{
+  "item_id": "5336122",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5336122",
+  "title": "【3D】LUCENTEZZA (森羅/マヌカ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ebaa6de7-8ca7-4319-8a84-0e098ddaaa20/i/5336122/8e682009-3203-4075-abee-c94dafbf8a33_base_resized.jpg",
+  "creator_id": "lyra-o-o-o",
+  "creator_name": "lyra-o-o-o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

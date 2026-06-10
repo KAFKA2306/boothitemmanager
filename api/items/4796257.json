@@ -1,0 +1,23 @@
+{
+  "item_id": "4796257",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4796257",
+  "title": "【Shinra(森羅)専用】5 types ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c434d3b-3ee2-452d-9a23-9fe01f47b7cc/i/4796257/d5f9983b-6a37-4aa5-8048-08f3a0ddcff1_base_resized.jpg",
+  "creator_id": "no39",
+  "creator_name": "no39",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 280,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

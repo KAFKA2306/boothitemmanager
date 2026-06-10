@@ -1,0 +1,23 @@
+{
+  "item_id": "5741278",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5741278",
+  "title": "[Shinra]Dried rose mak...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/77482055-652c-414f-92a5-bdd70ccc7172/i/5741278/8df98a7a-9118-4f37-accc-1a877a5a9303_base_resized.jpg",
+  "creator_id": "yonity",
+  "creator_name": "yonity",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 150,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

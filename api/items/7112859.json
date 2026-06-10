@@ -1,0 +1,23 @@
+{
+  "item_id": "7112859",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7112859",
+  "title": "Shinra Make Up Textures",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7ecf4d62-2308-4399-9b22-d03c885187a7/i/7112859/5e1f78ad-66da-4e7b-a8b6-36e30ab9deb4_base_resized.jpg",
+  "creator_id": "opheliacollins",
+  "creator_name": "opheliacollins",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

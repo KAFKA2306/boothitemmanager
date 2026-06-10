@@ -1,0 +1,25 @@
+{
+  "item_id": "5153305",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5153305",
+  "title": "空風アイテクスチャ【真冬対応】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/15e67119-6300-4ec0-9007-687184e5f79f/i/5153305/cc68914e-070c-43d1-9338-02d5745e0f3f_base_resized.jpg",
+  "creator_id": "yuyu-ya",
+  "creator_name": "yuyu-ya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

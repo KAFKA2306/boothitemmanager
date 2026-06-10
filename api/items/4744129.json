@@ -1,0 +1,23 @@
+{
+  "item_id": "4744129",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4744129",
+  "title": "【森羅ちゃん対応】accessor＆halt...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fcd0b032-7897-401e-b4ac-f36a950a6063/i/4744129/d60dd172-9b73-4a6a-8d6b-9e14c0fda9f6_base_resized.jpg",
+  "creator_id": "thirdpenguin",
+  "creator_name": "thirdpenguin",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

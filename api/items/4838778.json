@@ -1,0 +1,23 @@
+{
+  "item_id": "4838778",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4838778",
+  "title": "【森羅対応衣装】スタジャン",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b7d23c3f-c019-45d2-b62a-a27ed57bd074/i/4838778/d8d7767f-162c-47ce-8a28-ec373e861d6f_base_resized.jpg",
+  "creator_id": "diku",
+  "creator_name": "diku",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

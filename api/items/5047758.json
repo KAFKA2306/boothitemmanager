@@ -1,0 +1,23 @@
+{
+  "item_id": "5047758",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5047758",
+  "title": "【マヌカ用】キャミトップ - Cami To...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c0107c0d-a373-461d-b365-671c053c6c9a/i/5047758/94fa1989-0685-4a2f-9ebe-066606d34bea_base_resized.jpg",
+  "creator_id": "seele",
+  "creator_name": "seele",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

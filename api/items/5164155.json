@@ -1,0 +1,31 @@
+{
+  "item_id": "5164155",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5164155",
+  "title": "【桔梗・萌・マヌカ】対応　Flower Pa...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5164155/a46ab94c-1f10-4713-b65a-c007b5cda000_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

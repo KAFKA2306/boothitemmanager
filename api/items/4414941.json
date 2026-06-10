@@ -1,0 +1,31 @@
+{
+  "item_id": "4414941",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4414941",
+  "title": "INABA＆椎名＆狐雨対応「KIMONO」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8867f724-9eb3-4336-ab8e-687a91a84ba8/i/4414941/c2d358f9-fa0a-4925-9f57-0d2c189459e0_base_resized.jpg",
+  "creator_id": "goldentakasan",
+  "creator_name": "goldentakasan",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "INABA",
+      "name": "INABA"
+    },
+    {
+      "code": "Shiina",
+      "name": "椎名"
+    },
+    {
+      "code": "KitsuneAme",
+      "name": "狐雨"
+    }
+  ],
+  "files": []
+}

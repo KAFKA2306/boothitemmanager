@@ -1,0 +1,23 @@
+{
+  "item_id": "6301210",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6301210",
+  "title": "「森羅」Shinra 対応 [One-pie...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b13b7c68-766c-4554-a5aa-08db744dfaf4/i/6301210/8ff42a8a-0cd2-4fbf-8206-c2d930764660_base_resized.jpg",
+  "creator_id": "chume",
+  "creator_name": "chume",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

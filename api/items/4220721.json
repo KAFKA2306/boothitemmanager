@@ -1,0 +1,23 @@
+{
+  "item_id": "4220721",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4220721",
+  "title": "桔梗ちゃん用衣装 「柩砕聖装エクソシスター」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2b252a6b-baf5-4f89-a925-5487649661c3/i/4220721/8270a186-c671-4340-b8ae-90959e25d888_base_resized.jpg",
+  "creator_id": "koarare-atelier",
+  "creator_name": "koarare-atelier",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

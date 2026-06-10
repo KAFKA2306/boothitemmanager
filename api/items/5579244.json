@@ -1,0 +1,29 @@
+{
+  "item_id": "5579244",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5579244",
+  "title": "地雷天使ツインテール【キナリア・桔梗・マヌカ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8a34cbb0-871f-418c-9e07-dd535749fb21/i/5579244/e1087953-fc38-48c0-88ae-2f4fed07909c_base_resized.jpg",
+  "creator_id": "tatuolabo",
+  "creator_name": "tatuolabo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "ツイン"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

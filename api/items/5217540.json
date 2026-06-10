@@ -1,0 +1,27 @@
+{
+  "item_id": "5217540",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5217540",
+  "title": "【マヌカ・萌】対応　囚人服",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5217540/cf2da920-86fa-4ad9-b46e-cda9556a6be1_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

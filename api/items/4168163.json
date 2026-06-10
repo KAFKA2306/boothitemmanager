@@ -1,0 +1,23 @@
+{
+  "item_id": "4168163",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4168163",
+  "title": "「セレスティア・つみげ」対応【3D衣装モデル...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9c025fee-5386-455b-83aa-e5c41da85d84/i/4168163/1792a50a-932c-4a53-9bec-fe2301965c94_base_resized.jpg",
+  "creator_id": "nextnext",
+  "creator_name": "nextnext",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

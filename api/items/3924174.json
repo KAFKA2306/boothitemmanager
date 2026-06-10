@@ -1,0 +1,23 @@
+{
+  "item_id": "3924174",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3924174",
+  "title": "[桔梗] Kikyo Blade Dance...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6cd84b97-3b06-4c17-9019-e0bfcf5c6dd1/i/3924174/0d9a52ff-daae-480e-9e78-743918ecde60_base_resized.jpg",
+  "creator_id": "kareeda",
+  "creator_name": "kareeda",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

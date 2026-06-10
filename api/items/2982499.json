@@ -1,0 +1,25 @@
+{
+  "item_id": "2982499",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2982499",
+  "title": "【PB設定付き】「薄荷」専用衣装【浴衣】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/2982499/a5f1b8b7-d7df-446d-875c-b4418f4818f0_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

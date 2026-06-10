@@ -1,0 +1,23 @@
+{
+  "item_id": "7063334",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7063334",
+  "title": "Sunshade『LowBed』12Style",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/96a03793-ee78-409d-9b31-9e296fff7e77/i/7063334/950c7ea5-f704-4158-8380-5d667b8c6f32_base_resized.jpg",
+  "creator_id": "lupinova",
+  "creator_name": "lupinova",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

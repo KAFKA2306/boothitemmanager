@@ -1,0 +1,23 @@
+{
+  "item_id": "5075283",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5075283",
+  "title": "Shinra 森羅 makeup5",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2b3986a7-df7d-4a7f-8c35-16225d349134/i/5075283/2d06243d-a137-4d3a-b682-ccbb9a5c06e0_base_resized.jpg",
+  "creator_id": "localoca",
+  "creator_name": "localoca",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

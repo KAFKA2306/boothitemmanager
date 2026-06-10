@@ -1,0 +1,23 @@
+{
+  "item_id": "6277510",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6277510",
+  "title": "オリジナル3Dモデル BOW/バウ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/baf47636-346e-4c46-a41d-1b45acec1203/i/6277510/6b252a84-24e2-4c80-8a0f-5511505fa612_base_resized.jpg",
+  "creator_id": "puchos-shop",
+  "creator_name": "puchos-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 4000,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

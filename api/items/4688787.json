@@ -1,0 +1,29 @@
+{
+  "item_id": "4688787",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4688787",
+  "title": "【萌、桔梗】Corset maid",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9aa62d16-19ee-4e28-960f-f071ac058d50/i/4688787/5632c831-4810-4885-bae2-71d262ee18c8_base_resized.jpg",
+  "creator_id": "podo5312",
+  "creator_name": "podo5312",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

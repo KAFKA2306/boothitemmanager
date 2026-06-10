@@ -1,0 +1,23 @@
+{
+  "item_id": "5155929",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5155929",
+  "title": "Moe Make Up Textures",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7ecf4d62-2308-4399-9b22-d03c885187a7/i/5155929/86bfecf8-4c1f-4a01-903e-eb93c79cdc2e_base_resized.jpg",
+  "creator_id": "opheliacollins",
+  "creator_name": "opheliacollins",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

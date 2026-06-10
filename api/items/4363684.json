@@ -1,0 +1,27 @@
+{
+  "item_id": "4363684",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4363684",
+  "title": "[CusUniWear] - 桔梗 Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/61410ef3-64be-45c4-825a-1b5fa662d9c5/i/4363684/a05abde6-40de-49df-9379-96df9fc2c462_base_resized.jpg",
+  "creator_id": "eliya",
+  "creator_name": "eliya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

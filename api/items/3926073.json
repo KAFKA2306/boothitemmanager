@@ -1,0 +1,23 @@
+{
+  "item_id": "3926073",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3926073",
+  "title": "Bunny Suit (Kikyo)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/abf6e5da-764f-4c6e-a9f6-37448fb677b7/i/3926073/7ea121f0-4f96-47ce-87e4-48faf48ec7e3_base_resized.jpg",
+  "creator_id": "mynameiscurt",
+  "creator_name": "mynameiscurt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

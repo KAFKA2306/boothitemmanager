@@ -1,0 +1,23 @@
+{
+  "item_id": "4796828",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4796828",
+  "title": "【水瀬/森羅/杏里対応】パーティバニー",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ad61827f-624c-496f-a02c-ff5e250313d1/i/4796828/460f9f95-2b00-4580-9021-7804b6ee8cd0_base_resized.jpg",
+  "creator_id": "8-dori",
+  "creator_name": "8-dori",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

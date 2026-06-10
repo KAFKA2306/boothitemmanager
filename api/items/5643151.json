@@ -1,0 +1,35 @@
+{
+  "item_id": "5643151",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5643151",
+  "title": "セレスティア、マヌカ、桔梗、萌用の革靴（オッ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ba1632d1-d7a2-47bf-b5c7-b1b4c83290fc/i/5643151/c769d4f5-968e-43ea-80f2-5f4dc646946f_base_resized.jpg",
+  "creator_id": "wakamaru",
+  "creator_name": "wakamaru",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

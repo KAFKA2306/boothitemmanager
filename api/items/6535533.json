@@ -1,0 +1,23 @@
+{
+  "item_id": "6535533",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6535533",
+  "title": "「ルルネ」専用【3D衣装モデル】NUU",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d5e7601f-4e46-4b25-93c1-e623f84695c6/i/6535533/bb7be528-cfe9-4294-90b1-81b78a9bbfa1_base_resized.jpg",
+  "creator_id": "noaharkbshop",
+  "creator_name": "noaharkbshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

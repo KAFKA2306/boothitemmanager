@@ -1,0 +1,27 @@
+{
+  "item_id": "5401243",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5401243",
+  "title": "【マヌカ・桔梗・ルーナリット（リーファ共通）...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/33251080-668a-4b04-8801-341543d88eca/i/5401243/cb82ed0d-2afd-4422-8ef9-e847d7880c26_base_resized.jpg",
+  "creator_id": "nyaro",
+  "creator_name": "nyaro",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

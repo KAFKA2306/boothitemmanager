@@ -1,0 +1,23 @@
+{
+  "item_id": "4827557",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4827557",
+  "title": "Ustripe Plus for Kikyo...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c5a3f8dc-ff95-496d-aabb-5878513edc55/i/4827557/8ee49d5f-3011-4ce3-be69-cecd461ecb16_base_resized.jpg",
+  "creator_id": "routehachi",
+  "creator_name": "routehachi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

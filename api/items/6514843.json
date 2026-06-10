@@ -1,0 +1,23 @@
+{
+  "item_id": "6514843",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6514843",
+  "title": "Sunglasses【VENOM】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5658b724-4cda-490e-8641-b74e45a361e4/i/6514843/81d74e4a-d039-448e-aacd-84eeffd35cc0_base_resized.jpg",
+  "creator_id": "rucion",
+  "creator_name": "rucion",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6696060",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6696060",
+  "title": "【ミルティナ/しなの対応】氷雨 Eye&Ma...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2ea10a28-f7f1-48a6-8dfb-82eecac7f678/i/6696060/af2eeb4c-4208-457b-9d43-e2083dfeb84c_base_resized.jpg",
+  "creator_id": "jitomate",
+  "creator_name": "jitomate",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

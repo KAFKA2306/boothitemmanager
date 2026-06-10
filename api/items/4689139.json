@@ -1,0 +1,23 @@
+{
+  "item_id": "4689139",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4689139",
+  "title": "「萌」- Moe Face Expression",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/913830be-7808-4a6c-aa37-fefac8db4943/i/4689139/65fc4016-da5a-4e85-8303-18d254809a46_base_resized.jpg",
+  "creator_id": "zebi",
+  "creator_name": "zebi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

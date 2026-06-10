@@ -1,0 +1,27 @@
+{
+  "item_id": "5826775",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5826775",
+  "title": "【森羅､桔梗､ライム､レティニア､メロトロン...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/699d1fb8-3fd2-4a93-a643-ef8c575fc056/i/5826775/396c0d9a-f15e-4105-adbf-c4f3397f0661_base_resized.jpg",
+  "creator_id": "yurimiku",
+  "creator_name": "yurimiku",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

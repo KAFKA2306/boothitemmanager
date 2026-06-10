@@ -1,0 +1,23 @@
+{
+  "item_id": "6821663",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6821663",
+  "title": "【無料/free】森羅専用シンプルメイクテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8e3fa995-078c-41cb-835e-cfd83531ee43/i/6821663/d1a9dedd-3252-4f2e-a00b-650b1fcaf165_base_resized.jpg",
+  "creator_id": "wisteriastore",
+  "creator_name": "wisteriastore",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "4575151",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4575151",
+  "title": "桔梗ちゃん向け MoeNameholder ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b5453f5b-84d5-40a2-99f1-6ba95b6cc365/i/4575151/beac6d48-cd6a-469b-b440-a23e5857957b_base_resized.jpg",
+  "creator_id": "vegemite0429",
+  "creator_name": "vegemite0429",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

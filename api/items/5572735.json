@@ -1,0 +1,23 @@
+{
+  "item_id": "5572735",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5572735",
+  "title": "【セレスティア対応】レースクイーン",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/5572735/7109c4a3-0937-404c-b4f8-bc68b72e0722_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

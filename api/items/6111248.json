@@ -1,0 +1,23 @@
+{
+  "item_id": "6111248",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6111248",
+  "title": "「AddPlus」for Shinano",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3714acbb-4a5e-4926-84c1-9806e5ce69ad/i/6111248/4fa9e19e-154c-4190-8524-9db664491473_base_resized.jpg",
+  "creator_id": "riceworks",
+  "creator_name": "riceworks",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

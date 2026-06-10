@@ -1,0 +1,25 @@
+{
+  "item_id": "6558800",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6558800",
+  "title": "WorkingNekoMaid -えくすとら-",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a588742e-7058-4909-8a77-702d749a7c9f/i/6558800/0c4f8af6-a0e1-4f95-83a2-ed4c4be41243_base_resized.jpg",
+  "creator_id": "vrc-dream-alice",
+  "creator_name": "vrc-dream-alice",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "NekoMaid",
+      "name": "猫メイド"
+    }
+  ],
+  "files": []
+}

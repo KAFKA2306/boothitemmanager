@@ -1,0 +1,23 @@
+{
+  "item_id": "5337459",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5337459",
+  "title": "{DeerEye}Shinra makeup...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7aa0f00e-49b5-404e-b12d-767937c567fe/i/5337459/b3fe55b3-0a89-439e-a499-f2272f0b896d_base_resized.jpg",
+  "creator_id": "textest",
+  "creator_name": "textest",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

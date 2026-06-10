@@ -1,0 +1,23 @@
+{
+  "item_id": "4696720",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4696720",
+  "title": "Moe_行動支援ユニット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3a9b3dd2-80f1-4801-bf98-0785d2d8f1fa/i/4696720/c53138d4-29e8-44cd-b563-f36c1a5ac44a_base_resized.jpg",
+  "creator_id": "neurl2",
+  "creator_name": "neurl2",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1780,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

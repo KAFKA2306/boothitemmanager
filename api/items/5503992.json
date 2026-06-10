@@ -1,0 +1,23 @@
+{
+  "item_id": "5503992",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5503992",
+  "title": "[森羅用]Leather See-through",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/08b68a0b-7b46-4be6-9833-2c31b79c75fe/i/5503992/00c1af48-4f72-446d-b307-7455a68e240e_base_resized.jpg",
+  "creator_id": "sarasapen",
+  "creator_name": "sarasapen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

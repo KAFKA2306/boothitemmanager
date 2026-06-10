@@ -1,0 +1,23 @@
+{
+  "item_id": "3797914",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3797914",
+  "title": "「桔梗」専用【3D衣装モデル】公立高校制服",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/3797914/590830aa-34ee-46fc-b064-18a72197dea1_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

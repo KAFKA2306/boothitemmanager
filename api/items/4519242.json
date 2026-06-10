@@ -1,0 +1,23 @@
+{
+  "item_id": "4519242",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4519242",
+  "title": "【桔梗/Kikyo】島風 Shimakaze",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b772d28d-bdf3-417b-a546-b2c7c9fff400/i/4519242/056155c0-0c27-4cf2-98ad-3c826b1e2c3a_base_resized.jpg",
+  "creator_id": "virt",
+  "creator_name": "virt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

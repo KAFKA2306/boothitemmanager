@@ -1,0 +1,25 @@
+{
+  "item_id": "5245116",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5245116",
+  "title": "真冬 (Mafuyu) idle anima...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d293b1ec-d727-43fb-90c8-82079b406931/i/5245116/0f9b51b1-aa42-41fd-8df4-74acb832456c_base_resized.jpg",
+  "creator_id": "marshmallo",
+  "creator_name": "marshmallo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

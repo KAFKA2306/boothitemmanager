@@ -1,0 +1,23 @@
+{
+  "item_id": "5145009",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5145009",
+  "title": "08 p.m. for mafuyu",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f67a84c9-acc7-4d7b-bdc9-5c942bd5ced3/i/5145009/d1678500-78de-43bc-af4d-8681c5fe600f_base_resized.jpg",
+  "creator_id": "meronfarm",
+  "creator_name": "meronfarm",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

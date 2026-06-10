@@ -1,0 +1,29 @@
+{
+  "item_id": "7618899",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7618899",
+  "title": "【両変換対応】真冬 ＆シアン用もちふぃった～...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1bd2c31f-6dd9-4abf-b586-ce1602b3544d/i/7618899/e7189172-b3bd-426c-b958-8907fd0ab476_base_resized.jpg",
+  "creator_id": "ekasilicon",
+  "creator_name": "ekasilicon",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Cian",
+      "name": "シアン"
+    },
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,35 @@
+{
+  "item_id": "6320329",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6320329",
+  "title": "[しなの・マヌカ・セレスティア・萌・ミルティ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9b5f7ed3-01eb-4528-8427-d935a02e855b/i/6320329/74da2e8c-f236-4c7a-b3ab-1c4d4a04cc58_base_resized.jpg",
+  "creator_id": "kaerudonya",
+  "creator_name": "kaerudonya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

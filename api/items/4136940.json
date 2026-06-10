@@ -1,0 +1,23 @@
+{
+  "item_id": "4136940",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4136940",
+  "title": "【Selestia用】透けシャツビキニ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/4136940/e21b08eb-f99c-49ef-b207-61574d4e6265_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

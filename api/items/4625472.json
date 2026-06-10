@@ -1,0 +1,23 @@
+{
+  "item_id": "4625472",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4625472",
+  "title": "Skeleton for Kikyo 桔梗",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/caac8bde-be36-42be-a61f-27a112af05f8/i/4625472/3ed41af5-29fb-4ef1-8646-072970de4c12_base_resized.jpg",
+  "creator_id": "melting",
+  "creator_name": "melting",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

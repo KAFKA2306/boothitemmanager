@@ -1,0 +1,23 @@
+{
+  "item_id": "4772607",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4772607",
+  "title": "Shinra outfit_C01",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f4b0f62e-d3c2-45b2-a081-bd423d97b2bc/i/4772607/919161f7-104d-427c-b883-d01b85d36c7c_base_resized.jpg",
+  "creator_id": "seolleo",
+  "creator_name": "seolleo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

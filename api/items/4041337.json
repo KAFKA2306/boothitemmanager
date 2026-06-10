@@ -1,0 +1,23 @@
+{
+  "item_id": "4041337",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4041337",
+  "title": "Selestia Eye Texture  ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3d5558a5-e7df-40eb-9acc-a4b7c2d61f67/i/4041337/5746e644-3ea2-4e12-9707-7d753ac59c85_base_resized.jpg",
+  "creator_id": "jel",
+  "creator_name": "jel",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

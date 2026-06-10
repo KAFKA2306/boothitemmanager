@@ -1,0 +1,27 @@
+{
+  "item_id": "4734453",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4734453",
+  "title": "割烹着【桔梗・萌用衣装】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a7841a68-2111-4233-ab90-63fe18f1dcbe/i/4734453/6813dab2-b42d-4966-ab10-963a2d092912_base_resized.jpg",
+  "creator_id": "aruminya",
+  "creator_name": "aruminya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

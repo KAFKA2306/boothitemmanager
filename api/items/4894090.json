@@ -1,0 +1,23 @@
+{
+  "item_id": "4894090",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4894090",
+  "title": "【森羅対応】ナイト・イン・シャンハイ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4a8b2e27-d374-4781-866c-9257a10bf56d/i/4894090/a4aafa4f-a2b5-4a55-b880-251f5c0a252a_base_resized.jpg",
+  "creator_id": "vagrant",
+  "creator_name": "vagrant",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

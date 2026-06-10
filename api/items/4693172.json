@@ -1,0 +1,23 @@
+{
+  "item_id": "4693172",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4693172",
+  "title": "萌ちゃん用DenimPants",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0d9a29e0-e1d8-4bdf-bd0f-f560d28f7263/i/4693172/7e96efa5-7ffe-4edf-bc38-f7a3f88b8ef4_base_resized.jpg",
+  "creator_id": "moff",
+  "creator_name": "moff",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

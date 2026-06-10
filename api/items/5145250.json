@@ -1,0 +1,26 @@
+{
+  "item_id": "5145250",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5145250",
+  "title": "【マヌカ対応】CYBER MAID【VRChat】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5145250/d38ac64a-41d2-4bf8-8d7e-e11460856438_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド",
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

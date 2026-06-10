@@ -1,0 +1,25 @@
+{
+  "item_id": "5203603",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5203603",
+  "title": "「真冬用」瞳テクスチャ詰め",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/cb1eac24-c652-438f-b0fc-2ffbe9973b4a/i/5203603/daf7b606-98c4-4751-8a37-d050a3d7d830_base_resized.jpg",
+  "creator_id": "kaitaku98",
+  "creator_name": "kaitaku98",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

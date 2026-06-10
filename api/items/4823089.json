@@ -1,0 +1,27 @@
+{
+  "item_id": "4823089",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4823089",
+  "title": "【森羅、セレスティア用】SimpleDress",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3cafeb43-5a51-4b8b-b815-0102fd42dd0f/i/4823089/6dee249f-333b-468e-8088-bccec93cfbaf_base_resized.jpg",
+  "creator_id": "potatocloset",
+  "creator_name": "potatocloset",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

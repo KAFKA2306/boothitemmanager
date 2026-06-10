@@ -1,0 +1,25 @@
+{
+  "item_id": "5063147",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5063147",
+  "title": "【マヌカ対応】 Sporty Set-up",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1da71bbb-d1d7-4cb5-9935-578e0aa762b7/i/5063147/f23b8919-a3e3-4612-808e-392898929641_base_resized.jpg",
+  "creator_id": "milesiansstore",
+  "creator_name": "milesiansstore",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "5094236",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5094236",
+  "title": "【マヌカ対応】着物ドレス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/5094236/fea731c7-a4bd-4a60-9c77-2cc2ca2f886e_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

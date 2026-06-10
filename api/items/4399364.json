@@ -1,0 +1,23 @@
+{
+  "item_id": "4399364",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4399364",
+  "title": "【桔梗ちゃん想定】Lycoris.",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/153beee1-9c44-4afe-8a9b-5f30e1576bba/i/4399364/40f95d24-2645-4a56-96f5-7dffb5f72678_base_resized.jpg",
+  "creator_id": "miraiyaworkshop",
+  "creator_name": "miraiyaworkshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

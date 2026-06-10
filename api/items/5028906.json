@@ -1,0 +1,25 @@
+{
+  "item_id": "5028906",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5028906",
+  "title": "【萌(Moe) 専用】 Knit Sport...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7abb3805-8abc-4e8f-a1a2-3ace0dcaf291/i/5028906/256946ae-5dde-4ac3-ad9b-b9d6ed5832c3_base_resized.jpg",
+  "creator_id": "hamco-factory",
+  "creator_name": "hamco-factory",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

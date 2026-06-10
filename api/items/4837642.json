@@ -1,0 +1,33 @@
+{
+  "item_id": "4837642",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4837642",
+  "title": "【森羅・萌】スポーツサンダル【VRChat想定】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ef52a70d-c53e-4379-94a1-858e98453350/i/4837642/26a3d1e1-a285-4a13-b2b5-65b883629d76_base_resized.jpg",
+  "creator_id": "foxpunch",
+  "creator_name": "foxpunch",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

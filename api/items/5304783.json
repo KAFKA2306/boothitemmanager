@@ -1,0 +1,23 @@
+{
+  "item_id": "5304783",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5304783",
+  "title": "[森羅],[まめひなた] Casual Wi...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/765ef6dd-cbb7-4e23-ad40-51e83c1a9963/i/5304783/c347ae74-85a1-4a42-940d-15339002e8d9_base_resized.jpg",
+  "creator_id": "bluecloud",
+  "creator_name": "bluecloud",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6283424",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6283424",
+  "title": "「AddPlus」for MANUKA & ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3714acbb-4a5e-4926-84c1-9806e5ce69ad/i/6283424/1c6d5b44-119d-4468-9427-bba2d688dd35_base_resized.jpg",
+  "creator_id": "riceworks",
+  "creator_name": "riceworks",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5129570",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5129570",
+  "title": "Kintugi_Leg 金継ぎ義足 for 森羅",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/17fa0b54-7769-4208-af98-a734bbba3842/i/5129570/5a649153-2ce7-4bb7-b86b-633ff9285cbc_base_resized.jpg",
+  "creator_id": "argonauta-argo86",
+  "creator_name": "argonauta-argo86",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

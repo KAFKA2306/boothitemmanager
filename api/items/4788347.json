@@ -1,0 +1,27 @@
+{
+  "item_id": "4788347",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4788347",
+  "title": "【萌-Moe- セレスティア-Selstia...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c7ef83fe-cd48-46eb-9fba-fbbd16076823/i/4788347/6312dd10-2a2c-4230-99db-ca97b68360e5_base_resized.jpg",
+  "creator_id": "first-trimester",
+  "creator_name": "first-trimester",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

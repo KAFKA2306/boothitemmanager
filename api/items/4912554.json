@@ -1,0 +1,23 @@
+{
+  "item_id": "4912554",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4912554",
+  "title": "AFK Animation FOR MOE",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ffcd48b9-caf9-420a-ab5e-ed4f740fc99e/i/4912554/d3cf984e-db68-4c23-970f-43fb43bc786c_base_resized.jpg",
+  "creator_id": "soshop",
+  "creator_name": "soshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

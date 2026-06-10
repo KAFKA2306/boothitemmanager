@@ -1,0 +1,23 @@
+{
+  "item_id": "4524876",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4524876",
+  "title": "【セレスティア専用】 Selestia Ma...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bbdf2b60-e7b4-42b5-80ac-5c63a5949d2a/i/4524876/800d71a7-204b-445a-afca-46865e1d9e13_base_resized.jpg",
+  "creator_id": "perselia",
+  "creator_name": "perselia",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

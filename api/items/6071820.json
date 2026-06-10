@@ -1,0 +1,23 @@
+{
+  "item_id": "6071820",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6071820",
+  "title": "「ルルネ」専用【3D衣装モデル】モーリー",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/6071820/82779677-de9a-48a3-9f97-5dd2902287e8_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

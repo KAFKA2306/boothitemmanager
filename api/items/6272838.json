@@ -1,0 +1,23 @@
+{
+  "item_id": "6272838",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6272838",
+  "title": "【森羅用】finger tattoo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f0dc72fd-06ab-488c-8feb-b1ec596b111c/i/6272838/81358302-f7ed-4fa3-a79c-97c48e6a3b6b_base_resized.jpg",
+  "creator_id": "stardustmaidens",
+  "creator_name": "stardustmaidens",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4970752",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4970752",
+  "title": "【VRChat】森羅専用 スキニー/シャツ/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1cb3c9fd-e141-4184-8574-bdf5b90ae391/i/4970752/5146821a-1a3b-403b-ba5d-3d713aa503cb_base_resized.jpg",
+  "creator_id": "elesato",
+  "creator_name": "elesato",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

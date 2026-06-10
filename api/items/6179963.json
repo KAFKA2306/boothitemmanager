@@ -1,0 +1,23 @@
+{
+  "item_id": "6179963",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6179963",
+  "title": "【3D】Enchant Bloke (森羅/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ebaa6de7-8ca7-4319-8a84-0e098ddaaa20/i/6179963/1d2dbcbd-214e-4bd7-af51-643398669f77_base_resized.jpg",
+  "creator_id": "lyra-o-o-o",
+  "creator_name": "lyra-o-o-o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

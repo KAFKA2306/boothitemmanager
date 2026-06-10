@@ -1,0 +1,23 @@
+{
+  "item_id": "4078890",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4078890",
+  "title": "[3Dモデル]Wehrhahn(Kikyo●...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/57a051cf-430c-4cc0-8a88-8fd753723078/i/4078890/98b324fd-3ece-4e5a-8532-633ef12ec422_base_resized.jpg",
+  "creator_id": "kainrypus",
+  "creator_name": "kainrypus",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4212167",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4212167",
+  "title": "【セレスティア(Selestia)用】目・髪...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/71f97f3b-f8f6-48bb-859d-af400aff5b1a/i/4212167/45813abb-edf5-4af3-9835-e9161e7c1334_base_resized.jpg",
+  "creator_id": "rescery",
+  "creator_name": "rescery",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

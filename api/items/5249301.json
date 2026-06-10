@@ -1,0 +1,23 @@
+{
+  "item_id": "5249301",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5249301",
+  "title": "【森羅(Shinra)用】Shinra dy...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/71f97f3b-f8f6-48bb-859d-af400aff5b1a/i/5249301/9b2f346e-c0c3-45cc-b587-4f1a8537b211_base_resized.jpg",
+  "creator_id": "rescery",
+  "creator_name": "rescery",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

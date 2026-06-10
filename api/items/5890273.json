@@ -1,0 +1,23 @@
+{
+  "item_id": "5890273",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5890273",
+  "title": "【VRChat】Ebony Stola【森羅対応】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5890273/32ce363f-0c65-4626-87bd-26e915373a09_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

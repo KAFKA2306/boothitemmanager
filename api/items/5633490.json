@@ -1,0 +1,31 @@
+{
+  "item_id": "5633490",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5633490",
+  "title": "【桔梗･萌･マヌカ･ライム対応】GIZMO ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/5633490/b4d9c07b-a716-4eda-9a89-c87f6564b8f2_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

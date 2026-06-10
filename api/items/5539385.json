@@ -1,0 +1,23 @@
+{
+  "item_id": "5539385",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5539385",
+  "title": "天翼光輪 -Celestial Halo-",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b5811fc8-dbf8-46f3-a51a-ee99a98c5f33/i/5539385/7d230032-7ca6-4e28-80b5-579616f03ed8_base_resized.jpg",
+  "creator_id": "peperoncino-vrc",
+  "creator_name": "peperoncino-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

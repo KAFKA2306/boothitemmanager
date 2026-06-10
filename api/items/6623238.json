@@ -1,0 +1,27 @@
+{
+  "item_id": "6623238",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6623238",
+  "title": "【瑞希＆ルルネ対応】Vigilant Sty...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/12cb4425-06f0-4f49-b533-9c937a42ef2b/i/6623238/5a6dba58-42cb-4af1-ab2e-9ad460a69bfc_base_resized.jpg",
+  "creator_id": "demicrown",
+  "creator_name": "demicrown",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

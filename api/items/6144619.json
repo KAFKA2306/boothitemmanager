@@ -1,0 +1,23 @@
+{
+  "item_id": "6144619",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6144619",
+  "title": "【20アバター対応】Bow of Roman...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/52baf5f2-f087-4ede-90b4-bc1b68cf713d/i/6144619/8f8da7c0-8557-4472-a4e8-d635daab3999_base_resized.jpg",
+  "creator_id": "ownpath",
+  "creator_name": "ownpath",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "avatar",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

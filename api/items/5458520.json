@@ -1,0 +1,23 @@
+{
+  "item_id": "5458520",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5458520",
+  "title": "【マヌカ用】花柄タイツ - Flower-P...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c0107c0d-a373-461d-b365-671c053c6c9a/i/5458520/d6abf5fb-b952-4ca9-bcdf-5b7d19cf29bb_base_resized.jpg",
+  "creator_id": "seele",
+  "creator_name": "seele",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

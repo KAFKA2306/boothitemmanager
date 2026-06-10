@@ -1,0 +1,35 @@
+{
+  "item_id": "6122703",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6122703",
+  "title": "[ マヌカ / しなの / 森羅 / ルルネ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8adc3af2-8c7c-40bc-8ff9-d531c1cf573c/i/6122703/71a526fc-6e06-41e5-990d-052c5d2436ed_base_resized.jpg",
+  "creator_id": "minggul",
+  "creator_name": "minggul",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

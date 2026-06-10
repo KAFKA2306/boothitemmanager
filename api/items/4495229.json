@@ -1,0 +1,23 @@
+{
+  "item_id": "4495229",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4495229",
+  "title": "桔梗専用 - ソルシエルリスペクトEYEテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/66ccc331-3c4d-430e-9032-88906e7cfb2a/i/4495229/0399e0af-da89-4b62-b500-b4fe5f603f09_base_resized.jpg",
+  "creator_id": "u-stella",
+  "creator_name": "u-stella",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

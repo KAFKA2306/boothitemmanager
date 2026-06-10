@@ -1,0 +1,23 @@
+{
+  "item_id": "5487835",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5487835",
+  "title": "【マヌカ対応】サキュバス衣装(着脱ギミック付)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5487835/1b8899eb-5390-4929-a486-141b3581a348_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "4706292",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4706292",
+  "title": "Ver1.1【萌・桔梗・舞夜対応】オフショル...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9977852d-4f9c-4bdb-b624-ef88e781fa73/i/4706292/9a4906e1-21e7-4d97-bacb-74681774d8d8_base_resized.jpg",
+  "creator_id": "ai-works",
+  "creator_name": "ai-works",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 950,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

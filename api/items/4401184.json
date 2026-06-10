@@ -1,0 +1,23 @@
+{
+  "item_id": "4401184",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4401184",
+  "title": "ボリュームネックニット【桔梗専用】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8a34cbb0-871f-418c-9e07-dd535749fb21/i/4401184/01a30dca-f7c2-4ae6-9e9c-cb2f224c481b_base_resized.jpg",
+  "creator_id": "tatuolabo",
+  "creator_name": "tatuolabo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

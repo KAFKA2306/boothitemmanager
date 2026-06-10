@@ -1,0 +1,23 @@
+{
+  "item_id": "1468329",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/1468329",
+  "title": "オリジナル3Dモデル　バウマウ　-bowmow-",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/523200ed-7fc1-4c95-84ec-768984fd122d/i/1468329/657fe5f5-9bad-492e-bceb-871df87f196f_base_resized.jpg",
+  "creator_id": "wasabinosato",
+  "creator_name": "wasabinosato",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 3000,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

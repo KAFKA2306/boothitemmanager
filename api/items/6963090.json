@@ -1,0 +1,23 @@
+{
+  "item_id": "6963090",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6963090",
+  "title": "✨一日限定無料配布✨森羅対応ボディタトゥー✨",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b512c2c1-2476-49bc-b35b-ba32b87496ed/i/6963090/1ac12f95-998d-4109-834c-2054947aa02f_base_resized.jpg",
+  "creator_id": "popopoponcho235",
+  "creator_name": "popopoponcho235",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

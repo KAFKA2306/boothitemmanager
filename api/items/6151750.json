@@ -1,0 +1,27 @@
+{
+  "item_id": "6151750",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6151750",
+  "title": "☀️Sunday_for Airi&Shinano",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f9000cbe-d0e1-4cef-a7f5-f2b6551e725c/i/6151750/79425d7a-375a-4a38-b68e-b2ef4302baa6_base_resized.jpg",
+  "creator_id": "bunnyhugs",
+  "creator_name": "bunnyhugs",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

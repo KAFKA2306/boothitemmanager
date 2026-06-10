@@ -1,0 +1,23 @@
+{
+  "item_id": "5167657",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5167657",
+  "title": "夕日のロマンス(Sunset Romance...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0a78a3b2-5652-4293-b9e3-1105adf9cc64/i/5167657/abf3f277-e309-4078-aea2-7b88ea6d2d97_base_resized.jpg",
+  "creator_id": "cybercritter",
+  "creator_name": "cybercritter",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

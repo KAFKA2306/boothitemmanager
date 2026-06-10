@@ -1,0 +1,25 @@
+{
+  "item_id": "5183139",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5183139",
+  "title": "森羅 サイバー・タトゥー / Shinra ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f522e2fd-6512-42dc-a7f7-80ade50595e0/i/5183139/c8ba99c1-5eb3-41a7-b35c-cbb052f611ae_base_resized.jpg",
+  "creator_id": "fleurarte",
+  "creator_name": "fleurarte",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "サイバー"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

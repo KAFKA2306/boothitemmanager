@@ -1,0 +1,23 @@
+{
+  "item_id": "5480729",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5480729",
+  "title": "【森羅ちゃん用】Einem Flugel 【...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fcd0b032-7897-401e-b4ac-f36a950a6063/i/5480729/49ebf7d2-55b7-434e-a837-9e73612927dd_base_resized.jpg",
+  "creator_id": "thirdpenguin",
+  "creator_name": "thirdpenguin",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

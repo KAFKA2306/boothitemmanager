@@ -1,0 +1,23 @@
+{
+  "item_id": "7845004",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7845004",
+  "title": "✦ しなの :: Shinano 対応 ✦ ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/842cecf7-982a-46ca-aaff-925cc305dbc0/i/7845004/7f8532a7-0f54-452c-b7dd-66ed5263d4b4_base_resized.jpg",
+  "creator_id": "lovable",
+  "creator_name": "lovable",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

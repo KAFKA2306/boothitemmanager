@@ -1,0 +1,23 @@
+{
+  "item_id": "6026680",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6026680",
+  "title": "【ルルネ対応】SweetHop【VRChat...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/35312950-76b5-499a-b55c-4b8f5baacb1b/i/6026680/d2ac4c57-0d76-459e-ac93-d6230fd72940_base_resized.jpg",
+  "creator_id": "suzu-ya",
+  "creator_name": "suzu-ya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

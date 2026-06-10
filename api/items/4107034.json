@@ -1,0 +1,23 @@
+{
+  "item_id": "4107034",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4107034",
+  "title": "【セレスティア用】敏感EX～セレスティアFX...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f2c95030-c409-40ab-8c4a-e6eeec6cab70/i/4107034/1b8bbae3-eb22-437d-85c9-ca68582b0e80_base_resized.jpg",
+  "creator_id": "gentleresearch",
+  "creator_name": "gentleresearch",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "5090908",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5090908",
+  "title": "【真冬用】だぼだぼパーカー【無料/Free】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/cb1eac24-c652-438f-b0fc-2ffbe9973b4a/i/5090908/0bd12801-c1a0-4836-b08e-edbc9714f5af_base_resized.jpg",
+  "creator_id": "kaitaku98",
+  "creator_name": "kaitaku98",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

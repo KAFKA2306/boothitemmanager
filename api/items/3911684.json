@@ -1,0 +1,23 @@
+{
+  "item_id": "3911684",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3911684",
+  "title": "[3Dモデル]Rider(Kikyo●桔梗専用)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/57a051cf-430c-4cc0-8a88-8fd753723078/i/3911684/235b1d0e-d0ab-4624-9595-46f5d238e73e_base_resized.jpg",
+  "creator_id": "kainrypus",
+  "creator_name": "kainrypus",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

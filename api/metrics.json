@@ -1,0 +1,35 @@
+{
+  "total_items": 40317,
+  "types": {
+    "gimmick": 2483,
+    "avatar": 9696,
+    "other": 11273,
+    "outfit": 12836,
+    "accessory": 4029
+  },
+  "top_shops": {
+    "woodapple": 246,
+    "overay": 183,
+    "kodamaaltanative": 176,
+    "kainrypus": 165,
+    "cybercritter": 149,
+    "van-labo": 108,
+    "seele": 108,
+    "stellaquartz": 104,
+    "koarare-atelier": 102,
+    "vinzo": 101
+  },
+  "top_avatars": {
+    "桔梗": 596,
+    "マヌカ": 514,
+    "しなの": 361,
+    "セレスティア": 352,
+    "森羅": 326,
+    "萌": 316,
+    "ルルネ": 260,
+    "SUN": 209,
+    "真冬": 90,
+    "瑞希": 71
+  },
+  "updated_at": "2026-06-10T16:10:06.353206"
+}

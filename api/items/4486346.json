@@ -1,0 +1,23 @@
+{
+  "item_id": "4486346",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4486346",
+  "title": "[Tactical Bunny] - 桔梗 ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/61410ef3-64be-45c4-825a-1b5fa662d9c5/i/4486346/85ce2213-b3e3-4ff5-9015-392235586fc5_base_resized.jpg",
+  "creator_id": "eliya",
+  "creator_name": "eliya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

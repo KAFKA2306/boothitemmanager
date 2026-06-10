@@ -1,0 +1,35 @@
+{
+  "item_id": "5061896",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5061896",
+  "title": "🎀Sweet Girly🎀マヌカ/萌/森羅/桔梗",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2c32971b-6bde-44dd-ad58-a31eceb2c863/i/5061896/1d29aa35-47a7-4bed-b8f3-43919468086d_base_resized.jpg",
+  "creator_id": "c-c-matilda",
+  "creator_name": "c-c-matilda",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

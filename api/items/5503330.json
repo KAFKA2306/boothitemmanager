@@ -1,0 +1,23 @@
+{
+  "item_id": "5503330",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5503330",
+  "title": "【マヌカ用】花柄手袋 - Flower-Pa...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c0107c0d-a373-461d-b365-671c053c6c9a/i/5503330/37ee8f47-6991-4fd2-97e4-6be2db29c74a_base_resized.jpg",
+  "creator_id": "seele",
+  "creator_name": "seele",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

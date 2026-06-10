@@ -1,0 +1,23 @@
+{
+  "item_id": "2986054",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2986054",
+  "title": "【メリノ、桔梗用】衣装モデル『肩切り水着-C...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9ce17800-a401-475b-8bd9-4309a7f6dc4b/i/2986054/ea204155-8c0b-498a-b4c7-54625a5e502f_base_resized.jpg",
+  "creator_id": "bobcat-world",
+  "creator_name": "bobcat-world",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

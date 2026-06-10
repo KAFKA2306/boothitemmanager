@@ -1,0 +1,23 @@
+{
+  "item_id": "4711973",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4711973",
+  "title": "【桔梗想定】Streptocarpus.",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/153beee1-9c44-4afe-8a9b-5f30e1576bba/i/4711973/df498cab-7108-4ced-8ac2-53efaf7cb2be_base_resized.jpg",
+  "creator_id": "miraiyaworkshop",
+  "creator_name": "miraiyaworkshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 3000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

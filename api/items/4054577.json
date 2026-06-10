@@ -1,0 +1,23 @@
+{
+  "item_id": "4054577",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4054577",
+  "title": "Bunny Suit (Selestia)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/abf6e5da-764f-4c6e-a9f6-37448fb677b7/i/4054577/632477a6-26e6-4c6b-bf70-5e2cb99778fb_base_resized.jpg",
+  "creator_id": "mynameiscurt",
+  "creator_name": "mynameiscurt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

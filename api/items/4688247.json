@@ -1,0 +1,27 @@
+{
+  "item_id": "4688247",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4688247",
+  "title": "【桔梗・萌用】Kawaii Nip~オシャレ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9f2973ff-12a7-4541-a420-c31c7c963843/i/4688247/bf4dcb6e-1583-464e-a81c-615199171e3a_base_resized.jpg",
+  "creator_id": "rdt",
+  "creator_name": "rdt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

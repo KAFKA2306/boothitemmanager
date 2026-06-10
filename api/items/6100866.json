@@ -1,0 +1,25 @@
+{
+  "item_id": "6100866",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6100866",
+  "title": "WorkingNekoMaid 【キプフェル...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a588742e-7058-4909-8a77-702d749a7c9f/i/6100866/0e8cd514-e2d1-43eb-b433-dd5fa67889f2_base_resized.jpg",
+  "creator_id": "vrc-dream-alice",
+  "creator_name": "vrc-dream-alice",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "NekoMaid",
+      "name": "猫メイド"
+    }
+  ],
+  "files": []
+}

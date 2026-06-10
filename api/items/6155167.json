@@ -1,0 +1,23 @@
+{
+  "item_id": "6155167",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6155167",
+  "title": "【ルルネ専用】Nebula Tail【Tex...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/edaa7fb2-a050-4e08-9b4d-3dc81c7d2551/i/6155167/5f99d4e3-410b-4969-aa4d-45a62d2dd95a_base_resized.jpg",
+  "creator_id": "mp0x0qm",
+  "creator_name": "mp0x0qm",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

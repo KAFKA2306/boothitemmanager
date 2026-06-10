@@ -1,0 +1,23 @@
+{
+  "item_id": "5313849",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5313849",
+  "title": "【マヌカ対応】Kira kira Piece...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/802bd6bc-17ae-4b64-92f5-587d7a61caf7/i/5313849/1fa02f88-a3b2-477b-8d60-4f65c254a497_base_resized.jpg",
+  "creator_id": "karaage120en",
+  "creator_name": "karaage120en",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 120,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

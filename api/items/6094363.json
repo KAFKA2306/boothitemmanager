@@ -1,0 +1,23 @@
+{
+  "item_id": "6094363",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6094363",
+  "title": "【森羅/Shinra専用】MakeUp＆Ey...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bc9f0a48-26fc-4b8f-af21-07a56c0b6fa8/i/6094363/466ddbf9-c65b-4c82-9f9e-21e707befb1b_base_resized.jpg",
+  "creator_id": "vlam",
+  "creator_name": "vlam",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

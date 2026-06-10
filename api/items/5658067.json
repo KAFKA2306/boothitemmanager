@@ -1,0 +1,27 @@
+{
+  "item_id": "5658067",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5658067",
+  "title": "【3D】S.LIGHTLY (森羅/マヌカ/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ebaa6de7-8ca7-4319-8a84-0e098ddaaa20/i/5658067/475eda53-5533-4cad-b5f8-af1b93a4b751_base_resized.jpg",
+  "creator_id": "lyra-o-o-o",
+  "creator_name": "lyra-o-o-o",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

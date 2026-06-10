@@ -1,0 +1,25 @@
+{
+  "item_id": "6209134",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6209134",
+  "title": "『真冬 Mafuyu』  / body te...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/eadc7fd2-f253-4563-ab1a-5d2d1fb0e3b2/i/6209134/f222ffef-2f11-4123-a4a3-bc14021624a1_base_resized.jpg",
+  "creator_id": "yukiidayo",
+  "creator_name": "yukiidayo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

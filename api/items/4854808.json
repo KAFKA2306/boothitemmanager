@@ -1,0 +1,23 @@
+{
+  "item_id": "4854808",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4854808",
+  "title": "【桔梗ちゃん対応衣装】セレニティローズ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/cc89d120-d21a-4271-937e-37dae9dd58fc/i/4854808/99610d07-745c-43ae-813a-7d70cc962319_base_resized.jpg",
+  "creator_id": "umikuri",
+  "creator_name": "umikuri",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

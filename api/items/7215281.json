@@ -1,0 +1,25 @@
+{
+  "item_id": "7215281",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7215281",
+  "title": "ルーズパーカー（真冬対応）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c9700c4f-feb4-40d1-845a-e3d3736d2a4e/i/7215281/d347334a-b3b4-41d5-afec-6c174152cc2d_base_resized.jpg",
+  "creator_id": "garakutaichigo",
+  "creator_name": "garakutaichigo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

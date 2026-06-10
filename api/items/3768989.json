@@ -1,0 +1,23 @@
+{
+  "item_id": "3768989",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3768989",
+  "title": "[3Dモデル]カフェバイトルック(Kikyo...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/57a051cf-430c-4cc0-8a88-8fd753723078/i/3768989/0d2eac0b-dde8-4545-a32c-249b787134e1_base_resized.jpg",
+  "creator_id": "kainrypus",
+  "creator_name": "kainrypus",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

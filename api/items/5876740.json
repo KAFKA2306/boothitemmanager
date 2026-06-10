@@ -1,0 +1,23 @@
+{
+  "item_id": "5876740",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5876740",
+  "title": "セレスティア用の水着（2024年版）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ba1632d1-d7a2-47bf-b5c7-b1b4c83290fc/i/5876740/5180c5ad-406f-496b-a7fd-15d51558d80f_base_resized.jpg",
+  "creator_id": "wakamaru",
+  "creator_name": "wakamaru",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

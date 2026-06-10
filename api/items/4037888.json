@@ -1,0 +1,23 @@
+{
+  "item_id": "4037888",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4037888",
+  "title": "[セレスティアちゃん用] カジュアルワンピース",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/baf9e413-0c98-4365-94aa-9d6d77c0ef9b/i/4037888/73a1c85b-4080-4a0f-87e9-c621ec77e146_base_resized.jpg",
+  "creator_id": "flabs",
+  "creator_name": "flabs",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5059404",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5059404",
+  "title": "【マヌカ用】 MANUKA Face Exp...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9c63fe9f-2516-4a00-b987-4e7abc8731c3/i/5059404/6b01012b-bbf3-470a-adbd-44e41f9533f4_base_resized.jpg",
+  "creator_id": "xux",
+  "creator_name": "xux",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

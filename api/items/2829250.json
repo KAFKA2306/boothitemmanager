@@ -1,0 +1,23 @@
+{
+  "item_id": "2829250",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2829250",
+  "title": "「薄荷」専用衣装【3D衣装モデル】カプチーノ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/2829250/fcc12e4b-3832-4025-9d30-2f3fd671f9bb_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
+  "files": []
+}

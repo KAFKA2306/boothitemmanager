@@ -1,0 +1,25 @@
+{
+  "item_id": "4600201",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4600201",
+  "title": "【桔梗用】Milk Maid for Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6c8d0b7b-6977-45b9-ac23-d45bd70067ce/i/4600201/98bf7384-ecd1-44cf-9138-022a6dca7a23_base_resized.jpg",
+  "creator_id": "zaelah",
+  "creator_name": "zaelah",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "メイド"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

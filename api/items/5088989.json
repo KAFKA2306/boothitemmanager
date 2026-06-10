@@ -1,0 +1,23 @@
+{
+  "item_id": "5088989",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5088989",
+  "title": "【マヌカ対応】地雷系ファッション",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dd91b5cd-8256-4550-b017-41a00490ff7e/i/5088989/b3625b27-f83a-4a97-9a4a-07ae4d859519_base_resized.jpg",
+  "creator_id": "marumarushop-vrc",
+  "creator_name": "marumarushop-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

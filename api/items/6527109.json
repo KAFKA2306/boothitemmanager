@@ -1,0 +1,23 @@
+{
+  "item_id": "6527109",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6527109",
+  "title": "【凪/Manuka 対応】GURUGURU_...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d23b1c5d-9d4c-4d60-b789-2a1d4b592b24/i/6527109/0e3a08af-c4d7-4f3f-bf67-241f7d410b4f_base_resized.jpg",
+  "creator_id": "atelier-natane",
+  "creator_name": "atelier-natane",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

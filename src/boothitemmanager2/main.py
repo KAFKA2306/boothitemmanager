@@ -7,7 +7,7 @@ from .agents.normalizer import normalize_html
 from .agents.api_generator import generate_api
 from .schemas.storage import RawAssetPage, Item
 
-from .agents.bridge import ingest_ndjson
+from .agents.bridge import convert_ndjson_to_items
 
 def run_pipeline():
     """
@@ -30,15 +30,18 @@ def run_pipeline():
     ndjson_path = "data/raw/index.ndjson"
     if os.path.exists(ndjson_path):
         log(f"🌉 Ingesting data from {ndjson_path}...")
-        ndjson_items = ingest_ndjson(ndjson_path)
-        for item in ndjson_items:
-            all_items_dict[item.item_id] = item
-        log(f"✅ Ingested {len(ndjson_items)} items from bridge.")
+        block = convert_ndjson_to_items(ndjson_path, trace_id)
+        if block.result == "SUCCESS":
+            ndjson_items = block.actual_state.get("items", [])
+            for item in ndjson_items:
+                all_items_dict[item.item_id] = item
+            log(f"✅ Ingested {len(ndjson_items)} items from bridge.")
 
     # Source B: input/raw/*.html (Detailed Crawler)
     from pathlib import Path
     raw_dir = Path("input/raw")
     raw_files = list(raw_dir.glob("*.html"))
+
     if raw_files:
         log(f"📦 Processing {len(raw_files)} detailed HTML files...")
         for rf in raw_files:

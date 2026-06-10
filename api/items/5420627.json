@@ -1,0 +1,23 @@
+{
+  "item_id": "5420627",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5420627",
+  "title": "【Shinra】MakeUp texture !!",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ef173dce-37ee-41dd-9374-a61b6ba38cd6/i/5420627/214a7d44-cac5-421b-8d10-c1556a42cf93_base_resized.jpg",
+  "creator_id": "okuna",
+  "creator_name": "okuna",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

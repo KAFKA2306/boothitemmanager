@@ -1,0 +1,23 @@
+{
+  "item_id": "7585018",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7585018",
+  "title": "バリの弓矢 - Bali's Bow and...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d44dc4b1-2cf4-4e13-9704-8a3f4be274ff/i/7585018/adc0e7b0-6afa-4646-9d07-eba7fa587c51_base_resized.jpg",
+  "creator_id": "neiro-vrc",
+  "creator_name": "neiro-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

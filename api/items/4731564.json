@@ -1,0 +1,23 @@
+{
+  "item_id": "4731564",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4731564",
+  "title": "【森羅shinra用】かっこいい男の子？！メ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a64f5c6e-d39c-4e44-b658-9b3e007f43db/i/4731564/fbde60a3-4e96-4b41-b1a2-be747e888916_base_resized.jpg",
+  "creator_id": "sa-montabetai",
+  "creator_name": "sa-montabetai",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "3759873",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3759873",
+  "title": "【桔梗向け】色素薄め肌テクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b5803eec-6774-4864-8ef4-47288963793e/i/3759873/e3e4d263-8571-4cb7-9b06-72b8a111a78d_base_resized.jpg",
+  "creator_id": "midorihadayo",
+  "creator_name": "midorihadayo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

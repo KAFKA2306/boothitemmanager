@@ -1,0 +1,23 @@
+{
+  "item_id": "4080716",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4080716",
+  "title": "セレスティアちゃん用 Succubus Co...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fdef4afd-cba6-4e06-9bd6-6cf5c7bd99bf/i/4080716/1709c247-7a10-4059-ba4b-8d194338e3ea_base_resized.jpg",
+  "creator_id": "harumint",
+  "creator_name": "harumint",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

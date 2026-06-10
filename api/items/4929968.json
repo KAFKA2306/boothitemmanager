@@ -1,0 +1,23 @@
+{
+  "item_id": "4929968",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4929968",
+  "title": "【森羅・ラシューシャ】レザージャケットコーデ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a149dd22-995b-4ccb-aee1-f286294a32a6/i/4929968/e5c47ab7-3e0e-4e8a-ab86-3d0474e98299_base_resized.jpg",
+  "creator_id": "mayune",
+  "creator_name": "mayune",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

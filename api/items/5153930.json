@@ -1,0 +1,25 @@
+{
+  "item_id": "5153930",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5153930",
+  "title": "ロリータテック【真冬ちゃん用衣装モデル】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/afb711a0-830f-455b-8d97-9afd96aaeb83/i/5153930/06feffd8-cd5e-495b-9c71-b08d07cdbe07_base_resized.jpg",
+  "creator_id": "alleyofpensuke",
+  "creator_name": "alleyofpensuke",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

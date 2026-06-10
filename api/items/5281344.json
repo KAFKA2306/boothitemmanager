@@ -1,0 +1,25 @@
+{
+  "item_id": "5281344",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5281344",
+  "title": "【VRChat】 汎用 「もこもこ真冬セット」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ae7da238-6122-49ca-a127-84b3627ceb54/i/5281344/9bb2dec7-6851-45ec-aae6-07eb86e00ca7_base_resized.jpg",
+  "creator_id": "mellikyyy",
+  "creator_name": "mellikyyy",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5131151",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5131151",
+  "title": "マヌカ用「霊華道士」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/08b68a0b-7b46-4be6-9833-2c31b79c75fe/i/5131151/512ced7e-2d6a-4a74-b784-113fa04b65b5_base_resized.jpg",
+  "creator_id": "sarasapen",
+  "creator_name": "sarasapen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

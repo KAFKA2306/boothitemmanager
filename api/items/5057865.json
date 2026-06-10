@@ -1,0 +1,23 @@
+{
+  "item_id": "5057865",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5057865",
+  "title": "【マヌカ対応】 ロマンス·チャイナ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fee5452b-7e47-4ceb-8cfa-7a42da3bd03b/i/5057865/6ae2f77d-80c1-433d-9927-9aa87b555138_base_resized.jpg",
+  "creator_id": "baec",
+  "creator_name": "baec",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

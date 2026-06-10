@@ -1,0 +1,23 @@
+{
+  "item_id": "5451117",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5451117",
+  "title": "Crystal　森羅専用",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/82a7ead6-a4c3-44d3-9381-dccf523c5b02/i/5451117/9982e0df-db0b-418f-96f6-f29d81652458_base_resized.jpg",
+  "creator_id": "nosignal",
+  "creator_name": "nosignal",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 750,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

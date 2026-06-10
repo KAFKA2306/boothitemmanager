@@ -1,0 +1,23 @@
+{
+  "item_id": "3555257",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3555257",
+  "title": "Bow Dress for Maya「舞夜」...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0b6d0a81-3219-4caa-b192-f12f447ddf08/i/3555257/c088c7df-e1dc-43ac-952c-b1dc126fcab3_base_resized.jpg",
+  "creator_id": "hazel",
+  "creator_name": "hazel",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

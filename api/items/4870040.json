@@ -1,0 +1,23 @@
+{
+  "item_id": "4870040",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4870040",
+  "title": "【Shinra(森羅)用】 SKULL WEAR",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c396a47e-2d09-4553-b6ce-eb1868434a18/i/4870040/09284a57-7f34-4d1c-bbe2-10c27256625f_base_resized.jpg",
+  "creator_id": "kurakuraa",
+  "creator_name": "kurakuraa",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

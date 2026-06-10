@@ -1,0 +1,23 @@
+{
+  "item_id": "4445511",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4445511",
+  "title": "桔梗 ハオラン 対応　Animal boots",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5a557bb1-1fa4-4d59-8c88-f8c831015e78/i/4445511/f843e754-bc2f-4ddb-806d-194975b216d7_base_resized.jpg",
+  "creator_id": "schultz",
+  "creator_name": "schultz",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

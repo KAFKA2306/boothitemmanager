@@ -1,0 +1,23 @@
+{
+  "item_id": "3892760",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3892760",
+  "title": "桔梗用 アイテクスチャ「DOLL」",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c8c0e265-0b27-4994-84fd-5076fe54ac19/i/3892760/1a1797ed-b46e-4cc2-888a-0f6e22377fab_base_resized.jpg",
+  "creator_id": "tacotaco",
+  "creator_name": "tacotaco",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

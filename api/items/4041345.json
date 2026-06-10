@@ -1,0 +1,23 @@
+{
+  "item_id": "4041345",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4041345",
+  "title": "セレスティア用タイツテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8654c3d1-ecee-4444-a907-2b4306df0690/i/4041345/9769b3be-02d2-48d7-a371-d3206f52ad20_base_resized.jpg",
+  "creator_id": "denyuken210",
+  "creator_name": "denyuken210",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

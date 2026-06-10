@@ -1,0 +1,23 @@
+{
+  "item_id": "5261510",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5261510",
+  "title": "Floria For Manuka マヌカ専用",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1877a2ec-b8b5-4815-9875-d6d5c4b20aec/i/5261510/99d4b801-2695-42b2-a8e2-f492c1c5ccb3_base_resized.jpg",
+  "creator_id": "betelshop",
+  "creator_name": "betelshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

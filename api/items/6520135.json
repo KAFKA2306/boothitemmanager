@@ -1,0 +1,23 @@
+{
+  "item_id": "6520135",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6520135",
+  "title": "[無料！]「マヌカ」専用【3D衣装モデル】潮汐鲨影",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ee6c8e78-d18a-442b-a089-93a98c8ada2a/i/6520135/d966c5fb-76e4-47ac-9080-d29a8e2d01db_base_resized.jpg",
+  "creator_id": "tsdnt",
+  "creator_name": "tsdnt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

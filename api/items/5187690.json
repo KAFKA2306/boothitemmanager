@@ -1,0 +1,23 @@
+{
+  "item_id": "5187690",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5187690",
+  "title": "モエソデセイフク(デルタフレア用衣装)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b732915f-af29-4075-9d97-5db97240560e/i/5187690/59985f17-2e1d-4f92-8b82-ee0ad6cf0c0e_base_resized.jpg",
+  "creator_id": "iruka-nezumi",
+  "creator_name": "iruka-nezumi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

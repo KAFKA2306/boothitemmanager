@@ -1,0 +1,31 @@
+{
+  "item_id": "5947039",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5947039",
+  "title": "[Sio/Manuka/Kikyo/Moe/...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ea1c03c7-73c7-4eeb-8620-6a21b54e1274/i/5947039/1a9c8a84-6a2f-4776-8b79-03c5e26f6a85_base_resized.jpg",
+  "creator_id": "niiikee",
+  "creator_name": "niiikee",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 250,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6290135",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6290135",
+  "title": "Eye Textures For Shinano",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7fa7d587-d4d8-426e-a5c5-3a7191f31007/i/6290135/465f36fa-6407-41d7-9d03-eb9fd20cda82_base_resized.jpg",
+  "creator_id": "mino72",
+  "creator_name": "mino72",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4904378",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4904378",
+  "title": "【フィオナ用】 なでなでシステム",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ff6b9c15-8cde-4517-9be1-fdeefd42dd27/i/4904378/4447f439-830c-4387-aa98-1009280a1958_base_resized.jpg",
+  "creator_id": "iruka-omise",
+  "creator_name": "iruka-omise",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Fiona",
+      "name": "フィオナ"
+    }
+  ],
+  "files": []
+}

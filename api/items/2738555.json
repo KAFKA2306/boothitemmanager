@@ -1,0 +1,23 @@
+{
+  "item_id": "2738555",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2738555",
+  "title": "バースデイサングラス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1976fe56-ff3e-46af-8ba1-fab65505bfc8/i/2738555/b7177dab-004e-45a2-a28c-11098770ba26_base_resized.jpg",
+  "creator_id": "kakoi-s",
+  "creator_name": "kakoi-s",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

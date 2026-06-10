@@ -1,0 +1,27 @@
+{
+  "item_id": "5533582",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5533582",
+  "title": "InabaKaya & Selestia A...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7b593724-a8b0-4386-a309-be2f99ede6cf/i/5533582/2062fd58-aa0f-4f7f-afb7-982aa4c55b2d_base_resized.jpg",
+  "creator_id": "orange-light",
+  "creator_name": "orange-light",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "INABA",
+      "name": "INABA"
+    }
+  ],
+  "files": []
+}

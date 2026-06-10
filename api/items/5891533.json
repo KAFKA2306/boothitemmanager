@@ -1,0 +1,31 @@
+{
+  "item_id": "5891533",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5891533",
+  "title": "【VRChat】彼岸旱星【狐雨＆マヌカ＆桔梗】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/483b0498-a651-4f95-a70e-1db1451c16b5/i/5891533/7291f9b3-90d0-444f-9b01-e7d99b50d92e_base_resized.jpg",
+  "creator_id": "rothdi",
+  "creator_name": "rothdi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 2800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "KitsuneAme",
+      "name": "狐雨"
+    }
+  ],
+  "files": []
+}

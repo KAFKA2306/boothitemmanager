@@ -1,0 +1,23 @@
+{
+  "item_id": "4073974",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4073974",
+  "title": "【セレスティア用衣装】直履き専用スパッツ -...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9f2973ff-12a7-4541-a420-c31c7c963843/i/4073974/3cea48e7-800b-41b7-87bc-2a7f74573b6f_base_resized.jpg",
+  "creator_id": "rdt",
+  "creator_name": "rdt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

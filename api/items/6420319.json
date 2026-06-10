@@ -1,0 +1,23 @@
+{
+  "item_id": "6420319",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6420319",
+  "title": "【Free!】羊目アイテクスチャ【ルルネ専用 】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e1c988ad-e8e7-432c-8d89-82c281cea754/i/6420319/2adbbe48-f4a5-4815-ac35-71e6f0279956_base_resized.jpg",
+  "creator_id": "yoshimoriisa",
+  "creator_name": "yoshimoriisa",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

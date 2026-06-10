@@ -1,0 +1,23 @@
+{
+  "item_id": "3135862",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3135862",
+  "title": "アニキのサングラス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/6e4fa785-7643-4672-a306-24b066a1543d/i/3135862/f2839894-857b-4b17-ab68-c1dbbfdcf507_base_resized.jpg",
+  "creator_id": "takoyaki-mokei",
+  "creator_name": "takoyaki-mokei",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

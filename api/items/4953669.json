@@ -1,0 +1,23 @@
+{
+  "item_id": "4953669",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4953669",
+  "title": "[森羅] ShortPants",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4157d7bb-2241-42c9-943c-1f19f8039764/i/4953669/9dad373d-7f68-4399-b79c-e529fce3aec2_base_resized.jpg",
+  "creator_id": "daftsmith",
+  "creator_name": "daftsmith",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

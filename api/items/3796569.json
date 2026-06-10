@@ -1,0 +1,23 @@
+{
+  "item_id": "3796569",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3796569",
+  "title": "桔梗ちゃん用 Succubus Costume",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fdef4afd-cba6-4e06-9bd6-6cf5c7bd99bf/i/3796569/83910a0e-52a7-416f-81d4-121d9b28c04b_base_resized.jpg",
+  "creator_id": "harumint",
+  "creator_name": "harumint",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "6288258",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6288258",
+  "title": "「ルルネ」専用【3D衣装モデル】CaffeM...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/006f92f5-6fd7-4014-baea-7bc32e3cf196/i/6288258/ba1a763e-4b4c-4485-bb96-c83041c43c80_base_resized.jpg",
+  "creator_id": "woodapple",
+  "creator_name": "woodapple",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1900,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

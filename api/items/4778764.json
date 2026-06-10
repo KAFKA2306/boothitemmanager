@@ -1,0 +1,23 @@
+{
+  "item_id": "4778764",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4778764",
+  "title": "【森羅(Shinra)用】くろっくアイ　目テ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/438b1c8e-3dcf-4573-9954-ce255bf73d03/i/4778764/fd0918dd-2bab-45e3-b24c-7b9c39839bfd_base_resized.jpg",
+  "creator_id": "makaro2i",
+  "creator_name": "makaro2i",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

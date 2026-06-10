@@ -1,0 +1,23 @@
+{
+  "item_id": "4371615",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4371615",
+  "title": "舞夜&桔梗) Flower Paka",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3a20a228-cbc4-40d7-985e-28f3e8df19cc/i/4371615/ca716bb7-8bf2-49b0-80ed-264799a56583_base_resized.jpg",
+  "creator_id": "yasuman",
+  "creator_name": "yasuman",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

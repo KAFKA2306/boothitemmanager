@@ -1,0 +1,25 @@
+{
+  "item_id": "6013604",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6013604",
+  "title": "真冬用衣装セット",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/38ce0a06-7e57-4eda-bc0c-fd783077e52c/i/6013604/9f6bf1b7-4bfc-4932-afa9-c17834b86c9e_base_resized.jpg",
+  "creator_id": "inani",
+  "creator_name": "inani",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

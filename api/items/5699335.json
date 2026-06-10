@@ -1,0 +1,23 @@
+{
+  "item_id": "5699335",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5699335",
+  "title": "瑞希応援パック",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bf933620-1f13-4891-9ef9-edb328c853af/i/5699335/7a58d97c-76b9-4b0d-bd78-14852f67b1f5_base_resized.jpg",
+  "creator_id": "mochitei",
+  "creator_name": "mochitei",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1250,
+  "targets": [
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

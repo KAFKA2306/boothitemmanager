@@ -1,0 +1,25 @@
+{
+  "item_id": "6623677",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6623677",
+  "title": "【しなの対応】着物ドレス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/6623677/74abb0a1-fefd-4d09-b97f-7afca151907f_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "和装"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

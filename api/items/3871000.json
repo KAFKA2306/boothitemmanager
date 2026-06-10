@@ -1,0 +1,27 @@
+{
+  "item_id": "3871000",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3871000",
+  "title": "萌え断フルーツサンドセット【3Dモデル】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3b283841-f6ba-41e4-b618-bb1d977840a7/i/3871000/88842005-19f8-4ca8-9436-370b2902b339_base_resized.jpg",
+  "creator_id": "realect",
+  "creator_name": "realect",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

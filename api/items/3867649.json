@@ -1,0 +1,23 @@
+{
+  "item_id": "3867649",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3867649",
+  "title": "【3Dモデル】桔梗用「指ぬきレザーグローブ（...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/719c3d6d-7dd0-4162-aa85-2ed21e39cf9a/i/3867649/86b89828-34a7-4b66-97be-de0e75539eca_base_resized.jpg",
+  "creator_id": "garden-of-ashen",
+  "creator_name": "garden-of-ashen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

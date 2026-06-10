@@ -23,11 +23,16 @@ jobs:
       # ここでサイトをビルドして dist/ 等に出力する
       - name: Build static site
         run: |
-          # 例) プロジェクト固有のビルドを実行
-          # python -m pip install -r requirements.txt
-          # python -m boothlist.main --input-dir input --output-dir dist
-          echo "Put your build steps here"
-      # Pages 用アーティファクトをアップロード（dist/ 等の出力先を指定）
+          mkdir -p dist
+          cp index.html dist/
+          if [ -d api ]; then cp -r api dist/; fi
+          if [ -d data ]; then 
+            mkdir -p dist/data/structured
+            cp data/structured/catalog.json dist/data/structured/ || echo "No catalog yet"
+          fi
+          # Generate proof for deployment verification
+          python3 generate_proof.py > dist/proof.json || echo "{}" > dist/proof.json
+      # Pages 用アーティファクトをアップロード
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

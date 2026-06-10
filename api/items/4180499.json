@@ -1,0 +1,23 @@
+{
+  "item_id": "4180499",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4180499",
+  "title": "【桔梗推奨ギミック】カードトリックギミック「...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8cdb771b-e5d0-4192-abb0-82bc0e399ee0/i/4180499/7b84410d-2d43-4cad-b739-6433579c74f8_base_resized.jpg",
+  "creator_id": "fleur7tec7oha7",
+  "creator_name": "fleur7tec7oha7",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

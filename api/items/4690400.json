@@ -1,0 +1,27 @@
+{
+  "item_id": "4690400",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4690400",
+  "title": "Overalls_(Moe & Shinra)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a016cb60-c956-4842-9db3-11300ac7c153/i/4690400/75c64d12-db63-4430-b367-e1e1a87cfe5c_base_resized.jpg",
+  "creator_id": "shard",
+  "creator_name": "shard",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2000,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5426045",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5426045",
+  "title": "変なサングラス",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/2b252a6b-baf5-4f89-a925-5487649661c3/i/5426045/fa20bb2b-534e-4ebc-939c-1dc3c5515bb8_base_resized.jpg",
+  "creator_id": "koarare-atelier",
+  "creator_name": "koarare-atelier",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

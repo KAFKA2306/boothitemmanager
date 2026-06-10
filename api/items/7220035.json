@@ -1,0 +1,25 @@
+{
+  "item_id": "7220035",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7220035",
+  "title": "【ルルネ想定】CyberTail【汎用マテリアル】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/69ed331f-9845-4a46-93cf-e11806e4f643/i/7220035/9641e0b3-6a28-4ffd-b85b-0f62cac582a5_base_resized.jpg",
+  "creator_id": "x2much4u",
+  "creator_name": "x2much4u",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "サイバー"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

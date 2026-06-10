@@ -1,6 +1,6 @@
 from .crawler import fetch_html
 from .normalizer import normalize_html
-from .bridge import ingest_ndjson
+from .bridge import convert_ndjson_to_items
 from .db_builder import build_db
 from .graph_builder import build_graph
 from .search_builder import build_search_index

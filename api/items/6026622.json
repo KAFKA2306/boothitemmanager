@@ -1,0 +1,27 @@
+{
+  "item_id": "6026622",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6026622",
+  "title": "【ルルネ／rurune専用】RAINBOW ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/e50deedc-9aa9-46d6-82df-e9a5a3af1971/i/6026622/10e12c62-e68f-4533-a219-3ac89c51df5f_base_resized.jpg",
+  "creator_id": "chimo-pantry",
+  "creator_name": "chimo-pantry",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 200,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    },
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4940949",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4940949",
+  "title": "midnight sun",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/76856e38-e91f-4891-8c1c-305e9f3e87de/i/4940949/b2781848-b77c-4693-95bc-ca1c7f9be662_base_resized.jpg",
+  "creator_id": "carrotstep",
+  "creator_name": "carrotstep",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

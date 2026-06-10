@@ -1,0 +1,23 @@
+{
+  "item_id": "4066869",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4066869",
+  "title": "【Selestia用】ジャケット水着３",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4154a860-ebae-4a6d-84ba-676c8f6e44cc/i/4066869/5e5407a7-5d45-41ae-93ef-6f7110af2af9_base_resized.jpg",
+  "creator_id": "monya-vrc",
+  "creator_name": "monya-vrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

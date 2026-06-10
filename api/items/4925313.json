@@ -1,0 +1,23 @@
+{
+  "item_id": "4925313",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4925313",
+  "title": "Shirt for kikyo 桔梗",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/b59da9eb-6d88-4f7c-aa4f-e67e335fb0c5/i/4925313/f66bcad6-9cda-4107-b1d6-7c9a793c5dea_base_resized.jpg",
+  "creator_id": "vinsen",
+  "creator_name": "vinsen",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 190,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

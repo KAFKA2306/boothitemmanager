@@ -1,0 +1,23 @@
+{
+  "item_id": "6199380",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6199380",
+  "title": "【MA対応・VRChat想定】セレスティアルスペル",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/45a6d0b2-d5f0-412e-aea3-5754ed14800f/i/6199380/09ddd17a-4db8-4db7-b0ab-1bbb27e8852d_base_resized.jpg",
+  "creator_id": "oginiri",
+  "creator_name": "oginiri",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

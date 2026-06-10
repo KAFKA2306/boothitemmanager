@@ -1,0 +1,23 @@
+{
+  "item_id": "3322715",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3322715",
+  "title": "Celestia専用衣装Ⅱ＋専用髪型Ⅰ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/dc640746-8f52-4d33-9455-e22f26fdde0c/i/3322715/4d88b110-e715-4339-a4c3-24ac349fb0a0_base_resized.jpg",
+  "creator_id": "ande",
+  "creator_name": "ande",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

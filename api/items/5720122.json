@@ -1,0 +1,23 @@
+{
+  "item_id": "5720122",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5720122",
+  "title": "ハートサングラス - Heart Sun G...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c0107c0d-a373-461d-b365-671c053c6c9a/i/5720122/57cff4f0-017d-44e3-97f1-3de41d42f049_base_resized.jpg",
+  "creator_id": "seele",
+  "creator_name": "seele",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 150,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

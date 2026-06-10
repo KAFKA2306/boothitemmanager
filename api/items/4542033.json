@@ -1,0 +1,23 @@
+{
+  "item_id": "4542033",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4542033",
+  "title": "【桔梗用】もじゃ髪ショートヘアー",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/16585cc4-975a-47ba-adad-8fe8e44fb32e/i/4542033/ce0559c2-aa21-4fb7-bf92-d230c8928178_base_resized.jpg",
+  "creator_id": "kokonoka99",
+  "creator_name": "kokonoka99",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

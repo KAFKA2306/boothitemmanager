@@ -1,0 +1,25 @@
+{
+  "item_id": "5090930",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5090930",
+  "title": "【真冬用】ヘアピン＋α",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/cb1eac24-c652-438f-b0fc-2ffbe9973b4a/i/5090930/d45184c1-26cd-4233-b732-92778020e51b_base_resized.jpg",
+  "creator_id": "kaitaku98",
+  "creator_name": "kaitaku98",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

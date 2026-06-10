@@ -1,0 +1,25 @@
+{
+  "item_id": "4725690",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4725690",
+  "title": "【森羅対応】ロングブーツ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/4725690/cd23bb35-2131-4987-af21-3b8f920b9f50_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "ロング"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

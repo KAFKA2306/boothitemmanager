@@ -1,0 +1,35 @@
+{
+  "item_id": "5958402",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5958402",
+  "title": "[ マヌカ / 森羅 / 瑞希 / 萌 / ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8adc3af2-8c7c-40bc-8ff9-d531c1cf573c/i/5958402/e3f87ec9-bd33-4c01-8f69-012ab9913113_base_resized.jpg",
+  "creator_id": "minggul",
+  "creator_name": "minggul",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

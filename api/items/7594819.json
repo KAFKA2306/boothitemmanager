@@ -1,0 +1,23 @@
+{
+  "item_id": "7594819",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/7594819",
+  "title": "【LUMINA/SHINRA対応】 Veil...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/922da794-5691-4071-bcab-68701acf35d2/i/7594819/0d12f4a1-d4eb-4ad0-a7ee-ab7e73f7f3b1_base_resized.jpg",
+  "creator_id": "vanillashop",
+  "creator_name": "vanillashop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 600,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

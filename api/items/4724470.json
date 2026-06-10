@@ -1,0 +1,27 @@
+{
+  "item_id": "4724470",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4724470",
+  "title": "リボン付きお団子ヘア―【桔梗・萌・犬巻わふ子対応】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8a34cbb0-871f-418c-9e07-dd535749fb21/i/4724470/30da1ce0-0791-49bb-bd9e-af078fd9ab24_base_resized.jpg",
+  "creator_id": "tatuolabo",
+  "creator_name": "tatuolabo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

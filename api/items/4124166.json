@@ -1,0 +1,27 @@
+{
+  "item_id": "4124166",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4124166",
+  "title": "[狐の耳としっぽ]セレスティア,めいゆん対応...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bb9409a7-8d31-4275-adf4-5809c6d44b4f/i/4124166/f135158f-93ce-4c27-88e6-e0c61e41e95e_base_resized.jpg",
+  "creator_id": "hugetail",
+  "creator_name": "hugetail",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Meiyun",
+      "name": "めいゆん"
+    }
+  ],
+  "files": []
+}

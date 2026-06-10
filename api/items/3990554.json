@@ -1,0 +1,23 @@
+{
+  "item_id": "3990554",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3990554",
+  "title": "PB対応「桔梗」用衣装　Composite ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ca266b92-5c4c-472d-bc80-e83f01ddd661/i/3990554/85442855-e331-487d-88c5-5d800ab27441_base_resized.jpg",
+  "creator_id": "creativeroom",
+  "creator_name": "creativeroom",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

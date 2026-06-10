@@ -1,0 +1,23 @@
+{
+  "item_id": "6471767",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6471767",
+  "title": "【森羅専用】Shinra makeup te...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3c69d19e-c5c1-4799-825f-bd9f4802fa97/i/6471767/115bf1a8-3c5f-4e74-af6e-943943b50f1d_base_resized.jpg",
+  "creator_id": "anoyode",
+  "creator_name": "anoyode",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

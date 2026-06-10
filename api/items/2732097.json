@@ -1,0 +1,23 @@
+{
+  "item_id": "2732097",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/2732097",
+  "title": "桔梗ちゃん用 EYEテクスチャ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7cf51d30-4b21-44ef-acb1-bf4bcc6907c5/i/2732097/59f3124a-a70e-440f-8f6e-32aecf8bb50b_base_resized.jpg",
+  "creator_id": "detect",
+  "creator_name": "detect",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

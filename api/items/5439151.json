@@ -1,0 +1,23 @@
+{
+  "item_id": "5439151",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5439151",
+  "title": "Shinra Izanagi - 森羅・【伊弉諾】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a4ca76ea-a4d4-4cd5-abfa-9c103c7d262f/i/5439151/c768b900-8657-46c1-a2e4-b0b4570342e7_base_resized.jpg",
+  "creator_id": "rayleonard",
+  "creator_name": "rayleonard",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

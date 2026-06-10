@@ -1,0 +1,23 @@
+{
+  "item_id": "5259386",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5259386",
+  "title": "【VRChat】森羅専用 Riders Ja...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1cb3c9fd-e141-4184-8574-bdf5b90ae391/i/5259386/32dea820-6e2c-440d-8753-8e0eb7f97f82_base_resized.jpg",
+  "creator_id": "elesato",
+  "creator_name": "elesato",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

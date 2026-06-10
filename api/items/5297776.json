@@ -1,0 +1,27 @@
+{
+  "item_id": "5297776",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5297776",
+  "title": "【マヌカ、萌対応】Comfy",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9aa62d16-19ee-4e28-960f-f071ac058d50/i/5297776/caa3df94-070d-4f66-a02f-185f61be1c54_base_resized.jpg",
+  "creator_id": "podo5312",
+  "creator_name": "podo5312",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1600,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

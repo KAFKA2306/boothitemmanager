@@ -1,0 +1,23 @@
+{
+  "item_id": "5235544",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5235544",
+  "title": "[Kikyo] KITTY BOMB",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4662df0c-c153-4ece-9b8f-2e59a152daf2/i/5235544/f39e6e2a-4329-44a4-b5e0-e20ddd3b05a8_base_resized.jpg",
+  "creator_id": "zde",
+  "creator_name": "zde",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

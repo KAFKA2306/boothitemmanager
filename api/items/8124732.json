@@ -1,0 +1,23 @@
+{
+  "item_id": "8124732",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/8124732",
+  "title": "Sunlit Sailor – Sailor...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bb37cfe8-8005-41b6-a90b-0a5a94c3452e/i/8124732/852de30c-aa74-42e0-9c5b-2eb6c281c200_base_resized.jpg",
+  "creator_id": "utataneco",
+  "creator_name": "utataneco",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1300,
+  "targets": [
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

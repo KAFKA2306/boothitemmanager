@@ -1,0 +1,23 @@
+{
+  "item_id": "4890572",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4890572",
+  "title": "[桔梗Kikyo] Squish Micro...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/36072473-9def-4958-86d2-e0b64077f0ed/i/4890572/084a1e0e-a44a-4504-9836-b0a51da8dbf8_base_resized.jpg",
+  "creator_id": "fungal",
+  "creator_name": "fungal",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

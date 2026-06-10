@@ -1,0 +1,31 @@
+{
+  "item_id": "6123465",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6123465",
+  "title": "［ミルティナ・マヌカ・愛莉・しなの・桔梗・シ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ea1b00e3-711c-4725-80c0-7d1432e5b688/i/6123465/aa20f307-be3e-47b4-89f1-b0b2a03c3685_base_resized.jpg",
+  "creator_id": "meltallic",
+  "creator_name": "meltallic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4794530",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4794530",
+  "title": "Shinra AFK motion",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/96d92072-e9bd-4baf-aeb0-8e5f6742a1a0/i/4794530/c57de8b6-4c5c-4e9b-9eb8-d96e9dbce61b_base_resized.jpg",
+  "creator_id": "ryuyeon",
+  "creator_name": "ryuyeon",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

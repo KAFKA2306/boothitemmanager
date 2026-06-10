@@ -1,0 +1,25 @@
+{
+  "item_id": "6840365",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6840365",
+  "title": "ゆれる めくれる スポーツウェア(しなの対応)",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/5be797eb-1914-4723-bee6-891212548155/i/6840365/cb5a0ab4-3e91-4720-97d0-a45eb5c4a849_base_resized.jpg",
+  "creator_id": "usaya",
+  "creator_name": "usaya",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

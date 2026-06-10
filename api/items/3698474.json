@@ -1,0 +1,23 @@
+{
+  "item_id": "3698474",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3698474",
+  "title": "【桔梗用衣装】TateSeta《ノースリーブ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c7999e42-deba-47e7-bf43-8f75c3fca7bc/i/3698474/d24bbdc4-7065-4895-bdae-fc47f93c6112_base_resized.jpg",
+  "creator_id": "unois",
+  "creator_name": "unois",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

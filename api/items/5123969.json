@@ -1,0 +1,23 @@
+{
+  "item_id": "5123969",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5123969",
+  "title": "【マヌカちゃん専用】マヌロール",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/1acd4939-dc9c-4d7a-9b23-7cb4dedcd41e/i/5123969/22bc384b-4def-4555-9dad-6f150985e1a7_base_resized.jpg",
+  "creator_id": "knokono",
+  "creator_name": "knokono",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}

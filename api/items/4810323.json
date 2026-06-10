@@ -1,0 +1,29 @@
+{
+  "item_id": "4810323",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4810323",
+  "title": "学生服(夏)とおまけつき【狐雨、INABA、...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/0ff89fc6-8c7b-48fc-8ef5-c66714b21fed/i/4810323/c580cf29-29c6-4d9b-bf47-4c84fb1008e8_base_resized.jpg",
+  "creator_id": "kuronekokoumuten",
+  "creator_name": "kuronekokoumuten",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "夏"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "INABA",
+      "name": "INABA"
+    },
+    {
+      "code": "KitsuneAme",
+      "name": "狐雨"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "4161852",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4161852",
+  "title": "【セレスティア専用】踊り子風衣装【3Dモデル】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c8718fa0-d5e6-4ec4-956d-715d3e11135b/i/4161852/ff131111-fb55-4acd-84ce-0d4114e91c80_base_resized.jpg",
+  "creator_id": "skysalt",
+  "creator_name": "skysalt",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

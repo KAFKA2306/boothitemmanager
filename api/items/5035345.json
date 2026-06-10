@@ -1,0 +1,29 @@
+{
+  "item_id": "5035345",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5035345",
+  "title": "【森羅萌用 Shinra】Sportswea...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/989b748c-5100-4770-b675-a58db069b9c3/i/5035345/519df134-0406-4c70-8258-a7ed61ccfe64_base_resized.jpg",
+  "creator_id": "rishu",
+  "creator_name": "rishu",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 2200,
+  "targets": [
+    {
+      "code": "Moe",
+      "name": "萌"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

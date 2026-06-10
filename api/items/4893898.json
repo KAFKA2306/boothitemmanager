@@ -1,0 +1,23 @@
+{
+  "item_id": "4893898",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4893898",
+  "title": "【森羅】Jean & Jeans",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/9aa62d16-19ee-4e28-960f-f071ac058d50/i/4893898/c449e861-bcc6-4b86-b2ec-95f67775290e_base_resized.jpg",
+  "creator_id": "podo5312",
+  "creator_name": "podo5312",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1400,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

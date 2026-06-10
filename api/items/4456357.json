@@ -1,0 +1,23 @@
+{
+  "item_id": "4456357",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4456357",
+  "title": "【INABA】用衣装3Dモデル バニー服",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/d726cd19-a0b3-41d4-8d01-d06706669cfa/i/4456357/894cd095-d91c-4448-9b54-e2949b1af166_base_resized.jpg",
+  "creator_id": "cozp",
+  "creator_name": "cozp",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "INABA",
+      "name": "INABA"
+    }
+  ],
+  "files": []
+}

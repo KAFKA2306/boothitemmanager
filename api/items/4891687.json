@@ -1,0 +1,27 @@
+{
+  "item_id": "4891687",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4891687",
+  "title": "[Moe][Maya][Kikyo][Sel...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/028fd57e-6c8f-45ba-8b93-b927dc6b3985/i/4891687/d4489116-5f80-4fe6-a844-c484cd95ab94_base_resized.jpg",
+  "creator_id": "overay",
+  "creator_name": "overay",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": []
+}

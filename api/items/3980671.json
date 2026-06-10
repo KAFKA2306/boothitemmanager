@@ -1,0 +1,23 @@
+{
+  "item_id": "3980671",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3980671",
+  "title": "Shoe Pack for Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4d6892a0-13f4-490d-8e22-9805adc55c2a/i/3980671/8da9282b-cefb-47e7-8108-e3dd676be2f5_base_resized.jpg",
+  "creator_id": "kaoch",
+  "creator_name": "kaoch",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 150,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

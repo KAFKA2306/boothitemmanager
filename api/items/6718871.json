@@ -1,0 +1,23 @@
+{
+  "item_id": "6718871",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6718871",
+  "title": "【ルルネ専用EyeTexture】光る宝石E...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ca7f07d6-d470-48cc-861c-cc3f979da302/i/6718871/68410f05-992b-477e-bc23-00a942f9ea38_base_resized.jpg",
+  "creator_id": "tokisevrc",
+  "creator_name": "tokisevrc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Rurune",
+      "name": "ルルネ"
+    }
+  ],
+  "files": []
+}

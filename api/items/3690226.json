@@ -1,0 +1,25 @@
+{
+  "item_id": "3690226",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3690226",
+  "title": "【桔梗対応】ロングブーツ",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/fda262d4-cd7b-4b2a-b84e-84eed13d02a5/i/3690226/4589858d-59ef-4ca7-a407-9c2b17d4dd2c_base_resized.jpg",
+  "creator_id": "seniti-1001",
+  "creator_name": "seniti-1001",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "ロング"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

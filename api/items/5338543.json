@@ -1,0 +1,27 @@
+{
+  "item_id": "5338543",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5338543",
+  "title": "[ 瑞希 / マヌカ 対応] Minggul...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8adc3af2-8c7c-40bc-8ff9-d531c1cf573c/i/5338543/4e22533b-2806-4229-8bdd-353ebb3c8ca9_base_resized.jpg",
+  "creator_id": "minggul",
+  "creator_name": "minggul",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Mizuki",
+      "name": "瑞希"
+    }
+  ],
+  "files": []
+}

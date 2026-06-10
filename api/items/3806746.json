@@ -1,0 +1,25 @@
+{
+  "item_id": "3806746",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3806746",
+  "title": "【桔梗用衣装】夏めきセーラー服",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/c7999e42-deba-47e7-bf43-8f75c3fca7bc/i/3806746/1a3ec1aa-0b89-4eb6-87a3-8a23a63457f8_base_resized.jpg",
+  "creator_id": "unois",
+  "creator_name": "unois",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "夏"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

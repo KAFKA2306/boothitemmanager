@@ -1,0 +1,23 @@
+{
+  "item_id": "4169321",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4169321",
+  "title": "【セレスティア用】絶対無敵！赤ちゃん作戦！",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/f2c95030-c409-40ab-8c4a-e6eeec6cab70/i/4169321/975470fd-a100-4f23-b1ff-6abe461126fe_base_resized.jpg",
+  "creator_id": "gentleresearch",
+  "creator_name": "gentleresearch",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

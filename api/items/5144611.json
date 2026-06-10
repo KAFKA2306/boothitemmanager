@@ -1,0 +1,124 @@
+{
+  "item_id": "5144611",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5144611",
+  "title": "[VRC] 13アバター対応 [O-kidoki-earring] - Z9 - BOOTH",
+  "description": "[VRC] 11 アバター対応 [O-kidoki-earring]\n\nVRchatで使用可能なアイテムであり、アバター/衣装は含まれていません\nVRchat에서 사용 가능한 아이템이며, 아바타/의상은 포함되어있지 않습니다\n\n使用シェーダー / 사용한 쉐이더\n\nlilToon Shader 1.3.7\nhttps://lilxyzw.booth.pm/items/3087170\n\n対応モデル / 대응모델\n\n● Selestia 「セレスティア」 / https://jingo1016.booth.pm/items/4035411\n● Kikyo 「桔梗」 / https://booth.pm/ko/items/3681787\n● Maya 「舞夜」 / https://kyubihome.booth.pm/items/3390957\n● ManuKa 「マヌカ」 / https://booth.pm/en/items/5058077\n● Moe 「萌」 / https://kyubihome.booth.pm/items/4667400\n● Lime 「ライム」 / https://komado.booth.pm/items/4876459\n● Chiffon 「シフォン」 / https://booth.pm/ko/items/5354471\n● Milfy 『ミルフィ』 / https://booth.pm/en/items/6571299\n● Milltina 『ミルティナ』 / https://booth.pm/en/items/6538026\n\n内容物 / 내용물\n\n● O-kidoki-earring.unitypackage\n\nUPDATE\nChiffon 「シフォン」対応 ~2024.01.07\nSio 「しお」/ 対応 \nMunkki 「むん木」 対応 ~ 2024.06.06\nShinano 「しなの」対応 ~ 2024.09.27\nChocolat 「ショコラ」対応 ~ 2025.01.01\nMilltina 『ミルティナ』 / Milfy 『ミルフィ』 対応 ~ 2025.07.20\n\n韓国語以外は翻訳機を使います\n한국어 외는 번역기 사용합니다",
+  "thumbnail_url": "https://booth.pximg.net/3ed604bd-ec07-42bb-bfbb-177cbe82944a/i/5144611/dbe44461-5006-49d2-a330-8eb7d860183f_base_resized.jpg",
+  "creator_id": "meru0029",
+  "creator_name": "Z9",
+  "published_at": "2026-06-10T13:32:27.365749",
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "accessory",
+  "like_count": 0,
+  "price": null,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
+    }
+  ],
+  "files": [
+    {
+      "filename": "Milfy",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "Milltina",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "Chocolat",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "shinano",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "manuka",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "chiffon",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "Sio",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "Munkki",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "kikyo",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "selestia",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "moe",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "lime",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "maya",
+      "version": null,
+      "size": null,
+      "hash": null
+    },
+    {
+      "filename": "full set",
+      "version": null,
+      "size": null,
+      "hash": null
+    }
+  ]
+}

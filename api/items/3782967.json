@@ -1,0 +1,27 @@
+{
+  "item_id": "3782967",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3782967",
+  "title": "【桔梗ちゃん用】サンダル（22/4/23更新）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/ae3c847a-78c1-4882-bbb6-901c5aa2c9d2/i/3782967/37510544-ff98-4d27-972b-ef8b0d93ef30_base_resized.jpg",
+  "creator_id": "white-rabbit",
+  "creator_name": "white-rabbit",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 800,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "SUN",
+      "name": "SUN"
+    }
+  ],
+  "files": []
+}

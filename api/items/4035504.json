@@ -1,0 +1,27 @@
+{
+  "item_id": "4035504",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4035504",
+  "title": "DAISUKI【桔梗・舞夜・セレスティア用衣装】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/38ce0a06-7e57-4eda-bc0c-fd783077e52c/i/4035504/4f9dbca7-9ba7-4572-8e5b-6eaef0736cdc_base_resized.jpg",
+  "creator_id": "inani",
+  "creator_name": "inani",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1250,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

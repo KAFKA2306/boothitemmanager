@@ -1,0 +1,23 @@
+{
+  "item_id": "4007301",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4007301",
+  "title": "Simple Hairband for Kikyo",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8b7e7eac-7e76-4d3a-9612-70c43d46e4bc/i/4007301/7aed0a66-b447-41ff-80f7-2aac17155ccd_base_resized.jpg",
+  "creator_id": "tactile42",
+  "creator_name": "tactile42",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 100,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

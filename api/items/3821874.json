@@ -1,0 +1,27 @@
+{
+  "item_id": "3821874",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/3821874",
+  "title": "プラベで撮影会（しなの 桔梗用マイクロビキニ）",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/38ce0a06-7e57-4eda-bc0c-fd783077e52c/i/3821874/d693a418-dd3a-4564-81f5-7792f4c560f0_base_resized.jpg",
+  "creator_id": "inani",
+  "creator_name": "inani",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 750,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

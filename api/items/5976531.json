@@ -1,0 +1,23 @@
+{
+  "item_id": "5976531",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5976531",
+  "title": "水瀬・森羅対応 Body pierce",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/675eec1c-90f8-4e77-8f06-9dc7d0835ecc/i/5976531/d8ed5530-4806-46a7-8591-3a05514d4a54_base_resized.jpg",
+  "creator_id": "rokotaroshop",
+  "creator_name": "rokotaroshop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

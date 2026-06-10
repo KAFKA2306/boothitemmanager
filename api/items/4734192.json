@@ -1,0 +1,33 @@
+{
+  "item_id": "4734192",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4734192",
+  "title": "【狐雨＆INABA＆椎名 対応】Sports...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/483b0498-a651-4f95-a70e-1db1451c16b5/i/4734192/3c68461e-e657-4415-8c0c-ef1acde33e0c_base_resized.jpg",
+  "creator_id": "rothdi",
+  "creator_name": "rothdi",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "スポーツ"
+  ],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1200,
+  "targets": [
+    {
+      "code": "INABA",
+      "name": "INABA"
+    },
+    {
+      "code": "Shiina",
+      "name": "椎名"
+    },
+    {
+      "code": "KitsuneAme",
+      "name": "狐雨"
+    }
+  ],
+  "files": []
+}

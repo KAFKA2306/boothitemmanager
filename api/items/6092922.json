@@ -1,0 +1,23 @@
+{
+  "item_id": "6092922",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6092922",
+  "title": "ライオンヘアー【享矢・水瀬・狛乃・森羅対応】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/8a34cbb0-871f-418c-9e07-dd535749fb21/i/6092922/0a1f3e19-26fb-49a2-9ee6-8f4367916bf3_base_resized.jpg",
+  "creator_id": "tatuolabo",
+  "creator_name": "tatuolabo",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Shinra",
+      "name": "森羅"
+    }
+  ],
+  "files": []
+}

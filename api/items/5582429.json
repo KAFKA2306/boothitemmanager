@@ -1,0 +1,23 @@
+{
+  "item_id": "5582429",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5582429",
+  "title": "[セレスティア(SELESTIA)用]太もも...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/3f32b557-055d-4b6f-8d4e-3c22b01096a3/i/5582429/8877cb85-2d68-4239-aab8-54fb299f9b79_base_resized.jpg",
+  "creator_id": "tintanak",
+  "creator_name": "tintanak",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "gimmick",
+  "like_count": 0,
+  "price": 900,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

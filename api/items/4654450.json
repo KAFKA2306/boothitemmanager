@@ -1,0 +1,23 @@
+{
+  "item_id": "4654450",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4654450",
+  "title": "「イヨ・イメリス・竜胆・セレスティア対応」～...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/479fcc38-8446-4f6c-8949-6c2076d92536/i/4654450/4bf80546-8c0a-47ab-8103-964f0f554dd9_base_resized.jpg",
+  "creator_id": "vic",
+  "creator_name": "vic",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

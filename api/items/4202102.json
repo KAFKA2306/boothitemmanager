@@ -1,0 +1,23 @@
+{
+  "item_id": "4202102",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4202102",
+  "title": "[セレスティア] ShortPants",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/4157d7bb-2241-42c9-943c-1f19f8039764/i/4202102/5dbb3bbd-fb9a-4529-a947-4854edd49c13_base_resized.jpg",
+  "creator_id": "daftsmith",
+  "creator_name": "daftsmith",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 500,
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
+  "files": []
+}

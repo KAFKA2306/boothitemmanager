@@ -1,0 +1,23 @@
+{
+  "item_id": "4181235",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4181235",
+  "title": "【PB】なんとかなれショート【桔梗、フェイフ...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/db7671fc-4c28-428f-aeed-60548e10fbc0/i/4181235/bf937720-7a66-4fe5-8813-0b2cc0e99ee9_base_resized.jpg",
+  "creator_id": "kubinawa",
+  "creator_name": "kubinawa",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "other",
+  "like_count": 0,
+  "price": 300,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    }
+  ],
+  "files": []
+}

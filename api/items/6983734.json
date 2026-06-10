@@ -1,0 +1,23 @@
+{
+  "item_id": "6983734",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6983734",
+  "title": "【QVK-13】 - Rainbow Tech",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/02e2353b-3eaf-4aaa-803f-e375fdf1a879/i/6983734/11d48ddc-d74b-4aa5-b797-cfed41f7cf85_base_resized.jpg",
+  "creator_id": "ducc",
+  "creator_name": "ducc",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 400,
+  "targets": [
+    {
+      "code": "Bow",
+      "name": "Bow"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "6585990",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/6585990",
+  "title": "【Free/無料】真冬のきば",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/af597489-41d6-4c06-8e6f-4737486e2303/i/6585990/3ffd986e-8529-4f11-8543-37d197b981a3_base_resized.jpg",
+  "creator_id": "glaucus",
+  "creator_name": "glaucus",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [
+    "冬"
+  ],
+  "category": "other",
+  "like_count": 0,
+  "price": 0,
+  "targets": [
+    {
+      "code": "Mafuyu",
+      "name": "真冬"
+    }
+  ],
+  "files": []
+}

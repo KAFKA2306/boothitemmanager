@@ -1,0 +1,23 @@
+{
+  "item_id": "8215140",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/8215140",
+  "title": "mof【マリシア、Lapwing、しなの対応衣装】",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/7853c9d4-32b0-46cf-b938-125261b77372/i/8215140/4016f78b-38b2-4e6b-bd8a-0e719b203c70_base_resized.jpg",
+  "creator_id": "samimaro",
+  "creator_name": "samimaro",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1500,
+  "targets": [
+    {
+      "code": "Shinano",
+      "name": "しなの"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,27 @@
+{
+  "item_id": "4444469",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/4444469",
+  "title": "カジノバニーB<まるぼでぃ/INABA/桔梗...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/bc8b8fd2-fda2-42e6-9da9-7fdd7fe1e4ca/i/4444469/fc5aea05-65c0-40b3-8f08-794c4d305137_base_resized.jpg",
+  "creator_id": "tr-96c",
+  "creator_name": "tr-96c",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 700,
+  "targets": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗"
+    },
+    {
+      "code": "INABA",
+      "name": "INABA"
+    }
+  ],
+  "files": []
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "5243244",
+  "source": "booth",
+  "source_url": "https://booth.pm/ja/items/5243244",
+  "title": "[MANUKA(マヌカ)] Sailor M...",
+  "description": "",
+  "thumbnail_url": "https://booth.pximg.net/a959c131-4620-4d1a-b6dd-bcd00c788e6e/i/5243244/f088e24f-fa69-4611-acd6-055de87dc74a_base_resized.jpg",
+  "creator_id": "zz-shop",
+  "creator_name": "zz-shop",
+  "published_at": null,
+  "tags_raw": [],
+  "tags_generated": [],
+  "category": "outfit",
+  "like_count": 0,
+  "price": 1000,
+  "targets": [
+    {
+      "code": "Manuka",
+      "name": "マヌカ"
+    }
+  ],
+  "files": []
+}
