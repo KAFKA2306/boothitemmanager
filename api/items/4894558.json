@@ -30,7 +30,13 @@
     "season": [],
     "avatar_link": []
   },
-  "similar_items": [],
+  "similar_items": [
+    "4096603",
+    "3154500",
+    "3273267",
+    "3708944",
+    "4050679"
+  ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],

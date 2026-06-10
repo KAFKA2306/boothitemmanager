@@ -26,7 +26,13 @@
       "Bow"
     ]
   },
-  "similar_items": [],
+  "similar_items": [
+    "6144619",
+    "3555257",
+    "1468329",
+    "2163943",
+    "4461478"
+  ],
   "user_state": {},
   "tags_raw": [],
   "targets": [

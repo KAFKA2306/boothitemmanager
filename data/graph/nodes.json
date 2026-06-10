@@ -1512,17 +1512,17 @@
     }
   },
   {
-    "id": "tag:メイド服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:メイド服"
-    }
-  },
-  {
     "id": "tag:NekoMaid",
     "label": "Tag",
     "properties": {
       "name": "tag:NekoMaid"
+    }
+  },
+  {
+    "id": "tag:メイド服",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:メイド服"
     }
   },
   {
@@ -3759,17 +3759,17 @@
     }
   },
   {
-    "id": "tag:和風",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:和風"
-    }
-  },
-  {
     "id": "tag:和装",
     "label": "Tag",
     "properties": {
       "name": "tag:和装"
+    }
+  },
+  {
+    "id": "tag:和風",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:和風"
     }
   },
   {
@@ -4746,17 +4746,17 @@
     }
   },
   {
-    "id": "tag:ブーツ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ブーツ"
-    }
-  },
-  {
     "id": "tag:ゴシック",
     "label": "Tag",
     "properties": {
       "name": "tag:ゴシック"
+    }
+  },
+  {
+    "id": "tag:ブーツ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ブーツ"
     }
   },
   {
@@ -6307,17 +6307,17 @@
     }
   },
   {
-    "id": "tag:Cian",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Cian"
-    }
-  },
-  {
     "id": "tag:シアン",
     "label": "Tag",
     "properties": {
       "name": "tag:シアン"
+    }
+  },
+  {
+    "id": "tag:Cian",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Cian"
     }
   },
   {
