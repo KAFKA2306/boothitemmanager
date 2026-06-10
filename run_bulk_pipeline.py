@@ -9,6 +9,7 @@ import os
 sys.path.insert(0, os.path.abspath('.'))
 
 from src.boothitemmanager2.agents.bridge import convert_ndjson_to_items
+from src.boothitemmanager2.agents.similarity_engine import calculate_similar_items
 from src.boothitemmanager2.agents import (
     build_db, 
     build_graph, 
@@ -34,6 +35,11 @@ def main():
     print(f"✅ [BRIDGE] Converted {len(items)} items in {elapsed:.2f}s")
 
     print("\n🏗️ [BUILD] Finalizing Data Layers for bulk dataset...")
+
+    # Similarity Engine
+    print("  - Calculating Item Similarities...")
+    similarity_block = calculate_similar_items(items, f"{trace_id}:similarity")
+    items = similarity_block.actual_state['items']
     
     # 3. Build DB
     print("  - Building DB...")
