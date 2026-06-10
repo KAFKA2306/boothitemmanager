@@ -851,7 +851,7 @@
             if (filters.price !== 'all') addChip(`価格: ${filters.price}`, `rmPrice()`);
             
             filters.features.forEach(f => addChip(f, `rmFeat('${f}')`));
-            if (filters.styles) addChip(filters.styles, `rmStyle()`);
+            filters.styles.forEach(s => addChip(s, `rmStyle()`));
             filters.colors.forEach(c => addChip(c, `rmColor('${c}')`));
 
             if (h) h += `<button class="clear-filters-btn" onclick="clearAll()">Clear All</button>`;
