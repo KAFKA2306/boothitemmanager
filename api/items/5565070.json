@@ -11,9 +11,7 @@
   "price": 100,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Street"
@@ -30,10 +28,10 @@
   },
   "similar_items": [
     "3881943",
-    "6219485",
-    "6404397",
-    "3473929",
-    "3488233"
+    "5153840",
+    "5550172",
+    "5608434",
+    "6133361"
   ],
   "user_state": {},
   "tags_raw": [],

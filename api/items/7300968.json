@@ -11,9 +11,7 @@
   "price": 300,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "Bone"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1162209",
-    "1515421",
-    "1738692",
-    "1772907",
-    "1823194"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

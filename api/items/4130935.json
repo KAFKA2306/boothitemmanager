@@ -11,9 +11,7 @@
   "price": 100,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Jirai"
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1634088",
-    "2291899",
-    "2474761",
-    "2886739",
-    "3611536"
+    "3229419",
+    "3585635",
+    "3740568",
+    "3868883",
+    "4045911"
   ],
   "user_state": {},
   "tags_raw": [],

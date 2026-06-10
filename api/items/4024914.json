@@ -11,17 +11,15 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "Poiyomi"
+      "Poiyomi",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
@@ -29,10 +27,10 @@
   },
   "similar_items": [
     "4888002",
+    "5081523",
     "7288531",
-    "6599985",
-    "6626473",
-    "6676517"
+    "4411955",
+    "5403377"
   ],
   "user_state": {},
   "tags_raw": [],

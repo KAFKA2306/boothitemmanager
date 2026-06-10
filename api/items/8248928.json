@@ -11,9 +11,7 @@
   "price": 300,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "Bone"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3815413",
     "3851586",
-    "3910550",
-    "5698852",
-    "6349883"
+    "2866343",
+    "3050625",
+    "3143286",
+    "3163899"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Gothic"
@@ -29,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "6806856",
     "3660154",
-    "3969895",
-    "4098293",
-    "5166526",
-    "5797403"
+    "5867953",
+    "5917196",
+    "6500276"
   ],
   "user_state": {},
   "tags_raw": [],

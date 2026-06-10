@@ -11,9 +11,7 @@
   "price": 900,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "3079230",
-    "3182196",
-    "3473929",
-    "3488233",
-    "3969895"
+    "4243678",
+    "4252664",
+    "4348297",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 2400,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "BlendShape"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],

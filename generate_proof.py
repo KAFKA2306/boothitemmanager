@@ -82,7 +82,8 @@ def verify_invariants():
     if item_count > 0:
         sample_id = catalog[0]["item_id"]
         in_db = any(i["item_id"] == sample_id for i in catalog)
-        in_api = any(i["item_id"] == sample_id for i in json.load(open(API_PATH)))
+        # In search_index.json, the field is "id"
+        in_api = any(i.get("id") == sample_id for i in json.load(open(API_PATH)))
         in_graph = any(n["id"] == f"item:{sample_id}" for n in nodes)
         sample_proof = "VERIFIED" if in_db and in_api and in_graph else "FAILED"
 

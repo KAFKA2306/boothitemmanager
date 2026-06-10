@@ -11,9 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5949310",
-    "7248690",
-    "7499714",
-    "2600175",
-    "2738410"
+    "4768863",
+    "5884021",
+    "6215017",
+    "3079230",
+    "4243678"
   ],
   "user_state": {},
   "tags_raw": [],

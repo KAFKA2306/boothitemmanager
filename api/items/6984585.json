@@ -11,9 +11,7 @@
   "price": 500,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Japanese"
@@ -29,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7759094",
-    "3969895",
-    "4098293",
-    "5166526",
-    "5797403"
+    "4423948",
+    "4439927",
+    "5872319",
+    "7207858",
+    "7759094"
   ],
   "user_state": {},
   "tags_raw": [],

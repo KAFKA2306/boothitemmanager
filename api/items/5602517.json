@@ -11,10 +11,7 @@
   "price": 300,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "BlendShape",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -31,10 +28,10 @@
   },
   "similar_items": [
     "5528309",
-    "6151898",
-    "6770839",
-    "6782714",
-    "7024918"
+    "4953756",
+    "5056671",
+    "5058946",
+    "5059002"
   ],
   "user_state": {},
   "tags_raw": [],

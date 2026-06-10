@@ -11,9 +11,7 @@
   "price": 300,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "Bone"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4674561",
-    "6000042",
-    "6650795",
-    "7825843",
-    "1162209"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -18,19 +18,19 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "Poiyomi"
+      "Poiyomi",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "4411955",
-    "5081523",
     "6626473",
     "4024914",
-    "4888002"
+    "4411955",
+    "4888002",
+    "5081523"
   ],
   "user_state": {},
   "tags_raw": [],

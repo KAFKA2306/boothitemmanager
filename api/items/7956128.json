@@ -11,10 +11,7 @@
   "price": 1190,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Material",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Street"
@@ -30,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2139754",
-    "3625699",
-    "3814025",
-    "4044216",
-    "4732892"
+    "3881943",
+    "5153840",
+    "5550172",
+    "5565070",
+    "5608434"
   ],
   "user_state": {},
   "tags_raw": [],

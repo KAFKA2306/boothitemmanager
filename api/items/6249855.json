@@ -11,9 +11,7 @@
   "price": 500,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "BlendShape"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7352934",
-    "4854725",
-    "6782714",
     "4243678",
-    "4864776"
+    "4864776",
+    "5412991",
+    "5442231",
+    "5976246"
   ],
   "user_state": {},
   "tags_raw": [],

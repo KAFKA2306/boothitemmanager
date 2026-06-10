@@ -11,9 +11,7 @@
   "price": 1400,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Mesh"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5848688",
-    "5913306",
-    "6940452",
-    "6988908",
-    "7396611"
+    "4768863",
+    "5884021",
+    "6215017",
+    "3079230",
+    "4243678"
   ],
   "user_state": {},
   "tags_raw": [],

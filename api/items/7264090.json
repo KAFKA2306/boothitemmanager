@@ -11,9 +11,7 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "BlendShape"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2139174",
-    "2526695",
-    "3582541",
-    "4473971",
-    "4947902"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

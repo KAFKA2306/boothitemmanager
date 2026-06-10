@@ -11,9 +11,7 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Bone"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4332978",
-    "6184069",
-    "2772861",
-    "3425991",
-    "3702141"
+    "2866343",
+    "3050625",
+    "3143286",
+    "3186729",
+    "3325721"
   ],
   "user_state": {},
   "tags_raw": [],

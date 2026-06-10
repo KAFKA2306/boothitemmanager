@@ -11,9 +11,7 @@
   "price": 400,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "BlendShape"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7755840",
-    "2139174",
-    "2394036",
-    "2442610",
-    "2526695"
+    "3205288",
+    "3504482",
+    "4214489",
+    "4844630",
+    "4903466"
   ],
   "user_state": {},
   "tags_raw": [],

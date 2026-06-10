@@ -11,9 +11,7 @@
   "price": 400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7770796",
-    "5298432",
-    "3473929",
-    "3488233",
-    "4690699"
+    "4483757",
+    "4856993",
+    "4922631",
+    "5237833",
+    "5240192"
   ],
   "user_state": {},
   "tags_raw": [],

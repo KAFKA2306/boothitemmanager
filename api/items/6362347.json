@@ -11,9 +11,7 @@
   "price": 2000,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "3079230",
-    "7223760",
-    "3182196",
-    "3473929",
-    "3488233"
+    "4252664",
+    "4348297",
+    "4701501",
+    "4733077"
   ],
   "user_state": {},
   "tags_raw": [],

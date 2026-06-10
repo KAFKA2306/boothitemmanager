@@ -11,10 +11,7 @@
   "price": 300,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Material",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -31,10 +28,10 @@
   },
   "similar_items": [
     "4787540",
-    "2139754",
-    "3625699",
-    "3814025",
-    "4044216"
+    "4899597",
+    "4686854",
+    "4687654",
+    "4687849"
   ],
   "user_state": {},
   "tags_raw": [],

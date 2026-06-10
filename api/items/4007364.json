@@ -11,9 +11,7 @@
   "price": 150,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "Bone"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4023548",
-    "6542086",
-    "5445642",
-    "7171735",
-    "7333648"
+    "3079230",
+    "4252664",
+    "4348297",
+    "4701501",
+    "4733077"
   ],
   "user_state": {},
   "tags_raw": [],

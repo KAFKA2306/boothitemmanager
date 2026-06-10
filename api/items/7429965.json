@@ -11,9 +11,7 @@
   "price": 350,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "BlendShape"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7201722",
-    "2139174",
-    "2394036",
-    "2442610",
-    "2526695"
+    "4508977",
+    "4765735",
+    "4803801",
+    "4861024",
+    "5085639"
   ],
   "user_state": {},
   "tags_raw": [],

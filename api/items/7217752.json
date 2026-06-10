@@ -11,9 +11,7 @@
   "price": 300,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Tenshi"
@@ -29,9 +27,9 @@
   "similar_items": [
     "5658463",
     "6330767",
-    "6381127",
     "1939489",
-    "2207085"
+    "2207085",
+    "3021038"
   ],
   "user_state": {},
   "tags_raw": [],

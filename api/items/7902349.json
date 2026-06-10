@@ -11,9 +11,7 @@
   "price": 500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2600175",
-    "2738410",
-    "3689661",
-    "3855458",
-    "5056441"
+    "3079230",
+    "4252664",
+    "4348297",
+    "4701501",
+    "4733077"
   ],
   "user_state": {},
   "tags_raw": [],

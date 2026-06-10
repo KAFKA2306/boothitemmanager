@@ -11,9 +11,7 @@
   "price": 800,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,8 +25,8 @@
     "avatar_link": []
   },
   "similar_items": [
-    "8375056",
     "4999902",
+    "5430295",
     "5791559",
     "6104595",
     "6384721"

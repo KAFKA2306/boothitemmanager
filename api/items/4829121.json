@@ -11,9 +11,7 @@
   "price": 650,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Mesh"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4061435",
-    "4871312",
-    "4895935",
-    "5751148",
-    "5794500"
+    "4039565",
+    "4041337",
+    "4046871",
+    "4049420",
+    "4057947"
   ],
   "user_state": {},
   "tags_raw": [],

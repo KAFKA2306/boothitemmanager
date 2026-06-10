@@ -11,10 +11,7 @@
   "price": 680,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "Material",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -30,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "5066655",
-    "5244393",
-    "5514057",
-    "5457675",
-    "5520661"
+    "5056671",
+    "5059123",
+    "5060728",
+    "5060730",
+    "5060744"
   ],
   "user_state": {},
   "tags_raw": [],

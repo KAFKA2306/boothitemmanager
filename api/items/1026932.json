@@ -11,11 +11,7 @@
   "price": 1000,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Mesh",
-      "Animation",
-      "Shader"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1330347",
-    "3536183",
-    "3847150",
-    "4365662",
-    "1261468"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

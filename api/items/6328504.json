@@ -11,9 +11,7 @@
   "price": 550,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "5834462",
     "6580770",
+    "6788115",
     "6831511",
-    "6930348",
-    "6963573",
-    "7008982"
+    "6930348"
   ],
   "user_state": {},
   "tags_raw": [],

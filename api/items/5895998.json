@@ -11,9 +11,7 @@
   "price": 200,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -31,7 +29,7 @@
     "4418384",
     "4644312",
     "5935123",
-    "6436480"
+    "4414525"
   ],
   "user_state": {},
   "tags_raw": [],

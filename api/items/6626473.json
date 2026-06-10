@@ -11,28 +11,26 @@
   "price": 480,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "Poiyomi"
+      "Poiyomi",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
+    "5404096",
     "4024914",
+    "4411955",
     "4888002",
-    "6599985",
-    "6676517",
-    "7288531"
+    "5081523"
   ],
   "user_state": {},
   "tags_raw": [],

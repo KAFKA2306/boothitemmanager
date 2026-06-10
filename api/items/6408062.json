@@ -11,9 +11,7 @@
   "price": 900,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Shader"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "3858121",
+    "4745019",
     "4841309",
-    "5638661",
-    "1148311",
-    "1723985",
-    "3858121"
+    "5233755",
+    "5537747"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,10 +11,7 @@
   "price": 300,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "Material",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2139754",
-    "3625699",
-    "3814025",
-    "4044216",
-    "4366563"
+    "4639066",
+    "6332026",
+    "6949025",
+    "3079230",
+    "4243678"
   ],
   "user_state": {},
   "tags_raw": [],

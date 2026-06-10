@@ -11,9 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4752778",
-    "2516986",
-    "6125704",
-    "6882718",
-    "6996446"
+    "3079953",
+    "4895211",
+    "4899453",
+    "4922937",
+    "4970592"
   ],
   "user_state": {},
   "tags_raw": [],

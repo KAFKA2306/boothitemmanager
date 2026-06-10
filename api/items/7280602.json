@@ -11,9 +11,7 @@
   "price": 400,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "ExpressionMenu"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7475034",
     "1555789",
     "2280136",
     "2436054",
-    "2603366"
+    "2603366",
+    "2604269"
   ],
   "user_state": {},
   "tags_raw": [],

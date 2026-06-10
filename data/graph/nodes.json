@@ -14,13 +14,6 @@
     }
   },
   {
-    "id": "tag:Animation",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Animation"
-    }
-  },
-  {
     "id": "item:5813187",
     "label": "Item",
     "properties": {
@@ -501,13 +494,6 @@
     "label": "Item",
     "properties": {
       "name": "item:4108136"
-    }
-  },
-  {
-    "id": "tag:Shader",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Shader"
     }
   },
   {
@@ -1967,13 +1953,6 @@
     }
   },
   {
-    "id": "tag:BlendShape",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:BlendShape"
-    }
-  },
-  {
     "id": "item:4427155",
     "label": "Item",
     "properties": {
@@ -2352,13 +2331,6 @@
     }
   },
   {
-    "id": "tag:Mesh",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Mesh"
-    }
-  },
-  {
     "id": "item:6618498",
     "label": "Item",
     "properties": {
@@ -2636,13 +2608,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:koarare-atelier"
-    }
-  },
-  {
-    "id": "tag:Material",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Material"
     }
   },
   {
@@ -3322,13 +3287,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:ornamentcorpse"
-    }
-  },
-  {
-    "id": "tag:Bone",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Bone"
     }
   },
   {
@@ -101119,13 +101077,6 @@
     "label": "Item",
     "properties": {
       "name": "item:7280602"
-    }
-  },
-  {
-    "id": "tag:ExpressionMenu",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ExpressionMenu"
     }
   },
   {

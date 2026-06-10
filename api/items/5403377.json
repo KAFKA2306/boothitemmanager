@@ -11,29 +11,26 @@
   "price": 500,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Material",
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "Poiyomi"
+      "Poiyomi",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "2139754",
-    "3625699",
-    "3814025",
-    "4044216",
-    "4732892"
+    "4024914",
+    "4411955",
+    "4888002",
+    "5081523",
+    "5404096"
   ],
   "user_state": {},
   "tags_raw": [],

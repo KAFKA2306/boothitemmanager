@@ -11,9 +11,7 @@
   "price": 500,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "Mesh"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6988908",
-    "7396611",
-    "5848688",
-    "5913306",
-    "7430359"
+    "5166526",
+    "5343179",
+    "6381827",
+    "6692095",
+    "7217718"
   ],
   "user_state": {},
   "tags_raw": [],

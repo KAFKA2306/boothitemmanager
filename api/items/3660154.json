@@ -11,9 +11,7 @@
   "price": 2000,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Gothic"
@@ -29,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7409315",
-    "6567492",
-    "6998191",
-    "7151693",
-    "7184358"
+    "5867953",
+    "5917196",
+    "6500276",
+    "6678458",
+    "6806856"
   ],
   "user_state": {},
   "tags_raw": [],

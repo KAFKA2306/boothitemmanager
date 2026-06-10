@@ -11,9 +11,7 @@
   "price": 500,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "Animation"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,8 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
       "Kikyo",
+      "Manuka",
       "Moe"
     ]
   },
@@ -33,7 +31,7 @@
     "5164155",
     "5295443",
     "5951063",
-    "3926439"
+    "4997314"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 1200,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "Shader"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,10 +24,10 @@
   },
   "similar_items": [
     "1035152",
-    "1095863",
-    "1116435",
-    "1116714",
-    "1118922"
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

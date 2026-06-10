@@ -11,28 +11,26 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "Poiyomi"
+      "Poiyomi",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
+    "4411955",
     "6676517",
     "4024914",
     "4888002",
-    "6626473",
-    "7288531"
+    "5081523"
   ],
   "user_state": {},
   "tags_raw": [],

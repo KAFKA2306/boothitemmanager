@@ -11,9 +11,7 @@
   "price": 380,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "Material"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
       "Japanese"
@@ -29,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "4423948",
+    "4439927",
+    "5872319",
     "6984585",
-    "6567492",
-    "6998191",
-    "7151693",
-    "7184358"
+    "7207858"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 400,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "Shader"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5662164",
-    "6008269",
-    "1353291",
-    "2734598",
-    "3194844"
+    "4243678",
+    "4864776",
+    "5412991",
+    "5442231",
+    "5976246"
   ],
   "user_state": {},
   "tags_raw": [],
