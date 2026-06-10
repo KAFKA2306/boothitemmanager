@@ -35,8 +35,7 @@ tasks:
   test:
     desc: Run tests
     cmds:
-      - uv run python3 test_similarity.py
-      - uv run python3 test_duplicates.py
+      - uv run pytest
 
   check:
     desc: Run lint, format, and tests

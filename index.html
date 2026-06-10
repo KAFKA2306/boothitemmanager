@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
     <meta name="description" content="Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly.">
+    <meta name="referrer" content="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
@@ -757,7 +758,7 @@
                 if (filters.avatar) {
                     const info = metaAvatars.find(a => a.code === filters.avatar);
                     const name = info ? info.name.toLowerCase() : filters.avatar.toLowerCase();
-                    const targets = (i.targets||[]).map(t=>t.toLowerCase());
+                    const targets = (i.compatible_avatars || i.targets || []).map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase());
                     const tags = (i.tags||[]).map(t=>t.toLowerCase());
                     if (!targets.includes(name) && !targets.includes(filters.avatar.toLowerCase()) && !tags.includes(name) && !tags.includes(filters.avatar.toLowerCase())) return false;
                 }
@@ -769,24 +770,25 @@
                 if (filters.price === 'under2000' && p > 2000) return false;
                 if (filters.price === 'over2000' && p < 2000) return false;
 
-                const tags = new Set(i.tags || []);
-                for (const f of filters.features) if (!tags.has(f)) return false;
-                if (filters.styles && !tags.has(filters.styles)) return false;
-                for (const c of filters.colors) if (!tags.has(c)) return false;
+                const tagsSet = new Set((i.tags || []).map(t => t.toLowerCase()));
+                for (const f of filters.features) if (!tagsSet.has(f.toLowerCase())) return false;
+                for (const s of filters.styles) if (!tagsSet.has(s.toLowerCase())) return false;
+                for (const c of filters.colors) if (!tagsSet.has(c.toLowerCase())) return false;
 
                 if (filters.query) {
-                    const tgt = `${i.title} ${i.creator_name} ${[...tags].join(' ')}`.toLowerCase();
+                    const creator = i.author || i.creator_name || '';
+                    const tgt = `${i.title} ${creator} ${(i.tags||[]).join(' ')}`.toLowerCase();
                     if (!tgt.includes(filters.query)) return false;
                 }
                 return true;
             });
 
             // Sort
-            if (filters.sort === 'name_asc') filtered.sort((a,b) => a.title.localeCompare(b.title));
+            if (filters.sort === 'name_asc') filtered.sort((a,b) => a.title.localeCompare(b.title, 'ja'));
             else if (filters.sort === 'price_asc') filtered.sort((a,b) => (a.price||0)-(b.price||0));
             else if (filters.sort === 'price_desc') filtered.sort((a,b) => (b.price||0)-(a.price||0));
             else if (filters.sort === 'popular') filtered.sort((a,b) => (b.like_count||0)-(a.like_count||0));
-            else filtered.sort((a,b) => parseInt(b.item_id) - parseInt(a.item_id));
+            else filtered.sort((a,b) => parseInt(b.id || b.item_id) - parseInt(a.id || a.item_id));
 
             displayedCount = 40;
             renderGrid();
@@ -809,17 +811,22 @@
             DOM.grid.innerHTML = chunk.map(i => {
                 const cCls = getCatClass(i.category);
                 const pf = i.price === 0 ? 'Free' : `¥${(i.price||0).toLocaleString()}`;
+                const thumb = i.thumbnail || i.thumbnail_url;
+                const itemId = i.id || i.item_id;
+                const creator = i.author || i.creator_name;
+                const targets = i.compatible_avatars || i.targets || [];
+                
                 return `
-                    <div class="asset-card" data-id="${i.item_id}">
+                    <div class="asset-card" data-id="${itemId}">
                         <div class="asset-thumb-container">
-                            <img src="${i.thumbnail_url}" class="asset-thumb" loading="lazy" alt="Thumb">
+                            <img src="${thumb}" class="asset-thumb" loading="lazy" alt="Thumb" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/300x300.png?text=Image+Unavailable'">
                             <div class="asset-price">${pf}</div>
                         </div>
                         <div class="asset-info">
                             <div class="asset-category ${cCls}">${i.category}</div>
                             <div class="asset-title" title="${i.title}">${i.title}</div>
-                            <div class="asset-shop">@${i.creator_name}</div>
-                            <div class="asset-targets">${(i.targets||[]).slice(0,3).map(t=>`<span class="target-tag">${t}</span>`).join('')}</div>
+                            <div class="asset-shop">@${creator}</div>
+                            <div class="asset-targets">${targets.slice(0,3).map(t=>`<span class="target-tag">${typeof t === 'string' ? t : (t.name || t.code)}</span>`).join('')}</div>
                         </div>
                     </div>`;
             }).join('');
