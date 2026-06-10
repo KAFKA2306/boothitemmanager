@@ -12,6 +12,8 @@ concurrency:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    outputs:
+      artifact_id: ${{ steps.upload.outputs.artifact-id }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,27 +36,24 @@ jobs:
           mkdir -p dist
           cp index.html dist/
           mkdir -p dist/api
-          # Copy all aggregate files including summary parts
           if [ -d api ]; then
             cp api/*.json dist/api/ 2>/dev/null || true
           fi
-          # Also copy the items directory which contains individual product data
           if [ -d api/items ]; then
             cp -r api/items dist/api/
           fi
-          # Generate proof for deployment verification
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
 
-      - name: Run E2E Tests (Smoke, Data Load, UI, Filters, Search)
+      - name: Run E2E Tests
         run: |
           source .venv/bin/activate
           uv run pytest tests/e2e/test_browser.py -v
 
       - name: Setup Pages
-        id: pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        id: upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist

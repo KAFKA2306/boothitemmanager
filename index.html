@@ -753,14 +753,20 @@
 
         function applyFilters() {
             filtered = allItems.filter(i => {
-                if (filters.cat !== 'all' && (i.category||'').toLowerCase() !== filters.cat.toLowerCase()) return false;
+                const itemId = i.id || i.item_id;
+                const author = i.author || i.creator_name || '';
+                const category = (i.category || '').toLowerCase();
+                const tags = i.tags || [];
+                const targets = i.compatible_avatars || i.targets || [];
+
+                if (filters.cat !== 'all' && category !== filters.cat.toLowerCase()) return false;
                 
                 if (filters.avatar) {
                     const info = metaAvatars.find(a => a.code === filters.avatar);
                     const name = info ? info.name.toLowerCase() : filters.avatar.toLowerCase();
-                    const targets = (i.compatible_avatars || i.targets || []).map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase());
-                    const tags = (i.tags||[]).map(t=>t.toLowerCase());
-                    if (!targets.includes(name) && !targets.includes(filters.avatar.toLowerCase()) && !tags.includes(name) && !tags.includes(filters.avatar.toLowerCase())) return false;
+                    const targetNames = targets.map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase());
+                    const tagNames = tags.map(t => t.toLowerCase());
+                    if (!targetNames.includes(name) && !targetNames.includes(filters.avatar.toLowerCase()) && !tagNames.includes(name) && !tagNames.includes(filters.avatar.toLowerCase())) return false;
                 }
 
                 const p = i.price || 0;
@@ -770,14 +776,13 @@
                 if (filters.price === 'under2000' && p > 2000) return false;
                 if (filters.price === 'over2000' && p < 2000) return false;
 
-                const tagsSet = new Set((i.tags || []).map(t => t.toLowerCase()));
+                const tagsSet = new Set(tags.map(t => t.toLowerCase()));
                 for (const f of filters.features) if (!tagsSet.has(f.toLowerCase())) return false;
                 for (const s of filters.styles) if (!tagsSet.has(s.toLowerCase())) return false;
                 for (const c of filters.colors) if (!tagsSet.has(c.toLowerCase())) return false;
 
                 if (filters.query) {
-                    const creator = i.author || i.creator_name || '';
-                    const tgt = `${i.title} ${creator} ${(i.tags||[]).join(' ')}`.toLowerCase();
+                    const tgt = `${i.title} ${author} ${tags.join(' ')}`.toLowerCase();
                     if (!tgt.includes(filters.query)) return false;
                 }
                 return true;
