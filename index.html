@@ -190,6 +190,67 @@
         .filter-tag.dimension-style { border-color: var(--accent); color: var(--accent); }
         .filter-tag.dimension-season { border-color: var(--neon-purple); color: var(--neon-purple); }
 
+        .space-navigator {
+            background: linear-gradient(135deg, rgba(0, 229, 255, 0.05), rgba(255, 0, 122, 0.05));
+            border-radius: 16px;
+            padding: 1.2rem;
+            border: 1px solid var(--border);
+            margin-bottom: 1rem;
+        }
+
+        .current-node {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .current-node small {
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .neighbor-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .neighbor-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .neighbor-item:hover {
+            background: rgba(255,255,255,0.05);
+            padding-left: 16px;
+        }
+
+        .strength-bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            width: 40px;
+            overflow: hidden;
+        }
+
+        .strength-fill {
+            height: 100%;
+            background: var(--accent);
+        }
+
         main {
             flex: 1;
             padding: 2rem;
@@ -527,6 +588,11 @@
     <div class="app-container">
         <aside id="filters-aside">
             <div class="filter-section expanded">
+                <h3 onclick="toggleSection(this)">STATE SPACE</h3>
+                <div class="filter-content" id="space-navigator-container"></div>
+            </div>
+
+            <div class="filter-section expanded">
                 <h3 onclick="toggleSection(this)">CATEGORY</h3>
                 <div class="filter-content tag-list" id="cat-filters">
                     <div class="filter-tag active" data-cat="all">ALL</div>
@@ -535,6 +601,11 @@
                     <div class="filter-tag" data-cat="accessory">ACCESSORY</div>
                     <div class="filter-tag" data-cat="gimmick">GIMMICK</div>
                 </div>
+            </div>
+
+            <div class="filter-section expanded">
+                <h3 onclick="toggleSection(this)">TRENDING NODES</h3>
+                <div class="filter-content tag-list" id="trending-nodes"></div>
             </div>
 
             <!-- Dynamic groups will be inserted here -->
@@ -563,6 +634,10 @@
     </div>
 
     <script>
+        function toggleSection(header) {
+            header.parentElement.classList.toggle('expanded');
+        }
+
         let allItems = [];
         let tagGraph = { nodes: [], edges: [] };
         let filtered = [];

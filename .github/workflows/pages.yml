@@ -30,6 +30,7 @@ jobs:
           if [ -f api/catalog.json ]; then cp api/catalog.json dist/api/; fi
           if [ -f api/metrics.json ]; then cp api/metrics.json dist/api/; fi
           if [ -f api/search_index.json ]; then cp api/search_index.json dist/api/; fi
+          if [ -f api/tag_graph.json ]; then cp api/tag_graph.json dist/api/; fi
           # Generate proof for deployment verification
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
       # Pages 用アーティファクトをアップロード
