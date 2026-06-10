@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
-    <meta name="description" content="Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly.">
     <meta name="referrer" content="no-referrer">
+    <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
@@ -824,7 +823,7 @@
                 return `
                     <div class="asset-card" data-id="${itemId}">
                         <div class="asset-thumb-container">
-                            <img src="${thumb}" class="asset-thumb" loading="lazy" alt="Thumb" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/300x300.png?text=Image+Unavailable'">
+                            <img src="${thumb}" class="asset-thumb" loading="lazy" alt="Thumb" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/300x300.png?text=Image+Unavailable'">
                             <div class="asset-price">${pf}</div>
                         </div>
                         <div class="asset-info">
@@ -897,6 +896,7 @@
             const itemId = d.item_id || d.id;
 
             document.getElementById('modal-img').src = thumb;
+            document.getElementById('modal-img').referrerPolicy = "no-referrer";
             document.getElementById('modal-img').onerror = function() { this.src='https://placehold.jp/24/12121a/00f0ff/600x600.png?text=Image+Unavailable'; };
             document.getElementById('modal-title').textContent = title;
             document.getElementById('modal-creator').textContent = `@${creator}`;
@@ -918,7 +918,7 @@
                 const s = allItems.find(i => (i.id || i.item_id) === sid);
                 if (!s) return '';
                 const sThumb = s.thumbnail || s.thumbnail_url;
-                return `<div class="similar-card" title="${s.title}" onclick="openModal('${sid}')"><img src="${sThumb}" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/100x100.png?text=N/A'"></div>`;
+                return `<div class="similar-card" title="${s.title}" onclick="openModal('${sid}')"><img src="${sThumb}" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/100x100.png?text=N/A'"></div>`;
             }).join('') : '<span style="font-size:0.75rem; color:var(--text-muted); grid-column:1/-1;">No similar assets.</span>';
         }
 
