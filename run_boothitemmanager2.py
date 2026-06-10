@@ -21,6 +21,7 @@ from src.boothitemmanager2.agents import (
     generate_api,
     tag_graph_builder
 )
+from src.boothitemmanager2.agents.similarity_engine import calculate_similar_items
 
 # Target IDs for the initial collection (Representing the core requested items)
 ITEM_IDS = [
@@ -61,6 +62,10 @@ def main():
         
         # Be nice to BOOTH
         time.sleep(1)
+
+    print("  - Calculating Dynamic Item Similarities...")
+    sim_block = calculate_similar_items(items, f"{trace_id_base}:similarity")
+    items = sim_block.actual_state['items']
 
     print("\n🏗️ [BUILD] Finalizing Data Layers...")
     
