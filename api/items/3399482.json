@@ -33,7 +33,7 @@
     "3416121",
     "3422511",
     "3422852",
-    "3424358"
+    "3424797"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -47,7 +47,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:11.755635",
+    "timestamp": "2026-06-11T07:07:17.983847",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

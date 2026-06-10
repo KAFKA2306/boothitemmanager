@@ -21,10 +21,10 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Shinra",
+      "Manuka",
       "Moe",
-      "Manuka"
+      "Selestia",
+      "Shinra"
     ]
   },
   "similar_items": [
@@ -58,7 +58,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:11.726678",
+    "timestamp": "2026-06-11T07:07:17.953264",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

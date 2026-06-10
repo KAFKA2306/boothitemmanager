@@ -23,16 +23,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Maya",
-      "Grus"
+      "Grus",
+      "Maya"
     ]
   },
   "similar_items": [
+    "3288753",
+    "3315922",
     "3410623",
     "3416121",
-    "3422511",
-    "3422852",
-    "3424358"
+    "3422511"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -50,7 +50,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:06.214312",
+    "timestamp": "2026-06-11T07:07:12.485292",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

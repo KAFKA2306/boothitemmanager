@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Lolita",
-      "Japanese"
+      "Japanese",
+      "Lolita"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,9 +28,9 @@
   "similar_items": [
     "2215318",
     "7213362",
-    "1350966",
     "1486105",
-    "2059604"
+    "2059604",
+    "2663182"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:05.105177",
+    "timestamp": "2026-06-11T07:07:11.287952",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

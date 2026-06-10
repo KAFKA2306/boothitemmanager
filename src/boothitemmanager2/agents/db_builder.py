@@ -44,10 +44,6 @@ def build_db(items: list[Item], trace_id: str) -> TestBlock:
     catalog = [_item_to_dict(item) for item in items]
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
-    api_path = "api/catalog.json"
-    os.makedirs(os.path.dirname(api_path), exist_ok=True)
-    with open(api_path, "w", encoding="utf-8") as f:
-        json.dump(catalog, f, ensure_ascii=False, indent=2)
     return TestBlock(
         trace_id=trace_id,
         input=len(items),

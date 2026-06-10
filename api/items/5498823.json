@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Rusk",
-      "Mamehinata"
+      "Mamehinata",
+      "Rusk"
     ]
   },
   "similar_items": [
-    "2557192",
-    "2678416",
-    "2900163",
-    "2977314",
-    "3004516"
+    "4416309",
+    "4419241",
+    "4434344",
+    "4434500",
+    "4434636"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:08.565725",
+    "timestamp": "2026-06-11T07:07:14.899711",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

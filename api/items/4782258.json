@@ -27,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "3296215",
-    "4613006",
-    "4686693",
-    "4687250",
-    "4688952"
+    "3799865",
+    "3825060",
+    "3929719",
+    "4169376",
+    "4570137"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -45,7 +45,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:08.829808",
+    "timestamp": "2026-06-11T07:07:15.200874",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -21,9 +21,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Lime",
       "Kikyo",
-      "Shinra",
-      "Lime"
+      "Shinra"
     ]
   },
   "similar_items": [
@@ -31,7 +31,7 @@
     "4760910",
     "4936504",
     "5055084",
-    "3702923"
+    "4898349"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -53,7 +53,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:07.466856",
+    "timestamp": "2026-06-11T07:07:13.805993",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Lime"
+      "Lime",
+      "Moe"
     ]
   },
   "similar_items": [
     "4936504",
     "4950477",
-    "3296215",
-    "4613006",
-    "4686693"
+    "3485256",
+    "4483406",
+    "4897448"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:11.618248",
+    "timestamp": "2026-06-11T07:07:17.847720",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Grus",
-      "Hakka"
+      "Hakka",
+      "Grus"
     ]
   },
   "similar_items": [
     "2225181",
     "3190100",
-    "3216993",
-    "3231886",
-    "3242007"
+    "3608039",
+    "2234501",
+    "2254157"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:08.749253",
+    "timestamp": "2026-06-11T07:07:15.113812",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

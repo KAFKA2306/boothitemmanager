@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Lolita",
-      "Gothic"
+      "Gothic",
+      "Lolita"
     ],
     "color": [],
     "outfit_type": [],
@@ -41,7 +41,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:08.648335",
+    "timestamp": "2026-06-11T07:07:14.983101",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -23,8 +23,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Manuka"
+      "Manuka",
+      "Selestia"
     ]
   },
   "similar_items": [
@@ -32,7 +32,7 @@
     "5111344",
     "5286216",
     "4038822",
-    "4045457"
+    "4093930"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -50,7 +50,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:07.769452",
+    "timestamp": "2026-06-11T07:07:14.102677",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

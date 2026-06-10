@@ -23,9 +23,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
+      "Maya",
       "Kikyo",
-      "Maya"
+      "Selestia"
     ]
   },
   "similar_items": [
@@ -33,7 +33,7 @@
     "3889509",
     "4171012",
     "4475519",
-    "3720942"
+    "3405557"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -55,7 +55,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:03.577865",
+    "timestamp": "2026-06-11T07:07:09.719822",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "VRCFury",
-      "ModularAvatar"
+      "ModularAvatar",
+      "VRCFury"
     ],
     "platform": [],
     "season": [],
@@ -29,8 +29,8 @@
     "4243678",
     "4864776",
     "5412991",
-    "5976246",
-    "5988203"
+    "5442231",
+    "5976246"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:04.640923",
+    "timestamp": "2026-06-11T07:07:10.742662",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

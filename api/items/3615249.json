@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Street",
-      "Gothic"
+      "Gothic",
+      "Street"
     ],
     "color": [],
     "outfit_type": [],
@@ -29,8 +29,8 @@
     "4615095",
     "7068151",
     "3729902",
-    "2341161",
-    "3912014"
+    "5160619",
+    "5892677"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:06.289569",
+    "timestamp": "2026-06-11T07:07:12.573596",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

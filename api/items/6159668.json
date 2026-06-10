@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "lilToon",
-      "ModularAvatar"
+      "ModularAvatar",
+      "lilToon"
     ],
     "platform": [],
     "season": [],
@@ -31,8 +31,8 @@
     "6284664",
     "5075436",
     "5706096",
-    "5754967",
-    "5769383"
+    "5769383",
+    "6193124"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -46,7 +46,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T07:02:07.443705",
+    "timestamp": "2026-06-11T07:07:13.780088",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"
