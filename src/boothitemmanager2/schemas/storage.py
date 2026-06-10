@@ -1,20 +1,20 @@
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional, Union, Literal
+from typing import Any, Dict, List, Optional, Literal
 from datetime import datetime
 from enum import Enum
 
 class ItemCategory(str, Enum):
-    AVATAR = "AVATAR"
-    OUTFIT = "OUTFIT"
-    ACCESSORY = "ACCESSORY"
-    TEXTURE = "TEXTURE"
-    PROP = "PROP"
-    GIMMICK_TOOL = "GIMMICK_TOOL"
-    HAIRSTYLE = "HAIRSTYLE"
-    WORLD = "WORLD"
-    ANIMATION = "ANIMATION"
-    VROID = "VROID"
-    ASSET = "ASSET"
+    AVATAR = 'AVATAR'
+    OUTFIT = 'OUTFIT'
+    ACCESSORY = 'ACCESSORY'
+    TEXTURE = 'TEXTURE'
+    PROP = 'PROP'
+    GIMMICK_TOOL = 'GIMMICK_TOOL'
+    HAIRSTYLE = 'HAIRSTYLE'
+    WORLD = 'WORLD'
+    ANIMATION = 'ANIMATION'
+    VROID = 'VROID'
+    ASSET = 'ASSET'
 
 @dataclass(frozen=True)
 class TagSet:
@@ -57,16 +57,13 @@ class Item:
     tag_set: TagSet
     similar_items: List[str] = field(default_factory=list)
     user_state: Dict[str, Any] = field(default_factory=dict)
-    
-    # Extended metadata
     tags_raw: List[str] = field(default_factory=list)
     targets: List[AvatarRef] = field(default_factory=list)
     files: List[FileAsset] = field(default_factory=list)
-    source: str = "booth"
+    source: str = 'booth'
 
     @property
     def tags_generated(self) -> List[str]:
-        # Flatten tag_set for compatibility
         flattened = []
         for v in self.tag_set.__dict__.values():
             if isinstance(v, list):
@@ -75,7 +72,6 @@ class Item:
 
     @property
     def tags(self) -> List[str]:
-        # Flatten tag_set for legacy compatibility
         flattened = []
         for v in self.tag_set.__dict__.values():
             if isinstance(v, list):
@@ -85,7 +81,7 @@ class Item:
 @dataclass(frozen=True)
 class TestBlockLog:
     trace_id: str
-    block: Any # Avoid circular import if possible, or use Any
+    block: Any
     timestamp: datetime = field(default_factory=datetime.now)
 
 @dataclass(frozen=True)
@@ -110,20 +106,20 @@ class AccessLog:
 @dataclass(frozen=True)
 class GraphEdge:
     target_id: str
-    relation: Literal["created_by", "has_tag", "similar_to", "used_with"]
+    relation: Literal['created_by', 'has_tag', 'similar_to', 'used_with']
     weight: float = 1.0
 
 @dataclass(frozen=True)
 class GraphNode:
     node_id: str
-    node_type: Literal["item", "creator", "tag"]
+    node_type: Literal['item', 'creator', 'tag']
     edges: List[GraphEdge] = field(default_factory=list)
 
 @dataclass(frozen=True)
 class TagNode:
     tag_id: str
     name: str
-    dimension: str = "general"
+    dimension: str = 'general'
     weight: int = 0
 
 @dataclass(frozen=True)
@@ -142,5 +138,5 @@ class IndexModel:
     item_id: str
     vector_embedding: List[float] = field(default_factory=list)
     tag_index: List[str] = field(default_factory=list)
-    text_index: str = ""
+    text_index: str = ''
     filter_index: Dict[str, Any] = field(default_factory=dict)
