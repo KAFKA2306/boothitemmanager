@@ -19,11 +19,17 @@ def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
                 "compatible_avatars": [t.name for t in item.targets],
                 "tags": item.tags,
                 "style": item.tag_set.style,
-                "has_dynamic_bone": bool(any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags) or "PhysBone" in item.tag_set.feature),
-                "quest_compatible": bool(any(f in ["Quest対応", "Quest", "Android"] for f in item.tags) or "QuestCompatible" in item.tag_set.feature),
+                "has_dynamic_bone": bool(
+                    any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags)
+                    or "PhysBone" in item.tag_set.feature
+                ),
+                "quest_compatible": bool(
+                    any(f in ["Quest対応", "Quest", "Android"] for f in item.tags)
+                    or "QuestCompatible" in item.tag_set.feature
+                ),
                 "author": item.creator_name,
                 "thumbnail": item.thumbnail_url,
-                "booth_url": item.source_url
+                "booth_url": item.source_url,
             }
         )
     with open(output_path, "w", encoding="utf-8") as f:

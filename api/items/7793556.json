@@ -30,12 +30,21 @@
     "7221931",
     "7935545",
     "4688517",
-    "5166526",
-    "5343179"
+    "5026471",
+    "5691767"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:46:59.126302",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

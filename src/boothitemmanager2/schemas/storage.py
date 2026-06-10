@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from datetime import datetime
-from enum import Enum
+from enum import StrEnum
 from typing import Any, Literal
 
 
-class ItemCategory(str, Enum):
+class ItemCategory(StrEnum):
     AVATAR = "AVATAR"
     OUTFIT = "OUTFIT"
     ACCESSORY = "ACCESSORY"
@@ -66,6 +66,9 @@ class Item:
     targets: list[AvatarRef] = field(default_factory=list)
     files: list[FileAsset] = field(default_factory=list)
     source: str = "booth"
+    audit_status: Literal["PASS", "FAIL", "UNVERIFIED"] = "UNVERIFIED"
+    trace_log: dict[str, Any] = field(default_factory=dict)
+    raw_html_snippet: str | None = None
 
     @property
     def tags_generated(self) -> list[str]:

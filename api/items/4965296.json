@@ -27,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "2986054",
     "3502371",
-    "3736041",
-    "3741548",
-    "3759873",
-    "3950065"
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,5 +42,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:04.045083",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

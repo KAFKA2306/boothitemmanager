@@ -40,6 +40,13 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
             if not category:
                 category = infer_category(title, desc, [category_raw], targets, aliases)
             tag_set = extract_tag_set(title, desc, [category_raw], targets, aliases)
+            from datetime import datetime
+
+            trace_log = {
+                "timestamp": datetime.now().isoformat(),
+                "source_ndjson": file_path,
+                "rules": {"bridge_conversion": "ndjson_to_item"},
+            }
             item = Item(
                 item_id=item_id,
                 source_url=data.get("source_url", ""),
@@ -58,6 +65,9 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
                 tags_raw=[],
                 targets=targets,
                 files=[],
+                audit_status="UNVERIFIED",
+                trace_log=trace_log,
+                raw_html_snippet=None,
             )
             items.append(item)
     return TestBlock(

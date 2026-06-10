@@ -28,14 +28,23 @@
   },
   "similar_items": [
     "3761565",
-    "4409363",
-    "4493190",
-    "4836100",
-    "5196178"
+    "1456186",
+    "2583342",
+    "2966074",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:02.987095",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

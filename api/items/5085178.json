@@ -30,8 +30,8 @@
     "5268312",
     "5463408",
     "7193379",
-    "3464556",
-    "3466425"
+    "4480336",
+    "4686246"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,5 +42,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:02.503679",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

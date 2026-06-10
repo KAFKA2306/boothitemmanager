@@ -29,12 +29,21 @@
   },
   "similar_items": [
     "4213786",
-    "4837941",
-    "4414941"
+    "4837941"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:46:44.834945",
+    "source_html": "input/raw/3984867.html",
+    "rules": {
+      "item_id_regex": "items/(\\d+)",
+      "target_avatar_regex": "(?<![a-z0-9]){term}(?![a-z0-9])"
+    }
+  },
+  "raw_html_snippet": "file:///home/kafka/projects/boothitemmanager/input/raw/3984867.html#sha256=b7ad3121c8bf999b91b960b05e1085a12ccf1729f6340096b2d7ba7e8a1b71fc"
 }

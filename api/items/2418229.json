@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Japanese",
-      "Cyber"
+      "Cyber",
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -26,15 +26,24 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1738520",
-    "1911517",
-    "2647719",
-    "3504728",
-    "1486105"
+    "1504757",
+    "1864917",
+    "1896461",
+    "1918961",
+    "1939161"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:00.717498",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

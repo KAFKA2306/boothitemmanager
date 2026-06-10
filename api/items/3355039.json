@@ -27,15 +27,24 @@
     "avatar_link": []
   },
   "similar_items": [
+    "2322182",
     "2508896",
+    "2961938",
     "3285133",
-    "3645638",
-    "3781652",
-    "3806697"
+    "3645638"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:46:59.954307",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

@@ -27,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "4724831",
-    "4729198",
-    "4731643",
-    "4731770",
-    "4735883"
+    "3464556",
+    "3466425",
+    "3599316",
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,5 +42,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:46:58.132456",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

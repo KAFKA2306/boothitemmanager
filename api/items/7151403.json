@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Grus",
-      "Manuka"
+      "Manuka",
+      "Grus"
     ]
   },
   "similar_items": [
-    "3242007",
-    "3275381",
-    "3518609",
-    "3613571",
-    "3653584"
+    "4686246",
+    "4844427",
+    "5057865",
+    "5058253",
+    "5058959"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -45,5 +45,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:00.641528",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

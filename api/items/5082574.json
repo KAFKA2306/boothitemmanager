@@ -28,11 +28,11 @@
     ]
   },
   "similar_items": [
-    "4024914",
-    "4888002",
     "5056671",
     "5059123",
-    "5060728"
+    "5060728",
+    "5060730",
+    "5060744"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -43,5 +43,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:01.952349",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

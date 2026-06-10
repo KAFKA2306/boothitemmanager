@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "ModularAvatar",
-      "lilToon"
+      "lilToon",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
@@ -43,5 +43,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:00.402644",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

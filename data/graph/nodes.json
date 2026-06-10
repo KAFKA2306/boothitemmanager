@@ -98,17 +98,17 @@
     }
   },
   {
-    "id": "tag:ModularAvatar",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ModularAvatar"
-    }
-  },
-  {
     "id": "tag:PhysBone",
     "label": "Tag",
     "properties": {
       "name": "tag:PhysBone"
+    }
+  },
+  {
+    "id": "tag:ModularAvatar",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ModularAvatar"
     }
   },
   {

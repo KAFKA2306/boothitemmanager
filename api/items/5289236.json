@@ -29,9 +29,9 @@
   "similar_items": [
     "4056082",
     "5533070",
-    "2508896",
-    "3285133",
-    "3645638"
+    "3904271",
+    "4019705",
+    "4021584"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,5 +42,14 @@
     }
   ],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:46:59.929453",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

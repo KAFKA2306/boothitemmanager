@@ -14,9 +14,9 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Military",
+      "Cyber",
       "Lolita",
-      "Cyber"
+      "Military"
     ],
     "color": [],
     "outfit_type": [],
@@ -30,12 +30,21 @@
     "3783490",
     "5285257",
     "4341445",
-    "1542859",
-    "1777940"
+    "1504757",
+    "1864917"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:01.491755",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

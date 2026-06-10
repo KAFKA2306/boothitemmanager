@@ -28,7 +28,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         json.dump(
             [asdict(item) for item in items], f, ensure_ascii=False, indent=2, default=serialize
         )
-    
+
     # Generate optimized catalog summary parts for instant page load
     catalog_summaries = []
     items_with_compat = 0
@@ -36,43 +36,83 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         has_compat = len(item.targets) > 0
         if has_compat:
             items_with_compat += 1
-            
-        catalog_summaries.append({
-            "id": item.item_id,
-            "title": item.title,
-            "category": item.category.value if hasattr(item.category, "value") else str(item.category),
-            "price": item.price,
-            "like_count": item.like_count,
-            "compatible_avatars": [t.name for t in item.targets],
-            "tags": item.tags,
-            "style": item.tag_set.style,
-            "has_dynamic_bone": bool(any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags) or "PhysBone" in item.tag_set.feature),
-            "quest_compatible": bool(any(f in ["Quest対応", "Quest", "Android"] for f in item.tags) or "QuestCompatible" in item.tag_set.feature),
-            "author": item.creator_name,
-            "thumbnail": item.thumbnail_url,
-            "booth_url": item.source_url
-        })
-    
+
+        catalog_summaries.append(
+            {
+                "id": item.item_id,
+                "title": item.title,
+                "category": item.category.value
+                if hasattr(item.category, "value")
+                else str(item.category),
+                "price": item.price,
+                "like_count": item.like_count,
+                "compatible_avatars": [t.name for t in item.targets],
+                "tags": item.tags,
+                "style": item.tag_set.style,
+                "has_dynamic_bone": bool(
+                    any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags)
+                    or "PhysBone" in item.tag_set.feature
+                ),
+                "quest_compatible": bool(
+                    any(f in ["Quest対応", "Quest", "Android"] for f in item.tags)
+                    or "QuestCompatible" in item.tag_set.feature
+                ),
+                "author": item.creator_name,
+                "thumbnail": item.thumbnail_url,
+                "booth_url": item.source_url,
+            }
+        )
+
     avatar_compatibility_rate = (items_with_compat / len(items)) * 100 if items else 0
-    
+
     part1 = catalog_summaries[:2000]
     part2 = catalog_summaries[2000:]
-    
+
     # Save to api_dir (api/)
     with open(os.path.join(api_dir, "catalog_summary.json"), "w", encoding="utf-8") as f:
         json.dump(catalog_summaries, f, ensure_ascii=False, indent=2)
     with open(os.path.join(api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
-        json.dump(part1, f, ensure_ascii=False, separators=(',', ':'))
+        json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
-        json.dump(part2, f, ensure_ascii=False, separators=(',', ':'))
-        
+        json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
+
+    # Generate fallback JS scripts
+    with open(os.path.join(api_dir, "catalog_summary_part1.js"), "w", encoding="utf-8") as f:
+        f.write("window.BOOTH_CATALOG_PART1 = ")
+        json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
+        f.write(";")
+
+    metadata_path = os.path.join(api_dir, "metadata.json")
+    if os.path.exists(metadata_path):
+        with open(metadata_path, encoding="utf-8") as f:
+            meta_content = json.load(f)
+        with open(os.path.join(api_dir, "metadata.js"), "w", encoding="utf-8") as f:
+            f.write("window.BOOTH_METADATA = ")
+            json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
+            f.write(";")
+
     # Save to dist/api/ if it exists
     dist_api_dir = os.path.join("dist", "api")
     if os.path.exists(dist_api_dir):
-        with open(os.path.join(dist_api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
-            json.dump(part1, f, ensure_ascii=False, separators=(',', ':'))
-        with open(os.path.join(dist_api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
-            json.dump(part2, f, ensure_ascii=False, separators=(',', ':'))
+        with open(
+            os.path.join(dist_api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8"
+        ) as f:
+            json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
+        with open(
+            os.path.join(dist_api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8"
+        ) as f:
+            json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
+        with open(
+            os.path.join(dist_api_dir, "catalog_summary_part1.js"), "w", encoding="utf-8"
+        ) as f:
+            f.write("window.BOOTH_CATALOG_PART1 = ")
+            json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
+            f.write(";")
+        if os.path.exists(metadata_path):
+            with open(os.path.join(dist_api_dir, "metadata.js"), "w", encoding="utf-8") as f:
+                f.write("window.BOOTH_METADATA = ")
+                json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
+                f.write(";")
 
     summaries = []
     for item in items:

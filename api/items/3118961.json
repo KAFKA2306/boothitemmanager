@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Japanese",
-      "Gothic"
+      "Gothic",
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -26,15 +26,24 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1486105",
-    "2059604",
-    "2663182",
-    "3360896",
-    "3565853"
+    "3464556",
+    "3466425",
+    "3599316",
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:02.782960",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

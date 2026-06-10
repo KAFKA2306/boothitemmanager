@@ -16,10 +16,7 @@ from ..schemas.storage import AvatarRef, FileAsset, Item, ItemCategory, TagSet
 def _pick_like_count(soup: BeautifulSoup) -> int:
     elem = soup.select_one("[data-wishlist-count]")
     if elem and elem.get("data-wishlist-count"):
-        try:
-            return int(elem.get("data-wishlist-count"))
-        except Exception:
-            pass
+        return int(elem.get("data-wishlist-count"))
     button = soup.select_one(".wish-list-button")
     if button:
         count_text = button.get_text(strip=True)
@@ -31,27 +28,20 @@ def _pick_like_count(soup: BeautifulSoup) -> int:
 
 def _pick_published_at(soup: BeautifulSoup, json_ld: dict[str, Any] | None) -> datetime | None:
     if json_ld and json_ld.get("releaseDate"):
-        try:
-            return datetime.fromisoformat(json_ld["releaseDate"].replace("Z", "+00:00"))
-        except Exception:
-            pass
+        return datetime.fromisoformat(json_ld["releaseDate"].replace("Z", "+00:00"))
     date_elem = soup.select_one(".base-datetime")
     if date_elem:
         date_str = date_elem.get_text(strip=True)
-        try:
-            return datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
-        except Exception:
-            pass
+        return datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
     time_tag = soup.find("time")
     if time_tag and time_tag.get("datetime"):
-        try:
-            return datetime.fromisoformat(time_tag["datetime"].replace("Z", "+00:00"))
-        except Exception:
-            pass
+        return datetime.fromisoformat(time_tag["datetime"].replace("Z", "+00:00"))
     return None
 
 
 def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
+    import hashlib
+
     soup = BeautifulSoup(raw_page.content, "html.parser")
     item_id_match = re.search("items/(\\d+)", raw_page.url)
     if not item_id_match:
@@ -73,6 +63,30 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     files = _pick_files(soup)
     like_count = _pick_like_count(soup)
     published_at = _pick_published_at(soup, json_ld)
+
+    # Compute provenance data
+    html_hash = hashlib.sha256(raw_page.content.encode("utf-8")).hexdigest()
+    raw_html_snippet = (
+        f"file:///home/kafka/projects/boothitemmanager/input/raw/{item_id}.html#sha256={html_hash}"
+    )
+
+    trace_log = {
+        "timestamp": datetime.now().isoformat(),
+        "source_html": f"input/raw/{item_id}.html",
+        "rules": {
+            "item_id_regex": "items/(\\d+)",
+            "target_avatar_regex": "(?<![a-z0-9]){term}(?![a-z0-9])",
+        },
+    }
+
+    # Audit determination
+    if not title or not thumbnail_url:
+        audit_status = "FAIL"
+    elif category == ItemCategory.ASSET or not targets:
+        audit_status = "UNVERIFIED"
+    else:
+        audit_status = "PASS"
+
     item = Item(
         item_id=item_id,
         source_url=raw_page.url,
@@ -91,6 +105,9 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
         tags_raw=tags_raw,
         targets=targets,
         files=files,
+        audit_status=audit_status,
+        trace_log=trace_log,
+        raw_html_snippet=raw_html_snippet,
     )
     return TestBlock(
         trace_id=trace_id,
@@ -113,7 +130,7 @@ def load_aliases() -> dict[str, Any]:
             with open(old_path, encoding="utf-8") as f:
                 return yaml.safe_load(f)
         return {}
-    
+
     res = {}
     try:
         avatars = yaml.safe_load(open(os.path.join(ontology_dir, "avatars.yaml"), encoding="utf-8"))
@@ -123,16 +140,16 @@ def load_aliases() -> dict[str, Any]:
             res["avatars"][code] = {
                 "name_ja": data.get("canonical_name"),
                 "item_id": data.get("booth_item_id"),
-                "aliases": data.get("aliases", [])
+                "aliases": data.get("aliases", []),
             }
-        
+
         tags = yaml.safe_load(open(os.path.join(ontology_dir, "tags.yaml"), encoding="utf-8"))
         res["categories"] = tags.get("categories", {})
         res["features"] = tags.get("features", {})
-        
+
         styles = yaml.safe_load(open(os.path.join(ontology_dir, "styles.yaml"), encoding="utf-8"))
         res["styles"] = styles.get("styles", {})
-        
+
     except Exception as e:
         print(f"⚠️ Warning: Failed to load granular ontology: {e}")
         # Final fallback
@@ -140,7 +157,7 @@ def load_aliases() -> dict[str, Any]:
         if os.path.exists(old_path):
             with open(old_path, encoding="utf-8") as f:
                 return yaml.safe_load(f)
-                
+
     return res
 
 
@@ -157,11 +174,8 @@ def _parse_og_tags(soup: BeautifulSoup) -> dict[str, str]:
 def _parse_json_ld(soup: BeautifulSoup) -> dict[str, Any] | None:
     for script in soup.find_all("script", type="application/ld+json"):
         if script.string:
-            try:
-                data = json.loads(script.string)
-                return data[0] if isinstance(data, list) else data
-            except Exception:
-                pass
+            data = json.loads(script.string)
+            return data[0] if isinstance(data, list) else data
     return None
 
 
@@ -192,13 +206,18 @@ def _pick_creator_id(soup: BeautifulSoup, url: str) -> str | None:
 def _pick_price(
     soup: BeautifulSoup, og_data: dict[str, str], json_ld: dict[str, Any] | None
 ) -> int | None:
-    try:
-        if json_ld and "offers" in json_ld:
-            return int(float(str(json_ld["offers"]["price"]).replace(",", "")))
-        if "price:amount" in og_data:
-            return int(float(og_data["price:amount"].replace(",", "")))
-    except Exception:
-        pass
+    if json_ld:
+        offers = json_ld.get("offers")
+        if isinstance(offers, dict):
+            price_val = offers.get("price")
+            if price_val is not None:
+                return int(float(str(price_val).replace(",", "")))
+        elif isinstance(offers, list) and len(offers) > 0:
+            price_val = offers[0].get("price")
+            if price_val is not None:
+                return int(float(str(price_val).replace(",", "")))
+    if "price:amount" in og_data:
+        return int(float(og_data["price:amount"].replace(",", "")))
     return None
 
 
@@ -237,9 +256,19 @@ def pick_targets(
 ) -> list[AvatarRef]:
     targets_map = {}
     text = f"{name} {description} {' '.join(tags)}".lower()
-    
+
     # Negative patterns to look for near the term
-    NEGATIONS = ["非対応", "不可", "except", "not supported", "not compatible", "除外", "のみ対応", "なし", "not"]
+    NEGATIONS = [
+        "非対応",
+        "不可",
+        "except",
+        "not supported",
+        "not compatible",
+        "除外",
+        "のみ対応",
+        "なし",
+        "not",
+    ]
 
     # 1. ID-based matching (Highest Confidence)
     found_ids = set(re.findall(r"items/(\d+)", description))
@@ -252,37 +281,39 @@ def pick_targets(
     for code, data in aliases.get("avatars", {}).items():
         if code in targets_map:
             continue
-            
+
         name_ja = data.get("name_ja", "")
         name_en = data.get("name_en", "")
-        terms = list(set([code.lower()] + [
-            t.lower()
-            for t in data.get("aliases", []) + [name_ja, name_en]
-            if t
-        ]))
-        
+        terms = list(
+            set(
+                [code.lower()]
+                + [t.lower() for t in data.get("aliases", []) + [name_ja, name_en] if t]
+            )
+        )
+
         for term in terms:
             # Fuzzy boundary: ensure not mid-word for alphanumeric
             if term.isalnum():
                 pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
             else:
                 pattern = re.escape(term)
-                
+
             for match in re.finditer(pattern, text):
                 idx = match.start()
                 # Check window before and after for negation
                 window_before = text[max(0, idx - 20) : idx]
                 window_after = text[idx : idx + 30]
-                
-                is_negated = any(n in window_before for n in NEGATIONS) or \
-                             any(n in window_after for n in NEGATIONS)
-                
+
+                is_negated = any(n in window_before for n in NEGATIONS) or any(
+                    n in window_after for n in NEGATIONS
+                )
+
                 if not is_negated:
                     targets_map[code] = AvatarRef(code=code, name=name_ja or code)
                     break
             if code in targets_map:
                 break
-                
+
     return list(targets_map.values())
 
 
@@ -333,13 +364,13 @@ def extract_tag_set(
         "season": [],
         "avatar_link": [t.code for t in targets],
     }
-    
+
     # 1. Categories mapping (Sub-categories into appropriate dimensions)
     cat_mapping = {
         "OUTFIT": "outfit_type",
         "ACCESSORY": "accessory",
         "HAIRSTYLE": "appearance",
-        "TEXTURE": "appearance"
+        "TEXTURE": "appearance",
     }
     for cat_code, data in aliases.get("categories", {}).items():
         terms = [_norm(t) for t in data.get("aliases", [])]

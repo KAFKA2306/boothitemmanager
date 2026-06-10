@@ -9,7 +9,7 @@ cp index.html dist/
 
 mkdir -p dist/api
 if [ -d api ]; then
-  cp api/*.json dist/api/ 2>/dev/null || true
+  cp api/*.json api/*.js dist/api/ 2>/dev/null || true
 fi
 
 if [ -d api/items ]; then

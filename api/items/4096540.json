@@ -29,13 +29,22 @@
   "similar_items": [
     "5161180",
     "6986808",
-    "2866343",
-    "3050625",
-    "3143286"
+    "4551617",
+    "1228094",
+    "1306657"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [],
   "files": [],
-  "source": "booth"
+  "source": "booth",
+  "audit_status": "UNVERIFIED",
+  "trace_log": {
+    "timestamp": "2026-06-11T06:47:00.368825",
+    "source_ndjson": "data/raw/index.ndjson",
+    "rules": {
+      "bridge_conversion": "ndjson_to_item"
+    }
+  },
+  "raw_html_snippet": null
 }

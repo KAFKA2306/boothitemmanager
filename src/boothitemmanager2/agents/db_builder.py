@@ -36,6 +36,9 @@ def build_db(items: list[Item], trace_id: str) -> TestBlock:
             "targets": [{"code": t.code, "name": t.name} for t in item.targets],
             "similar_items": item.similar_items,
             "user_state": item.user_state,
+            "audit_status": item.audit_status,
+            "trace_log": item.trace_log,
+            "raw_html_snippet": item.raw_html_snippet,
         }
 
     catalog = [_item_to_dict(item) for item in items]
