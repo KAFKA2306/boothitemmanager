@@ -3,67 +3,139 @@
     {
       "tag_id": "Aoi",
       "name": "Aoi",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 1
     },
     {
-      "tag_id": "Modular Avatar",
-      "name": "Modular Avatar",
-      "dimension": "general",
+      "tag_id": "ダウンジャケット",
+      "name": "ダウンジャケット",
+      "dimension": "outfit_type",
       "weight": 2
     },
     {
-      "tag_id": "lilToon",
-      "name": "lilToon",
-      "dimension": "general",
+      "tag_id": "マフラー",
+      "name": "マフラー",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "帽子",
+      "name": "帽子",
+      "dimension": "appearance",
       "weight": 3
     },
     {
-      "tag_id": "碧唯3D",
-      "name": "碧唯3D",
-      "dimension": "general",
-      "weight": 1
+      "tag_id": "金",
+      "name": "金",
+      "dimension": "color",
+      "weight": 4
     },
     {
       "tag_id": "INABA",
       "name": "INABA",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 3
     },
     {
       "tag_id": "KitsuneAme",
       "name": "KitsuneAme",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 3
+    },
+    {
+      "tag_id": "Modular Avatar",
+      "name": "Modular Avatar",
+      "dimension": "feature",
+      "weight": 2
+    },
+    {
+      "tag_id": "SF",
+      "name": "SF",
+      "dimension": "style",
+      "weight": 1
     },
     {
       "tag_id": "Shiina",
       "name": "Shiina",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 4
+    },
+    {
+      "tag_id": "ジャケット",
+      "name": "ジャケット",
+      "dimension": "outfit_type",
+      "weight": 1
+    },
+    {
+      "tag_id": "スカート",
+      "name": "スカート",
+      "dimension": "outfit_type",
+      "weight": 1
+    },
+    {
+      "tag_id": "尻尾",
+      "name": "尻尾",
+      "dimension": "appearance",
+      "weight": 1
+    },
+    {
+      "tag_id": "着物",
+      "name": "着物",
+      "dimension": "outfit_type",
+      "weight": 2
+    },
+    {
+      "tag_id": "青",
+      "name": "青",
+      "dimension": "color",
+      "weight": 1
+    },
+    {
+      "tag_id": "靴下",
+      "name": "靴下",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "レギンス",
+      "name": "レギンス",
+      "dimension": "outfit_type",
+      "weight": 1
+    },
+    {
+      "tag_id": "リボン",
+      "name": "リボン",
+      "dimension": "appearance",
+      "weight": 1
     },
     {
       "tag_id": "Kikyo",
       "name": "Kikyo",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 1
     },
     {
       "tag_id": "Moe",
       "name": "Moe",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
+      "weight": 1
+    },
+    {
+      "tag_id": "PhysBone",
+      "name": "PhysBone",
+      "dimension": "feature",
       "weight": 1
     },
     {
       "tag_id": "Shinra",
       "name": "Shinra",
-      "dimension": "avatar",
+      "dimension": "avatar_link",
       "weight": 1
     },
     {
-      "tag_id": "Shinra3D",
-      "name": "Shinra3D",
-      "dimension": "general",
+      "tag_id": "アーマー",
+      "name": "アーマー",
+      "dimension": "outfit_type",
       "weight": 1
     },
     {
@@ -71,38 +143,64 @@
       "name": "サイバー",
       "dimension": "style",
       "weight": 1
+    },
+    {
+      "tag_id": "マスク",
+      "name": "マスク",
+      "dimension": "appearance",
+      "weight": 1
     }
   ],
   "edges": [
     {
       "source_id": "Aoi",
-      "target_id": "Modular Avatar",
+      "target_id": "ダウンジャケット",
       "strength": 0.5
     },
     {
       "source_id": "Aoi",
-      "target_id": "lilToon",
+      "target_id": "マフラー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Aoi",
+      "target_id": "帽子",
       "strength": 0.3333
     },
     {
       "source_id": "Aoi",
-      "target_id": "碧唯3D",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "ダウンジャケット",
+      "target_id": "マフラー",
       "strength": 1.0
     },
     {
-      "source_id": "Modular Avatar",
-      "target_id": "lilToon",
+      "source_id": "ダウンジャケット",
+      "target_id": "帽子",
       "strength": 0.6667
     },
     {
-      "source_id": "Modular Avatar",
-      "target_id": "碧唯3D",
+      "source_id": "ダウンジャケット",
+      "target_id": "金",
       "strength": 0.5
     },
     {
-      "source_id": "lilToon",
-      "target_id": "碧唯3D",
-      "strength": 0.3333
+      "source_id": "マフラー",
+      "target_id": "帽子",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "マフラー",
+      "target_id": "金",
+      "strength": 0.5
+    },
+    {
+      "source_id": "帽子",
+      "target_id": "金",
+      "strength": 0.75
     },
     {
       "source_id": "INABA",
@@ -111,13 +209,78 @@
     },
     {
       "source_id": "INABA",
+      "target_id": "Modular Avatar",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "SF",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
       "target_id": "Shiina",
       "strength": 0.75
     },
     {
       "source_id": "INABA",
-      "target_id": "lilToon",
+      "target_id": "ジャケット",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "スカート",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "ダウンジャケット",
+      "strength": 0.25
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "マフラー",
+      "strength": 0.25
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "尻尾",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "帽子",
       "strength": 0.5
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "着物",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "金",
+      "strength": 0.75
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "青",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "靴下",
+      "strength": 0.25
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Modular Avatar",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "SF",
+      "strength": 0.3333
     },
     {
       "source_id": "KitsuneAme",
@@ -126,13 +289,448 @@
     },
     {
       "source_id": "KitsuneAme",
-      "target_id": "lilToon",
+      "target_id": "ジャケット",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "スカート",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "ダウンジャケット",
+      "strength": 0.25
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "マフラー",
+      "strength": 0.25
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "尻尾",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "帽子",
+      "strength": 0.5
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "着物",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "金",
+      "strength": 0.75
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "青",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "靴下",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "SF",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Shiina",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "ジャケット",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "スカート",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "ダウンジャケット",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "マフラー",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "尻尾",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "帽子",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "着物",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "金",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "青",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "靴下",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "SF",
+      "target_id": "Shiina",
+      "strength": 0.25
+    },
+    {
+      "source_id": "SF",
+      "target_id": "ジャケット",
+      "strength": 1.0
+    },
+    {
+      "source_id": "SF",
+      "target_id": "スカート",
+      "strength": 1.0
+    },
+    {
+      "source_id": "SF",
+      "target_id": "ダウンジャケット",
+      "strength": 0.5
+    },
+    {
+      "source_id": "SF",
+      "target_id": "マフラー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "SF",
+      "target_id": "尻尾",
+      "strength": 1.0
+    },
+    {
+      "source_id": "SF",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "SF",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "SF",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "SF",
+      "target_id": "青",
+      "strength": 1.0
+    },
+    {
+      "source_id": "SF",
+      "target_id": "靴下",
       "strength": 0.5
     },
     {
       "source_id": "Shiina",
-      "target_id": "lilToon",
+      "target_id": "ジャケット",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "スカート",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "ダウンジャケット",
+      "strength": 0.2
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "マフラー",
+      "strength": 0.2
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "尻尾",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "帽子",
       "strength": 0.4
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "金",
+      "strength": 0.6
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "青",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "スカート",
+      "strength": 1.0
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "ダウンジャケット",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "マフラー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "尻尾",
+      "strength": 1.0
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "青",
+      "strength": 1.0
+    },
+    {
+      "source_id": "ジャケット",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "ダウンジャケット",
+      "strength": 0.5
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "マフラー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "尻尾",
+      "strength": 1.0
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "青",
+      "strength": 1.0
+    },
+    {
+      "source_id": "スカート",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ダウンジャケット",
+      "target_id": "尻尾",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ダウンジャケット",
+      "target_id": "着物",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "ダウンジャケット",
+      "target_id": "青",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ダウンジャケット",
+      "target_id": "靴下",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "マフラー",
+      "target_id": "尻尾",
+      "strength": 0.5
+    },
+    {
+      "source_id": "マフラー",
+      "target_id": "着物",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "マフラー",
+      "target_id": "青",
+      "strength": 0.5
+    },
+    {
+      "source_id": "マフラー",
+      "target_id": "靴下",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "尻尾",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "尻尾",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "尻尾",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "尻尾",
+      "target_id": "青",
+      "strength": 1.0
+    },
+    {
+      "source_id": "尻尾",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "帽子",
+      "target_id": "着物",
+      "strength": 0.25
+    },
+    {
+      "source_id": "帽子",
+      "target_id": "青",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "帽子",
+      "target_id": "靴下",
+      "strength": 0.25
+    },
+    {
+      "source_id": "着物",
+      "target_id": "金",
+      "strength": 0.5
+    },
+    {
+      "source_id": "着物",
+      "target_id": "青",
+      "strength": 0.5
+    },
+    {
+      "source_id": "着物",
+      "target_id": "靴下",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "金",
+      "target_id": "青",
+      "strength": 0.25
+    },
+    {
+      "source_id": "金",
+      "target_id": "靴下",
+      "strength": 0.2
+    },
+    {
+      "source_id": "青",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "レギンス",
+      "strength": 0.25
+    },
+    {
+      "source_id": "レギンス",
+      "target_id": "靴下",
+      "strength": 0.5
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "リボン",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "リボン",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "リボン",
+      "strength": 0.25
+    },
+    {
+      "source_id": "リボン",
+      "target_id": "着物",
+      "strength": 0.5
+    },
+    {
+      "source_id": "リボン",
+      "target_id": "金",
+      "strength": 0.25
     },
     {
       "source_id": "INABA",
@@ -141,12 +739,12 @@
     },
     {
       "source_id": "INABA",
-      "target_id": "Modular Avatar",
-      "strength": 0.25
+      "target_id": "Moe",
+      "strength": 0.3333
     },
     {
       "source_id": "INABA",
-      "target_id": "Moe",
+      "target_id": "PhysBone",
       "strength": 0.3333
     },
     {
@@ -156,12 +754,17 @@
     },
     {
       "source_id": "INABA",
-      "target_id": "Shinra3D",
+      "target_id": "アーマー",
       "strength": 0.3333
     },
     {
       "source_id": "INABA",
       "target_id": "サイバー",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "マスク",
       "strength": 0.3333
     },
     {
@@ -181,6 +784,11 @@
     },
     {
       "source_id": "Kikyo",
+      "target_id": "PhysBone",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Kikyo",
       "target_id": "Shiina",
       "strength": 0.25
     },
@@ -191,13 +799,8 @@
     },
     {
       "source_id": "Kikyo",
-      "target_id": "Shinra3D",
+      "target_id": "アーマー",
       "strength": 1.0
-    },
-    {
-      "source_id": "Kikyo",
-      "target_id": "lilToon",
-      "strength": 0.3333
     },
     {
       "source_id": "Kikyo",
@@ -205,8 +808,18 @@
       "strength": 1.0
     },
     {
-      "source_id": "KitsuneAme",
-      "target_id": "Modular Avatar",
+      "source_id": "Kikyo",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "金",
       "strength": 0.25
     },
     {
@@ -216,17 +829,27 @@
     },
     {
       "source_id": "KitsuneAme",
+      "target_id": "PhysBone",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
       "target_id": "Shinra",
       "strength": 0.3333
     },
     {
       "source_id": "KitsuneAme",
-      "target_id": "Shinra3D",
+      "target_id": "アーマー",
       "strength": 0.3333
     },
     {
       "source_id": "KitsuneAme",
       "target_id": "サイバー",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "マスク",
       "strength": 0.3333
     },
     {
@@ -236,48 +859,103 @@
     },
     {
       "source_id": "Modular Avatar",
+      "target_id": "PhysBone",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Shinra",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "アーマー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "サイバー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "マスク",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "PhysBone",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
       "target_id": "Shiina",
-      "strength": 0.2
-    },
-    {
-      "source_id": "Modular Avatar",
-      "target_id": "Shinra",
-      "strength": 0.5
-    },
-    {
-      "source_id": "Modular Avatar",
-      "target_id": "Shinra3D",
-      "strength": 0.5
-    },
-    {
-      "source_id": "Modular Avatar",
-      "target_id": "サイバー",
-      "strength": 0.5
+      "strength": 0.25
     },
     {
       "source_id": "Moe",
+      "target_id": "Shinra",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "アーマー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "PhysBone",
       "target_id": "Shiina",
       "strength": 0.25
     },
     {
-      "source_id": "Moe",
+      "source_id": "PhysBone",
       "target_id": "Shinra",
       "strength": 1.0
     },
     {
-      "source_id": "Moe",
-      "target_id": "Shinra3D",
+      "source_id": "PhysBone",
+      "target_id": "アーマー",
       "strength": 1.0
     },
     {
-      "source_id": "Moe",
-      "target_id": "lilToon",
+      "source_id": "PhysBone",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "PhysBone",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "PhysBone",
+      "target_id": "帽子",
       "strength": 0.3333
     },
     {
-      "source_id": "Moe",
-      "target_id": "サイバー",
-      "strength": 1.0
+      "source_id": "PhysBone",
+      "target_id": "金",
+      "strength": 0.25
     },
     {
       "source_id": "Shiina",
@@ -286,7 +964,7 @@
     },
     {
       "source_id": "Shiina",
-      "target_id": "Shinra3D",
+      "target_id": "アーマー",
       "strength": 0.25
     },
     {
@@ -295,14 +973,14 @@
       "strength": 0.25
     },
     {
-      "source_id": "Shinra",
-      "target_id": "Shinra3D",
-      "strength": 1.0
+      "source_id": "Shiina",
+      "target_id": "マスク",
+      "strength": 0.25
     },
     {
       "source_id": "Shinra",
-      "target_id": "lilToon",
-      "strength": 0.3333
+      "target_id": "アーマー",
+      "strength": 1.0
     },
     {
       "source_id": "Shinra",
@@ -310,19 +988,64 @@
       "strength": 1.0
     },
     {
-      "source_id": "Shinra3D",
-      "target_id": "lilToon",
+      "source_id": "Shinra",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "帽子",
       "strength": 0.3333
     },
     {
-      "source_id": "Shinra3D",
+      "source_id": "Shinra",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "アーマー",
       "target_id": "サイバー",
       "strength": 1.0
     },
     {
-      "source_id": "lilToon",
-      "target_id": "サイバー",
+      "source_id": "アーマー",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "アーマー",
+      "target_id": "帽子",
       "strength": 0.3333
+    },
+    {
+      "source_id": "アーマー",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "サイバー",
+      "target_id": "マスク",
+      "strength": 1.0
+    },
+    {
+      "source_id": "サイバー",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "サイバー",
+      "target_id": "金",
+      "strength": 0.25
+    },
+    {
+      "source_id": "マスク",
+      "target_id": "帽子",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "マスク",
+      "target_id": "金",
+      "strength": 0.25
     }
   ]
 }

@@ -32,6 +32,14 @@ tasks:
     cmds:
       - uv run ruff format src
 
+  test:
+    desc: Run tests
+    cmds:
+      - uv run python3 test_similarity.py
+      - uv run python3 test_duplicates.py
+
   check:
-    desc: Run lint and format
+    desc: Run lint, format, and tests
     deps: [lint, format]
+    cmds:
+      - task: test

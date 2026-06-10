@@ -31,6 +31,7 @@
 !audit_run.py
 !index.html
 !verify_fix.py
+!test_duplicates.py
 
 # Force ignore clutter even within tracked categories if they appear (just in case)
 __pycache__/

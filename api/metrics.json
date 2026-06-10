@@ -1,16 +1,16 @@
 {
-  "total_items": 40317,
+  "total_items": 40017,
   "types": {
-    "ANIMATION": 1164,
-    "AVATAR": 4337,
-    "GIMMICK_TOOL": 2187,
-    "PROP": 2157,
-    "ASSET": 6728,
-    "OUTFIT": 16253,
-    "HAIRSTYLE": 1355,
-    "WORLD": 1537,
-    "TEXTURE": 3509,
-    "ACCESSORY": 537,
+    "ANIMATION": 1159,
+    "AVATAR": 4259,
+    "GIMMICK_TOOL": 2157,
+    "PROP": 2151,
+    "ASSET": 6719,
+    "OUTFIT": 16149,
+    "HAIRSTYLE": 1296,
+    "WORLD": 1535,
+    "TEXTURE": 3504,
+    "ACCESSORY": 535,
     "VROID": 553
   },
   "top_shops": {
@@ -18,24 +18,24 @@
     "overay": 183,
     "kodamaaltanative": 176,
     "kainrypus": 165,
-    "cybercritter": 149,
-    "van-labo": 108,
+    "cybercritter": 146,
     "seele": 108,
+    "van-labo": 106,
     "stellaquartz": 104,
-    "koarare-atelier": 102,
+    "koarare-atelier": 101,
     "vinzo": 101
   },
   "top_avatars": {
-    "桔梗": 596,
-    "マヌカ": 514,
-    "しなの": 361,
-    "セレスティア": 352,
-    "森羅": 326,
-    "萌": 316,
-    "ルルネ": 260,
+    "桔梗": 595,
+    "マヌカ": 513,
+    "しなの": 360,
+    "セレスティア": 351,
+    "森羅": 325,
+    "萌": 315,
+    "ルルネ": 259,
     "SUN": 209,
-    "真冬": 90,
-    "瑞希": 71
+    "真冬": 89,
+    "瑞希": 70
   },
-  "updated_at": "2026-06-10T18:35:03.669214"
+  "updated_at": "2026-06-10T19:56:16.121590"
 }
