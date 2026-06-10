@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
+    <style>
+        :root {
+            --accent: #00e5ff;
+            --accent-glow: rgba(0, 229, 255, 0.3);
+            --bg-deep: #0a0a0a;
+            --bg-surface: #141414;
+            --bg-card: #1c1c1c;
+            --text-primary: #f5f5f5;
+            --text-secondary: #aaaaaa;
+            --text-muted: #666666;
+            --border: #2a2a2a;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: var(--font-main);
+            margin: 0;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--accent);
+            border-radius: 6px;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        .logo-text {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
+        }
+
+        .search-bar {
+            flex: 1;
+            max-width: 700px;
+            margin: 0 3rem;
+            position: relative;
+        }
+
+        #search-input {
+            width: 100%;
+            background: var(--bg-deep);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.8rem 1.2rem;
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        #search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        .db-stat {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .db-stat span {
+            color: var(--accent);
+        }
+
+        .app-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        aside {
+            width: 300px;
+            background: var(--bg-surface);
+            border-right: 1px solid var(--border);
+            padding: 1.5rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .filter-section h3 {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 1rem;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .filter-tag {
+            background: var(--bg-deep);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .filter-tag:hover {
+            border-color: var(--text-muted);
+            color: var(--text-primary);
+        }
+
+        .filter-tag.active {
+            background: var(--accent-glow);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background: var(--bg-deep);
+        }
+
+        .view-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .result-count {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .asset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .asset-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid transparent;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+        }
+
+        .asset-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--border);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+
+        .asset-thumb-container {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background: #222;
+            position: relative;
+        }
+
+        .asset-thumb {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .asset-price-overlay {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(4px);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .asset-info {
+            padding: 1rem;
+        }
+
+        .asset-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.4rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .asset-creator {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.8rem;
+        }
+
+        .asset-tags {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            height: 18px;
+            overflow: hidden;
+        }
+
+        .asset-tag {
+            font-size: 0.65rem;
+            background: var(--bg-surface);
+            color: var(--text-secondary);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .category-badge {
+            display: inline-block;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 1px 5px;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+
+        .loading-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-muted);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Virtualization Optimization */
+        #load-more-trigger {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo-container">
+            <div class="logo-mark"></div>
+            <div class="logo-text">BoothItemManager2</div>
+        </a>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="アセット、ショップ、タグを検索...">
+        </div>
+        <div class="db-stat">DATABASE: <span id="item-count">--</span> ITEMS</div>
+    </header>
+
+    <div class="app-container">
+        <aside>
+            <div class="filter-section">
+                <h3>CATEGORY</h3>
+                <div class="tag-list" id="cat-filters">
+                    <div class="filter-tag active" data-cat="all">ALL</div>
+                    <div class="filter-tag" data-cat="avatar">AVATAR</div>
+                    <div class="filter-tag" data-cat="outfit">OUTFIT</div>
+                    <div class="filter-tag" data-cat="accessory">ACCESSORY</div>
+                    <div class="filter-tag" data-cat="gimmick">GIMMICK</div>
+                </div>
+            </div>
+            <div class="filter-section">
+                <h3>POPULAR AVATARS</h3>
+                <div class="tag-list" id="avatar-filters"></div>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <div class="view-controls">
+                <div class="result-count" id="result-count">Restructuring world...</div>
+            </div>
+            <div id="asset-grid" class="asset-grid"></div>
+            <div id="load-more-trigger">SCROLL TO LOAD MORE</div>
+        </main>
+    </div>
+
+    <script>
+        let allItems = [];
+        let filtered = [];
+        let displayedCount = 40;
+        let activeCat = 'all';
+        let activeAvatars = new Set();
+        let query = "";
+
+        const grid = document.getElementById('asset-grid');
+        const countSpan = document.getElementById('item-count');
+        const resCountSpan = document.getElementById('result-count');
+        const searchInput = document.getElementById('search-input');
+        const mainContent = document.getElementById('main-content');
+
+        async function init() {
+            try {
+                const res = await fetch('api/catalog.json');
+                allItems = await res.json();
+                countSpan.textContent = allItems.length.toLocaleString();
+                renderAvatars();
+                applyFilters();
+                setupObserver();
+                bindEvents();
+            } catch (e) {
+                console.error(e);
+                grid.innerHTML = '<div class="loading-screen">DATABASE OFFLINE</div>';
+            }
+        }
+
+        function bindEvents() {
+            searchInput.addEventListener('input', debounce((e) => {
+                query = e.target.value.toLowerCase();
+                applyFilters();
+            }, 250));
+
+            document.querySelectorAll('#cat-filters .filter-tag').forEach(tag => {
+                tag.addEventListener('click', () => {
+                    document.querySelectorAll('#cat-filters .filter-tag').forEach(t => t.classList.remove('active'));
+                    tag.classList.add('active');
+                    activeCat = tag.dataset.cat;
+                    applyFilters();
+                });
+            });
+
+            document.getElementById('avatar-filters').addEventListener('click', (e) => {
+                const tag = e.target.closest('.filter-tag');
+                if (!tag) return;
+                const av = tag.dataset.avatar;
+                if (activeAvatars.has(av)) {
+                    activeAvatars.delete(av);
+                    tag.classList.remove('active');
+                } else {
+                    activeAvatars.add(av);
+                    tag.classList.add('active');
+                }
+                applyFilters();
+            });
+        }
+
+        function applyFilters() {
+            filtered = allItems.filter(item => {
+                const searchable = `${item.title} ${item.creator_name} ${(item.tags_raw || []).join(' ')}`.toLowerCase();
+                const matchesText = !query || searchable.includes(query);
+                const matchesCat = activeCat === 'all' || item.category === activeCat;
+                const itemAvatars = (item.targets || []).map(t => t.code);
+                const matchesAvatar = activeAvatars.size === 0 || Array.from(activeAvatars).some(a => itemAvatars.includes(a));
+                return matchesText && matchesCat && matchesAvatar;
+            });
+            displayedCount = 40;
+            renderGrid();
+            resCountSpan.textContent = `RECOGNIZED ${filtered.length.toLocaleString()} ASSETS`;
+        }
+
+        function renderGrid() {
+            const chunk = filtered.slice(0, displayedCount);
+            if (chunk.length === 0) {
+                grid.innerHTML = '<div class="loading-screen">NO MATCHING ENTITIES</div>';
+                return;
+            }
+            grid.innerHTML = chunk.map(item => `
+                <a href="${item.source_url}" target="_blank" class="asset-card">
+                    <div class="asset-thumb-container">
+                        <img src="${item.thumbnail_url}" class="asset-thumb" loading="lazy" onerror="this.src='https://via.placeholder.com/250x250?text=NO+IMAGE'">
+                        <div class="asset-price-overlay">¥${(item.price || 0).toLocaleString()}</div>
+                    </div>
+                    <div class="asset-info">
+                        <div class="category-badge">${item.category}</div>
+                        <div class="asset-title" title="${item.title}">${item.title}</div>
+                        <div class="asset-creator">${item.creator_name}</div>
+                    </div>
+                </a>
+            `).join('');
+        }
+
+        function renderAvatars() {
+            const map = new Map();
+            allItems.forEach(item => {
+                (item.targets || []).forEach(t => map.set(t.code, (map.get(t.code) || 0) + 1));
+            });
+            const sorted = [...map.entries()].sort((a,b) => b[1] - a[1]).slice(0, 15);
+            document.getElementById('avatar-filters').innerHTML = sorted.map(([code, count]) => `
+                <div class="filter-tag" data-avatar="${code}">${code.toUpperCase()} <small>(${count})</small></div>
+            `).join('');
+        }
+
+        function setupObserver() {
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting && displayedCount < filtered.length) {
+                    displayedCount += 40;
+                    renderGrid();
+                }
+            }, { root: null, rootMargin: '200px' });
+            observer.observe(document.getElementById('load-more-trigger'));
+        }
+
+        function debounce(fn, ms) {
+            let t;
+            return (...args) => {
+                clearTimeout(t);
+                t = setTimeout(() => fn(...args), ms);
+            };
+        }
+
+        init();
+    </script>
+</body>
+</html>
