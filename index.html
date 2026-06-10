@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <script src="api/metadata.js" defer></script>
+    <script src="api/catalog_summary_part1.js" defer></script>
     <style>
         :root {
             --accent: #00f0ff;
@@ -528,7 +530,7 @@
             cat: 'all',
             price: 'all',
             features: new Set(),
-            styles: new Set(),
+            styles: null,
             colors: new Set(),
             sort: 'trending',
             query: ''
@@ -546,14 +548,34 @@
 
         async function init() {
             try {
-                // Load Dynamic Ontology Metadata
-                const mRes = await fetch('api/metadata.json');
-                if (mRes.ok) {
-                    const m = await mRes.json();
+                // Try to load via Fetch first
+                let metadataLoaded = false;
+                try {
+                    const mRes = await fetch('api/metadata.json');
+                    if (mRes.ok) {
+                        const m = await mRes.json();
+                        metaAvatars = m.avatars || [];
+                        metaStyles = m.styles || [];
+                        metaColors = m.colors || [];
+                        metaFeatures = m.features || [];
+                        metadataLoaded = true;
+                    }
+                } catch (fetchErr) {
+                    console.warn("Fetch metadata failed, attempting fallback script", fetchErr);
+                }
+
+                // Fallback to script-loaded metadata if fetch failed
+                if (!metadataLoaded && window.BOOTH_METADATA) {
+                    const m = window.BOOTH_METADATA;
                     metaAvatars = m.avatars || [];
                     metaStyles = m.styles || [];
                     metaColors = m.colors || [];
                     metaFeatures = m.features || [];
+                    metadataLoaded = true;
+                }
+
+                if (!metadataLoaded) {
+                    throw new Error("Metadata could not be loaded via fetch or local fallback scripts.");
                 }
 
                 renderStaticFilters();
@@ -567,9 +589,25 @@
                 }
 
                 // Load Data Phase 1
-                const res1 = await fetch('api/catalog_summary_part1.json');
-                if (!res1.ok) throw new Error(`HTTP ${res1.status}`);
-                allItems = await res1.json();
+                let part1Loaded = false;
+                try {
+                    const res1 = await fetch('api/catalog_summary_part1.json');
+                    if (res1.ok) {
+                        allItems = await res1.json();
+                        part1Loaded = true;
+                    }
+                } catch (fetchErr) {
+                    console.warn("Fetch catalog part 1 failed, attempting fallback script", fetchErr);
+                }
+
+                if (!part1Loaded && window.BOOTH_CATALOG_PART1) {
+                    allItems = window.BOOTH_CATALOG_PART1;
+                    part1Loaded = true;
+                }
+
+                if (!part1Loaded) {
+                    throw new Error("Catalog Part 1 could not be loaded via fetch or local fallback scripts.");
+                }
                 
                 DOM.splash.style.opacity = '0';
                 DOM.splash.style.pointerEvents = 'none';
@@ -580,21 +618,35 @@
                 applyFilters();
 
                 // Load Data Phase 2 (Background)
-                fetch('api/catalog_summary_part2.json')
-                    .then(r => r.ok ? r.json() : [])
-                    .then(part2 => {
-                        allItems = allItems.concat(part2);
-                        DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
-                        updateCounts();
-                        applyFilters();
-                    });
+                try {
+                    fetch('api/catalog_summary_part2.json')
+                        .then(r => r.ok ? r.json() : [])
+                        .then(part2 => {
+                            allItems = allItems.concat(part2);
+                            DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+                            updateCounts();
+                            applyFilters();
+                        }).catch(err => {
+                            console.warn("Background fetch of part 2 failed (expected in local file:// mode):", err);
+                            DOM.text.textContent = `LOCAL MODE [${allItems.length.toLocaleString()}]`;
+                        });
+                } catch (e) {
+                    console.warn("Part 2 loading error:", e);
+                }
 
                 bindEvents();
                 setupObserver();
             } catch (e) {
                 console.error(e);
-                DOM.msg.innerHTML = `<span style="color:#ff007a">SYSTEM OFFLINE</span><br><small>${e.message}</small>`;
-                document.querySelector('.spinner').style.borderTopColor = '#ff007a';
+                let fallbackMsg = e.message;
+                if (window.location.protocol === 'file:') {
+                    fallbackMsg = `CORS Error: Local file access is blocked by your browser's security settings.<br><br>
+                    <strong>To fix this, run a local web server:</strong><br>
+                    <code>npx serve</code> or <code>python -m http.server</code> in the project directory, then open the http link.`;
+                }
+                DOM.msg.innerHTML = `<span style="color:#ff007a">DATABASE OFFLINE (CORS)</span><br><br><span style="color:var(--text-secondary); font-size:0.85rem; line-height:1.5; text-align:left; display:block; max-width:400px; margin:0 auto; padding:12px; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px;">${fallbackMsg}</span>`;
+                const spinner = document.querySelector('.spinner');
+                if (spinner) spinner.style.borderTopColor = '#ff007a';
             }
         }
 
@@ -648,19 +700,41 @@
                 applyFilters();
             });
 
-            const handleTagToggle = (selector, set) => {
+            const handleTagToggle = (selector, key) => {
                 document.getElementById(selector).addEventListener('click', e => {
                     const pill = e.target.closest('.tag-pill');
                     if (!pill) return;
                     const val = pill.dataset.val;
-                    if (set.has(val)) set.delete(val); else set.add(val);
-                    pill.classList.toggle('active', set.has(val));
+                    const isSet = filters[key] instanceof Set;
+
+                    if (isSet) {
+                        if (filters[key].has(val)) filters[key].delete(val); else filters[key].add(val);
+                        pill.classList.toggle('active', filters[key].has(val));
+                    } else {
+                        filters[key] = (filters[key] === val) ? null : val;
+                        document.querySelectorAll(`#${selector} .tag-pill`).forEach(p => p.classList.toggle('active', p.dataset.val === filters[key]));
+                    }
                     applyFilters();
                 });
             };
-            handleTagToggle('feature-selector', filters.features);
-            handleTagToggle('style-selector', filters.styles);
-            handleTagToggle('color-selector', filters.colors);
+            handleTagToggle('feature-selector', 'features');
+            handleTagToggle('color-selector', 'colors');
+
+            // Style-tag is single-select (mutually exclusive)
+            document.getElementById('style-selector').addEventListener('click', e => {
+                const pill = e.target.closest('.style-tag');
+                if (!pill) return;
+                const val = pill.dataset.val;
+                const set = filters.styles;
+                const alreadyHas = set.has(val);
+                set.clear();
+                document.querySelectorAll('.style-tag').forEach(el => el.classList.remove('active'));
+                if (!alreadyHas) {
+                    set.add(val);
+                    pill.classList.add('active');
+                }
+                applyFilters();
+            });
 
             document.getElementById('modal-close-btn').addEventListener('click', () => DOM.dialog.close());
             DOM.dialog.addEventListener('click', e => { if (e.target === DOM.dialog) DOM.dialog.close(); });
@@ -697,7 +771,7 @@
 
                 const tags = new Set(i.tags || []);
                 for (const f of filters.features) if (!tags.has(f)) return false;
-                for (const s of filters.styles) if (!tags.has(s)) return false;
+                if (filters.styles && !tags.has(filters.styles)) return false;
                 for (const c of filters.colors) if (!tags.has(c)) return false;
 
                 if (filters.query) {
@@ -765,7 +839,7 @@
             if (filters.price !== 'all') addChip(`価格: ${filters.price}`, `rmPrice()`);
             
             filters.features.forEach(f => addChip(f, `rmFeat('${f}')`));
-            filters.styles.forEach(s => addChip(s, `rmStyle('${s}')`));
+            if (filters.styles) addChip(filters.styles, `rmStyle()`);
             filters.colors.forEach(c => addChip(c, `rmColor('${c}')`));
 
             if (h) h += `<button class="clear-filters-btn" onclick="clearAll()">Clear All</button>`;
@@ -779,11 +853,11 @@
         window.rmCat = () => { filters.cat = 'all'; document.querySelectorAll('.category-btn').forEach(b=>b.classList.toggle('active', b.dataset.cat==='all')); applyFilters(); };
         window.rmPrice = () => { filters.price = 'all'; document.querySelectorAll('.price-preset-btn').forEach(b=>b.classList.toggle('active', b.dataset.price==='all')); applyFilters(); };
         window.rmFeat = (v) => { filters.features.delete(v); document.querySelector(`.feature-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
-        window.rmStyle = (v) => { filters.styles.delete(v); document.querySelector(`.style-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
+        window.rmStyle = () => { filters.styles = null; document.querySelectorAll('.style-tag').forEach(b=>b.classList.remove('active')); applyFilters(); };
         window.rmColor = (v) => { filters.colors.delete(v); document.querySelector(`.color-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
         window.clearAll = () => { 
             filters.avatar = null; filters.cat = 'all'; filters.price = 'all'; 
-            filters.features.clear(); filters.styles.clear(); filters.colors.clear();
+            filters.features.clear(); filters.styles = null; filters.colors.clear();
             filters.query = ''; document.getElementById('search-bar').value = '';
             document.querySelectorAll('.active').forEach(e => e.classList.remove('active'));
             document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
