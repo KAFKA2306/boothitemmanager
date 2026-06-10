@@ -28,6 +28,45 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         json.dump(
             [asdict(item) for item in items], f, ensure_ascii=False, indent=2, default=serialize
         )
+    
+    # Generate optimized catalog summary parts for instant page load
+    catalog_summaries = []
+    for item in items:
+        # Extract flat list of tags
+        tags = set(item.tags_raw)
+        for cat_tags in item.tag_set.__dict__.values():
+            if isinstance(cat_tags, list):
+                tags.update(cat_tags)
+        
+        catalog_summaries.append({
+            "item_id": item.item_id,
+            "title": item.title,
+            "thumbnail_url": item.thumbnail_url,
+            "creator_name": item.creator_name,
+            "price": item.price,
+            "category": item.category.value if hasattr(item.category, "value") else str(item.category),
+            "like_count": item.like_count,
+            "tags": list(tags),
+            "targets": [t.code for t in item.targets]
+        })
+    
+    part1 = catalog_summaries[:2000]
+    part2 = catalog_summaries[2000:]
+    
+    # Save to api_dir (api/)
+    with open(os.path.join(api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
+        json.dump(part1, f, ensure_ascii=False, separators=(',', ':'))
+    with open(os.path.join(api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
+        json.dump(part2, f, ensure_ascii=False, separators=(',', ':'))
+        
+    # Save to dist/api/ if it exists
+    dist_api_dir = os.path.join("dist", "api")
+    if os.path.exists(dist_api_dir):
+        with open(os.path.join(dist_api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
+            json.dump(part1, f, ensure_ascii=False, separators=(',', ':'))
+        with open(os.path.join(dist_api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
+            json.dump(part2, f, ensure_ascii=False, separators=(',', ':'))
+
     summaries = []
     for item in items:
         summaries.append(
