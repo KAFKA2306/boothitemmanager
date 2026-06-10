@@ -14,20 +14,15 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune",
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3129255",
@@ -38,16 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    },
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

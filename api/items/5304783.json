@@ -23,7 +23,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinra"
+      "Shinra",
+      "Mamehinata"
     ]
   },
   "similar_items": [
@@ -39,6 +40,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
     }
   ],
   "files": [],

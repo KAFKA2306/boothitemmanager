@@ -11,7 +11,9 @@
   "price": 200,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Bone"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +24,7 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "SUN"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5679292",
@@ -35,12 +35,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

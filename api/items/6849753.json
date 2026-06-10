@@ -11,24 +11,18 @@
   "price": 300,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ピンク"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3721059",
@@ -39,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

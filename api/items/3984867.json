@@ -11,25 +11,21 @@
   "price": 4000,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "マフラー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "金"
+    "color": [],
+    "outfit_type": [],
+    "accessory": [
+      "face"
     ],
-    "outfit_type": [
-      "ダウンジャケット"
+    "feature": [
+      "lilToon",
+      "ModularAvatar"
     ],
-    "accessory": [],
-    "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Aoi"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4213786",
@@ -38,12 +34,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Aoi",
-      "name": "碧唯"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

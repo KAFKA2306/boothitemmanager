@@ -11,17 +11,15 @@
   "price": 300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "マスク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "Modular Avatar"
+      "ModularAvatar",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],

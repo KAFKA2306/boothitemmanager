@@ -20,10 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano",
-      "Bow"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5270288",
@@ -34,16 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
-      "code": "Bow",
-      "name": "Bow"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

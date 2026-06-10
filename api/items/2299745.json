@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Aoi"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3560088",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Aoi",
-      "name": "碧唯"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

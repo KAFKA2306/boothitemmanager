@@ -11,14 +11,19 @@
   "price": 1190,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation",
+      "Material"
+    ],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Street"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

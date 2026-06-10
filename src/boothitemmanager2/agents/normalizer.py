@@ -203,17 +203,33 @@ def _pick_files(soup: BeautifulSoup) -> list[FileAsset]:
 def pick_targets(
     name: str, description: str, tags: list[str], aliases: dict[str, Any]
 ) -> list[AvatarRef]:
-    targets = []
+    targets_map = {}
     text = f"{name} {description} {' '.join(tags)}".lower()
+    
+    # 1. Text-based alias matching
     for code, data in aliases.get("avatars", {}).items():
+        name_ja = data.get("name_ja", "")
+        name_en = data.get("name_en", "")
         terms = [code.lower()] + [
             t.lower()
-            for t in data.get("aliases", []) + [data.get("name_ja", ""), data.get("name_en", "")]
+            for t in data.get("aliases", []) + [name_ja, name_en]
             if t
         ]
-        if any(t in text for t in terms):
-            targets.append(AvatarRef(code=code, name=data.get("name_ja", code)))
-    return targets
+        # Use word boundaries or specific patterns to avoid over-matching
+        for term in terms:
+            if term in text:
+                targets_map[code] = AvatarRef(code=code, name=name_ja or code)
+                break
+                
+    # 2. ID-based matching (from description URLs)
+    found_ids = set(re.findall(r"items/(\d+)", description))
+    for code, data in aliases.get("avatars", {}).items():
+        target_id = str(data.get("item_id", ""))
+        if target_id and target_id in found_ids:
+            if code not in targets_map:
+                targets_map[code] = AvatarRef(code=code, name=data.get("name_ja", code))
+
+    return list(targets_map.values())
 
 
 def infer_category(
@@ -263,22 +279,44 @@ def extract_tag_set(
         "season": [],
         "avatar_link": [t.code for t in targets],
     }
-    mapping = {
-        "appearance_tags": "appearance",
-        "mood_tags": "style",
-        "color_tags": "color",
-        "outfit_tags": "outfit_type",
+    
+    # 1. Categories mapping (Sub-categories into appropriate dimensions)
+    cat_mapping = {
+        "OUTFIT": "outfit_type",
+        "ACCESSORY": "accessory",
+        "HAIRSTYLE": "appearance",
+        "TEXTURE": "appearance"
     }
-    for section, dim in mapping.items():
-        for key, data in aliases.get(section, {}).items():
-            name_ja = data.get("name_ja")
-            terms = [
-                _norm(t) for t in data.get("aliases", []) + ([name_ja] if name_ja else []) if t
-            ]
-            if any(t in text for t in terms):
-                res[dim].append(name_ja or key)
-    features = {"PhysBone": ["physbone", "pb"], "Modular Avatar": ["modular avatar", "ma"]}
-    for f, keywords in features.items():
-        if any(k in text for k in keywords):
-            res["feature"].append(f)
+    for cat_code, data in aliases.get("categories", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            dim = cat_mapping.get(cat_code)
+            if dim:
+                # Add sub-categories as tags if found
+                for sub in data.get("sub_categories", []):
+                    if _norm(sub) in text:
+                        res[dim].append(sub)
+
+    # 2. Features mapping
+    for feat_code, data in aliases.get("features", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["feature"].append(feat_code)
+
+    # 3. Styles mapping
+    for style_code, terms in aliases.get("styles", {}).items():
+        norm_terms = [_norm(t) for t in terms]
+        if any(t in text for t in norm_terms):
+            res["style"].append(style_code)
+
+    # 4. Components mapping (into feature/appearance)
+    for comp_code, terms in aliases.get("components", {}).items():
+        norm_terms = [_norm(t) for t in terms]
+        if any(t in text for t in norm_terms):
+            res["appearance"].append(comp_code)
+
+    # Deduplicate
+    for key in res:
+        res[key] = list(set(res[key]))
+
     return TagSet(**res)

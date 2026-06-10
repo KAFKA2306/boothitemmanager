@@ -11,14 +11,10 @@
   "price": 350,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ライム"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],

@@ -14,19 +14,15 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "着物"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Hakka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "2663182",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Hakka",
-      "name": "薄荷"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

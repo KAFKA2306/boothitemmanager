@@ -11,13 +11,17 @@
   "price": 990,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "QuestCompatible"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

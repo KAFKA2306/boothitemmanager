@@ -15,20 +15,16 @@
   "price": null,
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
     },
     {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",
@@ -120,5 +116,29 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [
+      "Shader"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [
+      "ear"
+    ],
+    "feature": [
+      "lilToon",
+      "ModularAvatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Selestia",
+      "Manuka",
+      "Moe"
+    ]
+  }
 }

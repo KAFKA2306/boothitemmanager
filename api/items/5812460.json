@@ -11,14 +11,10 @@
   "price": 500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ライム"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],

@@ -13,17 +13,12 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "ミニスカート",
-      "スカート"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

@@ -13,14 +13,13 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar",
+      "Poiyomi"
     ],
     "platform": [],
     "season": [],

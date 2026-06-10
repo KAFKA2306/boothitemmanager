@@ -13,22 +13,16 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "SUN"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "1683273",
@@ -39,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

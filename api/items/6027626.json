@@ -17,12 +17,14 @@
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "lilToon"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Shinra"
+      "Shinra",
+      "Manuka"
     ]
   },
   "similar_items": [

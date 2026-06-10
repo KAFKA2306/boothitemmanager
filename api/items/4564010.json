@@ -18,13 +18,11 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Cian"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5728363",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Cian",
-      "name": "シアン"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

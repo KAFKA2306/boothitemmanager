@@ -13,9 +13,7 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,8 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "SUN"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -40,10 +37,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "SUN",
-      "name": "SUN"
     }
   ],
   "files": [],

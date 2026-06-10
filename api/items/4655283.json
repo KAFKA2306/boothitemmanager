@@ -17,12 +17,12 @@
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "lilToon"
+    ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Fiona"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4596278",
@@ -33,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Fiona",
-      "name": "フィオナ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

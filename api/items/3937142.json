@@ -15,13 +15,11 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ワンピース"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "Modular Avatar"
+      "ModularAvatar",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],

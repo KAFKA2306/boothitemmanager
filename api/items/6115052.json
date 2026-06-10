@@ -11,22 +11,16 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3354886",
@@ -37,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

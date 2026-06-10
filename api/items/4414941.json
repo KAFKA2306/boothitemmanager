@@ -15,18 +15,12 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "着物"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA",
-      "Shiina",
-      "KitsuneAme"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4734192",
@@ -37,20 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    },
-    {
-      "code": "Shiina",
-      "name": "椎名"
-    },
-    {
-      "code": "KitsuneAme",
-      "name": "狐雨"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

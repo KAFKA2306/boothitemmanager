@@ -18,11 +18,13 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Kipfel"
+    ]
   },
   "similar_items": [
     "5817537",
@@ -33,7 +35,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

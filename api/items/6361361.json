@@ -11,13 +11,17 @@
   "price": 800,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "lilToon"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

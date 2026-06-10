@@ -21,8 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "Hakka"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -38,10 +37,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Hakka",
-      "name": "薄荷"
     }
   ],
   "files": [],

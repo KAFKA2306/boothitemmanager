@@ -13,19 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン",
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Hakka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3342911",
@@ -36,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Hakka",
-      "name": "薄荷"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

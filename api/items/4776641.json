@@ -15,18 +15,15 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "バニーガール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
       "Kikyo",
-      "Moe",
-      "INABA"
+      "Selestia",
+      "Moe"
     ]
   },
   "similar_items": [
@@ -40,20 +37,16 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
     },
     {
-      "code": "Moe",
-      "name": "萌"
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
-      "code": "INABA",
-      "name": "INABA"
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

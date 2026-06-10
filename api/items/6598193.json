@@ -11,17 +11,14 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "リボン",
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

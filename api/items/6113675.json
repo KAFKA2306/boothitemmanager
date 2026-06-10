@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6128442",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

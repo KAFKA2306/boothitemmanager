@@ -11,13 +11,17 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "Poiyomi"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

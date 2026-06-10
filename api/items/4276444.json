@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Kanae"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "1256087",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Kanae",
-      "name": "かなえ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

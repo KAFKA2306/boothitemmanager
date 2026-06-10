@@ -13,19 +13,17 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "NekoMaid"
+      "Kipfel"
     ]
   },
   "similar_items": [
@@ -39,8 +37,8 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "NekoMaid",
-      "name": "猫メイド"
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

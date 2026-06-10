@@ -20,10 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA",
-      "Shiina"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5511341",
@@ -34,16 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    },
-    {
-      "code": "Shiina",
-      "name": "椎名"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

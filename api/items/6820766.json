@@ -12,7 +12,8 @@
   "category": "TEXTURE",
   "tag_set": {
     "appearance": [
-      "メイク"
+      "Animation",
+      "Material"
     ],
     "body_type": [],
     "style": [],
@@ -20,7 +21,7 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

@@ -11,14 +11,17 @@
   "price": 800,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "lilToon",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

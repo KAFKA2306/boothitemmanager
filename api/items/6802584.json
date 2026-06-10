@@ -11,9 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "マスク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6117553",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

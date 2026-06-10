@@ -11,22 +11,18 @@
   "price": 150,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4358252",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

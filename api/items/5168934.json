@@ -11,15 +11,17 @@
   "price": 400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "Modular Avatar"
+      "ModularAvatar",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],

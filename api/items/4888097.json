@@ -12,18 +12,15 @@
   "category": "ASSET",
   "tag_set": {
     "appearance": [
-      "帽子"
+      "Material"
     ],
     "body_type": [],
     "style": [],
-    "color": [
-      "ピンク",
-      "金"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

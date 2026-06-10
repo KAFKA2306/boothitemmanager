@@ -15,15 +15,12 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "バニーガール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "INABA",
       "Shinra"
     ]
   },
@@ -37,10 +34,6 @@
   "user_state": {},
   "tags_raw": [],
   "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    },
     {
       "code": "Shinra",
       "name": "森羅"

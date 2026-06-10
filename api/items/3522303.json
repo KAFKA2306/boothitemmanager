@@ -11,9 +11,7 @@
   "price": 2350,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Selestia"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3522305",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Selestia",
-      "name": "セレスティア"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Cian"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6530838",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Cian",
-      "name": "シアン"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

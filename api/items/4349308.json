@@ -15,16 +15,12 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "巫女服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "1188185",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

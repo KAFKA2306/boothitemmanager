@@ -11,17 +11,14 @@
   "price": 800,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "尻尾",
-      "翼"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

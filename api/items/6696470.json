@@ -11,9 +11,7 @@
   "price": 500,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6688036",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

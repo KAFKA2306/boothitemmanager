@@ -13,22 +13,16 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "スカート"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6928104",
@@ -39,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

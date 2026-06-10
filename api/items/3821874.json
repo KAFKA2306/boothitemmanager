@@ -15,16 +15,13 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "Shinano"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -40,10 +37,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
     }
   ],
   "files": [],

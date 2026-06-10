@@ -11,9 +11,7 @@
   "price": 200,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Hakka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "2300252",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Hakka",
-      "name": "薄荷"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

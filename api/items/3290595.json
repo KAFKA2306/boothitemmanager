@@ -18,7 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone"
+      "PhysBone",
+      "QuestCompatible"
     ],
     "platform": [],
     "season": [],

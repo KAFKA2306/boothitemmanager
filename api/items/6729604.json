@@ -11,22 +11,18 @@
   "price": 0,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3364018",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

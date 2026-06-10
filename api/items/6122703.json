@@ -21,10 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinano",
-      "Manuka",
-      "Rurune",
-      "Shinra"
+      "Shinra",
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -38,16 +36,8 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
-    },
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
     },
     {
       "code": "Shinra",

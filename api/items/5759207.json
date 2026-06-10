@@ -21,7 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinra"
+      "Shinra",
+      "Kipfel"
     ]
   },
   "similar_items": [
@@ -37,6 +38,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

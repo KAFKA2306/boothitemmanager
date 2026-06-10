@@ -21,7 +21,6 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinano",
       "Manuka",
       "Moe"
     ]
@@ -36,10 +35,6 @@
   "user_state": {},
   "tags_raw": [],
   "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
     {
       "code": "Manuka",
       "name": "マヌカ"

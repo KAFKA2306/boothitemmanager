@@ -11,17 +11,14 @@
   "price": 200,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "眼鏡",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

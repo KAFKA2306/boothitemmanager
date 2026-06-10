@@ -11,7 +11,9 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Mesh"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -20,9 +22,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6008806",
@@ -33,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

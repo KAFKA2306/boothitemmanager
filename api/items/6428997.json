@@ -11,9 +11,7 @@
   "price": 1900,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,8 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "Shinano"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -40,10 +37,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
     }
   ],
   "files": [],

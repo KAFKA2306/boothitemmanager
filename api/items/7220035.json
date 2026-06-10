@@ -12,11 +12,11 @@
   "category": "TEXTURE",
   "tag_set": {
     "appearance": [
-      "尻尾"
+      "Material"
     ],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -24,9 +24,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "7051307",
@@ -37,12 +35,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -13,18 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mafuyu"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6713961",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

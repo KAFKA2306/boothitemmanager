@@ -11,20 +11,20 @@
   "price": 800,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Kipfel"
+    ]
   },
   "similar_items": [
     "6154775",
@@ -35,7 +35,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

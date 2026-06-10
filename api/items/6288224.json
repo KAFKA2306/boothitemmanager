@@ -21,11 +21,10 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Shinra",
       "Selestia",
-      "Shinano",
       "Manuka",
-      "Moe",
-      "Shinra"
+      "Moe"
     ]
   },
   "similar_items": [
@@ -39,24 +38,20 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

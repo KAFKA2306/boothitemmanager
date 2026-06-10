@@ -18,13 +18,11 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "7119135",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

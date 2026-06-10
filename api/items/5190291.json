@@ -22,7 +22,8 @@
     "season": [],
     "avatar_link": [
       "Manuka",
-      "Moe"
+      "Moe",
+      "Mamehinata"
     ]
   },
   "similar_items": [
@@ -42,6 +43,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
     }
   ],
   "files": [],

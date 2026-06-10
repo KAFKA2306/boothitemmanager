@@ -13,13 +13,13 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "和風"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "QuestCompatible"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

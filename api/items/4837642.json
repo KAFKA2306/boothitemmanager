@@ -11,13 +11,9 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,9 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "SUN",
-      "Shinra"
+      "Shinra",
+      "Moe"
     ]
   },
   "similar_items": [
@@ -41,16 +36,12 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
-      "code": "SUN",
-      "name": "SUN"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

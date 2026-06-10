@@ -11,13 +11,17 @@
   "price": 1500,
   "category": "PROP",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "lilToon"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

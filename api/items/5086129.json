@@ -21,8 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
       "Kikyo",
+      "Selestia",
       "Manuka",
       "Moe"
     ]
@@ -38,16 +38,16 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
     },
     {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",

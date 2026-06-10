@@ -23,7 +23,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka"
+      "Manuka",
+      "Kipfel"
     ]
   },
   "similar_items": [
@@ -39,6 +40,10 @@
     {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

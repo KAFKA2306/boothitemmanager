@@ -11,22 +11,16 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "獣耳"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6864924",
@@ -37,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

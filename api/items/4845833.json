@@ -11,10 +11,7 @@
   "price": 500,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "ブーツ",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -24,7 +21,6 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "SUN",
       "Shinra"
     ]
   },
@@ -38,10 +34,6 @@
   "user_state": {},
   "tags_raw": [],
   "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    },
     {
       "code": "Shinra",
       "name": "森羅"

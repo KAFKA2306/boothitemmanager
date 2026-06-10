@@ -15,36 +15,24 @@
   "price": null,
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
     },
     {
       "code": "Manuka",
       "name": "マヌカ"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    },
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [
@@ -138,5 +126,30 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [
+      "BlendShape",
+      "Material",
+      "Bone"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "lilToon",
+      "ModularAvatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra",
+      "Moe",
+      "Selestia",
+      "Kikyo",
+      "Manuka"
+    ]
+  }
 }

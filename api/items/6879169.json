@@ -34,5 +34,32 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [
+      "Mesh",
+      "ExpressionMenu",
+      "Material"
+    ],
+    "body_type": [],
+    "style": [
+      "Fantasy"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [
+      "head"
+    ],
+    "feature": [
+      "lilToon",
+      "ModularAvatar",
+      "Poiyomi",
+      "QuestCompatible"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  }
 }

@@ -11,15 +11,18 @@
   "price": 500,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation",
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "Modular Avatar"
+      "ModularAvatar",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],

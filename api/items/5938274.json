@@ -15,10 +15,6 @@
   "price": null,
   "targets": [
     {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
     }
@@ -54,5 +50,24 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [
+      "Shader"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "lilToon",
+      "ModularAvatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  }
 }

@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Fiona"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4592568",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Fiona",
-      "name": "フィオナ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

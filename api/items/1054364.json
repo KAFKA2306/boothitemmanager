@@ -14,12 +14,12 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "銀"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "ModularAvatar"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

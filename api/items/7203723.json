@@ -11,9 +11,7 @@
   "price": 3000,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "SUN"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5461131",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

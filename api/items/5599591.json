@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5365601",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

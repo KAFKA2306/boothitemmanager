@@ -11,20 +11,18 @@
   "price": 0,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "冬"
+    "appearance": [
+      "BlendShape"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mafuyu"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6538821",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

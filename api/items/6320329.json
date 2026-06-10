@@ -22,7 +22,6 @@
     "season": [],
     "avatar_link": [
       "Selestia",
-      "Shinano",
       "Manuka",
       "Moe"
     ]
@@ -38,16 +37,12 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",

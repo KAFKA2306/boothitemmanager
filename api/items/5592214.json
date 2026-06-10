@@ -13,20 +13,16 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "NekoMaid"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6100866",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "NekoMaid",
-      "name": "猫メイド"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -18,12 +18,12 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "lilToon",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinano",
       "Manuka"
     ]
   },
@@ -37,10 +37,6 @@
   "user_state": {},
   "tags_raw": [],
   "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
     {
       "code": "Manuka",
       "name": "マヌカ"

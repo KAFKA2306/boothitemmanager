@@ -11,20 +11,20 @@
   "price": 300,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Kipfel"
+    ]
   },
   "similar_items": [
     "3861097",
@@ -35,7 +35,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

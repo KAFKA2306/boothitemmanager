@@ -11,17 +11,14 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク",
-      "ネクタイ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

@@ -13,12 +13,7 @@
   "category": "avatar",
   "like_count": 0,
   "price": null,
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    }
-  ],
+  "targets": [],
   "files": [
     {
       "filename": "MAKEUP+BODY",
@@ -32,5 +27,21 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [
+      "face"
+    ],
+    "feature": [
+      "ModularAvatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  }
 }

@@ -13,22 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "制服",
-      "ジャージ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano",
-      "Mafuyu"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "7264665",
@@ -39,16 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

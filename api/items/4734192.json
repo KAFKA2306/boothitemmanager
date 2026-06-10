@@ -13,20 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA",
-      "Shiina",
-      "KitsuneAme"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4414941",
@@ -37,20 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    },
-    {
-      "code": "Shiina",
-      "name": "椎名"
-    },
-    {
-      "code": "KitsuneAme",
-      "name": "狐雨"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

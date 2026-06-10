@@ -21,10 +21,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Shinra",
       "Manuka",
-      "Moe",
-      "Mizuki",
-      "Shinra"
+      "Moe"
     ]
   },
   "similar_items": [
@@ -42,16 +41,12 @@
       "name": "マヌカ"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

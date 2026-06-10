@@ -12,21 +12,19 @@
   "category": "ANIMATION",
   "tag_set": {
     "appearance": [
-      "靴下"
+      "Animation"
     ],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "レギンス"
+    "style": [
+      "Street"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shiina"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4213786",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shiina",
-      "name": "椎名"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

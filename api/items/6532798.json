@@ -21,5 +21,19 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "QuestCompatible"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  }
 }

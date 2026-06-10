@@ -13,9 +13,7 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,8 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Mafuyu"
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -40,10 +37,6 @@
     {
       "code": "Manuka",
       "name": "マヌカ"
-    },
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
     }
   ],
   "files": [],

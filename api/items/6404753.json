@@ -23,7 +23,10 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Kipfel",
+      "Mamehinata"
+    ]
   },
   "similar_items": [
     "3664994",
@@ -34,7 +37,16 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
+    },
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

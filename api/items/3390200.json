@@ -21,8 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Hakka"
+      "Moe"
     ]
   },
   "similar_items": [
@@ -38,10 +37,6 @@
     {
       "code": "Moe",
       "name": "萌"
-    },
-    {
-      "code": "Hakka",
-      "name": "薄荷"
     }
   ],
   "files": [],

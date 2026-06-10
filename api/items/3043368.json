@@ -13,22 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
-    "color": [
-      "白"
-    ],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Hakka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3048243",
@@ -39,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Hakka",
-      "name": "薄荷"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

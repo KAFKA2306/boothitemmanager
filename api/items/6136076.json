@@ -12,7 +12,7 @@
   "category": "HAIRSTYLE",
   "tag_set": {
     "appearance": [
-      "帽子"
+      "Mesh"
     ],
     "body_type": [],
     "style": [],
@@ -22,9 +22,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6120371",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

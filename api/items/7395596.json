@@ -14,17 +14,17 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Kipfel"
+    ]
   },
   "similar_items": [
     "4265988",
@@ -35,7 +35,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

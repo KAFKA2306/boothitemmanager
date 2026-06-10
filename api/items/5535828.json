@@ -12,7 +12,7 @@
   "category": "TEXTURE",
   "tag_set": {
     "appearance": [
-      "メイク"
+      "Animation"
     ],
     "body_type": [],
     "style": [],
@@ -20,13 +20,11 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3861097",
@@ -37,12 +35,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -14,19 +14,15 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "パーカー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Hakka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "2227739",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Hakka",
-      "name": "薄荷"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

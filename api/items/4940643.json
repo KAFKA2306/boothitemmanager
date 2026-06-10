@@ -17,12 +17,12 @@
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "lilToon"
+    ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "SUN"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4329887",
@@ -33,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

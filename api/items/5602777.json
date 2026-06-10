@@ -11,14 +11,18 @@
   "price": 500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader",
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar",
+      "Poiyomi"
     ],
     "platform": [],
     "season": [],

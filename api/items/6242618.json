@@ -11,13 +11,9 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "マフラー"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -26,9 +22,7 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Bow"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "2581293",
@@ -39,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Bow",
-      "name": "Bow"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

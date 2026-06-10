@@ -14,21 +14,17 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "メイド",
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Rurune",
-      "Mizuki"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4720010",
@@ -39,16 +35,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Rurune",
-      "name": "ルルネ"
-    },
-    {
-      "code": "Mizuki",
-      "name": "瑞希"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -13,15 +13,12 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング",
-      "メイド"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

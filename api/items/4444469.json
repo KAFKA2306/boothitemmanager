@@ -15,16 +15,13 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "バニーガール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "INABA"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -40,10 +37,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "INABA",
-      "name": "INABA"
     }
   ],
   "files": [],

@@ -12,7 +12,8 @@
   "category": "ANIMATION",
   "tag_set": {
     "appearance": [
-      "帽子"
+      "Animation",
+      "Material"
     ],
     "body_type": [],
     "style": [],
@@ -20,7 +21,7 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

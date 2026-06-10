@@ -11,16 +11,17 @@
   "price": 700,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation",
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "パーカー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

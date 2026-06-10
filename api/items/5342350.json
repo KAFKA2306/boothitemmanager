@@ -22,11 +22,9 @@
     "season": [],
     "avatar_link": [
       "Kikyo",
-      "Shinano",
+      "Shinra",
       "Manuka",
-      "Moe",
-      "Mafuyu",
-      "Shinra"
+      "Moe"
     ]
   },
   "similar_items": [
@@ -44,24 +42,16 @@
       "name": "桔梗"
     },
     {
-      "code": "Shinano",
-      "name": "しなの"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

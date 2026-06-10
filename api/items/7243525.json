@@ -11,15 +11,15 @@
   "price": 1500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
-    "feature": [],
+    "feature": [
+      "Poiyomi"
+    ],
     "platform": [],
     "season": [],
     "avatar_link": []

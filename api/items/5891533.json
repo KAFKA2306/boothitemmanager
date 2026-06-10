@@ -11,9 +11,7 @@
   "price": 2800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -24,8 +22,7 @@
     "season": [],
     "avatar_link": [
       "Kikyo",
-      "Manuka",
-      "KitsuneAme"
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -45,10 +42,6 @@
     {
       "code": "Manuka",
       "name": "マヌカ"
-    },
-    {
-      "code": "KitsuneAme",
-      "name": "狐雨"
     }
   ],
   "files": [],

@@ -11,9 +11,7 @@
   "price": 3500,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Bow"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3667896",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Bow",
-      "name": "Bow"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

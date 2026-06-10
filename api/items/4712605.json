@@ -20,10 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA",
-      "KitsuneAme"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4414941",
@@ -34,16 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    },
-    {
-      "code": "KitsuneAme",
-      "name": "狐雨"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

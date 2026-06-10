@@ -11,22 +11,18 @@
   "price": 800,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Selestia"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "6462300",
@@ -37,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Selestia",
-      "name": "セレスティア"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

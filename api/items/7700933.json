@@ -12,7 +12,7 @@
   "category": "TEXTURE",
   "tag_set": {
     "appearance": [
-      "タトゥー"
+      "Material"
     ],
     "body_type": [],
     "style": [],
@@ -20,7 +20,7 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

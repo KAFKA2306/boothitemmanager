@@ -11,9 +11,7 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "バッグ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],

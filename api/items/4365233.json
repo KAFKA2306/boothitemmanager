@@ -13,18 +13,14 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "猫耳"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "SUN"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "1403139",
@@ -35,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "SUN",
-      "name": "SUN"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

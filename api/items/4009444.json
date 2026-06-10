@@ -15,9 +15,7 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
@@ -25,8 +23,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "Bow"
+      "Kikyo"
     ]
   },
   "similar_items": [
@@ -42,10 +39,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Bow",
-      "name": "Bow"
     }
   ],
   "files": [],

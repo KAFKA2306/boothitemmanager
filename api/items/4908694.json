@@ -22,8 +22,8 @@
     "season": [],
     "avatar_link": [
       "Kikyo",
-      "Moe",
-      "Shinra"
+      "Shinra",
+      "Moe"
     ]
   },
   "similar_items": [
@@ -41,12 +41,12 @@
       "name": "桔梗"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

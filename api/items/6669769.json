@@ -11,14 +11,18 @@
   "price": 790,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation",
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "lilToon",
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

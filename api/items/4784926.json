@@ -11,9 +11,7 @@
   "price": 1100,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],

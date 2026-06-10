@@ -13,15 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
-    "color": [
-      "ライム"
-    ],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"

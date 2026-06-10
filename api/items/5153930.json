@@ -14,7 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "冬"
+      "Lolita"
     ],
     "color": [],
     "outfit_type": [],
@@ -22,9 +22,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mafuyu"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5090930",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

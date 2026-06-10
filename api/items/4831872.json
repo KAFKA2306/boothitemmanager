@@ -23,7 +23,9 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Mamehinata"
+    ]
   },
   "similar_items": [
     "5913718",
@@ -34,7 +36,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

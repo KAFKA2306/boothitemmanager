@@ -11,14 +11,10 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "ストッキング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ライム"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],

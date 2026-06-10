@@ -12,7 +12,7 @@
   "category": "ASSET",
   "tag_set": {
     "appearance": [
-      "ネイル"
+      "Material"
     ],
     "body_type": [],
     "style": [],
@@ -20,7 +20,7 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

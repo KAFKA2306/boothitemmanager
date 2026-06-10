@@ -11,10 +11,7 @@
   "price": 0,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -24,7 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "SUN"
+      "Mamehinata"
     ]
   },
   "similar_items": [
@@ -38,8 +35,8 @@
   "tags_raw": [],
   "targets": [
     {
-      "code": "SUN",
-      "name": "SUN"
+      "code": "Mamehinata",
+      "name": "まめひなた"
     }
   ],
   "files": [],

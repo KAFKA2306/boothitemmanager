@@ -13,18 +13,18 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "猫耳"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Mamehinata"
+    ]
   },
   "similar_items": [
     "7008093",
@@ -35,7 +35,12 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

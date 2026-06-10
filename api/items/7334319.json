@@ -18,13 +18,11 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Selestia"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "4213268",
@@ -35,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Selestia",
-      "name": "セレスティア"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

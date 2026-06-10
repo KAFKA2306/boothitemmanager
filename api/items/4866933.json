@@ -15,16 +15,13 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
       "Kikyo",
-      "Shinano",
       "Moe"
     ]
   },
@@ -41,10 +38,6 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
-    },
-    {
-      "code": "Shinano",
-      "name": "しなの"
     },
     {
       "code": "Moe",

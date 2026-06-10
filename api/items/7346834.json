@@ -11,17 +11,14 @@
   "price": 400,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "リボン",
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

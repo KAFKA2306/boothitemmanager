@@ -13,20 +13,15 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
-    "color": [
-      "ライム"
-    ],
+    "style": [],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Mafuyu"
+      "Moe"
     ]
   },
   "similar_items": [
@@ -42,10 +37,6 @@
     {
       "code": "Moe",
       "name": "萌"
-    },
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
     }
   ],
   "files": [],

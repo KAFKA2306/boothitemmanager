@@ -21,7 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe"
+      "Moe",
+      "Mamehinata"
     ]
   },
   "similar_items": [
@@ -37,6 +38,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた"
     }
   ],
   "files": [],

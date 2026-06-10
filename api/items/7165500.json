@@ -11,17 +11,14 @@
   "price": 300,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Modular Avatar"
+      "ModularAvatar"
     ],
     "platform": [],
     "season": [],

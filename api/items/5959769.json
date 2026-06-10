@@ -14,20 +14,15 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和風",
-      "和装"
+      "Japanese"
     ],
-    "color": [
-      "白"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "KitsuneAme"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3360896",
@@ -38,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "KitsuneAme",
-      "name": "狐雨"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

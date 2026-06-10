@@ -21,5 +21,21 @@
       "size": null,
       "hash": null
     }
-  ]
+  ],
+  "tag_set": {
+    "appearance": [
+      "Animation"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "ModularAvatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  }
 }

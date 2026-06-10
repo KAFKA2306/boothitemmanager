@@ -14,8 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和風",
-      "和装"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -23,9 +22,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinano"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3360896",
@@ -36,12 +33,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinano",
-      "name": "しなの"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

@@ -11,23 +11,16 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング",
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Mafuyu"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "3354886",
@@ -38,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Mafuyu",
-      "name": "真冬"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

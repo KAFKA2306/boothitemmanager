@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Cyber"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],

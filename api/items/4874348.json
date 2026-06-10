@@ -20,9 +20,7 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "INABA"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
     "5511341",
@@ -33,12 +31,7 @@
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "INABA",
-      "name": "INABA"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }
