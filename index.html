@@ -10,20 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --accent: #ffffff;
-            --accent-pink: #cccccc;
-            --accent-purple: #aaaaaa;
-            --accent-glow: rgba(255, 255, 255, 0.05);
-            --pink-glow: rgba(255, 255, 255, 0.05);
-            --bg-dark: #0a0a0a;
-            --bg-card: #141414;
-            --border-color: #2a2a2a;
-            --border-hover: #555555;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0a0;
-            --text-muted: #666666;
+            --accent: #00f0ff;
+            --accent-pink: #ff007a;
+            --accent-purple: #9d00ff;
+            --accent-glow: rgba(0, 240, 255, 0.3);
+            --pink-glow: rgba(255, 0, 122, 0.3);
+            --bg-dark: #050508;
+            --bg-card: rgba(18, 18, 26, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(0, 240, 255, 0.4);
+            --text-primary: #f5f5fa;
+            --text-secondary: #a9a9b8;
+            --text-muted: #626272;
             --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            --font-heading: 'Inter', sans-serif;
+            --font-heading: 'Outfit', sans-serif;
         }
 
         * {
@@ -32,6 +32,7 @@
             padding: 0;
         }
 
+        /* Modern Grid Layout (Baseline: Grid Areas) */
         body {
             background-color: var(--bg-dark);
             color: var(--text-primary);
@@ -42,11 +43,11 @@
                 "sidebar main";
             grid-template-columns: 340px 1fr;
             grid-template-rows: auto 1fr;
-            height: 100dvh;
+            height: 100dvh; /* Dynamic viewport height for mobile resilience */
             overflow: hidden;
         }
 
-        /* Header Styling */
+        /* Header */
         header {
             grid-area: header;
             background: rgba(8, 8, 12, 0.85);
@@ -138,23 +139,13 @@
             background-color: #ffd000;
             box-shadow: 0 0 8px #ffd000;
         }
-
         .status-dot.connected {
             background-color: #00ff66;
             box-shadow: 0 0 8px #00ff66;
             animation: pulse 2s infinite;
         }
 
-        @keyframes pulse {
-            0% { opacity: 0.6; }
-            50% { opacity: 1; }
-            100% { opacity: 0.6; }
-        }
-
-        /* App Layout */
-        .app-layout {
-            display: contents;
-        }
+        @keyframes pulse { 0% { opacity: 0.6; } 50% { opacity: 1; } 100% { opacity: 0.6; } }
 
         /* Sidebar Styling */
         aside {
@@ -166,7 +157,8 @@
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
-            scrollbar-gutter: stable;
+            scrollbar-gutter: stable; /* Prevent layout shift */
+            overscroll-behavior: contain; /* Prevent scroll chaining */
         }
 
         .filter-section h3 {
@@ -178,149 +170,38 @@
             margin-bottom: 0.75rem;
         }
 
-        /* Base Avatar Selector */
-        .avatar-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 6px;
-        }
+        /* Generic Grid/Flex Utilities for Filters */
+        .filter-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+        .filter-col { display: flex; flex-direction: column; gap: 6px; }
+        .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
 
-        .avatar-btn {
+        /* Buttons & Pills */
+        .filter-btn, .tag-pill {
             background: rgba(255, 255, 255, 0.02);
             border: 1px solid var(--border-color);
             border-radius: 8px;
-            padding: 8px 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-secondary);
-            cursor: pointer;
-            text-align: center;
-            transition: all 0.2s ease;
-        }
-
-        .avatar-btn:hover {
-            border-color: var(--accent-pink);
-            color: #ffffff;
-            background: rgba(255, 0, 122, 0.05);
-        }
-
-        .avatar-btn.active {
-            background: var(--pink-glow);
-            border-color: var(--accent-pink);
-            color: #ffffff;
-            box-shadow: 0 0 10px var(--pink-glow);
-        }
-
-        /* Categories List */
-        .category-list {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .category-btn {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: transparent;
-            border: 1px solid transparent;
-            border-radius: 8px;
-            padding: 8px 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--text-secondary);
-            cursor: pointer;
-            text-align: left;
-            transition: all 0.2s ease;
-        }
-
-        .category-btn:hover {
-            background: rgba(255, 255, 255, 0.03);
-            color: #ffffff;
-        }
-
-        .category-btn.active {
-            background: rgba(0, 240, 255, 0.05);
-            border-color: rgba(0, 240, 255, 0.15);
-            color: var(--accent);
-        }
-
-        .category-count {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            background: rgba(255, 255, 255, 0.05);
-            padding: 2px 8px;
-            border-radius: 10px;
-        }
-
-        /* Style/Color Tag Selectors */
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
-
-        .tag-pill {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 5px 10px;
             font-size: 0.75rem;
             color: var(--text-secondary);
             cursor: pointer;
             transition: all 0.2s ease;
             user-select: none;
-        }
-
-        .tag-pill:hover {
-            border-color: var(--text-secondary);
-            color: #ffffff;
-        }
-
-        .tag-pill.active {
-            background: var(--accent-glow);
-            border-color: var(--accent);
-            color: var(--accent);
-            box-shadow: 0 0 8px var(--accent-glow);
-        }
-
-        .tag-pill.color-tag.active {
-            border-color: #ffffff;
-            color: #ffffff;
-            box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-        }
-
-        /* Price Filter Buttons */
-        .price-presets {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .price-preset-btn {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 8px 12px;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            cursor: pointer;
             text-align: left;
-            transition: all 0.2s ease;
         }
+        
+        .avatar-btn { padding: 8px 4px; text-align: center; font-weight: 600; }
+        .avatar-btn:hover { border-color: var(--accent-pink); color: #fff; background: rgba(255,0,122,0.05); }
+        .avatar-btn.active { background: var(--pink-glow); border-color: var(--accent-pink); color: #fff; box-shadow: 0 0 10px var(--pink-glow); }
 
-        .price-preset-btn:hover {
-            border-color: var(--text-secondary);
-            color: #ffffff;
-        }
+        .category-btn { display: flex; justify-content: space-between; padding: 8px 12px; font-weight: 600; }
+        .category-btn:hover { background: rgba(255,255,255,0.03); color: #fff; }
+        .category-btn.active { background: rgba(0,240,255,0.05); border-color: rgba(0,240,255,0.15); color: var(--accent); }
+        .category-count { font-size: 0.75rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 10px; }
 
-        .price-preset-btn.active {
-            border-color: var(--accent);
-            background: rgba(0, 240, 255, 0.05);
-            color: var(--accent);
-        }
+        .tag-pill { padding: 5px 10px; border-radius: 6px; }
+        .tag-pill:hover { border-color: var(--text-secondary); color: #fff; }
+        .tag-pill.active { background: var(--accent-glow); border-color: var(--accent); color: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
 
-        /* Main Window */
+        /* Main Content Area */
         main {
             grid-area: main;
             padding: 2rem;
@@ -329,6 +210,7 @@
             flex-direction: column;
             gap: 1.5rem;
             scrollbar-gutter: stable;
+            overscroll-behavior: contain;
         }
 
         /* Control Panel */
@@ -342,194 +224,69 @@
             padding: 1rem 1.5rem;
         }
 
-        .active-filters-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            align-items: center;
-        }
-
+        .active-filters-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
         .filter-chip {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 4px 10px;
-            font-size: 0.75rem;
-            font-weight: 500;
+            display: flex; align-items: center; gap: 6px;
+            background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-color);
+            border-radius: 6px; padding: 4px 10px; font-size: 0.75rem; font-weight: 500;
         }
+        .filter-chip-remove { cursor: pointer; color: var(--text-muted); background: transparent; border: none; font-weight: bold; }
+        .filter-chip-remove:hover { color: var(--accent-pink); }
+        .clear-filters-btn { background: transparent; border: none; color: var(--text-muted); font-size: 0.75rem; cursor: pointer; text-decoration: underline; }
 
-        .filter-chip-remove {
-            cursor: pointer;
-            color: var(--text-muted);
-            font-weight: bold;
-            background: transparent;
-            border: none;
-            padding: 0;
-            font-family: inherit;
-        }
+        .sort-container { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; }
+        .sort-select { background: rgba(18,18,26,0.8); border: 1px solid var(--border-color); border-radius: 8px; padding: 6px 12px; color: #fff; outline: none; cursor: pointer; }
 
-        .filter-chip-remove:hover {
-            color: var(--accent-pink);
-        }
-
-        .clear-filters-btn {
-            background: transparent;
-            border: none;
-            color: var(--text-muted);
-            font-size: 0.75rem;
-            cursor: pointer;
-            text-decoration: underline;
-        }
-
-        .clear-filters-btn:hover {
-            color: var(--text-secondary);
-        }
-
-        .sort-container {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.85rem;
-        }
-
-        .sort-select {
-            background: rgba(18, 18, 26, 0.8);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 6px 12px;
-            color: #ffffff;
-            outline: none;
-            cursor: pointer;
-        }
-
-        .sort-select:focus {
-            border-color: var(--accent);
-        }
-
-        /* Hero Banner */
+        /* Hero Banner Container Query & Fluid Scaling */
         .hero-banner {
+            container-type: inline-size;
             background: linear-gradient(135deg, rgba(0, 240, 255, 0.05) 0%, rgba(255, 0, 122, 0.05) 100%);
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 2rem;
             position: relative;
             overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
         }
-
-        .hero-banner::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(0,240,255,0.05) 0%, transparent 70%);
-            pointer-events: none;
-        }
-
         .hero-text h2 {
             font-family: var(--font-heading);
-            font-size: 1.8rem;
+            font-size: clamp(1.2rem, 3cqi, 1.8rem);
             font-weight: 900;
-            margin-bottom: 0.5rem;
             background: linear-gradient(to right, #ffffff, var(--text-secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .hero-text p {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            line-height: 1.5;
-        }
-
-        /* Asset Grid */
+        /* Asset Grid with Auto-fill & Content Visibility for Performance */
         .asset-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
         }
 
         .asset-card {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
+            border-radius: 16px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s, box-shadow 0.3s;
             position: relative;
+            /* Modern Layout Isolation for 60FPS scrolling */
             content-visibility: auto;
-            contain-intrinsic-size: auto 240px;
+            contain-intrinsic-size: auto 320px;
         }
+        .asset-card:hover { transform: translateY(-6px); border-color: var(--border-hover); box-shadow: 0 12px 30px rgba(0,240,255,0.15); }
 
-        .asset-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--text-secondary);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-        }
+        .asset-thumb-container { width: 100%; aspect-ratio: 1/1; position: relative; background: #0b0b10; overflow: hidden; }
+        .asset-thumb { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .asset-card:hover .asset-thumb { transform: scale(1.08); }
 
-        .asset-thumb-container {
-            width: 100%;
-            aspect-ratio: 1/1;
-            position: relative;
-            background: #0b0b10;
-            overflow: hidden;
-        }
+        .asset-price { position: absolute; bottom: 12px; right: 12px; background: rgba(8,8,12,0.85); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 4px 10px; font-weight: 800; font-size: 0.85rem; color: var(--accent); }
 
-        .asset-thumb {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .asset-card:hover .asset-thumb {
-            transform: scale(1.08);
-        }
-
-        .asset-price {
-            position: absolute;
-            bottom: 12px;
-            right: 12px;
-            background: rgba(8, 8, 12, 0.85);
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 8px;
-            padding: 4px 10px;
-            font-weight: 800;
-            font-size: 0.85rem;
-            color: var(--accent);
-        }
-
-        .asset-info {
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            flex: 1;
-        }
-
-        .asset-category {
-            align-self: flex-start;
-            font-size: 0.65rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 2px 8px;
-            border-radius: 4px;
-            border: 1px solid;
-        }
-
-        /* Category Color Map */
+        .asset-info { padding: 1.25rem; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+        .asset-category { align-self: flex-start; font-size: 0.65rem; font-weight: 800; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; border: 1px solid; }
         .category-avatar { border-color: var(--accent-pink); color: var(--accent-pink); }
         .category-outfit { border-color: var(--accent); color: var(--accent); }
         .category-accessory { border-color: var(--accent-purple); color: var(--accent-purple); }
@@ -537,81 +294,20 @@
         .category-other { border-color: var(--text-muted); color: var(--text-muted); }
 
         .asset-title {
-            font-size: 0.95rem;
-            font-weight: 700;
-            line-height: 1.4;
-            color: #ffffff;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            height: 2.6rem;
+            font-size: 0.95rem; font-weight: 700; line-height: 1.4; color: #fff;
+            /* Modern line clamp */
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-clamp: 2;
+            overflow: clip; height: 2.6rem;
         }
-
-        .asset-shop {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .asset-targets {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px;
-            margin-top: auto;
-            height: 20px;
-            overflow: hidden;
-        }
-
-        .target-tag {
-            font-size: 0.65rem;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 4px;
-            padding: 2px 6px;
-            color: var(--text-secondary);
-        }
+        .asset-shop { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .asset-targets { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; height: 20px; overflow: hidden; }
+        .target-tag { font-size: 0.65rem; background: rgba(255,255,255,0.05); border-radius: 4px; padding: 2px 6px; color: var(--text-secondary); }
 
         /* Splash Screen */
-        .splash-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #030305;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: all 0.5s ease;
-        }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 3px solid rgba(0, 240, 255, 0.1);
-            border-top: 3px solid var(--accent);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 0 15px var(--accent-glow);
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .splash-text {
-            font-family: var(--font-heading);
-            font-weight: 700;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            color: var(--accent);
-        }
+        .splash-screen { position: fixed; inset: 0; background: #030305; display: grid; place-content: center; z-index: 9999; transition: opacity 0.5s ease; }
+        .spinner { width: 50px; height: 50px; border: 3px solid rgba(0,240,255,0.1); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 1.5rem; box-shadow: 0 0 15px var(--accent-glow); }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        .splash-text { font-family: var(--font-heading); font-weight: 700; font-size: 1rem; letter-spacing: 2px; color: var(--accent); text-align: center; }
 
         /* Modern Dialog Modal */
         dialog {
@@ -624,379 +320,79 @@
             margin: auto;
             padding: 0;
             color: var(--text-primary);
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.6);
             outline: none;
             overflow: hidden;
             animation: modalFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
+        @keyframes modalFadeIn { from { opacity: 0; transform: scale(0.96) translateY(10px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+        
+        dialog::backdrop { background: rgba(3, 3, 5, 0.8); backdrop-filter: blur(12px); animation: backdropFadeIn 0.3s ease; }
+        @keyframes backdropFadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        @keyframes modalFadeIn {
-            from { opacity: 0; transform: scale(0.96) translateY(10px); }
-            to { opacity: 1; transform: scale(1) translateY(0); }
-        }
+        .modal-wrapper { display: grid; grid-template-columns: 1.1fr 1fr; height: 600px; }
+        .modal-close-btn { position: absolute; top: 20px; right: 20px; width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: #fff; font-size: 1.25rem; cursor: pointer; display: grid; place-items: center; z-index: 10; transition: all 0.2s; }
+        .modal-close-btn:hover { background: rgba(255,0,122,0.15); border-color: var(--accent-pink); color: var(--accent-pink); }
+        .modal-left { background: #07070b; overflow: hidden; border-right: 1px solid var(--border-color); }
+        .modal-left img { width: 100%; height: 100%; object-fit: cover; }
+        .modal-right { padding: 2.5rem; overflow-y: auto; display: flex; flex-direction: column; gap: 1.5rem; }
 
-        dialog::backdrop {
-            background: rgba(3, 3, 5, 0.8);
-            backdrop-filter: blur(12px);
-            animation: backdropFadeIn 0.3s ease;
-        }
+        .modal-header-top { display: flex; align-items: center; justify-content: space-between; }
+        .modal-category { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; padding: 3px 10px; border-radius: 6px; border: 1px solid; }
+        .modal-price { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 900; color: var(--accent); }
+        .modal-title { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; line-height: 1.3; }
+        .modal-creator { font-size: 0.85rem; color: var(--text-secondary); }
+        .modal-description { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; max-height: 150px; overflow-y: auto; white-space: pre-wrap; }
+        
+        .modal-action-btn { display: flex; justify-content: center; gap: 10px; background: var(--accent); color: #030305; border-radius: 12px; padding: 12px 24px; font-weight: 800; cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+        .modal-action-btn:hover { transform: translateY(-2px); box-shadow: 0 0 25px var(--accent-glow); filter: brightness(1.1); }
 
-        @keyframes backdropFadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+        .modal-sub-section h4 { font-family: var(--font-heading); font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.75rem; }
+        .compatibility-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+        .compat-item { background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px; padding: 6px; font-size: 0.75rem; display: flex; gap: 6px; color: var(--text-muted); }
+        .compat-item.supported { border-color: rgba(255,0,122,0.2); background: rgba(255,0,122,0.03); color: #fff; }
+        .compat-item.supported::before { content: '✓'; color: var(--accent-pink); font-weight: bold; }
+        .compat-item::before { content: '✗'; color: var(--text-muted); }
 
-        .modal-wrapper {
-            display: grid;
-            grid-template-columns: 1.1fr 1fr;
-            height: 600px;
-            position: relative;
-        }
+        .similar-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+        .similar-card { border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; cursor: pointer; aspect-ratio: 1; transition: transform 0.2s; }
+        .similar-card:hover { border-color: var(--accent); transform: scale(1.05); }
+        .similar-card img { width: 100%; height: 100%; object-fit: cover; }
 
-        .modal-close-btn {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-color);
-            color: #ffffff;
-            font-size: 1.25rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10;
-            transition: all 0.2s ease;
-        }
-
-        .modal-close-btn:hover {
-            background: rgba(255, 0, 122, 0.15);
-            border-color: var(--accent-pink);
-            color: var(--accent-pink);
-        }
-
-        .modal-left {
-            background: #07070b;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-            border-right: 1px solid var(--border-color);
-        }
-
-        .modal-left img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .modal-right {
-            padding: 2.5rem;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .modal-header {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .modal-header-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .modal-category {
-            align-self: flex-start;
-            font-size: 0.7rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 3px 10px;
-            border-radius: 6px;
-            border: 1px solid;
-        }
-
-        .modal-price {
-            font-family: var(--font-heading);
-            font-size: 1.4rem;
-            font-weight: 900;
-            color: var(--accent);
-        }
-
-        .modal-title {
-            font-family: var(--font-heading);
-            font-size: 1.4rem;
-            font-weight: 800;
-            line-height: 1.3;
-            color: #ffffff;
-        }
-
-        .modal-creator {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-        }
-
-        .modal-description {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 1rem;
-            max-height: 150px;
-            overflow-y: auto;
-            white-space: pre-wrap;
-        }
-
-        .modal-action-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            background: var(--accent);
-            color: #030305;
-            border: none;
-            border-radius: 12px;
-            padding: 12px 24px;
-            font-size: 0.95rem;
-            font-weight: 800;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 0 15px var(--accent-glow);
-        }
-
-        .modal-action-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0 25px var(--accent-glow);
-            filter: brightness(1.1);
-        }
-
-        /* Avatar Compatibility Checkbox-style List */
-        .compatibility-section h4 {
-            font-family: var(--font-heading);
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.75rem;
-        }
-
-        .compatibility-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 6px;
-        }
-
-        .compatibility-item {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 6px;
-            font-size: 0.75rem;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: var(--text-muted);
-        }
-
-        .compatibility-item.supported {
-            border-color: rgba(255, 0, 122, 0.2);
-            background: rgba(255, 0, 122, 0.03);
-            color: #ffffff;
-        }
-
-        .compatibility-item.supported::before {
-            content: '✓';
-            color: var(--accent-pink);
-            font-weight: bold;
-        }
-
-        .compatibility-item::before {
-            content: '✗';
-            color: var(--text-muted);
-        }
-
-        /* Similar Items Grid */
-        .similar-section h4 {
-            font-family: var(--font-heading);
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.75rem;
-        }
-
-        .similar-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-        }
-
-        .similar-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            overflow: hidden;
-            cursor: pointer;
-            aspect-ratio: 1/1;
-            position: relative;
-            transition: all 0.2s ease;
-        }
-
-        .similar-card:hover {
-            border-color: var(--accent);
-            transform: scale(1.05);
-        }
-
-        .similar-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        /* Responsive Layout Updates */
+        @media (max-width: 800px) {
+            body { grid-template-areas: "header" "main"; grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+            aside { display: none; } /* Hide sidebar completely for simple mobile flow, could add drawer later */
+            header { flex-direction: column; gap: 12px; padding: 1rem; align-items: stretch; }
+            .logo { justify-content: center; }
+            .search-container { margin: 0; }
+            .db-status { justify-content: center; }
+            .asset-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+            .asset-info { padding: 0.75rem; }
+            .asset-title { font-size: 0.85rem; height: 2.4rem; }
+            
+            dialog { width: 95%; }
+            .modal-wrapper { grid-template-columns: 1fr; height: 80vh; overflow-y: auto; }
+            .modal-left { height: 250px; border-right: none; border-bottom: 1px solid var(--border-color); }
+            .modal-right { overflow-y: visible; }
+            .compatibility-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
         /* Scrollbars */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: var(--bg-dark);
-        }
-        ::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        /* Mobile Responsive Adjustments */
-        @media (max-width: 768px) {
-            body {
-                height: auto;
-                overflow: auto;
-            }
-            header {
-                padding: 1rem;
-                flex-direction: column;
-                gap: 12px;
-                align-items: stretch;
-            }
-            .logo {
-                justify-content: center;
-            }
-            .search-container {
-                margin: 0;
-                max-width: 100%;
-            }
-            .db-status {
-                justify-content: center;
-                align-self: center;
-            }
-            .app-layout {
-                flex-direction: column;
-                overflow: visible;
-                height: auto;
-            }
-            aside {
-                width: 100%;
-                height: auto;
-                border-right: none;
-                border-bottom: 1px solid var(--border-color);
-                overflow-y: visible;
-                padding: 1.25rem;
-            }
-            main {
-                padding: 1.25rem;
-                overflow-y: visible;
-                height: auto;
-            }
-            .hero-banner {
-                padding: 1.5rem;
-                flex-direction: column;
-                text-align: center;
-                gap: 12px;
-            }
-            .hero-text h2 {
-                font-size: 1.5rem;
-            }
-            .asset-grid {
-                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-                gap: 0.75rem;
-            }
-            .asset-card {
-                border-radius: 12px;
-            }
-            .asset-info {
-                padding: 0.75rem;
-                gap: 6px;
-            }
-            .asset-title {
-                font-size: 0.85rem;
-                height: 2.4rem;
-            }
-            .asset-price {
-                bottom: 8px;
-                right: 8px;
-                padding: 2px 6px;
-                font-size: 0.75rem;
-            }
-            
-            /* Responsive modal / dialog grid layout */
-            dialog {
-                width: 95%;
-                max-width: 500px;
-                border-radius: 16px;
-            }
-            .modal-wrapper {
-                grid-template-columns: 1fr;
-                grid-template-rows: auto auto;
-                height: auto;
-                max-height: 85vh;
-                overflow-y: auto;
-            }
-            .modal-left {
-                border-right: none;
-                border-bottom: 1px solid var(--border-color);
-                height: 250px;
-            }
-            .modal-left img {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
-            .modal-right {
-                padding: 1.5rem;
-                overflow-y: visible;
-            }
-            .compatibility-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .similar-grid {
-                grid-template-columns: repeat(5, 1fr);
-            }
-        }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-dark); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
     </style>
 </head>
 <body>
-    <!-- Splash Loading Overlay -->
     <div id="splash" class="splash-screen">
-        <div class="spinner"></div>
-        <div class="splash-text">INITIALIZING ASSET ARCHIVE</div>
+        <div>
+            <div class="spinner"></div>
+            <div class="splash-text" id="splash-msg">INITIALIZING ARCHIVE</div>
+        </div>
     </div>
 
-    <!-- Header -->
     <header>
         <a href="/" class="logo">
             <div class="logo-icon"></div>
@@ -1012,113 +408,87 @@
         </div>
     </header>
 
-    <div class="app-layout">
-        <!-- Sidebar Filters -->
-        <aside>
-            <!-- Avatar Compatibility Selector -->
-            <div class="filter-section">
-                <h3>BASE AVATAR</h3>
-                <div class="avatar-grid" id="avatar-selector">
-                    <!-- Dynamic avatar selectors will be inserted here -->
-                </div>
+    <aside>
+        <div class="filter-section">
+            <h3>BASE AVATAR</h3>
+            <div class="filter-grid-3" id="avatar-selector"></div>
+        </div>
+        <div class="filter-section">
+            <h3>CATEGORY</h3>
+            <div class="filter-col" id="category-selector">
+                <button class="filter-btn category-btn active" data-cat="all">ALL <span class="category-count" id="count-all">0</span></button>
+                <button class="filter-btn category-btn" data-cat="avatar">AVATAR <span class="category-count" id="count-avatar">0</span></button>
+                <button class="filter-btn category-btn" data-cat="outfit">OUTFIT <span class="category-count" id="count-outfit">0</span></button>
+                <button class="filter-btn category-btn" data-cat="accessory">ACCESSORY <span class="category-count" id="count-accessory">0</span></button>
+                <button class="filter-btn category-btn" data-cat="gimmick_tool">GIMMICK <span class="category-count" id="count-gimmick">0</span></button>
+                <button class="filter-btn category-btn" data-cat="hairstyle">HAIRSTYLE <span class="category-count" id="count-hair">0</span></button>
+                <button class="filter-btn category-btn" data-cat="texture">TEXTURE <span class="category-count" id="count-texture">0</span></button>
             </div>
-
-            <!-- Categories -->
-            <div class="filter-section">
-                <h3>CATEGORY</h3>
-                <div class="category-list" id="category-selector">
-                    <button class="category-btn active" data-cat="all">ALL <span class="category-count" id="count-all">0</span></button>
-                    <button class="category-btn" data-cat="avatar">AVATAR <span class="category-count" id="count-avatar">0</span></button>
-                    <button class="category-btn" data-cat="outfit">OUTFIT <span class="category-count" id="count-outfit">0</span></button>
-                    <button class="category-btn" data-cat="accessory">ACCESSORY <span class="category-count" id="count-accessory">0</span></button>
-                    <button class="category-btn" data-cat="gimmick_tool">GIMMICK <span class="category-count" id="count-gimmick">0</span></button>
-                    <button class="category-btn" data-cat="hairstyle">HAIRSTYLE <span class="category-count" id="count-hair">0</span></button>
-                    <button class="category-btn" data-cat="texture">TEXTURE <span class="category-count" id="count-texture">0</span></button>
-                </div>
+        </div>
+        <div class="filter-section">
+            <h3>FEATURES / SPECS</h3>
+            <div class="tag-cloud" id="feature-selector"></div>
+        </div>
+        <div class="filter-section">
+            <h3>VISUAL STYLE</h3>
+            <div class="tag-cloud" id="style-selector"></div>
+        </div>
+        <div class="filter-section">
+            <h3>COLORS</h3>
+            <div class="tag-cloud" id="color-selector"></div>
+        </div>
+        <div class="filter-section">
+            <h3>PRICE</h3>
+            <div class="filter-col" id="price-selector">
+                <button class="filter-btn price-preset-btn active" data-price="all">All Prices</button>
+                <button class="filter-btn price-preset-btn" data-price="free">Free (¥0)</button>
+                <button class="filter-btn price-preset-btn" data-price="under500">Under ¥500</button>
+                <button class="filter-btn price-preset-btn" data-price="under1000">Under ¥1,000</button>
+                <button class="filter-btn price-preset-btn" data-price="under2000">Under ¥2,000</button>
+                <button class="filter-btn price-preset-btn" data-price="over2000">¥2,000 & Above</button>
             </div>
+        </div>
+    </aside>
 
-            <!-- Features Tags -->
-            <div class="filter-section">
-                <h3>FEATURES / SPECS</h3>
-                <div class="tag-cloud" id="feature-selector">
-                    <!-- Dynamic feature tags will be inserted here -->
-                </div>
+    <main>
+        <div class="control-panel">
+            <div class="active-filters-row" id="active-filters-row">
+                <span style="font-size: 0.8rem; color: var(--text-muted);" id="results-meta">SEARCHING ARCHIVE...</span>
             </div>
-
-            <!-- Style Tags -->
-            <div class="filter-section">
-                <h3>VISUAL STYLE</h3>
-                <div class="tag-cloud" id="style-selector">
-                    <!-- Dynamic style tags will be inserted here -->
-                </div>
+            <div class="sort-container">
+                <span>SORT BY</span>
+                <select class="sort-select" id="sort-select">
+                    <option value="trending">ID: Descending</option>
+                    <option value="popular">Popularity</option>
+                    <option value="name_asc">Name: A-Z</option>
+                    <option value="price_asc">Price: Low to High</option>
+                    <option value="price_desc">Price: High to Low</option>
+                </select>
             </div>
+        </div>
 
-            <!-- Color Tags -->
-            <div class="filter-section">
-                <h3>COLORS</h3>
-                <div class="tag-cloud" id="color-selector">
-                    <!-- Dynamic color tags will be inserted here -->
-                </div>
+        <div class="hero-banner">
+            <div class="hero-text">
+                <h2>VRChat Booth Asset Discovery</h2>
+                <p style="color: var(--text-secondary); margin-top:0.5rem; font-size: 0.9rem;">VRChat向けのBOOTHアセットをスマートに検索。対応アバター、カラー、デザインスタイルで絞り込み可能です。</p>
             </div>
+        </div>
 
-            <!-- Price presets -->
-            <div class="filter-section">
-                <h3>PRICE</h3>
-                <div class="price-presets" id="price-selector">
-                    <button class="price-preset-btn active" data-price="all">All Prices</button>
-                    <button class="price-preset-btn" data-price="free">Free (¥0)</button>
-                    <button class="price-preset-btn" data-price="under500">Under ¥500</button>
-                    <button class="price-preset-btn" data-price="under1000">Under ¥1,000</button>
-                    <button class="price-preset-btn" data-price="under2000">Under ¥2,000</button>
-                    <button class="price-preset-btn" data-price="over2000">¥2,000 & Above</button>
-                </div>
-            </div>
-        </aside>
+        <div class="asset-grid" id="asset-grid"></div>
 
-        <!-- Main Window -->
-        <main>
-            <!-- Control bar & Active tags -->
-            <div class="control-panel">
-                <div class="active-filters-row" id="active-filters-row">
-                    <!-- Active filter chips -->
-                    <span style="font-size: 0.8rem; color: var(--text-muted);" id="results-meta">SEARCHING ARCHIVE...</span>
-                </div>
-                
-                <div class="sort-container">
-                    <span>SORT BY</span>
-                    <select class="sort-select" id="sort-select">
-                        <option value="trending">ID: Descending</option>
-                        <option value="popular">Popularity</option>
-                        <option value="name_asc">Name: A-Z</option>
-                        <option value="price_asc">Price: Low to High</option>
-                        <option value="price_desc">Price: High to Low</option>
-                    </select>
-                </div>
-            </div>
+        <div id="load-more" style="height: 60px; display: grid; place-items: center; color: var(--text-muted); font-size: 0.8rem; letter-spacing: 1px;">
+            SCROLL TO LOAD MORE
+        </div>
+    </main>
 
-
-
-            <!-- Asset Cards Grid -->
-            <div class="asset-grid" id="asset-grid"></div>
-
-            <div id="load-more" style="height: 60px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.8rem; letter-spacing: 1px;">
-                SCROLL TO LOAD MORE
-            </div>
-        </main>
-    </div>
-
-    <!-- Product Detail native dialog modal -->
-    <dialog id="detail-dialog" closedby="any" aria-labelledby="modal-title" aria-describedby="modal-desc">
-        <!-- Close Button -->
+    <dialog id="detail-dialog" closedby="any" aria-labelledby="modal-title">
         <button class="modal-close-btn" id="modal-close-btn" aria-label="閉じる">&times;</button>
-        <div class="modal-wrapper" id="modal-wrapper">
-            <!-- Left Side Image -->
+        <div class="modal-wrapper">
             <div class="modal-left">
                 <img id="modal-img" src="" alt="Thumbnail">
             </div>
-            <!-- Right Side Details -->
             <div class="modal-right">
-                <div class="modal-header">
+                <div style="display:flex; flex-direction:column; gap:8px;">
                     <div class="modal-header-top">
                         <span id="modal-cat-badge" class="modal-category">CATEGORY</span>
                         <span id="modal-price" class="modal-price">¥0</span>
@@ -1127,680 +497,340 @@
                     <div id="modal-creator" class="modal-creator">@shop</div>
                 </div>
 
-                <!-- Description -->
-                <div id="modal-desc" class="modal-description">No description available.</div>
+                <div id="modal-desc" class="modal-description">Loading...</div>
 
-                <!-- Action Button -->
                 <a id="modal-booth-link" class="modal-action-btn" href="" target="_blank">
                     <span>VIEW ON BOOTH</span> 🔗
                 </a>
 
-                <!-- Compatibility List -->
-                <div class="compatibility-section">
+                <div class="modal-sub-section">
                     <h4>AVATAR COMPATIBILITY</h4>
-                    <div class="compatibility-grid" id="modal-compat-grid">
-                        <!-- Dynamic checkboxes -->
-                    </div>
+                    <div class="compatibility-grid" id="modal-compat-grid"></div>
                 </div>
 
-                <!-- Similar Items -->
-                <div class="similar-section">
+                <div class="modal-sub-section">
                     <h4>SIMILAR ASSETS</h4>
-                    <div class="similar-grid" id="modal-similar-grid">
-                        <!-- Dynamic similar asset cards -->
-                    </div>
+                    <div class="similar-grid" id="modal-similar-grid"></div>
                 </div>
             </div>
         </div>
     </dialog>
 
     <script>
-        // Data Store
-        let allItems = [];
-        let filtered = [];
-        let itemsCount = 0;
+        // Core State
+        let allItems = [], filtered = [];
         let displayedCount = 40;
+        
+        let metaAvatars = [], metaStyles = [], metaColors = [], metaFeatures = [];
+        
+        let filters = {
+            avatar: null,
+            cat: 'all',
+            price: 'all',
+            features: new Set(),
+            styles: new Set(),
+            colors: new Set(),
+            sort: 'trending',
+            query: ''
+        };
 
-        // Current Active Filters
-        let activeAvatar = null;
-        let activeCat = 'all';
-        const activeStyles = new Set();
-        const activeColors = new Set();
-        const activeFeatures = new Set();
-        let activePrice = 'all';
-        let activeSort = 'trending';
-        let searchQuery = '';
+        const DOM = {
+            splash: document.getElementById('splash'),
+            msg: document.getElementById('splash-msg'),
+            dot: document.getElementById('status-dot'),
+            text: document.getElementById('status-text'),
+            grid: document.getElementById('asset-grid'),
+            activeRow: document.getElementById('active-filters-row'),
+            dialog: document.getElementById('detail-dialog')
+        };
 
-        // Dynamic metadata
-        let AVATARS = [];
-        let STYLES = [];
-        let COLORS = [];
-        let FEATURES = [];
-
-        // DOM elements
-        const splash = document.getElementById('splash');
-        const statusDot = document.getElementById('status-dot');
-        const statusText = document.getElementById('status-text');
-        const avatarSelector = document.getElementById('avatar-selector');
-        const featureSelector = document.getElementById('feature-selector');
-        const styleSelector = document.getElementById('style-selector');
-        const colorSelector = document.getElementById('color-selector');
-        const priceSelector = document.getElementById('price-selector');
-        const categorySelector = document.getElementById('category-selector');
-        const searchBar = document.getElementById('search-bar');
-        const sortSelect = document.getElementById('sort-select');
-        const activeFiltersRow = document.getElementById('active-filters-row');
-        const resultsMeta = document.getElementById('results-meta');
-        const assetGrid = document.getElementById('asset-grid');
-        const dialog = document.getElementById('detail-dialog');
-        const closeBtn = document.getElementById('modal-close-btn');
-
-        // Init database sequence
         async function init() {
             try {
-                console.log("🚀 Initializing Asset Archive...");
-                
-                // 0. Load Metadata
-                console.log("📡 Fetching Metadata...");
-                const metaRes = await fetch('api/metadata.json');
-                if (metaRes.ok) {
-                    const metadata = await metaRes.json();
-                    AVATARS = metadata.avatars || [];
-                    STYLES = metadata.styles || [];
-                    COLORS = metadata.colors || [];
-                    FEATURES = metadata.features || [];
-                } else {
-                    console.warn("⚠️ Metadata fetch failed, relying on defaults if any.");
-                }
-                
-                // Populate Static UI Filters
-                renderFiltersUI();
-
-                // Check URL Params for Routing
-                const urlParams = new URLSearchParams(window.location.search);
-                const routeAvatar = urlParams.get('avatar');
-                if (routeAvatar) {
-                    const av = AVATARS.find(a => a.code.toLowerCase() === routeAvatar.toLowerCase() || a.name.toLowerCase() === routeAvatar.toLowerCase());
-                    if (av) {
-                        activeAvatar = av.code;
-                        document.title = `${av.name} Compatible Items - BoothItemManager2`;
-                    }
+                // Load Dynamic Ontology Metadata
+                const mRes = await fetch('api/metadata.json');
+                if (mRes.ok) {
+                    const m = await mRes.json();
+                    metaAvatars = m.avatars || [];
+                    metaStyles = m.styles || [];
+                    metaColors = m.colors || [];
+                    metaFeatures = m.features || [];
                 }
 
-                // 1. Initial Load of Part 1 (2,000 items)
-                console.log("📡 Fetching Catalog Part 1...");
+                renderStaticFilters();
+
+                // URL Router
+                const params = new URLSearchParams(window.location.search);
+                const rAv = params.get('avatar');
+                if (rAv) {
+                    const found = metaAvatars.find(a => a.code.toLowerCase() === rAv.toLowerCase() || a.name.toLowerCase() === rAv.toLowerCase());
+                    if (found) { filters.avatar = found.code; document.title = `${found.name} - BoothItemManager`; }
+                }
+
+                // Load Data Phase 1
                 const res1 = await fetch('api/catalog_summary_part1.json');
-                if (!res1.ok) throw new Error(`Failed to load database (HTTP ${res1.status})`);
+                if (!res1.ok) throw new Error(`HTTP ${res1.status}`);
+                allItems = await res1.json();
                 
-                const part1 = await res1.json();
-                if (!Array.isArray(part1)) throw new Error("Invalid database format (Part 1)");
-                
-                allItems = part1;
-                console.log(`✅ Loaded Part 1: ${allItems.length} items`);
-                
-                // Success! Transition out of splash
-                removeSplash();
-
-                if (statusDot) statusDot.classList.add('connected');
-                if (statusText) statusText.textContent = `SYNCING [${allItems.length.toLocaleString()} / 40,017]`;
+                DOM.splash.style.opacity = '0';
+                DOM.splash.style.pointerEvents = 'none';
+                DOM.dot.classList.add('connected');
+                DOM.text.textContent = `SYNCING [${allItems.length.toLocaleString()}]`;
 
                 applyFilters();
 
-                // 2. Fetch Part 2 in background
-                console.log("📡 Fetching Catalog Part 2 in background...");
+                // Load Data Phase 2 (Background)
                 fetch('api/catalog_summary_part2.json')
-                    .then(res => {
-                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                        return res.json();
-                    })
+                    .then(r => r.ok ? r.json() : [])
                     .then(part2 => {
-                        if (!Array.isArray(part2)) throw new Error("Invalid format (Part 2)");
-                        
                         allItems = allItems.concat(part2);
-                        console.log(`✅ Loaded Part 2: Total ${allItems.length} items`);
-                        if (statusText) statusText.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
-                        
-                        updateCategoryCounts();
+                        DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+                        updateCounts();
                         applyFilters();
-                    })
-                    .catch(e => {
-                        console.error("⚠️ Partial load failure:", e);
-                        if (statusText) statusText.textContent = `PARTIAL CONNECT [${allItems.length.toLocaleString()}]`;
                     });
 
                 bindEvents();
                 setupObserver();
             } catch (e) {
-                console.error("❌ Critical Initialization Failure:", e);
-                showErrorOnSplash(e.message);
-                const loadMore = document.getElementById('load-more');
-                if (loadMore) loadMore.innerHTML = `SYSTEM CRITICAL ERROR: DATABASE OFFLINE (${e.message})`;
+                console.error(e);
+                DOM.msg.innerHTML = `<span style="color:#ff007a">SYSTEM OFFLINE</span><br><small>${e.message}</small>`;
+                document.querySelector('.spinner').style.borderTopColor = '#ff007a';
             }
         }
 
-        // Helper: Smoothly remove splash overlay
-        function removeSplash() {
-            const splashEl = document.getElementById('splash');
-            if (splashEl) {
-                splashEl.style.opacity = '0';
-                splashEl.style.pointerEvents = 'none';
-                setTimeout(() => {
-                    if (splashEl.parentNode) splashEl.remove();
-                }, 600);
-            }
+        function renderStaticFilters() {
+            document.getElementById('avatar-selector').innerHTML = metaAvatars.map(a => 
+                `<button class="filter-btn avatar-btn ${filters.avatar === a.code ? 'active' : ''}" data-code="${a.code}">${a.name}</button>`
+            ).join('');
+            document.getElementById('feature-selector').innerHTML = metaFeatures.map(f => 
+                `<span class="tag-pill feature-tag" data-val="${f.code}">${f.code}</span>`
+            ).join('');
+            document.getElementById('style-selector').innerHTML = metaStyles.map(s => 
+                `<span class="tag-pill style-tag" data-val="${s}">${s}</span>`
+            ).join('');
+            document.getElementById('color-selector').innerHTML = metaColors.map(c => 
+                `<span class="tag-pill color-tag" data-val="${c}">${c}</span>`
+            ).join('');
         }
 
-        // Helper: Display fatal error on splash screen
-        function showErrorOnSplash(msg) {
-            const splashText = document.querySelector('.splash-text');
-            if (splashText) {
-                splashText.innerHTML = `<span style="color: #ff007a">SYSTEM ERROR</span><br>
-                                       <small style="font-size: 0.75rem; color: var(--text-secondary); letter-spacing: 0; text-transform: none;">
-                                       ${msg}<br>Check console for details.</small>`;
-                splashText.style.color = '#ff007a';
-            }
-            const spinner = document.querySelector('.spinner');
-            if (spinner) {
-                spinner.style.borderTopColor = '#ff007a';
-                spinner.style.boxShadow = '0 0 15px rgba(255, 0, 122, 0.3)';
-            }
-        }
-
-        // Render Sidebar Filter items
-        function renderFiltersUI() {
-            // Avatars grid
-            avatarSelector.innerHTML = AVATARS.map(av => `
-                <button class="avatar-btn ${activeAvatar === av.code ? 'active' : ''}" data-code="${av.code}">${av.name}</button>
-            `).join('');
-
-            // Features
-            featureSelector.innerHTML = FEATURES.map(f => `
-                <span class="tag-pill feature-tag" role="button" tabindex="0" aria-pressed="false" data-val="${f.id}">${f.name}</span>
-            `).join('');
-
-            // Styles
-            styleSelector.innerHTML = STYLES.map(style => `
-                <span class="tag-pill style-tag" role="button" tabindex="0" aria-pressed="false" data-val="${style}">${style}</span>
-            `).join('');
-
-            // Colors
-            colorSelector.innerHTML = COLORS.map(color => `
-                <span class="tag-pill color-tag" role="button" tabindex="0" aria-pressed="false" data-val="${color}">${color}</span>
-            `).join('');
-        }
-
-        // Bind DOM event listeners
         function bindEvents() {
-            // Search Input with Debounce
-            searchBar.addEventListener('input', debounce((e) => {
-                searchQuery = e.target.value.toLowerCase().trim();
-                applyFilters();
-            }, 200));
-
-            // Avatar Buttons
-            avatarSelector.addEventListener('click', (e) => {
-                const btn = e.target.closest('.avatar-btn');
-                if (!btn) return;
-                const code = btn.dataset.code;
-                
-                if (activeAvatar === code) {
-                    activeAvatar = null;
-                    btn.classList.remove('active');
-                } else {
-                    document.querySelectorAll('.avatar-btn').forEach(b => b.classList.remove('active'));
-                    activeAvatar = code;
-                    btn.classList.add('active');
-                }
+            document.getElementById('search-bar').addEventListener('input', e => {
+                filters.query = e.target.value.toLowerCase().trim();
                 applyFilters();
             });
 
-            // Category buttons
-            categorySelector.addEventListener('click', (e) => {
-                const btn = e.target.closest('.category-btn');
-                if (!btn) return;
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                activeCat = btn.dataset.cat;
+            document.getElementById('sort-select').addEventListener('change', e => {
+                filters.sort = e.target.value;
                 applyFilters();
             });
 
-            // Feature Pills
-            featureSelector.addEventListener('click', (e) => {
-                const pill = e.target.closest('.feature-tag');
-                if (!pill) return;
-                const val = pill.dataset.val;
-                
-                if (activeFeatures.has(val)) {
-                    activeFeatures.delete(val);
-                    pill.classList.remove('active');
-                    pill.setAttribute('aria-pressed', 'false');
-                } else {
-                    activeFeatures.add(val);
-                    pill.classList.add('active');
-                    pill.setAttribute('aria-pressed', 'true');
-                }
+            document.getElementById('avatar-selector').addEventListener('click', e => {
+                const b = e.target.closest('.avatar-btn');
+                if (!b) return;
+                filters.avatar = filters.avatar === b.dataset.code ? null : b.dataset.code;
+                document.querySelectorAll('.avatar-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.code === filters.avatar));
                 applyFilters();
             });
 
-            // Style Pills
-            styleSelector.addEventListener('click', (e) => {
-                const pill = e.target.closest('.style-tag');
-                if (!pill) return;
-                const val = pill.dataset.val;
-                
-                if (activeStyles.has(val)) {
-                    activeStyles.delete(val);
-                    pill.classList.remove('active');
-                    pill.setAttribute('aria-pressed', 'false');
-                } else {
-                    activeStyles.add(val);
-                    pill.classList.add('active');
-                    pill.setAttribute('aria-pressed', 'true');
-                }
+            document.getElementById('category-selector').addEventListener('click', e => {
+                const b = e.target.closest('.category-btn');
+                if (!b) return;
+                filters.cat = b.dataset.cat;
+                document.querySelectorAll('.category-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.cat === filters.cat));
                 applyFilters();
             });
 
-            // Color Pills
-            colorSelector.addEventListener('click', (e) => {
-                const pill = e.target.closest('.color-tag');
-                if (!pill) return;
-                const val = pill.dataset.val;
-                
-                if (activeColors.has(val)) {
-                    activeColors.delete(val);
-                    pill.classList.remove('active');
-                    pill.setAttribute('aria-pressed', 'false');
-                } else {
-                    activeColors.add(val);
-                    pill.classList.add('active');
-                    pill.setAttribute('aria-pressed', 'true');
-                }
+            document.getElementById('price-selector').addEventListener('click', e => {
+                const b = e.target.closest('.price-preset-btn');
+                if (!b) return;
+                filters.price = b.dataset.price;
+                document.querySelectorAll('.price-preset-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.price === filters.price));
                 applyFilters();
             });
 
-            // Add keyboard support for tag pills
-            const handleKeyboardActivate = (e) => {
-                if (e.key === ' ' || e.key === 'Enter') {
-                    e.preventDefault();
-                    e.target.click();
-                }
+            const handleTagToggle = (selector, set) => {
+                document.getElementById(selector).addEventListener('click', e => {
+                    const pill = e.target.closest('.tag-pill');
+                    if (!pill) return;
+                    const val = pill.dataset.val;
+                    if (set.has(val)) set.delete(val); else set.add(val);
+                    pill.classList.toggle('active', set.has(val));
+                    applyFilters();
+                });
             };
-            featureSelector.addEventListener('keydown', handleKeyboardActivate);
-            styleSelector.addEventListener('keydown', handleKeyboardActivate);
-            colorSelector.addEventListener('keydown', handleKeyboardActivate);
+            handleTagToggle('feature-selector', filters.features);
+            handleTagToggle('style-selector', filters.styles);
+            handleTagToggle('color-selector', filters.colors);
 
-            // Price Presets
-            priceSelector.addEventListener('click', (e) => {
-                const btn = e.target.closest('.price-preset-btn');
-                if (!btn) return;
-                document.querySelectorAll('.price-preset-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                activePrice = btn.dataset.price;
-                applyFilters();
-            });
-
-            // Sort Selector
-            sortSelect.addEventListener('change', (e) => {
-                activeSort = e.target.value;
-                applyFilters();
-            });
-
-            // Modal dialog close events
-            closeBtn.addEventListener('click', () => dialog.close());
-            
-            // Native Dialog Esc / Backdrop Fallback light-dismiss support for older browsers
-            dialog.addEventListener('click', (e) => {
-                if (e.target === dialog) {
-                    dialog.close();
-                }
-            });
+            document.getElementById('modal-close-btn').addEventListener('click', () => DOM.dialog.close());
+            DOM.dialog.addEventListener('click', e => { if (e.target === DOM.dialog) DOM.dialog.close(); });
         }
 
-        // Update counts in sidebar categories
-        function updateCategoryCounts() {
+        function updateCounts() {
             document.getElementById('count-all').textContent = allItems.length.toLocaleString();
-            
-            const counts = { avatar: 0, outfit: 0, accessory: 0, gimmick_tool: 0, hairstyle: 0, texture: 0 };
-            allItems.forEach(item => {
-                const cat = (item.category || '').toLowerCase();
-                if (cat in counts) {
-                    counts[cat]++;
-                }
-            });
-
-            document.getElementById('count-avatar').textContent = counts.avatar.toLocaleString();
-            document.getElementById('count-outfit').textContent = counts.outfit.toLocaleString();
-            document.getElementById('count-accessory').textContent = counts.accessory.toLocaleString();
-            document.getElementById('count-gimmick').textContent = counts.gimmick_tool.toLocaleString();
-            document.getElementById('count-hair').textContent = counts.hairstyle.toLocaleString();
-            document.getElementById('count-texture').textContent = counts.texture.toLocaleString();
+            const c = { avatar:0, outfit:0, accessory:0, gimmick_tool:0, hairstyle:0, texture:0 };
+            allItems.forEach(i => { const k = (i.category||'').toLowerCase(); if(k in c) c[k]++; });
+            for (const [k, v] of Object.entries(c)) {
+                const el = document.getElementById(`count-${k === 'gimmick_tool' ? 'gimmick' : k === 'hairstyle' ? 'hair' : k}`);
+                if(el) el.textContent = v.toLocaleString();
+            }
         }
 
-        // Apply filters to active dataset
         function applyFilters() {
-            filtered = allItems.filter(item => {
-                // Category Filter
-                if (activeCat !== 'all' && (item.category || '').toLowerCase() !== activeCat) return false;
-
-                // Base Avatar Filter
-                if (activeAvatar) {
-                    const avatarInfo = AVATARS.find(a => a.code === activeAvatar);
-                    const avatarName = avatarInfo ? avatarInfo.name : activeAvatar;
-                    const matchedTarget = (item.compatible_avatars || []).some(t => t.toLowerCase() === avatarName.toLowerCase() || t.toLowerCase() === activeAvatar.toLowerCase());
-                    const matchedTag = (item.tags || []).some(tag => tag.toLowerCase() === avatarName.toLowerCase() || tag.toLowerCase() === activeAvatar.toLowerCase());
-                    if (!matchedTarget && !matchedTag) return false;
+            filtered = allItems.filter(i => {
+                if (filters.cat !== 'all' && (i.category||'').toLowerCase() !== filters.cat.toLowerCase()) return false;
+                
+                if (filters.avatar) {
+                    const info = metaAvatars.find(a => a.code === filters.avatar);
+                    const name = info ? info.name.toLowerCase() : filters.avatar.toLowerCase();
+                    const targets = (i.targets||[]).map(t=>t.toLowerCase());
+                    const tags = (i.tags||[]).map(t=>t.toLowerCase());
+                    if (!targets.includes(name) && !targets.includes(filters.avatar.toLowerCase()) && !tags.includes(name) && !tags.includes(filters.avatar.toLowerCase())) return false;
                 }
 
-                // Feature Filter
-                if (activeFeatures.size > 0) {
-                    for (const f of activeFeatures) {
-                        const feature = FEATURES.find(feat => feat.id === f);
-                        if (feature && !item[feature.key]) return false;
-                    }
+                const p = i.price || 0;
+                if (filters.price === 'free' && p > 0) return false;
+                if (filters.price === 'under500' && p > 500) return false;
+                if (filters.price === 'under1000' && p > 1000) return false;
+                if (filters.price === 'under2000' && p > 2000) return false;
+                if (filters.price === 'over2000' && p < 2000) return false;
+
+                const tags = new Set(i.tags || []);
+                for (const f of filters.features) if (!tags.has(f)) return false;
+                for (const s of filters.styles) if (!tags.has(s)) return false;
+                for (const c of filters.colors) if (!tags.has(c)) return false;
+
+                if (filters.query) {
+                    const tgt = `${i.title} ${i.creator_name} ${[...tags].join(' ')}`.toLowerCase();
+                    if (!tgt.includes(filters.query)) return false;
                 }
-
-                // Price Filter
-                const price = item.price || 0;
-                if (activePrice === 'free' && price > 0) return false;
-                if (activePrice === 'under500' && price > 500) return false;
-                if (activePrice === 'under1000' && price > 1000) return false;
-                if (activePrice === 'under2000' && price > 2000) return false;
-                if (activePrice === 'over2000' && price < 2000) return false;
-
-                // Style Tags Filter (ALL matches)
-                if (activeStyles.size > 0) {
-                    const itemTags = new Set(item.tags || []);
-                    const itemStyle = item.style ? (Array.isArray(item.style) ? item.style : [item.style]) : [];
-                    for (const s of activeStyles) {
-                        if (!itemTags.has(s) && !itemStyle.includes(s)) return false;
-                    }
-                }
-
-                // Color Tags Filter (ALL matches)
-                if (activeColors.size > 0) {
-                    const itemTags = new Set(item.tags || []);
-                    for (const c of activeColors) {
-                        if (!itemTags.has(c)) return false;
-                    }
-                }
-
-                // Search Query Filter
-                if (searchQuery) {
-                    const itemTags = (item.tags || []).join(' ');
-                    const searchTarget = `${item.title} ${item.creator_name || item.author} ${itemTags}`.toLowerCase();
-                    if (!searchTarget.includes(searchQuery)) return false;
-                }
-
                 return true;
             });
 
-            // Sort Results
-            if (activeSort === 'name_asc') {
-                filtered.sort((a, b) => a.title.localeCompare(b.title, 'ja'));
-            } else if (activeSort === 'price_asc') {
-                filtered.sort((a, b) => (a.price || 0) - (b.price || 0));
-            } else if (activeSort === 'price_desc') {
-                filtered.sort((a, b) => (b.price || 0) - (a.price || 0));
-            } else if (activeSort === 'popular') {
-                filtered.sort((a, b) => (b.like_count || 0) - (a.like_count || 0));
-            } else {
-                // Trending / Default sorting (using descending Item ID as a proxy for newest release)
-                filtered.sort((a, b) => parseInt(b.id || b.item_id) - parseInt(a.id || a.item_id));
-            }
+            // Sort
+            if (filters.sort === 'name_asc') filtered.sort((a,b) => a.title.localeCompare(b.title));
+            else if (filters.sort === 'price_asc') filtered.sort((a,b) => (a.price||0)-(b.price||0));
+            else if (filters.sort === 'price_desc') filtered.sort((a,b) => (b.price||0)-(a.price||0));
+            else if (filters.sort === 'popular') filtered.sort((a,b) => (b.like_count||0)-(a.like_count||0));
+            else filtered.sort((a,b) => parseInt(b.item_id) - parseInt(a.item_id));
 
             displayedCount = 40;
             renderGrid();
-            renderActiveChips();
+            renderChips();
         }
 
-        // Render Grid cards
-        function renderGrid() {
-            const chunk = filtered.slice(0, displayedCount);
-            if (chunk.length === 0) {
-                assetGrid.innerHTML = `
-                    <div style="grid-column: 1/-1; padding: 4rem; text-align: center; color: var(--text-muted); font-size: 1.1rem; font-weight: 700; letter-spacing: 1px;">
-                        NO ASSETS LOCATED IN THIS COORDINATE
-                    </div>
-                `;
-                return;
-            }
-
-            assetGrid.innerHTML = chunk.map(item => {
-                const catClass = getCategoryClass(item.category);
-                const priceFormatted = item.price === 0 ? 'Free' : `¥${(item.price || 0).toLocaleString()}`;
-                
-                return `
-                    <div class="asset-card" data-id="${item.id || item.item_id}">
-                        <div class="asset-thumb-container">
-                            <img src="${item.thumbnail}" class="asset-thumb" loading="lazy" alt="${item.title}">
-                            <div class="asset-price">${priceFormatted}</div>
-                        </div>
-                        <div class="asset-info">
-                            <div class="asset-category ${catClass}">${item.category}</div>
-                            <div class="asset-title" title="${item.title}">${item.title}</div>
-                            <div class="asset-shop">@${item.author}</div>
-                            <div class="asset-targets">
-                                ${(item.compatible_avatars || []).slice(0, 3).map(t => `<span class="target-tag">${t}</span>`).join('')}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-
-            // Card Click Events for Modal Detail Display
-            document.querySelectorAll('.asset-card').forEach(card => {
-                card.addEventListener('click', () => {
-                    const id = card.dataset.id;
-                    openDetailsModal(id);
-                });
-            });
-        }
-
-
-        // Get styled CSS border/color class based on item category
-        function getCategoryClass(cat) {
-            const c = (cat || '').toLowerCase();
-            if (c === 'avatar') return 'category-avatar';
-            if (c === 'outfit') return 'category-outfit';
-            if (c === 'accessory') return 'category-accessory';
-            if (c === 'gimmick_tool') return 'category-gimmick';
+        function getCatClass(cat) {
+            const c = (cat||'').toLowerCase();
+            if(c==='avatar') return 'category-avatar';
+            if(c==='outfit') return 'category-outfit';
+            if(c==='accessory') return 'category-accessory';
+            if(c==='gimmick_tool') return 'category-gimmick';
             return 'category-other';
         }
 
-        // Render Active filter chips row
-        function renderActiveChips() {
-            let chipsHtml = '';
+        function renderGrid() {
+            const chunk = filtered.slice(0, displayedCount);
+            if (!chunk.length) { DOM.grid.innerHTML = `<div style="grid-column:1/-1; padding:4rem; text-align:center; color:var(--text-muted);">NO ASSETS LOCATED</div>`; return; }
             
-            if (activeAvatar) {
-                const name = AVATARS.find(a => a.code === activeAvatar)?.name || activeAvatar;
-                chipsHtml += `<div class="filter-chip">アバター: ${name} <button class="filter-chip-remove" aria-label="アバターフィルターの${name}を削除" onclick="removeAvatarFilter()">&times;</button></div>`;
-            }
-            if (activeCat !== 'all') {
-                chipsHtml += `<div class="filter-chip">カテゴリ: ${activeCat.toUpperCase()} <button class="filter-chip-remove" aria-label="カテゴリフィルターの${activeCat.toUpperCase()}を削除" onclick="removeCategoryFilter()">&times;</button></div>`;
-            }
-            if (activePrice !== 'all') {
-                chipsHtml += `<div class="filter-chip">価格: ${activePrice} <button class="filter-chip-remove" aria-label="価格フィルターの${activePrice}を削除" onclick="removePriceFilter()">&times;</button></div>`;
-            }
-            for (const f of activeFeatures) {
-                const feature = FEATURES.find(feat => feat.id === f);
-                if (feature) {
-                    chipsHtml += `<div class="filter-chip">${feature.name} <button class="filter-chip-remove" aria-label="機能フィルターの${feature.name}を削除" onclick="removeFeatureFilter('${f}')">&times;</button></div>`;
-                }
-            }
-            for (const s of activeStyles) {
-                chipsHtml += `<div class="filter-chip">${s} <button class="filter-chip-remove" aria-label="スタイルフィルターの${s}を削除" onclick="removeStyleFilter('${s}')">&times;</button></div>`;
-            }
-            for (const c of activeColors) {
-                chipsHtml += `<div class="filter-chip">${c} <button class="filter-chip-remove" aria-label="カラーフィルターの${c}を削除" onclick="removeColorFilter('${c}')">&times;</button></div>`;
-            }
+            DOM.grid.innerHTML = chunk.map(i => {
+                const cCls = getCatClass(i.category);
+                const pf = i.price === 0 ? 'Free' : `¥${(i.price||0).toLocaleString()}`;
+                return `
+                    <div class="asset-card" data-id="${i.item_id}">
+                        <div class="asset-thumb-container">
+                            <img src="${i.thumbnail_url}" class="asset-thumb" loading="lazy" alt="Thumb">
+                            <div class="asset-price">${pf}</div>
+                        </div>
+                        <div class="asset-info">
+                            <div class="asset-category ${cCls}">${i.category}</div>
+                            <div class="asset-title" title="${i.title}">${i.title}</div>
+                            <div class="asset-shop">@${i.creator_name}</div>
+                            <div class="asset-targets">${(i.targets||[]).slice(0,3).map(t=>`<span class="target-tag">${t}</span>`).join('')}</div>
+                        </div>
+                    </div>`;
+            }).join('');
 
-            if (chipsHtml) {
-                chipsHtml += `<button class="clear-filters-btn" onclick="clearAllFilters()">Clear All</button>`;
-                activeFiltersRow.innerHTML = chipsHtml;
-            } else {
-                activeFiltersRow.innerHTML = `<span style="font-size: 0.8rem; color: var(--text-muted);">${filtered.length.toLocaleString()} items located</span>`;
-            }
+            document.querySelectorAll('.asset-card').forEach(c => c.addEventListener('click', () => openModal(c.dataset.id)));
         }
 
-        // Helper filter remove click handlers
-        window.removeAvatarFilter = () => {
-            activeAvatar = null;
-            document.querySelectorAll('.avatar-btn').forEach(b => b.classList.remove('active'));
-            applyFilters();
-        };
-        window.removeCategoryFilter = () => {
-            activeCat = 'all';
-            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-            document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
-            applyFilters();
-        };
-        window.removePriceFilter = () => {
-            activePrice = 'all';
-            document.querySelectorAll('.price-preset-btn').forEach(b => b.classList.remove('active'));
-            document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
-            applyFilters();
-        };
-        window.removeFeatureFilter = (featureId) => {
-            activeFeatures.delete(featureId);
-            const pill = document.querySelector(`.feature-tag[data-val="${featureId}"]`);
-            if (pill) {
-                pill.classList.remove('active');
-                pill.setAttribute('aria-pressed', 'false');
-            }
-            applyFilters();
-        };
-        window.removeStyleFilter = (style) => {
-            activeStyles.delete(style);
-            const pill = document.querySelector(`.style-tag[data-val="${style}"]`);
-            if (pill) {
-                pill.classList.remove('active');
-                pill.setAttribute('aria-pressed', 'false');
-            }
-            applyFilters();
-        };
-        window.removeColorFilter = (color) => {
-            activeColors.delete(color);
-            const pill = document.querySelector(`.color-tag[data-val="${color}"]`);
-            if (pill) {
-                pill.classList.remove('active');
-                pill.setAttribute('aria-pressed', 'false');
-            }
-            applyFilters();
-        };
-        window.clearAllFilters = () => {
-            activeAvatar = null;
-            activeCat = 'all';
-            activeFeatures.clear();
-            activeStyles.clear();
-            activeColors.clear();
-            activePrice = 'all';
-            searchBar.value = '';
-            searchQuery = '';
+        function renderChips() {
+            let h = '';
+            const addChip = (lbl, fn) => h += `<div class="filter-chip">${lbl} <button class="filter-chip-remove" onclick="${fn}">&times;</button></div>`;
             
-            document.querySelectorAll('.avatar-btn').forEach(b => b.classList.remove('active'));
-            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-            document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
-            document.querySelectorAll('.tag-pill').forEach(b => {
-                b.classList.remove('active');
-                b.setAttribute('aria-pressed', 'false');
-            });
-            document.querySelectorAll('.price-preset-btn').forEach(b => b.classList.remove('active'));
-            document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
+            if (filters.avatar) {
+                const info = metaAvatars.find(a => a.code === filters.avatar);
+                addChip(`アバター: ${info ? info.name : filters.avatar}`, `rmAv()`);
+            }
+            if (filters.cat !== 'all') addChip(`カテゴリ: ${filters.cat.toUpperCase()}`, `rmCat()`);
+            if (filters.price !== 'all') addChip(`価格: ${filters.price}`, `rmPrice()`);
             
+            filters.features.forEach(f => addChip(f, `rmFeat('${f}')`));
+            filters.styles.forEach(s => addChip(s, `rmStyle('${s}')`));
+            filters.colors.forEach(c => addChip(c, `rmColor('${c}')`));
+
+            if (h) h += `<button class="clear-filters-btn" onclick="clearAll()">Clear All</button>`;
+            else h = `<span style="font-size:0.8rem; color:var(--text-muted);">${filtered.length.toLocaleString()} items located</span>`;
+            
+            DOM.activeRow.innerHTML = h;
+        }
+
+        // Global removers
+        window.rmAv = () => { filters.avatar = null; document.querySelectorAll('.avatar-btn').forEach(b=>b.classList.remove('active')); applyFilters(); };
+        window.rmCat = () => { filters.cat = 'all'; document.querySelectorAll('.category-btn').forEach(b=>b.classList.toggle('active', b.dataset.cat==='all')); applyFilters(); };
+        window.rmPrice = () => { filters.price = 'all'; document.querySelectorAll('.price-preset-btn').forEach(b=>b.classList.toggle('active', b.dataset.price==='all')); applyFilters(); };
+        window.rmFeat = (v) => { filters.features.delete(v); document.querySelector(`.feature-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
+        window.rmStyle = (v) => { filters.styles.delete(v); document.querySelector(`.style-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
+        window.rmColor = (v) => { filters.colors.delete(v); document.querySelector(`.color-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
+        window.clearAll = () => { 
+            filters.avatar = null; filters.cat = 'all'; filters.price = 'all'; 
+            filters.features.clear(); filters.styles.clear(); filters.colors.clear();
+            filters.query = ''; document.getElementById('search-bar').value = '';
+            document.querySelectorAll('.active').forEach(e => e.classList.remove('active'));
+            document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
+            document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
             applyFilters();
         };
 
-        // Open details dialog, fetching specific item file dynamically
-        async function openDetailsModal(itemId) {
+        async function openModal(id) {
+            DOM.dialog.showModal();
+            const base = allItems.find(i => i.item_id === id);
+            if (base) fillModal(base);
+
             try {
-                // Open dialog native modal instantly to show initial loading
-                dialog.showModal();
-                
-                // Show generic modal info from index (to load immediately before fetch completes)
-                const baseInfo = allItems.find(item => item.item_id === itemId);
-                if (baseInfo) {
-                    renderModalDetails(baseInfo);
-                }
-
-                // Fetch detailed catalog info
-                const res = await fetch(`api/items/${itemId}.json`);
-                const data = await res.json();
-                
-                renderModalDetails(data);
-            } catch (e) {
-                console.error("Failed fetching item detailed json:", e);
-            }
+                const res = await fetch(`api/items/${id}.json`);
+                if (res.ok) fillModal(await res.json());
+            } catch(e) { console.error("Detail load failed", e); }
         }
 
-        // Render data inside the open dialog modal
-        function renderModalDetails(data) {
-            document.getElementById('modal-img').src = data.thumbnail || data.thumbnail_url;
-            document.getElementById('modal-title').textContent = data.title;
-            document.getElementById('modal-creator').textContent = `@${data.author || data.creator_name} (ID: ${data.creator_id || 'Unknown'})`;
+        function fillModal(d) {
+            document.getElementById('modal-img').src = d.thumbnail_url;
+            document.getElementById('modal-title').textContent = d.title;
+            document.getElementById('modal-creator').textContent = `@${d.creator_name}`;
             
-            const badge = document.getElementById('modal-cat-badge');
-            badge.textContent = data.category;
-            badge.className = `modal-category ${getCategoryClass(data.category)}`;
+            const bdg = document.getElementById('modal-cat-badge');
+            bdg.textContent = d.category; bdg.className = `modal-category ${getCatClass(d.category)}`;
             
-            document.getElementById('modal-price').textContent = data.price === 0 ? 'Free' : `¥${(data.price || 0).toLocaleString()}`;
-            document.getElementById('modal-booth-link').href = data.source_url || `https://booth.pm/ja/items/${data.item_id || data.id}`;
-            document.getElementById('modal-desc').textContent = data.description || 'No description available.';
+            document.getElementById('modal-price').textContent = d.price === 0 ? 'Free' : `¥${(d.price||0).toLocaleString()}`;
+            document.getElementById('modal-booth-link').href = d.source_url || `https://booth.pm/ja/items/${d.item_id}`;
+            document.getElementById('modal-desc').textContent = d.description || 'No description.';
 
-            // Render VRChat Avatar Compatibility Grid
-            const targets = data.compatible_avatars || data.targets || [];
-            const itemTargets = new Set(targets.map(t => typeof t === 'string' ? t.toLowerCase() : (t.code || t.name || '').toLowerCase()));
-            const compatGrid = document.getElementById('modal-compat-grid');
-            
-            compatGrid.innerHTML = AVATARS.map(av => {
-                const isSupported = itemTargets.has(av.code.toLowerCase()) || itemTargets.has(av.name.toLowerCase());
-                return `
-                    <div class="compatibility-item ${isSupported ? 'supported' : ''}">
-                        ${av.name}
-                    </div>
-                `;
-            }).join('');
+            const tgts = new Set((d.targets||[]).map(t => typeof t === 'string' ? t.toLowerCase() : (t.code||'').toLowerCase()));
+            document.getElementById('modal-compat-grid').innerHTML = metaAvatars.map(av => 
+                `<div class="compat-item ${tgts.has(av.code.toLowerCase()) || tgts.has(av.name.toLowerCase()) ? 'supported' : ''}">${av.name}</div>`
+            ).join('');
 
-            // Render Similar Assets section (5 items max)
-            const similarGrid = document.getElementById('modal-similar-grid');
-            const similarIds = data.similar_items || [];
-            
-            if (similarIds.length === 0) {
-                similarGrid.innerHTML = '<span style="grid-column: 1/-1; font-size: 0.75rem; color: var(--text-muted);">No similar assets cataloged.</span>';
-                return;
-            }
-
-            // Look up similar item data using our local in-memory allItems array
-            const similarItemsHTML = similarIds.slice(0, 5).map(sid => {
-                const simItem = allItems.find(item => (item.id || item.item_id) === sid);
-                if (!simItem) return '';
-                return `
-                    <div class="similar-card" title="${simItem.title}" onclick="openDetailsModal('${simItem.id || simItem.item_id}')">
-                        <img src="${simItem.thumbnail || simItem.thumbnail_url}" alt="${simItem.title}">
-                    </div>
-                `;
-            }).join('');
-
-            similarGrid.innerHTML = similarItemsHTML || '<span style="grid-column: 1/-1; font-size: 0.75rem; color: var(--text-muted);">Loading similar items...</span>';
+            const sim = (d.similar_items||[]).slice(0, 5);
+            document.getElementById('modal-similar-grid').innerHTML = sim.length ? sim.map(sid => {
+                const s = allItems.find(i => i.item_id === sid);
+                return s ? `<div class="similar-card" title="${s.title}" onclick="openModal('${s.item_id}')"><img src="${s.thumbnail_url}"></div>` : '';
+            }).join('') : '<span style="font-size:0.75rem; color:var(--text-muted); grid-column:1/-1;">No similar assets.</span>';
         }
 
-        // Setup IntersectionObserver for Infinite scroll/Load-more
         function setupObserver() {
-            const observer = new IntersectionObserver((entries) => {
-                if (entries[0].isIntersecting && displayedCount < filtered.length) {
-                    displayedCount += 30;
-                    renderGrid();
+            new IntersectionObserver(e => {
+                if (e[0].isIntersecting && displayedCount < filtered.length) {
+                    displayedCount += 40; renderGrid();
                 }
-            }, { root: null, rootMargin: '300px' });
-            observer.observe(document.getElementById('load-more'));
-        }
-
-        // Debounce helper for search filtering input
-        function debounce(fn, ms) {
-            let t;
-            return (...args) => {
-                clearTimeout(t);
-                t = setTimeout(() => fn(...args), ms);
-            };
+            }, { rootMargin: '300px' }).observe(document.getElementById('load-more'));
         }
 
         init();
