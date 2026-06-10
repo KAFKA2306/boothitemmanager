@@ -11,13 +11,9 @@
   "price": 4500,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "和風"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4490666",
-    "3147928",
-    "4509870",
-    "5935163",
-    "5976997"
+    "1276329",
+    "1429829",
+    "1534610",
+    "1573249",
+    "1637978"
   ],
   "user_state": {},
   "tags_raw": [],

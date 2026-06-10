@@ -13,27 +13,32 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "2362976",
-    "3125299",
-    "3366451",
-    "3653274",
-    "3687182"
+    "2557192",
+    "2678416",
+    "2900163",
+    "2977314",
+    "3004516"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "ジャケット"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3560217",
-    "4306265",
-    "4317761",
     "2508896",
-    "2544638"
+    "3285133",
+    "3645638",
+    "3781652",
+    "3806697"
   ],
   "user_state": {},
   "tags_raw": [],

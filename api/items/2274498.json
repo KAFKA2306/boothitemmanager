@@ -11,11 +11,11 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Military"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1084711",
-    "1808463",
-    "2683599",
-    "3930303",
-    "4999902"
+    "7417497",
+    "1069252",
+    "1542859",
+    "1640686",
+    "1777940"
   ],
   "user_state": {},
   "tags_raw": [],

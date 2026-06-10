@@ -11,12 +11,10 @@
   "price": 600,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネクタイ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -30,10 +28,10 @@
   },
   "similar_items": [
     "3637422",
+    "3763823",
     "4131486",
     "4159913",
-    "6260879",
-    "8148935"
+    "6260879"
   ],
   "user_state": {},
   "tags_raw": [],

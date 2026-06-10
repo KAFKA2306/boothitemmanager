@@ -15,25 +15,30 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "水着"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "1746937",
-    "2344716",
-    "2563594",
-    "2766229",
-    "3417713"
+    "2557192",
+    "2678416",
+    "2900163",
+    "2977314",
+    "3048243"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

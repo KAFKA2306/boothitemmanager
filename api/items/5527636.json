@@ -11,17 +11,11 @@
   "price": 400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3473426",
-    "3562050",
-    "3751948",
-    "3837049",
-    "4560753"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

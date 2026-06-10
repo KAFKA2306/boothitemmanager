@@ -11,15 +11,11 @@
   "price": 298,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "体操服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "1032673",
-    "3482994",
-    "3575519",
-    "4570529",
-    "5501090"
+    "4416309",
+    "4419241",
+    "4434344",
+    "4434500",
+    "4434636"
   ],
   "user_state": {},
   "tags_raw": [],

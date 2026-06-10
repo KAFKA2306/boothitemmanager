@@ -11,14 +11,10 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "手袋"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "5524850",
-    "6415993",
-    "6703072",
-    "7572282",
-    "7852285"
+    "5912398",
+    "5913457",
+    "5930373",
+    "5931082",
+    "6034029"
   ],
   "user_state": {},
   "tags_raw": [],

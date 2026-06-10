@@ -11,11 +11,11 @@
   "price": 280,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "翼"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3841422",
-    "3951026",
-    "1780596",
-    "1978977",
-    "2207085"
+    "6265175",
+    "7678891",
+    "1939489",
+    "2207085",
+    "3021038"
   ],
   "user_state": {},
   "tags_raw": [],

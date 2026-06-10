@@ -11,15 +11,11 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "眼鏡"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3665225",
-    "3715585",
-    "3776832",
-    "3915723",
-    "4886833"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

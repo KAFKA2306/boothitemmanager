@@ -11,7 +11,10 @@
   "price": 0,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Mesh",
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "1026932",
+    "4871312",
+    "4895935",
+    "5751148",
+    "5794500"
   ],
   "user_state": {},
   "tags_raw": [],

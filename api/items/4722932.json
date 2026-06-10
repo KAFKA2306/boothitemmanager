@@ -22,18 +22,25 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Grus"
+    ]
   },
   "similar_items": [
-    "1192825",
-    "1304790",
-    "1860980",
-    "1876307",
-    "1962808"
+    "6162574",
+    "3288753",
+    "3315922",
+    "3508415",
+    "3770710"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Grus",
+      "name": "グルス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

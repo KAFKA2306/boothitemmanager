@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Military"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "1069252",
+    "1801059",
+    "2740057",
+    "2833284",
+    "2869008"
   ],
   "user_state": {},
   "tags_raw": [],

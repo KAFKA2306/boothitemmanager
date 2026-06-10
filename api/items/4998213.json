@@ -11,11 +11,11 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ネックレス"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2703709",
-    "2973248",
-    "2979042",
-    "3018247",
-    "3334806"
+    "1939489",
+    "2207085",
+    "3021038",
+    "3105033",
+    "3219760"
   ],
   "user_state": {},
   "tags_raw": [],

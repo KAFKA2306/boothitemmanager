@@ -11,16 +11,11 @@
   "price": 1000,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "翼"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1318485",
-    "1466189",
-    "1665148",
-    "3161380",
-    "3257006"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

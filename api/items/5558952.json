@@ -11,11 +11,11 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Street"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1032673",
-    "3482994",
-    "3575519",
-    "5573082",
-    "5864602"
+    "2508896",
+    "3285133",
+    "3645638",
+    "3781652",
+    "3806697"
   ],
   "user_state": {},
   "tags_raw": [],

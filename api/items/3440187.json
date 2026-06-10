@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3356130",
-    "3717711",
-    "3786646",
-    "3999987",
-    "4044827"
+    "3192245",
+    "3547301",
+    "3825027",
+    "3929786",
+    "4078385"
   ],
   "user_state": {},
   "tags_raw": [],

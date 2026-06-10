@@ -11,9 +11,7 @@
   "price": 0,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Maya"
+    ]
   },
   "similar_items": [
-    "2097499",
-    "3604487",
-    "3910335",
-    "4830749",
-    "5209239"
+    "5782395",
+    "6144107",
+    "3490498",
+    "3401974",
+    "3405557"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Maya",
+      "name": "まや"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

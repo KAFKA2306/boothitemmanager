@@ -14,26 +14,23 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "白"
-    ],
-    "outfit_type": [
-      "ナース服"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo"
+      "Kikyo",
+      "Selestia"
     ]
   },
   "similar_items": [
-    "3925645",
-    "4395748",
-    "4636328",
-    "3726343",
-    "3976866"
+    "4035504",
+    "4068702",
+    "4113174",
+    "4140691",
+    "4213863"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -41,6 +38,10 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

@@ -11,7 +11,9 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "BlendShape"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "2986054",
     "3502371",
     "3702704",
     "3708000",
-    "3711659",
-    "3736041"
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

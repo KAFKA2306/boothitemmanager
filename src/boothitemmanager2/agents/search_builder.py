@@ -12,14 +12,18 @@ def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
     for item in items:
         index.append(
             {
-                "item_id": item.item_id,
-                "name": item.title,
-                "shop_name": item.creator_name,
-                "tags": item.tags,
-                "type": item.category.value,
-                "targets": [t.name for t in item.targets] + [t.code for t in item.targets],
+                "id": item.item_id,
+                "title": item.title,
+                "category": item.category.value,
                 "price": item.price,
-                "like_count": item.like_count,
+                "compatible_avatars": [t.name for t in item.targets],
+                "tags": item.tags,
+                "style": item.tag_set.style,
+                "has_dynamic_bone": bool(any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags) or "PhysBone" in item.tag_set.feature),
+                "quest_compatible": bool(any(f in ["Quest対応", "Quest", "Android"] for f in item.tags) or "QuestCompatible" in item.tag_set.feature),
+                "author": item.creator_name,
+                "thumbnail": item.thumbnail_url,
+                "booth_url": item.source_url
             }
         )
     with open(output_path, "w", encoding="utf-8") as f:

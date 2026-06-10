@@ -11,7 +11,9 @@
   "price": 500,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -20,18 +22,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
+    "4023394",
+    "5861891",
     "1065089",
     "1268362",
-    "1634088",
-    "2291899",
-    "2474761"
+    "1634088"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

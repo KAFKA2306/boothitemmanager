@@ -11,14 +11,10 @@
   "price": 0,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "眼鏡"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7581882",
-    "2229748",
-    "2641137",
-    "8222186",
-    "7542974"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

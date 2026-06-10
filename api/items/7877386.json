@@ -11,9 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1134175",
-    "1300889",
-    "1720362",
-    "1728428",
-    "2592394"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

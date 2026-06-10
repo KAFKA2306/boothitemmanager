@@ -11,9 +11,7 @@
   "price": 600,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "ストッキング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,22 +26,22 @@
     ]
   },
   "similar_items": [
-    "2845742",
-    "3043192",
-    "3442829",
-    "3467954",
-    "3962978"
+    "6027086",
+    "6324669",
+    "4491108",
+    "5149613",
+    "5199365"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Kipfel",
-      "name": "キプフェル"
-    },
-    {
       "code": "Mamehinata",
       "name": "まめひなた"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

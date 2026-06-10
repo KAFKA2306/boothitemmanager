@@ -11,9 +11,7 @@
   "price": 1500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1290465",
-    "5803366",
-    "2353827",
-    "2648648",
-    "2775264"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

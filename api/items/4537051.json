@@ -14,38 +14,36 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Kikyo"
+      "Kikyo",
+      "Selestia"
     ]
   },
   "similar_items": [
+    "3816168",
     "4008524",
-    "2035848",
-    "2227520",
-    "3619582",
-    "3730577"
+    "4031032",
+    "4035504",
+    "4068702"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

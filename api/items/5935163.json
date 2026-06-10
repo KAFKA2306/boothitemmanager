@@ -11,12 +11,10 @@
   "price": 300,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1871131",
-    "3147928",
-    "4490666",
-    "4509870",
-    "5976997"
+    "3504275",
+    "1486105",
+    "1738520",
+    "1911517",
+    "2055173"
   ],
   "user_state": {},
   "tags_raw": [],

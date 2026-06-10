@@ -11,13 +11,13 @@
   "price": 800,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Bone"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スカート"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5045358",
-    "7145104",
-    "7350200",
-    "2166184",
-    "2341161"
+    "3831781",
+    "3839033",
+    "4800605",
+    "6502515",
+    "6893042"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,14 +11,10 @@
   "price": 1300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "赤"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6643372",
-    "4723142",
-    "4308658",
-    "4588959",
-    "1067748"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

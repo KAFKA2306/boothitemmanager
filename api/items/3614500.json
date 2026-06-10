@@ -11,13 +11,9 @@
   "price": 650,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "スチームパンク"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3773247",
-    "3796204",
-    "4560986",
-    "3061447",
-    "3067964"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

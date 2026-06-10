@@ -11,7 +11,9 @@
   "price": 300,
   "category": "PROP",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1138916",
-    "1335319",
-    "2148208",
-    "2343843",
-    "2782508"
+    "2516986",
+    "4840815",
+    "6125704",
+    "6882718",
+    "6996446"
   ],
   "user_state": {},
   "tags_raw": [],

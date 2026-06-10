@@ -11,12 +11,12 @@
   "price": 0,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "白"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4823909",
-    "5195047",
-    "6747780",
-    "1138916",
-    "2019975"
+    "2516986",
+    "4840815",
+    "6125704",
+    "6882718",
+    "6996446"
   ],
   "user_state": {},
   "tags_raw": [],

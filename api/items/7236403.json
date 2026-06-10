@@ -11,11 +11,12 @@
   "price": 800,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [
-      "和風",
-      "和装"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,9 +29,9 @@
   "similar_items": [
     "7304362",
     "7320445",
-    "3360896",
-    "3504728",
-    "4853631"
+    "6984585",
+    "7759094",
+    "7108865"
   ],
   "user_state": {},
   "tags_raw": [],

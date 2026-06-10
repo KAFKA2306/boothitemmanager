@@ -20,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Karin"
+    ]
   },
   "similar_items": [
-    "1025226",
-    "1148311",
-    "1455884",
-    "1808463",
-    "2219616"
+    "3774871",
+    "4039293",
+    "4234490",
+    "4807676",
+    "4833539"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Karin",
+      "name": "カリン"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -11,12 +11,12 @@
   "price": 300,
   "category": "PROP",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "金"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1540409",
-    "3063552",
-    "4705791",
-    "4955261",
-    "6381037"
+    "2516986",
+    "4840815",
+    "6125704",
+    "6882718",
+    "6996446"
   ],
   "user_state": {},
   "tags_raw": [],

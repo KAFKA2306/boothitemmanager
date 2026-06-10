@@ -11,14 +11,10 @@
   "price": 300,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ピンク"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "6544305",
-    "4416591",
-    "3721059",
-    "6976842",
-    "7314640"
+    "5912398",
+    "5913457",
+    "5930373",
+    "5931082",
+    "6034029"
   ],
   "user_state": {},
   "tags_raw": [],

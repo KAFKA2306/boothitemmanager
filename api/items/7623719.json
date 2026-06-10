@@ -11,9 +11,7 @@
   "price": 700,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "眼鏡"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1011363",
-    "1035152",
-    "1264984",
-    "1483281",
-    "2061885"
+    "1256087",
+    "1484117",
+    "2332420",
+    "2559783",
+    "2693309"
   ],
   "user_state": {},
   "tags_raw": [],

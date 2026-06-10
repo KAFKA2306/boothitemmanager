@@ -11,9 +11,7 @@
   "price": 400,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,27 +21,27 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Shinra"
+      "Shinra",
+      "Moe"
     ]
   },
   "similar_items": [
+    "4690400",
     "4801656",
-    "5043581",
-    "5264598",
-    "5285472",
-    "4690400"
+    "4837642",
+    "5035345",
+    "5043581"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

@@ -15,25 +15,30 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ランジェリー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "1466446",
-    "1710282",
-    "2358832",
-    "2844215",
-    "2917191"
+    "2939943",
+    "2985713",
+    "2997961",
+    "3014683",
+    "3995291"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

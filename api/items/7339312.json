@@ -11,9 +11,7 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "バッグ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1217291",
-    "1259232",
-    "1506582",
-    "2738478",
-    "3103592"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

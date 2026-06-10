@@ -15,7 +15,9 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "4733050",
+    "4756263",
     "4724831",
     "4729198",
-    "4731643",
-    "4735883",
-    "4740308"
+    "4731643"
   ],
   "user_state": {},
   "tags_raw": [],

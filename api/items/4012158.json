@@ -11,12 +11,10 @@
   "price": 1500,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ファンタジー"
+      "Fantasy"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "3788640",
+    "3951840",
     "4555216",
-    "1515830",
-    "3680467",
-    "5638695",
-    "3788640"
+    "5964705",
+    "7891248"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -15,25 +15,30 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
-    "2591580",
-    "3211731",
-    "3480551",
-    "3612248",
-    "3622497"
+    "3904271",
+    "4019705",
+    "4021584",
+    "4028589",
+    "4032232"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

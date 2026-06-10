@@ -11,11 +11,11 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Military"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1032673",
-    "3482994",
-    "3575519",
-    "5573082",
-    "5864602"
+    "1069252",
+    "1640686",
+    "1801059",
+    "2740057",
+    "2869008"
   ],
   "user_state": {},
   "tags_raw": [],

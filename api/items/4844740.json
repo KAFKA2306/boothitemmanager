@@ -11,10 +11,7 @@
   "price": 100,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "バッグ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4186769",
-    "4628768",
-    "2698723",
-    "2879682",
-    "4643895"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

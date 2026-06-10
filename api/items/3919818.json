@@ -11,7 +11,9 @@
   "price": 180,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Bone"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4101219",
-    "4439176",
-    "5099479",
-    "5413301",
-    "6181326"
+    "3702141",
+    "3809608",
+    "3821902",
+    "3852331",
+    "3855573"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,32 +11,28 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "青"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
       "Manuka",
+      "Kikyo",
       "Moe",
       "Shinra"
     ]
   },
   "similar_items": [
     "5061896",
+    "5342350",
     "5325210",
     "4254967",
-    "4760910",
-    "4908694"
+    "4760910"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -50,12 +46,12 @@
       "name": "マヌカ"
     },
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

@@ -11,12 +11,11 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "翼",
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -26,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6918541",
-    "5237369",
-    "3841422",
-    "3951026",
-    "5892867"
+    "7678891",
+    "1939489",
+    "2207085",
+    "3021038",
+    "3105033"
   ],
   "user_state": {},
   "tags_raw": [],

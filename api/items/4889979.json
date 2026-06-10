@@ -22,18 +22,25 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Lime"
+    ]
   },
   "similar_items": [
-    "3762681",
-    "4504707",
-    "3770877",
-    "4705907",
-    "2861805"
+    "4890025",
+    "4894558",
+    "3485256",
+    "4483406",
+    "4897448"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Lime",
+      "name": "ライム"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

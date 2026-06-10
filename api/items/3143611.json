@@ -20,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Imeris"
+    ]
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "3055069",
+    "3059832",
+    "3061733",
+    "3092914",
+    "3152718"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Imeris",
+      "name": "イメリス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

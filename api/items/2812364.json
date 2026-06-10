@@ -12,13 +12,10 @@
   "category": "ASSET",
   "tag_set": {
     "appearance": [
-      "リボン"
+      "Bone"
     ],
     "body_type": [],
-    "style": [
-      "ロング",
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2994305",
-    "7940821",
-    "3664994",
-    "3909067",
-    "4713417"
+    "1162209",
+    "1515421",
+    "1738692",
+    "1823194",
+    "2316110"
   ],
   "user_state": {},
   "tags_raw": [],

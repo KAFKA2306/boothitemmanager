@@ -11,12 +11,10 @@
   "price": 1800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "5916238",
-    "6263190",
-    "6272838",
-    "6505215",
-    "6931395"
+    "4936842",
+    "5095818",
+    "4724831",
+    "4729198",
+    "4731643"
   ],
   "user_state": {},
   "tags_raw": [],

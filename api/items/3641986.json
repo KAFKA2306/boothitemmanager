@@ -11,11 +11,11 @@
   "price": 20000,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2097499",
-    "3604487",
-    "3910335",
-    "4830749",
-    "5209239"
+    "4469156",
+    "5438970",
+    "6137770",
+    "6386620",
+    "7658054"
   ],
   "user_state": {},
   "tags_raw": [],

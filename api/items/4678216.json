@@ -15,23 +15,22 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スーツ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo"
+      "Kikyo",
+      "Selestia"
     ]
   },
   "similar_items": [
-    "3704971",
-    "3705274",
-    "3865128",
-    "3907173",
-    "3926073"
+    "4035504",
+    "4068702",
+    "4113174",
+    "4140691",
+    "4189226"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,6 +38,10 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

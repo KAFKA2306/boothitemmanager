@@ -11,33 +11,36 @@
   "price": 1000,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Imeris"
+    ]
   },
   "similar_items": [
-    "2279352",
-    "3129255",
-    "3177112",
-    "3184036",
-    "3211354"
+    "3279948",
+    "2055173",
+    "4459284",
+    "5346515",
+    "5976997"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Imeris",
+      "name": "イメリス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

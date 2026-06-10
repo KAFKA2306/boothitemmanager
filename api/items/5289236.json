@@ -14,7 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
     "outfit_type": [],
@@ -22,18 +22,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
+    "4056082",
+    "5533070",
     "2508896",
-    "2544638",
-    "3001980",
-    "3052683",
-    "3285133"
+    "3285133",
+    "3645638"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

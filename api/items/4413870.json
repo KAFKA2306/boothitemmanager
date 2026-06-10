@@ -11,10 +11,7 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "リュック"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5127370",
-    "6970356",
-    "5727368",
-    "5873227",
-    "6212106"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

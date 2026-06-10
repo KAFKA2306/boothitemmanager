@@ -14,13 +14,11 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック",
-      "ファンタジー"
+      "Gothic",
+      "Fantasy"
     ],
     "color": [],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2035848",
-    "2227520",
-    "3619582",
-    "4174669",
-    "5160619"
+    "1802714",
+    "2144086",
+    "2241875",
+    "2530714",
+    "1472541"
   ],
   "user_state": {},
   "tags_raw": [],

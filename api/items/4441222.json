@@ -11,17 +11,11 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "マスク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
-    "outfit_type": [
-      "セーター"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3811799",
-    "3918757",
-    "3918827",
-    "3585635",
-    "6257377"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

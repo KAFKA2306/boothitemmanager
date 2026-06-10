@@ -20,18 +20,30 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Grus",
+      "Hakka"
+    ]
   },
   "similar_items": [
-    "2688342",
-    "3608039",
-    "6729747",
-    "7366339",
-    "2254157"
+    "2225181",
+    "3190100",
+    "3216993",
+    "3231886",
+    "3242007"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Grus",
+      "name": "グルス"
+    },
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -11,19 +11,13 @@
   "price": 330,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ロング",
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
-    "outfit_type": [
-      "ショートパンツ",
-      "ズボン"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -31,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2582627",
-    "3935224",
-    "6906237",
-    "2066138",
-    "3742730"
+    "1504757",
+    "1864917",
+    "1896461",
+    "1918961",
+    "1939161"
   ],
   "user_state": {},
   "tags_raw": [],

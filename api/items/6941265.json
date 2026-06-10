@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Fantasy"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3205288",
-    "3504482",
-    "4214489",
-    "4844630",
-    "4903466"
+    "5257034",
+    "1226393",
+    "1456186",
+    "1515830",
+    "1752938"
   ],
   "user_state": {},
   "tags_raw": [],

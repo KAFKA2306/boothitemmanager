@@ -11,15 +11,11 @@
   "price": 3000,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スーツ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1900968",
-    "4675715",
-    "4851116",
-    "4962805",
-    "4991100"
+    "1256087",
+    "1484117",
+    "2332420",
+    "2559783",
+    "2693309"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,16 +11,12 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "マスク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ロング"
+      "Jirai"
     ],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3811799",
-    "4441222",
-    "6257377",
-    "4855902",
-    "6162574"
+    "3229419",
+    "3740568",
+    "4335846",
+    "4370951",
+    "4372397"
   ],
   "user_state": {},
   "tags_raw": [],

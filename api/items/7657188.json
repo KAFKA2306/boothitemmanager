@@ -11,14 +11,9 @@
   "price": 800,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏",
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7305956",
-    "1144049",
-    "2621276",
-    "3505142",
-    "4400762"
+    "1276329",
+    "1429829",
+    "1534610",
+    "1573249",
+    "1637978"
   ],
   "user_state": {},
   "tags_raw": [],

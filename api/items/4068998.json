@@ -15,9 +15,7 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "4043607",
-    "4047476",
-    "4049384",
+    "4036403",
     "4085764",
-    "4131284"
+    "4131284",
+    "4168034",
+    "4180153"
   ],
   "user_state": {},
   "tags_raw": [],

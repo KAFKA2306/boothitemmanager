@@ -11,14 +11,10 @@
   "price": 5000,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "グレー"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7286325",
-    "1680527",
-    "3407474",
-    "3755026",
-    "5702201"
+    "1276329",
+    "1429829",
+    "1534610",
+    "1573249",
+    "1637978"
   ],
   "user_state": {},
   "tags_raw": [],

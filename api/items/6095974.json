@@ -11,11 +11,11 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3550932",
-    "3114352",
-    "3400635",
-    "3407613",
-    "3629400"
+    "6265175",
+    "7678891",
+    "1939489",
+    "2207085",
+    "3021038"
   ],
   "user_state": {},
   "tags_raw": [],

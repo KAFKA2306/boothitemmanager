@@ -15,9 +15,7 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,22 +26,22 @@
     ]
   },
   "similar_items": [
-    "2591580",
-    "3211731",
-    "3480551",
-    "3612248",
-    "3622497"
+    "4491108",
+    "5149613",
+    "5199365",
+    "5211854",
+    "5376404"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Kipfel",
-      "name": "キプフェル"
-    },
-    {
       "code": "Mamehinata",
       "name": "まめひなた"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

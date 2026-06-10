@@ -21,8 +21,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
       "Manuka",
+      "Lime",
+      "Kikyo",
       "Moe"
     ]
   },
@@ -47,6 +48,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Lime",
+      "name": "ライム"
     }
   ],
   "files": [],

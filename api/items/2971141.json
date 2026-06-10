@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "パーカー"
+    "style": [
+      "Street"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6667186",
-    "1595503",
-    "2043360",
-    "2586590",
-    "2829984"
+    "5645575",
+    "7618639",
+    "2341161",
+    "2508896",
+    "3285133"
   ],
   "user_state": {},
   "tags_raw": [],

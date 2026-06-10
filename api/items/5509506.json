@@ -11,11 +11,11 @@
   "price": 0,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "SF"
+    "appearance": [
+      "Animation"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1003149",
-    "1013977",
-    "1256213",
-    "1455619",
-    "2020135"
+    "1065089",
+    "1268362",
+    "1634088",
+    "2291899",
+    "2474761"
   ],
   "user_state": {},
   "tags_raw": [],

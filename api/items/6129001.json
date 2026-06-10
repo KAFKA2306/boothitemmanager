@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "アーマー"
+    "style": [
+      "Fantasy"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2965891",
-    "3829072",
-    "4415219",
-    "4624661",
-    "4949609"
+    "1456186",
+    "2583342",
+    "2966074",
+    "4455661",
+    "5023174"
   ],
   "user_state": {},
   "tags_raw": [],

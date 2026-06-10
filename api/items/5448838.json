@@ -22,18 +22,25 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
-    "3487967",
-    "4392229",
-    "5146350",
-    "5270463",
-    "5322882"
+    "4022272",
+    "4070456",
+    "4625019",
+    "5009159",
+    "4434906"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

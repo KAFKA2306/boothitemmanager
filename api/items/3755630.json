@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "ドレス"
+    "style": [
+      "Tenshi"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1300847",
-    "1644661",
-    "2428269",
-    "2744778",
-    "2753167"
+    "3799865",
+    "3825060",
+    "3929719",
+    "4169376",
+    "4570137"
   ],
   "user_state": {},
   "tags_raw": [],

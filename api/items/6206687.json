@@ -11,13 +11,13 @@
   "price": 0,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "警察官"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4767192",
-    "6141895",
-    "6175118",
-    "6470285",
-    "7041245"
+    "1065089",
+    "1268362",
+    "1634088",
+    "2291899",
+    "2474761"
   ],
   "user_state": {},
   "tags_raw": [],

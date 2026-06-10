@@ -11,13 +11,10 @@
   "price": 1000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ツイン",
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4373202",
-    "5077570",
-    "5187909",
-    "5503446",
-    "5548688"
+    "3464556",
+    "3466425",
+    "3599316",
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],

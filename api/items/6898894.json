@@ -11,11 +11,11 @@
   "price": 250,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "スチームパンク"
+    "appearance": [
+      "Material"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1185030",
-    "1269249",
-    "2087710",
-    "3061447",
-    "3067964"
+    "4840815",
+    "7108865",
+    "7168587",
+    "7228919",
+    "7241178"
   ],
   "user_state": {},
   "tags_raw": [],

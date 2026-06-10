@@ -13,13 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3855969",
-    "3856008",
-    "4018166",
-    "2059614",
-    "2847658"
+    "2866343",
+    "3050625",
+    "3143286",
+    "3186729",
+    "3325721"
   ],
   "user_state": {},
   "tags_raw": [],

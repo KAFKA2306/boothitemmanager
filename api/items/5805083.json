@@ -11,11 +11,11 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4253104",
-    "4318521",
-    "4907144",
-    "4919376",
-    "5113793"
+    "1939489",
+    "2207085",
+    "3021038",
+    "3105033",
+    "3219760"
   ],
   "user_state": {},
   "tags_raw": [],

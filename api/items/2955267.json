@@ -11,10 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ブーツ",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2703222",
-    "3845072",
-    "7163772",
-    "3858416",
-    "4418110"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

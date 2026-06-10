@@ -11,13 +11,13 @@
   "price": 500,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スカート"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5045358",
-    "7145104",
-    "8014928",
-    "2166184",
-    "2341161"
+    "3190602",
+    "3257870",
+    "3698953",
+    "4108136",
+    "4160387"
   ],
   "user_state": {},
   "tags_raw": [],

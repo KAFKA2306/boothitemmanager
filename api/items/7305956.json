@@ -11,14 +11,9 @@
   "price": 550,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏",
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7657188",
-    "2621276",
-    "1144049",
-    "3505142",
-    "4400762"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

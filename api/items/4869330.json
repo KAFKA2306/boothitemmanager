@@ -11,9 +11,7 @@
   "price": 528,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1134175",
-    "1300889",
-    "1720362",
-    "1728428",
-    "2262543"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

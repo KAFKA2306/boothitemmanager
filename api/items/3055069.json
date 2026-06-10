@@ -14,28 +14,31 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
-    "outfit_type": [
-      "警察官"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Imeris"
+    ]
   },
   "similar_items": [
-    "3772721",
-    "1202640",
-    "1310171",
-    "1426096",
-    "3798804"
+    "3059832",
+    "3061733",
+    "3092914",
+    "3143611",
+    "3152718"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Imeris",
+      "name": "イメリス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

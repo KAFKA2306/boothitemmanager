@@ -1,0 +1,31 @@
+
+version: 1
+updated_at: "2026-06-10"
+categories:
+  AVATAR:
+    aliases: ["アバター", "avatar", "3Dキャラクター", "オリジナル3Dモデル"]
+  OUTFIT:
+    aliases: ["衣装", "服", "outfit", "costume", "dress", "着せ替え", "clothing"]
+    sub_categories: ["tops", "bottoms", "inner", "outer", "set"]
+  ACCESSORY:
+    aliases: ["アクセサリ", "accessory", "小物", "item", "prop"]
+    sub_categories: ["head", "face", "ear", "hand", "foot", "weapon"]
+  HAIRSTYLE:
+    aliases: ["髪型", "ヘアスタイル", "hairstyle", "hair", "髪", "ウィッグ"]
+  TEXTURE:
+    aliases: ["テクスチャ", "texture", "skin", "makeup", "eye texture", "body texture", "瞳", "肌", "メイク"]
+  GIMMICK_TOOL:
+    aliases: ["ギミック", "gimmick", "tool", "システム", "system", "script", "MA対応", "VRCFury"]
+features:
+  ModularAvatar:
+    aliases: ["Modular Avatar", "MA対応", "MA", "ModularAvatar"]
+  VRCFury:
+    aliases: ["VRCFury", "Fury"]
+  PhysBone:
+    aliases: ["PhysBone", "PB対応", "PB", "揺れもの"]
+  QuestCompatible:
+    aliases: ["Quest対応", "Android対応", "Quest", "Android"]
+  lilToon:
+    aliases: ["lilToon", "lil"]
+  Poiyomi:
+    aliases: ["Poiyomi", "Poi"]

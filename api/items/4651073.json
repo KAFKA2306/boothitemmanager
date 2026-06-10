@@ -24,18 +24,25 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Maya"
+    ]
   },
   "similar_items": [
-    "6506265",
-    "4699557",
-    "4753450",
-    "5341407",
-    "6394813"
+    "3405557",
+    "3721059",
+    "3858122",
+    "3861097",
+    "3895250"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Maya",
+      "name": "まや"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

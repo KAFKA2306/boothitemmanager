@@ -11,12 +11,10 @@
   "price": 330,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "マスク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2190422",
-    "1251759",
-    "2137838",
-    "2644706",
-    "3209868"
+    "1504757",
+    "1864917",
+    "1896461",
+    "1918961",
+    "1939161"
   ],
   "user_state": {},
   "tags_raw": [],

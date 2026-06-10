@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -31,9 +29,9 @@
   "similar_items": [
     "3875394",
     "3906684",
+    "3942634",
     "4107815",
-    "4171797",
-    "4297455"
+    "4139525"
   ],
   "user_state": {},
   "tags_raw": [],

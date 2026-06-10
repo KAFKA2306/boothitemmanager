@@ -12,7 +12,8 @@
   "category": "ANIMATION",
   "tag_set": {
     "appearance": [
-      "BlendShape"
+      "BlendShape",
+      "Animation"
     ],
     "body_type": [],
     "style": [],
@@ -30,10 +31,10 @@
   },
   "similar_items": [
     "5528309",
-    "5051031",
-    "5058946",
-    "5059123",
-    "5060744"
+    "6151898",
+    "6770839",
+    "6782714",
+    "7024918"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -105,11 +105,43 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
 
 
 def load_aliases() -> dict[str, Any]:
-    path = os.path.join(os.getcwd(), "aliases.yml")
-    if not os.path.exists(path):
+    ontology_dir = os.path.join(os.getcwd(), "ontology")
+    if not os.path.exists(ontology_dir):
+        # Fallback to old path if ontology dir doesn't exist yet
+        old_path = os.path.join(os.getcwd(), "aliases.yml")
+        if os.path.exists(old_path):
+            with open(old_path, encoding="utf-8") as f:
+                return yaml.safe_load(f)
         return {}
-    with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+    
+    res = {}
+    try:
+        avatars = yaml.safe_load(open(os.path.join(ontology_dir, "avatars.yaml"), encoding="utf-8"))
+        # Map canonical format to old aliases.yml format for backward compatibility
+        res["avatars"] = {}
+        for code, data in avatars.get("avatars", {}).items():
+            res["avatars"][code] = {
+                "name_ja": data.get("canonical_name"),
+                "item_id": data.get("booth_item_id"),
+                "aliases": data.get("aliases", [])
+            }
+        
+        tags = yaml.safe_load(open(os.path.join(ontology_dir, "tags.yaml"), encoding="utf-8"))
+        res["categories"] = tags.get("categories", {})
+        res["features"] = tags.get("features", {})
+        
+        styles = yaml.safe_load(open(os.path.join(ontology_dir, "styles.yaml"), encoding="utf-8"))
+        res["styles"] = styles.get("styles", {})
+        
+    except Exception as e:
+        print(f"⚠️ Warning: Failed to load granular ontology: {e}")
+        # Final fallback
+        old_path = os.path.join(os.getcwd(), "aliases.yml")
+        if os.path.exists(old_path):
+            with open(old_path, encoding="utf-8") as f:
+                return yaml.safe_load(f)
+                
+    return res
 
 
 def _parse_og_tags(soup: BeautifulSoup) -> dict[str, str]:
@@ -206,29 +238,51 @@ def pick_targets(
     targets_map = {}
     text = f"{name} {description} {' '.join(tags)}".lower()
     
-    # 1. Text-based alias matching
-    for code, data in aliases.get("avatars", {}).items():
-        name_ja = data.get("name_ja", "")
-        name_en = data.get("name_en", "")
-        terms = [code.lower()] + [
-            t.lower()
-            for t in data.get("aliases", []) + [name_ja, name_en]
-            if t
-        ]
-        # Use word boundaries or specific patterns to avoid over-matching
-        for term in terms:
-            if term in text:
-                targets_map[code] = AvatarRef(code=code, name=name_ja or code)
-                break
-                
-    # 2. ID-based matching (from description URLs)
+    # Negative patterns to look for near the term
+    NEGATIONS = ["非対応", "不可", "except", "not supported", "not compatible", "除外", "のみ対応", "なし", "not"]
+
+    # 1. ID-based matching (Highest Confidence)
     found_ids = set(re.findall(r"items/(\d+)", description))
     for code, data in aliases.get("avatars", {}).items():
         target_id = str(data.get("item_id", ""))
         if target_id and target_id in found_ids:
-            if code not in targets_map:
-                targets_map[code] = AvatarRef(code=code, name=data.get("name_ja", code))
+            targets_map[code] = AvatarRef(code=code, name=data.get("name_ja", code))
 
+    # 2. Text-based matching with fuzzy boundaries and bidirectional negation check
+    for code, data in aliases.get("avatars", {}).items():
+        if code in targets_map:
+            continue
+            
+        name_ja = data.get("name_ja", "")
+        name_en = data.get("name_en", "")
+        terms = list(set([code.lower()] + [
+            t.lower()
+            for t in data.get("aliases", []) + [name_ja, name_en]
+            if t
+        ]))
+        
+        for term in terms:
+            # Fuzzy boundary: ensure not mid-word for alphanumeric
+            if term.isalnum():
+                pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
+            else:
+                pattern = re.escape(term)
+                
+            for match in re.finditer(pattern, text):
+                idx = match.start()
+                # Check window before and after for negation
+                window_before = text[max(0, idx - 20) : idx]
+                window_after = text[idx : idx + 30]
+                
+                is_negated = any(n in window_before for n in NEGATIONS) or \
+                             any(n in window_after for n in NEGATIONS)
+                
+                if not is_negated:
+                    targets_map[code] = AvatarRef(code=code, name=name_ja or code)
+                    break
+            if code in targets_map:
+                break
+                
     return list(targets_map.values())
 
 

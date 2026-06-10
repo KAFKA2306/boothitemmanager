@@ -20,18 +20,30 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Grus",
+      "Minase"
+    ]
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "4371066",
+    "4681859",
+    "3242007",
+    "3275381",
+    "3518609"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Grus",
+      "name": "グルス"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

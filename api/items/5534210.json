@@ -11,12 +11,11 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "リボン",
-      "リュック"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -26,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4253104",
-    "4318521",
-    "4907144",
-    "4919376",
-    "5113793"
+    "4377805",
+    "7122254",
+    "3229419",
+    "3585635",
+    "3740568"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BoothItem",
+  "type": "object",
+  "required": [
+    "item_id",
+    "title",
+    "category",
+    "price",
+    "compatible_avatars",
+    "tags",
+    "thumbnail",
+    "booth_url"
+  ],
+  "properties": {
+    "item_id": { "type": "string" },
+    "title": { "type": "string" },
+    "category": { "type": "string" },
+    "price": { "type": ["integer", "null"] },
+    "compatible_avatars": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "style": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "has_dynamic_bone": { "type": "boolean" },
+    "quest_compatible": { "type": "boolean" },
+    "author": { "type": "string" },
+    "thumbnail": { "type": "string" },
+    "booth_url": { "type": "string" },
+    "description": { "type": "string" },
+    "published_at": { "type": ["string", "null"] },
+    "like_count": { "type": "integer" }
+  }
+}

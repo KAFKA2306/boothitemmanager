@@ -15,25 +15,30 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Selestia"
+    ]
   },
   "similar_items": [
-    "3002560",
-    "3330792",
-    "3488334",
-    "3496886",
-    "3796550"
+    "4041337",
+    "4046871",
+    "4049420",
+    "4057947",
+    "4059661"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

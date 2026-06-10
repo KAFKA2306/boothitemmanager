@@ -11,13 +11,9 @@
   "price": 600,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4373202",
-    "5077570",
-    "5187909",
-    "5197958",
-    "5503446"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,12 +11,10 @@
   "price": 1000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6333866",
-    "6427542",
-    "6515798",
-    "6587271",
-    "6601872"
+    "2588481",
+    "3209293",
+    "3721462",
+    "3742777",
+    "3821617"
   ],
   "user_state": {},
   "tags_raw": [],

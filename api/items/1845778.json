@@ -11,9 +11,7 @@
   "price": 4980,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2097499",
-    "3604487",
-    "3910335",
-    "4830749",
-    "5209239"
+    "1256087",
+    "1484117",
+    "2332420",
+    "2559783",
+    "2693309"
   ],
   "user_state": {},
   "tags_raw": [],

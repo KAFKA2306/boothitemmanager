@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3445660",
-    "3503350",
-    "3521533",
-    "3599567",
-    "4180525"
+    "3192245",
+    "3440187",
+    "3547301",
+    "3825027",
+    "3929786"
   ],
   "user_state": {},
   "tags_raw": [],

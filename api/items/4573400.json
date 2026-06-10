@@ -11,11 +11,11 @@
   "price": 250,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2908109",
-    "3374127",
-    "3374402",
-    "3552928",
-    "3677973"
+    "3799865",
+    "3825060",
+    "3929719",
+    "4169376",
+    "4570137"
   ],
   "user_state": {},
   "tags_raw": [],

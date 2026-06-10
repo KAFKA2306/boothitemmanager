@@ -15,23 +15,32 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Grus"
+    ]
   },
   "similar_items": [
-    "2885381",
-    "2900163",
-    "3039590",
-    "3044206",
-    "3229850"
+    "4053450",
+    "3242007",
+    "3275381",
+    "3518609",
+    "3613571"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Grus",
+      "name": "グルス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

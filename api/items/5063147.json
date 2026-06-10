@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "5086404",
-    "2885381",
-    "2900163",
-    "3039590",
-    "3044206"
+    "4480336",
+    "4686246",
+    "4844427",
+    "5057865",
+    "5058253"
   ],
   "user_state": {},
   "tags_raw": [],

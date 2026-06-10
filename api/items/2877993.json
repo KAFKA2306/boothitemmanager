@@ -11,17 +11,11 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "カーディガン"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4082970",
-    "4196439",
-    "4394095",
-    "4831294",
-    "4976798"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

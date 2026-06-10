@@ -11,15 +11,13 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
-    "outfit_type": [
-      "ジーンズ"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2817559",
-    "5524850",
-    "6415993",
-    "6703072",
-    "7852285"
+    "4840815",
+    "7108865",
+    "7168587",
+    "7228919",
+    "7241178"
   ],
   "user_state": {},
   "tags_raw": [],

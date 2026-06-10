@@ -11,13 +11,9 @@
   "price": 1000,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4902597",
-    "5962389",
-    "3909067",
-    "4928817",
-    "5073121"
+    "5896830",
+    "5911107",
+    "5914038",
+    "5966764",
+    "6082558"
   ],
   "user_state": {},
   "tags_raw": [],

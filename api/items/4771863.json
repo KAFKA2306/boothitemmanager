@@ -15,7 +15,9 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "inner"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "2322182",
+    "2961938",
+    "4407087",
     "4724831",
-    "4729198",
-    "4731643",
-    "4735883",
-    "4740308"
+    "4729198"
   ],
   "user_state": {},
   "tags_raw": [],

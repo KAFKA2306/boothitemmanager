@@ -11,13 +11,9 @@
   "price": 2000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "冬"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "3505142",
-    "3596009",
-    "3802362",
-    "3922645",
-    "3937555"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

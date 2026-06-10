@@ -11,12 +11,10 @@
   "price": 0,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5335706",
-    "5495703",
-    "5503886",
+    "5504137",
+    "5992358",
+    "1228094",
     "1306657",
-    "1764242"
+    "1333754"
   ],
   "user_state": {},
   "tags_raw": [],

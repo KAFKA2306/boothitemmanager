@@ -11,9 +11,7 @@
   "price": 250,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "5384383",
-    "6017138",
+    "5110234",
+    "5564942",
+    "6068651",
     "6360429",
-    "5066546",
-    "5082179"
+    "4686246"
   ],
   "user_state": {},
   "tags_raw": [],

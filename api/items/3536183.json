@@ -11,7 +11,10 @@
   "price": 0,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Animation",
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "3847150",
+    "4365662",
+    "1026932",
     "1065089",
-    "1268362",
-    "1634088",
-    "2291899",
-    "2474761"
+    "1268362"
   ],
   "user_state": {},
   "tags_raw": [],

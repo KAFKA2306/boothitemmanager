@@ -13,13 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "2059614",
-    "2847658",
-    "3652461",
-    "3921448",
-    "4052309"
+    "4039565",
+    "4041337",
+    "4046871",
+    "4049420",
+    "4057947"
   ],
   "user_state": {},
   "tags_raw": [],

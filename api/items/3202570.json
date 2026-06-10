@@ -11,17 +11,13 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -30,10 +26,10 @@
   },
   "similar_items": [
     "1486105",
-    "2215318",
-    "3931778",
-    "5868981",
-    "3129255"
+    "2059604",
+    "2663182",
+    "3360896",
+    "3565853"
   ],
   "user_state": {},
   "tags_raw": [],

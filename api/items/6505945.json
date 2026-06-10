@@ -16,18 +16,20 @@
     "style": [],
     "color": [],
     "outfit_type": [],
-    "accessory": [],
+    "accessory": [
+      "ear"
+    ],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "1035152",
-    "1466404",
-    "1483281",
-    "2065390",
-    "2200401"
+    "2988636",
+    "4011247",
+    "5590974",
+    "5651789",
+    "6776613"
   ],
   "user_state": {},
   "tags_raw": [],

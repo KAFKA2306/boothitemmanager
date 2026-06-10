@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
-    "outfit_type": [
-      "アーマー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "1472541",
-    "2167681",
+    "1639911",
     "2448483",
     "2477500",
-    "3908092"
+    "3639457"
   ],
   "user_state": {},
   "tags_raw": [],

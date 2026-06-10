@@ -13,12 +13,8 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "フォーマル"
-    ],
-    "color": [
-      "黒"
-    ],
+    "style": [],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1202640",
-    "1310171",
-    "1426096",
-    "3798804",
-    "3869305"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

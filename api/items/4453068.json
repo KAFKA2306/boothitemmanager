@@ -14,10 +14,12 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +29,11 @@
     ]
   },
   "similar_items": [
+    "3437878",
+    "3698474",
+    "3735639",
     "3875394",
-    "3906684",
-    "4107815",
-    "4171797",
-    "4565023"
+    "3906684"
   ],
   "user_state": {},
   "tags_raw": [],

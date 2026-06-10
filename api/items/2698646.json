@@ -20,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Hakka"
+    ]
   },
   "similar_items": [
+    "2234501",
+    "2294323",
     "2660785",
-    "2691165",
-    "2829250",
-    "3004663",
-    "3145604"
+    "2673799",
+    "2688342"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

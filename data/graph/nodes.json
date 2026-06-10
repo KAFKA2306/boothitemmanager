@@ -14,10 +14,10 @@
     }
   },
   {
-    "id": "tag:帽子",
+    "id": "tag:Animation",
     "label": "Tag",
     "properties": {
-      "name": "tag:帽子"
+      "name": "tag:Animation"
     }
   },
   {
@@ -32,6 +32,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:mukumi"
+    }
+  },
+  {
+    "id": "tag:Kipfel",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Kipfel"
     }
   },
   {
@@ -60,13 +67,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:ponderogen"
-    }
-  },
-  {
-    "id": "tag:Shinano",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Shinano"
     }
   },
   {
@@ -105,17 +105,17 @@
     }
   },
   {
+    "id": "tag:ModularAvatar",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ModularAvatar"
+    }
+  },
+  {
     "id": "tag:PhysBone",
     "label": "Tag",
     "properties": {
       "name": "tag:PhysBone"
-    }
-  },
-  {
-    "id": "tag:Modular Avatar",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Modular Avatar"
     }
   },
   {
@@ -144,13 +144,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:paryi"
-    }
-  },
-  {
-    "id": "tag:Rurune",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Rurune"
     }
   },
   {
@@ -189,6 +182,13 @@
     }
   },
   {
+    "id": "tag:Mamehinata",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Mamehinata"
+    }
+  },
+  {
     "id": "item:6174567",
     "label": "Item",
     "properties": {
@@ -200,13 +200,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:rednightworksvrc"
-    }
-  },
-  {
-    "id": "tag:赤",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:赤"
     }
   },
   {
@@ -392,20 +385,6 @@
     }
   },
   {
-    "id": "tag:Mafuyu",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Mafuyu"
-    }
-  },
-  {
-    "id": "tag:冬",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:冬"
-    }
-  },
-  {
     "id": "item:6633647",
     "label": "Item",
     "properties": {
@@ -417,13 +396,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:extension"
-    }
-  },
-  {
-    "id": "tag:バニーガール",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:バニーガール"
     }
   },
   {
@@ -445,6 +417,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:lilxyzw"
+    }
+  },
+  {
+    "id": "tag:lilToon",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:lilToon"
     }
   },
   {
@@ -476,10 +455,10 @@
     }
   },
   {
-    "id": "tag:パーカー",
+    "id": "tag:set",
     "label": "Tag",
     "properties": {
-      "name": "tag:パーカー"
+      "name": "tag:set"
     }
   },
   {
@@ -525,6 +504,13 @@
     }
   },
   {
+    "id": "tag:Shader",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Shader"
+    }
+  },
+  {
     "id": "item:4590436",
     "label": "Item",
     "properties": {
@@ -543,6 +529,13 @@
     "label": "Item",
     "properties": {
       "name": "item:3470989"
+    }
+  },
+  {
+    "id": "tag:Karin",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Karin"
     }
   },
   {
@@ -672,6 +665,13 @@
     }
   },
   {
+    "id": "tag:Rusk",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Rusk"
+    }
+  },
+  {
     "id": "item:7542241",
     "label": "Item",
     "properties": {
@@ -686,13 +686,6 @@
     }
   },
   {
-    "id": "tag:メイド",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:メイド"
-    }
-  },
-  {
     "id": "item:6110958",
     "label": "Item",
     "properties": {
@@ -704,13 +697,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:tempasta"
-    }
-  },
-  {
-    "id": "tag:セーター",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:セーター"
     }
   },
   {
@@ -756,13 +742,6 @@
     }
   },
   {
-    "id": "tag:ロング",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ロング"
-    }
-  },
-  {
     "id": "item:6970249",
     "label": "Item",
     "properties": {
@@ -788,13 +767,6 @@
     "label": "Item",
     "properties": {
       "name": "item:5132797"
-    }
-  },
-  {
-    "id": "tag:Mizuki",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Mizuki"
     }
   },
   {
@@ -994,13 +966,6 @@
     }
   },
   {
-    "id": "tag:ツイン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ツイン"
-    }
-  },
-  {
     "id": "item:6535704",
     "label": "Item",
     "properties": {
@@ -1057,10 +1022,10 @@
     }
   },
   {
-    "id": "tag:ライム",
+    "id": "tag:Lime",
     "label": "Tag",
     "properties": {
-      "name": "tag:ライム"
+      "name": "tag:Lime"
     }
   },
   {
@@ -1141,13 +1106,6 @@
     }
   },
   {
-    "id": "tag:ネイル",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ネイル"
-    }
-  },
-  {
     "id": "item:5727810",
     "label": "Item",
     "properties": {
@@ -1180,13 +1138,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:yoriyoi"
-    }
-  },
-  {
-    "id": "tag:SF",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:SF"
     }
   },
   {
@@ -1281,13 +1232,6 @@
     }
   },
   {
-    "id": "tag:浴衣",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:浴衣"
-    }
-  },
-  {
     "id": "item:5359699",
     "label": "Item",
     "properties": {
@@ -1334,6 +1278,13 @@
     "label": "Item",
     "properties": {
       "name": "item:6521723"
+    }
+  },
+  {
+    "id": "tag:Street",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Street"
     }
   },
   {
@@ -1512,20 +1463,6 @@
     }
   },
   {
-    "id": "tag:NekoMaid",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:NekoMaid"
-    }
-  },
-  {
-    "id": "tag:メイド服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:メイド服"
-    }
-  },
-  {
     "id": "item:7254250",
     "label": "Item",
     "properties": {
@@ -1617,13 +1554,6 @@
     }
   },
   {
-    "id": "tag:黄",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:黄"
-    }
-  },
-  {
     "id": "item:6194760",
     "label": "Item",
     "properties": {
@@ -1659,24 +1589,10 @@
     }
   },
   {
-    "id": "tag:ジャケット",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ジャケット"
-    }
-  },
-  {
     "id": "item:5298514",
     "label": "Item",
     "properties": {
       "name": "item:5298514"
-    }
-  },
-  {
-    "id": "tag:メイク",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:メイク"
     }
   },
   {
@@ -1764,6 +1680,13 @@
     }
   },
   {
+    "id": "tag:Tenshi",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Tenshi"
+    }
+  },
+  {
     "id": "item:3407613",
     "label": "Item",
     "properties": {
@@ -1820,13 +1743,6 @@
     }
   },
   {
-    "id": "tag:尻尾",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:尻尾"
-    }
-  },
-  {
     "id": "item:7002606",
     "label": "Item",
     "properties": {
@@ -1873,13 +1789,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:silverspace"
-    }
-  },
-  {
-    "id": "tag:青",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:青"
     }
   },
   {
@@ -2009,13 +1918,6 @@
     }
   },
   {
-    "id": "tag:ショートヘア",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ショートヘア"
-    }
-  },
-  {
     "id": "item:7208062",
     "label": "Item",
     "properties": {
@@ -2065,6 +1967,13 @@
     }
   },
   {
+    "id": "tag:BlendShape",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:BlendShape"
+    }
+  },
+  {
     "id": "item:4427155",
     "label": "Item",
     "properties": {
@@ -2107,13 +2016,6 @@
     }
   },
   {
-    "id": "tag:ドレス",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ドレス"
-    }
-  },
-  {
     "id": "item:4844630",
     "label": "Item",
     "properties": {
@@ -2149,13 +2051,6 @@
     }
   },
   {
-    "id": "tag:ストッキング",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ストッキング"
-    }
-  },
-  {
     "id": "item:7645723",
     "label": "Item",
     "properties": {
@@ -2181,13 +2076,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:inori52hz"
-    }
-  },
-  {
-    "id": "tag:靴下",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:靴下"
     }
   },
   {
@@ -2289,13 +2177,6 @@
     }
   },
   {
-    "id": "tag:制服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:制服"
-    }
-  },
-  {
     "id": "item:8418992",
     "label": "Item",
     "properties": {
@@ -2328,13 +2209,6 @@
     "label": "Item",
     "properties": {
       "name": "item:5381043"
-    }
-  },
-  {
-    "id": "tag:ネクタイ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ネクタイ"
     }
   },
   {
@@ -2475,6 +2349,13 @@
     "label": "Item",
     "properties": {
       "name": "item:7977893"
+    }
+  },
+  {
+    "id": "tag:Mesh",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Mesh"
     }
   },
   {
@@ -2674,13 +2555,6 @@
     }
   },
   {
-    "id": "tag:イヤリング",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:イヤリング"
-    }
-  },
-  {
     "id": "item:5385176",
     "label": "Item",
     "properties": {
@@ -2762,6 +2636,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:koarare-atelier"
+    }
+  },
+  {
+    "id": "tag:Material",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Material"
     }
   },
   {
@@ -2870,13 +2751,6 @@
     }
   },
   {
-    "id": "tag:黒",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:黒"
-    }
-  },
-  {
     "id": "item:7509247",
     "label": "Item",
     "properties": {
@@ -2888,13 +2762,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:bonyard"
-    }
-  },
-  {
-    "id": "tag:包帯",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:包帯"
     }
   },
   {
@@ -3164,13 +3031,6 @@
     }
   },
   {
-    "id": "tag:夏",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:夏"
-    }
-  },
-  {
     "id": "item:7973730",
     "label": "Item",
     "properties": {
@@ -3318,6 +3178,13 @@
     }
   },
   {
+    "id": "tag:QuestCompatible",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:QuestCompatible"
+    }
+  },
+  {
     "id": "item:3939858",
     "label": "Item",
     "properties": {
@@ -3423,13 +3290,6 @@
     }
   },
   {
-    "id": "tag:ビキニ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ビキニ"
-    }
-  },
-  {
     "id": "item:3905777",
     "label": "Item",
     "properties": {
@@ -3451,13 +3311,6 @@
     }
   },
   {
-    "id": "tag:リボン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:リボン"
-    }
-  },
-  {
     "id": "item:6536744",
     "label": "Item",
     "properties": {
@@ -3469,6 +3322,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:ornamentcorpse"
+    }
+  },
+  {
+    "id": "tag:Bone",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Bone"
     }
   },
   {
@@ -3675,13 +3535,6 @@
     }
   },
   {
-    "id": "tag:角",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:角"
-    }
-  },
-  {
     "id": "item:6869974",
     "label": "Item",
     "properties": {
@@ -3759,17 +3612,10 @@
     }
   },
   {
-    "id": "tag:和風",
+    "id": "tag:Japanese",
     "label": "Tag",
     "properties": {
-      "name": "tag:和風"
-    }
-  },
-  {
-    "id": "tag:和装",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:和装"
+      "name": "tag:Japanese"
     }
   },
   {
@@ -3791,13 +3637,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:wotapacchin"
-    }
-  },
-  {
-    "id": "tag:SUN",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:SUN"
     }
   },
   {
@@ -3875,13 +3714,6 @@
     "label": "Item",
     "properties": {
       "name": "item:7195639"
-    }
-  },
-  {
-    "id": "tag:銀",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:銀"
     }
   },
   {
@@ -4025,13 +3857,6 @@
     }
   },
   {
-    "id": "tag:グレー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:グレー"
-    }
-  },
-  {
     "id": "item:6905003",
     "label": "Item",
     "properties": {
@@ -4060,10 +3885,10 @@
     }
   },
   {
-    "id": "tag:サイバー",
+    "id": "tag:Cyber",
     "label": "Tag",
     "properties": {
-      "name": "tag:サイバー"
+      "name": "tag:Cyber"
     }
   },
   {
@@ -4207,20 +4032,6 @@
     }
   },
   {
-    "id": "tag:ブラウス",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ブラウス"
-    }
-  },
-  {
-    "id": "tag:スカート",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:スカート"
-    }
-  },
-  {
     "id": "item:6612858",
     "label": "Item",
     "properties": {
@@ -4242,17 +4053,17 @@
     }
   },
   {
-    "id": "tag:警察官",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:警察官"
-    }
-  },
-  {
     "id": "item:3190100",
     "label": "Item",
     "properties": {
       "name": "item:3190100"
+    }
+  },
+  {
+    "id": "tag:Grus",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Grus"
     }
   },
   {
@@ -4288,13 +4099,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:lico-vr"
-    }
-  },
-  {
-    "id": "tag:白",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:白"
     }
   },
   {
@@ -4435,13 +4239,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:namekuji1337"
-    }
-  },
-  {
-    "id": "tag:Fiona",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Fiona"
     }
   },
   {
@@ -4746,17 +4543,10 @@
     }
   },
   {
-    "id": "tag:ブーツ",
+    "id": "tag:Gothic",
     "label": "Tag",
     "properties": {
-      "name": "tag:ブーツ"
-    }
-  },
-  {
-    "id": "tag:ゴシック",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ゴシック"
+      "name": "tag:Gothic"
     }
   },
   {
@@ -4956,17 +4746,17 @@
     }
   },
   {
-    "id": "tag:タトゥー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:タトゥー"
-    }
-  },
-  {
     "id": "item:2258111",
     "label": "Item",
     "properties": {
       "name": "item:2258111"
+    }
+  },
+  {
+    "id": "tag:Mint",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Mint"
     }
   },
   {
@@ -5058,13 +4848,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:mochitei"
-    }
-  },
-  {
-    "id": "tag:ワンピース",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ワンピース"
     }
   },
   {
@@ -6083,13 +5866,6 @@
     }
   },
   {
-    "id": "tag:眼鏡",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:眼鏡"
-    }
-  },
-  {
     "id": "item:3659436",
     "label": "Item",
     "properties": {
@@ -6307,20 +6083,6 @@
     }
   },
   {
-    "id": "tag:シアン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:シアン"
-    }
-  },
-  {
-    "id": "tag:Cian",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Cian"
-    }
-  },
-  {
     "id": "item:8391751",
     "label": "Item",
     "properties": {
@@ -6349,6 +6111,13 @@
     }
   },
   {
+    "id": "tag:Imeris",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Imeris"
+    }
+  },
+  {
     "id": "item:4949310",
     "label": "Item",
     "properties": {
@@ -6360,13 +6129,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:killnya"
-    }
-  },
-  {
-    "id": "tag:チョーカー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:チョーカー"
     }
   },
   {
@@ -6405,13 +6167,6 @@
     }
   },
   {
-    "id": "tag:猫耳",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:猫耳"
-    }
-  },
-  {
     "id": "item:4197129",
     "label": "Item",
     "properties": {
@@ -6444,13 +6199,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:seele"
-    }
-  },
-  {
-    "id": "tag:ズボン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ズボン"
     }
   },
   {
@@ -6531,13 +6279,6 @@
     }
   },
   {
-    "id": "tag:スーツ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:スーツ"
-    }
-  },
-  {
     "id": "item:5201759",
     "label": "Item",
     "properties": {
@@ -6605,13 +6346,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:saltyyard"
-    }
-  },
-  {
-    "id": "tag:マスク",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:マスク"
     }
   },
   {
@@ -6920,13 +6654,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:nigerunaya"
-    }
-  },
-  {
-    "id": "tag:Meiyun",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Meiyun"
     }
   },
   {
@@ -7382,6 +7109,13 @@
     "label": "Item",
     "properties": {
       "name": "item:4742883"
+    }
+  },
+  {
+    "id": "tag:Poiyomi",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Poiyomi"
     }
   },
   {
@@ -8260,20 +7994,6 @@
     }
   },
   {
-    "id": "tag:Tシャツ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Tシャツ"
-    }
-  },
-  {
-    "id": "tag:ショートパンツ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ショートパンツ"
-    }
-  },
-  {
     "id": "item:5735057",
     "label": "Item",
     "properties": {
@@ -8288,13 +8008,6 @@
     }
   },
   {
-    "id": "tag:カジュアル",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:カジュアル"
-    }
-  },
-  {
     "id": "item:4213786",
     "label": "Item",
     "properties": {
@@ -8306,20 +8019,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:goldentakasan"
-    }
-  },
-  {
-    "id": "tag:Shiina",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Shiina"
-    }
-  },
-  {
-    "id": "tag:INABA",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:INABA"
     }
   },
   {
@@ -8376,13 +8075,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:tomngo"
-    }
-  },
-  {
-    "id": "tag:ランジェリー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ランジェリー"
     }
   },
   {
@@ -9450,6 +9142,13 @@
     }
   },
   {
+    "id": "tag:Minase",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Minase"
+    }
+  },
+  {
     "id": "item:7129209",
     "label": "Item",
     "properties": {
@@ -10094,13 +9793,6 @@
     }
   },
   {
-    "id": "tag:アーマー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:アーマー"
-    }
-  },
-  {
     "id": "item:5610339",
     "label": "Item",
     "properties": {
@@ -10189,13 +9881,6 @@
     "label": "Item",
     "properties": {
       "name": "item:2674407"
-    }
-  },
-  {
-    "id": "tag:マント",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:マント"
     }
   },
   {
@@ -10507,13 +10192,6 @@
     }
   },
   {
-    "id": "tag:ポンチョ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ポンチョ"
-    }
-  },
-  {
     "id": "item:7546821",
     "label": "Item",
     "properties": {
@@ -10605,13 +10283,6 @@
     }
   },
   {
-    "id": "tag:水着",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:水着"
-    }
-  },
-  {
     "id": "item:6927524",
     "label": "Item",
     "properties": {
@@ -10651,13 +10322,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:sameno"
-    }
-  },
-  {
-    "id": "tag:手袋",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:手袋"
     }
   },
   {
@@ -10836,6 +10500,13 @@
     }
   },
   {
+    "id": "tag:Lolita",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Lolita"
+    }
+  },
+  {
     "id": "item:7177055",
     "label": "Item",
     "properties": {
@@ -10882,13 +10553,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:vulpeculakitsune"
-    }
-  },
-  {
-    "id": "tag:Bow",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Bow"
     }
   },
   {
@@ -11008,13 +10672,6 @@
     "label": "Item",
     "properties": {
       "name": "item:7797748"
-    }
-  },
-  {
-    "id": "tag:羽織",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:羽織"
     }
   },
   {
@@ -11214,13 +10871,6 @@
     }
   },
   {
-    "id": "tag:翼",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:翼"
-    }
-  },
-  {
     "id": "item:5112372",
     "label": "Item",
     "properties": {
@@ -11309,13 +10959,6 @@
     "label": "Item",
     "properties": {
       "name": "item:6352688"
-    }
-  },
-  {
-    "id": "tag:着物",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:着物"
     }
   },
   {
@@ -11554,13 +11197,6 @@
     "label": "Item",
     "properties": {
       "name": "item:5902178"
-    }
-  },
-  {
-    "id": "tag:カーディガン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:カーディガン"
     }
   },
   {
@@ -12208,13 +11844,6 @@
     }
   },
   {
-    "id": "tag:ジーンズ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ジーンズ"
-    }
-  },
-  {
     "id": "item:7527770",
     "label": "Item",
     "properties": {
@@ -12345,13 +11974,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:samimaro"
-    }
-  },
-  {
-    "id": "tag:パジャマ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:パジャマ"
     }
   },
   {
@@ -12758,13 +12380,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:johnb0917"
-    }
-  },
-  {
-    "id": "tag:ベスト",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ベスト"
     }
   },
   {
@@ -13769,13 +13384,6 @@
     }
   },
   {
-    "id": "tag:マフラー",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:マフラー"
-    }
-  },
-  {
     "id": "item:4878054",
     "label": "Item",
     "properties": {
@@ -14427,13 +14035,6 @@
     }
   },
   {
-    "id": "tag:レインコート",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:レインコート"
-    }
-  },
-  {
     "id": "item:5330179",
     "label": "Item",
     "properties": {
@@ -15078,13 +14679,6 @@
     }
   },
   {
-    "id": "tag:眼帯",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:眼帯"
-    }
-  },
-  {
     "id": "item:5517079",
     "label": "Item",
     "properties": {
@@ -15173,13 +14767,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:polary-works"
-    }
-  },
-  {
-    "id": "tag:ジャージ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ジャージ"
     }
   },
   {
@@ -16198,13 +15785,6 @@
     }
   },
   {
-    "id": "tag:茶",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:茶"
-    }
-  },
-  {
     "id": "item:7963152",
     "label": "Item",
     "properties": {
@@ -16849,10 +16429,10 @@
     }
   },
   {
-    "id": "tag:ファンタジー",
+    "id": "tag:Fantasy",
     "label": "Tag",
     "properties": {
-      "name": "tag:ファンタジー"
+      "name": "tag:Fantasy"
     }
   },
   {
@@ -17119,6 +16699,13 @@
     "label": "Item",
     "properties": {
       "name": "item:4502772"
+    }
+  },
+  {
+    "id": "tag:Jirai",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Jirai"
     }
   },
   {
@@ -17413,13 +17000,6 @@
     "label": "Item",
     "properties": {
       "name": "item:7097798"
-    }
-  },
-  {
-    "id": "tag:ピンク",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ピンク"
     }
   },
   {
@@ -18900,13 +18480,6 @@
     }
   },
   {
-    "id": "tag:ブレスレット",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ブレスレット"
-    }
-  },
-  {
     "id": "item:2430458",
     "label": "Item",
     "properties": {
@@ -19775,13 +19348,6 @@
     }
   },
   {
-    "id": "tag:バッグ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:バッグ"
-    }
-  },
-  {
     "id": "item:6139726",
     "label": "Item",
     "properties": {
@@ -20069,13 +19635,6 @@
     }
   },
   {
-    "id": "tag:チャイナドレス",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:チャイナドレス"
-    }
-  },
-  {
     "id": "item:4481767",
     "label": "Item",
     "properties": {
@@ -20087,13 +19646,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:tabimal"
-    }
-  },
-  {
-    "id": "tag:金",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:金"
     }
   },
   {
@@ -20248,6 +19800,13 @@
     "label": "Item",
     "properties": {
       "name": "item:5456017"
+    }
+  },
+  {
+    "id": "tag:tops",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:tops"
     }
   },
   {
@@ -22078,13 +21637,6 @@
     }
   },
   {
-    "id": "tag:ナース服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ナース服"
-    }
-  },
-  {
     "id": "item:7763002",
     "label": "Item",
     "properties": {
@@ -23051,13 +22603,6 @@
     }
   },
   {
-    "id": "tag:ネックレス",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ネックレス"
-    }
-  },
-  {
     "id": "item:7372577",
     "label": "Item",
     "properties": {
@@ -23569,13 +23114,6 @@
     }
   },
   {
-    "id": "tag:体操服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:体操服"
-    }
-  },
-  {
     "id": "item:5223117",
     "label": "Item",
     "properties": {
@@ -23891,10 +23429,10 @@
     }
   },
   {
-    "id": "tag:スポーツ",
+    "id": "tag:Maya",
     "label": "Tag",
     "properties": {
-      "name": "tag:スポーツ"
+      "name": "tag:Maya"
     }
   },
   {
@@ -24007,13 +23545,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:granchiochanshop"
-    }
-  },
-  {
-    "id": "tag:ベルト",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ベルト"
     }
   },
   {
@@ -25417,13 +24948,6 @@
     }
   },
   {
-    "id": "tag:紫",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:紫"
-    }
-  },
-  {
     "id": "item:8206198",
     "label": "Item",
     "properties": {
@@ -26698,13 +26222,6 @@
     }
   },
   {
-    "id": "tag:モノトーン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:モノトーン"
-    }
-  },
-  {
     "id": "item:4258301",
     "label": "Item",
     "properties": {
@@ -26821,13 +26338,6 @@
     "label": "Item",
     "properties": {
       "name": "item:5668106"
-    }
-  },
-  {
-    "id": "tag:リュック",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:リュック"
     }
   },
   {
@@ -27101,13 +26611,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:h0shin0s"
-    }
-  },
-  {
-    "id": "tag:エプロン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:エプロン"
     }
   },
   {
@@ -27801,13 +27304,6 @@
     "label": "Item",
     "properties": {
       "name": "item:6502232"
-    }
-  },
-  {
-    "id": "tag:ケープ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ケープ"
     }
   },
   {
@@ -28795,13 +28291,6 @@
     "label": "Item",
     "properties": {
       "name": "item:6438616"
-    }
-  },
-  {
-    "id": "tag:巫女服",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:巫女服"
     }
   },
   {
@@ -29894,13 +29383,6 @@
     "label": "Item",
     "properties": {
       "name": "item:4480336"
-    }
-  },
-  {
-    "id": "tag:ゴスロリ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ゴスロリ"
     }
   },
   {
@@ -32291,13 +31773,6 @@
     }
   },
   {
-    "id": "tag:獣耳",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:獣耳"
-    }
-  },
-  {
     "id": "item:3073189",
     "label": "Item",
     "properties": {
@@ -32858,13 +32333,6 @@
     }
   },
   {
-    "id": "tag:トレンチコート",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:トレンチコート"
-    }
-  },
-  {
     "id": "item:6681275",
     "label": "Item",
     "properties": {
@@ -33149,13 +32617,6 @@
     "label": "Item",
     "properties": {
       "name": "item:2928819"
-    }
-  },
-  {
-    "id": "tag:銀髪",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:銀髪"
     }
   },
   {
@@ -34451,6 +33912,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:arukarisui"
+    }
+  },
+  {
+    "id": "tag:Military",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Military"
     }
   },
   {
@@ -36624,13 +36092,6 @@
     }
   },
   {
-    "id": "tag:緑",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:緑"
-    }
-  },
-  {
     "id": "item:4827340",
     "label": "Item",
     "properties": {
@@ -38402,13 +37863,6 @@
     }
   },
   {
-    "id": "tag:オーバーオール",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:オーバーオール"
-    }
-  },
-  {
     "id": "item:5425771",
     "label": "Item",
     "properties": {
@@ -38668,13 +38122,6 @@
     }
   },
   {
-    "id": "tag:レギンス",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:レギンス"
-    }
-  },
-  {
     "id": "item:6069244",
     "label": "Item",
     "properties": {
@@ -38721,13 +38168,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:newrarity"
-    }
-  },
-  {
-    "id": "tag:スチームパンク",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:スチームパンク"
     }
   },
   {
@@ -43351,13 +42791,6 @@
     }
   },
   {
-    "id": "tag:フォーマル",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:フォーマル"
-    }
-  },
-  {
     "id": "item:8105046",
     "label": "Item",
     "properties": {
@@ -45070,13 +44503,6 @@
     "label": "Item",
     "properties": {
       "name": "item:8364849"
-    }
-  },
-  {
-    "id": "tag:ダウンジャケット",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ダウンジャケット"
     }
   },
   {
@@ -50036,13 +49462,6 @@
     }
   },
   {
-    "id": "tag:Kanae",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Kanae"
-    }
-  },
-  {
     "id": "item:6317201",
     "label": "Item",
     "properties": {
@@ -50145,13 +49564,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:cheeseholidays"
-    }
-  },
-  {
-    "id": "tag:ブルマ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ブルマ"
     }
   },
   {
@@ -53774,13 +53186,6 @@
     }
   },
   {
-    "id": "tag:ヒール",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ヒール"
-    }
-  },
-  {
     "id": "item:7972512",
     "label": "Item",
     "properties": {
@@ -54023,13 +53428,6 @@
     "label": "Item",
     "properties": {
       "name": "item:2299745"
-    }
-  },
-  {
-    "id": "tag:Aoi",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Aoi"
     }
   },
   {
@@ -57467,6 +56865,13 @@
     "label": "Item",
     "properties": {
       "name": "item:5651789"
+    }
+  },
+  {
+    "id": "tag:ear",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ear"
     }
   },
   {
@@ -61590,6 +60995,13 @@
     "label": "Item",
     "properties": {
       "name": "item:4124526"
+    }
+  },
+  {
+    "id": "tag:outer",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:outer"
     }
   },
   {
@@ -71344,13 +70756,6 @@
     }
   },
   {
-    "id": "tag:キャミソール",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:キャミソール"
-    }
-  },
-  {
     "id": "item:3732055",
     "label": "Item",
     "properties": {
@@ -71453,13 +70858,6 @@
     "label": "Item",
     "properties": {
       "name": "item:6386708"
-    }
-  },
-  {
-    "id": "tag:ティール",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ティール"
     }
   },
   {
@@ -72660,13 +72058,6 @@
     }
   },
   {
-    "id": "tag:ロングコート",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ロングコート"
-    }
-  },
-  {
     "id": "item:5575099",
     "label": "Item",
     "properties": {
@@ -73301,13 +72692,6 @@
     "label": "Creator",
     "properties": {
       "name": "creator:melchabox"
-    }
-  },
-  {
-    "id": "tag:黒髪",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:黒髪"
     }
   },
   {
@@ -78705,6 +78089,13 @@
     "label": "Creator",
     "properties": {
       "name": "creator:selees824"
+    }
+  },
+  {
+    "id": "tag:VRCFury",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:VRCFury"
     }
   },
   {
@@ -98938,13 +98329,6 @@
     }
   },
   {
-    "id": "tag:KitsuneAme",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:KitsuneAme"
-    }
-  },
-  {
     "id": "item:6540890",
     "label": "Item",
     "properties": {
@@ -98970,6 +98354,13 @@
     "label": "Item",
     "properties": {
       "name": "item:6020877"
+    }
+  },
+  {
+    "id": "tag:face",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:face"
     }
   },
   {
@@ -101728,6 +101119,13 @@
     "label": "Item",
     "properties": {
       "name": "item:7280602"
+    }
+  },
+  {
+    "id": "tag:ExpressionMenu",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ExpressionMenu"
     }
   },
   {
@@ -113897,6 +113295,13 @@
     }
   },
   {
+    "id": "tag:inner",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:inner"
+    }
+  },
+  {
     "id": "item:7097150",
     "label": "Item",
     "properties": {
@@ -124422,13 +123827,6 @@
     "label": "Item",
     "properties": {
       "name": "item:3999762"
-    }
-  },
-  {
-    "id": "tag:アンクレット",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:アンクレット"
     }
   },
   {
@@ -168714,6 +168112,13 @@
     }
   },
   {
+    "id": "tag:bottoms",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:bottoms"
+    }
+  },
+  {
     "id": "item:8367942",
     "label": "Item",
     "properties": {
@@ -173275,13 +172680,6 @@
     "label": "Item",
     "properties": {
       "name": "item:3729094"
-    }
-  },
-  {
-    "id": "tag:ミニスカート",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ミニスカート"
     }
   },
   {
@@ -185826,13 +185224,6 @@
     "label": "Item",
     "properties": {
       "name": "item:6576425"
-    }
-  },
-  {
-    "id": "tag:オレンジ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:オレンジ"
     }
   },
   {
@@ -203396,6 +202787,13 @@
     "label": "Item",
     "properties": {
       "name": "item:2119100"
+    }
+  },
+  {
+    "id": "tag:head",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:head"
     }
   },
   {

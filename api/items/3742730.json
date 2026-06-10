@@ -11,16 +11,11 @@
   "price": 300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ショートパンツ",
-      "ズボン"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -30,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "2582627",
-    "3935224",
-    "6906237",
-    "2066138",
-    "4061559"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

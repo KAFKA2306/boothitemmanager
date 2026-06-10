@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1555789",
-    "2280136",
-    "2436054",
-    "2603366",
-    "2604269"
+    "3229419",
+    "3585635",
+    "3740568",
+    "3868883",
+    "4045911"
   ],
   "user_state": {},
   "tags_raw": [],

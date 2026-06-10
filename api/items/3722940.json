@@ -21,15 +21,17 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Karin",
+      "Hakka",
       "Kikyo"
     ]
   },
   "similar_items": [
-    "3502371",
-    "3702704",
-    "3708000",
-    "3711659",
-    "3736041"
+    "3891436",
+    "4144286",
+    "4464230",
+    "4034441",
+    "3554036"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -37,6 +39,14 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Karin",
+      "name": "カリン"
+    },
+    {
+      "code": "Hakka",
+      "name": "薄荷"
     }
   ],
   "files": [],

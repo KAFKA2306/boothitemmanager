@@ -11,13 +11,9 @@
   "price": 100,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4373202",
-    "5077570",
-    "5187909",
-    "5503446",
-    "5548688"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

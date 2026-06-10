@@ -15,26 +15,30 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ",
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Imeris"
+    ]
   },
   "similar_items": [
-    "3402451",
-    "3433372",
-    "3606138",
-    "3679767",
-    "3693040"
+    "3055069",
+    "3059832",
+    "3061733",
+    "3092914",
+    "3143611"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Imeris",
+      "name": "イメリス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

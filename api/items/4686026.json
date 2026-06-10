@@ -21,16 +21,17 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Grus",
       "Kikyo",
       "Shinra"
     ]
   },
   "similar_items": [
-    "4760910",
     "4908694",
-    "5055084",
-    "5826775",
-    "4724831"
+    "3790116",
+    "4133041",
+    "4239610",
+    "4282537"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,6 +43,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Grus",
+      "name": "グルス"
     }
   ],
   "files": [],

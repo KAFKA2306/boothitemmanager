@@ -21,15 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka"
+      "Manuka",
+      "Minase"
     ]
   },
   "similar_items": [
+    "5836748",
     "4686246",
     "4844427",
     "5057865",
-    "5058253",
-    "5058959"
+    "5058253"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -37,6 +38,10 @@
     {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬"
     }
   ],
   "files": [],

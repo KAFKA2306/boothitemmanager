@@ -16,18 +16,20 @@
     "style": [],
     "color": [],
     "outfit_type": [],
-    "accessory": [],
+    "accessory": [
+      "head"
+    ],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
+    "5645107",
+    "7996205",
     "3143286",
     "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "4318998"
   ],
   "user_state": {},
   "tags_raw": [],

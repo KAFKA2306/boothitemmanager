@@ -11,11 +11,11 @@
   "price": 1500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Fantasy"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2097499",
-    "3604487",
-    "3910335",
-    "4830749",
-    "5209239"
+    "1752938",
+    "3903858",
+    "6747311",
+    "7530071",
+    "7530127"
   ],
   "user_state": {},
   "tags_raw": [],

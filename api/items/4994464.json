@@ -21,19 +21,24 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Mamehinata"
+      "Mamehinata",
+      "Minase"
     ]
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "4416309",
+    "4419241",
+    "4434344",
+    "4434500",
+    "4434636"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    },
     {
       "code": "Mamehinata",
       "name": "まめひなた"

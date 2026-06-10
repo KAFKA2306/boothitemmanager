@@ -11,25 +11,25 @@
   "price": 600,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
-    "accessory": [],
+    "accessory": [
+      "ear"
+    ],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "1032673",
-    "1084711",
-    "1573249",
-    "1680527",
-    "1808463"
+    "2988636",
+    "4011247",
+    "5590974",
+    "5651789",
+    "6505945"
   ],
   "user_state": {},
   "tags_raw": [],

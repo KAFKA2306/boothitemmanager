@@ -11,10 +11,7 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "マフラー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "2591363",
-    "6999925",
-    "7395231",
-    "7548762",
-    "7797134"
+    "2557192",
+    "2678416",
+    "2900163",
+    "2977314",
+    "3004516"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

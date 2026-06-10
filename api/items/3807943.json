@@ -11,14 +11,10 @@
   "price": 0,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4567081",
-    "6064843",
-    "6682567",
-    "2994548",
-    "1202640"
+    "1131021",
+    "1153594",
+    "1234110",
+    "1392512",
+    "1503592"
   ],
   "user_state": {},
   "tags_raw": [],

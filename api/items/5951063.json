@@ -11,9 +11,7 @@
   "price": 2300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,8 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
       "Manuka",
+      "Kikyo",
       "Moe"
     ]
   },
@@ -32,8 +30,8 @@
     "4254967",
     "5164155",
     "5295443",
-    "5654771",
-    "5164184"
+    "4997314",
+    "5034049"
   ],
   "user_state": {},
   "tags_raw": [],

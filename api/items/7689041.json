@@ -11,12 +11,10 @@
   "price": 700,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "手袋"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4691866",
+    "7563353",
     "1472541",
-    "2167681",
-    "2241875",
-    "2448483"
+    "1639911",
+    "1802714",
+    "2144086"
   ],
   "user_state": {},
   "tags_raw": [],

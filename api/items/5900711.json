@@ -11,9 +11,7 @@
   "price": 300,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3099946",
-    "3558610",
-    "3643884",
-    "4130064",
-    "4165955"
+    "1256087",
+    "1484117",
+    "2332420",
+    "2559783",
+    "2693309"
   ],
   "user_state": {},
   "tags_raw": [],

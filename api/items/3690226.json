@@ -11,13 +11,9 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "3354886",
-    "3381734",
-    "3403903",
-    "3459527",
-    "3698923"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

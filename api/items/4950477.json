@@ -21,8 +21,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Moe"
+      "Lime",
+      "Moe",
+      "Selestia"
     ]
   },
   "similar_items": [
@@ -42,6 +43,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Lime",
+      "name": "ライム"
     }
   ],
   "files": [],

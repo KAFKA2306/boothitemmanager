@@ -11,11 +11,16 @@
   "price": 980,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Mesh"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set",
+      "tops"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -23,11 +28,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3143286",
-    "4219099",
-    "4318998",
-    "4353395",
-    "4409363"
+    "4871312",
+    "4895935",
+    "5751148",
+    "5794500",
+    "6009498"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 2000,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3140799",
-    "3484215",
-    "3643508",
-    "4267819",
-    "5248960"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

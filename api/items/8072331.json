@@ -11,14 +11,10 @@
   "price": 200,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "銀"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1298597",
-    "3786732",
-    "4672382",
-    "1054364",
-    "5512392"
+    "1555789",
+    "2280136",
+    "2436054",
+    "2603366",
+    "2604269"
   ],
   "user_state": {},
   "tags_raw": [],

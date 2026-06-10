@@ -13,14 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "メイド服",
-      "バニーガール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2594515",
-    "4445083",
-    "4449348",
-    "5801996",
-    "6015928"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

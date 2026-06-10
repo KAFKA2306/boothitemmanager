@@ -15,23 +15,22 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "バニーガール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinra"
+      "Shinra",
+      "Minase"
     ]
   },
   "similar_items": [
-    "4792965",
-    "2261988",
-    "2684366",
-    "2801632",
-    "2823253"
+    "5149738",
+    "6092922",
+    "6246635",
+    "8312826",
+    "5658447"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,6 +38,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬"
     }
   ],
   "files": [],

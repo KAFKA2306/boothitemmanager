@@ -11,15 +11,13 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "BlendShape"
+    ],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "ビキニ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4922823",
-    "5926794",
-    "2353929",
-    "2229655",
-    "3878041"
+    "3404894",
+    "3608187",
+    "3654188",
+    "4022597",
+    "4303944"
   ],
   "user_state": {},
   "tags_raw": [],

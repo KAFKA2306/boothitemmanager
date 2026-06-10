@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "ジャケット"
+    "style": [
+      "Military"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1902832",
-    "2072644",
-    "2121479",
-    "1629685",
-    "1801059"
+    "1542859",
+    "1777940",
+    "2308121",
+    "2327743",
+    "4559867"
   ],
   "user_state": {},
   "tags_raw": [],

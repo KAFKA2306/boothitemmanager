@@ -23,15 +23,17 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Grus",
+      "Maya",
       "Kikyo"
     ]
   },
   "similar_items": [
-    "3803483",
     "3889509",
-    "3943280",
-    "4047585",
-    "4051497"
+    "4171012",
+    "4459918",
+    "4727834",
+    "5009439"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,6 +41,14 @@
     {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Grus",
+      "name": "グルス"
+    },
+    {
+      "code": "Maya",
+      "name": "まや"
     }
   ],
   "files": [],

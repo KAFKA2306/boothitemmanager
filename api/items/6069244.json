@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Cyber"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1256087",
-    "1484117",
-    "2332420",
-    "2559783",
-    "2693309"
+    "1333754",
+    "2645495",
+    "4474964",
+    "4989236",
+    "5311378"
   ],
   "user_state": {},
   "tags_raw": [],

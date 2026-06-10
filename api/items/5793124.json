@@ -11,9 +11,7 @@
   "price": 1200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネクタイ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +26,11 @@
     ]
   },
   "similar_items": [
-    "4354541",
-    "5190291",
     "5217540",
     "5297776",
-    "5429492"
+    "5429492",
+    "5654771",
+    "6025059"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -21,18 +21,19 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo",
-      "Selestia",
+      "Karin",
+      "Moe",
       "Manuka",
-      "Moe"
+      "Kikyo",
+      "Selestia"
     ]
   },
   "similar_items": [
     "5643151",
+    "5325210",
     "4254967",
-    "4398930",
-    "4938397",
-    "5039903"
+    "4354541",
+    "4398930"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -52,6 +53,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Karin",
+      "name": "カリン"
     }
   ],
   "files": [],

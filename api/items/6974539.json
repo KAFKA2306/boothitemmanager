@@ -11,12 +11,10 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "角"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ファンタジー"
+      "Fantasy"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2953196",
+    "1515830",
     "3121599",
-    "3549042",
-    "4065880",
-    "4185410"
+    "3680467",
+    "4818795",
+    "5641569"
   ],
   "user_state": {},
   "tags_raw": [],

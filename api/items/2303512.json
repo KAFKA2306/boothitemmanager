@@ -11,7 +11,9 @@
   "price": 100,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4508977",
-    "4765735",
-    "4803801",
-    "4861024",
-    "5085639"
+    "1035152",
+    "1095863",
+    "1116435",
+    "1116714",
+    "1118922"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,15 +11,13 @@
   "price": 1400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4864126",
-    "4864800",
-    "4954516",
-    "6025886",
-    "7078197"
+    "3192245",
+    "3440187",
+    "3547301",
+    "3825027",
+    "3929786"
   ],
   "user_state": {},
   "tags_raw": [],

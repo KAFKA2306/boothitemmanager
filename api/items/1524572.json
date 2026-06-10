@@ -11,9 +11,7 @@
   "price": 0,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "眼帯"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4844304",
-    "2165513",
-    "3711636",
-    "5345657",
-    "5598950"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

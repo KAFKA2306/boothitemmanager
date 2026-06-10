@@ -11,18 +11,13 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "眼鏡"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風",
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "着物"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -30,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6435118",
-    "2016833",
+    "1486105",
+    "2059604",
     "2663182",
     "3360896",
-    "3476628"
+    "3565853"
   ],
   "user_state": {},
   "tags_raw": [],

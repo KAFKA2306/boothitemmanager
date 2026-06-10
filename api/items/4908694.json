@@ -21,17 +21,18 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Grus",
       "Kikyo",
-      "Shinra",
-      "Moe"
+      "Moe",
+      "Shinra"
     ]
   },
   "similar_items": [
+    "4686026",
+    "4690087",
     "4760910",
-    "5061896",
-    "5325210",
-    "3862082",
-    "4575151"
+    "5034049",
+    "5061896"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -47,6 +48,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Grus",
+      "name": "グルス"
     }
   ],
   "files": [],

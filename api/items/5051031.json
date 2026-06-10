@@ -22,25 +22,18 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Manuka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "5075436",
-    "5418220",
-    "5769383",
-    "5915614",
-    "6193124"
+    "4768863",
+    "5884021",
+    "6215017",
+    "4243678",
+    "4252664"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Manuka",
-      "name": "マヌカ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

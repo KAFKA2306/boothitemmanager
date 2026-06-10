@@ -11,10 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "眼鏡",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2068484",
-    "6378885",
-    "1076788",
-    "1311707",
-    "1460758"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

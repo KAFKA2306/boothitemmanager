@@ -1,0 +1,106 @@
+
+version: 1
+updated_at: "2026-06-10"
+avatars:
+  Kikyo:
+    canonical_name: "桔梗"
+    booth_item_id: "3681787"
+    creator: "ポンデロニウム研究所"
+    aliases: ["桔梗", "kikyo", "kikyou", "ききょう", "3681787"]
+    confidence: 1.0
+  Manuka:
+    canonical_name: "マヌカ"
+    booth_item_id: "5058077"
+    creator: "JINGO CHANNEL"
+    aliases: ["マヌカ", "manuka", "5058077"]
+    confidence: 1.0
+  Shinra:
+    canonical_name: "森羅"
+    booth_item_id: "4707634"
+    creator: "mio"
+    aliases: ["森羅", "shinra", "4707634"]
+    confidence: 1.0
+  Selestia:
+    canonical_name: "セレスティア"
+    booth_item_id: "4035411"
+    creator: "JINGO CHANNEL"
+    aliases: ["セレスティア", "selestia", "せれすてぃあ", "Seles", "セレス", "4035411"]
+    confidence: 1.0
+  Moe:
+    canonical_name: "萌"
+    booth_item_id: "4667400"
+    creator: "キュビクローゼット"
+    aliases: ["萌", "moe", "4667400"]
+    confidence: 1.0
+  Grus:
+    canonical_name: "グルス"
+    booth_item_id: "2030978"
+    creator: "久"
+    aliases: ["Grus", "グルス", "2030978"]
+    confidence: 1.0
+  Karin:
+    canonical_name: "カリン"
+    booth_item_id: "3470989"
+    creator: "あまとうさぎ"
+    aliases: ["Karin", "カリン", "3470989"]
+    confidence: 1.0
+  Maya:
+    canonical_name: "まや"
+    booth_item_id: "3390957"
+    creator: "キュビクローゼット"
+    aliases: ["Maya", "まや", "3390957"]
+    confidence: 1.0
+  Rusk:
+    canonical_name: "ラスク"
+    booth_item_id: "2559783"
+    creator: "こまど"
+    aliases: ["Rusk", "ラスク", "2559783"]
+    confidence: 1.0
+  Mint:
+    canonical_name: "ミント"
+    booth_item_id: "2258111"
+    creator: "あまとうさぎ"
+    aliases: ["Mint", "ミント", "2258111"]
+    confidence: 1.0
+  Lime:
+    canonical_name: "ライム"
+    booth_item_id: "4876459"
+    creator: "あまとうさぎ"
+    aliases: ["Lime", "ライム", "4876459"]
+    confidence: 1.0
+  Imeris:
+    canonical_name: "イメリス"
+    booth_item_id: "3040745"
+    creator: "JINGO CHANNEL"
+    aliases: ["Imeris", "イメリス", "3040745"]
+    confidence: 1.0
+  Minase:
+    canonical_name: "水瀬"
+    booth_item_id: "4013950"
+    creator: "久"
+    aliases: ["Minase", "水瀬", "4013950"]
+    confidence: 1.0
+  Hakka:
+    canonical_name: "薄荷"
+    booth_item_id: "3953037"
+    creator: "Hotoke-zaka"
+    aliases: ["Hakka", "薄荷", "3953037"]
+    confidence: 1.0
+  Leufa:
+    canonical_name: "ルーファ"
+    booth_item_id: "3503254"
+    creator: "ひゅうがなつみかん"
+    aliases: ["Leufa", "ルーファ", "3503254"]
+    confidence: 1.0
+  Mamehinata:
+    canonical_name: "まめひなた"
+    booth_item_id: "4340548"
+    creator: "もち山金魚"
+    aliases: ["まめひなた", "mamehinata", "4340548"]
+    confidence: 1.0
+  Kipfel:
+    canonical_name: "キプフェル"
+    booth_item_id: "5813187"
+    creator: "もち山金魚"
+    aliases: ["キプフェル", "Kipfel", "5813187"]
+    confidence: 1.0

@@ -11,13 +11,10 @@
   "price": 1000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "夏",
-      "カジュアル"
+      "Street"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4184516",
-    "4864126",
-    "4864800",
-    "4926013",
-    "4926034"
+    "2508896",
+    "3285133",
+    "3645638",
+    "3781652",
+    "3806697"
   ],
   "user_state": {},
   "tags_raw": [],

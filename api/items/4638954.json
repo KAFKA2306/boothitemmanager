@@ -11,10 +11,7 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2385719",
+    "2866343",
+    "3050625",
     "3143286",
-    "3272989",
-    "3599179",
-    "3795940"
+    "3186729",
+    "3325721"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,16 +11,11 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "パーカー",
-      "ランジェリー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -30,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4590002",
-    "4609759",
-    "4991306",
-    "5068008",
-    "5185538"
+    "4686246",
+    "4844427",
+    "5057865",
+    "5058253",
+    "5058959"
   ],
   "user_state": {},
   "tags_raw": [],

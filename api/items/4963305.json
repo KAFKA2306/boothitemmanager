@@ -13,13 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "ベスト"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,10 +25,10 @@
     ]
   },
   "similar_items": [
-    "4954971",
     "4724831",
     "4729198",
     "4731643",
+    "4731770",
     "4735883"
   ],
   "user_state": {},

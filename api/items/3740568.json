@@ -11,11 +11,11 @@
   "price": 300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3114352",
-    "3971748",
-    "4647005",
-    "4697396",
-    "4701351"
+    "3229419",
+    "3585635",
+    "4335846",
+    "4370951",
+    "4372397"
   ],
   "user_state": {},
   "tags_raw": [],

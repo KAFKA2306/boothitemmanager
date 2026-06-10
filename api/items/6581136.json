@@ -11,9 +11,7 @@
   "price": 100,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ネックレス"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2703709",
-    "2973248",
-    "2979042",
-    "3018247",
-    "3334806"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

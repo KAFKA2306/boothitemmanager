@@ -11,10 +11,12 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Bone"
+    ],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -25,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "1668792",
     "1472541",
+    "1639911",
     "2448483",
-    "2477500",
-    "3908092",
-    "5857614"
+    "2477500"
   ],
   "user_state": {},
   "tags_raw": [],

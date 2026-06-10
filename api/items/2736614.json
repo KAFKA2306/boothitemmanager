@@ -11,10 +11,7 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "尻尾",
-      "角"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6773628",
-    "6956966",
-    "8382729",
-    "5770187",
-    "5777999"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

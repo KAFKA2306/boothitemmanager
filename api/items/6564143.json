@@ -11,16 +11,10 @@
   "price": 200,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "黒髪"
-    ],
-    "color": [
-      "黒"
-    ],
+    "style": [],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -31,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4726162",
-    "4728471",
-    "4764120",
-    "4884508",
-    "4964499"
+    "4724831",
+    "4726737",
+    "4727166",
+    "4729198",
+    "4731643"
   ],
   "user_state": {},
   "tags_raw": [],

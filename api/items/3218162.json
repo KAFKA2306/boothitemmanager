@@ -11,12 +11,10 @@
   "price": 100,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3222383",
-    "3362274",
-    "3837112",
-    "4145322",
-    "4207017"
+    "5096040",
+    "1472541",
+    "1639911",
+    "1802714",
+    "2144086"
   ],
   "user_state": {},
   "tags_raw": [],

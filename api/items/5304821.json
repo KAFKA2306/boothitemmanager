@@ -11,12 +11,10 @@
   "price": 600,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -29,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4472500",
-    "3143286",
-    "3272989",
-    "3970586",
-    "3985781"
+    "2964767",
+    "3013484",
+    "3020795",
+    "3107498",
+    "3159333"
   ],
   "user_state": {},
   "tags_raw": [],

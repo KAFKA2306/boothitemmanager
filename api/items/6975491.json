@@ -11,26 +11,25 @@
   "price": 500,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "リボン",
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [],
-    "accessory": [],
+    "accessory": [
+      "ear"
+    ],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "3830806",
-    "4938085",
-    "5193150",
-    "5859677",
-    "7234227"
+    "2988636",
+    "4011247",
+    "5590974",
+    "5651789",
+    "6505945"
   ],
   "user_state": {},
   "tags_raw": [],

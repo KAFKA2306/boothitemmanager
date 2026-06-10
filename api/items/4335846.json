@@ -13,12 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "セーター",
-      "ワンピース"
+    "style": [
+      "Jirai"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -26,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3810076",
-    "5058951",
-    "5440527",
-    "7578330",
-    "3895275"
+    "3229419",
+    "3585635",
+    "3740568",
+    "4370951",
+    "4372397"
   ],
   "user_state": {},
   "tags_raw": [],

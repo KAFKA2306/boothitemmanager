@@ -13,12 +13,10 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [
-      "ドレス"
+      "set"
     ],
     "accessory": [],
     "feature": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5261856",
-    "2362976",
-    "3125299",
-    "3366451",
-    "3653274"
+    "3192245",
+    "3440187",
+    "3547301",
+    "3825027",
+    "3929786"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "2986054",
     "3502371",
     "3702704",
     "3708000",
-    "3711659",
-    "3736041"
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -14,9 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "金"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,10 +25,10 @@
     ]
   },
   "similar_items": [
-    "4936842",
     "4724831",
     "4729198",
     "4731643",
+    "4731770",
     "4735883"
   ],
   "user_state": {},

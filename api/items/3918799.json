@@ -11,15 +11,11 @@
   "price": 600,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2908109",
-    "3374127",
-    "3374402",
-    "3552928",
-    "3677973"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

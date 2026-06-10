@@ -11,11 +11,11 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Street"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1738692",
-    "2534242",
-    "3154931",
-    "3403954",
-    "3659362"
+    "2971141",
+    "5645575",
+    "7618639",
+    "2341161",
+    "2508896"
   ],
   "user_state": {},
   "tags_raw": [],

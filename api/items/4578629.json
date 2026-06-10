@@ -11,7 +11,9 @@
   "price": 0,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1276329",
-    "1429829",
-    "1534610",
-    "1573249",
-    "1637978"
+    "2516986",
+    "4840815",
+    "6125704",
+    "6882718",
+    "6996446"
   ],
   "user_state": {},
   "tags_raw": [],

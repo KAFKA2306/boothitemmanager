@@ -11,9 +11,7 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5866376",
-    "3003705",
     "4101219",
     "4439176",
-    "5099479"
+    "5099479",
+    "5413301",
+    "6181326"
   ],
   "user_state": {},
   "tags_raw": [],

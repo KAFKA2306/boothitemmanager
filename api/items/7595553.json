@@ -15,7 +15,9 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4338605",
-    "7800237",
-    "8139707",
-    "8223060",
-    "1403139"
+    "4223416",
+    "3192245",
+    "3440187",
+    "3547301",
+    "3825027"
   ],
   "user_state": {},
   "tags_raw": [],

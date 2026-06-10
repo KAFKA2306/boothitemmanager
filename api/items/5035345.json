@@ -13,9 +13,7 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,27 +21,27 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Shinra"
+      "Shinra",
+      "Moe"
     ]
   },
   "similar_items": [
-    "4748139",
+    "4690400",
     "4801656",
-    "4997532",
-    "5028906",
-    "5043581"
+    "4837642",
+    "5043581",
+    "4142211"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

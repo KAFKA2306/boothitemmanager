@@ -11,16 +11,11 @@
   "price": 550,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター",
-      "ズボン"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5058276",
-    "5364178",
-    "2862463",
-    "4557728",
-    "5688248"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

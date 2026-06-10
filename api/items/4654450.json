@@ -21,15 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Imeris",
       "Selestia"
     ]
   },
   "similar_items": [
+    "3076076",
     "4759595",
-    "5692478",
     "7585931",
-    "3170874",
-    "3322715"
+    "3040745",
+    "3043192"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -37,6 +38,10 @@
     {
       "code": "Selestia",
       "name": "セレスティア"
+    },
+    {
+      "code": "Imeris",
+      "name": "イメリス"
     }
   ],
   "files": [],

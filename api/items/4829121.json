@@ -11,11 +11,11 @@
   "price": 650,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "夏"
+    "appearance": [
+      "Mesh"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,22 +23,22 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Kikyo"
+      "Selestia"
     ]
   },
   "similar_items": [
-    "3692696",
-    "3955305",
-    "4021133",
-    "4666271",
-    "4716964"
+    "4061435",
+    "4871312",
+    "4895935",
+    "5751148",
+    "5794500"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Kikyo",
-      "name": "桔梗"
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

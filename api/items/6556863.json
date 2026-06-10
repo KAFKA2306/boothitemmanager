@@ -20,23 +20,30 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "lilToon",
-      "ModularAvatar"
+      "ModularAvatar",
+      "lilToon"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
-    "5166526",
-    "3079230",
-    "4243678",
-    "4340548",
-    "4493190"
+    "6789982",
+    "6328504",
+    "6580770",
+    "6831511",
+    "6930348"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -11,9 +11,7 @@
   "price": 500,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "眼鏡"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,10 +24,10 @@
   },
   "similar_items": [
     "1035152",
+    "1466404",
     "1483281",
     "2065390",
-    "3952252",
-    "4929403"
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

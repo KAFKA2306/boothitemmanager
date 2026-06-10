@@ -15,9 +15,7 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スーツ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "3734771",
     "3770877",
-    "3692565",
-    "3697039",
-    "3704971",
-    "3705274"
+    "3860288",
+    "3924503",
+    "3953925"
   ],
   "user_state": {},
   "tags_raw": [],

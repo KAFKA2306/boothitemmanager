@@ -11,13 +11,10 @@
   "price": 299,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5690517",
-    "6263190",
-    "6445203",
-    "6505215",
-    "6916873"
+    "4861024",
+    "5334913",
+    "5667214",
+    "6113112",
+    "6140442"
   ],
   "user_state": {},
   "tags_raw": [],

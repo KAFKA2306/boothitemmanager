@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Lolita"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1138916",
-    "1335319",
-    "2148208",
-    "2343843",
-    "2782508"
+    "1350966",
+    "2362262",
+    "2428269",
+    "2597236",
+    "2783990"
   ],
   "user_state": {},
   "tags_raw": [],

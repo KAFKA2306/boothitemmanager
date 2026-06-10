@@ -20,25 +20,18 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Kikyo"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "3502371",
-    "3702704",
-    "3708000",
-    "3711659",
-    "3736041"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Kikyo",
-      "name": "桔梗"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

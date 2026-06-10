@@ -11,12 +11,10 @@
   "price": 500,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1871131",
-    "3147928",
-    "4490666",
-    "4509870",
-    "5935163"
+    "3184036",
+    "3521301",
+    "3521308",
+    "4713236",
+    "1486105"
   ],
   "user_state": {},
   "tags_raw": [],

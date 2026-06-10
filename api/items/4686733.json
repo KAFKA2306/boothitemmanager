@@ -20,25 +20,18 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Moe"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "4728088",
-    "4837132",
-    "7667703",
-    "4441439",
-    "4613006"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Moe",
-      "name": "萌"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

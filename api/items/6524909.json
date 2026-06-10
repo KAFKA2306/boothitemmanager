@@ -11,10 +11,7 @@
   "price": 100,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "眼鏡",
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2342267",
-    "2664698",
-    "3068775",
-    "3323072",
-    "3374376"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 250,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "バッグ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2044319",
-    "3085673",
-    "3518609",
-    "3571596",
-    "3807112"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

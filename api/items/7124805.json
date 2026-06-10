@@ -11,13 +11,9 @@
   "price": 900,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "2866343",
+    "3050625",
     "3143286",
-    "3272989",
-    "3970586",
-    "3985781",
-    "4038425"
+    "3186729",
+    "3325721"
   ],
   "user_state": {},
   "tags_raw": [],

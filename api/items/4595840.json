@@ -15,36 +15,34 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "スーツ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
       "Kikyo",
-      "Moe"
+      "Moe",
+      "Selestia"
     ]
   },
   "similar_items": [
     "4398930",
+    "4776641",
+    "4921389",
     "4938397",
-    "5039903",
-    "5086129",
-    "5534686"
+    "5039903"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",

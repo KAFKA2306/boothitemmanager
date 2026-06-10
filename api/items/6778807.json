@@ -11,9 +11,7 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4304109",
-    "6072117",
-    "6903101",
-    "3745714",
-    "4559714"
+    "3889381",
+    "4101219",
+    "4439176",
+    "5099479",
+    "5413301"
   ],
   "user_state": {},
   "tags_raw": [],

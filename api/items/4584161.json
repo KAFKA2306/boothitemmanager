@@ -11,11 +11,11 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3565871",
-    "3897472",
-    "5008879",
-    "5298514",
-    "1418065"
+    "3229419",
+    "3585635",
+    "3740568",
+    "4335846",
+    "4370951"
   ],
   "user_state": {},
   "tags_raw": [],

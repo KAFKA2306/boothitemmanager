@@ -11,11 +11,11 @@
   "price": 800,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3205288",
-    "3974669",
-    "4056951",
-    "4172974",
-    "4484149"
+    "7335643",
+    "7717657",
+    "7761741",
+    "8232419",
+    "8401606"
   ],
   "user_state": {},
   "tags_raw": [],

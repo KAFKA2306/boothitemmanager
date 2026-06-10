@@ -11,12 +11,10 @@
   "price": 900,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,8 +25,8 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7498638",
     "1802714",
+    "2144086",
     "2241875",
     "2530714",
     "1472541"

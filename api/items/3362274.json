@@ -11,12 +11,11 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Military",
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3837112",
-    "4145322",
-    "4207017",
-    "4596576",
-    "4652537"
+    "1069252",
+    "1640686",
+    "1801059",
+    "2740057",
+    "2833284"
   ],
   "user_state": {},
   "tags_raw": [],

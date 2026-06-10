@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
-    "outfit_type": [
-      "巫女服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "4699547",
     "4884373",
-    "5154576",
     "5019324",
-    "4873661"
+    "5100030",
+    "4873661",
+    "5154576"
   ],
   "user_state": {},
   "tags_raw": [],

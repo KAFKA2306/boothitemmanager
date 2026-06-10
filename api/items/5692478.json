@@ -20,25 +20,18 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Selestia"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "4759595",
-    "7585931",
-    "3170874",
-    "3322715",
-    "3390385"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Selestia",
-      "name": "セレスティア"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

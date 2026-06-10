@@ -11,12 +11,12 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "茶"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7937148",
-    "1571782",
-    "2582651",
-    "3440566",
-    "3801229"
+    "1035152",
+    "1095863",
+    "1116435",
+    "1116714",
+    "1118922"
   ],
   "user_state": {},
   "tags_raw": [],

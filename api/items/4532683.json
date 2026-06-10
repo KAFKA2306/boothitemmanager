@@ -11,10 +11,7 @@
   "price": 600,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "バッグ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2698723",
-    "2731564",
-    "2879682",
-    "4438339",
-    "4643895"
+    "3889381",
+    "4101219",
+    "4439176",
+    "5099479",
+    "5413301"
   ],
   "user_state": {},
   "tags_raw": [],

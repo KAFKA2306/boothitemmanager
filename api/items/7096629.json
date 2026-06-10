@@ -11,9 +11,7 @@
   "price": 100,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "包帯"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4137208",
-    "5493956",
-    "5756515",
-    "6205626",
-    "6429418"
+    "1025226",
+    "1148311",
+    "1455884",
+    "1808463",
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -23,16 +23,17 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Maya",
       "Kikyo",
       "Selestia"
     ]
   },
   "similar_items": [
     "5009439",
-    "4076031",
-    "4213268",
+    "3889509",
+    "4171012",
     "4475519",
-    "5012600"
+    "3405557"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -44,6 +45,10 @@
     {
       "code": "Selestia",
       "name": "セレスティア"
+    },
+    {
+      "code": "Maya",
+      "name": "まや"
     }
   ],
   "files": [],

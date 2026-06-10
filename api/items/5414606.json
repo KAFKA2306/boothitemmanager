@@ -11,9 +11,7 @@
   "price": 600,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "1276329",
+    "1429829",
+    "1534610",
     "1573249",
-    "1680527",
-    "3407474",
-    "3755026",
-    "5702201"
+    "1637978"
   ],
   "user_state": {},
   "tags_raw": [],

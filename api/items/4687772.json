@@ -11,9 +11,7 @@
   "price": 300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "3296215",
-    "4687439",
-    "4976165",
-    "3114352",
-    "3971748"
+    "4613006",
+    "4686693",
+    "4687250",
+    "4688952"
   ],
   "user_state": {},
   "tags_raw": [],

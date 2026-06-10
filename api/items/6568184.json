@@ -14,14 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和風",
-      "メイド",
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2059604",
     "3464556",
-    "5395383",
-    "7239821",
-    "3816168"
+    "3466425",
+    "3599316",
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],

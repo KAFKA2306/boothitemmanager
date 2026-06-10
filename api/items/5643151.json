@@ -21,26 +21,22 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Kikyo",
       "Manuka",
-      "Moe"
+      "Kikyo",
+      "Moe",
+      "Selestia"
     ]
   },
   "similar_items": [
     "5086129",
+    "5325210",
     "4254967",
     "4398930",
-    "4938397",
-    "5039903"
+    "4595840"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
-    {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
     {
       "code": "Kikyo",
       "name": "桔梗"
@@ -48,6 +44,10 @@
     {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",

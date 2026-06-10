@@ -11,17 +11,11 @@
   "price": 100,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "白"
-    ],
-    "outfit_type": [
-      "ワンピース"
-    ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -31,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "3596009",
-    "3757096",
-    "3802362",
-    "3922645",
-    "3925645"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

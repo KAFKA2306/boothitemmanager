@@ -11,9 +11,7 @@
   "price": 400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "包帯"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,9 +25,9 @@
     ]
   },
   "similar_items": [
-    "4108987",
     "4686246",
     "4844427",
+    "5057865",
     "5058253",
     "5058959"
   ],

@@ -11,12 +11,10 @@
   "price": 350,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4293343",
-    "2342267",
-    "2664698",
-    "3068775",
-    "3323072"
+    "3464556",
+    "3466425",
+    "3599316",
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],

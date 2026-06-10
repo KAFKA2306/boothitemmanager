@@ -14,7 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -22,25 +22,18 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinra"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "4726560",
+    "3464556",
     "3466425",
     "3599316",
-    "3879650",
-    "3888033"
+    "3617514",
+    "3619582"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinra",
-      "name": "森羅"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

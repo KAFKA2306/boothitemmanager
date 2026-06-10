@@ -11,11 +11,11 @@
   "price": 700,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "ツイン"
+    "appearance": [
+      "Bone"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3356130",
-    "3440187",
-    "3717711",
-    "3786646",
-    "3999987"
+    "1772907",
+    "1895574",
+    "2664698",
+    "3412358",
+    "3459633"
   ],
   "user_state": {},
   "tags_raw": [],

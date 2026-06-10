@@ -11,7 +11,9 @@
   "price": 350,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3205288",
-    "3504482",
-    "4214489",
-    "4844630",
-    "4903466"
+    "7647913",
+    "2516986",
+    "4840815",
+    "6125704",
+    "6882718"
   ],
   "user_state": {},
   "tags_raw": [],

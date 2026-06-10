@@ -16,24 +16,31 @@
     "style": [],
     "color": [],
     "outfit_type": [
-      "スーツ"
+      "set"
     ],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Imeris"
+    ]
   },
   "similar_items": [
-    "1210787",
-    "2746391",
-    "3515681",
-    "3535934",
-    "3653584"
+    "3609097",
+    "3055069",
+    "3059832",
+    "3061733",
+    "3092914"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Imeris",
+      "name": "イメリス"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

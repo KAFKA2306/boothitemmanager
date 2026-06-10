@@ -11,13 +11,13 @@
   "price": 900,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "翼"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5145839",
-    "7032190",
-    "1780596",
-    "1978977",
-    "2207085"
+    "3192245",
+    "3440187",
+    "3547301",
+    "3825027",
+    "3929786"
   ],
   "user_state": {},
   "tags_raw": [],

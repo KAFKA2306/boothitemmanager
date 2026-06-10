@@ -11,17 +11,11 @@
   "price": 1500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "メイド"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -31,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "5421835",
-    "5708467",
-    "6669408",
-    "6704719",
-    "5643457"
+    "4724831",
+    "4729198",
+    "4731643",
+    "4731770",
+    "4735883"
   ],
   "user_state": {},
   "tags_raw": [],

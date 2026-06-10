@@ -11,9 +11,7 @@
   "price": 2000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3275381",
-    "3352668",
-    "3447829",
-    "3617333",
-    "3926040"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

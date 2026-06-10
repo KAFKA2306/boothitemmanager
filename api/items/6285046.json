@@ -11,9 +11,7 @@
   "price": 1450,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -30,8 +28,8 @@
     "4724831",
     "4729198",
     "4731643",
-    "4735883",
-    "4740308"
+    "4731770",
+    "4735883"
   ],
   "user_state": {},
   "tags_raw": [],

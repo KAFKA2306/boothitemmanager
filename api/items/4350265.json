@@ -15,23 +15,37 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Karin",
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "1403139",
-    "2956729",
-    "3809129",
-    "3893746",
-    "4155973"
+    "3994734",
+    "4043573",
+    "4264049",
+    "4463723",
+    "5519667"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Karin",
+      "name": "カリン"
+    },
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

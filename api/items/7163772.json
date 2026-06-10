@@ -11,10 +11,7 @@
   "price": 500,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "ブーツ",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3845072",
-    "2703222",
-    "2955267",
-    "4823906",
-    "5238793"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

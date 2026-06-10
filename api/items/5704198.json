@@ -11,9 +11,7 @@
   "price": 550,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3643884",
-    "4473156",
-    "5040295",
-    "5146423",
-    "5294553"
+    "4508977",
+    "4765735",
+    "4803801",
+    "4861024",
+    "5085639"
   ],
   "user_state": {},
   "tags_raw": [],

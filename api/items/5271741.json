@@ -11,14 +11,10 @@
   "price": 0,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "3870324",
-    "4138062",
-    "4224643",
-    "4258413",
-    "3726343"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

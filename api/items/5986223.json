@@ -11,13 +11,10 @@
   "price": 800,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング",
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7158670",
-    "1871442",
-    "3776346",
-    "3560999",
-    "3407613"
+    "1472541",
+    "1639911",
+    "2448483",
+    "2477500",
+    "3639457"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "マント"
+    "style": [
+      "Fantasy"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2674407",
-    "2678106",
-    "3121203",
-    "4296062",
-    "4674587"
+    "1456186",
+    "2583342",
+    "2966074",
+    "4455661",
+    "5023174"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,13 +11,9 @@
   "price": 1500,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "尻尾"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5766139",
-    "6014369",
-    "6314755",
-    "6462709",
-    "7060935"
+    "3205288",
+    "3504482",
+    "4214489",
+    "4844630",
+    "4903466"
   ],
   "user_state": {},
   "tags_raw": [],

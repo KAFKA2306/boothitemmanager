@@ -14,13 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "ドレス",
-      "着物"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -30,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "3934298",
     "4393682",
-    "3565853",
-    "3619861",
-    "3702533",
-    "4420750"
+    "4420750",
+    "4904717",
+    "1486105"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "水着"
+    "style": [
+      "Jirai"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2106681",
-    "2205183",
-    "1746937",
-    "2344716",
-    "2563594"
+    "6113160",
+    "6118834",
+    "3229419",
+    "3585635",
+    "3740568"
   ],
   "user_state": {},
   "tags_raw": [],

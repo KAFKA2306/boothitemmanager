@@ -11,12 +11,10 @@
   "price": 800,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -29,9 +27,9 @@
   "similar_items": [
     "4708296",
     "7198096",
-    "4242965",
-    "6982156",
-    "1490390"
+    "7590765",
+    "1472541",
+    "1639911"
   ],
   "user_state": {},
   "tags_raw": [],

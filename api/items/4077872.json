@@ -11,11 +11,11 @@
   "price": 700,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "ロング"
+    "appearance": [
+      "Bone"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2362976",
-    "3125299",
-    "3366451",
-    "3653274",
-    "3687182"
+    "1772907",
+    "1895574",
+    "2664698",
+    "3412358",
+    "3459633"
   ],
   "user_state": {},
   "tags_raw": [],

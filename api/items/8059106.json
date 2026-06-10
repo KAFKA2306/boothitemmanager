@@ -11,9 +11,7 @@
   "price": 300,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "7528888",
-    "1738692",
-    "1897744",
-    "2534242",
-    "2868470"
+    "1555789",
+    "2280136",
+    "2436054",
+    "2603366",
+    "2604269"
   ],
   "user_state": {},
   "tags_raw": [],

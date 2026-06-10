@@ -13,16 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
-    "color": [
-      "白"
-    ],
-    "outfit_type": [
-      "ドレス",
-      "ワンピース"
-    ],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -32,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "2956816",
-    "3004100",
-    "3976866",
-    "4096603",
-    "1479734"
+    "2986054",
+    "3502371",
+    "3702704",
+    "3708000",
+    "3711659"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,14 +11,10 @@
   "price": 1000,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "赤"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1258744",
-    "1430657",
-    "2981169",
-    "3290555",
-    "3577887"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

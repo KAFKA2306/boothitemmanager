@@ -11,9 +11,7 @@
   "price": 150,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4197129",
-    "4244687",
-    "4519820",
-    "5408028",
-    "5479202"
+    "1065089",
+    "1268362",
+    "1634088",
+    "2291899",
+    "2474761"
   ],
   "user_state": {},
   "tags_raw": [],

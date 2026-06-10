@@ -33,12 +33,63 @@ avatars:
     name_ja: "セレスティア"
     item_id: "4035411"
     creator: "JINGO CHANNEL"
-    aliases: ["セレスティア", "selestia", "4035411"]
+    aliases: ["セレスティア", "selestia", "せれすてぃあ", "Seles", "セレス", "4035411"]
   Moe:
     name_ja: "萌"
     item_id: "4667400"
     creator: "キュビクローゼット"
     aliases: ["萌", "moe", "4667400"]
+  # --- Popular Avatars ---
+  Grus:
+    name_ja: "グルス"
+    item_id: "2030978"
+    creator: "久"
+    aliases: ["Grus", "グルス", "2030978"]
+  Karin:
+    name_ja: "カリン"
+    item_id: "3470989"
+    creator: "あまとうさぎ"
+    aliases: ["Karin", "カリン", "3470989"]
+  Maya:
+    name_ja: "まや"
+    item_id: "3390957"
+    creator: "キュビクローゼット"
+    aliases: ["Maya", "まや", "3390957"]
+  Rusk:
+    name_ja: "ラスク"
+    item_id: "2559783"
+    creator: "こまど"
+    aliases: ["Rusk", "ラスク", "2559783"]
+  Mint:
+    name_ja: "ミント"
+    item_id: "2258111"
+    creator: "あまとうさぎ"
+    aliases: ["Mint", "ミント", "2258111"]
+  Lime:
+    name_ja: "ライム"
+    item_id: "4876459"
+    creator: "あまとうさぎ"
+    aliases: ["Lime", "ライム", "4876459"]
+  Imeris:
+    name_ja: "イメリス"
+    item_id: "3040745"
+    creator: "JINGO CHANNEL"
+    aliases: ["Imeris", "イメリス", "3040745"]
+  Minase:
+    name_ja: "水瀬"
+    item_id: "4013950"
+    creator: "久"
+    aliases: ["Minase", "水瀬", "4013950"]
+  Hakka:
+    name_ja: "薄荷"
+    item_id: "3953037"
+    creator: "Hotoke-zaka"
+    aliases: ["Hakka", "薄荷", "3953037"]
+  Leufa:
+    name_ja: "ルーファ"
+    item_id: "3503254"
+    creator: "ひゅうがなつみかん"
+    aliases: ["Leufa", "ルーファ", "3503254"]
   # --- Mamehinata / Animal System ---
   Mamehinata:
     name_ja: "まめひなた"

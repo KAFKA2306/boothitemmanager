@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "スーツ"
+    "style": [
+      "Street"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1210787",
-    "2746391",
-    "3515681",
-    "3535934",
-    "3653584"
+    "2508896",
+    "3285133",
+    "3645638",
+    "3781652",
+    "3806697"
   ],
   "user_state": {},
   "tags_raw": [],

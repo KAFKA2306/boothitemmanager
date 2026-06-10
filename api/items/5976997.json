@@ -11,12 +11,10 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3147928",
+    "2055173",
+    "4459284",
+    "5346515",
     "6863552",
-    "1871131",
-    "4490666",
-    "4509870"
+    "7286998"
   ],
   "user_state": {},
   "tags_raw": [],

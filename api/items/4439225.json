@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "オーバーオール"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "2508896",
-    "2544638",
-    "3001980",
-    "3052683",
-    "3285133"
+    "3285133",
+    "3645638",
+    "3781652",
+    "3806697"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -14,8 +14,7 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和風",
-      "和装"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -23,18 +22,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
-    "3360896",
-    "4853631",
-    "5089703",
-    "5425771",
-    "6102849"
+    "4948863",
+    "1486105",
+    "2059604",
+    "2663182",
+    "3360896"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

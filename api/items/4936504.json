@@ -21,6 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Lime",
       "Kikyo",
       "Moe"
     ]
@@ -28,9 +29,9 @@
   "similar_items": [
     "5633490",
     "5676485",
+    "3793308",
     "3862082",
-    "4575151",
-    "4619847"
+    "4235719"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,6 +43,10 @@
     {
       "code": "Moe",
       "name": "萌"
+    },
+    {
+      "code": "Lime",
+      "name": "ライム"
     }
   ],
   "files": [],

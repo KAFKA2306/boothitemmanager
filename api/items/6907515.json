@@ -13,7 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Street"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1256087",
-    "1484117",
-    "2332420",
-    "2559783",
-    "2693309"
+    "2341161",
+    "3912014",
+    "2508896",
+    "2971141",
+    "3285133"
   ],
   "user_state": {},
   "tags_raw": [],

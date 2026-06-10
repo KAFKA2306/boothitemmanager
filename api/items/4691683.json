@@ -11,15 +11,11 @@
   "price": 1200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "靴下"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "4476283",
-    "4696720",
-    "4688607",
-    "5534686",
-    "4441439"
+    "3296215",
+    "4613006",
+    "4686693",
+    "4687250",
+    "4688952"
   ],
   "user_state": {},
   "tags_raw": [],

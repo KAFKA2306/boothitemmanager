@@ -12,8 +12,8 @@
   "category": "ANIMATION",
   "tag_set": {
     "appearance": [
-      "Animation",
-      "Material"
+      "Material",
+      "Animation"
     ],
     "body_type": [],
     "style": [],
@@ -25,25 +25,18 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Manuka"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "5528309",
-    "5051031",
-    "5058946",
-    "5059123",
-    "5060744"
+    "2139754",
+    "3625699",
+    "3814025",
+    "4044216",
+    "4732892"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Manuka",
-      "name": "マヌカ"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

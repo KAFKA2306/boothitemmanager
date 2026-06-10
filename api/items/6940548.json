@@ -11,12 +11,11 @@
   "price": 300,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -26,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3573731",
-    "4842194",
-    "5138693",
-    "5257208",
-    "5272186"
+    "3229419",
+    "3585635",
+    "3740568",
+    "4335846",
+    "4370951"
   ],
   "user_state": {},
   "tags_raw": [],

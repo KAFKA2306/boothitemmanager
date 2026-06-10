@@ -1,26 +1,34 @@
-name: Build and Deploy to GitHub Pages
+name: Build, Test and Deploy
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch: {}
 
-# 競合を防ぐ推奨設定（任意）
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      # Pages 用セットアップ
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-      # ここでサイトをビルドして dist/ 等に出力する
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies and Playwright
+        run: |
+          pip install uv
+          uv venv
+          source .venv/bin/activate
+          uv pip install pytest pytest-playwright pytest-asyncio requests pydantic
+          uv run playwright install --with-deps chromium
+
       - name: Build static site
         run: |
           mkdir -p dist
@@ -36,14 +44,22 @@ jobs:
           fi
           # Generate proof for deployment verification
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
-      # Pages 用アーティファクトをアップロード
+
+      - name: Run E2E Tests (Smoke, Data Load, UI, Filters, Search)
+        run: |
+          source .venv/bin/activate
+          uv run pytest tests/e2e/test_browser.py -v
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
-  deploy:
-    # 必須権限
+  deploy-gh-pages:
     permissions:
       pages: write
       id-token: write
@@ -51,8 +67,29 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-and-test
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # deploy-cf-pages:
+  #   runs-on: ubuntu-latest
+  #   needs: build-and-test
+  #   steps:
+  #     - name: Download artifact
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: github-pages
+  #         path: dist
+  #         
+  #     # Note: The artifact is a tar file for GH Pages, so you might need to extract it,
+  #     # or just rebuild/checkout for Cloudflare Pages.
+  #     #
+  #     # - name: Deploy to Cloudflare Pages
+  #     #   uses: cloudflare/pages-action@v1
+  #     #   with:
+  #     #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+  #     #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+  #     #     projectName: boothitemmanager
+  #     #     directory: dist

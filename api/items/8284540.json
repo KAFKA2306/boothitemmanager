@@ -11,12 +11,10 @@
   "price": 600,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "角"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3721462",
-    "4441632",
-    "6394157",
     "1228094",
-    "1351220"
+    "1306657",
+    "1351220",
+    "1577694",
+    "2137838"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,12 +11,10 @@
   "price": 450,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和風"
+      "Japanese"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3407613",
-    "3629400",
-    "4240961",
-    "4481128",
-    "4807912"
+    "2055173",
+    "4459284",
+    "5346515",
+    "5976997",
+    "6863552"
   ],
   "user_state": {},
   "tags_raw": [],

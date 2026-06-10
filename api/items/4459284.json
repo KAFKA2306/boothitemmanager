@@ -11,17 +11,13 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "着物"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1738520",
-    "1763577",
-    "1911517",
-    "2235815",
-    "2663182"
+    "2055173",
+    "5346515",
+    "5976997",
+    "6863552",
+    "7286998"
   ],
   "user_state": {},
   "tags_raw": [],

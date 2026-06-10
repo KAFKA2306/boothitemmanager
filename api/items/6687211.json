@@ -13,9 +13,7 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "ロング"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -28,22 +26,22 @@
     ]
   },
   "similar_items": [
-    "2310161",
-    "2833210",
-    "3023327",
-    "3247353",
-    "3408400"
+    "6170551",
+    "6248462",
+    "6485888",
+    "6508879",
+    "6559907"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Kipfel",
-      "name": "キプフェル"
-    },
-    {
       "code": "Mamehinata",
       "name": "まめひなた"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル"
     }
   ],
   "files": [],

@@ -14,28 +14,33 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Selestia"
+    ]
   },
   "similar_items": [
-    "4307697",
-    "2508896",
-    "3285133",
-    "3781652",
-    "4049111"
+    "4037888",
+    "4073283",
+    "4132331",
+    "4264453",
+    "4421294"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

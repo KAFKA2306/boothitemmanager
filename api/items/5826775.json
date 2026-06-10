@@ -21,6 +21,7 @@
     "platform": [],
     "season": [],
     "avatar_link": [
+      "Lime",
       "Kikyo",
       "Shinra"
     ]
@@ -28,9 +29,9 @@
   "similar_items": [
     "4686026",
     "4760910",
-    "4908694",
     "4936504",
-    "5055084"
+    "5055084",
+    "4898349"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -42,6 +43,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Lime",
+      "name": "ライム"
     }
   ],
   "files": [],

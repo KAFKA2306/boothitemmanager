@@ -13,14 +13,9 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [
-      "スポーツ"
-    ],
+    "style": [],
     "color": [],
-    "outfit_type": [
-      "水着",
-      "スーツ"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4816969",
-    "4981206",
-    "5119597",
-    "6306408",
-    "7108873"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

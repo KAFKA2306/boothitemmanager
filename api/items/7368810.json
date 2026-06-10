@@ -11,12 +11,10 @@
   "price": 200,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4926013",
-    "4926034",
-    "5369562",
-    "7260004",
-    "2368112"
+    "2341161",
+    "2508896",
+    "2971141",
+    "3285133",
+    "3645638"
   ],
   "user_state": {},
   "tags_raw": [],

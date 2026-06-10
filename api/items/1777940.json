@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "ワンピース"
+    "style": [
+      "Military"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -26,10 +26,10 @@
   },
   "similar_items": [
     "1542859",
-    "2156245",
-    "2534113",
-    "4371532",
-    "1350966"
+    "2308121",
+    "2327743",
+    "3837558",
+    "4559867"
   ],
   "user_state": {},
   "tags_raw": [],

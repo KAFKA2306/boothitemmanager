@@ -11,11 +11,11 @@
   "price": 400,
   "category": "ANIMATION",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "獣耳"
+    "appearance": [
+      "Animation"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6485673",
-    "1062613",
-    "1577598",
-    "1581818",
-    "3526063"
+    "1065089",
+    "1268362",
+    "1634088",
+    "2291899",
+    "2474761"
   ],
   "user_state": {},
   "tags_raw": [],

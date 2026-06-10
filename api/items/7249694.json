@@ -11,13 +11,9 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4304109",
-    "6072117",
-    "6778807",
-    "6903101",
-    "7081349"
+    "3889381",
+    "4101219",
+    "4439176",
+    "5099479",
+    "5413301"
   ],
   "user_state": {},
   "tags_raw": [],

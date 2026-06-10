@@ -14,13 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "メイド",
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
-    "outfit_type": [
-      "メイド服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4573950",
-    "2059614",
-    "2847658",
-    "3652461",
-    "3921448"
+    "2588481",
+    "3209293",
+    "3721462",
+    "3742777",
+    "3821617"
   ],
   "user_state": {},
   "tags_raw": [],

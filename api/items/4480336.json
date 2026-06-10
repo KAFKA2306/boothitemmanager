@@ -14,11 +14,13 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック",
-      "ゴスロリ"
+      "Gothic",
+      "Lolita"
     ],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -28,11 +30,11 @@
     ]
   },
   "similar_items": [
+    "3500508",
+    "4163235",
+    "5063147",
     "5085178",
-    "2144086",
-    "5268312",
-    "5463408",
-    "7193379"
+    "5120276"
   ],
   "user_state": {},
   "tags_raw": [],

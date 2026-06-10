@@ -21,15 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinra"
+      "Shinra",
+      "Minase"
     ]
   },
   "similar_items": [
-    "4788283",
-    "5019018",
-    "7794495",
-    "4724831",
-    "4726737"
+    "4796828",
+    "5149738",
+    "5658447",
+    "6083996",
+    "6092922"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -37,6 +38,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬"
     }
   ],
   "files": [],

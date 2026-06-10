@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "ブラウス"
+    "style": [
+      "Jirai"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2848686",
-    "2905520",
-    "2956321",
-    "3562630",
-    "4185016"
+    "3229419",
+    "3585635",
+    "3740568",
+    "4335846",
+    "4370951"
   ],
   "user_state": {},
   "tags_raw": [],

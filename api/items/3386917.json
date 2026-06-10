@@ -11,14 +11,10 @@
   "price": 298,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "青"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2300392",
-    "3069516",
-    "4051384",
-    "4081461",
-    "5630461"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

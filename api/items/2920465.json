@@ -11,14 +11,10 @@
   "price": 4250,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "紫"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1343227",
-    "2991125",
-    "4840441",
+    "1025226",
+    "1148311",
+    "1455884",
     "1808463",
-    "2683599"
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

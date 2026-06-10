@@ -20,25 +20,18 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Shinra"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
-    "4724831",
-    "4729198",
-    "4731643",
-    "4735883",
-    "4740308"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Shinra",
-      "name": "森羅"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

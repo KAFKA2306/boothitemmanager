@@ -11,12 +11,12 @@
   "price": 500,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Material"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5524850",
-    "6415993",
-    "7572282",
-    "7852285",
-    "1202640"
+    "4840815",
+    "7108865",
+    "7168587",
+    "7228919",
+    "7241178"
   ],
   "user_state": {},
   "tags_raw": [],

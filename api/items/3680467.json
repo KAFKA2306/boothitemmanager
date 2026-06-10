@@ -11,12 +11,10 @@
   "price": 500,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ファンタジー"
+      "Fantasy"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "1515830",
-    "4012158",
-    "4555216",
-    "5638695",
-    "1808463"
+    "3121599",
+    "4818795",
+    "5641569",
+    "6974539"
   ],
   "user_state": {},
   "tags_raw": [],

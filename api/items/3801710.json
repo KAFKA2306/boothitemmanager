@@ -11,9 +11,7 @@
   "price": 400,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "リボン"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2231558",
-    "3678309",
-    "7323610",
-    "5300061",
-    "1334162"
+    "2866343",
+    "3050625",
+    "3143286",
+    "3186729",
+    "3325721"
   ],
   "user_state": {},
   "tags_raw": [],

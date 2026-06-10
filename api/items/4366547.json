@@ -11,9 +11,7 @@
   "price": 600,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Selestia"
+    ]
   },
   "similar_items": [
-    "2868470",
-    "3453694",
-    "3733526",
-    "3969107",
-    "4295990"
+    "4039565",
+    "4041337",
+    "4046871",
+    "4049420",
+    "4057947"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -11,9 +11,7 @@
   "price": 400,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -22,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Minase"
+    ]
   },
   "similar_items": [
+    "4945016",
+    "5002377",
+    "5040295",
     "5104222",
-    "5236665",
-    "5695379",
-    "6086712",
-    "6294326"
+    "5214834"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Minase",
+      "name": "水瀬"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

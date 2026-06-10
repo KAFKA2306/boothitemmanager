@@ -11,9 +11,7 @@
   "price": 500,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -31,7 +29,7 @@
     "4924272",
     "5502559",
     "8021290",
-    "4441439"
+    "3296215"
   ],
   "user_state": {},
   "tags_raw": [],

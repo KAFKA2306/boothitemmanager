@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー"
+      "Cyber"
     ],
     "color": [],
-    "outfit_type": [
-      "制服"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "2588481",
+    "3209293",
+    "3721462",
     "3742777",
-    "3821617",
-    "3951740",
-    "4377254",
-    "4511560"
+    "3821617"
   ],
   "user_state": {},
   "tags_raw": [],

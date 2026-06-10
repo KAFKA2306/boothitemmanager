@@ -11,15 +11,11 @@
   "price": 700,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "パーカー"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
@@ -29,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2731564",
-    "4438339",
-    "5136895",
-    "6090356",
-    "8038923"
+    "3889381",
+    "4101219",
+    "4439176",
+    "5099479",
+    "5413301"
   ],
   "user_state": {},
   "tags_raw": [],

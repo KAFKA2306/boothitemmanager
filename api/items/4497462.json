@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "ドレス"
+    "style": [
+      "Lolita"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2706740",
-    "1300847",
-    "1644661",
-    "2428269",
-    "2744778"
+    "3172766",
+    "4856147",
+    "7436812",
+    "1350966",
+    "2362262"
   ],
   "user_state": {},
   "tags_raw": [],

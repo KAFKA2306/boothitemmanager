@@ -11,14 +11,10 @@
   "price": 1000,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "ピンク"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6588697",
+    "1025226",
+    "1148311",
+    "1455884",
     "1808463",
-    "2683599",
-    "2938398",
-    "3930303"
+    "2219616"
   ],
   "user_state": {},
   "tags_raw": [],

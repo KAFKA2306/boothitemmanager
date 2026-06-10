@@ -14,26 +14,31 @@
     "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "青"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Mint"
+    ]
   },
   "similar_items": [
-    "1582244",
-    "2135080",
-    "3034775",
-    "3346731",
-    "3607986"
+    "2258111",
+    "2275786",
+    "3772043",
+    "4303195",
+    "4456982"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Mint",
+      "name": "ミント"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

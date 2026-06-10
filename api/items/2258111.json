@@ -20,18 +20,25 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Mint"
+    ]
   },
   "similar_items": [
-    "1256087",
-    "1484117",
-    "2332420",
-    "2559783",
-    "2693309"
+    "2275786",
+    "4303195",
+    "3772043",
+    "8059170",
+    "4456982"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Mint",
+      "name": "ミント"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

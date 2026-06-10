@@ -24,6 +24,9 @@
 !aliases.yml
 !.gitignore
 !config.yaml
+!ontology/
+!ontology/**
+!evolution_pipeline.py
 !generate_proof.py
 !run_boothitemmanager2.py
 !run_bulk_pipeline.py

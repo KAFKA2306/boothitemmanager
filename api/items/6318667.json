@@ -11,12 +11,10 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4521166",
-    "5132915",
-    "5951180",
     "7563353",
-    "1472541"
+    "7689041",
+    "1472541",
+    "1639911",
+    "1802714"
   ],
   "user_state": {},
   "tags_raw": [],

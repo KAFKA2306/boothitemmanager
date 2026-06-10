@@ -11,14 +11,10 @@
   "price": 500,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "赤"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3297366",
-    "5774004",
-    "6931838",
-    "7369800",
-    "7508208"
+    "4508977",
+    "4765735",
+    "4803801",
+    "4861024",
+    "5085639"
   ],
   "user_state": {},
   "tags_raw": [],

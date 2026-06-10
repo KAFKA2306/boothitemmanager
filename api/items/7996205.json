@@ -16,7 +16,9 @@
     "style": [],
     "color": [],
     "outfit_type": [],
-    "accessory": [],
+    "accessory": [
+      "head"
+    ],
     "feature": [
       "ModularAvatar"
     ],
@@ -26,10 +28,10 @@
   },
   "similar_items": [
     "6871614",
-    "3079230",
+    "2119100",
     "4243678",
-    "4340548",
-    "4493190"
+    "4252664",
+    "4348297"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,14 +11,12 @@
   "price": 1200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネクタイ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
     "outfit_type": [
-      "スカート"
+      "set"
     ],
     "accessory": [],
     "feature": [],
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "4756263",
-    "5793124",
-    "4940050",
-    "4441439",
-    "4613006"
+    "4807863",
+    "4816911",
+    "5059212",
+    "5001704",
+    "3296215"
   ],
   "user_state": {},
   "tags_raw": [],

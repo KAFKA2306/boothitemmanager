@@ -11,13 +11,9 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "ツイン"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "1785090",
-    "6127800",
-    "7788746",
-    "3510184",
-    "3356130"
+    "4416309",
+    "4419241",
+    "4434344",
+    "4434500",
+    "4434636"
   ],
   "user_state": {},
   "tags_raw": [],

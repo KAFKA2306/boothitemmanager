@@ -11,7 +11,9 @@
   "price": 1100,
   "category": "WORLD",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1276329",
-    "1429829",
-    "1534610",
-    "1573249",
-    "1637978"
+    "1637978",
+    "2141514",
+    "2150974",
+    "2440276",
+    "3130402"
   ],
   "user_state": {},
   "tags_raw": [],

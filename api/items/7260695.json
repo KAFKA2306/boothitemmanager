@@ -11,9 +11,7 @@
   "price": 500,
   "category": "GIMMICK_TOOL",
   "tag_set": {
-    "appearance": [
-      "チョーカー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1976236",
-    "2398106",
-    "2403121",
-    "2895531",
-    "2908109"
+    "1555789",
+    "2280136",
+    "2436054",
+    "2603366",
+    "2604269"
   ],
   "user_state": {},
   "tags_raw": [],

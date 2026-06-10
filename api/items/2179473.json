@@ -11,13 +11,9 @@
   "price": 880,
   "category": "VROID",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "夏"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -27,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1418065",
-    "3565871",
-    "3897472",
-    "5008879",
-    "5104222"
+    "1131021",
+    "1153594",
+    "1234110",
+    "1392512",
+    "1503592"
   ],
   "user_state": {},
   "tags_raw": [],

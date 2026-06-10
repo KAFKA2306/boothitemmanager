@@ -15,35 +15,33 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Shinra"
+      "Shinra",
+      "Selestia"
     ]
   },
   "similar_items": [
     "6361121",
-    "6403781",
-    "4733223",
-    "6675827",
-    "4146285"
+    "4724831",
+    "4729198",
+    "4731643",
+    "4731770"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

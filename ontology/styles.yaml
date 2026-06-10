@@ -1,0 +1,13 @@
+
+version: 1
+updated_at: "2026-06-10"
+styles:
+  Street: ["ストリート", "street", "カジュアル", "casual"]
+  Gothic: ["ゴシック", "gothic", "ゴス"]
+  Lolita: ["ロリータ", "lolita", "甘ロリ", "黒ロリ"]
+  Cyber: ["サイバー", "cyber", "テックウェア", "techwear"]
+  Japanese: ["和風", "japanese", "和装", "着物", "浴衣"]
+  Fantasy: ["ファンタジー", "fantasy", "魔道士", "騎士"]
+  Military: ["ミリタリー", "military", "軍服"]
+  Jirai: ["地雷", "地雷系", "jirai"]
+  Tenshi: ["天使", "angel", "サブカル"]

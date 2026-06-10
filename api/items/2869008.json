@@ -11,11 +11,11 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Military"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1089564",
-    "2544455",
-    "2671661",
-    "3093451",
-    "3361727"
+    "1069252",
+    "1640686",
+    "1801059",
+    "2740057",
+    "2833284"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,9 +11,7 @@
   "price": 0,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,15 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Shinra"
+      "Shinra",
+      "Minase"
     ]
   },
   "similar_items": [
-    "5916238",
-    "6272838",
-    "6963090",
-    "5183139",
-    "4727166"
+    "5658447",
+    "6083996",
+    "7715655",
+    "4796828",
+    "5149738"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,6 +38,10 @@
     {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬"
     }
   ],
   "files": [],

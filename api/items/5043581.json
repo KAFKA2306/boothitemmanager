@@ -21,27 +21,27 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
-      "Shinra"
+      "Shinra",
+      "Moe"
     ]
   },
   "similar_items": [
-    "4801656",
     "4690400",
-    "4760910",
-    "4908694",
-    "5035345"
+    "4801656",
+    "4837642",
+    "5035345",
+    "4142211"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Moe",
-      "name": "萌"
-    },
-    {
       "code": "Shinra",
       "name": "森羅"
+    },
+    {
+      "code": "Moe",
+      "name": "萌"
     }
   ],
   "files": [],

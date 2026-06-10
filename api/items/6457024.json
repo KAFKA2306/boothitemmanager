@@ -22,25 +22,18 @@
     ],
     "platform": [],
     "season": [],
-    "avatar_link": [
-      "Kipfel"
-    ]
+    "avatar_link": []
   },
   "similar_items": [
+    "4768863",
     "5884021",
-    "3079230",
+    "6215017",
     "4243678",
-    "4340548",
-    "4493190"
+    "4252664"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [
-    {
-      "code": "Kipfel",
-      "name": "キプフェル"
-    }
-  ],
+  "targets": [],
   "files": [],
   "source": "booth"
 }

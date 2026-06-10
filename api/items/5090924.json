@@ -21,28 +21,28 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
       "Manuka",
-      "Moe"
+      "Moe",
+      "Selestia"
     ]
   },
   "similar_items": [
+    "5900309",
+    "6320329",
     "5082979",
-    "5086129",
     "5111344",
-    "5286216",
-    "5900309"
+    "5286216"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Manuka",
       "name": "マヌカ"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     },
     {
       "code": "Moe",

@@ -11,15 +11,11 @@
   "price": 800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +25,11 @@
     ]
   },
   "similar_items": [
-    "3675365",
-    "3920209",
-    "4322117",
-    "4369726",
-    "4578160"
+    "4724831",
+    "4729198",
+    "4731643",
+    "4731770",
+    "4735883"
   ],
   "user_state": {},
   "tags_raw": [],

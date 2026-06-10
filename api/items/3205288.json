@@ -11,9 +11,7 @@
   "price": 500,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [
-      "ショートヘア"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3974669",
-    "4056951",
-    "4172974",
-    "4484149",
-    "4534513"
+    "3504482",
+    "4214489",
+    "4844630",
+    "4903466",
+    "4909173"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,16 +11,10 @@
   "price": 0,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "翼"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
-    "color": [
-      "モノトーン",
-      "黒",
-      "白"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -29,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6531046",
-    "6589746",
-    "6937993",
-    "8356113",
-    "5011333"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "パーカー"
+    "style": [
+      "Tenshi"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -27,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "5185538",
-    "5161103",
     "4686246",
     "4844427",
-    "5057865"
+    "5057865",
+    "5058253",
+    "5058959"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -14,30 +14,35 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [
       "PhysBone"
     ],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Rusk"
+    ]
   },
   "similar_items": [
+    "2964767",
     "3013484",
     "3020795",
-    "3107498",
-    "3159333",
-    "3264866"
+    "3084032",
+    "3107498"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

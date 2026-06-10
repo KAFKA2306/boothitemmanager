@@ -20,18 +20,30 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Karin",
+      "Rusk"
+    ]
   },
   "similar_items": [
-    "1735600",
-    "1901057",
-    "2166929",
-    "2234312",
-    "2470661"
+    "4043573",
+    "4264049",
+    "4463723",
+    "5519667",
+    "3730755"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Karin",
+      "name": "カリン"
+    },
+    {
+      "code": "Rusk",
+      "name": "ラスク"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

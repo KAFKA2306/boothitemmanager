@@ -11,12 +11,12 @@
   "price": 400,
   "category": "AVATAR",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
-    "color": [
-      "黒"
-    ],
+    "color": [],
     "outfit_type": [],
     "accessory": [],
     "feature": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3933938",
-    "5146292",
-    "5533826",
-    "5647662",
-    "6344128"
+    "1035152",
+    "1095863",
+    "1116435",
+    "1116714",
+    "1118922"
   ],
   "user_state": {},
   "tags_raw": [],

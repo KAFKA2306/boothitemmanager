@@ -10,20 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --accent: #00f0ff;
-            --accent-pink: #ff007a;
-            --accent-purple: #9d00ff;
-            --accent-glow: rgba(0, 240, 255, 0.3);
-            --pink-glow: rgba(255, 0, 122, 0.3);
-            --bg-dark: #050508;
-            --bg-card: rgba(18, 18, 26, 0.7);
-            --border-color: rgba(255, 255, 255, 0.08);
-            --border-hover: rgba(0, 240, 255, 0.4);
-            --text-primary: #f5f5fa;
-            --text-secondary: #a9a9b8;
-            --text-muted: #626272;
+            --accent: #ffffff;
+            --accent-pink: #cccccc;
+            --accent-purple: #aaaaaa;
+            --accent-glow: rgba(255, 255, 255, 0.05);
+            --pink-glow: rgba(255, 255, 255, 0.05);
+            --bg-dark: #0a0a0a;
+            --bg-card: #141414;
+            --border-color: #2a2a2a;
+            --border-hover: #555555;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --text-muted: #666666;
             --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            --font-heading: 'Outfit', sans-serif;
+            --font-heading: 'Inter', sans-serif;
         }
 
         * {
@@ -36,14 +36,19 @@
             background-color: var(--bg-dark);
             color: var(--text-primary);
             font-family: var(--font-family);
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "sidebar main";
+            grid-template-columns: 340px 1fr;
+            grid-template-rows: auto 1fr;
+            height: 100dvh;
             overflow: hidden;
         }
 
         /* Header Styling */
         header {
+            grid-area: header;
             background: rgba(8, 8, 12, 0.85);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border-color);
@@ -148,14 +153,12 @@
 
         /* App Layout */
         .app-layout {
-            display: flex;
-            flex: 1;
-            overflow: hidden;
+            display: contents;
         }
 
         /* Sidebar Styling */
         aside {
-            width: 340px;
+            grid-area: sidebar;
             background: rgba(8, 8, 12, 0.5);
             border-right: 1px solid var(--border-color);
             padding: 1.5rem;
@@ -163,6 +166,7 @@
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
+            scrollbar-gutter: stable;
         }
 
         .filter-section h3 {
@@ -318,12 +322,13 @@
 
         /* Main Window */
         main {
-            flex: 1;
+            grid-area: main;
             padding: 2rem;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
+            scrollbar-gutter: stable;
         }
 
         /* Control Panel */
@@ -448,26 +453,28 @@
         /* Asset Grid */
         .asset-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
         }
 
         .asset-card {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 16px;
+            border-radius: 8px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
             cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            transition: all 0.2s ease;
             position: relative;
+            content-visibility: auto;
+            contain-intrinsic-size: auto 240px;
         }
 
         .asset-card:hover {
-            transform: translateY(-6px);
-            border-color: var(--border-hover);
-            box-shadow: 0 12px 30px rgba(0, 240, 255, 0.15);
+            transform: translateY(-4px);
+            border-color: var(--text-secondary);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
         }
 
         .asset-thumb-container {
@@ -1030,6 +1037,14 @@
                 </div>
             </div>
 
+            <!-- Features Tags -->
+            <div class="filter-section">
+                <h3>FEATURES / SPECS</h3>
+                <div class="tag-cloud" id="feature-selector">
+                    <!-- Dynamic feature tags will be inserted here -->
+                </div>
+            </div>
+
             <!-- Style Tags -->
             <div class="filter-section">
                 <h3>VISUAL STYLE</h3>
@@ -1073,6 +1088,7 @@
                     <span>SORT BY</span>
                     <select class="sort-select" id="sort-select">
                         <option value="trending">ID: Descending</option>
+                        <option value="popular">Popularity</option>
                         <option value="name_asc">Name: A-Z</option>
                         <option value="price_asc">Price: Low to High</option>
                         <option value="price_desc">Price: High to Low</option>
@@ -1080,13 +1096,7 @@
                 </div>
             </div>
 
-            <!-- Dynamic Hero Banner -->
-            <div class="hero-banner">
-                <div class="hero-text">
-                    <h2 id="hero-title">VRChat Booth Asset Discovery</h2>
-                    <p id="hero-subtitle">VRChat向けのBOOTHアセットをスマートに検索。対応アバター、カラー、デザインスタイルで絞り込み可能です。</p>
-                </div>
-            </div>
+
 
             <!-- Asset Cards Grid -->
             <div class="asset-grid" id="asset-grid"></div>
@@ -1156,38 +1166,23 @@
         let activeCat = 'all';
         const activeStyles = new Set();
         const activeColors = new Set();
+        const activeFeatures = new Set();
         let activePrice = 'all';
         let activeSort = 'trending';
         let searchQuery = '';
 
-        // Target avatar metadata
-        const AVATARS = [
-            { code: 'Kikyo', name: '桔梗' },
-            { code: 'Manuka', name: 'マヌカ' },
-            { code: 'Shinano', name: 'しなの' },
-            { code: 'Selestia', name: 'セレスティア' },
-            { code: 'Shinra', name: '森羅' },
-            { code: 'Moe', name: '萌' },
-            { code: 'Rurune', name: 'ルルネ' },
-            { code: 'SUN', name: 'SUN' },
-            { code: 'Mafuyu', name: 'まふゆ' },
-            { code: 'Mizuki', name: '瑞希' },
-            { code: 'Hakka', name: '薄荷' },
-            { code: 'INABA', name: '稲葉' },
-            { code: 'Aoi', name: '葵' }
-        ];
-
-        // Visual styles list
-        const STYLES = ['メイド', 'サイバー', '夏', '冬', 'ツイン', 'ゴシック', 'ロング', 'カジュアル', '和風', '和装', 'スポーツ', 'スチームパンク', 'SF', '猫耳', 'ファンタジー'];
-        
-        // Colors list
-        const COLORS = ['黒', '白', 'ライム', '赤', '金', '青', '銀', 'ピンク', '茶', '紫', '緑'];
+        // Dynamic metadata
+        let AVATARS = [];
+        let STYLES = [];
+        let COLORS = [];
+        let FEATURES = [];
 
         // DOM elements
         const splash = document.getElementById('splash');
         const statusDot = document.getElementById('status-dot');
         const statusText = document.getElementById('status-text');
         const avatarSelector = document.getElementById('avatar-selector');
+        const featureSelector = document.getElementById('feature-selector');
         const styleSelector = document.getElementById('style-selector');
         const colorSelector = document.getElementById('color-selector');
         const priceSelector = document.getElementById('price-selector');
@@ -1205,8 +1200,32 @@
             try {
                 console.log("🚀 Initializing Asset Archive...");
                 
+                // 0. Load Metadata
+                console.log("📡 Fetching Metadata...");
+                const metaRes = await fetch('api/metadata.json');
+                if (metaRes.ok) {
+                    const metadata = await metaRes.json();
+                    AVATARS = metadata.avatars || [];
+                    STYLES = metadata.styles || [];
+                    COLORS = metadata.colors || [];
+                    FEATURES = metadata.features || [];
+                } else {
+                    console.warn("⚠️ Metadata fetch failed, relying on defaults if any.");
+                }
+                
                 // Populate Static UI Filters
                 renderFiltersUI();
+
+                // Check URL Params for Routing
+                const urlParams = new URLSearchParams(window.location.search);
+                const routeAvatar = urlParams.get('avatar');
+                if (routeAvatar) {
+                    const av = AVATARS.find(a => a.code.toLowerCase() === routeAvatar.toLowerCase() || a.name.toLowerCase() === routeAvatar.toLowerCase());
+                    if (av) {
+                        activeAvatar = av.code;
+                        document.title = `${av.name} Compatible Items - BoothItemManager2`;
+                    }
+                }
 
                 // 1. Initial Load of Part 1 (2,000 items)
                 console.log("📡 Fetching Catalog Part 1...");
@@ -1291,7 +1310,12 @@
         function renderFiltersUI() {
             // Avatars grid
             avatarSelector.innerHTML = AVATARS.map(av => `
-                <button class="avatar-btn" data-code="${av.code}">${av.name}</button>
+                <button class="avatar-btn ${activeAvatar === av.code ? 'active' : ''}" data-code="${av.code}">${av.name}</button>
+            `).join('');
+
+            // Features
+            featureSelector.innerHTML = FEATURES.map(f => `
+                <span class="tag-pill feature-tag" role="button" tabindex="0" aria-pressed="false" data-val="${f.id}">${f.name}</span>
             `).join('');
 
             // Styles
@@ -1340,6 +1364,24 @@
                 applyFilters();
             });
 
+            // Feature Pills
+            featureSelector.addEventListener('click', (e) => {
+                const pill = e.target.closest('.feature-tag');
+                if (!pill) return;
+                const val = pill.dataset.val;
+                
+                if (activeFeatures.has(val)) {
+                    activeFeatures.delete(val);
+                    pill.classList.remove('active');
+                    pill.setAttribute('aria-pressed', 'false');
+                } else {
+                    activeFeatures.add(val);
+                    pill.classList.add('active');
+                    pill.setAttribute('aria-pressed', 'true');
+                }
+                applyFilters();
+            });
+
             // Style Pills
             styleSelector.addEventListener('click', (e) => {
                 const pill = e.target.closest('.style-tag');
@@ -1383,6 +1425,7 @@
                     e.target.click();
                 }
             };
+            featureSelector.addEventListener('keydown', handleKeyboardActivate);
             styleSelector.addEventListener('keydown', handleKeyboardActivate);
             colorSelector.addEventListener('keydown', handleKeyboardActivate);
 
@@ -1441,9 +1484,19 @@
 
                 // Base Avatar Filter
                 if (activeAvatar) {
-                    const matchedTarget = (item.targets || []).some(t => t.toLowerCase() === activeAvatar.toLowerCase());
-                    const matchedTag = (item.tags || []).some(tag => tag.toLowerCase() === activeAvatar.toLowerCase());
+                    const avatarInfo = AVATARS.find(a => a.code === activeAvatar);
+                    const avatarName = avatarInfo ? avatarInfo.name : activeAvatar;
+                    const matchedTarget = (item.compatible_avatars || []).some(t => t.toLowerCase() === avatarName.toLowerCase() || t.toLowerCase() === activeAvatar.toLowerCase());
+                    const matchedTag = (item.tags || []).some(tag => tag.toLowerCase() === avatarName.toLowerCase() || tag.toLowerCase() === activeAvatar.toLowerCase());
                     if (!matchedTarget && !matchedTag) return false;
+                }
+
+                // Feature Filter
+                if (activeFeatures.size > 0) {
+                    for (const f of activeFeatures) {
+                        const feature = FEATURES.find(feat => feat.id === f);
+                        if (feature && !item[feature.key]) return false;
+                    }
                 }
 
                 // Price Filter
@@ -1457,8 +1510,9 @@
                 // Style Tags Filter (ALL matches)
                 if (activeStyles.size > 0) {
                     const itemTags = new Set(item.tags || []);
+                    const itemStyle = item.style ? (Array.isArray(item.style) ? item.style : [item.style]) : [];
                     for (const s of activeStyles) {
-                        if (!itemTags.has(s)) return false;
+                        if (!itemTags.has(s) && !itemStyle.includes(s)) return false;
                     }
                 }
 
@@ -1473,7 +1527,7 @@
                 // Search Query Filter
                 if (searchQuery) {
                     const itemTags = (item.tags || []).join(' ');
-                    const searchTarget = `${item.title} ${item.creator_name} ${itemTags}`.toLowerCase();
+                    const searchTarget = `${item.title} ${item.creator_name || item.author} ${itemTags}`.toLowerCase();
                     if (!searchTarget.includes(searchQuery)) return false;
                 }
 
@@ -1487,9 +1541,11 @@
                 filtered.sort((a, b) => (a.price || 0) - (b.price || 0));
             } else if (activeSort === 'price_desc') {
                 filtered.sort((a, b) => (b.price || 0) - (a.price || 0));
+            } else if (activeSort === 'popular') {
+                filtered.sort((a, b) => (b.like_count || 0) - (a.like_count || 0));
             } else {
                 // Trending / Default sorting (using descending Item ID as a proxy for newest release)
-                filtered.sort((a, b) => parseInt(b.item_id) - parseInt(a.item_id));
+                filtered.sort((a, b) => parseInt(b.id || b.item_id) - parseInt(a.id || a.item_id));
             }
 
             displayedCount = 40;
@@ -1514,17 +1570,17 @@
                 const priceFormatted = item.price === 0 ? 'Free' : `¥${(item.price || 0).toLocaleString()}`;
                 
                 return `
-                    <div class="asset-card" data-id="${item.item_id}">
+                    <div class="asset-card" data-id="${item.id || item.item_id}">
                         <div class="asset-thumb-container">
-                            <img src="${item.thumbnail_url}" class="asset-thumb" loading="lazy" alt="${item.title}">
+                            <img src="${item.thumbnail}" class="asset-thumb" loading="lazy" alt="${item.title}">
                             <div class="asset-price">${priceFormatted}</div>
                         </div>
                         <div class="asset-info">
                             <div class="asset-category ${catClass}">${item.category}</div>
                             <div class="asset-title" title="${item.title}">${item.title}</div>
-                            <div class="asset-shop">@${item.creator_name}</div>
+                            <div class="asset-shop">@${item.author}</div>
                             <div class="asset-targets">
-                                ${(item.targets || []).slice(0, 3).map(t => `<span class="target-tag">${t}</span>`).join('')}
+                                ${(item.compatible_avatars || []).slice(0, 3).map(t => `<span class="target-tag">${t}</span>`).join('')}
                             </div>
                         </div>
                     </div>
@@ -1539,6 +1595,7 @@
                 });
             });
         }
+
 
         // Get styled CSS border/color class based on item category
         function getCategoryClass(cat) {
@@ -1563,6 +1620,12 @@
             }
             if (activePrice !== 'all') {
                 chipsHtml += `<div class="filter-chip">価格: ${activePrice} <button class="filter-chip-remove" aria-label="価格フィルターの${activePrice}を削除" onclick="removePriceFilter()">&times;</button></div>`;
+            }
+            for (const f of activeFeatures) {
+                const feature = FEATURES.find(feat => feat.id === f);
+                if (feature) {
+                    chipsHtml += `<div class="filter-chip">${feature.name} <button class="filter-chip-remove" aria-label="機能フィルターの${feature.name}を削除" onclick="removeFeatureFilter('${f}')">&times;</button></div>`;
+                }
             }
             for (const s of activeStyles) {
                 chipsHtml += `<div class="filter-chip">${s} <button class="filter-chip-remove" aria-label="スタイルフィルターの${s}を削除" onclick="removeStyleFilter('${s}')">&times;</button></div>`;
@@ -1597,6 +1660,15 @@
             document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
             applyFilters();
         };
+        window.removeFeatureFilter = (featureId) => {
+            activeFeatures.delete(featureId);
+            const pill = document.querySelector(`.feature-tag[data-val="${featureId}"]`);
+            if (pill) {
+                pill.classList.remove('active');
+                pill.setAttribute('aria-pressed', 'false');
+            }
+            applyFilters();
+        };
         window.removeStyleFilter = (style) => {
             activeStyles.delete(style);
             const pill = document.querySelector(`.style-tag[data-val="${style}"]`);
@@ -1618,6 +1690,7 @@
         window.clearAllFilters = () => {
             activeAvatar = null;
             activeCat = 'all';
+            activeFeatures.clear();
             activeStyles.clear();
             activeColors.clear();
             activePrice = 'all';
@@ -1661,24 +1734,25 @@
 
         // Render data inside the open dialog modal
         function renderModalDetails(data) {
-            document.getElementById('modal-img').src = data.thumbnail_url;
+            document.getElementById('modal-img').src = data.thumbnail || data.thumbnail_url;
             document.getElementById('modal-title').textContent = data.title;
-            document.getElementById('modal-creator').textContent = `@${data.creator_name} (ID: ${data.creator_id || 'Unknown'})`;
+            document.getElementById('modal-creator').textContent = `@${data.author || data.creator_name} (ID: ${data.creator_id || 'Unknown'})`;
             
             const badge = document.getElementById('modal-cat-badge');
             badge.textContent = data.category;
             badge.className = `modal-category ${getCategoryClass(data.category)}`;
             
             document.getElementById('modal-price').textContent = data.price === 0 ? 'Free' : `¥${(data.price || 0).toLocaleString()}`;
-            document.getElementById('modal-booth-link').href = data.source_url || `https://booth.pm/ja/items/${data.item_id}`;
+            document.getElementById('modal-booth-link').href = data.source_url || `https://booth.pm/ja/items/${data.item_id || data.id}`;
             document.getElementById('modal-desc').textContent = data.description || 'No description available.';
 
             // Render VRChat Avatar Compatibility Grid
-            const itemTargets = new Set((data.targets || []).map(t => typeof t === 'string' ? t.toLowerCase() : (t.code || '').toLowerCase()));
+            const targets = data.compatible_avatars || data.targets || [];
+            const itemTargets = new Set(targets.map(t => typeof t === 'string' ? t.toLowerCase() : (t.code || t.name || '').toLowerCase()));
             const compatGrid = document.getElementById('modal-compat-grid');
             
             compatGrid.innerHTML = AVATARS.map(av => {
-                const isSupported = itemTargets.has(av.code.toLowerCase());
+                const isSupported = itemTargets.has(av.code.toLowerCase()) || itemTargets.has(av.name.toLowerCase());
                 return `
                     <div class="compatibility-item ${isSupported ? 'supported' : ''}">
                         ${av.name}
@@ -1697,11 +1771,11 @@
 
             // Look up similar item data using our local in-memory allItems array
             const similarItemsHTML = similarIds.slice(0, 5).map(sid => {
-                const simItem = allItems.find(item => item.item_id === sid);
+                const simItem = allItems.find(item => (item.id || item.item_id) === sid);
                 if (!simItem) return '';
                 return `
-                    <div class="similar-card" title="${simItem.title}" onclick="openDetailsModal('${simItem.item_id}')">
-                        <img src="${simItem.thumbnail_url}" alt="${simItem.title}">
+                    <div class="similar-card" title="${simItem.title}" onclick="openDetailsModal('${simItem.id || simItem.item_id}')">
+                        <img src="${simItem.thumbnail || simItem.thumbnail_url}" alt="${simItem.title}">
                     </div>
                 `;
             }).join('');

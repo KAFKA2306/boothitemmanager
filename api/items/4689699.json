@@ -11,14 +11,9 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "眼鏡",
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [
-      "SF"
-    ],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -28,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1076788",
-    "1311707",
-    "1460758",
-    "4131001",
-    "4294780"
+    "3143286",
+    "4219099",
+    "4318998",
+    "4353395",
+    "4409363"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,11 +11,11 @@
   "price": 500,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [],
-    "body_type": [],
-    "style": [
-      "ロング"
+    "appearance": [
+      "Mesh"
     ],
+    "body_type": [],
+    "style": [],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2362976",
-    "3125299",
-    "3366451",
-    "3653274",
-    "3687182"
+    "4871312",
+    "4895935",
+    "5794500",
+    "6009498",
+    "6086332"
   ],
   "user_state": {},
   "tags_raw": [],

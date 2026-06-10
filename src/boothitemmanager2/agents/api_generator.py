@@ -31,29 +31,36 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     
     # Generate optimized catalog summary parts for instant page load
     catalog_summaries = []
+    items_with_compat = 0
     for item in items:
-        # Extract flat list of tags
-        tags = set(item.tags_raw)
-        for cat_tags in item.tag_set.__dict__.values():
-            if isinstance(cat_tags, list):
-                tags.update(cat_tags)
-        
+        has_compat = len(item.targets) > 0
+        if has_compat:
+            items_with_compat += 1
+            
         catalog_summaries.append({
-            "item_id": item.item_id,
+            "id": item.item_id,
             "title": item.title,
-            "thumbnail_url": item.thumbnail_url,
-            "creator_name": item.creator_name,
-            "price": item.price,
             "category": item.category.value if hasattr(item.category, "value") else str(item.category),
+            "price": item.price,
             "like_count": item.like_count,
-            "tags": list(tags),
-            "targets": [t.code for t in item.targets]
+            "compatible_avatars": [t.name for t in item.targets],
+            "tags": item.tags,
+            "style": item.tag_set.style,
+            "has_dynamic_bone": bool(any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags) or "PhysBone" in item.tag_set.feature),
+            "quest_compatible": bool(any(f in ["Quest対応", "Quest", "Android"] for f in item.tags) or "QuestCompatible" in item.tag_set.feature),
+            "author": item.creator_name,
+            "thumbnail": item.thumbnail_url,
+            "booth_url": item.source_url
         })
+    
+    avatar_compatibility_rate = (items_with_compat / len(items)) * 100 if items else 0
     
     part1 = catalog_summaries[:2000]
     part2 = catalog_summaries[2000:]
     
     # Save to api_dir (api/)
+    with open(os.path.join(api_dir, "catalog_summary.json"), "w", encoding="utf-8") as f:
+        json.dump(catalog_summaries, f, ensure_ascii=False, indent=2)
     with open(os.path.join(api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
         json.dump(part1, f, ensure_ascii=False, separators=(',', ':'))
     with open(os.path.join(api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
@@ -99,6 +106,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         "types": dict(type_counts),
         "top_shops": dict(shop_counts.most_common(10)),
         "top_avatars": dict(avatar_counts.most_common(10)),
+        "avatar_compatibility_rate": round(avatar_compatibility_rate, 2),
         "updated_at": datetime.now().isoformat(),
     }
     metrics_path = os.path.join(api_dir, "metrics.json")

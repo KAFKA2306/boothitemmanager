@@ -11,9 +11,7 @@
   "price": 1200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ネクタイ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,27 +21,27 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Selestia",
-      "Kikyo"
+      "Kikyo",
+      "Selestia"
     ]
   },
   "similar_items": [
     "4035504",
     "4068702",
     "4113174",
-    "4133041",
-    "4213863"
+    "4140691",
+    "4189226"
   ],
   "user_state": {},
   "tags_raw": [],
   "targets": [
     {
-      "code": "Selestia",
-      "name": "セレスティア"
-    },
-    {
       "code": "Kikyo",
       "name": "桔梗"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア"
     }
   ],
   "files": [],

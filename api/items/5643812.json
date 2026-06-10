@@ -11,9 +11,7 @@
   "price": 350,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "ネイル"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4541785",
-    "3114352",
-    "3400635",
-    "3407613",
-    "3550932"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

@@ -11,11 +11,11 @@
   "price": 300,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1084711",
-    "1808463",
-    "2683599",
-    "3930303",
-    "4999902"
+    "2207085",
+    "3021038",
+    "3105033",
+    "3219760",
+    "3345778"
   ],
   "user_state": {},
   "tags_raw": [],

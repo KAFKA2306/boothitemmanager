@@ -11,9 +11,7 @@
   "price": 600,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "ヒール"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -25,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "2597236",
-    "2794677",
-    "3452193",
-    "3585556",
-    "4238453"
+    "1138916",
+    "1335319",
+    "2148208",
+    "2343843",
+    "2782508"
   ],
   "user_state": {},
   "tags_raw": [],

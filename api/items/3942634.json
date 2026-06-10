@@ -11,17 +11,13 @@
   "price": 1800,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "ブーツ"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "カジュアル"
+      "Street"
     ],
     "color": [],
-    "outfit_type": [
-      "セーター"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -31,11 +27,11 @@
     ]
   },
   "similar_items": [
-    "3926652",
-    "3687167",
-    "3698923",
-    "3713871",
-    "3875394"
+    "3875394",
+    "3906684",
+    "4107815",
+    "4139525",
+    "4171797"
   ],
   "user_state": {},
   "tags_raw": [],

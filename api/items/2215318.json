@@ -11,17 +11,14 @@
   "price": 2000,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "和装"
+      "Japanese",
+      "Lolita"
     ],
     "color": [],
-    "outfit_type": [
-      "浴衣"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
+    "3129255",
+    "7213362",
     "1486105",
-    "3202570",
-    "3931778",
-    "5868981",
-    "3129255"
+    "2059604",
+    "2663182"
   ],
   "user_state": {},
   "tags_raw": [],

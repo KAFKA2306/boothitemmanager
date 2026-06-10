@@ -11,10 +11,7 @@
   "price": 200,
   "category": "ACCESSORY",
   "tag_set": {
-    "appearance": [
-      "帽子",
-      "イヤリング"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1657560",
-    "5615936",
-    "1457378",
-    "1947293",
-    "2110976"
+    "1035152",
+    "1466404",
+    "1483281",
+    "2065390",
+    "2200401"
   ],
   "user_state": {},
   "tags_raw": [],

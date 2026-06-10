@@ -11,11 +11,11 @@
   "price": 0,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ベルト"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Tenshi"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1134175",
-    "1300889",
-    "1720362",
-    "1728428",
-    "2592394"
+    "1939489",
+    "2207085",
+    "3021038",
+    "3105033",
+    "3219760"
   ],
   "user_state": {},
   "tags_raw": [],

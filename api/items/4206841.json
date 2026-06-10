@@ -13,11 +13,11 @@
   "tag_set": {
     "appearance": [],
     "body_type": [],
-    "style": [],
-    "color": [],
-    "outfit_type": [
-      "スーツ"
+    "style": [
+      "Military"
     ],
+    "color": [],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1210787",
-    "2746391",
-    "3515681",
-    "3535934",
-    "3653584"
+    "1069252",
+    "1640686",
+    "1801059",
+    "2740057",
+    "2833284"
   ],
   "user_state": {},
   "tags_raw": [],

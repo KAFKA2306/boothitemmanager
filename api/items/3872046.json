@@ -11,7 +11,9 @@
   "price": 500,
   "category": "PROP",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Shader"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "1138916",
-    "1335319",
-    "2148208",
-    "2343843",
-    "2782508"
+    "3551774",
+    "3554219",
+    "3814409",
+    "4020506",
+    "1035152"
   ],
   "user_state": {},
   "tags_raw": [],

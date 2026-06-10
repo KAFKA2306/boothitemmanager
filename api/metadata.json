@@ -1,0 +1,263 @@
+{
+  "avatars": [
+    {
+      "code": "Kikyo",
+      "name": "桔梗",
+      "item_id": "3681787"
+    },
+    {
+      "code": "Manuka",
+      "name": "マヌカ",
+      "item_id": "5058077"
+    },
+    {
+      "code": "Shinra",
+      "name": "森羅",
+      "item_id": "4707634"
+    },
+    {
+      "code": "Selestia",
+      "name": "セレスティア",
+      "item_id": "4035411"
+    },
+    {
+      "code": "Moe",
+      "name": "萌",
+      "item_id": "4667400"
+    },
+    {
+      "code": "Grus",
+      "name": "グルス",
+      "item_id": "2030978"
+    },
+    {
+      "code": "Karin",
+      "name": "カリン",
+      "item_id": "3470989"
+    },
+    {
+      "code": "Maya",
+      "name": "まや",
+      "item_id": "3390957"
+    },
+    {
+      "code": "Rusk",
+      "name": "ラスク",
+      "item_id": "2559783"
+    },
+    {
+      "code": "Mint",
+      "name": "ミント",
+      "item_id": "2258111"
+    },
+    {
+      "code": "Lime",
+      "name": "ライム",
+      "item_id": "4876459"
+    },
+    {
+      "code": "Imeris",
+      "name": "イメリス",
+      "item_id": "3040745"
+    },
+    {
+      "code": "Minase",
+      "name": "水瀬",
+      "item_id": "4013950"
+    },
+    {
+      "code": "Hakka",
+      "name": "薄荷",
+      "item_id": "3953037"
+    },
+    {
+      "code": "Leufa",
+      "name": "ルーファ",
+      "item_id": "3503254"
+    },
+    {
+      "code": "Mamehinata",
+      "name": "まめひなた",
+      "item_id": "4340548"
+    },
+    {
+      "code": "Kipfel",
+      "name": "キプフェル",
+      "item_id": "5813187"
+    }
+  ],
+  "categories": [
+    {
+      "code": "AVATAR",
+      "aliases": [
+        "アバター",
+        "avatar",
+        "3Dキャラクター",
+        "オリジナル3Dモデル"
+      ],
+      "sub_categories": []
+    },
+    {
+      "code": "OUTFIT",
+      "aliases": [
+        "衣装",
+        "服",
+        "outfit",
+        "costume",
+        "dress",
+        "着せ替え",
+        "clothing"
+      ],
+      "sub_categories": [
+        "tops",
+        "bottoms",
+        "inner",
+        "outer",
+        "set"
+      ]
+    },
+    {
+      "code": "ACCESSORY",
+      "aliases": [
+        "アクセサリ",
+        "accessory",
+        "小物",
+        "item",
+        "prop"
+      ],
+      "sub_categories": [
+        "head",
+        "face",
+        "ear",
+        "hand",
+        "foot",
+        "weapon"
+      ]
+    },
+    {
+      "code": "HAIRSTYLE",
+      "aliases": [
+        "髪型",
+        "ヘアスタイル",
+        "hairstyle",
+        "hair",
+        "髪",
+        "ウィッグ"
+      ],
+      "sub_categories": []
+    },
+    {
+      "code": "TEXTURE",
+      "aliases": [
+        "テクスチャ",
+        "texture",
+        "skin",
+        "makeup",
+        "eye texture",
+        "body texture",
+        "瞳",
+        "肌",
+        "メイク"
+      ],
+      "sub_categories": []
+    },
+    {
+      "code": "GIMMICK_TOOL",
+      "aliases": [
+        "ギミック",
+        "gimmick",
+        "tool",
+        "システム",
+        "system",
+        "script",
+        "MA対応",
+        "VRCFury"
+      ],
+      "sub_categories": []
+    }
+  ],
+  "features": [
+    {
+      "code": "ModularAvatar",
+      "aliases": [
+        "Modular Avatar",
+        "MA対応",
+        "MA",
+        "ModularAvatar"
+      ]
+    },
+    {
+      "code": "VRCFury",
+      "aliases": [
+        "VRCFury",
+        "Fury"
+      ]
+    },
+    {
+      "code": "PhysBone",
+      "aliases": [
+        "PhysBone",
+        "PB対応",
+        "PB",
+        "揺れもの"
+      ]
+    },
+    {
+      "code": "QuestCompatible",
+      "aliases": [
+        "Quest対応",
+        "Android対応",
+        "Quest",
+        "Android"
+      ]
+    },
+    {
+      "code": "lilToon",
+      "aliases": [
+        "lilToon",
+        "lil"
+      ]
+    },
+    {
+      "code": "Poiyomi",
+      "aliases": [
+        "Poiyomi",
+        "Poi"
+      ]
+    }
+  ],
+  "styles": [
+    "Street",
+    "Gothic",
+    "Lolita",
+    "Cyber",
+    "Japanese",
+    "Fantasy",
+    "Military",
+    "Jirai",
+    "Tenshi"
+  ],
+  "colors": [
+    "赤",
+    "青",
+    "ピンク",
+    "モノトーン",
+    "黒",
+    "白",
+    "緑",
+    "黄",
+    "紫",
+    "オレンジ",
+    "茶",
+    "金",
+    "銀",
+    "シアン",
+    "マゼンタ",
+    "ライム",
+    "ティール",
+    "ネイビー",
+    "ベージュ",
+    "グレー"
+  ],
+  "updated_at": "2026-06-10"
+}

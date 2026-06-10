@@ -11,12 +11,10 @@
   "price": 600,
   "category": "ASSET",
   "tag_set": {
-    "appearance": [
-      "ブレスレット"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,10 +26,10 @@
   },
   "similar_items": [
     "1472541",
-    "1766385",
-    "2167681",
+    "1639911",
+    "2448483",
     "2477500",
-    "2619892"
+    "3639457"
   ],
   "user_state": {},
   "tags_raw": [],

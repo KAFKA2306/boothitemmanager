@@ -11,9 +11,7 @@
   "price": 200,
   "category": "OUTFIT",
   "tag_set": {
-    "appearance": [
-      "靴下"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -27,7 +25,7 @@
     ]
   },
   "similar_items": [
-    "3733904",
+    "2986054",
     "3502371",
     "3702704",
     "3708000",

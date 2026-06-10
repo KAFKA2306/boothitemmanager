@@ -12,11 +12,11 @@
   "category": "ASSET",
   "tag_set": {
     "appearance": [
-      "眼帯"
+      "Bone"
     ],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,9 +27,9 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4936660",
-    "1472541",
     "2167681",
+    "1472541",
+    "1639911",
     "2448483",
     "2477500"
   ],

@@ -20,18 +20,30 @@
     "feature": [],
     "platform": [],
     "season": [],
-    "avatar_link": []
+    "avatar_link": [
+      "Karin",
+      "Hakka"
+    ]
   },
   "similar_items": [
-    "2660785",
-    "2691165",
-    "2698646",
-    "2829250",
-    "3004663"
+    "3722940",
+    "3554036",
+    "3561881",
+    "3565642",
+    "3565871"
   ],
   "user_state": {},
   "tags_raw": [],
-  "targets": [],
+  "targets": [
+    {
+      "code": "Karin",
+      "name": "カリン"
+    },
+    {
+      "code": "Hakka",
+      "name": "薄荷"
+    }
+  ],
   "files": [],
   "source": "booth"
 }

@@ -15,7 +15,9 @@
     "body_type": [],
     "style": [],
     "color": [],
-    "outfit_type": [],
+    "outfit_type": [
+      "set"
+    ],
     "accessory": [],
     "feature": [
       "ModularAvatar"
@@ -25,11 +27,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4821328",
+    "3806824",
+    "4436359",
+    "4800195",
     "5010110",
-    "7056587",
-    "7728800",
-    "5509135"
+    "5097297"
   ],
   "user_state": {},
   "tags_raw": [],

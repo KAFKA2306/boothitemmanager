@@ -11,10 +11,7 @@
   "price": 300,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "翼",
-      "タトゥー"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [],
     "color": [],
@@ -26,11 +23,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "6265175",
-    "5237369",
-    "3841422",
-    "3951026",
-    "5892867"
+    "4508977",
+    "4765735",
+    "4803801",
+    "4861024",
+    "5085639"
   ],
   "user_state": {},
   "tags_raw": [],

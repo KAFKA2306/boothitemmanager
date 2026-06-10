@@ -11,11 +11,11 @@
   "price": 300,
   "category": "TEXTURE",
   "tag_set": {
-    "appearance": [
-      "メイク"
-    ],
+    "appearance": [],
     "body_type": [],
-    "style": [],
+    "style": [
+      "Jirai"
+    ],
     "color": [],
     "outfit_type": [],
     "accessory": [],
@@ -25,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "5104222",
-    "5236665",
-    "5695379",
-    "6086712",
-    "6294326"
+    "5026471",
+    "5691767",
+    "5803622",
+    "6447008",
+    "6919073"
   ],
   "user_state": {},
   "tags_raw": [],

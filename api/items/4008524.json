@@ -14,12 +14,10 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "ゴシック"
+      "Gothic"
     ],
     "color": [],
-    "outfit_type": [
-      "ドレス"
-    ],
+    "outfit_type": [],
     "accessory": [],
     "feature": [],
     "platform": [],
@@ -29,11 +27,11 @@
     ]
   },
   "similar_items": [
+    "3816168",
+    "3726691",
     "4537051",
-    "2035848",
-    "2227520",
-    "3619582",
-    "3730577"
+    "4023493",
+    "3464556"
   ],
   "user_state": {},
   "tags_raw": [],

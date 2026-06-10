@@ -11,13 +11,10 @@
   "price": 300,
   "category": "PROP",
   "tag_set": {
-    "appearance": [
-      "帽子"
-    ],
+    "appearance": [],
     "body_type": [],
     "style": [
-      "サイバー",
-      "SF"
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -28,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "4266840",
-    "4650748",
-    "1764242",
-    "3591077",
-    "3591303"
+    "4551617",
+    "1228094",
+    "1306657",
+    "1333754",
+    "1351220"
   ],
   "user_state": {},
   "tags_raw": [],

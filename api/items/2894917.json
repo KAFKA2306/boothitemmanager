@@ -11,7 +11,9 @@
   "price": 0,
   "category": "HAIRSTYLE",
   "tag_set": {
-    "appearance": [],
+    "appearance": [
+      "Bone"
+    ],
     "body_type": [],
     "style": [],
     "color": [],
@@ -23,11 +25,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3205288",
-    "3504482",
-    "4214489",
-    "4844630",
-    "4903466"
+    "2706846",
+    "2766804",
+    "1162209",
+    "1515421",
+    "1738692"
   ],
   "user_state": {},
   "tags_raw": [],
