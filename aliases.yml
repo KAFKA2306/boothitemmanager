@@ -48,7 +48,7 @@ avatars:
       - "カナエ"
       - "kanae"
       - "KANAE"
-      - "카나에"
+      - "카나え"
 
   Shinano:
     name_ja: "しなの"
@@ -223,6 +223,16 @@ avatars:
       - "BOW"
       - "bow"
 
+  Aoi:
+    name_ja: "碧唯"
+    name_en: "Aoi"
+    aliases:
+      - "碧唯"
+      - "アオイ"
+      - "AOI"
+      - "aoi"
+      - "碧唯3D"
+
 types:
   avatar:
     aliases:
@@ -232,7 +242,10 @@ types:
       - "3D Avatar"
       - "3D avatar"
       - "3Dアバター"
-      # 3Dモデルは曖昧性が高いためここでは敢えて含めない（下記ロジックで判定）
+    strong_indicators:
+      - "オリジナル3Dモデル"
+      - "VRChat向けオリジナルアバター"
+      - "オリジナルアバター"
 
   costume:
     aliases:
@@ -256,6 +269,21 @@ types:
       - "トップス"
       - "ボトムス"
       - "アウター"
+      - "着物"
+      - "和服"
+      - "下着"
+      - "アンダーウェア"
+      - "KIMONO"
+      - "kimono"
+      - "Armor"
+      - "armor"
+    indicators:
+      - "用"
+      - "向け"
+      - "compatible"
+      - "対応"
+      - "衣装"
+      - "服"
 
   accessory:
     aliases:
@@ -279,6 +307,13 @@ types:
       - "シューズ"
       - "靴下"
       - "アクセ"
+      - "カバン"
+      - "バッグ"
+      - "リュック"
+    indicators:
+      - "用"
+      - "向け"
+      - "対応"
 
   tool:
     aliases:
@@ -386,3 +421,70 @@ types:
       - "ステッカー"
       - "GOODS"
       - "小物（分類不明）"
+
+mood_tags:
+  # Appearance
+  silver_hair:
+    name_ja: "銀髪"
+    name_en: "Silver hair"
+    aliases: ["銀髪", "silver hair", "シルバーヘア", "白髪"]
+  black_hair:
+    name_ja: "黒髪"
+    name_en: "Black hair"
+    aliases: ["黒髪", "black hair", "ブラックヘア"]
+  long_hair:
+    name_ja: "ロング"
+    name_en: "Long hair"
+    aliases: ["ロング", "long hair", "ロングヘア"]
+  twin_tails:
+    name_ja: "ツイン"
+    name_en: "Twin tails"
+    aliases: ["ツイン", "twin tails", "ツインテール", "twintail"]
+  cat_ears:
+    name_ja: "猫耳"
+    name_en: "Cat ears"
+    aliases: ["猫耳", "cat ears", "ねこみみ"]
+  beast_ears:
+    name_ja: "獣耳"
+    name_en: "Beast ears"
+    aliases: ["獣耳", "beast ears", "けもみみ"]
+
+  # Style
+  japanese:
+    name_ja: "和風"
+    name_en: "Japanese"
+    aliases: ["和風", "japanese", "和"]
+  maid:
+    name_ja: "メイド"
+    name_en: "Maid"
+    aliases: ["メイド", "maid"]
+  sport:
+    name_ja: "スポーツ"
+    name_en: "Sport"
+    aliases: ["スポーツ", "sport", "スポーティ"]
+  gothic:
+    name_ja: "ゴシック"
+    name_en: "Gothic"
+    aliases: ["ゴシック", "gothic", "ゴス"]
+  cyber:
+    name_ja: "サイバー"
+    name_en: "Cyber"
+    aliases: ["サイバー", "cyber"]
+  fantasy:
+    name_ja: "ファンタジー"
+    name_en: "Fantasy"
+    aliases: ["ファンタジー", "fantasy"]
+
+  # Season
+  summer:
+    name_ja: "夏"
+    name_en: "Summer"
+    aliases: ["夏", "summer", "サマー"]
+  winter:
+    name_ja: "冬"
+    name_en: "Winter"
+    aliases: ["冬", "winter", "ウィンター"]
+  waso:
+    name_ja: "和装"
+    name_en: "Waso"
+    aliases: ["和装", "waso", "着物", "浴衣"]
