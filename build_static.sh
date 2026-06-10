@@ -12,8 +12,8 @@ if [ -d api ]; then
   cp api/*.json api/*.js dist/api/ 2>/dev/null || true
 fi
 
-if [ -d api/items ]; then
-  cp -r api/items dist/api/
+if [ -d api/details ]; then
+  cp -r api/details dist/api/
 fi
 
 echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json

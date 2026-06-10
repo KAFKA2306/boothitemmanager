@@ -883,8 +883,21 @@
             if (base) fillModal(base);
 
             try {
-                const res = await fetch(`api/items/${id}.json`);
-                if (res.ok) fillModal(await res.json());
+                // Determine shard ID (same logic as api_generator.py)
+                let shardId;
+                if (/^\d+$/.test(id)) {
+                    shardId = String(parseInt(id) % 100).padStart(2, '0');
+                } else {
+                    let hash = 0;
+                    for (let i = 0; i < id.length; i++) hash += id.charCodeAt(i);
+                    shardId = String(hash % 100).padStart(2, '0');
+                }
+
+                const res = await fetch(`api/details/shard_${shardId}.json`);
+                if (res.ok) {
+                    const shard = await res.json();
+                    if (shard[id]) fillModal(shard[id]);
+                }
             } catch(e) { console.error("Detail load failed", e); }
         }
 

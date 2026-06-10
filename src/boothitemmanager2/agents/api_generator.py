@@ -11,8 +11,7 @@ from ..schemas.storage import Item
 
 def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -> TestBlock:
     api_dir = "api"
-    items_dir = os.path.join(api_dir, "items")
-    os.makedirs(items_dir, exist_ok=True)
+    os.makedirs(api_dir, exist_ok=True)
 
     def serialize(obj):
         if isinstance(obj, datetime):
@@ -106,10 +105,25 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
                 json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
                 f.write(";")
 
+    # Shard individual item data into 100 files to bypass Cloudflare file limits
+    details_dir = os.path.join(api_dir, "details")
+    os.makedirs(details_dir, exist_ok=True)
+    
+    shards = {str(i).zfill(2): {} for i in range(100)}
     for item in items:
-        item_path = os.path.join(items_dir, f"{item.item_id}.json")
-        with open(item_path, "w", encoding="utf-8") as f:
-            json.dump(asdict(item), f, ensure_ascii=False, indent=2, default=serialize)
+        # Determine shard ID from item_id suffix (numeric) or simple hash
+        if item.item_id.isdigit():
+            shard_id = str(int(item.item_id) % 100).zfill(2)
+        else:
+            shard_id = str(sum(ord(c) for c in item.item_id) % 100).zfill(2)
+        
+        shards[shard_id][item.item_id] = asdict(item)
+
+    for shard_id, shard_data in shards.items():
+        shard_path = os.path.join(details_dir, f"shard_{shard_id}.json")
+        with open(shard_path, "w", encoding="utf-8") as f:
+            json.dump(shard_data, f, ensure_ascii=False, separators=(",", ":"), default=serialize)
+
     type_counts = Counter(item.category.value for item in items)
     shop_counts = Counter(item.creator_name for item in items)
     avatar_list = []
