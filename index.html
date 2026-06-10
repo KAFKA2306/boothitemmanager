@@ -1203,44 +1203,87 @@
         // Init database sequence
         async function init() {
             try {
+                console.log("🚀 Initializing Asset Archive...");
+                
                 // Populate Static UI Filters
                 renderFiltersUI();
 
                 // 1. Initial Load of Part 1 (2,000 items)
+                console.log("📡 Fetching Catalog Part 1...");
                 const res1 = await fetch('api/catalog_summary_part1.json');
-                const part1 = await res1.json();
-                allItems = part1;
+                if (!res1.ok) throw new Error(`Failed to load database (HTTP ${res1.status})`);
                 
-                // Close splash and display first chunk
-                splash.style.opacity = '0';
-                setTimeout(() => splash.remove(), 500);
+                const part1 = await res1.json();
+                if (!Array.isArray(part1)) throw new Error("Invalid database format (Part 1)");
+                
+                allItems = part1;
+                console.log(`✅ Loaded Part 1: ${allItems.length} items`);
+                
+                // Success! Transition out of splash
+                removeSplash();
 
-                statusDot.classList.add('connected');
-                statusText.textContent = `SYNCING [${allItems.length.toLocaleString()} / 40,017]`;
+                if (statusDot) statusDot.classList.add('connected');
+                if (statusText) statusText.textContent = `SYNCING [${allItems.length.toLocaleString()} / 40,017]`;
 
                 applyFilters();
 
                 // 2. Fetch Part 2 in background
+                console.log("📡 Fetching Catalog Part 2 in background...");
                 fetch('api/catalog_summary_part2.json')
-                    .then(res => res.json())
+                    .then(res => {
+                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                        return res.json();
+                    })
                     .then(part2 => {
-                        allItems = allItems.concat(part2);
-                        statusText.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+                        if (!Array.isArray(part2)) throw new Error("Invalid format (Part 2)");
                         
-                        // Re-run category stats count and apply filters
+                        allItems = allItems.concat(part2);
+                        console.log(`✅ Loaded Part 2: Total ${allItems.length} items`);
+                        if (statusText) statusText.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+                        
                         updateCategoryCounts();
                         applyFilters();
                     })
                     .catch(e => {
-                        console.error("Failed background load of catalog part 2:", e);
-                        statusText.textContent = `PARTIAL CONNECT [${allItems.length.toLocaleString()}]`;
+                        console.error("⚠️ Partial load failure:", e);
+                        if (statusText) statusText.textContent = `PARTIAL CONNECT [${allItems.length.toLocaleString()}]`;
                     });
 
                 bindEvents();
                 setupObserver();
             } catch (e) {
-                console.error("Critical database fetch failure:", e);
-                document.getElementById('load-more').innerHTML = 'SYSTEM CRITICAL ERROR: DATABASE OFFLINE';
+                console.error("❌ Critical Initialization Failure:", e);
+                showErrorOnSplash(e.message);
+                const loadMore = document.getElementById('load-more');
+                if (loadMore) loadMore.innerHTML = `SYSTEM CRITICAL ERROR: DATABASE OFFLINE (${e.message})`;
+            }
+        }
+
+        // Helper: Smoothly remove splash overlay
+        function removeSplash() {
+            const splashEl = document.getElementById('splash');
+            if (splashEl) {
+                splashEl.style.opacity = '0';
+                splashEl.style.pointerEvents = 'none';
+                setTimeout(() => {
+                    if (splashEl.parentNode) splashEl.remove();
+                }, 600);
+            }
+        }
+
+        // Helper: Display fatal error on splash screen
+        function showErrorOnSplash(msg) {
+            const splashText = document.querySelector('.splash-text');
+            if (splashText) {
+                splashText.innerHTML = `<span style="color: #ff007a">SYSTEM ERROR</span><br>
+                                       <small style="font-size: 0.75rem; color: var(--text-secondary); letter-spacing: 0; text-transform: none;">
+                                       ${msg}<br>Check console for details.</small>`;
+                splashText.style.color = '#ff007a';
+            }
+            const spinner = document.querySelector('.spinner');
+            if (spinner) {
+                spinner.style.borderTopColor = '#ff007a';
+                spinner.style.boxShadow = '0 0 15px rgba(255, 0, 122, 0.3)';
             }
         }
 

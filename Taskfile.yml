@@ -2,9 +2,9 @@ version: '3'
 
 tasks:
   build:
-    desc: Build the dashboard
+    desc: Build the dashboard (BoothItemManager2 Bulk Pipeline)
     cmds:
-      - uv run python3 -m boothlist.main
+      - uv run python3 run_bulk_pipeline.py
 
   serve:
     desc: Serve the generated site

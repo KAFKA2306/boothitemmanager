@@ -26,11 +26,14 @@ jobs:
           mkdir -p dist
           cp index.html dist/
           mkdir -p dist/api
-          # Only copy essential aggregate files, skip 40k+ individual item files
-          if [ -f api/catalog.json ]; then cp api/catalog.json dist/api/; fi
-          if [ -f api/metrics.json ]; then cp api/metrics.json dist/api/; fi
-          if [ -f api/search_index.json ]; then cp api/search_index.json dist/api/; fi
-          if [ -f api/tag_graph.json ]; then cp api/tag_graph.json dist/api/; fi
+          # Copy all aggregate files including summary parts
+          if [ -d api ]; then
+            cp api/*.json dist/api/ 2>/dev/null || true
+          fi
+          # Also copy the items directory which contains individual product data
+          if [ -d api/items ]; then
+            cp -r api/items dist/api/
+          fi
           # Generate proof for deployment verification
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
       # Pages 用アーティファクトをアップロード
