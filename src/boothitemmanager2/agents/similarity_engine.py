@@ -17,8 +17,12 @@ def compute_similar_items(items: List[Item]) -> List[Item]:
     inverted_index: Dict[str, List[str]] = collections.defaultdict(list)
 
     for item in items:
-        # Combine tags_generated and target codes
-        tags = set(item.tags_generated)
+        # Combine all tags in tag_set and target codes
+        tags = set()
+        for v in item.tag_set.__dict__.values():
+            if isinstance(v, list):
+                tags.update(v)
+        
         for target in item.targets:
             tags.add(f"target:{target.code}")
         

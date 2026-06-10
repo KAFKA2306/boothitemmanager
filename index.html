@@ -114,7 +114,7 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 2.5rem;
+            gap: 1.5rem;
         }
 
         .filter-section h3 {
@@ -122,32 +122,48 @@
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 2px;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1rem;
             display: flex;
             align-items: center;
+            justify-content: space-between;
             gap: 8px;
+            cursor: pointer;
+            user-select: none;
         }
 
         .filter-section h3::after {
-            content: "";
-            flex: 1;
-            height: 1px;
-            background: var(--border);
+            content: "+";
+            font-size: 1rem;
+            color: var(--text-muted);
+        }
+
+        .filter-section.expanded h3::after {
+            content: "−";
+        }
+
+        .filter-content {
+            display: none;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-section.expanded .filter-content {
+            display: flex;
         }
 
         .tag-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 6px;
         }
 
         .filter-tag {
             background: rgba(255, 255, 255, 0.03);
             border: 1px solid var(--border);
             color: var(--text-secondary);
-            padding: 7px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
             cursor: pointer;
             transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             user-select: none;
@@ -173,67 +189,6 @@
         .filter-tag.dimension-avatar { border-color: var(--neon-pink); color: var(--neon-pink); }
         .filter-tag.dimension-style { border-color: var(--accent); color: var(--accent); }
         .filter-tag.dimension-season { border-color: var(--neon-purple); color: var(--neon-purple); }
-
-        .space-navigator {
-            background: linear-gradient(135deg, rgba(0, 229, 255, 0.05), rgba(255, 0, 122, 0.05));
-            border-radius: 16px;
-            padding: 1.2rem;
-            border: 1px solid var(--border);
-            margin-bottom: 1rem;
-        }
-
-        .current-node {
-            font-size: 1.2rem;
-            font-weight: 800;
-            color: var(--accent);
-            margin-bottom: 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .current-node small {
-            font-size: 0.7rem;
-            font-weight: 400;
-            color: var(--text-muted);
-            text-transform: uppercase;
-        }
-
-        .neighbor-list {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .neighbor-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 12px;
-            border-radius: 8px;
-            background: rgba(0,0,0,0.2);
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.9rem;
-        }
-
-        .neighbor-item:hover {
-            background: rgba(255,255,255,0.05);
-            padding-left: 16px;
-        }
-
-        .strength-bar {
-            height: 4px;
-            background: var(--border);
-            border-radius: 2px;
-            width: 40px;
-            overflow: hidden;
-        }
-
-        .strength-fill {
-            height: 100%;
-            background: var(--accent);
-        }
 
         main {
             flex: 1;
@@ -297,8 +252,8 @@
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             border: 1px solid var(--border);
             cursor: pointer;
-            text-decoration: none;
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
 
         .asset-card:hover {
@@ -392,6 +347,131 @@
             font-weight: 700;
         }
 
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(20px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            padding: 2rem;
+        }
+
+        .modal-container {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            width: 100%;
+            max-width: 1000px;
+            max-height: 90vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.5rem;
+            transition: all 0.2s;
+            z-index: 10;
+        }
+
+        .modal-close:hover {
+            background: rgba(255,0,0,0.2);
+            color: #ff4444;
+            border-color: #ff4444;
+        }
+
+        .modal-body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            padding: 3rem;
+        }
+
+        .modal-thumb {
+            width: 100%;
+            aspect-ratio: 1/1;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 1px solid var(--border);
+        }
+
+        .modal-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .modal-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .modal-similar-section {
+            margin-top: 2rem;
+        }
+
+        .similar-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .similar-item {
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .similar-item:hover {
+            transform: scale(1.05);
+        }
+
+        .similar-thumb {
+            width: 100%;
+            aspect-ratio: 1/1;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 1px solid var(--border);
+        }
+
+        .btn-booth {
+            background: var(--accent);
+            color: black;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 800;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .btn-booth:hover {
+            box-shadow: 0 0 20px var(--accent-glow);
+            transform: translateY(-2px);
+        }
+
         .loading-overlay {
             position: fixed;
             top: 0;
@@ -445,15 +525,10 @@
     </header>
 
     <div class="app-container">
-        <aside>
-            <div class="filter-section">
-                <h3>STATE SPACE</h3>
-                <div id="space-navigator-container"></div>
-            </div>
-
-            <div class="filter-section">
-                <h3>CATEGORY</h3>
-                <div class="tag-list" id="cat-filters">
+        <aside id="filters-aside">
+            <div class="filter-section expanded">
+                <h3 onclick="toggleSection(this)">CATEGORY</h3>
+                <div class="filter-content tag-list" id="cat-filters">
                     <div class="filter-tag active" data-cat="all">ALL</div>
                     <div class="filter-tag" data-cat="avatar">AVATAR</div>
                     <div class="filter-tag" data-cat="outfit">OUTFIT</div>
@@ -462,10 +537,7 @@
                 </div>
             </div>
 
-            <div class="filter-section">
-                <h3>TRENDING NODES</h3>
-                <div class="tag-list" id="trending-nodes"></div>
-            </div>
+            <!-- Dynamic groups will be inserted here -->
         </aside>
 
         <main id="main-content">
@@ -481,6 +553,13 @@
                 END OF STREAM
             </div>
         </main>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-container" onclick="event.stopPropagation()">
+            <div class="modal-close" onclick="closeModal()">×</div>
+            <div id="modal-content"></div>
+        </div>
     </div>
 
     <script>

@@ -65,6 +65,15 @@ class Item:
     source: str = "booth"
 
     @property
+    def tags_generated(self) -> List[str]:
+        # Flatten tag_set for compatibility
+        flattened = []
+        for v in self.tag_set.__dict__.values():
+            if isinstance(v, list):
+                flattened.extend(v)
+        return list(set(flattened))
+
+    @property
     def tags(self) -> List[str]:
         # Flatten tag_set for legacy compatibility
         flattened = []
