@@ -1,7 +1,10 @@
 import sys
 from datetime import datetime
 from pathlib import Path
+
 from boothlist.input_loader import InputLoader
+
+
 def main():
     print("Paste text containing Booth URLs or IDs (Ctrl+D to finish):", file=sys.stderr)
     try:
@@ -28,5 +31,7 @@ def main():
         for i in sorted(unique_ids):
             f.write(f"{i}\n")
     print(f"Total {len(unique_ids)} unique IDs saved to {today_doc_path}", file=sys.stderr)
+
+
 if __name__ == "__main__":
     main()

@@ -3759,17 +3759,17 @@
     }
   },
   {
-    "id": "tag:和装",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:和装"
-    }
-  },
-  {
     "id": "tag:和風",
     "label": "Tag",
     "properties": {
       "name": "tag:和風"
+    }
+  },
+  {
+    "id": "tag:和装",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:和装"
     }
   },
   {
@@ -4746,17 +4746,17 @@
     }
   },
   {
-    "id": "tag:ゴシック",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ゴシック"
-    }
-  },
-  {
     "id": "tag:ブーツ",
     "label": "Tag",
     "properties": {
       "name": "tag:ブーツ"
+    }
+  },
+  {
+    "id": "tag:ゴシック",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ゴシック"
     }
   },
   {

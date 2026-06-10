@@ -31,6 +31,7 @@ from src.boothitemmanager2.schemas.storage import (
     ItemCategory,
     AvatarRef,
     FileAsset,
+    TagSet,
 )
 
 
@@ -47,11 +48,25 @@ def _load_items_from_json(json_path: str) -> List[Item]:
         targets = [AvatarRef(code=t['code'], name=t['name']) for t in d.get('targets', [])]
         files = [FileAsset(filename=f['filename']) for f in d.get('files', [])]
         
-        category_raw = d.get("category", "other")
+        category_raw = d.get("category", "ASSET")
         try:
             category = ItemCategory(category_raw)
         except ValueError:
-            category = ItemCategory.OTHER
+            category = ItemCategory.ASSET
+
+        tag_set_raw = d.get("tag_set", {})
+        tag_set = TagSet(
+            appearance=tag_set_raw.get("appearance", []),
+            body_type=tag_set_raw.get("body_type", []),
+            style=tag_set_raw.get("style", []),
+            color=tag_set_raw.get("color", []),
+            outfit_type=tag_set_raw.get("outfit_type", []),
+            accessory=tag_set_raw.get("accessory", []),
+            feature=tag_set_raw.get("feature", []),
+            platform=tag_set_raw.get("platform", []),
+            season=tag_set_raw.get("season", []),
+            avatar_link=tag_set_raw.get("avatar_link", []),
+        )
 
         items.append(Item(
             item_id=str(d.get("item_id", "0")),
@@ -64,10 +79,14 @@ def _load_items_from_json(json_path: str) -> List[Item]:
             creator_name=d.get("creator_name", d.get("shop_name", "Unknown Shop")),
             published_at=datetime.fromisoformat(d['published_at']) if d.get('published_at') else None,
             tags_raw=d.get("tags_raw", d.get("tags", [])),
-            tags_generated=d.get("tags_generated", []),
             category=category,
+            tag_set=tag_set,
             like_count=d.get("like_count", 0),
-            price=d.get("price", d.get("current_price"))
+            price=d.get("price", d.get("current_price")),
+            targets=targets,
+            files=files,
+            similar_items=d.get("similar_items", []),
+            user_state=d.get("user_state", {})
         ))
 
     return items

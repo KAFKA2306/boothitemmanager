@@ -5,18 +5,26 @@ from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+
 import yaml
+
 logger = logging.getLogger(__name__)
+
+
 @dataclass
 class AvatarRef:
     code: str
     name: str
+
+
 @dataclass
 class FileAsset:
     filename: str
     version: str | None = None
     size: int | None = None
     hash: str | None = None
+
+
 @dataclass
 class Item:
     item_id: int
@@ -33,6 +41,7 @@ class Item:
     tags: list[str] = None
     updated_at: str | None = None
     variants: list["Variant"] = None
+
     def __post_init__(self):
         if self.files is None:
             self.files = []
@@ -42,6 +51,8 @@ class Item:
             self.tags = []
         if self.variants is None:
             self.variants = []
+
+
 @dataclass
 class Variant:
     subitem_id: str
@@ -50,19 +61,25 @@ class Variant:
     targets: list[AvatarRef] = None
     files: list[FileAsset] = None
     notes: str | None = None
+
     def __post_init__(self):
         if self.targets is None:
             self.targets = []
         if self.files is None:
             self.files = []
+
+
 @dataclass
 class Avatar:
     code: str
     name_ja: str
     aliases: list[str] = None
+
     def __post_init__(self):
         if self.aliases is None:
             self.aliases = []
+
+
 class AvatarDictionary:
     def __init__(self, aliases_file: str = "aliases.yml"):
         self.aliases_file = aliases_file
@@ -71,6 +88,7 @@ class AvatarDictionary:
         self.type_aliases = {}
         self.options = {}
         self._load_aliases()
+
     def _load_aliases(self):
         aliases_path = Path(self.aliases_file)
         if not aliases_path.exists():
@@ -91,6 +109,7 @@ class AvatarDictionary:
         for type_name, type_data in types_data.items():
             self.type_aliases[type_name] = type_data.get("aliases", [])
         self._build_alias_lookup()
+
     def _load_hardcoded_avatars(self):
         self.avatars = {
             "Selestia": Avatar(
@@ -144,6 +163,7 @@ class AvatarDictionary:
             ),
         }
         self._build_alias_lookup()
+
     def _build_alias_lookup(self):
         self.alias_to_code = {}
         for avatar in self.avatars.values():
@@ -154,6 +174,7 @@ class AvatarDictionary:
                 normalized_alias = self._normalize_text(alias)
                 self.alias_to_code[alias] = avatar.code
                 self.alias_to_code[normalized_alias] = avatar.code
+
     def _normalize_text(self, text: str) -> str:
         if not text:
             return text
@@ -169,6 +190,7 @@ class AvatarDictionary:
         for symbol in strip_symbols:
             text = text.replace(symbol, "")
         return text
+
     def normalize_avatar(self, avatar_text: str) -> str | None:
         if not avatar_text:
             return None
@@ -184,11 +206,14 @@ class AvatarDictionary:
             if bracket_content in self.alias_to_code:
                 return self.alias_to_code[bracket_content]
         return None
+
     def get_avatar_ref(self, code: str) -> AvatarRef | None:
         avatar = self.avatars.get(code)
         if avatar:
             return AvatarRef(code=avatar.code, name=avatar.name_ja)
         return None
+
+
 class DataNormalizer:
     CATEGORY_MAPPING = {
         "3D Avatar": "avatar",
@@ -218,8 +243,10 @@ class DataNormalizer:
         "セット": "bundle",
         "グッズ": "other",
     }
+
     def __init__(self):
         self.avatar_dict = AvatarDictionary()
+
     def normalize_type(self, category: str | None) -> str:
         if not category:
             return "other"
@@ -248,6 +275,7 @@ class DataNormalizer:
         elif "world" in category_lower or "ワールド" in category_lower:
             return "world"
         return "other"
+
     def normalize_files(self, file_list: list[str]) -> list[FileAsset]:
         if not file_list:
             return []
@@ -257,6 +285,7 @@ class DataNormalizer:
                 continue
             assets.append(FileAsset(filename=filename, version=self._extract_version(filename)))
         return assets
+
     def _extract_version(self, filename: str) -> str | None:
         version_patterns = [
             r"[vV](\d+(?:\.\d+)*)",
@@ -269,6 +298,7 @@ class DataNormalizer:
             if match := re.search(pattern, filename):
                 return match.group(1)
         return None
+
     def extract_avatar_targets(
         self, name: str, files: list[str], description: str | None = None
     ) -> list[AvatarRef]:
@@ -321,6 +351,7 @@ class DataNormalizer:
                 if normalized := self.avatar_dict.normalize_avatar(match):
                     avatar_codes.add(normalized)
         return [ref for code in avatar_codes if (ref := self.avatar_dict.get_avatar_ref(code))]
+
     def normalize_item(self, raw_item, metadata) -> Item:
         name = metadata.name or raw_item.name or f"Item {raw_item.item_id}"
         item_type = self.normalize_type(raw_item.category)
@@ -360,6 +391,7 @@ class DataNormalizer:
         )
         item.variants = self.generate_variants(item)
         return item
+
     def _infer_type_from_text(self, name: str, description: str | None) -> str:
         combined_text = ((name or "") + " " + (description or "")).lower()
         type_keywords = {
@@ -598,6 +630,7 @@ class DataNormalizer:
             best_type = max(type_scores.items(), key=lambda x: x[1])
             return best_type[0]
         return "other"
+
     def _auto_assign_avatar_targets(self, name: str, description: str | None) -> list[AvatarRef]:
         avatar_refs = []
         combined_text = (name or "") + " " + (description or "")
@@ -634,6 +667,7 @@ class DataNormalizer:
                                 avatar_refs.append(ref)
                                 break
         return avatar_refs
+
     def generate_variants(self, item: Item) -> list[Variant]:
         variants = []
         if not self._is_potential_set_item(item):
@@ -644,6 +678,7 @@ class DataNormalizer:
         variants.extend(text_variants)
         variants = self._deduplicate_variants(variants)
         return variants
+
     def _is_potential_set_item(self, item: Item) -> bool:
         set_keywords = [
             "set",
@@ -669,6 +704,7 @@ class DataNormalizer:
         if len(avatar_prefixes) > 1:
             return True
         return False
+
     def _extract_avatar_variants_from_files(self, item: Item) -> list[Variant]:
         variants = []
         avatar_files = defaultdict(list)
@@ -696,6 +732,7 @@ class DataNormalizer:
                     )
                     variants.append(variant)
         return variants
+
     def _extract_variants_from_text(self, item: Item) -> list[Variant]:
         variants = []
         if not item.description_excerpt:
@@ -734,6 +771,7 @@ class DataNormalizer:
                         )
                         variants.append(variant)
         return variants
+
     def _deduplicate_variants(self, variants: list[Variant]) -> list[Variant]:
         seen_ids = set()
         unique_variants = []
@@ -742,6 +780,7 @@ class DataNormalizer:
                 seen_ids.add(variant.subitem_id)
                 unique_variants.append(variant)
         return unique_variants
+
     def create_slug(self, text: str) -> str:
         if not text:
             return "unknown"
@@ -752,9 +791,11 @@ class DataNormalizer:
         if len(slug) > 50:
             slug = slug[:50].rstrip("-")
         return slug or "unknown"
+
     def generate_variant_id(self, parent_item_id: int, avatar_code: str, variant_name: str) -> str:
         slug = self.create_slug(variant_name)
-        return f"{parent_item_id}
+        return f"{parent_item_id}_{avatar_code}_{slug}"
+
     def _build_canonical_url(self, canonical_path: str | None) -> str | None:
         if not canonical_path:
             return None

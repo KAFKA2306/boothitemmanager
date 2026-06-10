@@ -1,13 +1,14 @@
-from typing import Any, Dict, Type
+from typing import Any
+
 
 class SchemaRegistry:
-    _schemas: Dict[str, Type] = {}
+    _schemas: dict[str, type] = {}
     _locked: bool = False
 
     @classmethod
-    def register(cls, name: str, schema: Type) -> None:
+    def register(cls, name: str, schema: type) -> None:
         if cls._locked:
-            raise RuntimeError('SchemaRegistry is locked')
+            raise RuntimeError("SchemaRegistry is locked")
         cls._schemas[name] = schema
 
     @classmethod

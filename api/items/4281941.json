@@ -1,6 +1,5 @@
 {
   "item_id": "4281941",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4281941",
   "title": "ストリートファッション　椎名の服【ゴールデン商会 】 - ミルアバターズSHOP - BOOTH",
   "description": "ゴールデン商会のオリジナル3Dモデル「椎名-Shiina-」の対応服を作成させていただきました。ゴールデン商会の椎名と合わせてご購入していただけると、とても嬉しいです。\n\n※スパッツの破綻は椎名側のアニメーションでソックスを外していただけると大丈夫です。",
@@ -8,26 +7,40 @@
   "creator_id": "miruossan",
   "creator_name": "ミルアバターズSHOP",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "レギンス",
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "レギンス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shiina"
+    ]
+  },
+  "similar_items": [
+    "4213786",
+    "4414941",
+    "4837941"
+  ],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shiina",
       "name": "椎名"
     }
   ],
-  "files": [
-    {
-      "filename": "ストリートファッション　椎名の服【ゴールデン...",
-      "version": null,
-      "size": null,
-      "hash": null
-    }
-  ]
+  "files": [],
+  "source": "booth"
 }

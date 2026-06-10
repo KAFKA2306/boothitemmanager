@@ -1,6 +1,5 @@
 {
   "item_id": "3984867",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3984867",
   "title": "オリジナル3Dモデル「碧唯 －アオイ－」ver5.3 - ジャム蔵 - BOOTH",
   "description": "VRChat向け　オリジナルアバター\nAOI －アオイ－ Ver5.3\n\n■■　試着はこちら　Add To FavoritesしてVRChat内で選んでください。■■\nhttps://vrchat.com/home/avatar/avtr_e9865392-6215-4239-b99f-4a86090e0d48\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n\nトリセツはこちら\nhttps://www.youtube.com/playlist?list=PL9JAm1YVRI-4FXF4rDP3KVEHfCejoLZ0k\n\n【環境】\n・unity2022.3.6f1\n\n【必要アセット】\n・liltoon\n　https://booth.pm/ja/items/3087170\n・ModularAvatar\n　https://modular-avatar.nadena.dev/ja\n・FaceEmo\n　https://booth.pm/ja/items/4915091\n\n【推奨アセット】\n・AAO（Avatar Optimizer）\n　https://booth.pm/ja/items/4885109\n　追加コンテンツはAAOで軽量化設定しています。\n　なくても動きますが、AAOのインストールをお勧めします。\n\n【ライセンス】\n概略は商品画像に掲載のものをご確認ください。\n本文は同梱されている\naoi_vn3license_ja.pdf\nをご確認願います。\n\n【ご連絡事項】\n・ダウンロード商品の性質上、返品、返金等に応じることはできません。\n\n【推奨タグ】\n#碧唯3D",
@@ -8,32 +7,43 @@
   "creator_id": "jamzo",
   "creator_name": "ジャム蔵",
   "published_at": null,
-  "tags_raw": [
-    "碧唯3D"
-  ],
-  "tags_generated": [
-    "ダウンジャケット",
-    "金",
-    "帽子",
-    "マフラー",
-    "Modular Avatar",
-    "lilToon"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 4000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [
+      "ダウンジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Aoi"
+    ]
+  },
+  "similar_items": [
+    "4213786",
+    "4837941",
+    "4414941"
+  ],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Aoi",
       "name": "碧唯"
     }
   ],
-  "files": [
-    {
-      "filename": "オリジナル3Dモデル「碧唯 －アオイ－」ve...",
-      "version": null,
-      "size": null,
-      "hash": null
-    }
-  ]
+  "files": [],
+  "source": "booth"
 }

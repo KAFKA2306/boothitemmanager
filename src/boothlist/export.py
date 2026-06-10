@@ -3,9 +3,14 @@ import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
+
 import yaml
+
 from .normalize import AvatarRef, FileAsset, Item, Variant
+
 logger = logging.getLogger(__name__)
+
+
 class CatalogExporter:
     def export_catalog(self, items: list[Item], output_path: str = "catalog.yml") -> bool:
         catalog_data = {"items": []}
@@ -31,15 +36,21 @@ class CatalogExporter:
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
-            yaml.dump(catalog_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            yaml.dump(
+                catalog_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False
+            )
         return True
+
     def export_metrics(self, items: list[Item], output_path: str = "metrics.yml") -> bool:
         metrics_data = self._generate_metrics(items)
         output_path = Path(output_path)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as f:
-            yaml.dump(metrics_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            yaml.dump(
+                metrics_data, f, default_flow_style=False, allow_unicode=True, sort_keys=False
+            )
         return True
+
     def _generate_metrics(self, items: list[Item]) -> dict[str, Any]:
         metrics = {
             "summary": {},
@@ -56,11 +67,19 @@ class CatalogExporter:
         shop_counts = Counter(item.shop_name for item in items if item.shop_name)
         avatar_counts = defaultdict(int)
         for item in items:
-            for target in item.targets: avatar_counts[target.code] += 1
+            for target in item.targets:
+                avatar_counts[target.code] += 1
             for variant in item.variants:
-                for target in variant.targets: avatar_counts[target.code] += 1
-        prices = [item.current_price for item in items if item.current_price is not None and item.current_price > 0]
-        free_items = [item for item in items if item.current_price is not None and item.current_price == 0]
+                for target in variant.targets:
+                    avatar_counts[target.code] += 1
+        prices = [
+            item.current_price
+            for item in items
+            if item.current_price is not None and item.current_price > 0
+        ]
+        free_items = [
+            item for item in items if item.current_price is not None and item.current_price == 0
+        ]
         unknown_price_items = [item for item in items if item.current_price is None]
         metrics["summary"] = {
             "items_total": total_items,
@@ -78,17 +97,30 @@ class CatalogExporter:
                 "unknown_price_items": len(unknown_price_items),
             },
         }
-        metrics["rankings"]["type_distribution"] = [{"type": t, "count": c} for t, c in type_counts.most_common()]
-        metrics["rankings"]["popular_shops"] = [{"shop_name": s, "count": c} for s, c in shop_counts.most_common(10)]
-        metrics["rankings"]["popular_avatars"] = [{"avatar_code": a, "count": c} for a, c in sorted(avatar_counts.items(), key=lambda x: x[1], reverse=True)]
-        metrics["rankings"]["avatar_costume_combinations"] = self._calculate_avatar_costume_combinations(items)
+        metrics["rankings"]["type_distribution"] = [
+            {"type": t, "count": c} for t, c in type_counts.most_common()
+        ]
+        metrics["rankings"]["popular_shops"] = [
+            {"shop_name": s, "count": c} for s, c in shop_counts.most_common(10)
+        ]
+        metrics["rankings"]["popular_avatars"] = [
+            {"avatar_code": a, "count": c}
+            for a, c in sorted(avatar_counts.items(), key=lambda x: x[1], reverse=True)
+        ]
+        metrics["rankings"]["avatar_costume_combinations"] = (
+            self._calculate_avatar_costume_combinations(items)
+        )
         return metrics
+
     def _calculate_avatar_costume_combinations(self, items: list[Item]) -> list[dict[str, Any]]:
         avatar_items_by_code = defaultdict(list)
         for item in items:
             if item.type == "avatar":
-                for target in item.targets: avatar_items_by_code[target.code].append(item)
-        costume_combinations = defaultdict(lambda: {"count": 0, "prices": [], "avatar_name": None, "costume_name": None})
+                for target in item.targets:
+                    avatar_items_by_code[target.code].append(item)
+        costume_combinations = defaultdict(
+            lambda: {"count": 0, "prices": [], "avatar_name": None, "costume_name": None}
+        )
         for item in items:
             if item.type == "costume":
                 for target in item.targets:
@@ -100,14 +132,16 @@ class CatalogExporter:
                         combo_data["count"] += 1
                         combo_data["avatar_name"] = avatar_item.name
                         combo_data["costume_name"] = item.name
-                        if item.current_price is not None: combo_data["prices"].append(item.current_price)
+                        if item.current_price is not None:
+                            combo_data["prices"].append(item.current_price)
                     else:
                         combo_key = (f"avatar_{target.code}", item.item_id)
                         combo_data = costume_combinations[combo_key]
                         combo_data["count"] += 1
                         combo_data["avatar_name"] = target.name
                         combo_data["costume_name"] = item.name
-                        if item.current_price is not None: combo_data["prices"].append(item.current_price)
+                        if item.current_price is not None:
+                            combo_data["prices"].append(item.current_price)
         combinations = []
         for (avatar_item_id, costume_item_id), data in costume_combinations.items():
             prices = data["prices"]
@@ -124,10 +158,18 @@ class CatalogExporter:
             combinations.append(combo)
         combinations.sort(key=lambda x: x["count"], reverse=True)
         return combinations[:20]
+
     def _file_asset_to_dict(self, file_asset: FileAsset) -> dict[str, Any]:
-        return {"filename": file_asset.filename, "version": file_asset.version, "size": file_asset.size, "hash": file_asset.hash}
+        return {
+            "filename": file_asset.filename,
+            "version": file_asset.version,
+            "size": file_asset.size,
+            "hash": file_asset.hash,
+        }
+
     def _avatar_ref_to_dict(self, avatar_ref: AvatarRef) -> dict[str, Any]:
         return {"code": avatar_ref.code, "name": avatar_ref.name}
+
     def _variant_to_dict(self, variant: Variant) -> dict[str, Any]:
         return {
             "subitem_id": variant.subitem_id,
@@ -137,6 +179,8 @@ class CatalogExporter:
             "files": [self._file_asset_to_dict(f) for f in variant.files],
             "notes": variant.notes,
         }
+
+
 class HTMLDashboardExporter:
     def export_dashboard(self, output_path: str = "index.html") -> bool:
         html_content = self._generate_html_template()
@@ -145,6 +189,7 @@ class HTMLDashboardExporter:
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(html_content)
         return True
+
     def _generate_html_template(self) -> str:
         return """<!DOCTYPE html>
 <html lang="ja">

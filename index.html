@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
             --accent: #00e5ff;
@@ -704,12 +707,24 @@
         }
 
         function toggleTag(tagId) {
+            const node = tagGraph.nodes.find(n => n.tag_id === tagId);
+            const isAvatar = node && node.dimension === 'avatar_link';
+
             if (activeTags.has(tagId)) {
                 activeTags.delete(tagId);
                 if (activeNodeId === tagId) {
                     activeNodeId = Array.from(activeTags)[activeTags.size - 1] || null;
                 }
             } else {
+                if (isAvatar) {
+                    // Remove other avatar links to ensure single-select for avatars
+                    for (const t of activeTags) {
+                        const otherNode = tagGraph.nodes.find(n => n.tag_id === t);
+                        if (otherNode && otherNode.dimension === 'avatar_link') {
+                            activeTags.delete(t);
+                        }
+                    }
+                }
                 activeTags.add(tagId);
                 activeNodeId = tagId;
             }
@@ -722,7 +737,11 @@
                 (item.targets || []).forEach(t => itemTags.add(t.code));
                 
                 const matchesText = !query || `${item.title} ${item.creator_name} ${Array.from(itemTags).join(' ')}`.toLowerCase().includes(query);
-                const matchesCat = activeCat === 'all' || item.category === activeCat;
+                
+                const matchesCat = activeCat === 'all' || 
+                    (item.category || '').toLowerCase() === activeCat.toLowerCase() ||
+                    (activeCat.toLowerCase() === 'gimmick' && (item.category || '').toLowerCase().startsWith('gimmick'));
+                
                 const matchesTags = activeTags.size === 0 || Array.from(activeTags).every(t => itemTags.has(t));
                 
                 return matchesText && matchesCat && matchesTags;
