@@ -531,7 +531,7 @@
             cat: 'all',
             price: 'all',
             features: new Set(),
-            styles: null,
+            styles: new Set(),
             colors: new Set(),
             sort: 'trending',
             query: ''
@@ -874,7 +874,7 @@
 
         async function openModal(id) {
             DOM.dialog.showModal();
-            const base = allItems.find(i => i.item_id === id);
+            const base = allItems.find(i => (i.id || i.item_id) === id);
             if (base) fillModal(base);
 
             try {
@@ -884,26 +884,36 @@
         }
 
         function fillModal(d) {
-            document.getElementById('modal-img').src = d.thumbnail_url;
-            document.getElementById('modal-title').textContent = d.title;
-            document.getElementById('modal-creator').textContent = `@${d.creator_name}`;
+            const thumb = d.thumbnail_url || d.thumbnail;
+            const title = d.title;
+            const creator = d.creator_name || d.author;
+            const sourceUrl = d.source_url || d.booth_url || `https://booth.pm/ja/items/${d.item_id || d.id}`;
+            const description = d.description || 'No description.';
+            const itemId = d.item_id || d.id;
+
+            document.getElementById('modal-img').src = thumb;
+            document.getElementById('modal-img').onerror = function() { this.src='https://placehold.jp/24/12121a/00f0ff/600x600.png?text=Image+Unavailable'; };
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-creator').textContent = `@${creator}`;
             
             const bdg = document.getElementById('modal-cat-badge');
             bdg.textContent = d.category; bdg.className = `modal-category ${getCatClass(d.category)}`;
             
             document.getElementById('modal-price').textContent = d.price === 0 ? 'Free' : `¥${(d.price||0).toLocaleString()}`;
-            document.getElementById('modal-booth-link').href = d.source_url || `https://booth.pm/ja/items/${d.item_id}`;
-            document.getElementById('modal-desc').textContent = d.description || 'No description.';
+            document.getElementById('modal-booth-link').href = sourceUrl;
+            document.getElementById('modal-desc').textContent = description;
 
-            const tgts = new Set((d.targets||[]).map(t => typeof t === 'string' ? t.toLowerCase() : (t.code||'').toLowerCase()));
+            const tgts = new Set((d.targets || d.compatible_avatars || []).map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase()));
             document.getElementById('modal-compat-grid').innerHTML = metaAvatars.map(av => 
                 `<div class="compat-item ${tgts.has(av.code.toLowerCase()) || tgts.has(av.name.toLowerCase()) ? 'supported' : ''}">${av.name}</div>`
             ).join('');
 
             const sim = (d.similar_items||[]).slice(0, 5);
             document.getElementById('modal-similar-grid').innerHTML = sim.length ? sim.map(sid => {
-                const s = allItems.find(i => i.item_id === sid);
-                return s ? `<div class="similar-card" title="${s.title}" onclick="openModal('${s.item_id}')"><img src="${s.thumbnail_url}"></div>` : '';
+                const s = allItems.find(i => (i.id || i.item_id) === sid);
+                if (!s) return '';
+                const sThumb = s.thumbnail || s.thumbnail_url;
+                return `<div class="similar-card" title="${s.title}" onclick="openModal('${sid}')"><img src="${sThumb}" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/100x100.png?text=N/A'"></div>`;
             }).join('') : '<span style="font-size:0.75rem; color:var(--text-muted); grid-column:1/-1;">No similar assets.</span>';
         }
 
