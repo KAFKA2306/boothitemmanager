@@ -9,7 +9,11 @@
   "creator_name": "stray",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "赤",
+    "帽子",
+    "マスク"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 850,

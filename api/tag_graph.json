@@ -1,0 +1,328 @@
+{
+  "nodes": [
+    {
+      "tag_id": "Aoi",
+      "name": "Aoi",
+      "dimension": "avatar",
+      "weight": 1
+    },
+    {
+      "tag_id": "Modular Avatar",
+      "name": "Modular Avatar",
+      "dimension": "general",
+      "weight": 2
+    },
+    {
+      "tag_id": "lilToon",
+      "name": "lilToon",
+      "dimension": "general",
+      "weight": 3
+    },
+    {
+      "tag_id": "碧唯3D",
+      "name": "碧唯3D",
+      "dimension": "general",
+      "weight": 1
+    },
+    {
+      "tag_id": "INABA",
+      "name": "INABA",
+      "dimension": "avatar",
+      "weight": 3
+    },
+    {
+      "tag_id": "KitsuneAme",
+      "name": "KitsuneAme",
+      "dimension": "avatar",
+      "weight": 3
+    },
+    {
+      "tag_id": "Shiina",
+      "name": "Shiina",
+      "dimension": "avatar",
+      "weight": 4
+    },
+    {
+      "tag_id": "Kikyo",
+      "name": "Kikyo",
+      "dimension": "avatar",
+      "weight": 1
+    },
+    {
+      "tag_id": "Moe",
+      "name": "Moe",
+      "dimension": "avatar",
+      "weight": 1
+    },
+    {
+      "tag_id": "Shinra",
+      "name": "Shinra",
+      "dimension": "avatar",
+      "weight": 1
+    },
+    {
+      "tag_id": "Shinra3D",
+      "name": "Shinra3D",
+      "dimension": "general",
+      "weight": 1
+    },
+    {
+      "tag_id": "サイバー",
+      "name": "サイバー",
+      "dimension": "style",
+      "weight": 1
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "Aoi",
+      "target_id": "Modular Avatar",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Aoi",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Aoi",
+      "target_id": "碧唯3D",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "lilToon",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "碧唯3D",
+      "strength": 0.5
+    },
+    {
+      "source_id": "lilToon",
+      "target_id": "碧唯3D",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "KitsuneAme",
+      "strength": 1.0
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Shiina",
+      "strength": 0.75
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "lilToon",
+      "strength": 0.5
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Shiina",
+      "strength": 0.75
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "lilToon",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "lilToon",
+      "strength": 0.4
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Kikyo",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Modular Avatar",
+      "strength": 0.25
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Moe",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Shinra",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "Shinra3D",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "INABA",
+      "target_id": "サイバー",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "KitsuneAme",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Modular Avatar",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Moe",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Shiina",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Shinra",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Shinra3D",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Modular Avatar",
+      "strength": 0.25
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Moe",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Shinra",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "Shinra3D",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "KitsuneAme",
+      "target_id": "サイバー",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Moe",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Shiina",
+      "strength": 0.2
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Shinra",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "Shinra3D",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Modular Avatar",
+      "target_id": "サイバー",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "Shiina",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "Shinra",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "Shinra3D",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "Shinra",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "Shinra3D",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shiina",
+      "target_id": "サイバー",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "Shinra3D",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Shinra3D",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shinra3D",
+      "target_id": "サイバー",
+      "strength": 1.0
+    },
+    {
+      "source_id": "lilToon",
+      "target_id": "サイバー",
+      "strength": 0.3333
+    }
+  ]
+}

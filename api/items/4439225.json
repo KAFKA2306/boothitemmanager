@@ -9,7 +9,10 @@
   "creator_name": "poppo-shop",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "カジュアル",
+    "オーバーオール"
+  ],
   "category": "outfit",
   "like_count": 0,
   "price": 1500,

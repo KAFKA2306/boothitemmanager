@@ -9,7 +9,11 @@
   "creator_name": "koarare-atelier",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "帽子",
+    "チョーカー",
+    "ネクタイ"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 100,

@@ -9,7 +9,12 @@
   "creator_name": "intercat",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "Tシャツ",
+    "ショートパンツ",
+    "ズボン",
+    "ショートヘア"
+  ],
   "category": "avatar",
   "like_count": 0,
   "price": 600,

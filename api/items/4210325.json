@@ -9,7 +9,10 @@
   "creator_name": "asapidock",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "帽子",
+    "マフラー"
+  ],
   "category": "outfit",
   "like_count": 0,
   "price": 200,

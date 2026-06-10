@@ -46,6 +46,24 @@ class Tag:
     confidence: float = 1.0
 
 @dataclass(frozen=True)
+class TagNode:
+    tag_id: str
+    name: str
+    dimension: str = "general" # appearance, style, season, etc.
+    weight: int = 0 # Occurrence frequency
+
+@dataclass(frozen=True)
+class TagEdge:
+    source_id: str
+    target_id: str
+    strength: float # Jaccard coefficient
+
+@dataclass(frozen=True)
+class TagGraph:
+    nodes: List[TagNode] = field(default_factory=list)
+    edges: List[TagEdge] = field(default_factory=list)
+
+@dataclass(frozen=True)
 class Item:
     item_id: str
     source: str = "booth"
@@ -63,6 +81,7 @@ class Item:
     price: Optional[int] = None
     targets: List[AvatarRef] = field(default_factory=list)
     files: List[FileAsset] = field(default_factory=list)
+    similar_items: List[str] = field(default_factory=list)
     
     # Compatibility with existing logic
     @property

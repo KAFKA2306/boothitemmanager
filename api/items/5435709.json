@@ -9,7 +9,10 @@
   "creator_name": "sakurako-shop",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "帽子",
+    "翼"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 300,

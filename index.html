@@ -7,15 +7,17 @@
     <style>
         :root {
             --accent: #00e5ff;
-            --accent-glow: rgba(0, 229, 255, 0.3);
-            --bg-deep: #0a0a0a;
-            --bg-surface: #141414;
-            --bg-card: #1c1c1c;
-            --text-primary: #f5f5f5;
-            --text-secondary: #aaaaaa;
-            --text-muted: #666666;
-            --border: #2a2a2a;
-            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --accent-glow: rgba(0, 229, 255, 0.4);
+            --bg-deep: #050505;
+            --bg-surface: #0f0f0f;
+            --bg-card: #151515;
+            --text-primary: #fdfdfd;
+            --text-secondary: #c0c0c0;
+            --text-muted: #606060;
+            --border: #222222;
+            --font-main: 'Inter', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --neon-pink: #ff007a;
+            --neon-purple: #bc00ff;
         }
 
         body {
@@ -23,14 +25,15 @@
             color: var(--text-primary);
             font-family: var(--font-main);
             margin: 0;
-            overflow-x: hidden;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
             height: 100vh;
         }
 
         header {
-            background: var(--bg-surface);
+            background: rgba(15, 15, 15, 0.8);
+            backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border);
             padding: 0.75rem 2rem;
             display: flex;
@@ -42,53 +45,55 @@
         .logo-container {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             text-decoration: none;
         }
 
         .logo-mark {
             width: 32px;
             height: 32px;
-            background: var(--accent);
-            border-radius: 6px;
-            box-shadow: 0 0 15px var(--accent-glow);
+            background: linear-gradient(45deg, var(--accent), var(--neon-pink));
+            border-radius: 8px;
+            box-shadow: 0 0 20px var(--accent-glow);
         }
 
         .logo-text {
             font-size: 1.4rem;
-            font-weight: 800;
+            font-weight: 900;
             letter-spacing: -0.5px;
             color: var(--text-primary);
+            text-shadow: 0 0 10px rgba(255,255,255,0.2);
         }
 
         .search-bar {
             flex: 1;
-            max-width: 700px;
-            margin: 0 3rem;
+            max-width: 600px;
+            margin: 0 2rem;
             position: relative;
         }
 
         #search-input {
             width: 100%;
-            background: var(--bg-deep);
+            background: rgba(0, 0, 0, 0.4);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 0.8rem 1.2rem;
+            border-radius: 12px;
+            padding: 0.8rem 1.4rem;
             color: white;
-            font-size: 1rem;
+            font-size: 0.95rem;
             outline: none;
-            transition: all 0.2s;
+            transition: all 0.3s;
         }
 
         #search-input:focus {
             border-color: var(--accent);
-            box-shadow: 0 0 10px var(--accent-glow);
+            box-shadow: 0 0 15px var(--accent-glow);
         }
 
         .db-stat {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             color: var(--text-muted);
-            font-weight: 500;
+            font-weight: 700;
+            letter-spacing: 1px;
         }
 
         .db-stat span {
@@ -102,51 +107,132 @@
         }
 
         aside {
-            width: 300px;
+            width: 320px;
             background: var(--bg-surface);
             border-right: 1px solid var(--border);
             padding: 1.5rem;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 2.5rem;
         }
 
         .filter-section h3 {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 1rem;
+            letter-spacing: 2px;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-section h3::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--border);
         }
 
         .tag-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 6px;
+            gap: 8px;
         }
 
         .filter-tag {
-            background: var(--bg-deep);
+            background: rgba(255, 255, 255, 0.03);
             border: 1px solid var(--border);
             color: var(--text-secondary);
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 0.8rem;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .filter-tag:hover {
+            background: rgba(255, 255, 255, 0.08);
             border-color: var(--text-muted);
-            color: var(--text-primary);
+            transform: translateY(-1px);
         }
 
         .filter-tag.active {
             background: var(--accent-glow);
             border-color: var(--accent);
             color: var(--accent);
+            font-weight: 600;
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        .filter-tag.dimension-avatar { border-color: var(--neon-pink); color: var(--neon-pink); }
+        .filter-tag.dimension-style { border-color: var(--accent); color: var(--accent); }
+        .filter-tag.dimension-season { border-color: var(--neon-purple); color: var(--neon-purple); }
+
+        .space-navigator {
+            background: linear-gradient(135deg, rgba(0, 229, 255, 0.05), rgba(255, 0, 122, 0.05));
+            border-radius: 16px;
+            padding: 1.2rem;
+            border: 1px solid var(--border);
+            margin-bottom: 1rem;
+        }
+
+        .current-node {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .current-node small {
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .neighbor-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .neighbor-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background: rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .neighbor-item:hover {
+            background: rgba(255,255,255,0.05);
+            padding-left: 16px;
+        }
+
+        .strength-bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            width: 40px;
+            overflow: hidden;
+        }
+
+        .strength-fill {
+            height: 100%;
+            background: var(--accent);
         }
 
         main {
@@ -154,150 +240,199 @@
             padding: 2rem;
             overflow-y: auto;
             background: var(--bg-deep);
+            position: relative;
         }
 
-        .view-controls {
+        .context-indicator {
+            position: sticky;
+            top: 0;
+            background: rgba(5, 5, 5, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            margin-top: -2rem;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
         }
 
-        .result-count {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
+        .active-tags-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
         }
+
+        .tag-pill {
+            background: var(--accent-glow);
+            color: var(--accent);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .tag-pill .remove {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        .tag-pill .remove:hover { opacity: 1; }
 
         .asset-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 2rem;
         }
 
         .asset-card {
             background: var(--bg-card);
-            border-radius: 12px;
+            border-radius: 16px;
             overflow: hidden;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid transparent;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid var(--border);
             cursor: pointer;
             text-decoration: none;
             display: block;
         }
 
         .asset-card:hover {
-            transform: translateY(-8px);
-            border-color: var(--border);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+            transform: translateY(-10px) scale(1.02);
+            border-color: var(--accent);
+            box-shadow: 0 15px 30px rgba(0, 229, 255, 0.15);
         }
 
         .asset-thumb-container {
             width: 100%;
             aspect-ratio: 1 / 1;
-            background: #222;
+            background: #1a1a1a;
             position: relative;
+            overflow: hidden;
         }
 
         .asset-thumb {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .asset-card:hover .asset-thumb {
+            transform: scale(1.1);
         }
 
         .asset-price-overlay {
             position: absolute;
-            bottom: 8px;
-            right: 8px;
-            background: rgba(0,0,0,0.7);
-            backdrop-filter: blur(4px);
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: 700;
+            bottom: 12px;
+            right: 12px;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 800;
             color: var(--accent);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .asset-info {
-            padding: 1rem;
+            padding: 1.25rem;
         }
 
         .asset-title {
-            font-size: 0.9rem;
-            font-weight: 600;
+            font-size: 0.95rem;
+            font-weight: 700;
             color: var(--text-primary);
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.5rem;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
 
         .asset-creator {
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             color: var(--text-muted);
-            margin-bottom: 0.8rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 4px;
         }
 
         .asset-tags {
             display: flex;
-            gap: 4px;
+            gap: 6px;
             flex-wrap: wrap;
-            height: 18px;
+            height: 22px;
             overflow: hidden;
         }
 
         .asset-tag {
-            font-size: 0.65rem;
-            background: var(--bg-surface);
+            font-size: 0.7rem;
+            background: rgba(255,255,255,0.05);
             color: var(--text-secondary);
-            padding: 2px 6px;
-            border-radius: 3px;
+            padding: 2px 8px;
+            border-radius: 4px;
         }
 
         .category-badge {
             display: inline-block;
             font-size: 0.65rem;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
             color: var(--accent);
             border: 1px solid var(--accent);
-            padding: 1px 5px;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
+            padding: 2px 8px;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+            font-weight: 700;
         }
 
-        .loading-screen {
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--bg-deep);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100%;
-            color: var(--text-muted);
+            z-index: 9999;
+            transition: opacity 0.5s;
         }
 
         .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--border);
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--border);
             border-top-color: var(--accent);
             border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 1rem;
+            animation: spin 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 20px var(--accent-glow);
         }
 
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* Virtualization Optimization */
-        #load-more-trigger {
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-deep); }
+        ::-webkit-scrollbar-thumb { background: #222; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #333; }
     </style>
 </head>
 <body>
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div style="letter-spacing: 4px; font-weight: 800; color: var(--accent);">INITIALIZING SPACE</div>
+    </div>
+
     <header>
         <a href="/" class="logo-container">
             <div class="logo-mark"></div>
@@ -306,11 +441,16 @@
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="アセット、ショップ、タグを検索...">
         </div>
-        <div class="db-stat">DATABASE: <span id="item-count">--</span> ITEMS</div>
+        <div class="db-stat">DB: <span id="item-count">--</span> ITEMS</div>
     </header>
 
     <div class="app-container">
         <aside>
+            <div class="filter-section">
+                <h3>STATE SPACE</h3>
+                <div id="space-navigator-container"></div>
+            </div>
+
             <div class="filter-section">
                 <h3>CATEGORY</h3>
                 <div class="tag-list" id="cat-filters">
@@ -321,47 +461,68 @@
                     <div class="filter-tag" data-cat="gimmick">GIMMICK</div>
                 </div>
             </div>
+
             <div class="filter-section">
-                <h3>POPULAR AVATARS</h3>
-                <div class="tag-list" id="avatar-filters"></div>
+                <h3>TRENDING NODES</h3>
+                <div class="tag-list" id="trending-nodes"></div>
             </div>
         </aside>
 
         <main id="main-content">
-            <div class="view-controls">
+            <div class="context-indicator">
+                <div class="active-tags-row" id="active-tags-row">
+                    <!-- Dynamic pills -->
+                </div>
                 <div class="result-count" id="result-count">Restructuring world...</div>
             </div>
+            
             <div id="asset-grid" class="asset-grid"></div>
-            <div id="load-more-trigger">SCROLL TO LOAD MORE</div>
+            <div id="load-more-trigger" style="height: 100px; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.8rem; letter-spacing: 2px;">
+                END OF STREAM
+            </div>
         </main>
     </div>
 
     <script>
         let allItems = [];
+        let tagGraph = { nodes: [], edges: [] };
         let filtered = [];
         let displayedCount = 40;
+        
         let activeCat = 'all';
-        let activeAvatars = new Set();
+        let activeTags = new Set();
+        let activeNodeId = null;
         let query = "";
 
         const grid = document.getElementById('asset-grid');
         const countSpan = document.getElementById('item-count');
         const resCountSpan = document.getElementById('result-count');
         const searchInput = document.getElementById('search-input');
-        const mainContent = document.getElementById('main-content');
+        const activeTagsRow = document.getElementById('active-tags-row');
+        const spaceContainer = document.getElementById('space-navigator-container');
+        const loadingOverlay = document.getElementById('loading-overlay');
 
         async function init() {
             try {
-                const res = await fetch('api/catalog.json');
-                allItems = await res.json();
+                const [resCatalog, resGraph] = await Promise.all([
+                    fetch('api/catalog.json'),
+                    fetch('api/tag_graph.json')
+                ]);
+                allItems = await resCatalog.json();
+                tagGraph = await resGraph.json();
+                
                 countSpan.textContent = allItems.length.toLocaleString();
-                renderAvatars();
+                
+                renderTrending();
                 applyFilters();
                 setupObserver();
                 bindEvents();
+                
+                loadingOverlay.style.opacity = '0';
+                setTimeout(() => loadingOverlay.remove(), 500);
             } catch (e) {
                 console.error(e);
-                grid.innerHTML = '<div class="loading-screen">DATABASE OFFLINE</div>';
+                grid.innerHTML = '<div class="loading-screen">SYSTEM CRITICAL ERROR: DATABASE OFFLINE</div>';
             }
         }
 
@@ -380,74 +541,151 @@
                 });
             });
 
-            document.getElementById('avatar-filters').addEventListener('click', (e) => {
+            document.getElementById('trending-nodes').addEventListener('click', (e) => {
                 const tag = e.target.closest('.filter-tag');
                 if (!tag) return;
-                const av = tag.dataset.avatar;
-                if (activeAvatars.has(av)) {
-                    activeAvatars.delete(av);
-                    tag.classList.remove('active');
-                } else {
-                    activeAvatars.add(av);
-                    tag.classList.add('active');
-                }
-                applyFilters();
+                const id = tag.dataset.id;
+                toggleTag(id);
             });
+        }
+
+        function toggleTag(tagId) {
+            if (activeTags.has(tagId)) {
+                activeTags.delete(tagId);
+                if (activeNodeId === tagId) {
+                    activeNodeId = Array.from(activeTags)[activeTags.size - 1] || null;
+                }
+            } else {
+                activeTags.add(tagId);
+                activeNodeId = tagId;
+            }
+            applyFilters();
         }
 
         function applyFilters() {
             filtered = allItems.filter(item => {
-                const searchable = `${item.title} ${item.creator_name} ${(item.tags_raw || []).join(' ')}`.toLowerCase();
-                const matchesText = !query || searchable.includes(query);
+                const itemTags = new Set(item.tags_raw || []);
+                (item.targets || []).forEach(t => itemTags.add(t.code));
+                
+                const matchesText = !query || `${item.title} ${item.creator_name} ${Array.from(itemTags).join(' ')}`.toLowerCase().includes(query);
                 const matchesCat = activeCat === 'all' || item.category === activeCat;
-                const itemAvatars = (item.targets || []).map(t => t.code);
-                const matchesAvatar = activeAvatars.size === 0 || Array.from(activeAvatars).some(a => itemAvatars.includes(a));
-                return matchesText && matchesCat && matchesAvatar;
+                const matchesTags = activeTags.size === 0 || Array.from(activeTags).every(t => itemTags.has(t));
+                
+                return matchesText && matchesCat && matchesTags;
             });
+            
             displayedCount = 40;
             renderGrid();
-            resCountSpan.textContent = `RECOGNIZED ${filtered.length.toLocaleString()} ASSETS`;
+            renderActiveTags();
+            renderSpaceNavigator();
+            renderTrending();
+            
+            resCountSpan.textContent = `LOCATED ${filtered.length.toLocaleString()} ENTITIES`;
+            
+            // Dynamic theme adjustment
+            if (activeNodeId) {
+                const node = tagGraph.nodes.find(n => n.tag_id === activeNodeId);
+                if (node) {
+                    const color = node.dimension === 'avatar' ? '#ff007a' : (node.dimension === 'style' ? '#00e5ff' : '#bc00ff');
+                    document.documentElement.style.setProperty('--accent', color);
+                }
+            } else {
+                document.documentElement.style.setProperty('--accent', '#00e5ff');
+            }
         }
 
         function renderGrid() {
             const chunk = filtered.slice(0, displayedCount);
             if (chunk.length === 0) {
-                grid.innerHTML = '<div class="loading-screen">NO MATCHING ENTITIES</div>';
+                grid.innerHTML = '<div style="grid-column: 1/-1; padding: 4rem; text-align: center; color: var(--text-muted); font-size: 1.2rem; font-weight: 800; letter-spacing: 2px;">VOID DETECTED: NO ENTITIES MATCH YOUR SIGNATURE</div>';
                 return;
             }
             grid.innerHTML = chunk.map(item => `
                 <a href="${item.source_url}" target="_blank" class="asset-card">
                     <div class="asset-thumb-container">
-                        <img src="${item.thumbnail_url}" class="asset-thumb" loading="lazy" onerror="this.src='https://via.placeholder.com/250x250?text=NO+IMAGE'">
+                        <img src="${item.thumbnail_url}" class="asset-thumb" loading="lazy" onerror="this.src='https://via.placeholder.com/250x250?text=SIGNAL+LOST'">
                         <div class="asset-price-overlay">¥${(item.price || 0).toLocaleString()}</div>
                     </div>
                     <div class="asset-info">
                         <div class="category-badge">${item.category}</div>
                         <div class="asset-title" title="${item.title}">${item.title}</div>
-                        <div class="asset-creator">${item.creator_name}</div>
+                        <div class="asset-creator">@${item.creator_name}</div>
+                        <div class="asset-tags">
+                            ${(item.tags_raw || []).slice(0, 3).map(t => `<span class="asset-tag">${t}</span>`).join('')}
+                        </div>
                     </div>
                 </a>
             `).join('');
         }
 
-        function renderAvatars() {
-            const map = new Map();
-            allItems.forEach(item => {
-                (item.targets || []).forEach(t => map.set(t.code, (map.get(t.code) || 0) + 1));
-            });
-            const sorted = [...map.entries()].sort((a,b) => b[1] - a[1]).slice(0, 15);
-            document.getElementById('avatar-filters').innerHTML = sorted.map(([code, count]) => `
-                <div class="filter-tag" data-avatar="${code}">${code.toUpperCase()} <small>(${count})</small></div>
+        function renderActiveTags() {
+            activeTagsRow.innerHTML = Array.from(activeTags).map(t => `
+                <div class="tag-pill">
+                    ${t} <span class="remove" onclick="event.stopPropagation(); toggleTag('${t}')">×</span>
+                </div>
             `).join('');
+        }
+
+        function renderSpaceNavigator() {
+            if (!activeNodeId) {
+                spaceContainer.innerHTML = `
+                    <div style="padding: 1rem; color: var(--text-muted); font-size: 0.85rem; border: 1px dashed var(--border); border-radius: 12px; text-align: center;">
+                        SELECT A NODE TO ENTER STATE SPACE
+                    </div>
+                `;
+                return;
+            }
+
+            const node = tagGraph.nodes.find(n => n.tag_id === activeNodeId);
+            const neighbors = tagGraph.edges
+                .filter(e => e.source_id === activeNodeId || e.target_id === activeNodeId)
+                .map(e => {
+                    const neighborId = e.source_id === activeNodeId ? e.target_id : e.source_id;
+                    const neighborNode = tagGraph.nodes.find(n => n.tag_id === neighborId);
+                    return { ...neighborNode, strength: e.strength };
+                })
+                .sort((a, b) => b.strength - a.strength)
+                .slice(0, 8);
+
+            spaceContainer.innerHTML = `
+                <div class="space-navigator">
+                    <div class="current-node">
+                        ${activeNodeId} <small>${node ? node.dimension : ''}</small>
+                    </div>
+                    <div style="font-size: 0.65rem; color: var(--text-muted); margin-bottom: 1rem; letter-spacing: 1px;">NEIGHBORING SPACES</div>
+                    <div class="neighbor-list">
+                        ${neighbors.map(n => `
+                            <div class="neighbor-item" onclick="toggleTag('${n.tag_id}')">
+                                <span style="color: ${n.tag_id === activeNodeId ? 'var(--accent)' : 'var(--text-secondary)'}">${n.tag_id}</span>
+                                <div class="strength-bar">
+                                    <div class="strength-fill" style="width: ${Math.min(100, n.strength * 500)}%"></div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderTrending() {
+            const sortedNodes = [...tagGraph.nodes].sort((a, b) => b.weight - a.weight).slice(0, 30);
+            document.getElementById('trending-nodes').innerHTML = sortedNodes.map(n => {
+                const isActive = activeTags.has(n.tag_id);
+                return `
+                    <div class="filter-tag dimension-${n.dimension} ${isActive ? 'active' : ''}" data-id="${n.tag_id}">
+                        ${n.tag_id}
+                    </div>
+                `;
+            }).join('');
         }
 
         function setupObserver() {
             const observer = new IntersectionObserver((entries) => {
                 if (entries[0].isIntersecting && displayedCount < filtered.length) {
-                    displayedCount += 40;
+                    displayedCount += 60;
                     renderGrid();
                 }
-            }, { root: null, rootMargin: '200px' });
+            }, { root: null, rootMargin: '400px' });
             observer.observe(document.getElementById('load-more-trigger'));
         }
 

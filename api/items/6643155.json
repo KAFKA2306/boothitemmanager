@@ -9,7 +9,9 @@
   "creator_name": "november-shop",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "銀"
+  ],
   "category": "gimmick",
   "like_count": 0,
   "price": 300,

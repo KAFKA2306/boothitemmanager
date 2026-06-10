@@ -7,11 +7,18 @@
   "thumbnail_url": "https://booth.pximg.net/9783dea9-bb6b-47a2-ae9c-f03b977eb305/i/3984867/e29de247-677d-4c5b-b583-d952c72518a1_base_resized.jpg",
   "creator_id": "jamzo",
   "creator_name": "ジャム蔵",
-  "published_at": "2026-06-10T13:34:18.299244",
+  "published_at": null,
   "tags_raw": [
     "碧唯3D"
   ],
-  "tags_generated": [],
+  "tags_generated": [
+    "ダウンジャケット",
+    "金",
+    "帽子",
+    "マフラー",
+    "Modular Avatar",
+    "lilToon"
+  ],
   "category": "avatar",
   "like_count": 0,
   "price": 4000,

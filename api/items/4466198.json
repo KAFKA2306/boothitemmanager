@@ -9,7 +9,9 @@
   "creator_name": "kokona-factory",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "帽子"
+  ],
   "category": "avatar",
   "like_count": 0,
   "price": 4000,

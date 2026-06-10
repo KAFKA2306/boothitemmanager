@@ -46,7 +46,8 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
             if not category:
                 category = infer_category(title, "", [category_raw], targets, aliases)
             
-            mood_tags = extract_mood_tags(title, "", [category_raw], aliases)
+            # High-dimensional extraction
+            generated_tags = extract_mood_tags(title, "", [category_raw], aliases)
 
             item = Item(
                 item_id=item_id,
@@ -59,7 +60,7 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
                 creator_name=data.get("creator_name", "Unknown Shop"),
                 published_at=None,
                 tags_raw=[],
-                tags_generated=mood_tags,
+                tags_generated=generated_tags,
                 category=category,
                 like_count=0,
                 price=data.get("price"),

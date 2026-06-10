@@ -18,7 +18,8 @@ from src.boothitemmanager2.agents import (
     build_db, 
     build_graph, 
     build_search_index, 
-    generate_api
+    generate_api,
+    tag_graph_builder
 )
 
 # Target IDs for the initial collection (Representing the core requested items)
@@ -68,6 +69,10 @@ def main():
     
     # 4. Build Graph
     build_graph(items, f"{trace_id_base}:graph")
+    
+    # 4b. Build Tag Graph (Discovery Layer)
+    print("  - Building Tag Relationship Graph...")
+    tag_graph_builder.build_tag_graph(items, f"{trace_id_base}:tag_graph")
     
     # 5. Build Search Index
     build_search_index(items, f"{trace_id_base}:search")

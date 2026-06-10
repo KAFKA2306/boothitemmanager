@@ -9,7 +9,9 @@
   "creator_name": "preto",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "ドレス"
+  ],
   "category": "outfit",
   "like_count": 0,
   "price": 1000,

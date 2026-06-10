@@ -9,7 +9,11 @@
   "creator_name": "9pm",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "セーター",
+    "帽子",
+    "翼"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 1000,

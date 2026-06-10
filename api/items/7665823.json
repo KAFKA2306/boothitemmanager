@@ -9,7 +9,10 @@
   "creator_name": "sol-aris",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "青",
+    "帽子"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 800,

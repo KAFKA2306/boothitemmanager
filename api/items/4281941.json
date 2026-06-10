@@ -7,9 +7,12 @@
   "thumbnail_url": "https://booth.pximg.net/01b894f6-18e3-4efd-93cf-8bfc9c55a251/i/4281941/9eacc0d1-e8b2-4e66-a0bd-c647d7180ea3_base_resized.jpg",
   "creator_id": "miruossan",
   "creator_name": "ミルアバターズSHOP",
-  "published_at": "2026-06-10T13:35:09.222376",
+  "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "レギンス",
+    "靴下"
+  ],
   "category": "outfit",
   "like_count": 0,
   "price": 1000,

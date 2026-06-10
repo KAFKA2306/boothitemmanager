@@ -9,7 +9,11 @@
   "creator_name": "ray-0",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "帽子",
+    "尻尾",
+    "角"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 500,

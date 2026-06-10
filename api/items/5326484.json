@@ -9,7 +9,10 @@
   "creator_name": "simplestar-game",
   "published_at": null,
   "tags_raw": [],
-  "tags_generated": [],
+  "tags_generated": [
+    "眼鏡",
+    "帽子"
+  ],
   "category": "accessory",
   "like_count": 0,
   "price": 200,

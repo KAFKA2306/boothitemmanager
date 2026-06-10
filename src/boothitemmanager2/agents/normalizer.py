@@ -317,15 +317,31 @@ def infer_category(name: str, description: Optional[str], tags: List[str], targe
     return ItemCategory.OTHER
 
 
+import unicodedata
+
 def extract_mood_tags(title: str, description: Optional[str], tags: List[str], aliases: Dict[str, Any]) -> List[str]:
-    """Extracts mood tags from text using aliases mapping."""
-    full_text = f"{title} {description or ''} {' '.join(tags)}".lower()
-    mood_map = aliases.get('mood_tags', {})
+    """
+    Extracts high-dimensional discovery tags (mood, outfit, color, etc.) from text.
+    Severe: Uses NFKC normalization and checks all configured tag dimensions.
+    """
+    def _norm(t: str) -> str:
+        return unicodedata.normalize('NFKC', t).lower()
+
+    full_text = _norm(f"{title} {description or ''} {' '.join(tags)}")
+    
+    # Dimensions to extract
+    sections = ['mood_tags', 'outfit_tags', 'color_tags', 'appearance_tags']
     extracted = []
-    for data in mood_map.values():
-        name_ja = data.get('name_ja')
-        aliases_list = data.get('aliases', [])
-        if any(term.lower() in full_text for term in aliases_list):
-            if name_ja not in extracted:
-                extracted.append(name_ja)
+    
+    for section in sections:
+        tag_map = aliases.get(section, {})
+        for data in tag_map.values():
+            name_ja = data.get('name_ja')
+            if not name_ja: continue
+            
+            aliases_list = data.get('aliases', [])
+            if any(_norm(term) in full_text for term in aliases_list):
+                if name_ja not in extracted:
+                    extracted.append(name_ja)
+    
     return extracted
