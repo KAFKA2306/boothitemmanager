@@ -573,6 +573,7 @@
                 
                 DOM.splash.style.opacity = '0';
                 DOM.splash.style.pointerEvents = 'none';
+                setTimeout(() => { if (DOM.splash.parentNode) DOM.splash.remove(); }, 500);
                 DOM.dot.classList.add('connected');
                 DOM.text.textContent = `SYNCING [${allItems.length.toLocaleString()}]`;
 
