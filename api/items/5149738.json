@@ -21,8 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Minase",
-      "Shinra"
+      "Shinra",
+      "Minase"
     ]
   },
   "similar_items": [
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:00.182311",
+    "timestamp": "2026-06-11T07:02:06.828572",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

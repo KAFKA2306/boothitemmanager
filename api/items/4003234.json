@@ -30,8 +30,8 @@
     "5070785",
     "4470170",
     "5235956",
-    "2588481",
-    "3209293"
+    "3554036",
+    "3561881"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -45,7 +45,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:01.099328",
+    "timestamp": "2026-06-11T07:02:07.469193",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

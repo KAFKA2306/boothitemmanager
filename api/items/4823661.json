@@ -29,9 +29,9 @@
   "similar_items": [
     "3242007",
     "3275381",
+    "3356570",
     "3518609",
-    "3613571",
-    "3653584"
+    "3613571"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -45,7 +45,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:02.883308",
+    "timestamp": "2026-06-11T07:02:09.596204",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

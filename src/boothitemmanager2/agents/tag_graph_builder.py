@@ -70,7 +70,7 @@ class TagGraphBuilder:
 
 def build_tag_graph(items, trace_id: str):
     builder = TagGraphBuilder(
-        catalog_path=Path("api/catalog.json"),
+        catalog_path=Path("data/structured/catalog.json"),
         aliases_path=Path("aliases.yml"),
         output_path=Path("api/tag_graph.json"),
     )
@@ -79,7 +79,7 @@ def build_tag_graph(items, trace_id: str):
 
 if __name__ == "__main__":
     builder = TagGraphBuilder(
-        catalog_path=Path("api/catalog.json"),
+        catalog_path=Path("data/structured/catalog.json"),
         aliases_path=Path("aliases.yml"),
         output_path=Path("api/tag_graph.json"),
     )

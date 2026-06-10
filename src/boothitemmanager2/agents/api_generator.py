@@ -23,13 +23,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
             return obj.value
         return str(obj)
 
-    catalog_path = os.path.join(api_dir, "catalog.json")
-    with open(catalog_path, "w", encoding="utf-8") as f:
-        json.dump(
-            [asdict(item) for item in items], f, ensure_ascii=False, indent=2, default=serialize
-        )
-
-    # Generate optimized catalog summary parts for instant page load
+    # Optimized catalog summary parts for instant page load
     catalog_summaries = []
     items_with_compat = 0
     for item in items:
@@ -69,8 +63,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     part2 = catalog_summaries[2000:]
 
     # Save to api_dir (api/)
-    with open(os.path.join(api_dir, "catalog_summary.json"), "w", encoding="utf-8") as f:
-        json.dump(catalog_summaries, f, ensure_ascii=False, indent=2)
     with open(os.path.join(api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
         json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
@@ -114,22 +106,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
                 json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
                 f.write(";")
 
-    summaries = []
-    for item in items:
-        summaries.append(
-            {
-                "item_id": item.item_id,
-                "name": item.title,
-                "shop_name": item.creator_name,
-                "type": item.category.value,
-                "image_url": item.thumbnail_url,
-                "current_price": item.price,
-                "like_count": item.like_count,
-            }
-        )
-    all_items_path = os.path.join(items_dir, "all.json")
-    with open(all_items_path, "w", encoding="utf-8") as f:
-        json.dump(summaries, f, ensure_ascii=False, indent=2)
     for item in items:
         item_path = os.path.join(items_dir, f"{item.item_id}.json")
         with open(item_path, "w", encoding="utf-8") as f:

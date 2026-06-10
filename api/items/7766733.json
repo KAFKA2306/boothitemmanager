@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "Poiyomi",
-      "lilToon"
+      "lilToon",
+      "Poiyomi"
     ],
     "platform": [],
     "season": [],
@@ -28,9 +28,9 @@
   "similar_items": [
     "4800773",
     "8185364",
-    "3858121",
-    "4745019",
-    "4841309"
+    "4999902",
+    "5430295",
+    "5791559"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:57.455674",
+    "timestamp": "2026-06-11T07:02:04.723245",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

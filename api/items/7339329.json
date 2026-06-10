@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Kipfel"
+      "Kipfel",
+      "Manuka"
     ]
   },
   "similar_items": [
-    "5110234",
-    "5564942",
-    "6068651",
-    "6360429",
-    "4686246"
+    "5912398",
+    "5913457",
+    "5930373",
+    "5931082",
+    "6034029"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:58.783965",
+    "timestamp": "2026-06-11T07:02:05.747314",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

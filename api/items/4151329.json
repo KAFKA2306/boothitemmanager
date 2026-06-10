@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "ModularAvatar"
+      "ModularAvatar",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],
@@ -46,7 +46,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:02.431751",
+    "timestamp": "2026-06-11T07:02:08.882325",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -21,9 +21,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
+      "Shinra",
       "Moe",
-      "Shinra"
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -53,7 +53,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:04.137483",
+    "timestamp": "2026-06-11T07:02:11.600285",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

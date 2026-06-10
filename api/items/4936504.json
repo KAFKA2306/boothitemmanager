@@ -21,8 +21,8 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Moe",
       "Kikyo",
+      "Moe",
       "Lime"
     ]
   },
@@ -53,7 +53,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:01.367237",
+    "timestamp": "2026-06-11T07:02:07.721638",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

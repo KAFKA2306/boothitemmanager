@@ -23,9 +23,9 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
       "Selestia",
-      "Moe"
+      "Moe",
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -55,7 +55,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:56.976385",
+    "timestamp": "2026-06-11T07:02:04.243848",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

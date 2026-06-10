@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from datetime import datetime
-from enum import StrEnum
+from enum import Enum
 from typing import Any, Literal
 
 
-class ItemCategory(StrEnum):
+class ItemCategory(str, Enum):
     AVATAR = "AVATAR"
     OUTFIT = "OUTFIT"
     ACCESSORY = "ACCESSORY"

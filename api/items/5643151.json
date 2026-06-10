@@ -21,10 +21,10 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
       "Selestia",
+      "Kikyo",
       "Moe",
-      "Kikyo"
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -58,7 +58,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:03.903425",
+    "timestamp": "2026-06-11T07:02:11.017157",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

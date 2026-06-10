@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Lime"
+      "Lime",
+      "Manuka"
     ]
   },
   "similar_items": [
-    "4686246",
-    "4844427",
-    "5057865",
-    "5058253",
-    "5058959"
+    "3485256",
+    "4483406",
+    "4897448",
+    "4898199",
+    "4898660"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:59.127469",
+    "timestamp": "2026-06-11T07:02:06.051564",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

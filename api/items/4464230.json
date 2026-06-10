@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Karin",
-      "Kikyo"
+      "Kikyo",
+      "Karin"
     ]
   },
   "similar_items": [
     "4144286",
     "3722940",
-    "3554036",
-    "3561881",
-    "3565642"
+    "2986054",
+    "3502371",
+    "3702704"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:03.934471",
+    "timestamp": "2026-06-11T07:02:11.065408",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

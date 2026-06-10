@@ -16,8 +16,8 @@
     "style": [],
     "color": [],
     "outfit_type": [
-      "set",
-      "tops"
+      "tops",
+      "set"
     ],
     "accessory": [],
     "feature": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:55.784523",
+    "timestamp": "2026-06-11T07:02:02.957166",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Cyber",
-      "Military"
+      "Military",
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -31,8 +31,8 @@
     "4557432",
     "4823613",
     "3834059",
-    "4039565",
-    "4041337"
+    "1069252",
+    "1640686"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -46,7 +46,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:03.195431",
+    "timestamp": "2026-06-11T07:02:10.094668",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

@@ -18,19 +18,19 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "QuestCompatible",
-      "lilToon"
+      "lilToon",
+      "QuestCompatible"
     ],
     "platform": [],
     "season": [],
     "avatar_link": []
   },
   "similar_items": [
-    "1392104",
-    "1671087",
-    "2018844",
-    "2019040",
-    "3502907"
+    "4999902",
+    "5430295",
+    "5791559",
+    "6104595",
+    "6384721"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:01.493003",
+    "timestamp": "2026-06-11T07:02:07.985139",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

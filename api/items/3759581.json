@@ -18,8 +18,8 @@
     "outfit_type": [],
     "accessory": [],
     "feature": [
-      "PhysBone",
-      "lilToon"
+      "lilToon",
+      "PhysBone"
     ],
     "platform": [],
     "season": [],
@@ -46,7 +46,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:02.816571",
+    "timestamp": "2026-06-11T07:02:09.518500",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

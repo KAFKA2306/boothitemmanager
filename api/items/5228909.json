@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Cyber",
-      "Tenshi"
+      "Tenshi",
+      "Cyber"
     ],
     "color": [],
     "outfit_type": [],
@@ -27,10 +27,10 @@
   },
   "similar_items": [
     "5081472",
-    "1228094",
-    "1306657",
-    "1351220",
-    "1577694"
+    "1939489",
+    "2207085",
+    "3021038",
+    "3105033"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:57.636100",
+    "timestamp": "2026-06-11T07:02:04.910261",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

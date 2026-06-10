@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Grus",
-      "Shinra"
+      "Shinra",
+      "Grus"
     ]
   },
   "similar_items": [
     "4787212",
     "4686026",
-    "3242007",
-    "3275381",
-    "3518609"
+    "4724831",
+    "4729198",
+    "4731643"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:46:58.284987",
+    "timestamp": "2026-06-11T07:02:05.403284",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

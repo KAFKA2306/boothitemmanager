@@ -21,10 +21,10 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Grus",
-      "Moe",
+      "Kikyo",
       "Shinra",
-      "Kikyo"
+      "Moe",
+      "Grus"
     ]
   },
   "similar_items": [
@@ -58,7 +58,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:02.411442",
+    "timestamp": "2026-06-11T07:02:08.857687",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

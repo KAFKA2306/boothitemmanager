@@ -21,10 +21,10 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Moe",
+      "Kikyo",
       "Shinra",
-      "Kikyo"
+      "Moe",
+      "Manuka"
     ]
   },
   "similar_items": [
@@ -58,7 +58,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:01.289299",
+    "timestamp": "2026-06-11T07:02:07.629009",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

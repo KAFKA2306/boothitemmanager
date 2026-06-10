@@ -14,8 +14,8 @@
     "appearance": [],
     "body_type": [],
     "style": [
-      "Tenshi",
-      "Japanese"
+      "Japanese",
+      "Tenshi"
     ],
     "color": [],
     "outfit_type": [],
@@ -26,11 +26,11 @@
     "avatar_link": []
   },
   "similar_items": [
-    "3799865",
-    "3825060",
-    "3929719",
-    "4169376",
-    "4570137"
+    "1486105",
+    "2059604",
+    "2663182",
+    "3360896",
+    "3565853"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -39,7 +39,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:02.552056",
+    "timestamp": "2026-06-11T07:02:09.026652",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"

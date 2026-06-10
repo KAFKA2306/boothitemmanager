@@ -21,16 +21,16 @@
     "platform": [],
     "season": [],
     "avatar_link": [
-      "Manuka",
-      "Karin"
+      "Karin",
+      "Manuka"
     ]
   },
   "similar_items": [
     "4354541",
-    "4686246",
-    "4844427",
-    "5057865",
-    "5058253"
+    "3554036",
+    "3561881",
+    "3565642",
+    "3565871"
   ],
   "user_state": {},
   "tags_raw": [],
@@ -48,7 +48,7 @@
   "source": "booth",
   "audit_status": "UNVERIFIED",
   "trace_log": {
-    "timestamp": "2026-06-11T06:47:00.314457",
+    "timestamp": "2026-06-11T07:02:06.942399",
     "source_ndjson": "data/raw/index.ndjson",
     "rules": {
       "bridge_conversion": "ndjson_to_item"
