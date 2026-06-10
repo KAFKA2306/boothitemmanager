@@ -1,6 +1,5 @@
 {
   "item_id": "2835375",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2835375",
   "title": "VRCHAT向けオリジナル3Dモデル\"黒兎さ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "hiehieck",
   "creator_name": "hiehieck",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒",
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

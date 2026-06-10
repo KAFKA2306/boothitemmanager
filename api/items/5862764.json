@@ -1,6 +1,5 @@
 {
   "item_id": "5862764",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5862764",
   "title": "【水瀬対応】オーバーサイズTシャツ（シェイプ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "edgeslide",
   "creator_name": "edgeslide",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7063693",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7063693",
   "title": "裏路地モダン [MA対応] [しなの対応]",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "tokagehaususshop",
   "creator_name": "tokagehaususshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

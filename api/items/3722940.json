@@ -1,6 +1,5 @@
 {
   "item_id": "3722940",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3722940",
   "title": "清楚お嬢様コーデ [舞夜,桔梗,薄荷,カリン対応]",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "tandc",
   "creator_name": "tandc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

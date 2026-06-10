@@ -1,6 +1,5 @@
 {
   "item_id": "6357974",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6357974",
   "title": "【VRChat】森羅専用  Bottoms ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "elesato",
   "creator_name": "elesato",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

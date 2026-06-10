@@ -1,6 +1,5 @@
 {
   "item_id": "5530156",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5530156",
   "title": "【MA前提ギミック】簡易もちもちほっぺ 【多...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "mochis-factory",
   "creator_name": "mochis-factory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 600,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

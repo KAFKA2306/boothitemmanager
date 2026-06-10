@@ -1,6 +1,5 @@
 {
   "item_id": "4876459",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4876459",
   "title": "ライム -Lime-【オリジナル3Dモデル】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "komado",
   "creator_name": "komado",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 6000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

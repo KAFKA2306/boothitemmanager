@@ -1,6 +1,5 @@
 {
   "item_id": "6064843",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6064843",
   "title": "【VRC】薔薇タトゥー【Blackout R...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "namazuda",
   "creator_name": "namazuda",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒",
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

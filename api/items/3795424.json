@@ -1,6 +1,5 @@
 {
   "item_id": "3795424",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3795424",
   "title": "【桔梗向け】　ルーズソックス(ローファー付き)",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "rihyaco",
   "creator_name": "rihyaco",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

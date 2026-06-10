@@ -1,6 +1,5 @@
 {
   "item_id": "7657188",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7657188",
   "title": "【VRChat想定】バブルウォール、春夏秋冬...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "newrarity",
   "creator_name": "newrarity",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "冬",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "夏",
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4170624",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4170624",
   "title": "【PB対応】【Quest/PC】盲目の少女と...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "kilerbomb",
   "creator_name": "kilerbomb",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 0,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

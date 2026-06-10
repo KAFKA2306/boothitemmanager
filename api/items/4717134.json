@@ -1,6 +1,5 @@
 {
   "item_id": "4717134",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4717134",
   "title": "[Moe] soft makeup texture",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "qq4",
   "creator_name": "qq4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

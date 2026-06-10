@@ -1,6 +1,5 @@
 {
   "item_id": "3726816",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3726816",
   "title": "【無料】VRChatアカウント別起動ショートカット",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "dimebag29",
   "creator_name": "dimebag29",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7611561",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7611561",
   "title": "[23𝐴𝑣𝑎𝑡𝑎𝑟]✝𝑆𝑖𝑙𝑒𝑛𝑡𝑉𝑒𝑖𝑙✝...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "aspartame-999",
   "creator_name": "aspartame-999",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 350,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

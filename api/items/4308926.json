@@ -1,6 +1,5 @@
 {
   "item_id": "4308926",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4308926",
   "title": "【水瀬対応】気だるげヘアー【髪型PB対応】",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "w-zero",
   "creator_name": "w-zero",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4894461",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4894461",
   "title": "オリジナル3D衣装　SUPER WAVE 水着",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kuromaru9",
   "creator_name": "kuromaru9",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

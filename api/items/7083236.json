@@ -1,6 +1,5 @@
 {
   "item_id": "7083236",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7083236",
   "title": "海辺のカプゥ ～リメイク～【VRChat用3...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "d0ggybag",
   "creator_name": "d0ggybag",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

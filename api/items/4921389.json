@@ -1,6 +1,5 @@
 {
   "item_id": "4921389",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4921389",
   "title": "【💖セール中💖】-夏影-【萌,桔梗,セレス...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "qukumu-closet",
   "creator_name": "qukumu-closet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

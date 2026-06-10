@@ -1,6 +1,5 @@
 {
   "item_id": "4541785",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4541785",
   "title": "3Dモデル 『釘打ち機 / Nail gun』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "augmented-dolls",
   "creator_name": "augmented-dolls",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

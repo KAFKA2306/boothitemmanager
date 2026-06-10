@@ -1,6 +1,5 @@
 {
   "item_id": "6522722",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6522722",
   "title": "カジュアル装備ジャケット[みみのこ対応衣装]",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "sthan-warehouse",
   "creator_name": "sthan-warehouse",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

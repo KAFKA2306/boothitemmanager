@@ -1,6 +1,5 @@
 {
   "item_id": "3742776",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3742776",
   "title": "Alice.【桔梗,舞夜】",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "inani",
   "creator_name": "inani",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

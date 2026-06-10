@@ -1,6 +1,5 @@
 {
   "item_id": "2270521",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2270521",
   "title": "リュージュ・コスモクロエ（バニーバージョン）",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "amsn875",
   "creator_name": "amsn875",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

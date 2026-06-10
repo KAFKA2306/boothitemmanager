@@ -1,6 +1,5 @@
 {
   "item_id": "5819521",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5819521",
   "title": "【まめふれんず対応】Bustier Bikini",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "limeadestand",
   "creator_name": "limeadestand",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "ネクタイ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

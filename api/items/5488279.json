@@ -1,6 +1,5 @@
 {
   "item_id": "5488279",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5488279",
   "title": "【Manuka】下着を見せたくない人のための...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "itamimimi",
   "creator_name": "itamimimi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

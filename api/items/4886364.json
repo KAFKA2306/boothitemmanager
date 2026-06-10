@@ -1,6 +1,5 @@
 {
   "item_id": "4886364",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4886364",
   "title": "表情固定ギミックの自動生成機",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kakunvr",
   "creator_name": "kakunvr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

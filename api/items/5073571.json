@@ -1,6 +1,5 @@
 {
   "item_id": "5073571",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5073571",
   "title": "【3D衣装モデル】－妖討装束－（対応：桔梗、...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "sakurame-yuki",
   "creator_name": "sakurame-yuki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

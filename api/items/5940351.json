@@ -1,6 +1,5 @@
 {
   "item_id": "5940351",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5940351",
   "title": "【Eremorph対応】【触ると身体や服に変...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "osakanaheaven",
   "creator_name": "osakanaheaven",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

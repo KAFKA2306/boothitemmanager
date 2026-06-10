@@ -1,6 +1,5 @@
 {
   "item_id": "7309475",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7309475",
   "title": "【Kuuta】刻ノ彩　make&eye te...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "azmade",
   "creator_name": "azmade",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

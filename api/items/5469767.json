@@ -1,6 +1,5 @@
 {
   "item_id": "5469767",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5469767",
   "title": "【瑞希】肌・眼テクスチャ素材/Mizuki ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "ricerockets",
   "creator_name": "ricerockets",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

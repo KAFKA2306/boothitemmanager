@@ -1,6 +1,5 @@
 {
   "item_id": "7389955",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7389955",
   "title": "【VRC想定】ホーミングレーザーガン / H...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kodamaaltanative",
   "creator_name": "kodamaaltanative",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "グレー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "グレー"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

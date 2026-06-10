@@ -1,6 +1,5 @@
 {
   "item_id": "4332978",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4332978",
   "title": "PhysBoneで鳴る首輪＆ロープセット（M...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "ken0123",
   "creator_name": "ken0123",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4683991",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4683991",
   "title": "BanditWuste（桔梗、セレスティア、...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "asapidock",
   "creator_name": "asapidock",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

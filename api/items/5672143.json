@@ -1,6 +1,5 @@
 {
   "item_id": "5672143",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5672143",
   "title": "21アバター対応『Denim G Boots』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sarasapen",
   "creator_name": "sarasapen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

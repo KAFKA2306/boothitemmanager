@@ -1,6 +1,5 @@
 {
   "item_id": "2597236",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2597236",
   "title": "チャンキーヒール厚底ロリータパンプス（4色差...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ikshop",
   "creator_name": "ikshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ヒール"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ヒール"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4062124",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4062124",
   "title": "【セレスティア】Nail and Finge...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "rona11x",
   "creator_name": "rona11x",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 150,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

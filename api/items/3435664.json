@@ -1,6 +1,5 @@
 {
   "item_id": "3435664",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3435664",
   "title": "舞夜[Maya] 3.0 SDK用 33個 ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "fridayr",
   "creator_name": "fridayr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

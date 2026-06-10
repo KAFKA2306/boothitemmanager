@@ -1,6 +1,5 @@
 {
   "item_id": "6658050",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6658050",
   "title": "『Gold Cyberpunk Millti...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "vinzo",
   "creator_name": "vinzo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "金"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1700,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

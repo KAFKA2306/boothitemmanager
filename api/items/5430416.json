@@ -1,6 +1,5 @@
 {
   "item_id": "5430416",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5430416",
   "title": "[NiY専用-桔梗・ラシューシャ向け]ロング...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "seilin",
   "creator_name": "seilin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

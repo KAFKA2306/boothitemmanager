@@ -1,6 +1,5 @@
 {
   "item_id": "4831921",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4831921",
   "title": "Jewelry fish pierce",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tarte-tzshop",
   "creator_name": "tarte-tzshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

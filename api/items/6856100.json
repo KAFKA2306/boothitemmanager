@@ -1,6 +1,5 @@
 {
   "item_id": "6856100",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6856100",
   "title": "【2アバター対応】 Baggy knit d...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "a2x4",
   "creator_name": "a2x4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

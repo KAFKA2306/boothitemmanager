@@ -1,6 +1,5 @@
 {
   "item_id": "2891714",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2891714",
   "title": "【VRC対応3D服飾モデル】FUYUMIDO...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "yoyogi-mori",
   "creator_name": "yoyogi-mori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 30000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

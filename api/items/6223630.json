@@ -1,6 +1,5 @@
 {
   "item_id": "6223630",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6223630",
   "title": "【靴】ニーハイ&リボンブーツ v1.5",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "nemutain",
   "creator_name": "nemutain",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ",
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

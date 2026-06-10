@@ -1,6 +1,5 @@
 {
   "item_id": "8143336",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8143336",
   "title": "【MAYO】๑ Moe Dewy Makeup ๑",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "sugarpepper",
   "creator_name": "sugarpepper",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

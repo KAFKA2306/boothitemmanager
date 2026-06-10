@@ -1,6 +1,5 @@
 {
   "item_id": "2490495",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2490495",
   "title": "VRoid サイバードレス v1.2",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nibanbosi",
   "creator_name": "nibanbosi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

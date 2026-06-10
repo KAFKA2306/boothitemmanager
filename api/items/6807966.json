@@ -1,6 +1,5 @@
 {
   "item_id": "6807966",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6807966",
   "title": "【VRC想定】黒猫のピアスセット【全アバター対応】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kokoronokori",
   "creator_name": "kokoronokori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒",
-    "イヤリング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

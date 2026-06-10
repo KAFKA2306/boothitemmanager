@@ -1,6 +1,5 @@
 {
   "item_id": "2612631",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2612631",
   "title": "Cow Cap 2 (野球帽)0",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tsunamoo",
   "creator_name": "tsunamoo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

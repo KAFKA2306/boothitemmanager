@@ -1,6 +1,5 @@
 {
   "item_id": "8355010",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8355010",
   "title": "꒰꒰ぽわりちゃん対応追加✨꒱꒱🧸はぐべあ🧸【...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mii-0x0",
   "creator_name": "mii-0x0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

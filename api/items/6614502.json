@@ -1,6 +1,5 @@
 {
   "item_id": "6614502",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6614502",
   "title": "[VRChat] Han_Suit For ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "jadeyarn",
   "creator_name": "jadeyarn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

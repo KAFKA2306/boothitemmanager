@@ -1,6 +1,5 @@
 {
   "item_id": "4765422",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4765422",
   "title": "[３アバター対応(追加予定)]専用、フロス ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rytshop",
   "creator_name": "rytshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

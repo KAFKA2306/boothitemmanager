@@ -1,6 +1,5 @@
 {
   "item_id": "2151818",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2151818",
   "title": "モノクロカラーなリュック（6色差分・調整用ボ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ikshop",
   "creator_name": "ikshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リュック"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "リュック"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7041693",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7041693",
   "title": "鈴々猫～りんりんねこ～【けもみみ＆しっぽ】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mr47",
   "creator_name": "mr47",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "獣耳"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "獣耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

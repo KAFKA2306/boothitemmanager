@@ -1,6 +1,5 @@
 {
   "item_id": "7229423",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7229423",
   "title": "🎀リボン仕立ての午後。🎀９avatar対応ネイル",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "anulapi",
   "creator_name": "anulapi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン",
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "リボン",
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

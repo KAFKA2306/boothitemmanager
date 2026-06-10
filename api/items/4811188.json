@@ -1,6 +1,5 @@
 {
   "item_id": "4811188",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4811188",
   "title": "H02 よふかしロング",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kiriha-astra",
   "creator_name": "kiriha-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

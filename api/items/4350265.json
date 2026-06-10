@@ -1,6 +1,5 @@
 {
   "item_id": "4350265",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4350265",
   "title": "【Rusk&Karin】SUNSET EYE...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mocolony",
   "creator_name": "mocolony",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

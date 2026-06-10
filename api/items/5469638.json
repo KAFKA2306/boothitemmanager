@@ -1,6 +1,5 @@
 {
   "item_id": "5469638",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5469638",
   "title": "【瑞希Mizuki】🩷清楚メイク＆瞳🩷【テク...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "33detyu",
   "creator_name": "33detyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

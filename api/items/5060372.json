@@ -1,6 +1,5 @@
 {
   "item_id": "5060372",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5060372",
   "title": "[Manuka(マヌカ)] Sunny si...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "mayong",
   "creator_name": "mayong",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka",
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
@@ -23,5 +40,6 @@
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

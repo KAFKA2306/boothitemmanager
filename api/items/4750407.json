@@ -1,6 +1,5 @@
 {
   "item_id": "4750407",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4750407",
   "title": "Wild Punk (for Shinra ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "3bon",
   "creator_name": "3bon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

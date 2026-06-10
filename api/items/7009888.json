@@ -1,6 +1,5 @@
 {
   "item_id": "7009888",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7009888",
   "title": "【真冬対応】しらひゆメイク＆アイテクスチャ",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "utomiya",
   "creator_name": "utomiya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

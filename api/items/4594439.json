@@ -1,6 +1,5 @@
 {
   "item_id": "4594439",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4594439",
   "title": "【無料】1st Anniversary 白黒の翼",
   "description": "",
@@ -8,16 +7,31 @@
   "creator_id": "misuterareru",
   "creator_name": "misuterareru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "モノトーン",
-    "黒",
-    "白",
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "モノトーン",
+      "黒",
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

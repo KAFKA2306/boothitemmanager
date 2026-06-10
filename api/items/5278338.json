@@ -1,6 +1,5 @@
 {
   "item_id": "5278338",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5278338",
   "title": "リィンブラウ専用ロングヘア",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hiro17",
   "creator_name": "hiro17",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

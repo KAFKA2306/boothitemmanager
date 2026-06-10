@@ -1,6 +1,5 @@
 {
   "item_id": "5027363",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5027363",
   "title": "【フォシュニア専用】ゆるニット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hekino",
   "creator_name": "hekino",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

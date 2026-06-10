@@ -1,6 +1,5 @@
 {
   "item_id": "6075228",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6075228",
   "title": "【22アバター対応】Reらぶきゅんハートアイ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "metique4",
   "creator_name": "metique4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5851886",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5851886",
   "title": "[VRchat] Clover Sunmaid",
   "description": "",
@@ -8,19 +7,38 @@
   "creator_id": "qpandorap",
   "creator_name": "qpandorap",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

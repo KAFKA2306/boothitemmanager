@@ -1,6 +1,5 @@
 {
   "item_id": "6343879",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6343879",
   "title": "【MA対応済み】しなのちゃん専用　動く眠る表...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "lovelyface",
   "creator_name": "lovelyface",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1300,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

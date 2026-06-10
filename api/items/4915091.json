@@ -1,6 +1,5 @@
 {
   "item_id": "4915091",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4915091",
   "title": "[無料] FaceEmo（表情作成・設定ツール）",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "suzuryg",
   "creator_name": "suzuryg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

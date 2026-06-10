@@ -1,6 +1,5 @@
 {
   "item_id": "6161034",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6161034",
   "title": "【しなの専用】指空きグローブ【VRChat】",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "pizzaaaa",
   "creator_name": "pizzaaaa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

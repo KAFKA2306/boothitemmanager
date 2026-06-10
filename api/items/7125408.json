@@ -1,6 +1,5 @@
 {
   "item_id": "7125408",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7125408",
   "title": "【Midnight Gold/深夜の黄金】1...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "noved",
   "creator_name": "noved",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黄",
-    "金"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黄",
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

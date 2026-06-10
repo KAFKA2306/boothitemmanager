@@ -1,6 +1,5 @@
 {
   "item_id": "7942285",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7942285",
   "title": "■完売■【記念版】Komoe（小萌衣こもえ）...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "vrmirage",
   "creator_name": "vrmirage",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 9999999,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

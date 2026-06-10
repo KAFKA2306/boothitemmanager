@@ -1,6 +1,5 @@
 {
   "item_id": "8158706",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8158706",
   "title": "21アバター♡メイ ツインレディ(♡May ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "may-vrc",
   "creator_name": "may-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

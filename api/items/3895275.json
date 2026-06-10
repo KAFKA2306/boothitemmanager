@@ -1,6 +1,5 @@
 {
   "item_id": "3895275",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3895275",
   "title": "【ｽｷﾆﾝｸﾞ済み衣装】ニットベストワンピ",
   "description": "",
@@ -8,15 +7,29 @@
   "creator_id": "kouuao",
   "creator_name": "kouuao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "ワンピース",
-    "ベスト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター",
+      "ワンピース",
+      "ベスト"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6846431",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6846431",
   "title": "【無料】髪の毛とかの光の当たり方を統一するツール",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nfya",
   "creator_name": "nfya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3696604",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3696604",
   "title": "【桔梗 Kikyo 用衣装】 実行服",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "maoxiaonuo1",
   "creator_name": "maoxiaonuo1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 950,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

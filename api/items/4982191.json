@@ -1,6 +1,5 @@
 {
   "item_id": "4982191",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4982191",
   "title": "【🎉8/19マリシア追加対応】Juicy P...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kurekono3d",
   "creator_name": "kurekono3d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

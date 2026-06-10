@@ -1,6 +1,5 @@
 {
   "item_id": "2965891",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2965891",
   "title": "【※注意事項有※】Sci Armor【サポー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tadaoki",
   "creator_name": "tadaoki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "アーマー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "アーマー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

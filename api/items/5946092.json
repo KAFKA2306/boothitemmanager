@@ -1,6 +1,5 @@
 {
   "item_id": "5946092",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5946092",
   "title": "ぶるぶるマヌカちゃんギミック「エキスパンショ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "msstore",
   "creator_name": "msstore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

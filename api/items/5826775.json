@@ -1,6 +1,5 @@
 {
   "item_id": "5826775",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5826775",
   "title": "【森羅､桔梗､ライム､レティニア､メロトロン...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "yurimiku",
   "creator_name": "yurimiku",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

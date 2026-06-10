@@ -1,6 +1,5 @@
 {
   "item_id": "5829701",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5829701",
   "title": "浦和ハナコ(水着Ver.) / Urawa ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "furude",
   "creator_name": "furude",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "水着"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 3500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

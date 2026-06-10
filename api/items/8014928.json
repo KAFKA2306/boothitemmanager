@@ -1,6 +1,5 @@
 {
   "item_id": "8014928",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8014928",
   "title": "スカートボーン設置補助アドオン「Nyanne...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nyanneco9",
   "creator_name": "nyanneco9",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

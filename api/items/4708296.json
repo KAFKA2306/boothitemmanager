@@ -1,6 +1,5 @@
 {
   "item_id": "4708296",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4708296",
   "title": "【3Dモデル】ゴシック厚底ホールブーツ【複数...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "shimae",
   "creator_name": "shimae",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "ブーツ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

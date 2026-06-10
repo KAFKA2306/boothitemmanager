@@ -1,6 +1,5 @@
 {
   "item_id": "3906684",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3906684",
   "title": "[桔梗向け]桔梗カジュアルセット2",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "dnagon",
   "creator_name": "dnagon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

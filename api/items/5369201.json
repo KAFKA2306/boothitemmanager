@@ -1,6 +1,5 @@
 {
   "item_id": "5369201",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5369201",
   "title": "【3D】STUNING (森羅/マヌカ/萌/...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "lyra-o-o-o",
   "creator_name": "lyra-o-o-o",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka",
+      "Moe",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
@@ -27,5 +43,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

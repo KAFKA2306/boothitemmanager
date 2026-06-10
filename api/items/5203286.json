@@ -1,6 +1,5 @@
 {
   "item_id": "5203286",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5203286",
   "title": "炎刀(抜刀ギミック＆和風エフェクト付)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "marumarushop-vrc",
   "creator_name": "marumarushop-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7010303",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7010303",
   "title": "4/18フィユエ©っぃヵ♪【45以上ァハ゛タ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "minuetdoll",
   "creator_name": "minuetdoll",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 650,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

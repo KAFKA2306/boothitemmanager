@@ -1,6 +1,5 @@
 {
   "item_id": "3484564",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3484564",
   "title": "【15Avatars】Winter Fur ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mspenguinsshop",
   "creator_name": "mspenguinsshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

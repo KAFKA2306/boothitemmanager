@@ -1,6 +1,5 @@
 {
   "item_id": "6786110",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6786110",
   "title": "義翼 UMIUSHI 【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "torinosuke05",
   "creator_name": "torinosuke05",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1350,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

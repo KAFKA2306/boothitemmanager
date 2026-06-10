@@ -1,6 +1,5 @@
 {
   "item_id": "4231921",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4231921",
   "title": "ふんわりヘッドリボン",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nekono-3d",
   "creator_name": "nekono-3d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

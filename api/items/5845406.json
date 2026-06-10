@@ -1,6 +1,5 @@
 {
   "item_id": "5845406",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5845406",
   "title": "【VRC】カジュアルレザー＆デニム【7アバタ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yakuzi",
   "creator_name": "yakuzi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "ジーンズ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ジーンズ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

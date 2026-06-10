@@ -1,6 +1,5 @@
 {
   "item_id": "6369075",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6369075",
   "title": "狛乃/𝐑𝐢𝐦𝐒𝐡𝐚𝐝𝐞 𝐌𝐚𝐬𝐤",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "skyshops",
   "creator_name": "skyshops",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

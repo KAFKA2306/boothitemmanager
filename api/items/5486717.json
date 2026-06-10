@@ -1,6 +1,5 @@
 {
   "item_id": "5486717",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5486717",
   "title": "中国龍の尾と角のセット Dragon Set",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "berovr",
   "creator_name": "berovr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6838393",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6838393",
   "title": "「足指動く！」～愛莉ちゃんの足指PBギミック...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "vic",
   "creator_name": "vic",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 400,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

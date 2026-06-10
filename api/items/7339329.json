@@ -1,6 +1,5 @@
 {
   "item_id": "7339329",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7339329",
   "title": "らくがき☆タトゥー【凪/キプフェル/マヌカ/...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "adorablepalette",
   "creator_name": "adorablepalette",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

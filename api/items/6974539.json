@@ -1,6 +1,5 @@
 {
   "item_id": "6974539",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6974539",
   "title": "𓆩𓆪 Fantasy Horns 𓆩𓆪",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "vinzo",
   "creator_name": "vinzo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー",
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

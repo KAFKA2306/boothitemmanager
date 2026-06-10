@@ -1,6 +1,5 @@
 {
   "item_id": "3702923",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3702923",
   "title": "桔梗専用 ランジェリー＆ニーソテクスチャセット",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "lalka-v",
   "creator_name": "lalka-v",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

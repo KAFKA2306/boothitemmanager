@@ -1,6 +1,5 @@
 {
   "item_id": "4723795",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4723795",
   "title": "【ｽｷﾆﾝｸﾞ済衣装】ショートパーカー",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kouuao",
   "creator_name": "kouuao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

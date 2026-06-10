@@ -1,6 +1,5 @@
 {
   "item_id": "5066084",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5066084",
   "title": "【VRC想定】ジャージ Jya_Ji_FOR...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yoonkira",
   "creator_name": "yoonkira",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

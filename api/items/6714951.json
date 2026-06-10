@@ -1,6 +1,5 @@
 {
   "item_id": "6714951",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6714951",
   "title": "3D衣装「あずきの和風パーカー」",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kitsune-tsuki",
   "creator_name": "kitsune-tsuki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

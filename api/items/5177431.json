@@ -1,6 +1,5 @@
 {
   "item_id": "5177431",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5177431",
   "title": "[VRoid][FREE]革ジャン＆セーターセット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "saintc",
   "creator_name": "saintc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 220,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

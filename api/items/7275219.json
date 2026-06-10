@@ -1,6 +1,5 @@
 {
   "item_id": "7275219",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7275219",
   "title": "【8アバター対応】涼暮の高原ワンピース -K...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "first-trimester",
   "creator_name": "first-trimester",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

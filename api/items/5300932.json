@@ -1,6 +1,5 @@
 {
   "item_id": "5300932",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5300932",
   "title": "【複数アバター対応】オリエンタルパンツドレス",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "a01koromo",
   "creator_name": "a01koromo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "ズボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

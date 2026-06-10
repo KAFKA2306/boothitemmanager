@@ -1,6 +1,5 @@
 {
   "item_id": "4152829",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4152829",
   "title": "【無料・感謝品】お散歩リード紐付き首輪 - ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rdt",
   "creator_name": "rdt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

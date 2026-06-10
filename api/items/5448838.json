@@ -1,6 +1,5 @@
 {
   "item_id": "5448838",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5448838",
   "title": "[MINASE,KOMANO] WINTER...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "lopang",
   "creator_name": "lopang",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

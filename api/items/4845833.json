@@ -1,6 +1,5 @@
 {
   "item_id": "4845833",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4845833",
   "title": "【VRChat】森羅専用 サンダルブーツ 2...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "elesato",
   "creator_name": "elesato",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
@@ -26,5 +41,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

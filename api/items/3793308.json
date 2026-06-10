@@ -1,6 +1,5 @@
 {
   "item_id": "3793308",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3793308",
   "title": "【桔梗用】萌袖水着パーカー",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "shurishuri",
   "creator_name": "shurishuri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー",
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -26,5 +41,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

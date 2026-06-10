@@ -1,6 +1,5 @@
 {
   "item_id": "7003017",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7003017",
   "title": "simple dress - summer -",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yikashop",
   "creator_name": "yikashop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

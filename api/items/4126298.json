@@ -1,6 +1,5 @@
 {
   "item_id": "4126298",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4126298",
   "title": "Sport and Lace Swimsui...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "qrochairo",
   "creator_name": "qrochairo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

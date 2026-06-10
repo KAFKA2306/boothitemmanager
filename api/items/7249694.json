@@ -1,6 +1,5 @@
 {
   "item_id": "7249694",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7249694",
   "title": "【PB付き！】夏祭りイヤリング",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "harusamenozakka",
   "creator_name": "harusamenozakka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

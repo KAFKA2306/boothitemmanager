@@ -1,6 +1,5 @@
 {
   "item_id": "7679764",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7679764",
   "title": "Milltina Police Armor",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "milpix",
   "creator_name": "milpix",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "アーマー",
-    "警察官"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "アーマー",
+      "警察官"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "8060654",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8060654",
   "title": "狐と桜のタトゥー 14アバター対応[VRC想...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "jingaikobai",
   "creator_name": "jingaikobai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

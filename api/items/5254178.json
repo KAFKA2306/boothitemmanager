@@ -1,6 +1,5 @@
 {
   "item_id": "5254178",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5254178",
   "title": "[シャロ対応]rope and socks ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "fufu123",
   "creator_name": "fufu123",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

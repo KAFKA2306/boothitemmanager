@@ -1,6 +1,5 @@
 {
   "item_id": "4697928",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4697928",
   "title": "★FREE 萌 Moe eye",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "kingsoap",
   "creator_name": "kingsoap",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

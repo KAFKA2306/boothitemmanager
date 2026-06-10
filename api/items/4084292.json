@@ -1,6 +1,5 @@
 {
   "item_id": "4084292",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4084292",
   "title": "【無料】ワンちゃんネイル For Maya",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "saebyeog3si",
   "creator_name": "saebyeog3si",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

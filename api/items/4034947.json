@@ -1,6 +1,5 @@
 {
   "item_id": "4034947",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4034947",
   "title": "ショートブーツ【桔梗想定　レザー/スウェード】",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "selectshop",
   "creator_name": "selectshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア",
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア",
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

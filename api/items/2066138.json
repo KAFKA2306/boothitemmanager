@@ -1,6 +1,5 @@
 {
   "item_id": "2066138",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2066138",
   "title": "「京狐さん」用衣装　ブラウス＋ショートパンツ...",
   "description": "",
@@ -8,16 +7,31 @@
   "creator_id": "abeno2525",
   "creator_name": "abeno2525",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートパンツ",
-    "ブラウス",
-    "ズボン",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ショートパンツ",
+      "ブラウス",
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

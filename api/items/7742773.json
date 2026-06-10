@@ -1,6 +1,5 @@
 {
   "item_id": "7742773",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7742773",
   "title": "【VRCHAT】🌈LUCKY 7+one🌈 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "9am",
   "creator_name": "9am",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

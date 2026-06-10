@@ -1,6 +1,5 @@
 {
   "item_id": "4369923",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4369923",
   "title": "[20モデル対応]衣装モデル『サンタビキニマ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "snowlight0102",
   "creator_name": "snowlight0102",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

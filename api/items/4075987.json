@@ -1,6 +1,5 @@
 {
   "item_id": "4075987",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4075987",
   "title": "【#VRoid】メンズジャケット/スーツ/ブ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "wonderfulp",
   "creator_name": "wonderfulp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "ジャケット"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ",
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

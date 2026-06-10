@@ -1,6 +1,5 @@
 {
   "item_id": "4723267",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4723267",
   "title": "「伝説の武器」Twin Crossbows ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "okaeri-shop",
   "creator_name": "okaeri-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1450,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

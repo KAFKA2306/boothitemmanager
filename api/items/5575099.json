@@ -1,6 +1,5 @@
 {
   "item_id": "5575099",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5575099",
   "title": "[ModularAvatar専用]IntPa...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "raitichan",
   "creator_name": "raitichan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4603584",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4603584",
   "title": "Mermaid ears & tail",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "jjongsaebyeok",
   "creator_name": "jjongsaebyeok",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 360,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

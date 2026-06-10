@@ -1,6 +1,5 @@
 {
   "item_id": "6592462",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6592462",
   "title": "音が鳴る!召喚できる!拍手&指パッチン【Mo...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "3dengineer",
   "creator_name": "3dengineer",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1000,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

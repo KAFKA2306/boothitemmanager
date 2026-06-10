@@ -1,6 +1,5 @@
 {
   "item_id": "6730107",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6730107",
   "title": "✨4アバター対応✨   🌸Sunlit Gr...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "balgu",
   "creator_name": "balgu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

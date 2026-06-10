@@ -1,6 +1,5 @@
 {
   "item_id": "5068008",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5068008",
   "title": "簡単導入◇マヌカ専用◇アンダーウェア　 テク...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "usagi88",
   "creator_name": "usagi88",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

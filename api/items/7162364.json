@@ -1,6 +1,5 @@
 {
   "item_id": "7162364",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7162364",
   "title": "【27アバター対応】夏色フリル水着",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "konohanashop",
   "creator_name": "konohanashop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "水着"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

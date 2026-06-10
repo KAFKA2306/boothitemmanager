@@ -1,6 +1,5 @@
 {
   "item_id": "4597366",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4597366",
   "title": "猫耳ショート",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "catman",
   "creator_name": "catman",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "猫耳",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [
+      "猫耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

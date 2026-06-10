@@ -1,6 +1,5 @@
 {
   "item_id": "7773822",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7773822",
   "title": "【無料】サンタドレス - Santa Dre...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "yorunogensoukan",
   "creator_name": "yorunogensoukan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

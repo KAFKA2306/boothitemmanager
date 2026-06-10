@@ -1,6 +1,5 @@
 {
   "item_id": "5296976",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5296976",
   "title": "「竜胆」ゴシック | Rindo Ghoti...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kouklaspizzas",
   "creator_name": "kouklaspizzas",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

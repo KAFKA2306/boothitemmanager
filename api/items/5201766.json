@@ -1,6 +1,5 @@
 {
   "item_id": "5201766",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5201766",
   "title": "【腕時計付き 水瀬＋桔梗用、非対応着せ替え】...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "maple-lifestyle",
   "creator_name": "maple-lifestyle",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

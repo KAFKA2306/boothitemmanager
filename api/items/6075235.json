@@ -1,6 +1,5 @@
 {
   "item_id": "6075235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6075235",
   "title": "ふんわり三つ編みお団子つけ毛セット",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "746bunny",
   "creator_name": "746bunny",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6671658",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6671658",
   "title": "✨NERDY✨[20 Avatars] Ri...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "darlingvrc",
   "creator_name": "darlingvrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1290,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6761499",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6761499",
   "title": "【アズキ専用】なでなで・ケモミミ掴み　表情システム",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "amingu",
   "creator_name": "amingu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 400,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

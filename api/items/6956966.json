@@ -1,6 +1,5 @@
 {
   "item_id": "6956966",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6956966",
   "title": "Horns Ear & 猫又尻尾",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "catnapping",
   "creator_name": "catnapping",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾",
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "尻尾",
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

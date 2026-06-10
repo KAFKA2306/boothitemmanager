@@ -1,6 +1,5 @@
 {
   "item_id": "6923133",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6923133",
   "title": "+Shinano+ Addiction Pl...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "hi-mi-tsu",
   "creator_name": "hi-mi-tsu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

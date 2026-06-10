@@ -1,6 +1,5 @@
 {
   "item_id": "6110278",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6110278",
   "title": "【マヌカ】リボンセラ - Ribbon Sera",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "ha-ru-on",
   "creator_name": "ha-ru-on",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

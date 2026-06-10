@@ -1,6 +1,5 @@
 {
   "item_id": "2812364",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2812364",
   "title": "ツインロングリボン【Dynamic Bone...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "miarestore",
   "creator_name": "miarestore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "ツイン",
-    "リボン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ロング",
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5314304",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5314304",
   "title": "『萌向け』でかいうさパーカー BIG RAB...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "necoroid",
   "creator_name": "necoroid",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

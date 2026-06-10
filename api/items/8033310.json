@@ -1,6 +1,5 @@
 {
   "item_id": "8033310",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8033310",
   "title": "【森羅/Shinra】森羅メイクNo.3【M...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "nonbirineko",
   "creator_name": "nonbirineko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

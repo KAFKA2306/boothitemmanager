@@ -1,6 +1,5 @@
 {
   "item_id": "6300022",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6300022",
   "title": "≪VRC想定≫　fur付きモフモフブーツ w...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "bami3000",
   "creator_name": "bami3000",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

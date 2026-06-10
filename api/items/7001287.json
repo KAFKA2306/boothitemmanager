@@ -1,6 +1,5 @@
 {
   "item_id": "7001287",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7001287",
   "title": "Secret Armory(隠し武器庫)【V...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sagan6c",
   "creator_name": "sagan6c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "アーマー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "アーマー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

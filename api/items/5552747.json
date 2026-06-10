@@ -1,6 +1,5 @@
 {
   "item_id": "5552747",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5552747",
   "title": "【無料/FREE】肉球アクセ【3Dモデル】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mameyasan",
   "creator_name": "mameyasan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

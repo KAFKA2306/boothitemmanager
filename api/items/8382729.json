@@ -1,6 +1,5 @@
 {
   "item_id": "8382729",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8382729",
   "title": "【角＆尻尾】Levia Cluster【VR...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "zuuuuu",
   "creator_name": "zuuuuu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾",
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "尻尾",
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

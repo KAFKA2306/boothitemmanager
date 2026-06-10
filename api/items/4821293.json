@@ -1,6 +1,5 @@
 {
   "item_id": "4821293",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4821293",
   "title": "【8アバター対応】衣装モデル『セーラージャージ』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pii34",
   "creator_name": "pii34",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

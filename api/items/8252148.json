@@ -1,6 +1,5 @@
 {
   "item_id": "8252148",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8252148",
   "title": "【PB】【17アバター対応】 Noctra ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "rumicloset",
   "creator_name": "rumicloset",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

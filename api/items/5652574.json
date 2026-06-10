@@ -1,6 +1,5 @@
 {
   "item_id": "5652574",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5652574",
   "title": "[Sio / Manuka / Kikyo ...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "chunidream",
   "creator_name": "chunidream",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +40,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

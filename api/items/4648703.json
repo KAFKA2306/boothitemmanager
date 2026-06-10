@@ -1,6 +1,5 @@
 {
   "item_id": "4648703",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4648703",
   "title": "【桔梗,舞夜,Grus対応】ラインジャージ ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "intercat",
   "creator_name": "intercat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

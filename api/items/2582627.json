@@ -1,6 +1,5 @@
 {
   "item_id": "2582627",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2582627",
   "title": "狐雪ちゃん用衣装 「もふもふショートパンツ」",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "koarare-atelier",
   "creator_name": "koarare-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートパンツ",
-    "ズボン",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ショートパンツ",
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6540631",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6540631",
   "title": "【9アバター対応】Angel Punk",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "meltyheart7",
   "creator_name": "meltyheart7",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

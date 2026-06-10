@@ -1,6 +1,5 @@
 {
   "item_id": "7028682",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7028682",
   "title": "【VRC想定タトゥー】魔眼ステンシル【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "cambiria-mfg",
   "creator_name": "cambiria-mfg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

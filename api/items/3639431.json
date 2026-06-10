@@ -1,6 +1,5 @@
 {
   "item_id": "3639431",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3639431",
   "title": "[Grus] casual suit_( B...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "shrekm0n",
   "creator_name": "shrekm0n",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

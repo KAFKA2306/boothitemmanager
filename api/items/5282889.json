@@ -1,6 +1,5 @@
 {
   "item_id": "5282889",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5282889",
   "title": "【無料】へとへとくたくたな表情8個セット【マ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "orthoalt",
   "creator_name": "orthoalt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

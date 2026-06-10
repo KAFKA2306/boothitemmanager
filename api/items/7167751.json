@@ -1,6 +1,5 @@
 {
   "item_id": "7167751",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7167751",
   "title": "新マテリアル追加！タマクラゲ専用マテリアル＆...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "piyo-jiyu-crafts",
   "creator_name": "piyo-jiyu-crafts",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

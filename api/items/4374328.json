@@ -1,6 +1,5 @@
 {
   "item_id": "4374328",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4374328",
   "title": "【VRC想定】ゴシック調の天使の輪（アニメー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "littlesilky",
   "creator_name": "littlesilky",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

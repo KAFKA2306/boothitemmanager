@@ -1,6 +1,5 @@
 {
   "item_id": "7367171",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7367171",
   "title": "【3Dモデル】 拳銃 \"ファントムトリガー\"...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "ryzexe7",
   "creator_name": "ryzexe7",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

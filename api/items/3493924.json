@@ -1,6 +1,5 @@
 {
   "item_id": "3493924",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3493924",
   "title": "[VRCHAT]竜胆_Z69ワンピース(PB)",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "as025886",
   "creator_name": "as025886",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4196439",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4196439",
   "title": "【碼希-まき-】ロングカーディガン",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kana3107",
   "creator_name": "kana3107",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "カーディガン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [
+      "カーディガン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

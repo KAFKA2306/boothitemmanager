@@ -1,6 +1,5 @@
 {
   "item_id": "4678277",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4678277",
   "title": "Gothic Summer Outfit (...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "kouklaspizzas",
   "creator_name": "kouklaspizzas",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック",
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

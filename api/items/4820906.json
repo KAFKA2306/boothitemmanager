@@ -1,6 +1,5 @@
 {
   "item_id": "4820906",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4820906",
   "title": "【中華風】倒福イヤリング (dao fu e...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "waruo-tokage",
   "creator_name": "waruo-tokage",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

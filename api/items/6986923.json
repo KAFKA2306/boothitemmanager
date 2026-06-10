@@ -1,6 +1,5 @@
 {
   "item_id": "6986923",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6986923",
   "title": "【無料20Pose】ポンコツメイドポーズ集【...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "atelier-kakeru",
   "creator_name": "atelier-kakeru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

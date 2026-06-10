@@ -1,6 +1,5 @@
 {
   "item_id": "6184759",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6184759",
   "title": "MermaidDress-マーメイドドレス-...",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "usagi88",
   "creator_name": "usagi88",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ドレス",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

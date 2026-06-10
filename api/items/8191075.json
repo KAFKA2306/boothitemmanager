@@ -1,6 +1,5 @@
 {
   "item_id": "8191075",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8191075",
   "title": "【VRChat向け】Preppy_look【...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "macro0622",
   "creator_name": "macro0622",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 990,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

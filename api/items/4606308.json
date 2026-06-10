@@ -1,6 +1,5 @@
 {
   "item_id": "4606308",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4606308",
   "title": "【Grus対応】ボストンメガネ【3Dモデル】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "u-uzzz",
   "creator_name": "u-uzzz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

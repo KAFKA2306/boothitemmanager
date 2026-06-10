@@ -1,6 +1,5 @@
 {
   "item_id": "6201154",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6201154",
   "title": "【VRChat想定】風防付きクラシックサングラス",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "atsun1911",
   "creator_name": "atsun1911",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

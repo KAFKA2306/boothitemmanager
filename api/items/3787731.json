@@ -1,6 +1,5 @@
 {
   "item_id": "3787731",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3787731",
   "title": "【無料】シンプル家具セット72点（Unity...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tokyosealcenter",
   "creator_name": "tokyosealcenter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

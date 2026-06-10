@@ -1,6 +1,5 @@
 {
   "item_id": "6125282",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6125282",
   "title": "Shinano Oni Tattoos 入れ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "vinzo",
   "creator_name": "vinzo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

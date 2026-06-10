@@ -1,6 +1,5 @@
 {
   "item_id": "6033725",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6033725",
   "title": "【rurune/ルルネ対応】ネイルテクスチャ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "38kankan",
   "creator_name": "38kankan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

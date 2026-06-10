@@ -1,6 +1,5 @@
 {
   "item_id": "4778847",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4778847",
   "title": "【ますきゃっと向け】MPATP-v1「多目的...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tububam",
   "creator_name": "tububam",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

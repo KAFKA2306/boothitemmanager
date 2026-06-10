@@ -1,6 +1,5 @@
 {
   "item_id": "6918541",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6918541",
   "title": "縛鎖の穢翼 タトゥー 17アバター対応[VR...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "jingaikobai",
   "creator_name": "jingaikobai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼",
-    "タトゥー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "翼",
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2379999",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2379999",
   "title": "【廃止】無料★アバターの頭の穴を縮めるやつ ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "chigiri",
   "creator_name": "chigiri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6242618",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6242618",
   "title": "冬の愛 & Bow scarf_PB🧣【3D...",
   "description": "",
@@ -8,19 +7,38 @@
   "creator_id": "vrchatlove",
   "creator_name": "vrchatlove",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "マフラー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

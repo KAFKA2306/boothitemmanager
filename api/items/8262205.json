@@ -1,6 +1,5 @@
 {
   "item_id": "8262205",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8262205",
   "title": "【Free/無料】シンプル少年セーラー服【＋...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "uta-vr",
   "creator_name": "uta-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3884797",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3884797",
   "title": "Karin Galaxy Texture",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mooniez",
   "creator_name": "mooniez",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

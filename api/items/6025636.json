@@ -1,6 +1,5 @@
 {
   "item_id": "6025636",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6025636",
   "title": "NEUTRON-EW1【翼型電子戦システム】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tububam",
   "creator_name": "tububam",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

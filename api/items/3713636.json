@@ -1,6 +1,5 @@
 {
   "item_id": "3713636",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3713636",
   "title": "【VRCワールド用ドリンク＆ギミック】Eff...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mitsuki-monooki",
   "creator_name": "mitsuki-monooki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

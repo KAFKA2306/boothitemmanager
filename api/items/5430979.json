@@ -1,6 +1,5 @@
 {
   "item_id": "5430979",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5430979",
   "title": "『11アバター対応』 Ame Sweater",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "torp3434",
   "creator_name": "torp3434",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

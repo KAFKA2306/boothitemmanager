@@ -1,6 +1,5 @@
 {
   "item_id": "3608458",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3608458",
   "title": "[3Dモデル] 韓服ドレス 한복드레스 Ha...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tadanojust",
   "creator_name": "tadanojust",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 3000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

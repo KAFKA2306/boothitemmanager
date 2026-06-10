@@ -1,6 +1,5 @@
 {
   "item_id": "6671489",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6671489",
   "title": "🦈【ルルネ】尻尾beltアクセ【VRChat】",
   "description": "",
@@ -8,20 +7,36 @@
   "creator_id": "granchiochanshop",
   "creator_name": "granchiochanshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "尻尾",
-    "ベルト"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "尻尾",
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

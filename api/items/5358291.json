@@ -1,6 +1,5 @@
 {
   "item_id": "5358291",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5358291",
   "title": "[SELESTIA, MANUKA] SAN...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "xdtox",
   "creator_name": "xdtox",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +40,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

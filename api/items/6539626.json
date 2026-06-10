@@ -1,6 +1,5 @@
 {
   "item_id": "6539626",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6539626",
   "title": "10アバター対応「開花 E.G.O::白鯨」",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "koarare-atelier",
   "creator_name": "koarare-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5363869",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5363869",
   "title": "🖤 Melling \" Shiny Wave...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mellia",
   "creator_name": "mellia",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

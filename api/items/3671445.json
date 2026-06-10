@@ -1,6 +1,5 @@
 {
   "item_id": "3671445",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3671445",
   "title": "【RINDO竜胆】セクシーな革のスーツ❤2色...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sakatayu",
   "creator_name": "sakatayu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

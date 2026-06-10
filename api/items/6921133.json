@@ -1,6 +1,5 @@
 {
   "item_id": "6921133",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6921133",
   "title": "【３アバター対応】ふわもこローツイン【PB設定済】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "mochinokoshop",
   "creator_name": "mochinokoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

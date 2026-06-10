@@ -1,6 +1,5 @@
 {
   "item_id": "2485734",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2485734",
   "title": "【#VRoid】秋冬のマフラー２４種【正式版...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "wonderfulp",
   "creator_name": "wonderfulp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "マフラー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

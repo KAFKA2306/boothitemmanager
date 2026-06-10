@@ -1,6 +1,5 @@
 {
   "item_id": "7050727",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7050727",
   "title": "【無料FREE】サマーフラワーズドレス🌼【ブ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tekona0",
   "creator_name": "tekona0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

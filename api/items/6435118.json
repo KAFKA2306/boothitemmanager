@@ -1,6 +1,5 @@
 {
   "item_id": "6435118",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6435118",
   "title": "【無料】着物・和服向けポーズアニメーション",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "meronfarm",
   "creator_name": "meronfarm",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装",
-    "着物"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6541494",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6541494",
   "title": "コズミックうさちゃん【 ニットパーカー 】【...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "hamanosis",
   "creator_name": "hamanosis",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー",
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

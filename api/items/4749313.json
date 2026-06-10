@@ -1,6 +1,5 @@
 {
   "item_id": "4749313",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4749313",
   "title": "【桔梗,萌,Emmelie対応】スポーツウェ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "intercat",
   "creator_name": "intercat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

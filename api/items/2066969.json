@@ -1,6 +1,5 @@
 {
   "item_id": "2066969",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2066969",
   "title": "ドシンプルレザーブレスレット（4色テクスチャ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ikshop",
   "creator_name": "ikshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブレスレット"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ブレスレット"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

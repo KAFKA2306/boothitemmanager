@@ -1,6 +1,5 @@
 {
   "item_id": "6421049",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6421049",
   "title": "Yumi Bow System for av...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "melting",
   "creator_name": "melting",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 900,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

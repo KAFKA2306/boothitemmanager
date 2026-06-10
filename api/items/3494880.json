@@ -1,6 +1,5 @@
 {
   "item_id": "3494880",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3494880",
   "title": "[3Dモデル]冬のジャケットの衣装(Rind...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kainrypus",
   "creator_name": "kainrypus",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

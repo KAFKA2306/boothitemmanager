@@ -1,6 +1,5 @@
 {
   "item_id": "4007364",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4007364",
   "title": "UnityHumanoidに一発で通るボーン...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "mask3dcg",
   "creator_name": "mask3dcg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 150,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

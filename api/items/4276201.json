@@ -1,6 +1,5 @@
 {
   "item_id": "4276201",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4276201",
   "title": "【3Dモデル】動くチェーンソーMoving ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "justperson",
   "creator_name": "justperson",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7041235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7041235",
   "title": "【10アバター対応】カジュアル制服コーデ+ヘ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "attochan",
   "creator_name": "attochan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

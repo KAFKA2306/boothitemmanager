@@ -1,6 +1,5 @@
 {
   "item_id": "8058513",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8058513",
   "title": "Idol Suit - WS",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yikashop",
   "creator_name": "yikashop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

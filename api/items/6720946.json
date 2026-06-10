@@ -1,6 +1,5 @@
 {
   "item_id": "6720946",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6720946",
   "title": "【MA対応】真冬(Mafuyu)用尻尾ベルト...",
   "description": "",
@@ -8,20 +7,39 @@
   "creator_id": "penguin-factory",
   "creator_name": "penguin-factory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "尻尾",
-    "ベルト"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "尻尾",
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

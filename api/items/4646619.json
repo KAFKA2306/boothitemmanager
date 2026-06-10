@@ -1,6 +1,5 @@
 {
   "item_id": "4646619",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4646619",
   "title": "【24アバター対応+テクスチャ60枚】ダサTシャツ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kotonaka1",
   "creator_name": "kotonaka1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

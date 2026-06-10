@@ -1,6 +1,5 @@
 {
   "item_id": "4441222",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4441222",
   "title": "3Dモデル タートルネックセーター&黒マスク...",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "hakusivrc",
   "creator_name": "hakusivrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "黒",
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

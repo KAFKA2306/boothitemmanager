@@ -1,6 +1,5 @@
 {
   "item_id": "6976379",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6976379",
   "title": "♡【無料/FREE】 ♡しなのちゃんがぺろぺ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mimi331mi",
   "creator_name": "mimi331mi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

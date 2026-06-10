@@ -1,6 +1,5 @@
 {
   "item_id": "4235719",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4235719",
   "title": "【💖セール中💖】【桔梗・萌・閃花・しなの・...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "qukumu-closet",
   "creator_name": "qukumu-closet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -27,5 +43,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

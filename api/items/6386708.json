@@ -1,6 +1,5 @@
 {
   "item_id": "6386708",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6386708",
   "title": "アバター透明化/光学迷彩素材〈Stealth...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nenelle",
   "creator_name": "nenelle",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ティール"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ティール"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

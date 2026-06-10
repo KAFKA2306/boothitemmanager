@@ -1,6 +1,5 @@
 {
   "item_id": "6095869",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6095869",
   "title": "💎Marine Blue Bikini マ...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "hatsuyukikuma",
   "creator_name": "hatsuyukikuma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "青"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "青"
+    ],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

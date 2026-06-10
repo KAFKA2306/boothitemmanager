@@ -1,6 +1,5 @@
 {
   "item_id": "6501180",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6501180",
   "title": "Basic05 Simple Winter ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "takefox-vrts",
   "creator_name": "takefox-vrts",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

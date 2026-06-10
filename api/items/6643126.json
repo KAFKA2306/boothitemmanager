@@ -1,6 +1,5 @@
 {
   "item_id": "6643126",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6643126",
   "title": "【マヌカ対応】近づくと消える！目隠しアイマスク",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "mochinokoshop",
   "creator_name": "mochinokoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

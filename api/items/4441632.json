@@ -1,6 +1,5 @@
 {
   "item_id": "4441632",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4441632",
   "title": "[FBX] 被り笠／角笠（サイバー・侍）🪙",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "rxf",
   "creator_name": "rxf",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 210,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

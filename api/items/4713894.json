@@ -1,6 +1,5 @@
 {
   "item_id": "4713894",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4713894",
   "title": "ハーバリウムなガスマスク [for桔梗]",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "portfolio-nasuta",
   "creator_name": "portfolio-nasuta",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

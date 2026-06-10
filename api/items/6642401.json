@@ -1,6 +1,5 @@
 {
   "item_id": "6642401",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6642401",
   "title": "【無料】ｴｯﾎｴｯﾎ　メンフクロウの赤ちゃん",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kazane-fbx",
   "creator_name": "kazane-fbx",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 0,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

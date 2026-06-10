@@ -1,6 +1,5 @@
 {
   "item_id": "3478295",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3478295",
   "title": "VRC向けアイテクスチャ 星雲イメージ 38...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mumumumum",
   "creator_name": "mumumumum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7262320",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7262320",
   "title": "Aluéアルエ専用◇メイク＆銀河の瞳テクスチ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "usagi88",
   "creator_name": "usagi88",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀",
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 350,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

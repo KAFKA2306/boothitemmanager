@@ -1,6 +1,5 @@
 {
   "item_id": "7622359",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7622359",
   "title": "【18アバター対応】♡2WAY TWINTAIL♡",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "killnya",
   "creator_name": "killnya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "尻尾"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

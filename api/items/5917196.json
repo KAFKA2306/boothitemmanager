@@ -1,6 +1,5 @@
 {
   "item_id": "5917196",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5917196",
   "title": "【MA対応】三種あり！猫耳ゴシックツインテール",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "pasapasapasako",
   "creator_name": "pasapasapasako",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "猫耳",
-    "ゴシック"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン",
+      "猫耳",
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

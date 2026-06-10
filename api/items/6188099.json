@@ -1,6 +1,5 @@
 {
   "item_id": "6188099",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6188099",
   "title": "【無料】汎用 デザインTシャツ【画像変更可能】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nigh-sigh",
   "creator_name": "nigh-sigh",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

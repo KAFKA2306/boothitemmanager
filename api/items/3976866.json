@@ -1,6 +1,5 @@
 {
   "item_id": "3976866",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3976866",
   "title": "【無料】【桔梗対応】白いワンピースと帽子",
   "description": "",
@@ -8,20 +7,38 @@
   "creator_id": "potatoshop",
   "creator_name": "potatoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース",
-    "白",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

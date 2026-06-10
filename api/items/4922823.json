@@ -1,6 +1,5 @@
 {
   "item_id": "4922823",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4922823",
   "title": "サマービキニ",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "foiv",
   "creator_name": "foiv",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

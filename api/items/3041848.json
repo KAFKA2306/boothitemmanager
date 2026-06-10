@@ -1,6 +1,5 @@
 {
   "item_id": "3041848",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3041848",
   "title": "ロールツイン【ヴァニーユ対応髪型】【VRCh...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kuroinyan",
   "creator_name": "kuroinyan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 2000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

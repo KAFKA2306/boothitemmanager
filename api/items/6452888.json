@@ -1,6 +1,5 @@
 {
   "item_id": "6452888",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6452888",
   "title": "【CRUELTHORNS】薔薇のピアス　Ma...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "tasoremi",
   "creator_name": "tasoremi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング",
-    "角"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング",
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

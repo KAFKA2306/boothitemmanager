@@ -1,6 +1,5 @@
 {
   "item_id": "5890905",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5890905",
   "title": "【無料】《マヌカ専用》Summer　time...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "yasai-ofmine",
   "creator_name": "yasai-ofmine",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

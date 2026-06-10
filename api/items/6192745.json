@@ -1,6 +1,5 @@
 {
   "item_id": "6192745",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6192745",
   "title": "【24アバター対応】Winter Velve...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ramrabbit",
   "creator_name": "ramrabbit",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

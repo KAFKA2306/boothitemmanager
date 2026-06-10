@@ -1,6 +1,5 @@
 {
   "item_id": "6641745",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6641745",
   "title": "イオ・ドラゴニュート IO Dragonew...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rls-house",
   "creator_name": "rls-house",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 4000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

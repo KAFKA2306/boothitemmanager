@@ -1,6 +1,5 @@
 {
   "item_id": "5361885",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5361885",
   "title": "SKMZ【しなの・ミルフィ・ミルティナ・桔梗...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "inani",
   "creator_name": "inani",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

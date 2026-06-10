@@ -1,6 +1,5 @@
 {
   "item_id": "5365336",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5365336",
   "title": "【複数アバター対応】流行りのセーター【胸最大値！】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rdt",
   "creator_name": "rdt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

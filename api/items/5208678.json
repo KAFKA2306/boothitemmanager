@@ -1,6 +1,5 @@
 {
   "item_id": "5208678",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5208678",
   "title": "マヌカ-Manuka_ぐるぐるあいてくすちゃ♡",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "usagi-k11",
   "creator_name": "usagi-k11",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3655960",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3655960",
   "title": "【半ポニーテールロングヘア】 VRC用 ha...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "neru0606",
   "creator_name": "neru0606",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6500414",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6500414",
   "title": "【無料】ストッキング用Matcap/Matc...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "caffeine-union",
   "creator_name": "caffeine-union",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4444469",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4444469",
   "title": "カジノバニーB<まるぼでぃ/INABA/桔梗...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "tr-96c",
   "creator_name": "tr-96c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "INABA"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "INABA"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

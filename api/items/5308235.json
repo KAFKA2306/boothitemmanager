@@ -1,6 +1,5 @@
 {
   "item_id": "5308235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5308235",
   "title": "Comfy Winter Sweater /...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "raujinn",
   "creator_name": "raujinn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

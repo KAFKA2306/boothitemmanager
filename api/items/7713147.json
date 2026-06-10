@@ -1,6 +1,5 @@
 {
   "item_id": "7713147",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7713147",
   "title": "処刑人のケープ(FBX / unitypac...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "duss",
   "creator_name": "duss",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ケープ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 430,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ケープ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5319422",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5319422",
   "title": "【13アバター】爽やかショートヘア -Saw...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "foxpunch",
   "creator_name": "foxpunch",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4268560",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4268560",
   "title": "[ Flower_Nail ] _Selestia",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "balgu",
   "creator_name": "balgu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

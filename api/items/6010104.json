@@ -1,6 +1,5 @@
 {
   "item_id": "6010104",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6010104",
   "title": "【複数アバター対応】ねこみみヘッドフォン【簡...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yorunekocat",
   "creator_name": "yorunekocat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "猫耳"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "猫耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

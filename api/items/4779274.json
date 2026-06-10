@@ -1,6 +1,5 @@
 {
   "item_id": "4779274",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4779274",
   "title": "Simple Clothes【桔梗 マヌカ ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "inani",
   "creator_name": "inani",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

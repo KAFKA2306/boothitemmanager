@@ -1,6 +1,5 @@
 {
   "item_id": "7107453",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7107453",
   "title": "【3Dワールド・環境】天の川SkyBoxマテリアル",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "onecoin50",
   "creator_name": "onecoin50",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 125,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

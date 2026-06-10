@@ -1,6 +1,5 @@
 {
   "item_id": "6644854",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6644854",
   "title": "【VRChat想定】JKポーズセット：一部無...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "umino-iwashi",
   "creator_name": "umino-iwashi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

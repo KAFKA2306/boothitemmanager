@@ -1,6 +1,5 @@
 {
   "item_id": "5696332",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5696332",
   "title": "【PB】【 6アバター対応】 忍者妄想着物 ...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "overay",
   "creator_name": "overay",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "着物"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

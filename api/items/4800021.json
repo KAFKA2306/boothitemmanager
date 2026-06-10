@@ -1,6 +1,5 @@
 {
   "item_id": "4800021",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4800021",
   "title": "痛バッグ＆ロゼット セット/ItaBag &...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "a-llama-alpaca",
   "creator_name": "a-llama-alpaca",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

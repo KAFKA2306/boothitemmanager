@@ -1,6 +1,5 @@
 {
   "item_id": "6267591",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6267591",
   "title": "【VRoid 髪型 - Hairstyle ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "jessairartshop",
   "creator_name": "jessairartshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

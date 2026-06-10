@@ -1,6 +1,5 @@
 {
   "item_id": "4408486",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4408486",
   "title": "[桔梗用]Leather See-through",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "sarasapen",
   "creator_name": "sarasapen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

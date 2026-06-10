@@ -1,6 +1,5 @@
 {
   "item_id": "4674434",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4674434",
   "title": "【47アバター対応】3D衣装✿はるいろパーカー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "irodoriclothing",
   "creator_name": "irodoriclothing",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

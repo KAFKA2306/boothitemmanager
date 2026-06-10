@@ -1,6 +1,5 @@
 {
   "item_id": "4725004",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4725004",
   "title": "歩行モーション_セクシー(Walkcycle...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "moca-studio",
   "creator_name": "moca-studio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5444845",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5444845",
   "title": "【3Dモデル】湊渚（みお） -Mio- ＜V...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "dm-avatar",
   "creator_name": "dm-avatar",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 36000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

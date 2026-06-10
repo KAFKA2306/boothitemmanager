@@ -1,6 +1,5 @@
 {
   "item_id": "4458208",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4458208",
   "title": "【無料】SilverRing",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "trimart",
   "creator_name": "trimart",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2581293",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2581293",
   "title": "【無料】冬用マフラー",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kwcon",
   "creator_name": "kwcon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "マフラー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

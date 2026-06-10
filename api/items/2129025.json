@@ -1,6 +1,5 @@
 {
   "item_id": "2129025",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2129025",
   "title": "サイバー風なサングラス【レナ・カクテル向け調...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "pianna",
   "creator_name": "pianna",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5663868",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5663868",
   "title": "髪の毛みたいなケモ耳とよくわからないおまけの尻尾",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "menher",
   "creator_name": "menher",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

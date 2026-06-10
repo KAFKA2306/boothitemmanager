@@ -1,6 +1,5 @@
 {
   "item_id": "8356904",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8356904",
   "title": "Allure Layered Hair【7ア...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "umiyamaru",
   "creator_name": "umiyamaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 690,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

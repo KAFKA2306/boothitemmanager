@@ -1,6 +1,5 @@
 {
   "item_id": "7289296",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7289296",
   "title": "✩ ₊『いますぐ輪廻』魔法の杖_Magic ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "lunacharge",
   "creator_name": "lunacharge",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

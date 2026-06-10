@@ -1,6 +1,5 @@
 {
   "item_id": "6007385",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6007385",
   "title": "Hair tie - for Cygnet ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "plus-works",
   "creator_name": "plus-works",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

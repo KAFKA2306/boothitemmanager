@@ -1,6 +1,5 @@
 {
   "item_id": "4307697",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4307697",
   "title": "[Casual Yukata] - 桔梗 K...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "eliya",
   "creator_name": "eliya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "浴衣"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "浴衣"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

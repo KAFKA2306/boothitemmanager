@@ -1,6 +1,5 @@
 {
   "item_id": "7403663",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7403663",
   "title": "ロングレイヤーヘア・Long layered...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "ioaim",
   "creator_name": "ioaim",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "赤"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

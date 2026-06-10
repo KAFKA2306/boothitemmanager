@@ -1,6 +1,5 @@
 {
   "item_id": "6090004",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6090004",
   "title": "イチゴ追加！ばってんラバースーツ_Vol.2",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sarasapen",
   "creator_name": "sarasapen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

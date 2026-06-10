@@ -1,6 +1,5 @@
 {
   "item_id": "4953756",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4953756",
   "title": "For Manuka ♡ Off-white...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "ineedoxygen",
   "creator_name": "ineedoxygen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

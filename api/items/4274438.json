@@ -1,6 +1,5 @@
 {
   "item_id": "4274438",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4274438",
   "title": "【VRChat用】翼",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "poto99",
   "creator_name": "poto99",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

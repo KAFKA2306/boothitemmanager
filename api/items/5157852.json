@@ -1,6 +1,5 @@
 {
   "item_id": "5157852",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5157852",
   "title": "粛聖!! ロリ神レクイエム☆ Motion",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "vrsuya",
   "creator_name": "vrsuya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

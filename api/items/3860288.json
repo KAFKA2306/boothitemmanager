@@ -1,6 +1,5 @@
 {
   "item_id": "3860288",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3860288",
   "title": "Kikyo『桔梗1.03 PB』例のセーター...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "berovr",
   "creator_name": "berovr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

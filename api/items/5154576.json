@@ -1,6 +1,5 @@
 {
   "item_id": "5154576",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5154576",
   "title": "【萌(Moe)専用】Cyberpunk-Ey...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "no39",
   "creator_name": "no39",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

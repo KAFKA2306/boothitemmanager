@@ -1,6 +1,5 @@
 {
   "item_id": "4201711",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4201711",
   "title": "【7Avatars】SlipDress & ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mspenguinsshop",
   "creator_name": "mspenguinsshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

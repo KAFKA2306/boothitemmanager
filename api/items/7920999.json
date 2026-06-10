@@ -1,6 +1,5 @@
 {
   "item_id": "7920999",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7920999",
   "title": "【男女12体対応】Mole Knit & F...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "beams",
   "creator_name": "beams",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

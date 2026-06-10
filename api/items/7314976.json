@@ -1,6 +1,5 @@
 {
   "item_id": "7314976",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7314976",
   "title": "MaskMaker【簡単にマスク画像を作れる...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "dennokoworks",
   "creator_name": "dennokoworks",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 750,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

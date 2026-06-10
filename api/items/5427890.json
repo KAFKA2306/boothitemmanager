@@ -1,6 +1,5 @@
 {
   "item_id": "5427890",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5427890",
   "title": "【無料】誤握防止機能付き ピックアップ椅子",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "marunekoff",
   "creator_name": "marunekoff",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

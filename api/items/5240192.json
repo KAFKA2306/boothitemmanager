@@ -1,6 +1,5 @@
 {
   "item_id": "5240192",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5240192",
   "title": "【PB】【5アバター対応】 Dr. Maid",
   "description": "",
@@ -8,13 +7,30 @@
   "creator_id": "lucavr",
   "creator_name": "lucavr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone",
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

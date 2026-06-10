@@ -1,6 +1,5 @@
 {
   "item_id": "5201252",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5201252",
   "title": "【仙猫、豺狼対応】シンプルTシャツ【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "sashimaru",
   "creator_name": "sashimaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

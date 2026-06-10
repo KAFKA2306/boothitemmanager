@@ -1,6 +1,5 @@
 {
   "item_id": "6114956",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6114956",
   "title": "『しなの (Shinano)』 Tシャツ＆シ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "torp3434",
   "creator_name": "torp3434",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

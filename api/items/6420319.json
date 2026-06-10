@@ -1,6 +1,5 @@
 {
   "item_id": "6420319",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6420319",
   "title": "【Free!】羊目アイテクスチャ【ルルネ専用 】",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "yoshimoriisa",
   "creator_name": "yoshimoriisa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

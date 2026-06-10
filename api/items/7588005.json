@@ -1,6 +1,5 @@
 {
   "item_id": "7588005",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7588005",
   "title": "▪️6AVA▪️ 𝒟𝓇𝑒𝒶𝓂𝓎 𝒮𝑒𝓇𝑒𝓃𝒶𝒹𝑒",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "chicblanc",
   "creator_name": "chicblanc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

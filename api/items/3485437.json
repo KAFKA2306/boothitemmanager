@@ -1,6 +1,5 @@
 {
   "item_id": "3485437",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3485437",
   "title": "サイバービジュアライザーマスク【オリジナル3...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "blueeyeskou",
   "creator_name": "blueeyeskou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

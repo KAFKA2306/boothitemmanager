@@ -1,6 +1,5 @@
 {
   "item_id": "7574684",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7574684",
   "title": "【まめふれ対応】どんぐり探偵 / Dongu...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "we-are-omame",
   "creator_name": "we-are-omame",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

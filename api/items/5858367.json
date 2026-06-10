@@ -1,6 +1,5 @@
 {
   "item_id": "5858367",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5858367",
   "title": "【8アバター対応】🌸Kitsune_Oni🌸",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "neru0606",
   "creator_name": "neru0606",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 850,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

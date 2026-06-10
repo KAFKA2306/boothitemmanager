@@ -1,6 +1,5 @@
 {
   "item_id": "5091620",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5091620",
   "title": "【VRC】エイリアン誘拐衣装【みなほし/まめ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "wakadamarin",
   "creator_name": "wakadamarin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

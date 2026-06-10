@@ -1,6 +1,5 @@
 {
   "item_id": "6366520",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6366520",
   "title": "しなの タイツ用マテリアル5種+タイツの質感...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "metaspace",
   "creator_name": "metaspace",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

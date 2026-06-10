@@ -1,6 +1,5 @@
 {
   "item_id": "3020795",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3020795",
   "title": "【PB設定付き】「透羽」専用衣装【浴衣】",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "vic",
   "creator_name": "vic",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "浴衣"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "浴衣"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

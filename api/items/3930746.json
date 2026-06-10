@@ -1,6 +1,5 @@
 {
   "item_id": "3930746",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3930746",
   "title": "VRｱﾊﾞﾀｰ「ゴシックドール ナラカ GO...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hy-promenade",
   "creator_name": "hy-promenade",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

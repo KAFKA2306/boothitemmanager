@@ -1,6 +1,5 @@
 {
   "item_id": "3828933",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3828933",
   "title": "フリルビキニ　ルルリア/桔梗/リーファ/あの...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "tr-96c",
   "creator_name": "tr-96c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

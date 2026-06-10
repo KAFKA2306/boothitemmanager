@@ -1,6 +1,5 @@
 {
   "item_id": "4438339",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4438339",
   "title": "【VRchat想定・汎用・PB】天使の羽＆天...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "loveandjewel",
   "creator_name": "loveandjewel",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

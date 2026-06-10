@@ -1,6 +1,5 @@
 {
   "item_id": "5529930",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5529930",
   "title": "【MA対応 • マヌカ(Manuka用】歯列...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "cocoaalice",
   "creator_name": "cocoaalice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

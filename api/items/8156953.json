@@ -1,6 +1,5 @@
 {
   "item_id": "8156953",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8156953",
   "title": "【4アバター対応】✧メルティメイクアップ＆ア...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yutns",
   "creator_name": "yutns",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

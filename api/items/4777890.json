@@ -1,6 +1,5 @@
 {
   "item_id": "4777890",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4777890",
   "title": "[MP][萌/セレスティア]MP COLLE...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "haven",
   "creator_name": "haven",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6131096",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6131096",
   "title": "星辰：御神楽【対応：マヌカ、しなの、愛莉、萌...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "decoranaige",
   "creator_name": "decoranaige",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano",
+      "Manuka",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
@@ -27,5 +43,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

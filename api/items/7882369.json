@@ -1,6 +1,5 @@
 {
   "item_id": "7882369",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7882369",
   "title": "複数アバター対応 Stockings",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chume",
   "creator_name": "chume",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

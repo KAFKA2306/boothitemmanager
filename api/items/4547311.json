@@ -1,6 +1,5 @@
 {
   "item_id": "4547311",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4547311",
   "title": "【セレスティア用】Milk Maid for...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "zaelah",
   "creator_name": "zaelah",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

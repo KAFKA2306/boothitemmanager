@@ -1,6 +1,5 @@
 {
   "item_id": "5327381",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5327381",
   "title": "🖤「狛乃」🤍 Komano Daily Te...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "halex",
   "creator_name": "halex",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5152633",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5152633",
   "title": "メイド風ポーズモーション6種【Unity H...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "it-was-rainy",
   "creator_name": "it-was-rainy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2938677",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2938677",
   "title": "【6種アバター対応】デニムジャケット",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "akachan00",
   "creator_name": "akachan00",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット",
-    "ジーンズ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 690,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット",
+      "ジーンズ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4617361",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4617361",
   "title": "【VRC対応】ギミック付き生活家電セット【単...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kureishi9014",
   "creator_name": "kureishi9014",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3802678",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3802678",
   "title": "[VRCHAT] Maya Cape Dre...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "nytho-th",
   "creator_name": "nytho-th",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ケープ",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ケープ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

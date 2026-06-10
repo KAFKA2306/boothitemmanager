@@ -1,6 +1,5 @@
 {
   "item_id": "6768448",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6768448",
   "title": "【VRChat想定】お茶会ピアス",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "vinca-major-star",
   "creator_name": "vinca-major-star",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶",
-    "帽子",
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

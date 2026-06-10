@@ -1,6 +1,5 @@
 {
   "item_id": "7980461",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7980461",
   "title": "【みみのこ対応】みみコルセット【PB・MA対応】",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "mochinokoshop",
   "creator_name": "mochinokoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone",
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

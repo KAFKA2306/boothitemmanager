@@ -1,6 +1,5 @@
 {
   "item_id": "7622031",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7622031",
   "title": "♡Neko earring ♡ネコピアス♡M...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "misscherry",
   "creator_name": "misscherry",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

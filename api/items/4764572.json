@@ -1,6 +1,5 @@
 {
   "item_id": "4764572",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4764572",
   "title": "【萌用】&【舞夜】| Maya & Moe ...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "kouklaspizzas",
   "creator_name": "kouklaspizzas",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

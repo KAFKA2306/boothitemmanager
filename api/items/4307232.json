@@ -1,6 +1,5 @@
 {
   "item_id": "4307232",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4307232",
   "title": "【💖セール中💖】【桔梗・しなの・ミルフィ対...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "qukumu-closet",
   "creator_name": "qukumu-closet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

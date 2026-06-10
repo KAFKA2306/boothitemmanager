@@ -1,6 +1,5 @@
 {
   "item_id": "7515507",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7515507",
   "title": "改変がもっと手軽になる！ VLA (VRCh...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nyaohtech",
   "creator_name": "nyaohtech",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 2500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5123215",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5123215",
   "title": "【MANUKA(マヌカ)用】☁️霧雲☁️アイ...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "kurakuraa",
   "creator_name": "kurakuraa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

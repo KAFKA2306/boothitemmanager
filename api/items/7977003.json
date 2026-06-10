@@ -1,6 +1,5 @@
 {
   "item_id": "7977003",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7977003",
   "title": "【12アバター対応】 Hiki Twintail",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "sourflavor",
   "creator_name": "sourflavor",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "尻尾"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 850,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

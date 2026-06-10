@@ -1,6 +1,5 @@
 {
   "item_id": "5249819",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5249819",
   "title": "【複数アバター対応】RoomCasual～ド...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "northfox22",
   "creator_name": "northfox22",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

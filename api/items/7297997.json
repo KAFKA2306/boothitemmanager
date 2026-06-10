@@ -1,6 +1,5 @@
 {
   "item_id": "7297997",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7297997",
   "title": "スイープオールバック【吉嗣、志良以対応】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "h0shin0s",
   "creator_name": "h0shin0s",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 700,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

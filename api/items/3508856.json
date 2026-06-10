@@ -1,6 +1,5 @@
 {
   "item_id": "3508856",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3508856",
   "title": "【竜胆用】レオタードセーター - Leota...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

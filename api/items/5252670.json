@@ -1,6 +1,5 @@
 {
   "item_id": "5252670",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5252670",
   "title": "【ラシューシャ対応】スリムスーツ×ショートジ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "akabanevrc",
   "creator_name": "akabanevrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4264970",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4264970",
   "title": "[3Dモデル] カボチャカゴ&お菓子パーティクル",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "puddingkoubou",
   "creator_name": "puddingkoubou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 350,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

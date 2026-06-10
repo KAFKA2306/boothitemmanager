@@ -1,6 +1,5 @@
 {
   "item_id": "7098242",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7098242",
   "title": "【軽量・多人数向け設計】スポーツ水着 1st...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "h2a",
   "creator_name": "h2a",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ",
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 780,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

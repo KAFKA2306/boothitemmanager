@@ -1,6 +1,5 @@
 {
   "item_id": "6536388",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6536388",
   "title": "【無料】頭に乗せれるミニキプフェル【MA対応】",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "kinakobow",
   "creator_name": "kinakobow",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

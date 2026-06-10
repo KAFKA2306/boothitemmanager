@@ -1,6 +1,5 @@
 {
   "item_id": "7422935",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7422935",
   "title": "cyber digital mask【MA対...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "kusoukoubou",
   "creator_name": "kusoukoubou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "マスク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 900,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

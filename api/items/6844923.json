@@ -1,6 +1,5 @@
 {
   "item_id": "6844923",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6844923",
   "title": "フローラルヘッドドレス-紫陽花-【VRCha...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yurugraphy",
   "creator_name": "yurugraphy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "紫"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "紫"
+    ],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

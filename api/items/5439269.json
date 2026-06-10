@@ -1,6 +1,5 @@
 {
   "item_id": "5439269",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5439269",
   "title": "Selestia Izanagi - セレス...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "rayleonard",
   "creator_name": "rayleonard",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5071370",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5071370",
   "title": "マヌカちゃん用 プレハブ置くだけ！簡単導入舌...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "koarare-atelier",
   "creator_name": "koarare-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

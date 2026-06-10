@@ -1,6 +1,5 @@
 {
   "item_id": "3585556",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3585556",
   "title": "Strap high heels & sho...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "enu-by-nna",
   "creator_name": "enu-by-nna",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ヒール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ヒール"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

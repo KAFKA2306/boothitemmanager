@@ -1,6 +1,5 @@
 {
   "item_id": "3475032",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3475032",
   "title": "【VRoid texture 44】サイバー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sqinc",
   "creator_name": "sqinc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

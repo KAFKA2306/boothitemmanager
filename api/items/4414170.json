@@ -1,6 +1,5 @@
 {
   "item_id": "4414170",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4414170",
   "title": "【無料】小物詰め合わせ！！！【プレゼント】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "pielotopica",
   "creator_name": "pielotopica",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

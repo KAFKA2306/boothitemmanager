@@ -1,6 +1,5 @@
 {
   "item_id": "4196149",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4196149",
   "title": "【Flower Fairy Dress】10...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "omochi-mochishop",
   "creator_name": "omochi-mochishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

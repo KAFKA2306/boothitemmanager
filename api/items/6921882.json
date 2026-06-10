@@ -1,6 +1,5 @@
 {
   "item_id": "6921882",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6921882",
   "title": "【13アバター対応】おキツネメイク #ぽんすとあ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ponstore",
   "creator_name": "ponstore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

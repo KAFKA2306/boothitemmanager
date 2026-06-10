@@ -1,6 +1,5 @@
 {
   "item_id": "6516955",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6516955",
   "title": "Gothic Eye Dress",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "silvercherry",
   "creator_name": "silvercherry",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7243134",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7243134",
   "title": "【無料】夏バッグテクスチャ【キプフェル専用】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "konkoya-konkoon",
   "creator_name": "konkoya-konkoon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

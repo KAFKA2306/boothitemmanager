@@ -1,6 +1,5 @@
 {
   "item_id": "4930486",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4930486",
   "title": "【オリジナル3Dモデル】水鏡祈【VRChat...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "formerpaper",
   "creator_name": "formerpaper",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 7700,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

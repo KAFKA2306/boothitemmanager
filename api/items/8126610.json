@@ -1,6 +1,5 @@
 {
   "item_id": "8126610",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8126610",
   "title": "🌸桜の舞い散り🌸アバター対応ネイル",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "anulapi",
   "creator_name": "anulapi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 550,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

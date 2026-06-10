@@ -1,6 +1,5 @@
 {
   "item_id": "5550984",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5550984",
   "title": "【VRChat想定】PB対応　神GODピアス...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "kamigodgg",
   "creator_name": "kamigodgg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

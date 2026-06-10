@@ -1,6 +1,5 @@
 {
   "item_id": "4439912",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4439912",
   "title": "セレスティア対応フルコーデ🤍Fefe's p...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "felicitafelice",
   "creator_name": "felicitafelice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

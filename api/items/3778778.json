@@ -1,6 +1,5 @@
 {
   "item_id": "3778778",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3778778",
   "title": "【桔梗用】メイドビキニ - Maid Bik...",
   "description": "",
@@ -8,20 +7,39 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ビキニ",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1480,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7788746",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7788746",
   "title": "【VRChat Hair】もふぴょんツイン",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mofuretto",
   "creator_name": "mofuretto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

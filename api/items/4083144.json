@@ -1,6 +1,5 @@
 {
   "item_id": "4083144",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4083144",
   "title": "【セレスティアちゃん用】腹筋テクスチャ素材　...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "woniskegoya",
   "creator_name": "woniskegoya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

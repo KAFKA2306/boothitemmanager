@@ -1,6 +1,5 @@
 {
   "item_id": "5539913",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5539913",
   "title": "汎用ギターストラップギミック・SGP-STR...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "serie-tech",
   "creator_name": "serie-tech",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 420,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

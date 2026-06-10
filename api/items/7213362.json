@@ -1,6 +1,5 @@
 {
   "item_id": "7213362",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7213362",
   "title": "麗夢千歳 和風メイドロリータ  MAIKO ...",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "murasaki-ya",
   "creator_name": "murasaki-ya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "メイド",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4260153",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4260153",
   "title": "パール付き眼鏡&サングラス3点セット",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "lilyparts",
   "creator_name": "lilyparts",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

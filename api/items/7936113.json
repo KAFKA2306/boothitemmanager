@@ -1,6 +1,5 @@
 {
   "item_id": "7936113",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7936113",
   "title": "【Lapwing】Pleated Dress",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hariruri",
   "creator_name": "hariruri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

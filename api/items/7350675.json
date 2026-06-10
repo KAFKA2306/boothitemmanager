@@ -1,6 +1,5 @@
 {
   "item_id": "7350675",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7350675",
   "title": "【4アバター対応】喫茶メモワール -Café...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "first-trimester",
   "creator_name": "first-trimester",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

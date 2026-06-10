@@ -1,6 +1,5 @@
 {
   "item_id": "4021133",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4021133",
   "title": "[桔梗&くろなつ]サマークロップ_Summe...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "yorushimi",
   "creator_name": "yorushimi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

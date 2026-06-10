@@ -1,6 +1,5 @@
 {
   "item_id": "6160881",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6160881",
   "title": "【7アバター対応】耳かけウルフ【VRC想定】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "samoari",
   "creator_name": "samoari",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

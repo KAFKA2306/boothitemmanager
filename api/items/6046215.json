@@ -1,6 +1,5 @@
 {
   "item_id": "6046215",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6046215",
   "title": "銀僧 無料 ピアス - Silver Mon...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "silvermonk",
   "creator_name": "silvermonk",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀",
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4369726",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4369726",
   "title": "VRChat向け衣装オーバーサイズニットパー...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mumumumum",
   "creator_name": "mumumumum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

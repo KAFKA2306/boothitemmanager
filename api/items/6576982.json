@@ -1,6 +1,5 @@
 {
   "item_id": "6576982",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6576982",
   "title": "【MA対応済み】【VRChat想定】爆速＆標...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "lovelyface",
   "creator_name": "lovelyface",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

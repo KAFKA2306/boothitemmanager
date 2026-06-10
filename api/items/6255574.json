@@ -1,6 +1,5 @@
 {
   "item_id": "6255574",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6255574",
   "title": "【VRChat】PinkPineapple ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "miuthepotato",
   "creator_name": "miuthepotato",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ピンク",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ピンク"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

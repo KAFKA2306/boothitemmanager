@@ -1,6 +1,5 @@
 {
   "item_id": "8415435",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8415435",
   "title": "【武器/ギミック】羽々斬-HABAKIRI-...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "jingaikobai",
   "creator_name": "jingaikobai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

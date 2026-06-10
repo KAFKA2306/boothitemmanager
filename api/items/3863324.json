@@ -1,6 +1,5 @@
 {
   "item_id": "3863324",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3863324",
   "title": "【PB対応】『カリン』向け　くるふわツインテ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "abeno2525",
   "creator_name": "abeno2525",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

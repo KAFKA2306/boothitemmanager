@@ -1,6 +1,5 @@
 {
   "item_id": "6924244",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6924244",
   "title": "【無料 | 200フォロワー感謝！】サカバン...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "traveler-kitchen",
   "creator_name": "traveler-kitchen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

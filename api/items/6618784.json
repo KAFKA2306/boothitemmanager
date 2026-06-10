@@ -1,6 +1,5 @@
 {
   "item_id": "6618784",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6618784",
   "title": "金環日食・円環",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ataraxia-ludens",
   "creator_name": "ataraxia-ludens",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

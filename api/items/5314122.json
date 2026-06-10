@@ -1,6 +1,5 @@
 {
   "item_id": "5314122",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5314122",
   "title": "[３Dモデル] CYANT Model-01...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tori-nyan",
   "creator_name": "tori-nyan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "シアン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 8500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "シアン"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

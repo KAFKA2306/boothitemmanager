@@ -1,6 +1,5 @@
 {
   "item_id": "4001202",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4001202",
   "title": "「薄荷専用」瞳テクスチャ・水彩",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "natsuki-shop",
   "creator_name": "natsuki-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Hakka",
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

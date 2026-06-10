@@ -1,6 +1,5 @@
 {
   "item_id": "3557479",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3557479",
   "title": "『カリン (Karin)』バニースーツ Bu...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "torp3434",
   "creator_name": "torp3434",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ",
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4076256",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4076256",
   "title": "キラキラ羽ばたく妖精の翼（PB・アニメーショ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "dragonmaide",
   "creator_name": "dragonmaide",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

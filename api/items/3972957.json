@@ -1,6 +1,5 @@
 {
   "item_id": "3972957",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3972957",
   "title": "【PB対応】OL制服桔梗版",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "jiashenfu",
   "creator_name": "jiashenfu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

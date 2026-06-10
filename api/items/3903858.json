@@ -1,6 +1,5 @@
 {
   "item_id": "3903858",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3903858",
   "title": "青の守護騎士",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "driftedmemory",
   "creator_name": "driftedmemory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "青"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 8000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "青"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

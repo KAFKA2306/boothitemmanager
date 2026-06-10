@@ -1,6 +1,5 @@
 {
   "item_id": "6558143",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6558143",
   "title": "「しなの」専用【3D衣装モデル】Road（ロード）",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "woodapple",
   "creator_name": "woodapple",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4657574",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4657574",
   "title": "【桔梗,セレスティア,舞夜用】 Bustie...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "milesiansstore",
   "creator_name": "milesiansstore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -25,5 +40,6 @@
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

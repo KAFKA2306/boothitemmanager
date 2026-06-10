@@ -1,6 +1,5 @@
 {
   "item_id": "5145802",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5145802",
   "title": "【眼鏡･サングラス】EYEWEAR 【VRC...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "duality",
   "creator_name": "duality",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6713961",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6713961",
   "title": "🩶【真冬対応】🩶　ちゅるんまばたき＋耳ぴょこ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "mimi331",
   "creator_name": "mimi331",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 250,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

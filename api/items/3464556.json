@@ -1,6 +1,5 @@
 {
   "item_id": "3464556",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3464556",
   "title": "竜胆ちゃん用ゴシックメイド服 「フェ・ド ラ...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "koarare-atelier",
   "creator_name": "koarare-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ゴシック",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド",
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

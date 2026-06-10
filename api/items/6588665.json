@@ -1,6 +1,5 @@
 {
   "item_id": "6588665",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6588665",
   "title": "【Free・無料】自分の髪の毛が見えるように...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "yorunekocat",
   "creator_name": "yorunekocat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

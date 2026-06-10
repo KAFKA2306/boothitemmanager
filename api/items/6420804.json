@@ -1,6 +1,5 @@
 {
   "item_id": "6420804",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6420804",
   "title": "【無料配布】Bird/鳥_サンタ帽子ともふも...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "moimoistore",
   "creator_name": "moimoistore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

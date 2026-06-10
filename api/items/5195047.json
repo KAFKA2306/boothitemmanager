@@ -1,6 +1,5 @@
 {
   "item_id": "5195047",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5195047",
   "title": "Mobile Whiteboard【無料、V...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ziston",
   "creator_name": "ziston",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

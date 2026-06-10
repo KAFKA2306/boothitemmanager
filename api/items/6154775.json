@@ -1,6 +1,5 @@
 {
   "item_id": "6154775",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6154775",
   "title": "【MA対応】🎀SugarRibbon Hea...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "ginchakuhappy",
   "creator_name": "ginchakuhappy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

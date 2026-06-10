@@ -1,6 +1,5 @@
 {
   "item_id": "3409908",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3409908",
   "title": "【5アバター対応】ハートウォーミング ニット...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "aliceinshelter",
   "creator_name": "aliceinshelter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

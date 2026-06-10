@@ -1,6 +1,5 @@
 {
   "item_id": "6447008",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6447008",
   "title": "【2アバター対応】地雷メイクテクスチャ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sabavrc",
   "creator_name": "sabavrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

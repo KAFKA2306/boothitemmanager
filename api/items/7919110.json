@@ -1,6 +1,5 @@
 {
   "item_id": "7919110",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7919110",
   "title": "【キプフェル対応】 てぃあどろっぷメガネ 涙...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sea-atelier",
   "creator_name": "sea-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

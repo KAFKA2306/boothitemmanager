@@ -1,6 +1,5 @@
 {
   "item_id": "8200491",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8200491",
   "title": "【複数アバター対応】Make up nail...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "solux",
   "creator_name": "solux",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

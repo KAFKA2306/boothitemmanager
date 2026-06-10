@@ -1,6 +1,5 @@
 {
   "item_id": "6649553",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6649553",
   "title": "PLUM HORN【MA対応】梅の木の角　花...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "melocotonn",
   "creator_name": "melocotonn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

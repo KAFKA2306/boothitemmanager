@@ -1,6 +1,5 @@
 {
   "item_id": "6357584",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6357584",
   "title": "【無料】ハーネス＆ガーターリングセット【真冬用】",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "satounoyama",
   "creator_name": "satounoyama",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

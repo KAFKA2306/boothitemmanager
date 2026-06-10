@@ -1,6 +1,5 @@
 {
   "item_id": "7333681",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7333681",
   "title": "VRChat Cyber Tattoo [1...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "asashii",
   "creator_name": "asashii",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "帽子",
-    "タトゥー"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 299,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

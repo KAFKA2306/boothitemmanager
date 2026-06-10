@@ -1,6 +1,5 @@
 {
   "item_id": "4420345",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4420345",
   "title": "【VRChat向け】まめひなたちゃん専用ソフ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ammytersau",
   "creator_name": "ammytersau",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

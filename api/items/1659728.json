@@ -1,6 +1,5 @@
 {
   "item_id": "1659728",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1659728",
   "title": "冬パーカー",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yuriouo",
   "creator_name": "yuriouo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "パーカー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5505086",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5505086",
   "title": "【まめふれんず対応】ひなたぼっこドレス",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sardine",
   "creator_name": "sardine",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

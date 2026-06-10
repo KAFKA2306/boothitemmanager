@@ -1,6 +1,5 @@
 {
   "item_id": "3585635",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3585635",
   "title": "地雷系セット（黒マスク+ストロング系チューハイ）",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "otsucreate",
   "creator_name": "otsucreate",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "黒",
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

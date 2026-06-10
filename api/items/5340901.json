@@ -1,6 +1,5 @@
 {
   "item_id": "5340901",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5340901",
   "title": "Belted Shirt Dress シャツ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "apin",
   "creator_name": "apin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

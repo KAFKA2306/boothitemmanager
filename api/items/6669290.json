@@ -1,6 +1,5 @@
 {
   "item_id": "6669290",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6669290",
   "title": "「複数アバター対応」 Chains",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "zaicrifice",
   "creator_name": "zaicrifice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

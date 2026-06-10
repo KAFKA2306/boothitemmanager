@@ -1,6 +1,5 @@
 {
   "item_id": "5474147",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5474147",
   "title": "【瑞希対応】スパッツ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "sigu-rira",
   "creator_name": "sigu-rira",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "レギンス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "レギンス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

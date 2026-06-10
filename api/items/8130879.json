@@ -1,6 +1,5 @@
 {
   "item_id": "8130879",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8130879",
   "title": "【11アバター対応】 AVVI 衣装3セット",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kusutto",
   "creator_name": "kusutto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

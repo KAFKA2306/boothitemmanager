@@ -1,6 +1,5 @@
 {
   "item_id": "5808785",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5808785",
   "title": "【6アバター対応】モノキニ水着 MA対応",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "mayune",
   "creator_name": "mayune",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

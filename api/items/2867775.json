@@ -1,6 +1,5 @@
 {
   "item_id": "2867775",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2867775",
   "title": "MG34 機関銃",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "greif-bis",
   "creator_name": "greif-bis",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

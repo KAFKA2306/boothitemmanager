@@ -1,6 +1,5 @@
 {
   "item_id": "1801059",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1801059",
   "title": "『ミリタリージャケット』衣装セット - 「ミ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "snori",
   "creator_name": "snori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

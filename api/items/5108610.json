@@ -1,6 +1,5 @@
 {
   "item_id": "5108610",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5108610",
   "title": "【複数アバター対応】おはツイメイド♡",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "northfox22",
   "creator_name": "northfox22",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6750596",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6750596",
   "title": "【キプフェル】Curly twin tail...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mashiro0770",
   "creator_name": "mashiro0770",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7748426",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7748426",
   "title": "Christmas Jacket",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "wingedflow",
   "creator_name": "wingedflow",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

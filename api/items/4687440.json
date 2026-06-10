@@ -1,6 +1,5 @@
 {
   "item_id": "4687440",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4687440",
   "title": "萌ちゃん　舞夜ちゃん セレスティアちゃん用　...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "norushop",
   "creator_name": "norushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

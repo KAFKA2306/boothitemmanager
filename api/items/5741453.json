@@ -1,6 +1,5 @@
 {
   "item_id": "5741453",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5741453",
   "title": "「複数アバター対応」藤の花ネイル/Wiste...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tokiwanero",
   "creator_name": "tokiwanero",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

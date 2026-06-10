@@ -1,6 +1,5 @@
 {
   "item_id": "7242221",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7242221",
   "title": "【花火が出る！】夏祭りヘイロー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "harusamenozakka",
   "creator_name": "harusamenozakka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7170956",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7170956",
   "title": "触手・スライム風くちゅ音ツール　-Kuchu...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "neccoshop",
   "creator_name": "neccoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1000,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

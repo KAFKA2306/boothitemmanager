@@ -1,6 +1,5 @@
 {
   "item_id": "6851809",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6851809",
   "title": "【4アバター対応】Sweet Venom♰🖤",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "pips-acc",
   "creator_name": "pips-acc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

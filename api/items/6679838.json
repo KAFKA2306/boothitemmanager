@@ -1,6 +1,5 @@
 {
   "item_id": "6679838",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6679838",
   "title": "【32アバター対応】Clover Diamo...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "p4nopticon",
   "creator_name": "p4nopticon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

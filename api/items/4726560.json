@@ -1,6 +1,5 @@
 {
   "item_id": "4726560",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4726560",
   "title": "✨セール中✨Daily Gothic [森羅...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "glitchganger",
   "creator_name": "glitchganger",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

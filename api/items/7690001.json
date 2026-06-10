@@ -1,6 +1,5 @@
 {
   "item_id": "7690001",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7690001",
   "title": "3Dモデル [2LDK Room]",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nekoyamakun",
   "creator_name": "nekoyamakun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 4250,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

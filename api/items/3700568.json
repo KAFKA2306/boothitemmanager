@@ -1,6 +1,5 @@
 {
   "item_id": "3700568",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3700568",
   "title": "【無料有り】【VRChat想定】天使の翼 パ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "sunstars",
   "creator_name": "sunstars",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

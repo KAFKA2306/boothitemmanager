@@ -1,6 +1,5 @@
 {
   "item_id": "5044448",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5044448",
   "title": "【4アバター対応】♥ heart nail ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "siropuppy",
   "creator_name": "siropuppy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

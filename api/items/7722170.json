@@ -1,6 +1,5 @@
 {
   "item_id": "7722170",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7722170",
   "title": "繚乱烈華 【複数アバター対応 特攻服衣装】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kittykitty",
   "creator_name": "kittykitty",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

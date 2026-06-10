@@ -1,6 +1,5 @@
 {
   "item_id": "7674363",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7674363",
   "title": "【無料/MA対応】Avatar Limb S...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "luistudio",
   "creator_name": "luistudio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6576425",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6576425",
   "title": "【ミルティナ専用】ピュアオレンジメイクセット",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "escapefroma",
   "creator_name": "escapefroma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "オレンジ",
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "オレンジ"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

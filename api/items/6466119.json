@@ -1,6 +1,5 @@
 {
   "item_id": "6466119",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6466119",
   "title": "『しなの向け』SWEET SUCCUBUS ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "necoroid",
   "creator_name": "necoroid",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

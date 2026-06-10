@@ -1,6 +1,5 @@
 {
   "item_id": "3591741",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3591741",
   "title": "桔梗ちゃんの下着（パンツパッチ対応）",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "inani",
   "creator_name": "inani",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー",
-    "ズボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 650,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー",
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

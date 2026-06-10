@@ -1,6 +1,5 @@
 {
   "item_id": "3328986",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3328986",
   "title": "VRChat Avatars3.0向けホバー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "xlwnya",
   "creator_name": "xlwnya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

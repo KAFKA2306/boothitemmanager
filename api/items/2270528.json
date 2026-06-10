@@ -1,6 +1,5 @@
 {
   "item_id": "2270528",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2270528",
   "title": "オリジナル3D衣装「LouON〈ルオン〉夏服...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yudono",
   "creator_name": "yudono",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

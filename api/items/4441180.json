@@ -1,6 +1,5 @@
 {
   "item_id": "4441180",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4441180",
   "title": "【和風】椿の耳飾り（無料）",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mitsuami-ha-iizo",
   "creator_name": "mitsuami-ha-iizo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

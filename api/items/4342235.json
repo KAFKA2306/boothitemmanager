@@ -1,6 +1,5 @@
 {
   "item_id": "4342235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4342235",
   "title": "[CusUniWear] - セレスティア ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "eliya",
   "creator_name": "eliya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

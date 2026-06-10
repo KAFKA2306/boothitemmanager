@@ -1,6 +1,5 @@
 {
   "item_id": "1298597",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1298597",
   "title": "【VRChatワールド用】水銀ミラー",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "suzufactory",
   "creator_name": "suzufactory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1600,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

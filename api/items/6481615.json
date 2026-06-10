@@ -1,6 +1,5 @@
 {
   "item_id": "6481615",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6481615",
   "title": "角度で煌めく◇Eye Texture 【動画...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "escapefroma",
   "creator_name": "escapefroma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

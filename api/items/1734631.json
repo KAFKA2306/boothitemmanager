@@ -1,6 +1,5 @@
 {
   "item_id": "1734631",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1734631",
   "title": "【Ver.1.01】3D衣装「メイド服１」【...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kuukuukon",
   "creator_name": "kuukuukon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5388957",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5388957",
   "title": "【VRchat向け3Dモデル】アルティール",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kokera-zacho",
   "creator_name": "kokera-zacho",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ティール",
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 5000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ティール"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

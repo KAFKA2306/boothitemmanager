@@ -1,6 +1,5 @@
 {
   "item_id": "1792569",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1792569",
   "title": "スイートワンピース　帽子・バッグ付き",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "megumivr",
   "creator_name": "megumivr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース",
-    "帽子",
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

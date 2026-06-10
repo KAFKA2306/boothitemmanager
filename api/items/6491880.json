@@ -1,6 +1,5 @@
 {
   "item_id": "6491880",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6491880",
   "title": "【しなの用】Dark Knight -暗黒騎士-",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "macanon",
   "creator_name": "macanon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

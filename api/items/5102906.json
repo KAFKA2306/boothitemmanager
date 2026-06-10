@@ -1,6 +1,5 @@
 {
   "item_id": "5102906",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5102906",
   "title": "【VRChat】CORDIS EARRING",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "3ra47a9ya",
   "creator_name": "3ra47a9ya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

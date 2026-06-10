@@ -1,6 +1,5 @@
 {
   "item_id": "7490393",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7490393",
   "title": "【無料配布】トランク社医薬品/Trunk C...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "komuso",
   "creator_name": "komuso",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

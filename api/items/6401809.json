@@ -1,6 +1,5 @@
 {
   "item_id": "6401809",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6401809",
   "title": "Winter Ice Cream",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "slopace",
   "creator_name": "slopace",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

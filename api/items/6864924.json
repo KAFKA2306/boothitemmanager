@@ -1,6 +1,5 @@
 {
   "item_id": "6864924",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6864924",
   "title": "獣耳ピアス",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tsunasand",
   "creator_name": "tsunasand",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "獣耳",
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [
+      "獣耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

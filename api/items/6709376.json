@@ -1,6 +1,5 @@
 {
   "item_id": "6709376",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6709376",
   "title": "24曲入る！【赤夜式】ラジカセギミック【VR...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rednightworksvrc",
   "creator_name": "rednightworksvrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

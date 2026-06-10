@@ -1,6 +1,5 @@
 {
   "item_id": "5846564",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5846564",
   "title": "【VRChat想定】サンバイザー＆アクセサリ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "ruxxy",
   "creator_name": "ruxxy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 350,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

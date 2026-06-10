@@ -1,6 +1,5 @@
 {
   "item_id": "6314755",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6314755",
   "title": "Snow Drill Twintails",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "4o4o",
   "creator_name": "4o4o",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "尻尾"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 750,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6475957",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6475957",
   "title": "【ルルネ用】尻尾アクセサリー 「VagueA...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "rsche-atelier",
   "creator_name": "rsche-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4178957",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4178957",
   "title": "ゴシックツインテール",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "kiriha-astra",
   "creator_name": "kiriha-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "ゴシック"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン",
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

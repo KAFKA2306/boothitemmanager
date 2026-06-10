@@ -1,6 +1,5 @@
 {
   "item_id": "5791589",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5791589",
   "title": "ひも付きの眼鏡, glasses with ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pheonharu",
   "creator_name": "pheonharu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

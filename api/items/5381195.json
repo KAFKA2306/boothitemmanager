@@ -1,6 +1,5 @@
 {
   "item_id": "5381195",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5381195",
   "title": "頭に置くおしるこ【PB対応】#ロボらぼ",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "roborob0",
   "creator_name": "roborob0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

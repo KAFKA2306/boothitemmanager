@@ -1,6 +1,5 @@
 {
   "item_id": "7272264",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7272264",
   "title": "【21アバター+α対応】AutumnGift...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kowloonworkshop",
   "creator_name": "kowloonworkshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 480,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

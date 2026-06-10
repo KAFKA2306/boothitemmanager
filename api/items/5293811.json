@@ -1,6 +1,5 @@
 {
   "item_id": "5293811",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5293811",
   "title": "亢龍 / China / チャイナドレス /...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "ki-necave",
   "creator_name": "ki-necave",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "チャイナドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "チャイナドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

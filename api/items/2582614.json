@@ -1,6 +1,5 @@
 {
   "item_id": "2582614",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2582614",
   "title": "【VRoid texture 36】和洋",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sqinc",
   "creator_name": "sqinc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

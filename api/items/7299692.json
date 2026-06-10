@@ -1,6 +1,5 @@
 {
   "item_id": "7299692",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7299692",
   "title": "【FREE】Gothic Swimwear【...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yuki-s-toybox",
   "creator_name": "yuki-s-toybox",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

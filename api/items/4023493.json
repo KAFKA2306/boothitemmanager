@@ -1,6 +1,5 @@
 {
   "item_id": "4023493",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4023493",
   "title": "【PB対応】【桔梗ちゃん専用】水色ゴシックス...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "koneko0v0",
   "creator_name": "koneko0v0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

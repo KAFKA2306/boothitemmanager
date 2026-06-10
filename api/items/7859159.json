@@ -1,6 +1,5 @@
 {
   "item_id": "7859159",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7859159",
   "title": "真冬ちゃん専用 - ギザ歯化prefab【M...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "akuma-shop",
   "creator_name": "akuma-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

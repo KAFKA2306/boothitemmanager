@@ -1,6 +1,5 @@
 {
   "item_id": "2592434",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2592434",
   "title": "ヘアバンド【リボン単体あり】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yuu1120",
   "creator_name": "yuu1120",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

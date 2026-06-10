@@ -1,6 +1,5 @@
 {
   "item_id": "4704053",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4704053",
   "title": "PB【5アバター対応】 ACCENT",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "kingsoap",
   "creator_name": "kingsoap",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

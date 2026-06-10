@@ -1,6 +1,5 @@
 {
   "item_id": "3592640",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3592640",
   "title": "【25アバター対応】ウィンターブレザー-Wi...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "wakonoatorie",
   "creator_name": "wakonoatorie",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

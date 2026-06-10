@@ -1,6 +1,5 @@
 {
   "item_id": "5122055",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5122055",
   "title": "Mystic EYE for Shinra",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mocchiriomochi",
   "creator_name": "mocchiriomochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

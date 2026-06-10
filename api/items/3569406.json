@@ -1,6 +1,5 @@
 {
   "item_id": "3569406",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3569406",
   "title": "【PB対応】透けるバニー衣装",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "feathersheep",
   "creator_name": "feathersheep",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

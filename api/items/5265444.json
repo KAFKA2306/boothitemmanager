@@ -1,6 +1,5 @@
 {
   "item_id": "5265444",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5265444",
   "title": "【VRChat向け】煙管 Ver.1.0",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "t8dbcau",
   "creator_name": "t8dbcau",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

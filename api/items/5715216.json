@@ -1,6 +1,5 @@
 {
   "item_id": "5715216",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5715216",
   "title": "【8アバター対応】✨しなの追加✨ Off S...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mousu9",
   "creator_name": "mousu9",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

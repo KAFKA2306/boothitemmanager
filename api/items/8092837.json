@@ -1,6 +1,5 @@
 {
   "item_id": "8092837",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8092837",
   "title": "【9アバター+対応】Astral Star【...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "lxo",
   "creator_name": "lxo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

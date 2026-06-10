@@ -2,28 +2,32 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union, Literal
 from datetime import datetime
 from enum import Enum
-from ..core import TestBlock
 
 class ItemCategory(str, Enum):
-    AVATAR = "avatar"
-    OUTFIT = "outfit"
-    ACCESSORY = "accessory"
-    GIMMICK = "gimmick"
-    OTHER = "other"
+    AVATAR = "AVATAR"
+    OUTFIT = "OUTFIT"
+    ACCESSORY = "ACCESSORY"
+    TEXTURE = "TEXTURE"
+    PROP = "PROP"
+    GIMMICK_TOOL = "GIMMICK_TOOL"
+    HAIRSTYLE = "HAIRSTYLE"
+    WORLD = "WORLD"
+    ANIMATION = "ANIMATION"
+    VROID = "VROID"
+    ASSET = "ASSET"
 
-class TagType(str, Enum):
-    COLOR = "color"
-    STYLE = "style"
-    MOOD = "mood"
-    BODY = "body"
-    SEASON = "season"
-    FUNCTION = "function"
-    AVATAR_LINK = "avatar_link"
-
-class TagSource(str, Enum):
-    MANUAL = "manual"
-    GENERATED = "generated"
-    INFERRED = "inferred"
+@dataclass(frozen=True)
+class TagSet:
+    appearance: List[str] = field(default_factory=list)
+    body_type: List[str] = field(default_factory=list)
+    style: List[str] = field(default_factory=list)
+    color: List[str] = field(default_factory=list)
+    outfit_type: List[str] = field(default_factory=list)
+    accessory: List[str] = field(default_factory=list)
+    feature: List[str] = field(default_factory=list)
+    platform: List[str] = field(default_factory=list)
+    season: List[str] = field(default_factory=list)
+    avatar_link: List[str] = field(default_factory=list)
 
 @dataclass(frozen=True)
 class AvatarRef:
@@ -38,100 +42,43 @@ class FileAsset:
     hash: Optional[str] = None
 
 @dataclass(frozen=True)
-class Tag:
-    tag_id: str
-    name: str
-    type: TagType
-    source: TagSource
-    confidence: float = 1.0
-
-@dataclass(frozen=True)
-class TagNode:
-    tag_id: str
-    name: str
-    dimension: str = "general" # appearance, style, season, etc.
-    weight: int = 0 # Occurrence frequency
-
-@dataclass(frozen=True)
-class TagEdge:
-    source_id: str
-    target_id: str
-    strength: float # Jaccard coefficient
-
-@dataclass(frozen=True)
-class TagGraph:
-    nodes: List[TagNode] = field(default_factory=list)
-    edges: List[TagEdge] = field(default_factory=list)
-
-@dataclass(frozen=True)
 class Item:
     item_id: str
-    source: str = "booth"
-    source_url: str = ""
-    title: str = ""
-    description: str = ""
-    thumbnail_url: str = ""
-    creator_id: str = ""
-    creator_name: str = ""
-    published_at: Optional[datetime] = None
+    source_url: str
+    title: str
+    description: str
+    thumbnail_url: str
+    creator_id: str
+    creator_name: str
+    published_at: Optional[datetime]
+    like_count: int
+    price: Optional[int]
+    category: ItemCategory
+    tag_set: TagSet
+    similar_items: List[str] = field(default_factory=list)
+    user_state: Dict[str, Any] = field(default_factory=dict)
+    
+    # Extended metadata
     tags_raw: List[str] = field(default_factory=list)
-    tags_generated: List[str] = field(default_factory=list)
-    category: ItemCategory = ItemCategory.OTHER
-    like_count: int = 0
-    price: Optional[int] = None
     targets: List[AvatarRef] = field(default_factory=list)
     files: List[FileAsset] = field(default_factory=list)
-    similar_items: List[str] = field(default_factory=list)
-    
-    # Compatibility with existing logic
-    @property
-    def name(self) -> str: return self.title
-    @property
-    def image_url(self) -> str: return self.thumbnail_url
-    @property
-    def url(self) -> str: return self.source_url
-    @property
-    def shop_name(self) -> str: return self.creator_name
-    @property
-    def current_price(self) -> Optional[int]: return self.price
-    @property
-    def tags(self) -> List[str]: return self.tags_raw + self.tags_generated
-    @property
-    def updated_at(self) -> Optional[datetime]: return self.published_at
-    @property
-    def type(self) -> str: return self.category.value
+    source: str = "booth"
 
-@dataclass(frozen=True)
-class IndexModel:
-    item_id: str
-    vector_embedding: List[float] = field(default_factory=list)
-    tag_index: List[str] = field(default_factory=list) # List of tag_ids
-    text_index: str = ""
-    filter_index: Dict[str, Any] = field(default_factory=dict) # category, price_bucket, like_bucket, year
-
-@dataclass(frozen=True)
-class GraphEdge:
-    target_id: str
-    relation: Literal["created_by", "has_tag", "similar_to", "used_with"]
-    weight: float = 1.0
-
-@dataclass(frozen=True)
-class GraphNode:
-    node_id: str
-    node_type: Literal["item", "creator", "tag"]
-    edges: List[GraphEdge] = field(default_factory=list)
-
-# Legacy support/renamed
-Node = GraphNode
-Edge = GraphEdge
+    @property
+    def tags(self) -> List[str]:
+        # Flatten tag_set for legacy compatibility
+        flattened = []
+        for v in self.tag_set.__dict__.values():
+            if isinstance(v, list):
+                flattened.extend(v)
+        return list(set(self.tags_raw + flattened))
 
 @dataclass(frozen=True)
 class TestBlockLog:
     trace_id: str
-    block: TestBlock
+    block: Any # Avoid circular import if possible, or use Any
     timestamp: datetime = field(default_factory=datetime.now)
 
-# Raw Layer
 @dataclass(frozen=True)
 class RawAssetPage:
     url: str
@@ -151,10 +98,40 @@ class AccessLog:
     status_code: int
     timestamp: datetime = field(default_factory=datetime.now)
 
-# For compatibility with existing registry.py which uses storage.py classes
-class ItemType(str, Enum):
-    AVATAR = "avatar"
-    COSTUME = "outfit" # Map outfit to costume if needed
-    ACCESSORY = "accessory"
-    TOOL = "gimmick"
-    OTHER = "other"
+@dataclass(frozen=True)
+class GraphEdge:
+    target_id: str
+    relation: Literal["created_by", "has_tag", "similar_to", "used_with"]
+    weight: float = 1.0
+
+@dataclass(frozen=True)
+class GraphNode:
+    node_id: str
+    node_type: Literal["item", "creator", "tag"]
+    edges: List[GraphEdge] = field(default_factory=list)
+
+@dataclass(frozen=True)
+class TagNode:
+    tag_id: str
+    name: str
+    dimension: str = "general"
+    weight: int = 0
+
+@dataclass(frozen=True)
+class TagEdge:
+    source_id: str
+    target_id: str
+    strength: float
+
+@dataclass(frozen=True)
+class TagGraph:
+    nodes: List[TagNode] = field(default_factory=list)
+    edges: List[TagEdge] = field(default_factory=list)
+
+@dataclass(frozen=True)
+class IndexModel:
+    item_id: str
+    vector_embedding: List[float] = field(default_factory=list)
+    tag_index: List[str] = field(default_factory=list)
+    text_index: str = ""
+    filter_index: Dict[str, Any] = field(default_factory=dict)

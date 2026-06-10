@@ -1,6 +1,5 @@
 {
   "item_id": "1540409",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1540409",
   "title": "積層型複合金属刀 カキ氷壱式",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "onamae",
   "creator_name": "onamae",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

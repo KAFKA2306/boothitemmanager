@@ -1,6 +1,5 @@
 {
   "item_id": "2688342",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2688342",
   "title": "【幽狐・薄荷】『ダルシャツ&スポーツインナー...",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "attic",
   "creator_name": "attic",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "スポーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン",
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Hakka",
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

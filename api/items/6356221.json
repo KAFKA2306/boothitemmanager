@@ -1,6 +1,5 @@
 {
   "item_id": "6356221",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6356221",
   "title": "Libre Suit [ 11 Avatar ]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ttwaaaag",
   "creator_name": "ttwaaaag",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

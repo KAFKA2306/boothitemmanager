@@ -1,6 +1,5 @@
 {
   "item_id": "6211488",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6211488",
   "title": "【11アバター対応】Casual T-Shirt",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yuyu-store",
   "creator_name": "yuyu-store",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "Tシャツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

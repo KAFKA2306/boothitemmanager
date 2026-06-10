@@ -1,6 +1,5 @@
 {
   "item_id": "7024918",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7024918",
   "title": "【アニメーション付き・MA対応】マヌカ対応『...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "cruidon",
   "creator_name": "cruidon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

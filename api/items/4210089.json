@@ -1,6 +1,5 @@
 {
   "item_id": "4210089",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4210089",
   "title": "【LSbody用3Dモデル衣装】和洋折衷セッ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "arishia3939",
   "creator_name": "arishia3939",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

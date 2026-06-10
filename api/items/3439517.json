@@ -1,6 +1,5 @@
 {
   "item_id": "3439517",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3439517",
   "title": "[FREE] Christmas dress",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "shevishop",
   "creator_name": "shevishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7236480",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7236480",
   "title": "『ウルキ (Uruki)』 下着セット / ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "glo",
   "creator_name": "glo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 950,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

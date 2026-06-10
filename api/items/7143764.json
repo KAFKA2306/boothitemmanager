@@ -1,6 +1,5 @@
 {
   "item_id": "7143764",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7143764",
   "title": "【全アバター導入可】タイツ&ラバーMatcap",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "e-chan-01",
   "creator_name": "e-chan-01",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

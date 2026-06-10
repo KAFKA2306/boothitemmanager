@@ -1,6 +1,5 @@
 {
   "item_id": "6249517",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6249517",
   "title": "オブジェクトをワールドに設置・調整(移動・回...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "zenishop",
   "creator_name": "zenishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

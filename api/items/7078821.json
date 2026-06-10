@@ -1,6 +1,5 @@
 {
   "item_id": "7078821",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7078821",
   "title": "儚げな白メイク【しゅあん】【Shuan】【V...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "hinamizawa17jp",
   "creator_name": "hinamizawa17jp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

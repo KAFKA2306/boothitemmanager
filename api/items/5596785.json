@@ -1,6 +1,5 @@
 {
   "item_id": "5596785",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5596785",
   "title": "【Lapwing】High Rise Shorts",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hariruri",
   "creator_name": "hariruri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートパンツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 750,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ショートパンツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

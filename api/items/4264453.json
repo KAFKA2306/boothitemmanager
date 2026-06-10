@@ -1,6 +1,5 @@
 {
   "item_id": "4264453",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4264453",
   "title": "[Casual Uniform] - セレス...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "eliya",
   "creator_name": "eliya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

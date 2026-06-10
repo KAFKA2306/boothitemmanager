@@ -1,6 +1,5 @@
 {
   "item_id": "4665722",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4665722",
   "title": "『おおかみっこワンピ』複数アバター対応衣装",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "himeso",
   "creator_name": "himeso",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

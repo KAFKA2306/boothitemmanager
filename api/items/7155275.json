@@ -1,6 +1,5 @@
 {
   "item_id": "7155275",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7155275",
   "title": "【3Dモデル】ヘッドフォン＆ニット帽 WH-...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "akakitune",
   "creator_name": "akakitune",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

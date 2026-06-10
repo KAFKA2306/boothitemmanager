@@ -1,6 +1,5 @@
 {
   "item_id": "6830295",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6830295",
   "title": "【無料／FREE】犬系ショートヘア『キプフェ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tuki314",
   "creator_name": "tuki314",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

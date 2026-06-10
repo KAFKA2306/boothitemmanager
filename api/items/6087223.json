@@ -1,6 +1,5 @@
 {
   "item_id": "6087223",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6087223",
   "title": "ロポリこん なりきりセット / オリジナル3D衣装",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mido0021",
   "creator_name": "mido0021",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 3500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

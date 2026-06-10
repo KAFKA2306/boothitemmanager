@@ -1,6 +1,5 @@
 {
   "item_id": "3395344",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3395344",
   "title": "【3Dモデル】「文喰シミ」監修　涙付き眼鏡",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "felin07",
   "creator_name": "felin07",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

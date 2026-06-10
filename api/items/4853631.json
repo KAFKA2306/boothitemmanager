@@ -1,6 +1,5 @@
 {
   "item_id": "4853631",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4853631",
   "title": "3Dモデル　大正浪漫和装　複数アバター対応予定",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "hakusivrc",
   "creator_name": "hakusivrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

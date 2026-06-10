@@ -1,6 +1,5 @@
 {
   "item_id": "6407413",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6407413",
   "title": "Romanticist　【7アバター対応 着...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "ominerta",
   "creator_name": "ominerta",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4915081",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4915081",
   "title": "ライム・シフォン・ショコラ・プラム用タイツテ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "denyuken210",
   "creator_name": "denyuken210",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム",
-    "ストッキング"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6873796",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6873796",
   "title": "【汎用】MAGPUL Sling kit 【...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "tactico",
   "creator_name": "tactico",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

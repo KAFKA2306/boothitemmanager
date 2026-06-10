@@ -1,6 +1,5 @@
 {
   "item_id": "7057332",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7057332",
   "title": "【オリジナル3Dモデル】雷琳_Raelynn...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "formerpaper",
   "creator_name": "formerpaper",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 50000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

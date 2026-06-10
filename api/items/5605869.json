@@ -1,6 +1,5 @@
 {
   "item_id": "5605869",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5605869",
   "title": "【3Dアイテム】すみれのお茶会セット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "arishia3939",
   "creator_name": "arishia3939",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

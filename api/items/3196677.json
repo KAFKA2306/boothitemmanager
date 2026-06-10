@@ -1,6 +1,5 @@
 {
   "item_id": "3196677",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3196677",
   "title": "【VRChat想定】サイバー風機械サメ RE",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kanoda",
   "creator_name": "kanoda",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

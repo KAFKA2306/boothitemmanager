@@ -1,6 +1,5 @@
 {
   "item_id": "6517504",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6517504",
   "title": "新宝島ステップ　モーション.prefab (...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "gbgb-shop",
   "creator_name": "gbgb-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

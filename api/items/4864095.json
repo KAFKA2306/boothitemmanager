@@ -1,6 +1,5 @@
 {
   "item_id": "4864095",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4864095",
   "title": "【灰島専用】ベルト＆ジャケット",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kowloonworkshop",
   "creator_name": "kowloonworkshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット",
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

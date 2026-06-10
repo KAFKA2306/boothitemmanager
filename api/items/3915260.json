@@ -1,6 +1,5 @@
 {
   "item_id": "3915260",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3915260",
   "title": "swimsuit for maya/rind...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "roseonivv",
   "creator_name": "roseonivv",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着",
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着",
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

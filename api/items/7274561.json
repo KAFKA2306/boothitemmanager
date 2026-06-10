@@ -1,6 +1,5 @@
 {
   "item_id": "7274561",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7274561",
   "title": "牛さんパジャマ（真冬対応）",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "garakutaichigo",
   "creator_name": "garakutaichigo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "パジャマ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パジャマ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

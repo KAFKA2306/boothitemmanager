@@ -1,6 +1,5 @@
 {
   "item_id": "2080788",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2080788",
   "title": "【無料】【unityエディタ拡張】【VRC】...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "neutrino-gamma",
   "creator_name": "neutrino-gamma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

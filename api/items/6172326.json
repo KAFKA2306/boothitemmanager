@@ -1,6 +1,5 @@
 {
   "item_id": "6172326",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6172326",
   "title": "【しなの対応】舌ピアス&牙ピアスセット/To...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "vegemite0429",
   "creator_name": "vegemite0429",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

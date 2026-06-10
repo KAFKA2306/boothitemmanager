@@ -1,6 +1,5 @@
 {
   "item_id": "4306265",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4306265",
   "title": "【Grus対応】ジャケットカジュアル/JAC...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "oao",
   "creator_name": "oao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

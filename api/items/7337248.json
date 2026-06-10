@@ -1,6 +1,5 @@
 {
   "item_id": "7337248",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7337248",
   "title": "いろんなアバターで使える表情ギミック！汎用エ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "umishop",
   "creator_name": "umishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

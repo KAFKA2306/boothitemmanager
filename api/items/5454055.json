@@ -1,6 +1,5 @@
 {
   "item_id": "5454055",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5454055",
   "title": "【13アバター対応】体操着ブルマセット  /...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "cheeseholidays",
   "creator_name": "cheeseholidays",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブルマ",
-    "体操服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ブルマ",
+      "体操服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

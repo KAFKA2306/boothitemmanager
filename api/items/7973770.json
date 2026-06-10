@@ -1,6 +1,5 @@
 {
   "item_id": "7973770",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7973770",
   "title": "馬ギミックremake【MA対応】アバター向け",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "torinosuke05",
   "creator_name": "torinosuke05",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 2500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

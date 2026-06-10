@@ -1,6 +1,5 @@
 {
   "item_id": "7165500",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7165500",
   "title": "【VRChat想定】月融のチョーカー【MA対応】",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "nyorurun",
   "creator_name": "nyorurun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "チョーカー"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "チョーカー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

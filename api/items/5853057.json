@@ -1,6 +1,5 @@
 {
   "item_id": "5853057",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5853057",
   "title": "【無料】揺れる！クロスネックレス【VRC想定】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "stingerqueen",
   "creator_name": "stingerqueen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネックレス"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネックレス"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

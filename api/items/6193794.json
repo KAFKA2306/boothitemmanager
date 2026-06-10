@@ -1,6 +1,5 @@
 {
   "item_id": "6193794",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6193794",
   "title": "【水瀬 / 珍飯亭ボディ対応】開け閉めできる...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "edgeslide",
   "creator_name": "edgeslide",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

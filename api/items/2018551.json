@@ -1,6 +1,5 @@
 {
   "item_id": "2018551",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2018551",
   "title": "【ワールド】SUITE  CASSIOPEI...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tatsu78",
   "creator_name": "tatsu78",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 4000,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

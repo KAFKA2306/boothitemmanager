@@ -1,6 +1,5 @@
 {
   "item_id": "6073168",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6073168",
   "title": "【フレア】Flare MAKEUP & EY...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "rona11x",
   "creator_name": "rona11x",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 350,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

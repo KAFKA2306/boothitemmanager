@@ -1,6 +1,5 @@
 {
   "item_id": "7795641",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7795641",
   "title": "【3アバター対応】🎄Xmas2025…‐ S...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "secrya",
   "creator_name": "secrya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6377155",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6377155",
   "title": "【マヌカManuka】🤎🩷スイートメイク（4...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "33detyu",
   "creator_name": "33detyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

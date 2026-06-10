@@ -1,6 +1,5 @@
 {
   "item_id": "6500276",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6500276",
   "title": "🌹Gothic Forfex🌹【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "mochirabbit",
   "creator_name": "mochirabbit",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 2600,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

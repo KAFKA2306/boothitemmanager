@@ -1,6 +1,5 @@
 {
   "item_id": "5682196",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5682196",
   "title": "64アバター対応 Ulysfluffy--ユ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mumumumum",
   "creator_name": "mumumumum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

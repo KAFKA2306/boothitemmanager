@@ -1,6 +1,5 @@
 {
   "item_id": "6461867",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6461867",
   "title": "【shinra森羅】Chain Glasses",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "kitakazepyupyu",
   "creator_name": "kitakazepyupyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

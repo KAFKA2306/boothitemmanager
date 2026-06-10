@@ -1,6 +1,5 @@
 {
   "item_id": "8252013",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8252013",
   "title": "MoonTailor【12 Avatars】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "codemoon",
   "creator_name": "codemoon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 560,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

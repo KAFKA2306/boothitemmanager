@@ -1,6 +1,5 @@
 {
   "item_id": "6130514",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6130514",
   "title": "しなの専用　サイドヘアーミラーPrefab",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "momonga-3d",
   "creator_name": "momonga-3d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 350,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

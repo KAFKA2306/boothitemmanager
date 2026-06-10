@@ -1,6 +1,5 @@
 {
   "item_id": "7060175",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7060175",
   "title": "【キプフェル対応】サイバースイムウェア＆ポニ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "szk3",
   "creator_name": "szk3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

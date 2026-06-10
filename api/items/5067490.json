@@ -1,6 +1,5 @@
 {
   "item_id": "5067490",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5067490",
   "title": "簡単導入◇ライム専用◇アンダーウェア　 テク...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "usagi88",
   "creator_name": "usagi88",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー",
-    "ライム"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

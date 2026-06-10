@@ -1,6 +1,5 @@
 {
   "item_id": "1867122",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1867122",
   "title": "【3Dアクセサリー】髪飾り～春～",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kokona-factory",
   "creator_name": "kokona-factory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

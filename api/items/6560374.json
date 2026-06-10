@@ -1,6 +1,5 @@
 {
   "item_id": "6560374",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6560374",
   "title": "【まめふれんず専用】Berserker-Ma...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "r-weaponshop",
   "creator_name": "r-weaponshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

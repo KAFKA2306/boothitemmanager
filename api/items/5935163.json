@@ -1,6 +1,5 @@
 {
   "item_id": "5935163",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5935163",
   "title": "【VRChat向け】縁結び【和風アクセサリー】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "t8dbcau",
   "creator_name": "t8dbcau",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

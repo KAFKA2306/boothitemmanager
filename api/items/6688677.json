@@ -1,6 +1,5 @@
 {
   "item_id": "6688677",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6688677",
   "title": "【キプフェル対応】ミニハーフツインエクステ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mochinokoshop",
   "creator_name": "mochinokoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7563353",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7563353",
   "title": "Sweet♡Gothic",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "latelier404",
   "creator_name": "latelier404",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

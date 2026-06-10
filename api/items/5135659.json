@@ -1,6 +1,5 @@
 {
   "item_id": "5135659",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5135659",
   "title": "【マヌカ(Manuka)専用】4 types...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "no39",
   "creator_name": "no39",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1600,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

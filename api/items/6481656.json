@@ -1,6 +1,5 @@
 {
   "item_id": "6481656",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6481656",
   "title": "無料【３D小物】喫茶店のプリン",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kandume04",
   "creator_name": "kandume04",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

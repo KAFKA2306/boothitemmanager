@@ -1,6 +1,5 @@
 {
   "item_id": "2676858",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2676858",
   "title": "Lilia  2in1  Bikini + ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "shonzoofficial",
   "creator_name": "shonzoofficial",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 4500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

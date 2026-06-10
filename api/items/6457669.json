@@ -1,6 +1,5 @@
 {
   "item_id": "6457669",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6457669",
   "title": "【無料】ボストン型メガネ【VRC想定】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sasami21",
   "creator_name": "sasami21",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

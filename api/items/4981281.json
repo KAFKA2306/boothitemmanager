@@ -1,6 +1,5 @@
 {
   "item_id": "4981281",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4981281",
   "title": "Raver Backpack 【PACIFI...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "artsyglitch",
   "creator_name": "artsyglitch",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リュック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リュック"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

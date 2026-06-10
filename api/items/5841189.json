@@ -1,6 +1,5 @@
 {
   "item_id": "5841189",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5841189",
   "title": "【 無料 / free 】マヌカ対応 ♡ え...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mokmko",
   "creator_name": "mokmko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

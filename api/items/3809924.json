@@ -1,6 +1,5 @@
 {
   "item_id": "3809924",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3809924",
   "title": "【舞夜向け】　ルーズソックス(ローファー付き)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rihyaco",
   "creator_name": "rihyaco",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

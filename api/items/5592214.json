@@ -1,6 +1,5 @@
 {
   "item_id": "5592214",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5592214",
   "title": "【３Dモデルウェア】NekoMaid",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "skd-noratama",
   "creator_name": "skd-noratama",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 3000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "NekoMaid"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "NekoMaid",
       "name": "猫メイド"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

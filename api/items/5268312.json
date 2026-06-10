@@ -1,6 +1,5 @@
 {
   "item_id": "5268312",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5268312",
   "title": "[マヌカ] ゴシック  | Manuka G...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "kouklaspizzas",
   "creator_name": "kouklaspizzas",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

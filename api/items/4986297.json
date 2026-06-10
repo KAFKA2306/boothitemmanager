@@ -1,6 +1,5 @@
 {
   "item_id": "4986297",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4986297",
   "title": "[VRChat] Heart Sunglasses",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "borish",
   "creator_name": "borish",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

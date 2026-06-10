@@ -1,6 +1,5 @@
 {
   "item_id": "4712605",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4712605",
   "title": "【狐雨ちゃん対応】【INABAちゃん対応】【...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "torinosuke05",
   "creator_name": "torinosuke05",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "INABA",
+      "KitsuneAme"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "INABA",
@@ -23,5 +38,6 @@
       "name": "狐雨"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

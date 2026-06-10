@@ -1,6 +1,5 @@
 {
   "item_id": "2639192",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2639192",
   "title": "[VRChat想定] 闇っぽいトレイル",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yoshio-will",
   "creator_name": "yoshio-will",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

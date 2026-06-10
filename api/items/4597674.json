@@ -1,6 +1,5 @@
 {
   "item_id": "4597674",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4597674",
   "title": "【フィオナ Fiona】用衣装 bunny...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "maoxiaonuo1",
   "creator_name": "maoxiaonuo1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Fiona"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Fiona",
       "name": "フィオナ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

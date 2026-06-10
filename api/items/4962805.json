@@ -1,6 +1,5 @@
 {
   "item_id": "4962805",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4962805",
   "title": "[VRchat] Fish suit",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "qpandorap",
   "creator_name": "qpandorap",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

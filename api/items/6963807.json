@@ -1,6 +1,5 @@
 {
   "item_id": "6963807",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6963807",
   "title": "【VRChat想定】4アバター対応3D衣装【...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "syaimeiri",
   "creator_name": "syaimeiri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2828383",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2828383",
   "title": "['ここあ'専用衣装] hood T-shirt",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "emojisinfu",
   "creator_name": "emojisinfu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

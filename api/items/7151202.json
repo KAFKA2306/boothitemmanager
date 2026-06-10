@@ -1,6 +1,5 @@
 {
   "item_id": "7151202",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7151202",
   "title": "サカバンパンプス【無料/フリー】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "hedoron",
   "creator_name": "hedoron",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ヒール",
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ヒール",
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

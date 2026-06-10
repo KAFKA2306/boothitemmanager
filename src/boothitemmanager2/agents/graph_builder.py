@@ -6,9 +6,7 @@ from ..schemas.storage import Item, GraphNode, GraphEdge
 
 def build_graph(items: List[Item], trace_id: str) -> TestBlock:
     """
-    Builds the graph layer (nodes.json, edges.json) from a list of Items.
-    Crash-Driven: No try-catch blocks.
-    Zero-Fat: Focused on relation mapping.
+    Builds the graph layer (nodes.json, edges.json) from the 10D Item model.
     """
     nodes: Dict[str, GraphNode] = {}
     item_edges: Dict[str, List[GraphEdge]] = {}
@@ -35,7 +33,8 @@ def build_graph(items: List[Item], trace_id: str) -> TestBlock:
             GraphEdge(target_id=creator_node_id, relation="created_by")
         ]
 
-        for tag in item.tags_raw + item.tags_generated:
+        # Use new flattened tags property
+        for tag in item.tags:
             tag_node_id = f"tag:{tag}"
             if tag_node_id not in nodes:
                 nodes[tag_node_id] = GraphNode(
@@ -47,7 +46,6 @@ def build_graph(items: List[Item], trace_id: str) -> TestBlock:
 
         item_edges[item_node_id] = edges_for_item
 
-    # Flatten for JSON output (legacy edges.json / nodes.json format)
     nodes_out = [
         {"id": n.node_id, "label": n.node_type.capitalize(),
          "properties": {"name": n.node_id}}
@@ -77,9 +75,7 @@ def build_graph(items: List[Item], trace_id: str) -> TestBlock:
         expected_state={"node_count": len(nodes), "edge_count": len(edges_out)},
         actual_state={
             "node_count": len(nodes),
-            "edge_count": len(edges_out),
-            "nodes_path": nodes_path,
-            "edges_path": edges_path
+            "edge_count": len(edges_out)
         },
         diff={},
         result="SUCCESS"

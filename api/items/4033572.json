@@ -1,6 +1,5 @@
 {
   "item_id": "4033572",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4033572",
   "title": "【21体対応】マーメイドネイル ver1.1...",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "natorie",
   "creator_name": "natorie",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

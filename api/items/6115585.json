@@ -1,6 +1,5 @@
 {
   "item_id": "6115585",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6115585",
   "title": "「しなの・Shinano」そばかす / Fr...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "raphiiko",
   "creator_name": "raphiiko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 450,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7382806",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7382806",
   "title": "【無料】自爆ギミック【全アバター対応】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "ume-development",
   "creator_name": "ume-development",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

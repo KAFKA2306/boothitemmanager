@@ -1,6 +1,5 @@
 {
   "item_id": "3696179",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3696179",
   "title": "＊FREE＊ Ribbon Headband...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mocchiriomochi",
   "creator_name": "mocchiriomochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

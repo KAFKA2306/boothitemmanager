@@ -1,6 +1,5 @@
 {
   "item_id": "6531046",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6531046",
   "title": "白黒ウルフジャンパー＆スニーカー【まめひなた...",
   "description": "",
@@ -8,15 +7,29 @@
   "creator_id": "kukumoto",
   "creator_name": "kukumoto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "モノトーン",
-    "黒",
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "モノトーン",
+      "黒",
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

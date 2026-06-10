@@ -1,6 +1,5 @@
 {
   "item_id": "7302840",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7302840",
   "title": "PLATA 【SPORT】眼鏡",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "rucion",
   "creator_name": "rucion",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ",
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

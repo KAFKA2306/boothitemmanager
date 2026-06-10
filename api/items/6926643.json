@@ -1,6 +1,5 @@
 {
   "item_id": "6926643",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6926643",
   "title": "【真央 mao 専用】 拡張ピアスセット /...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "hamumogumogu",
   "creator_name": "hamumogumogu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6107771",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6107771",
   "title": "【無料有】モーションセット 《3,000フォ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "funazushi",
   "creator_name": "funazushi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

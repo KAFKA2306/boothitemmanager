@@ -1,6 +1,5 @@
 {
   "item_id": "6607477",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6607477",
   "title": "【衣装】BEATEK Zip-UP Layered",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "beatek",
   "creator_name": "beatek",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

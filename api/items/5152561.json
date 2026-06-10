@@ -1,6 +1,5 @@
 {
   "item_id": "5152561",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5152561",
   "title": "【真冬対応】眼帯 - Eyepatch -【...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "legrigman",
   "creator_name": "legrigman",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "眼帯"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼帯"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

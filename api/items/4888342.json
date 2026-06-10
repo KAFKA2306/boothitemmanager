@@ -1,6 +1,5 @@
 {
   "item_id": "4888342",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4888342",
   "title": "「9アバター対応衣装」南国の透けTシャツ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ysakura3928",
   "creator_name": "ysakura3928",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

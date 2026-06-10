@@ -1,6 +1,5 @@
 {
   "item_id": "6695511",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6695511",
   "title": "🏫🏀シンプル体操服🏐🏫【14アバター対応】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "xiiiange",
   "creator_name": "xiiiange",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "体操服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "体操服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

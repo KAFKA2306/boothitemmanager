@@ -1,6 +1,5 @@
 {
   "item_id": "7428575",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7428575",
   "title": "楽園の素敵な巫女＆普通の魔法使いセット【まめ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "haruu3",
   "creator_name": "haruu3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

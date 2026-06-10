@@ -1,6 +1,5 @@
 {
   "item_id": "4902416",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4902416",
   "title": "ライム シフォン ショコラ専用　スパッツ",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "momonga-3d",
   "creator_name": "momonga-3d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "レギンス",
-    "ライム"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 450,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [
+      "レギンス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

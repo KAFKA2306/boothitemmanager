@@ -1,6 +1,5 @@
 {
   "item_id": "6020913",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6020913",
   "title": "[14 Avatar]LATE SUMMER...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chiy00000ya",
   "creator_name": "chiy00000ya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

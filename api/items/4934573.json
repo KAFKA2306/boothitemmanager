@@ -1,6 +1,5 @@
 {
   "item_id": "4934573",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4934573",
   "title": "大正着物衣装（Taisho_Kimono_C...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "myunmyune",
   "creator_name": "myunmyune",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

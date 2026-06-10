@@ -1,6 +1,5 @@
 {
   "item_id": "2110976",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2110976",
   "title": "【VRChat向け】星屑のピアス【無料3Dモ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "elfchan",
   "creator_name": "elfchan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

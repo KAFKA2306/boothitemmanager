@@ -1,6 +1,5 @@
 {
   "item_id": "8214634",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8214634",
   "title": "時紡ぎの学園服【キプフェル（まめふれ）、クミ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rinakinoko",
   "creator_name": "rinakinoko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

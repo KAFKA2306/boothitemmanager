@@ -1,6 +1,5 @@
 {
   "item_id": "5155136",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5155136",
   "title": "【真冬対応】ロングブーツ",
   "description": "",
@@ -8,20 +7,37 @@
   "creator_id": "seniti-1001",
   "creator_name": "seniti-1001",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "冬",
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [
+      "ロング",
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

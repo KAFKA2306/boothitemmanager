@@ -1,6 +1,5 @@
 {
   "item_id": "5756040",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5756040",
   "title": "【3Dモデル】天童アリス（制服）",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "vicehammer",
   "creator_name": "vicehammer",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 5000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4432089",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4432089",
   "title": "コウモリ柄着物 Bat pattern ki...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yenchvoy",
   "creator_name": "yenchvoy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

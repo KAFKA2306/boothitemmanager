@@ -1,6 +1,5 @@
 {
   "item_id": "3571529",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3571529",
   "title": "耳飾りが似合うりぼん付きのside_tail...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "milk-cookies",
   "creator_name": "milk-cookies",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "8364924",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8364924",
   "title": "【無料】CityScape by RARA ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "raralabo",
   "creator_name": "raralabo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ケープ"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ケープ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

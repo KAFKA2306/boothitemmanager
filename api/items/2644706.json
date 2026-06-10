@@ -1,6 +1,5 @@
 {
   "item_id": "2644706",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2644706",
   "title": "3Dモデル　Mo2　サイバーパンク風ガスマスク",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tm01",
   "creator_name": "tm01",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

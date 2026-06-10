@@ -1,6 +1,5 @@
 {
   "item_id": "3946761",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3946761",
   "title": "Cross Charm Boots＋α",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mocchiriomochi",
   "creator_name": "mocchiriomochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

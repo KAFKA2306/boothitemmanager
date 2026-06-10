@@ -1,6 +1,5 @@
 {
   "item_id": "6577526",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6577526",
   "title": "【VRChat】 *:゜猫猫尻尾 CTail...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "t-shop",
   "creator_name": "t-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "尻尾"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

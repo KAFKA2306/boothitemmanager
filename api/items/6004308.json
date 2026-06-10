@@ -1,6 +1,5 @@
 {
   "item_id": "6004308",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6004308",
   "title": "【複数アバター対応】Shark Tail H...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ri-bon2",
   "creator_name": "ri-bon2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

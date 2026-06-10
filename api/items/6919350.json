@@ -1,6 +1,5 @@
 {
   "item_id": "6919350",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6919350",
   "title": "【3Dモデル】和室アセット(16点)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "noagami",
   "creator_name": "noagami",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

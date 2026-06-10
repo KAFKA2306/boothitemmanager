@@ -1,6 +1,5 @@
 {
   "item_id": "3078418",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3078418",
   "title": "【Unity2022/VCC対応 Quest...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sc-const",
   "creator_name": "sc-const",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 3500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

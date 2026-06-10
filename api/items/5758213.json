@@ -1,6 +1,5 @@
 {
   "item_id": "5758213",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5758213",
   "title": "簡単導入◇墨惺専用◇Bokuseiメイク+目...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "usagi88",
   "creator_name": "usagi88",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

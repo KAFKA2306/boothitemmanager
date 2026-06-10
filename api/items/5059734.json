@@ -1,6 +1,5 @@
 {
   "item_id": "5059734",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5059734",
   "title": "[Pink Meringue] - マヌカ ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "eliya",
   "creator_name": "eliya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ピンク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ピンク"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

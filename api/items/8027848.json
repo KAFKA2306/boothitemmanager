@@ -1,6 +1,5 @@
 {
   "item_id": "8027848",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8027848",
   "title": "【無料ある】　₊⁺ ꒰১幽霊海月 ໒꒱ ⁺₊...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sayostudio",
   "creator_name": "sayostudio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6995163",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6995163",
   "title": "ANNEI_USAGI【11アバター対応】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mr47",
   "creator_name": "mr47",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

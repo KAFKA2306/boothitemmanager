@@ -1,6 +1,5 @@
 {
   "item_id": "3845072",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3845072",
   "title": "【VRChat】CROSS BOOTS【クロ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "ablab",
   "creator_name": "ablab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 900,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

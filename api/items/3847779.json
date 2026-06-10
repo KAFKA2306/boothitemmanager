@@ -1,6 +1,5 @@
 {
   "item_id": "3847779",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3847779",
   "title": "「桔梗」専用【3D衣装モデル】公立高校夏制服",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "woodapple",
   "creator_name": "woodapple",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

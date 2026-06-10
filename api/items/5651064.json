@@ -1,6 +1,5 @@
 {
   "item_id": "5651064",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5651064",
   "title": "【Free】Sio / しお-専用-Pink...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pandaaki",
   "creator_name": "pandaaki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ピンク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ピンク"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

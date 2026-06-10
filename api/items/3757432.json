@@ -1,6 +1,5 @@
 {
   "item_id": "3757432",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3757432",
   "title": "【3D】お花のピアスとネックレス【ダイナミッ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "azaris",
   "creator_name": "azaris",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネックレス",
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネックレス",
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

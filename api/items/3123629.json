@@ -1,6 +1,5 @@
 {
   "item_id": "3123629",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3123629",
   "title": "【無料】白鞘の短刀(ドス)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "fabrik180",
   "creator_name": "fabrik180",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

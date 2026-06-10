@@ -1,6 +1,5 @@
 {
   "item_id": "5476089",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5476089",
   "title": "【24アバター対応、MA対応】指揮官な制服コ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "studiosymphony",
   "creator_name": "studiosymphony",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

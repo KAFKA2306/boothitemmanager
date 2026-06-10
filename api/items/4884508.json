@@ -1,6 +1,5 @@
 {
   "item_id": "4884508",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4884508",
   "title": "【森羅-Shinra】中性メイク ＆ 瞳テク...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "aichan-vr",
   "creator_name": "aichan-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

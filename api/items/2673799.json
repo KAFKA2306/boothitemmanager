@@ -1,6 +1,5 @@
 {
   "item_id": "2673799",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2673799",
   "title": "「薄荷」専用【3D衣装モデル】白きなこ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "woodapple",
   "creator_name": "woodapple",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Hakka",
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

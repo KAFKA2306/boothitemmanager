@@ -1,6 +1,5 @@
 {
   "item_id": "6858640",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6858640",
   "title": "【MA対応】白黒の夢 Ver2.0",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "idaten93",
   "creator_name": "idaten93",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "モノトーン",
-    "黒",
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "モノトーン",
+      "黒",
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

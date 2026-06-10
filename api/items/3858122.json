@@ -1,6 +1,5 @@
 {
   "item_id": "3858122",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3858122",
   "title": "【舞夜-Maya】 𝐁𝐋𝐀𝐂𝐊♦ NAIL...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "uxxuina",
   "creator_name": "uxxuina",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒",
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 250,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

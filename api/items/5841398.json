@@ -1,6 +1,5 @@
 {
   "item_id": "5841398",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5841398",
   "title": "【VRC想定】侑兎-ikuto-リメイク版",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kaitaku98",
   "creator_name": "kaitaku98",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

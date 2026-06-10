@@ -1,6 +1,5 @@
 {
   "item_id": "6858216",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6858216",
   "title": "High heel boots 十三式 【複...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "bami3000",
   "creator_name": "bami3000",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

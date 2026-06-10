@@ -1,6 +1,5 @@
 {
   "item_id": "7805765",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7805765",
   "title": "シンプルだぼニット【７アバター対応】【MA設...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "hox3",
   "creator_name": "hox3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 450,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

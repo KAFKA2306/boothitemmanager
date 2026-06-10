@@ -1,6 +1,5 @@
 {
   "item_id": "5890025",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5890025",
   "title": "【第2弾】アンドエスティ×サンリオキャラクタ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "dot-st",
   "creator_name": "dot-st",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

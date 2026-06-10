@@ -1,6 +1,5 @@
 {
   "item_id": "7696095",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7696095",
   "title": "🎄𝐑𝐮𝐝𝐨𝐥𝐩𝐡 𝐁𝐨𝐝𝐲𝐬𝐮𝐢𝐭🎄",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chocolatespice",
   "creator_name": "chocolatespice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

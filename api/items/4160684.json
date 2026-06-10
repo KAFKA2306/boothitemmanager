@@ -1,6 +1,5 @@
 {
   "item_id": "4160684",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4160684",
   "title": "【6モデル対応】着物柄ビキニ-クリスクロスス...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "an1mira",
   "creator_name": "an1mira",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "ビキニ",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

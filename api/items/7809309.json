@@ -1,6 +1,5 @@
 {
   "item_id": "7809309",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7809309",
   "title": "【無料版あり】ルルネ想定　追加ハンドジェスチャー",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "sion-create",
   "creator_name": "sion-create",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4950030",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4950030",
   "title": "【14アバター対応】Gothic[A]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "a01koromo",
   "creator_name": "a01koromo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

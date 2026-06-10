@@ -5,6 +5,7 @@ from datetime import datetime
 from .agents.crawler import fetch_html
 from .agents.normalizer import normalize_html
 from .agents.api_generator import generate_api
+from .agents.similarity_engine import compute_similar_items
 from .schemas.storage import RawAssetPage, Item
 
 from .agents.bridge import convert_ndjson_to_items
@@ -43,8 +44,8 @@ def run_pipeline():
     raw_files = list(raw_dir.glob("*.html"))
 
     if raw_files:
-        log(f"📦 Processing {len(raw_files)} detailed HTML files...")
-        for rf in raw_files:
+        log(f"📦 Processing {len(raw_files)} detailed HTML files (limiting to 100 for verification)...")
+        for rf in raw_files[:100]:
             item_id = rf.stem
             url = f"https://booth.pm/ja/items/{item_id}"
             content = rf.read_text(encoding='utf-8')
@@ -58,7 +59,10 @@ def run_pipeline():
     items = list(all_items_dict.values())
     log(f"📊 Total items for processing: {len(items)}")
 
-    # 2. Build Graph & Search Index (TODO: Add these builders to the loop)
+    # 2. Build Graph & Search Index
+    log("🔗 Computing item similarities...")
+    items = compute_similar_items(items)
+    
     # For now, we go straight to API generation
     graph_data = {"nodes": [], "edges": []}
     

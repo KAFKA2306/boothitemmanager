@@ -1,6 +1,5 @@
 {
   "item_id": "6270466",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6270466",
   "title": "【しなの対応】SweetHop【VRChat...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "suzu-ya",
   "creator_name": "suzu-ya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

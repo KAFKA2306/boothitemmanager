@@ -1,6 +1,5 @@
 {
   "item_id": "6533915",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6533915",
   "title": "【衣装＋髪型/髪型のみ】でこだしロング＆だる...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yamasakatofu",
   "creator_name": "yamasakatofu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

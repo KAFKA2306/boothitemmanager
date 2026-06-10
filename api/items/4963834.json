@@ -1,6 +1,5 @@
 {
   "item_id": "4963834",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4963834",
   "title": "【20アバター対応】アクアビキニ[Aqua ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "afro-da-afro",
   "creator_name": "afro-da-afro",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

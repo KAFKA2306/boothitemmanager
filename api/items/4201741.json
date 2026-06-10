@@ -1,6 +1,5 @@
 {
   "item_id": "4201741",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4201741",
   "title": "【舞夜対応】ミニスカートメイド/Mini S...",
   "description": "",
@@ -8,16 +7,31 @@
   "creator_id": "oao",
   "creator_name": "oao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ミニスカート",
-    "メイド服",
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ミニスカート",
+      "メイド服",
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

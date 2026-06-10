@@ -1,6 +1,5 @@
 {
   "item_id": "5750363",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5750363",
   "title": "楽園の翼 (Wings of Paradis...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "cybercritter",
   "creator_name": "cybercritter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4908694",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4908694",
   "title": "[Moe/Grus/Kikyo/Shinra...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "maqiu",
   "creator_name": "maqiu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -27,5 +43,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7995286",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7995286",
   "title": "【無料/Free】ワンクリックで簡単お問い合...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "vrctool",
   "creator_name": "vrctool",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5935346",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5935346",
   "title": "【無料】メニュー整頓用着換えセットver1....",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "clalice",
   "creator_name": "clalice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

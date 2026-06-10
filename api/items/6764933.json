@@ -1,6 +1,5 @@
 {
   "item_id": "6764933",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6764933",
   "title": "ポーズに寄り添うギミックマフラー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "llenn993",
   "creator_name": "llenn993",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マフラー"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

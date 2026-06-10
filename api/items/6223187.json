@@ -1,6 +1,5 @@
 {
   "item_id": "6223187",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6223187",
   "title": "【衣装】キャット&リボンチュニック　v1.5",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nemutain",
   "creator_name": "nemutain",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

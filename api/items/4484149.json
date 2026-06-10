@@ -1,6 +1,5 @@
 {
   "item_id": "4484149",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4484149",
   "title": "可愛くてクールなサイドテールショートヘア",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "li-ne",
   "creator_name": "li-ne",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

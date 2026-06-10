@@ -1,6 +1,5 @@
 {
   "item_id": "3841422",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3841422",
   "title": "VRC想定　宝石の翼ver1.2（テクスチャ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "white72",
   "creator_name": "white72",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

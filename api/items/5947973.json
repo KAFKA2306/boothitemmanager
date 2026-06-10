@@ -1,6 +1,5 @@
 {
   "item_id": "5947973",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5947973",
   "title": "【7アバター対応】おおかみショートボブ【ru...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "suipro-mogana",
   "creator_name": "suipro-mogana",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

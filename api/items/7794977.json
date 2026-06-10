@@ -1,6 +1,5 @@
 {
   "item_id": "7794977",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7794977",
   "title": "【着物】OneSideStyle【6アバター対応】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "z1gz4g",
   "creator_name": "z1gz4g",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "着物"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 990,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

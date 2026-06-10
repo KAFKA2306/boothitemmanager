@@ -1,6 +1,5 @@
 {
   "item_id": "5342350",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5342350",
   "title": "【萌、マヌカ、まふゆ、桔梗、森羅、しなの対応...",
   "description": "",
@@ -8,11 +7,31 @@
   "creator_id": "masa01501",
   "creator_name": "masa01501",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano",
+      "Manuka",
+      "Moe",
+      "Mafuyu",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -39,5 +58,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

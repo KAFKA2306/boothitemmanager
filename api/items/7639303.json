@@ -1,6 +1,5 @@
 {
   "item_id": "7639303",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7639303",
   "title": "【3アバター対応】華の黒葬【EYEtexture】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "doridoridoriru",
   "creator_name": "doridoridoriru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

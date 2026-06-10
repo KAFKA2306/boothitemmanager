@@ -1,6 +1,5 @@
 {
   "item_id": "6950686",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6950686",
   "title": "着物と和傘と眼鏡セット！",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "damudamu",
   "creator_name": "damudamu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装",
-    "着物",
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

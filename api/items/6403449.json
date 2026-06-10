@@ -1,6 +1,5 @@
 {
   "item_id": "6403449",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6403449",
   "title": "【Soft Long Hair専用/無料あり...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "akiyo",
   "creator_name": "akiyo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

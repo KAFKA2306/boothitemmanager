@@ -1,6 +1,5 @@
 {
   "item_id": "4691866",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4691866",
   "title": "[ Gothic Punk Gloves ]",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "daedeun",
   "creator_name": "daedeun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "手袋"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "手袋"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

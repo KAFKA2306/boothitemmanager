@@ -1,6 +1,5 @@
 {
   "item_id": "6265175",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6265175",
   "title": "【無料】フェイスタトゥー堕天使の羽根",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "4rudesign",
   "creator_name": "4rudesign",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼",
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "翼",
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4106449",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4106449",
   "title": "💗【ハオランHaolan】4TYPEボディー...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "shapeshiftercl",
   "creator_name": "shapeshiftercl",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

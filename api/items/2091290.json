@@ -1,6 +1,5 @@
 {
   "item_id": "2091290",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2091290",
   "title": "アバター着用メガネ『Wellington G...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "auaua",
   "creator_name": "auaua",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

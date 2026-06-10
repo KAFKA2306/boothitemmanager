@@ -1,6 +1,5 @@
 {
   "item_id": "6248172",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6248172",
   "title": "包帯ミイラです mummy  绷带木乃伊【キ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "jzz",
   "creator_name": "jzz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "包帯"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "包帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

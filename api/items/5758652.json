@@ -1,6 +1,5 @@
 {
   "item_id": "5758652",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5758652",
   "title": "【VRChat】ラメ布生地マテリアルテクスチ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "malu-materials",
   "creator_name": "malu-materials",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

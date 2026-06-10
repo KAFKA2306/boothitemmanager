@@ -1,6 +1,5 @@
 {
   "item_id": "4212507",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4212507",
   "title": "【VRoid 装飾品】角（ツノ）全12種類【...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rosebud",
   "creator_name": "rosebud",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

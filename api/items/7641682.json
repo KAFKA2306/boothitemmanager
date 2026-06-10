@@ -1,6 +1,5 @@
 {
   "item_id": "7641682",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7641682",
   "title": "【3アバター対応】ケモ耳ピアスセット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "howareyu",
   "creator_name": "howareyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 150,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

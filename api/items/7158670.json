@@ -1,6 +1,5 @@
 {
   "item_id": "7158670",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7158670",
   "title": "ゴシックゴシックチェーンピアス　７アバター対応",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "vavamore",
   "creator_name": "vavamore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "イヤリング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

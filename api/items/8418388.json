@@ -1,6 +1,5 @@
 {
   "item_id": "8418388",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8418388",
   "title": "キリリ 【 髪型 / ロングヘア / ウェー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hamanosis",
   "creator_name": "hamanosis",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

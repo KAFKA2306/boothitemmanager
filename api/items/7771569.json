@@ -1,6 +1,5 @@
 {
   "item_id": "7771569",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7771569",
   "title": "FakeSkirt_and_Cardigan...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "macchashiratama",
   "creator_name": "macchashiratama",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カーディガン",
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 750,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "カーディガン",
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

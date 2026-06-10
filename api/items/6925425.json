@@ -1,6 +1,5 @@
 {
   "item_id": "6925425",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6925425",
   "title": "【♣️⚜️5アバター対応⚜️♣️】黒曜のリリス",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "deracinestudio",
   "creator_name": "deracinestudio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

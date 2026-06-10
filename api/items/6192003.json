@@ -1,6 +1,5 @@
 {
   "item_id": "6192003",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6192003",
   "title": "WESTERN OUTFITS(しなの用衣装)",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "iruka-nezumi",
   "creator_name": "iruka-nezumi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

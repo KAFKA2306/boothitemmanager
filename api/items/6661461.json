@@ -1,6 +1,5 @@
 {
   "item_id": "6661461",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6661461",
   "title": "【2アバター対応】ツートーンロングヘア【髪型】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "amama40",
   "creator_name": "amama40",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

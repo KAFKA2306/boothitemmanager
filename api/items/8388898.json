@@ -1,6 +1,5 @@
 {
   "item_id": "8388898",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8388898",
   "title": "【Marycia マリシア専用髪型】シュガー...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "yamasakatofu",
   "creator_name": "yamasakatofu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

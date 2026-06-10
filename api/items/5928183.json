@@ -1,6 +1,5 @@
 {
   "item_id": "5928183",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5928183",
   "title": "【VRC想定3Dモデル】　灼銀の弾丸　Sil...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "takbeafreak",
   "creator_name": "takbeafreak",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 5000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5926794",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5926794",
   "title": "【7アバター対応】サマーフリルビキニ Sum...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "moruton",
   "creator_name": "moruton",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ビキニ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 480,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

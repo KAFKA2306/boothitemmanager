@@ -1,6 +1,5 @@
 {
   "item_id": "7869993",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7869993",
   "title": "Jersey Bottoms for Mafuyu",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "tsukina-7mochi",
   "creator_name": "tsukina-7mochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

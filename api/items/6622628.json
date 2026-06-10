@@ -1,6 +1,5 @@
 {
   "item_id": "6622628",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6622628",
   "title": "【FREE/無料】耳型ニット帽（眼鏡付き）",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yahoyaho",
   "creator_name": "yahoyaho",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

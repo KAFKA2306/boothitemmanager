@@ -1,6 +1,5 @@
 {
   "item_id": "6390316",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6390316",
   "title": "8アバター対応 ♡ キプフェル推し痛ネイル💅",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mokmko",
   "creator_name": "mokmko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 350,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

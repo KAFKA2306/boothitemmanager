@@ -1,6 +1,5 @@
 {
   "item_id": "3390200",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3390200",
   "title": "【3Dモデル】Moesode / 薄荷",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "rakoko",
   "creator_name": "rakoko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe",
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
@@ -23,5 +38,6 @@
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

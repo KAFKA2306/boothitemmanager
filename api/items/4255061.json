@@ -1,6 +1,5 @@
 {
   "item_id": "4255061",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4255061",
   "title": "VRChatアバター向け武器モデル　SFファ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "wo-ku",
   "creator_name": "wo-ku",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF",
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

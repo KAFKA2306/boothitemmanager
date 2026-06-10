@@ -1,6 +1,5 @@
 {
   "item_id": "2663042",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2663042",
   "title": "[VRCHAT]狐雪, イヨ, ソア_メイドスーツ",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "as025886",
   "creator_name": "as025886",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "スーツ",
-    "メイド服",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "スーツ",
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

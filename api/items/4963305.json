@@ -1,6 +1,5 @@
 {
   "item_id": "4963305",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4963305",
   "title": "【森羅】Summer vest uniform",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "podo5312",
   "creator_name": "podo5312",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ベスト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ベスト"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

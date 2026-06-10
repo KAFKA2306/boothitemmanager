@@ -1,6 +1,5 @@
 {
   "item_id": "4731634",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4731634",
   "title": "Just Fit Breast PhysBo...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "yumecorp",
   "creator_name": "yumecorp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

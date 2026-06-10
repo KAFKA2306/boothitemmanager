@@ -1,6 +1,5 @@
 {
   "item_id": "3300601",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3300601",
   "title": "【複数アバター】キャミソールワンピース【専用衣装】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "nekokakushi",
   "creator_name": "nekokakushi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "キャミソール",
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "キャミソール",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

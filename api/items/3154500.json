@@ -1,6 +1,5 @@
 {
   "item_id": "3154500",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3154500",
   "title": "[3dモデル]狐雪 Dress[PB X]",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "catsws",
   "creator_name": "catsws",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

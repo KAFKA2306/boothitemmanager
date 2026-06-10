@@ -1,6 +1,5 @@
 {
   "item_id": "3511510",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3511510",
   "title": "【メリノ、桔梗用】衣装モデル『サンタコス-S...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "bobcat-world",
   "creator_name": "bobcat-world",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

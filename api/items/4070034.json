@@ -1,6 +1,5 @@
 {
   "item_id": "4070034",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4070034",
   "title": "【ハオラン専用】半袖パーカー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mokachan1596",
   "creator_name": "mokachan1596",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 180,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

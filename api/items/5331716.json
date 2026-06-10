@@ -1,6 +1,5 @@
 {
   "item_id": "5331716",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5331716",
   "title": "オリジナル3Dモデル『銀杏』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mtshop",
   "creator_name": "mtshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "銀"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 3500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

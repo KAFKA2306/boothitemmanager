@@ -1,6 +1,5 @@
 {
   "item_id": "5342731",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5342731",
   "title": "【瑞希、ルルネ対応】ミドルブーツ",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "seniti-1001",
   "creator_name": "seniti-1001",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune",
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
@@ -25,5 +40,6 @@
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

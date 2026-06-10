@@ -1,6 +1,5 @@
 {
   "item_id": "4296062",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4296062",
   "title": "【クリスマス衣装】ファ－マント",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "astrostore",
   "creator_name": "astrostore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マント"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 380,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "マント"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

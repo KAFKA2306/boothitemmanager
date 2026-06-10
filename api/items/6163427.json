@@ -1,6 +1,5 @@
 {
   "item_id": "6163427",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6163427",
   "title": "【しなの対応】Eye+Make Textur...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "atc",
   "creator_name": "atc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

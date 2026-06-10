@@ -1,6 +1,5 @@
 {
   "item_id": "3376955",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3376955",
   "title": "【43アバター対応】学園探偵制服-Tiny ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "capettiya",
   "creator_name": "capettiya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

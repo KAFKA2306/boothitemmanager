@@ -1,6 +1,5 @@
 {
   "item_id": "1899207",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1899207",
   "title": "3D衣装「空々ブーツ３」【キッシュ用素体基準】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kuukuukon",
   "creator_name": "kuukuukon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

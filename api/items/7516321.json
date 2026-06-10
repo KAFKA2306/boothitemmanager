@@ -1,6 +1,5 @@
 {
   "item_id": "7516321",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7516321",
   "title": "陰陽結社-鬼-【キプフェル・リルレオ】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "masoshop",
   "creator_name": "masoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

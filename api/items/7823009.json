@@ -1,6 +1,5 @@
 {
   "item_id": "7823009",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7823009",
   "title": "姫カット風ロングヘア - Silky Pri...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yumikoworld",
   "creator_name": "yumikoworld",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 900,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

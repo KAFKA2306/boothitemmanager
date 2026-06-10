@@ -1,6 +1,5 @@
 {
   "item_id": "7927850",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7927850",
   "title": "🖤Eclat Noir Boots🖤 別色M...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "papi-koubou",
   "creator_name": "papi-koubou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

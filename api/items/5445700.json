@@ -1,6 +1,5 @@
 {
   "item_id": "5445700",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5445700",
   "title": "【VRCHAT想定3Dモデル】Make Me...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "koiwaslie",
   "creator_name": "koiwaslie",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 700,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3779989",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3779989",
   "title": "VRoid 発光5色 サイバー猫耳 - Cy...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "fox-corp",
   "creator_name": "fox-corp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "猫耳",
-    "サイバー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 230,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "猫耳",
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

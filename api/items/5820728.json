@@ -1,6 +1,5 @@
 {
   "item_id": "5820728",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5820728",
   "title": "神楽杖-咲華-【ギミック付】/Kagura ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sakurame-yuki",
   "creator_name": "sakurame-yuki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 700,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7928707",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7928707",
   "title": "【泣夜専用】動かせるマスク",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "amagu9",
   "creator_name": "amagu9",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

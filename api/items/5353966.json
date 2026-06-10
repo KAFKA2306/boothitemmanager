@@ -1,6 +1,5 @@
 {
   "item_id": "5353966",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5353966",
   "title": "[FREE]KITSUNE BERET",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "atelierfairytale",
   "creator_name": "atelierfairytale",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

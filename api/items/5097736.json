@@ -1,6 +1,5 @@
 {
   "item_id": "5097736",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5097736",
   "title": "新次元メイドランジェリー(Neo-AgeMa...",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "cybercritter",
   "creator_name": "cybercritter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服",
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

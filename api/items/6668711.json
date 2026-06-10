@@ -1,6 +1,5 @@
 {
   "item_id": "6668711",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6668711",
   "title": "ワールドで良い感じに映えるポーズ集",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "teddybearhouse",
   "creator_name": "teddybearhouse",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 400,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

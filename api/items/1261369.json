@@ -1,6 +1,5 @@
 {
   "item_id": "1261369",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1261369",
   "title": "[眼鏡]Simple眼鏡セット(SHG-19...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sharono",
   "creator_name": "sharono",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

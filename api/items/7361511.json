@@ -1,6 +1,5 @@
 {
   "item_id": "7361511",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7361511",
   "title": "【ルルネ想定】AquaTail【汎用マテリアル】",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "x2much4u",
   "creator_name": "x2much4u",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

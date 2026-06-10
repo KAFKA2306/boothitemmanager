@@ -1,6 +1,5 @@
 {
   "item_id": "3832930",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3832930",
   "title": "【VRChat PB対応】あまカジ パーカー...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "aliceinshelter",
   "creator_name": "aliceinshelter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 700,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

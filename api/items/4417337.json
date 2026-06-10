@@ -1,6 +1,5 @@
 {
   "item_id": "4417337",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4417337",
   "title": "【💖 セール中💖】振袖 彩-いろは-",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "qukumu-closet",
   "creator_name": "qukumu-closet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

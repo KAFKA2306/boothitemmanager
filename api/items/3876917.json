@@ -1,6 +1,5 @@
 {
   "item_id": "3876917",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3876917",
   "title": "【桔梗対応】彼カーディガン【衣装】",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "w-zero",
   "creator_name": "w-zero",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カーディガン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "カーディガン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

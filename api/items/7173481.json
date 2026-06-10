@@ -1,6 +1,5 @@
 {
   "item_id": "7173481",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7173481",
   "title": "【VRChat】もこもこメガネ【MA対応】",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "charmvr",
   "creator_name": "charmvr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "眼鏡",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "8434767",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8434767",
   "title": "【衣装】CasualSpring 【複数アバ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tengusugoi",
   "creator_name": "tengusugoi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7290302",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7290302",
   "title": "くつろぎTシャツ｜VRChat想定3D衣装",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tikasui",
   "creator_name": "tikasui",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

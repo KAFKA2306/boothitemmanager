@@ -1,6 +1,5 @@
 {
   "item_id": "6144182",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6144182",
   "title": "【VRC想定・MA対応】Simple Pen...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "lcdgazedynamics",
   "creator_name": "lcdgazedynamics",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

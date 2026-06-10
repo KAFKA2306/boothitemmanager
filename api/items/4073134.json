@@ -1,6 +1,5 @@
 {
   "item_id": "4073134",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4073134",
   "title": "【VRChat想定】SummerGothic...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "rihyaco",
   "creator_name": "rihyaco",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "夏",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック",
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

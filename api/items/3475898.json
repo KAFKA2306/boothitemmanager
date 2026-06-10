@@ -1,6 +1,5 @@
 {
   "item_id": "3475898",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3475898",
   "title": "【VRC/VRM】ベルトブーツ/Belt b...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "metatelier",
   "creator_name": "metatelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ",
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ",
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

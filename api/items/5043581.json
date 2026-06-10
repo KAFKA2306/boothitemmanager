@@ -1,6 +1,5 @@
 {
   "item_id": "5043581",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5043581",
   "title": "【3D】M.U.S.E. (森羅/萌/Lap...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "lyra-o-o-o",
   "creator_name": "lyra-o-o-o",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
@@ -23,5 +38,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

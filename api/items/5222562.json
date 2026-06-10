@@ -1,6 +1,5 @@
 {
   "item_id": "5222562",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5222562",
   "title": "【真冬3D】Mafuyu Moisture ...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "escapefroma",
   "creator_name": "escapefroma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 120,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

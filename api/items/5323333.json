@@ -1,6 +1,5 @@
 {
   "item_id": "5323333",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5323333",
   "title": "[MANUKA / マヌカ] cat gloves",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "qq4",
   "creator_name": "qq4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "手袋"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "手袋"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

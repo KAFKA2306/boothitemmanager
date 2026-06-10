@@ -7,22 +7,23 @@ from ..schemas.storage import Item
 
 def build_search_index(items: List[Item], trace_id: str) -> TestBlock:
     """
-    Builds a lightweight search index (api/search_index.json) for Fuse.js.
-    Zero-Fat: Only includes fields needed for client-side search.
-    Crash-Driven: No try-catch blocks.
+    Builds a search index for Fuse.js using the 10D model.
     """
     output_path = "api/search_index.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     index = []
     for item in items:
+        # Using item.tags property which flattens 10D tags automatically
         index.append({
             "item_id": item.item_id,
             "name": item.title,
             "shop_name": item.creator_name,
             "tags": item.tags,
             "type": item.category.value,
-            "targets": [t.name for t in item.targets] + [t.code for t in item.targets]
+            "targets": [t.name for t in item.targets] + [t.code for t in item.targets],
+            "price": item.price,
+            "like_count": item.like_count
         })
 
     with open(output_path, "w", encoding="utf-8") as f:

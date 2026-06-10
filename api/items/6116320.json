@@ -1,6 +1,5 @@
 {
   "item_id": "6116320",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6116320",
   "title": "【しなの】胸の谷間テクスチャ/ Shinan...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "ya-o3o",
   "creator_name": "ya-o3o",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

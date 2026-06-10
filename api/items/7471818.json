@@ -1,6 +1,5 @@
 {
   "item_id": "7471818",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7471818",
   "title": "どこでもサンドバッグ🥊【ModularAva...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "kinyouzakka",
   "creator_name": "kinyouzakka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

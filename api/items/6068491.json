@@ -1,6 +1,5 @@
 {
   "item_id": "6068491",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6068491",
   "title": "【MA対応】反応めちゃカワ！追従おばけちゃん...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "kalnet",
   "creator_name": "kalnet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

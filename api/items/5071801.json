@@ -1,6 +1,5 @@
 {
   "item_id": "5071801",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5071801",
   "title": "マヌカ-ストッキングです-MANUKA",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "vrchatlove",
   "creator_name": "vrchatlove",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

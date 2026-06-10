@@ -1,6 +1,5 @@
 {
   "item_id": "5559748",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5559748",
   "title": "【無料モーション】確認に最適な体操アニメーシ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "vworld",
   "creator_name": "vworld",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

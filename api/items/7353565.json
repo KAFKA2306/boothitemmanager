@@ -1,6 +1,5 @@
 {
   "item_id": "7353565",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7353565",
   "title": "【無料/ワールド用】伝説の退場 / 史诗级退...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "luistudio",
   "creator_name": "luistudio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 220,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

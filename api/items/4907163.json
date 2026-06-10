@@ -1,6 +1,5 @@
 {
   "item_id": "4907163",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4907163",
   "title": "【無料】Ribbon summer sand...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "atelier-omotya",
   "creator_name": "atelier-omotya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 150,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

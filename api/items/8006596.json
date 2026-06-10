@@ -1,6 +1,5 @@
 {
   "item_id": "8006596",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8006596",
   "title": "【10アバター対応】誰でも簡単！オッドアイマスク！",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kamoooome",
   "creator_name": "kamoooome",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

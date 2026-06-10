@@ -1,6 +1,5 @@
 {
   "item_id": "4986994",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4986994",
   "title": "【萌】女教師の休日",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mizumizushop",
   "creator_name": "mizumizushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

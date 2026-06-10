@@ -1,6 +1,5 @@
 {
   "item_id": "5540087",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5540087",
   "title": "【ギミック付き】胸元をギュっと絞って引っ張れ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "akadori-i",
   "creator_name": "akadori-i",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

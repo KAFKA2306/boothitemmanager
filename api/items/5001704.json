@@ -1,6 +1,5 @@
 {
   "item_id": "5001704",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5001704",
   "title": "萌・桔梗・デルタフレア対応｜Emset.03",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "msan",
   "creator_name": "msan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

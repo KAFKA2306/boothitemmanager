@@ -1,6 +1,5 @@
 {
   "item_id": "6144516",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6144516",
   "title": "【 しなの対応 】『Umi』アイテクスチャ🐬...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "aya092333",
   "creator_name": "aya092333",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 450,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

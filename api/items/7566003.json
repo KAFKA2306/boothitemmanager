@@ -1,6 +1,5 @@
 {
   "item_id": "7566003",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7566003",
   "title": "【頭のりペット】声で伸びるスターミー",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mofurune",
   "creator_name": "mofurune",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

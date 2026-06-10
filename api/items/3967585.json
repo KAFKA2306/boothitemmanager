@@ -1,6 +1,5 @@
 {
   "item_id": "3967585",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3967585",
   "title": "《11アバター対応衣装》渚のマーメイドワンピース",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "naginagistore",
   "creator_name": "naginagistore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

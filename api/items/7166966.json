@@ -1,6 +1,5 @@
 {
   "item_id": "7166966",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7166966",
   "title": "[ milltina / shinano対応...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "jina0120",
   "creator_name": "jina0120",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

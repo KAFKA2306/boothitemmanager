@@ -9,14 +9,7 @@ from ..schemas.storage import Item
 
 def generate_api(items: List[Item], graph_data: Dict[str, Any], trace_id: str) -> TestBlock:
     """
-    Generates static API endpoints in the api/ directory.
-    - api/catalog.json (Full items)
-    - api/items/all.json (Summary list)
-    - api/items/{id}.json (Individual items)
-    - api/metrics.json (Summary statistics)
-    
-    Zero-Fat: Straightforward serialization and aggregation.
-    Crash-Driven: No try-catch blocks.
+    Generates static API endpoints from the 10D Item model.
     """
     api_dir = "api"
     items_dir = os.path.join(api_dir, "items")
@@ -27,6 +20,8 @@ def generate_api(items: List[Item], graph_data: Dict[str, Any], trace_id: str) -
             return obj.isoformat()
         if hasattr(obj, "__dataclass_fields__"):
             return asdict(obj)
+        if hasattr(obj, "value"): # Enum
+            return obj.value
         return str(obj)
 
     # 1. catalog.json
@@ -39,11 +34,12 @@ def generate_api(items: List[Item], graph_data: Dict[str, Any], trace_id: str) -
     for item in items:
         summaries.append({
             "item_id": item.item_id,
-            "name": item.name,
-            "shop_name": item.shop_name,
-            "type": item.type,
-            "image_url": item.image_url,
-            "current_price": item.current_price
+            "name": item.title,
+            "shop_name": item.creator_name,
+            "type": item.category.value,
+            "image_url": item.thumbnail_url,
+            "current_price": item.price,
+            "like_count": item.like_count
         })
     
     all_items_path = os.path.join(items_dir, "all.json")
@@ -57,8 +53,8 @@ def generate_api(items: List[Item], graph_data: Dict[str, Any], trace_id: str) -
             json.dump(asdict(item), f, ensure_ascii=False, indent=2, default=serialize)
 
     # 4. metrics.json
-    type_counts = Counter(item.type for item in items)
-    shop_counts = Counter(item.shop_name for item in items)
+    type_counts = Counter(item.category.value for item in items)
+    shop_counts = Counter(item.creator_name for item in items)
     
     avatar_list = []
     for item in items:
@@ -83,15 +79,10 @@ def generate_api(items: List[Item], graph_data: Dict[str, Any], trace_id: str) -
         input=len(items),
         pre_state={},
         action="generate_api",
-        expected_state={"file_count": len(items) + 3},
+        expected_state={"file_count_min": 3},
         actual_state={
             "item_count": len(items),
-            "api_dir": api_dir,
-            "files_generated": [
-                "catalog.json",
-                "items/all.json",
-                "metrics.json"
-            ] + [f"items/{item.item_id}.json" for item in items[:3]] # Log first 3 for brevity
+            "api_dir": api_dir
         },
         diff={},
         result="SUCCESS"

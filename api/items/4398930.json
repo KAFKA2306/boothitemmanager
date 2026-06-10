@@ -1,6 +1,5 @@
 {
   "item_id": "4398930",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4398930",
   "title": "【桔梗・セレスティア・舞夜・萌用】❤ゆるパン...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "kametsurudo",
   "creator_name": "kametsurudo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -27,5 +43,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

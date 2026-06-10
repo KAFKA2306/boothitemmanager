@@ -1,6 +1,5 @@
 {
   "item_id": "4927489",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4927489",
   "title": "【無料・MA対応】袖の下からナイフギミック",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "663-chanshop",
   "creator_name": "663-chanshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

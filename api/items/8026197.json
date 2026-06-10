@@ -1,6 +1,5 @@
 {
   "item_id": "8026197",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8026197",
   "title": "部屋着13_キャミセット2026",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "poppo-shop",
   "creator_name": "poppo-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "キャミソール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "キャミソール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

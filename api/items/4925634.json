@@ -1,6 +1,5 @@
 {
   "item_id": "4925634",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4925634",
   "title": "【3Dアクセサリー】02 妖刀 <Bewit...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "keenooshop",
   "creator_name": "keenooshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

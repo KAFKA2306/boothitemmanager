@@ -1,6 +1,5 @@
 {
   "item_id": "5216714",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5216714",
   "title": "No.103『Summer Run』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "c-hirp",
   "creator_name": "c-hirp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

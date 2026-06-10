@@ -1,6 +1,5 @@
 {
   "item_id": "5325210",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5325210",
   "title": "Demia【萌/マヌカ/森羅/桔梗/セレステ...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "glitchganger",
   "creator_name": "glitchganger",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Manuka",
+      "Moe",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -31,5 +48,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

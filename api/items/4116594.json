@@ -1,6 +1,5 @@
 {
   "item_id": "4116594",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4116594",
   "title": "Wide pants set/衣装 [VRC]",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "hero2poi",
   "creator_name": "hero2poi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

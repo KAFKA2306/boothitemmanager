@@ -1,6 +1,5 @@
 {
   "item_id": "7614202",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7614202",
   "title": "(Free)Breaching Tails/...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "magentanull",
   "creator_name": "magentanull",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

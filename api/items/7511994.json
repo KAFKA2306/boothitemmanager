@@ -1,6 +1,5 @@
 {
   "item_id": "7511994",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7511994",
   "title": "⚜️Gold Tattoos⚜️ 4k Te...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "vinzo",
   "creator_name": "vinzo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金",
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

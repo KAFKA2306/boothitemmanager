@@ -1,6 +1,5 @@
 {
   "item_id": "6729604",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6729604",
   "title": "【無料】MA追加_瑞希の尻尾を隣の人に巻きつ...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "rudilack",
   "creator_name": "rudilack",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

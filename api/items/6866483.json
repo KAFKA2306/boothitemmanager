@@ -1,6 +1,5 @@
 {
   "item_id": "6866483",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6866483",
   "title": "【墨惺 bokusei 対応】腹筋 text...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "oore",
   "creator_name": "oore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

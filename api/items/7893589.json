@@ -1,6 +1,5 @@
 {
   "item_id": "7893589",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7893589",
   "title": "【衣装】CampusFrame 【複数アバタ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tengusugoi",
   "creator_name": "tengusugoi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

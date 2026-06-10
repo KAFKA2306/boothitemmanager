@@ -1,6 +1,5 @@
 {
   "item_id": "4026915",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4026915",
   "title": "Flowery Maidens-フローリーメ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "aikawa2",
   "creator_name": "aikawa2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

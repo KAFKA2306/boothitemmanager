@@ -1,6 +1,5 @@
 {
   "item_id": "3992906",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3992906",
   "title": "【こまどアバター ラスクちゃん対応】キュロット制服",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "fiona",
   "creator_name": "fiona",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

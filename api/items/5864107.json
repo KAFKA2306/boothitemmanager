@@ -1,6 +1,5 @@
 {
   "item_id": "5864107",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5864107",
   "title": "うさスク水 【MA対応・うささき用スクール水着】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "hyper-tuyotuyo",
   "creator_name": "hyper-tuyotuyo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

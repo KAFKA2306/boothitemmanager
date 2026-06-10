@@ -1,6 +1,5 @@
 {
   "item_id": "8220197",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8220197",
   "title": "【髪型・翼モデル】プリマ・ペガサス【フィユエ対応】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nicotoontown",
   "creator_name": "nicotoontown",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

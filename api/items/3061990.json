@@ -1,6 +1,5 @@
 {
   "item_id": "3061990",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3061990",
   "title": "【ここあ専用】ネイル テクスチャ Kokoa...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yukikomori",
   "creator_name": "yukikomori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

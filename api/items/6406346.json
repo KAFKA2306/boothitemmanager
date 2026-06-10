@@ -1,6 +1,5 @@
 {
   "item_id": "6406346",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6406346",
   "title": "【5アバター対応】 Airi/Manuka/...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "diediedie",
   "creator_name": "diediedie",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 350,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

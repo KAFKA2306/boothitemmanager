@@ -1,6 +1,5 @@
 {
   "item_id": "7239821",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7239821",
   "title": "【SALE】ゴシックメイド【17アバター対応...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "nem3",
   "creator_name": "nem3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ゴシック",
-    "メイド服"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド",
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4038844",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4038844",
   "title": "セレスティア用衣装　ノースリーブYシャツ　ス...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "norushop",
   "creator_name": "norushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

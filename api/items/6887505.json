@@ -1,6 +1,5 @@
 {
   "item_id": "6887505",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6887505",
   "title": "あざらしパーカー【えも研素体・まめふれんず・...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mashiro0770",
   "creator_name": "mashiro0770",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5342709",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5342709",
   "title": "Thorns Tattoo 入れ墨",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "chloylab",
   "creator_name": "chloylab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角",
-    "タトゥー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 450,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角",
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

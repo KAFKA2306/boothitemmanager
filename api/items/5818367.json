@@ -1,6 +1,5 @@
 {
   "item_id": "5818367",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5818367",
   "title": "+Head専用アンダーウェア",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nanchatty",
   "creator_name": "nanchatty",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

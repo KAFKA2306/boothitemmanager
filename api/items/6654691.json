@@ -1,6 +1,5 @@
 {
   "item_id": "6654691",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6654691",
   "title": "【Lapwing専用】舌ピアス【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "wound-lint",
   "creator_name": "wound-lint",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

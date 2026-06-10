@@ -1,6 +1,5 @@
 {
   "item_id": "7384171",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7384171",
   "title": "【15アバター対応】白まつげと白まゆげとそのマスク",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nibekamaboko",
   "creator_name": "nibekamaboko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "マスク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

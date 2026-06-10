@@ -1,6 +1,5 @@
 {
   "item_id": "3955305",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3955305",
   "title": "【桔梗用衣装】サマースタイル",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "selectshop",
   "creator_name": "selectshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

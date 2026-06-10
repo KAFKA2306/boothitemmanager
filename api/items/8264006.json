@@ -1,6 +1,5 @@
 {
   "item_id": "8264006",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8264006",
   "title": "【無料】💐プティット・フルール -petit...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "aohatsukanezumi",
   "creator_name": "aohatsukanezumi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

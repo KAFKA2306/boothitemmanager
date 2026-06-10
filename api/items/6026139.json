@@ -1,6 +1,5 @@
 {
   "item_id": "6026139",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6026139",
   "title": "【3D衣装】彼ニット✦ビナア対応版✦",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rabishop",
   "creator_name": "rabishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

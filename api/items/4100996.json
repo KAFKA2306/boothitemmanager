@@ -1,6 +1,5 @@
 {
   "item_id": "4100996",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4100996",
   "title": "【期間限定】バニーヘッドバンド【無料】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pinpin3d",
   "creator_name": "pinpin3d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

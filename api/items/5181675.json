@@ -1,6 +1,5 @@
 {
   "item_id": "5181675",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5181675",
   "title": "真冬用白瞳孔しんぷるアイテクスチャ(6色)",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "mon5trsinc",
   "creator_name": "mon5trsinc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 150,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

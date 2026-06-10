@@ -1,6 +1,5 @@
 {
   "item_id": "8130025",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8130025",
   "title": "▪️8AVA▪️ 𝓓𝓪𝓲𝓵𝔂 𝓑𝓵𝓸𝓸𝓶",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "chicblanc",
   "creator_name": "chicblanc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

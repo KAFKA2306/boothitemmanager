@@ -1,6 +1,5 @@
 {
   "item_id": "6616054",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6616054",
   "title": "男性アバター向け衣装『CasualSailo...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "metacreatorstyo",
   "creator_name": "metacreatorstyo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

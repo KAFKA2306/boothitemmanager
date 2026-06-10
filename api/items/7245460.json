@@ -1,6 +1,5 @@
 {
   "item_id": "7245460",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7245460",
   "title": "歩行モーション_メイド(Walkcycle ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "moca-studio",
   "creator_name": "moca-studio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1000,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

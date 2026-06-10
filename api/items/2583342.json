@@ -1,6 +1,5 @@
 {
   "item_id": "2583342",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2583342",
   "title": "「狐雪専用服」ファンタジーメイド服",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "myunmyune",
   "creator_name": "myunmyune",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ファンタジー",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド",
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

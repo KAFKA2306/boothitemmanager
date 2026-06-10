@@ -1,6 +1,5 @@
 {
   "item_id": "3867858",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3867858",
   "title": "【7/7更新】複数アバター対応にじみアイテク...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "misuterareru",
   "creator_name": "misuterareru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

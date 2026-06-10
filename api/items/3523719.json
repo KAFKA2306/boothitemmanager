@@ -1,6 +1,5 @@
 {
   "item_id": "3523719",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3523719",
   "title": "[6アバター対応]リボンサンタB　竜胆/イメ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "tr-96c",
   "creator_name": "tr-96c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

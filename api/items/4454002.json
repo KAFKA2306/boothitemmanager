@@ -1,6 +1,5 @@
 {
   "item_id": "4454002",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4454002",
   "title": "2アバター対応「白縫衣」",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "koarare-atelier",
   "creator_name": "koarare-atelier",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

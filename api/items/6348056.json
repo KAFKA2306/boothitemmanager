@@ -1,6 +1,5 @@
 {
   "item_id": "6348056",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6348056",
   "title": "制服×ジャージ しなの ソラリア 真冬 Li...",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "tadanomikan",
   "creator_name": "tadanomikan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "制服",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano",
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
@@ -27,5 +43,6 @@
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

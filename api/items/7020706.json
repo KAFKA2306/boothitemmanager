@@ -1,6 +1,5 @@
 {
   "item_id": "7020706",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7020706",
   "title": "【10000 follow thx】1000...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nanaruto",
   "creator_name": "nanaruto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

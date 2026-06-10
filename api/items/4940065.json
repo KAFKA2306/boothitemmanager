@@ -1,6 +1,5 @@
 {
   "item_id": "4940065",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4940065",
   "title": "３Dモデル　波浪院君",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "maddydead",
   "creator_name": "maddydead",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

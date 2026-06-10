@@ -1,6 +1,5 @@
 {
   "item_id": "4559867",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4559867",
   "title": "【VRoid texture 62】軍服2",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sqinc",
   "creator_name": "sqinc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

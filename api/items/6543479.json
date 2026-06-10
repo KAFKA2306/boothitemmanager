@@ -1,6 +1,5 @@
 {
   "item_id": "6543479",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6543479",
   "title": "【ルルネ対応】丸めがね MA対応【VRChat】",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "pitohui",
   "creator_name": "pitohui",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 150,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6850519",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6850519",
   "title": "【MA対応】クリスタルな翼と尻尾 Cryst...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "yuniimo",
   "creator_name": "yuniimo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾",
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "尻尾",
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

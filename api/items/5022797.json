@@ -1,6 +1,5 @@
 {
   "item_id": "5022797",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5022797",
   "title": "【 𝐀𝐎𝐏𝐎𝐍 】Limited Suit,...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pheonharu",
   "creator_name": "pheonharu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

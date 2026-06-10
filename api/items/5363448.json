@@ -1,6 +1,5 @@
 {
   "item_id": "5363448",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5363448",
   "title": "アイアイロングヘア",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "supekuri",
   "creator_name": "supekuri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

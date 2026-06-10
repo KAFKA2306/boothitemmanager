@@ -1,6 +1,5 @@
 {
   "item_id": "5762833",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5762833",
   "title": "【アオイちゃん・ヒビキ専用】チャイナスタイル",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "66ao",
   "creator_name": "66ao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Aoi"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Aoi",
       "name": "碧唯"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

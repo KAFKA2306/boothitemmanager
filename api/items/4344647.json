@@ -1,6 +1,5 @@
 {
   "item_id": "4344647",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4344647",
   "title": "【水瀬・怜対応】刺繍スーツ＋革靴【衣装】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "w-zero",
   "creator_name": "w-zero",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

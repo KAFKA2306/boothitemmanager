@@ -1,6 +1,5 @@
 {
   "item_id": "6653525",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6653525",
   "title": "Milltina's Transfur Set",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "aoinu607",
   "creator_name": "aoinu607",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

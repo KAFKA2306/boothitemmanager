@@ -1,6 +1,5 @@
 {
   "item_id": "6555600",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6555600",
   "title": "【VRChat】注文票システム / Orde...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "harumiyaworkshop",
   "creator_name": "harumiyaworkshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

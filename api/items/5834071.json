@@ -1,6 +1,5 @@
 {
   "item_id": "5834071",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5834071",
   "title": "【全アバター対応】Sci-Fi Wrench...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "baha",
   "creator_name": "baha",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

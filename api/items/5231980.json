@@ -1,6 +1,5 @@
 {
   "item_id": "5231980",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5231980",
   "title": "Manuka 「マヌカ」Jerry's Fa...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "adjerry91",
   "creator_name": "adjerry91",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

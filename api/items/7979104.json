@@ -1,6 +1,5 @@
 {
   "item_id": "7979104",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7979104",
   "title": "Saoirse【Lapwing/Marycia】",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "pontene",
   "creator_name": "pontene",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Aoi"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Aoi",
       "name": "碧唯"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

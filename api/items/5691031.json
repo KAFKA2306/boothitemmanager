@@ -1,6 +1,5 @@
 {
   "item_id": "5691031",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5691031",
   "title": "遠隔攻撃ユニット『狐の黄泉入り』",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yatagarasu-ind",
   "creator_name": "yatagarasu-ind",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "黄"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 2000,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黄"
+    ],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

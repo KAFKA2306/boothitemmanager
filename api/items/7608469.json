@@ -1,6 +1,5 @@
 {
   "item_id": "7608469",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7608469",
   "title": "【14アバター対応】 Casual Penc...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sourflavor",
   "creator_name": "sourflavor",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

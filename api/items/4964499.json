@@ -1,6 +1,5 @@
 {
   "item_id": "4964499",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4964499",
   "title": "森羅ちゃん向け　きゅるきゅるドーリーアイ&メイク",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "vegemite0429",
   "creator_name": "vegemite0429",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

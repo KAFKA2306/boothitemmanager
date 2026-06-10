@@ -1,6 +1,5 @@
 {
   "item_id": "6859315",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6859315",
   "title": "すやすや睡眠アニメーション 　3個セット1種...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tententen19",
   "creator_name": "tententen19",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 150,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5298514",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5298514",
   "title": "【Deorart モデル No.1リメイク】...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "bluestella1127",
   "creator_name": "bluestella1127",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

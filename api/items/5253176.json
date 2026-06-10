@@ -1,6 +1,5 @@
 {
   "item_id": "5253176",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5253176",
   "title": "【水瀬専用】leather gloves",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "riagumiia",
   "creator_name": "riagumiia",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "手袋"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "手袋"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

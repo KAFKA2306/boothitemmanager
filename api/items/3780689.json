@@ -1,6 +1,5 @@
 {
   "item_id": "3780689",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3780689",
   "title": "Cross Necklace / 十字架の首飾り",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chesy1",
   "creator_name": "chesy1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネックレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネックレス"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

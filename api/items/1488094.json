@@ -1,6 +1,5 @@
 {
   "item_id": "1488094",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1488094",
   "title": "機械仕掛けな蝶髪飾り（羽ばたきAnimati...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "ikshop",
   "creator_name": "ikshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

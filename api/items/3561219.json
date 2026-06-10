@@ -1,6 +1,5 @@
 {
   "item_id": "3561219",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3561219",
   "title": "【Vroid】ナース風水着ランジェリー（ラン...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "nemishop",
   "creator_name": "nemishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着",
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 190,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着",
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

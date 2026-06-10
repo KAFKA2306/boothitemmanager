@@ -1,6 +1,5 @@
 {
   "item_id": "6151898",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6151898",
   "title": "MANUKAちゃん専用　動く眠る表情モジュー...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "lovelyface",
   "creator_name": "lovelyface",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

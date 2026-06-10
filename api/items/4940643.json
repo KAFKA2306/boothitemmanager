@@ -1,6 +1,5 @@
 {
   "item_id": "4940643",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4940643",
   "title": "lilToonフェードアウトシステム サンプル",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "eternitynoob",
   "creator_name": "eternitynoob",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

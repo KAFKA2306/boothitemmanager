@@ -1,6 +1,5 @@
 {
   "item_id": "6385519",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6385519",
   "title": "【VRC衣装】Noel CapeDress",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "pavillion",
   "creator_name": "pavillion",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "ケープ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "ケープ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

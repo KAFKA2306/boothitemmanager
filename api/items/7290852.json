@@ -1,6 +1,5 @@
 {
   "item_id": "7290852",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7290852",
   "title": "Mens CYBER CAT Outfit🎮...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hanaechu",
   "creator_name": "hanaechu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

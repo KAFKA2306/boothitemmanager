@@ -1,6 +1,5 @@
 {
   "item_id": "7152099",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7152099",
   "title": "蝉と汗と、通学路。- 夏制服衣装-【5アバタ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "first-trimester",
   "creator_name": "first-trimester",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

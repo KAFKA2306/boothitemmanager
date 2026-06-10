@@ -1,6 +1,5 @@
 {
   "item_id": "4776641",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4776641",
   "title": "【桔梗、萌、セレスティア対応】チャイナバニー...",
   "description": "",
@@ -8,13 +7,31 @@
   "creator_id": "aikawa2",
   "creator_name": "aikawa2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo",
+      "Moe",
+      "INABA"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -33,5 +50,6 @@
       "name": "INABA"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

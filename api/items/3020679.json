@@ -1,6 +1,5 @@
 {
   "item_id": "3020679",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3020679",
   "title": "【Vroid】紫陽花のホワイトウエディングド...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "miciru",
   "creator_name": "miciru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "紫"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白",
+      "紫"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

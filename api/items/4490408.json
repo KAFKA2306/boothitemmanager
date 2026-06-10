@@ -1,6 +1,5 @@
 {
   "item_id": "4490408",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4490408",
   "title": "スネークセット【unity/VRChat/FBX】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yoruoni",
   "creator_name": "yoruoni",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

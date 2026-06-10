@@ -1,6 +1,5 @@
 {
   "item_id": "5026471",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5026471",
   "title": "ʚ あのめあ ɞ 地雷系メイク & 瞳テクスチャ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "k-s-202",
   "creator_name": "k-s-202",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 450,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2631583",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2631583",
   "title": "【無料配布】KURA・KATOA'sブーツ（...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pa-ra-koi",
   "creator_name": "pa-ra-koi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

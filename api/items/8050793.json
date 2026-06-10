@@ -1,6 +1,5 @@
 {
   "item_id": "8050793",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8050793",
   "title": "【無料】丸メガネ＆サングラス KI_Glas...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "kanatainari",
   "creator_name": "kanatainari",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

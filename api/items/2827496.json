@@ -1,6 +1,5 @@
 {
   "item_id": "2827496",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2827496",
   "title": "3Dモデル [桜ピアス] - 全5種類",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nekoyamakun",
   "creator_name": "nekoyamakun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

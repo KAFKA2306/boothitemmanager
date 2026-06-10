@@ -1,6 +1,5 @@
 {
   "item_id": "8304955",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8304955",
   "title": "『潔癖メイド-Clean Trigger-』",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "l-bleue",
   "creator_name": "l-bleue",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

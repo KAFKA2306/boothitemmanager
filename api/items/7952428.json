@@ -1,6 +1,5 @@
 {
   "item_id": "7952428",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7952428",
   "title": "【超かぐや姫】ファンアート - ブレスレット...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kemoaccess",
   "creator_name": "kemoaccess",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブレスレット"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ブレスレット"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6760829",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6760829",
   "title": "Shinano,Manuka,milltin...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "fasna3302",
   "creator_name": "fasna3302",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
@@ -23,5 +40,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

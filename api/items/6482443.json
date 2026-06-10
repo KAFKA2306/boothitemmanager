@@ -1,6 +1,5 @@
 {
   "item_id": "6482443",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6482443",
   "title": "【きりはら製作所 H02 よふかしロング】 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yochiyochi1",
   "creator_name": "yochiyochi1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

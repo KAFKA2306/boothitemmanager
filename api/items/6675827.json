@@ -1,6 +1,5 @@
 {
   "item_id": "6675827",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6675827",
   "title": "森羅/ラシューシャ対応「チャイナドレスとコート」",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "8-dori",
   "creator_name": "8-dori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "チャイナドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "チャイナドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

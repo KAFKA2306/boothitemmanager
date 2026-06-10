@@ -1,6 +1,5 @@
 {
   "item_id": "6773402",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6773402",
   "title": "【青空が書ける！】青空のガラスペン【MA対応！】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "chemical15",
   "creator_name": "chemical15",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "青"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 650,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "青"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

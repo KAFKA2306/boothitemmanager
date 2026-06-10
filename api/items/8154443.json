@@ -1,6 +1,5 @@
 {
   "item_id": "8154443",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8154443",
   "title": "Whiteout Null",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ene-0919",
   "creator_name": "ene-0919",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

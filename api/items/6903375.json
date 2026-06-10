@@ -1,6 +1,5 @@
 {
   "item_id": "6903375",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6903375",
   "title": "【斑霞対応追加】うさ耳ジャージメイドくん【M...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "l-bleue",
   "creator_name": "l-bleue",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

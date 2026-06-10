@@ -1,6 +1,5 @@
 {
   "item_id": "8157609",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8157609",
   "title": "【#VRブラリコ】葬送の黒＆クトネシリカ【衣...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rearv",
   "creator_name": "rearv",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

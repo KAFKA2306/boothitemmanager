@@ -1,6 +1,5 @@
 {
   "item_id": "3933938",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3933938",
   "title": "【VRC / VRM 対応3Dモデル】黒蛇 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yoyogi-mori",
   "creator_name": "yoyogi-mori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 38600,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

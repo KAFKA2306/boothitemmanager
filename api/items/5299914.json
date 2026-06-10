@@ -1,6 +1,5 @@
 {
   "item_id": "5299914",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5299914",
   "title": "【VRC想定･MA対応】ケモ耳&ケモ尻尾 K...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "ham-am",
   "creator_name": "ham-am",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

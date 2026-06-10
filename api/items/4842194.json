@@ -1,6 +1,5 @@
 {
   "item_id": "4842194",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4842194",
   "title": "【VRChat用３Dモデル】✦Choker ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "monyumonyumonya",
   "creator_name": "monyumonyumonya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "チョーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "チョーカー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

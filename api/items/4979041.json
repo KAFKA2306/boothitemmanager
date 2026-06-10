@@ -1,6 +1,5 @@
 {
   "item_id": "4979041",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4979041",
   "title": "【VRC想定3Dアバター】セレスティアぬい✨",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "pink-syndrooome",
   "creator_name": "pink-syndrooome",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

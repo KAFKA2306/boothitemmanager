@@ -1,6 +1,5 @@
 {
   "item_id": "6786569",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6786569",
   "title": "α -alpha-（どこまで作ったか忘れた衣...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "inani",
   "creator_name": "inani",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 550,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

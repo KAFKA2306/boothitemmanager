@@ -1,6 +1,5 @@
 {
   "item_id": "4928817",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4928817",
   "title": "ツインテールのリボンとヘアピンのセット【VR...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tadanomikan",
   "creator_name": "tadanomikan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

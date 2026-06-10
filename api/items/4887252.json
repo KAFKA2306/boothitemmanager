@@ -1,6 +1,5 @@
 {
   "item_id": "4887252",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4887252",
   "title": "【水瀬(Minase)専用】Fantasy ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "no39",
   "creator_name": "no39",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

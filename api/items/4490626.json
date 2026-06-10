@@ -1,6 +1,5 @@
 {
   "item_id": "4490626",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4490626",
   "title": "当たり付き！食べられるアイスギミック | I...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "0001cacao",
   "creator_name": "0001cacao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 250,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4242965",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4242965",
   "title": "Gothic Over knee boots",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mocchiriomochi",
   "creator_name": "mocchiriomochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "ブーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

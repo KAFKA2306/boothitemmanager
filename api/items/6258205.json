@@ -1,6 +1,5 @@
 {
   "item_id": "6258205",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6258205",
   "title": "【しなの対応】むちむちバニーガール",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "marumarushop-vrc",
   "creator_name": "marumarushop-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

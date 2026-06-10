@@ -1,6 +1,5 @@
 {
   "item_id": "6717984",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6717984",
   "title": "ジャージバニー【まめふれんず対応】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "mamekajo-zo-bu",
   "creator_name": "mamekajo-zo-bu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

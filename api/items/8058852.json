@@ -1,6 +1,5 @@
 {
   "item_id": "8058852",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8058852",
   "title": "【無料/Free】S-ジャージ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "narikitilab",
   "creator_name": "narikitilab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

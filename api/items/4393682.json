@@ -1,6 +1,5 @@
 {
   "item_id": "4393682",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4393682",
   "title": "【桔梗ちゃん専用】着物ドレス",
   "description": "",
@@ -8,20 +7,37 @@
   "creator_id": "astrostore",
   "creator_name": "astrostore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "ドレス",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 550,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

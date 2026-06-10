@@ -1,6 +1,5 @@
 {
   "item_id": "5002992",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5002992",
   "title": "【18アバター対応】Summer Fish ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "smm-oo0",
   "creator_name": "smm-oo0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

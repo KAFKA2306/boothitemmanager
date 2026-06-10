@@ -1,6 +1,5 @@
 {
   "item_id": "7280511",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7280511",
   "title": "【Ribbon Doll Blouse】ヴィ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "smokydolls",
   "creator_name": "smokydolls",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブラウス",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ブラウス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

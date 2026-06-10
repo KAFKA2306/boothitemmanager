@@ -1,6 +1,5 @@
 {
   "item_id": "6210138",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6210138",
   "title": "【指輪同士で発動するギミック付き】Bague...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kohaku-sena",
   "creator_name": "kohaku-sena",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 600,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

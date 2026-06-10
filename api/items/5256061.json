@@ -1,6 +1,5 @@
 {
   "item_id": "5256061",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5256061",
   "title": "【萌対応】丸眼鏡",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "seniti-1001",
   "creator_name": "seniti-1001",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

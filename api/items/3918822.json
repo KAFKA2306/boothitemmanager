@@ -1,6 +1,5 @@
 {
   "item_id": "3918822",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3918822",
   "title": "【電脳義体用装備】衝角ユニット_type03...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "ctcvr",
   "creator_name": "ctcvr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

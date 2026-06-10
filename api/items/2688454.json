@@ -1,6 +1,5 @@
 {
   "item_id": "2688454",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2688454",
   "title": "《VRoid》包帯 | Bandages",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "heart9505",
   "creator_name": "heart9505",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "包帯"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [
+      "包帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

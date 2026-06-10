@@ -1,6 +1,5 @@
 {
   "item_id": "5702212",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5702212",
   "title": "【14体対応】レイヤードビキニ＆モノキニ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "natorie",
   "creator_name": "natorie",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6607106",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6607106",
   "title": "「ウルキ・Uruki」そばかす / Frec...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "raphiiko",
   "creator_name": "raphiiko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

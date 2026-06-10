@@ -1,6 +1,5 @@
 {
   "item_id": "4889748",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4889748",
   "title": "【5アバター対応】サイバーカーゴ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mizumizushop",
   "creator_name": "mizumizushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

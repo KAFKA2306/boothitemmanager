@@ -1,6 +1,5 @@
 {
   "item_id": "3871760",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3871760",
   "title": "光㝠mask for maya",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "lilyya",
   "creator_name": "lilyya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 450,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

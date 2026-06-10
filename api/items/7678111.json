@@ -1,6 +1,5 @@
 {
   "item_id": "7678111",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7678111",
   "title": "【ギミック付き3Dモデル】Sci-Fi ST...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "stellaquartz",
   "creator_name": "stellaquartz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

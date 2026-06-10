@@ -1,6 +1,5 @@
 {
   "item_id": "4164488",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4164488",
   "title": "【有坂みとアバター用衣装】スポーティールームウェア",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "3dfactorydayo",
   "creator_name": "3dfactorydayo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ",
-    "ティール"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [
+      "ティール"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

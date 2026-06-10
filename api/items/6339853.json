@@ -1,6 +1,5 @@
 {
   "item_id": "6339853",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6339853",
   "title": "【無料】Retro Ribbon 【アクセサリー】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "happysweetmilk",
   "creator_name": "happysweetmilk",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

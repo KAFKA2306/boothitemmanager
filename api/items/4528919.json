@@ -1,6 +1,5 @@
 {
   "item_id": "4528919",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4528919",
   "title": "Dark Cybernetic Runa",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ad-astra",
   "creator_name": "ad-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

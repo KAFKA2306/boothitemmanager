@@ -1,6 +1,5 @@
 {
   "item_id": "4575920",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4575920",
   "title": "[桔梗]《Wine》対応メイクテクスチャ K...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "chuan2",
   "creator_name": "chuan2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

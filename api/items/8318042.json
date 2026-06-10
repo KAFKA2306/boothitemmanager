@@ -1,6 +1,5 @@
 {
   "item_id": "8318042",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8318042",
   "title": "【しなの対応 / Shinano】Kager...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "milkyway-ch",
   "creator_name": "milkyway-ch",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

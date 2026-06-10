@@ -1,6 +1,5 @@
 {
   "item_id": "6726772",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6726772",
   "title": "ルルネ 大人 ちび プリセット / Ruru...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "booth-adult",
   "creator_name": "booth-adult",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

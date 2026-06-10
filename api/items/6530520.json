@@ -1,6 +1,5 @@
 {
   "item_id": "6530520",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6530520",
   "title": "ふわリボンツイン🎀【キプフェル対応髪型】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mellowpink",
   "creator_name": "mellowpink",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

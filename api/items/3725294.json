@@ -1,6 +1,5 @@
 {
   "item_id": "3725294",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3725294",
   "title": "スクエア型眼鏡　HT-SQ　001",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hotta30",
   "creator_name": "hotta30",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 350,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

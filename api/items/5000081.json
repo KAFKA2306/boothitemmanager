@@ -1,6 +1,5 @@
 {
   "item_id": "5000081",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5000081",
   "title": "アバター用着せ替え衣装『右近のお狐パーカー』...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kitsune-tsuki",
   "creator_name": "kitsune-tsuki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

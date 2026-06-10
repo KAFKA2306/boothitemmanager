@@ -1,6 +1,5 @@
 {
   "item_id": "4844304",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4844304",
   "title": "【10アバター対応】眼帯 -Eyepatch-",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "legrigman",
   "creator_name": "legrigman",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼帯"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 150,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "眼帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5911231",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5911231",
   "title": "【PB】【4アバター対応】 Raincoat...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "rumicloset",
   "creator_name": "rumicloset",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "レインコート"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "レインコート"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5482859",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5482859",
   "title": "👑Evening_Primrose_Crown👑",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "neru0606",
   "creator_name": "neru0606",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

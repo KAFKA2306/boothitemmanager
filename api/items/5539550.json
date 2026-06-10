@@ -1,6 +1,5 @@
 {
   "item_id": "5539550",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5539550",
   "title": "【Moe,Manuka対応】 CoCo He...",
   "description": "",
@@ -8,11 +7,29 @@
   "creator_id": "cocoberry",
   "creator_name": "cocoberry",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
@@ -23,5 +40,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6065581",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6065581",
   "title": "ハイヒールブーツ十式　【複数アバター対応】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "bami3000",
   "creator_name": "bami3000",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブーツ",
-    "ヒール"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ",
+      "ヒール"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5025918",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5025918",
   "title": "【#VRoid】レースカーディガンスカートセ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "wonderfulp",
   "creator_name": "wonderfulp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カーディガン",
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "カーディガン",
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

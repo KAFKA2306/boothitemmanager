@@ -1,6 +1,5 @@
 {
   "item_id": "6120371",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6120371",
   "title": "Demia & Hatsukoi【しなの/S...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "glitchganger",
   "creator_name": "glitchganger",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

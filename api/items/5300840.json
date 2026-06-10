@@ -1,6 +1,5 @@
 {
   "item_id": "5300840",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5300840",
   "title": "【瑞希・りりか・真央対応】ルームウェア　２着",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "menher",
   "creator_name": "menher",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

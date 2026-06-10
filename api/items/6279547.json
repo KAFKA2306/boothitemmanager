@@ -1,6 +1,5 @@
 {
   "item_id": "6279547",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6279547",
   "title": "【ルルネ専用】舌ピアス【MA設定済み】",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "x2much4u",
   "creator_name": "x2much4u",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

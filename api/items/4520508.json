@@ -1,6 +1,5 @@
 {
   "item_id": "4520508",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4520508",
   "title": "Carrot JerseyMaid for ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "preto",
   "creator_name": "preto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

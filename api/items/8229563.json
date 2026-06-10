@@ -1,6 +1,5 @@
 {
   "item_id": "8229563",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8229563",
   "title": "カラオケリンク  (自動タイミング補正システム )",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "liese",
   "creator_name": "liese",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

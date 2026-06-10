@@ -1,6 +1,5 @@
 {
   "item_id": "2472348",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2472348",
   "title": "【VRC想定小物】 天使の翼【無料配布あり】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "uguisuiro777",
   "creator_name": "uguisuiro777",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

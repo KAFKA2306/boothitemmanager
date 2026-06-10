@@ -1,6 +1,5 @@
 {
   "item_id": "6676982",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6676982",
   "title": "【3D衣装】Light Formal [狛乃...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "makomaterial",
   "creator_name": "makomaterial",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "フォーマル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "フォーマル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

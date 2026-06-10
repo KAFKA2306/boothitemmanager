@@ -1,6 +1,5 @@
 {
   "item_id": "5320924",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5320924",
   "title": "【値下げ】[5アバター対応] ミニ着物 Mi...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "hugetail",
   "creator_name": "hugetail",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "着物"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

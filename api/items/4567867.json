@@ -1,6 +1,5 @@
 {
   "item_id": "4567867",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4567867",
   "title": "カリン Karin Makeup texture",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "maomaochong",
   "creator_name": "maomaochong",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

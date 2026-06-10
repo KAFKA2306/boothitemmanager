@@ -1,6 +1,5 @@
 {
   "item_id": "4826578",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4826578",
   "title": "【14アバター対応】ホワイト・サマー コーデ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "oao",
   "creator_name": "oao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

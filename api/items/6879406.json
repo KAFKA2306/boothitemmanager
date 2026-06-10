@@ -1,6 +1,5 @@
 {
   "item_id": "6879406",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6879406",
   "title": "【しなの⸝‎shinano】Cool Mak...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "tkwnj",
   "creator_name": "tkwnj",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

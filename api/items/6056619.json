@@ -1,6 +1,5 @@
 {
   "item_id": "6056619",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6056619",
   "title": "【rurune専用】ニーハイソックス",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "sigu-rira",
   "creator_name": "sigu-rira",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

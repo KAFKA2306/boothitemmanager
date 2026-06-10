@@ -1,6 +1,5 @@
 {
   "item_id": "4272807",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4272807",
   "title": "CA1 - Horns Gold",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "rinny",
   "creator_name": "rinny",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金",
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

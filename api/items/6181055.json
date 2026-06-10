@@ -1,6 +1,5 @@
 {
   "item_id": "6181055",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6181055",
   "title": "【コロネ専用】羊さんドーナツヘア【セットアッ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "ri-bon2",
   "creator_name": "ri-bon2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

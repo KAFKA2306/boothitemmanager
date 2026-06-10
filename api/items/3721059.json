@@ -1,6 +1,5 @@
 {
   "item_id": "3721059",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3721059",
   "title": "Maya pink makeup & Bod...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "jina0120",
   "creator_name": "jina0120",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ピンク",
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ピンク"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6857861",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6857861",
   "title": "【調整不要！】みとせの心音ギミック（べーた）",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mitose-kip",
   "creator_name": "mitose-kip",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

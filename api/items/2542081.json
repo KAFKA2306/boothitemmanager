@@ -1,6 +1,5 @@
 {
   "item_id": "2542081",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2542081",
   "title": "[3Dモデル]可変義足[汎用アバター向け][...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nyakome-garage",
   "creator_name": "nyakome-garage",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

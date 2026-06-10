@@ -1,6 +1,5 @@
 {
   "item_id": "6943496",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6943496",
   "title": "どこでも喫茶　コーヒードリッパーギミック【V...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chechetoo",
   "creator_name": "chechetoo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1200,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

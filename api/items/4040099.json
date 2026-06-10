@@ -1,6 +1,5 @@
 {
   "item_id": "4040099",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4040099",
   "title": "【セレスティア用衣装】寝起きシャツ - Sl...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "rdt",
   "creator_name": "rdt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

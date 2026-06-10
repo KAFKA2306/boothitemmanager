@@ -1,6 +1,5 @@
 {
   "item_id": "5101082",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5101082",
   "title": "【63アバター対応】猫旗袍 (Mao Qip...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "neigerium",
   "creator_name": "neigerium",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "チャイナドレス"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "チャイナドレス"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

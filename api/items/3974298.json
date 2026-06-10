@@ -1,6 +1,5 @@
 {
   "item_id": "3974298",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3974298",
   "title": "３Dモデル　Backpack Cyber衣装...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "hakusivrc",
   "creator_name": "hakusivrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "リュック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リュック"
+    ],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

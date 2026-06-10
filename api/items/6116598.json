@@ -1,6 +1,5 @@
 {
   "item_id": "6116598",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6116598",
   "title": "【6アバター対応】Ripped Jeans ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "a2x4",
   "creator_name": "a2x4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジーンズ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジーンズ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

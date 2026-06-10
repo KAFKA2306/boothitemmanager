@@ -1,6 +1,5 @@
 {
   "item_id": "5261856",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5261856",
   "title": "【衣装】チャイナロングドレス（連翹・リディv...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "anacharis",
   "creator_name": "anacharis",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

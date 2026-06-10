@@ -1,6 +1,5 @@
 {
   "item_id": "5610409",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5610409",
   "title": "【31アバター対応】Cosmic☆Candy...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "yume-utsutsu",
   "creator_name": "yume-utsutsu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

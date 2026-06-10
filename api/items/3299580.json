@@ -1,6 +1,5 @@
 {
   "item_id": "3299580",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3299580",
   "title": "ダブルベルト厚底靴（靴下差分付き）",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "ikshop",
   "creator_name": "ikshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下",
-    "ベルト"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "靴下",
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

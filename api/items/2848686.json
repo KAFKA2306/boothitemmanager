@@ -1,6 +1,5 @@
 {
   "item_id": "2848686",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2848686",
   "title": "[7アバター対応]ノースリーブブラウス　狐薄...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tr-96c",
   "creator_name": "tr-96c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブラウス"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ブラウス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

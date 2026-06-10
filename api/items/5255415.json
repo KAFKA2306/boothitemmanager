@@ -1,6 +1,5 @@
 {
   "item_id": "5255415",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5255415",
   "title": "Steampunk wings set Ve...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "marchhare",
   "creator_name": "marchhare",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スチームパンク",
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [
+      "スチームパンク"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

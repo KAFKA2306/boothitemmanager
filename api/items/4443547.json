@@ -1,6 +1,5 @@
 {
   "item_id": "4443547",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4443547",
   "title": "[碼希]専用, 正月-スーツ風の韓服(마키 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rytshop",
   "creator_name": "rytshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

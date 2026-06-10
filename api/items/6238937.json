@@ -1,6 +1,5 @@
 {
   "item_id": "6238937",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6238937",
   "title": "【セミ対応衣装】マーメイドスカート(ボトムス...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "eyeclo",
   "creator_name": "eyeclo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服",
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

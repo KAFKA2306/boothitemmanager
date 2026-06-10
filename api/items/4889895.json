@@ -1,6 +1,5 @@
 {
   "item_id": "4889895",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4889895",
   "title": "サイバービキニアーマー【萌 ヴェール 桔梗 ...",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "amanoten10",
   "creator_name": "amanoten10",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "ビキニ",
-    "アーマー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "アーマー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -27,5 +43,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

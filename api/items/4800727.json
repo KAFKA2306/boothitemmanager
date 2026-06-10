@@ -1,6 +1,5 @@
 {
   "item_id": "4800727",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4800727",
   "title": "[複数アバター対応] Summer Sun...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "chiy00000ya",
   "creator_name": "chiy00000ya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

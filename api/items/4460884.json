@@ -1,6 +1,5 @@
 {
   "item_id": "4460884",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4460884",
   "title": "[桔梗用]-sweat & wide pan...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "trimart",
   "creator_name": "trimart",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

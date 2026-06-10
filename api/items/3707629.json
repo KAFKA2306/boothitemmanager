@@ -1,6 +1,5 @@
 {
   "item_id": "3707629",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3707629",
   "title": "【MA対応】「うさぎナイフ_v2」パーティクル付き",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "yamiusa",
   "creator_name": "yamiusa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

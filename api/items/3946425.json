@@ -1,6 +1,5 @@
 {
   "item_id": "3946425",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3946425",
   "title": "紫陽花の3Dモデル（９色）",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nikawanikawa",
   "creator_name": "nikawanikawa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "紫"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "紫"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

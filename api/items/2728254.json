@@ -1,6 +1,5 @@
 {
   "item_id": "2728254",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2728254",
   "title": "VRoid SFウィッチドレス v1.2",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nibanbosi",
   "creator_name": "nibanbosi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

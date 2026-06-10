@@ -1,6 +1,5 @@
 {
   "item_id": "5271741",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5271741",
   "title": "[桔梗]FREE!! Black Belt ...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "sblack",
   "creator_name": "sblack",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒",
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

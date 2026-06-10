@@ -1,6 +1,5 @@
 {
   "item_id": "8062605",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8062605",
   "title": "≒ BowMount ≒",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "x88991x",
   "creator_name": "x88991x",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

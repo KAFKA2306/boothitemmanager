@@ -1,6 +1,5 @@
 {
   "item_id": "7751492",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7751492",
   "title": "《アップデートv1.2》【3D衣装・刀】夜鴉...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "daizerokenkyujyo",
   "creator_name": "daizerokenkyujyo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7877297",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7877297",
   "title": "【無料】Neo Frontier【2000人記念】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pikupikupikumin",
   "creator_name": "pikupikupikumin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

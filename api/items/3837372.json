@@ -1,6 +1,5 @@
 {
   "item_id": "3837372",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3837372",
   "title": "【舞夜,Maya】 ショートドレス, Sho...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "reversnow",
   "creator_name": "reversnow",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

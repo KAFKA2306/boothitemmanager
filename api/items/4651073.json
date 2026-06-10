@@ -1,6 +1,5 @@
 {
   "item_id": "4651073",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4651073",
   "title": "【舞夜(Maya)専用】Cyberpunk-...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "no39",
   "creator_name": "no39",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 280,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

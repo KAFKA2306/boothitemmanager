@@ -1,6 +1,5 @@
 {
   "item_id": "5213623",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5213623",
   "title": "[3Dヘアモデル] 狐耳付きのロングヘア",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "angka",
   "creator_name": "angka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

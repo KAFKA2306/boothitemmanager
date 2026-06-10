@@ -1,6 +1,5 @@
 {
   "item_id": "7132928",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7132928",
   "title": "ルルネ専用パンツ【3D衣装】",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "pokotaaa",
   "creator_name": "pokotaaa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ズボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

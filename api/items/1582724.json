@@ -1,6 +1,5 @@
 {
   "item_id": "1582724",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1582724",
   "title": "公開中 オリジナル3Dモデル『女子高生かな...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "gnmdki",
   "creator_name": "gnmdki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 5000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

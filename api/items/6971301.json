@@ -1,6 +1,5 @@
 {
   "item_id": "6971301",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6971301",
   "title": "ミルティナ対応衣装【Short jacket...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hajimata",
   "creator_name": "hajimata",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

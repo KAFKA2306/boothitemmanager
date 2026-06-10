@@ -1,6 +1,5 @@
 {
   "item_id": "3781374",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3781374",
   "title": "[19モデル対応]衣装モデル『セーラーセーター』",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "snowlight0102",
   "creator_name": "snowlight0102",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

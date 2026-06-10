@@ -1,6 +1,5 @@
 {
   "item_id": "3956751",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3956751",
   "title": "【無料】ヒメジョオン【草アバター】【オリジナ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "kaya-upaco",
   "creator_name": "kaya-upaco",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 150,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

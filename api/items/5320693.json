@@ -1,6 +1,5 @@
 {
   "item_id": "5320693",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5320693",
   "title": "【1+7アバター簡易対応】きぐるみトナカイ",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "akadori-i",
   "creator_name": "akadori-i",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5163874",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5163874",
   "title": "Choker and Necklace cr...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "roadworks",
   "creator_name": "roadworks",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネックレス",
-    "チョーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネックレス",
+      "チョーカー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

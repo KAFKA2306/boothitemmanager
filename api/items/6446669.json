@@ -1,6 +1,5 @@
 {
   "item_id": "6446669",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6446669",
   "title": "【Free】ショコラちゃん用眉&ヘアピンマスク",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "phph1921",
   "creator_name": "phph1921",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

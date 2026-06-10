@@ -1,6 +1,5 @@
 {
   "item_id": "5462401",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5462401",
   "title": "「瑞希専用」瞳&ネイルテクスチャ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "saku039",
   "creator_name": "saku039",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

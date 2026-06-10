@@ -1,6 +1,5 @@
 {
   "item_id": "4902597",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4902597",
   "title": "H03 リボン編み込みローツインテール",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kiriha-astra",
   "creator_name": "kiriha-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "リボン"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

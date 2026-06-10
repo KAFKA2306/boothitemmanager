@@ -1,6 +1,5 @@
 {
   "item_id": "8151147",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8151147",
   "title": "【11アバター対応】スカルパーカー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "takeyaki",
   "creator_name": "takeyaki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

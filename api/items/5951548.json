@@ -1,6 +1,5 @@
 {
   "item_id": "5951548",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5951548",
   "title": "Summer Halter Swimsuit...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "kazawappa",
   "creator_name": "kazawappa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "水着",
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着",
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

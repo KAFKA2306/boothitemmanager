@@ -1,6 +1,5 @@
 {
   "item_id": "7528888",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7528888",
   "title": "メガ着替えギミック【腕輪/指輪/イヤリング】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rururi-lab",
   "creator_name": "rururi-lab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

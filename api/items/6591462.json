@@ -1,6 +1,5 @@
 {
   "item_id": "6591462",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6591462",
   "title": "【3D小道具・アクセサリー】帽子にもなる・手...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kabochansouko",
   "creator_name": "kabochansouko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

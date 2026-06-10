@@ -1,6 +1,5 @@
 {
   "item_id": "8058651",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8058651",
   "title": "【VRC想定MA対応】ミストフェザーヘア　【...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "onnu",
   "creator_name": "onnu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 850,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

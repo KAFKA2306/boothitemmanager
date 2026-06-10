@@ -1,6 +1,5 @@
 {
   "item_id": "7128956",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7128956",
   "title": "【10アバター対応】ジャケットミニワンピース",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "akamo-kamo",
   "creator_name": "akamo-kamo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット",
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

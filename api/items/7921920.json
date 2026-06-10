@@ -1,6 +1,5 @@
 {
   "item_id": "7921920",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7921920",
   "title": "【無料】MatCap Pearl 6種類【F...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "aipop",
   "creator_name": "aipop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

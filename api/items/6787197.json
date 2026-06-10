@@ -1,6 +1,5 @@
 {
   "item_id": "6787197",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6787197",
   "title": "【VRC想定】- 传武 - Buddhism",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "897682512",
   "creator_name": "897682512",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

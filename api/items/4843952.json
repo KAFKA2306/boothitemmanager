@@ -1,6 +1,5 @@
 {
   "item_id": "4843952",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4843952",
   "title": "𝐅𝐫𝐞𝐞【Selestiaセレスティア対応...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "yuaaa",
   "creator_name": "yuaaa",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

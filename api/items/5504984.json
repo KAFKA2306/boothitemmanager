@@ -1,6 +1,5 @@
 {
   "item_id": "5504984",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5504984",
   "title": "【複数アバター対応】レイヤードビキニセット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "buntakun-omise",
   "creator_name": "buntakun-omise",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

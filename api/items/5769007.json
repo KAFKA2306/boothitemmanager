@@ -1,6 +1,5 @@
 {
   "item_id": "5769007",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5769007",
   "title": "HoodieShark【Chalo, Ku_...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "dragontail",
   "creator_name": "dragontail",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1650,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

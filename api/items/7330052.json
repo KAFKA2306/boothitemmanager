@@ -1,6 +1,5 @@
 {
   "item_id": "7330052",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7330052",
   "title": "[無料]動画プレイヤー分割パネル作成システム...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nnnnnnasu",
   "creator_name": "nnnnnnasu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

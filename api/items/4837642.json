@@ -1,6 +1,5 @@
 {
   "item_id": "4837642",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4837642",
   "title": "【森羅・萌】スポーツサンダル【VRChat想定】",
   "description": "",
@@ -8,14 +7,32 @@
   "creator_id": "foxpunch",
   "creator_name": "foxpunch",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe",
+      "SUN",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
@@ -30,5 +47,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

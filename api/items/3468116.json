@@ -1,6 +1,5 @@
 {
   "item_id": "3468116",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3468116",
   "title": "【舞夜向け】蝶モチーフ ネイル・タトゥーセット",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "midorihadayo",
   "creator_name": "midorihadayo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー",
-    "ネイル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "タトゥー",
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

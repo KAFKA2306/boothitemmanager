@@ -1,6 +1,5 @@
 {
   "item_id": "6565531",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6565531",
   "title": "【無料】水瀬対応レギンス【2/8 怜対応追加】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ronove07th",
   "creator_name": "ronove07th",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "レギンス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "レギンス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

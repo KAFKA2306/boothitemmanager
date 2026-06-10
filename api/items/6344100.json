@@ -1,6 +1,5 @@
 {
   "item_id": "6344100",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6344100",
   "title": "【水瀬-Minase】 𝐃𝐄𝐂𝐀𝐃𝐄𝐍𝐓♦E...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "uxxuina",
   "creator_name": "uxxuina",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

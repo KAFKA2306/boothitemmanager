@@ -1,6 +1,5 @@
 {
   "item_id": "3982077",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3982077",
   "title": "【カリン(Karin)用】♦【肌の色、メイク...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "cocoaalice",
   "creator_name": "cocoaalice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5688248",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5688248",
   "title": "BECKENZI セーター＆ショートパンツ ...",
   "description": "",
@@ -8,16 +7,31 @@
   "creator_id": "beckenzi",
   "creator_name": "beckenzi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートパンツ",
-    "セーター",
-    "ズボン",
-    "ショートヘア"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ショートパンツ",
+      "セーター",
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7373721",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7373721",
   "title": "【キプフェル対応】三角襟ワンピ - Tria...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "fatty-tuna",
   "creator_name": "fatty-tuna",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース",
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

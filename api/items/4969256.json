@@ -1,6 +1,5 @@
 {
   "item_id": "4969256",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4969256",
   "title": "Re FLOWER BIKINI",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nanaruto",
   "creator_name": "nanaruto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7225507",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7225507",
   "title": "ゆるくるリボンツインテール🍄Ribonnel...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "meltyri",
   "creator_name": "meltyri",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

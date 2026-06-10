@@ -1,6 +1,5 @@
 {
   "item_id": "8272194",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8272194",
   "title": "💛ゴールデンビキニ✨『Golden Biki...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "meromerostudio",
   "creator_name": "meromerostudio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "金"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 440,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

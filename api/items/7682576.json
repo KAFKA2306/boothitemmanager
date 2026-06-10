@@ -1,6 +1,5 @@
 {
   "item_id": "7682576",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7682576",
   "title": "【リュック】oversize backpack",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kitakazepyupyu",
   "creator_name": "kitakazepyupyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リュック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リュック"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6638145",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6638145",
   "title": "🐾狛乃🐾ウルフメイク＆ネイルセット",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "ko-mart",
   "creator_name": "ko-mart",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク",
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "メイク",
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

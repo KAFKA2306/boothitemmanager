@@ -1,6 +1,5 @@
 {
   "item_id": "6838122",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6838122",
   "title": "【９アバター】猫人間戦闘服（ジャージメイド）...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "neko28",
   "creator_name": "neko28",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服",
-    "ジャージ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

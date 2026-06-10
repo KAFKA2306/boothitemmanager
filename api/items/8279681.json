@@ -1,6 +1,5 @@
 {
   "item_id": "8279681",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8279681",
   "title": "ideaCYBER／+Head",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "relybird",
   "creator_name": "relybird",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

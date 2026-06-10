@@ -1,6 +1,5 @@
 {
   "item_id": "4170423",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4170423",
   "title": "【無料】カリン向け無地白Tシャツ",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kohabasu",
   "creator_name": "kohabasu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ",
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

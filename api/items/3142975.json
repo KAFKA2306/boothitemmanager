@@ -1,6 +1,5 @@
 {
   "item_id": "3142975",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3142975",
   "title": "「ツインテールのお姫様 フローラリア」オリジ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "avatar",
   "creator_name": "avatar",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 8000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

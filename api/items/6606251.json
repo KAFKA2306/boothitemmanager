@@ -1,6 +1,5 @@
 {
   "item_id": "6606251",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6606251",
   "title": "【無料】DECO*27_モニタリング_再現ア...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rouzinteisyoku",
   "creator_name": "rouzinteisyoku",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

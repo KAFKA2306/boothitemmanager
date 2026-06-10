@@ -1,6 +1,5 @@
 {
   "item_id": "5511341",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5511341",
   "title": "「伊奈波かや（Inaba Kaya）」オリジ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "tsukurunomori",
   "creator_name": "tsukurunomori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 3300,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "INABA"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "INABA",
       "name": "INABA"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5348658",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5348658",
   "title": "【5体対応】レースと手刺繍のセーラー服 | ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "beams",
   "creator_name": "beams",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

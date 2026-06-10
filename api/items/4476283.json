@@ -1,6 +1,5 @@
 {
   "item_id": "4476283",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4476283",
   "title": "スニーカー、ルーズソックス、ニーソ【萌、セレ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "mari24",
   "creator_name": "mari24",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

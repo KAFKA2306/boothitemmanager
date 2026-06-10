@@ -1,6 +1,5 @@
 {
   "item_id": "5510481",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5510481",
   "title": "Free Shinra afk 1v",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "hyeseo",
   "creator_name": "hyeseo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

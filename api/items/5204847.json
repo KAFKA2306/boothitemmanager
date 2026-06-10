@@ -1,6 +1,5 @@
 {
   "item_id": "5204847",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5204847",
   "title": "動く！5色入り！スチームパンク 花アクセサリー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "omake-saan",
   "creator_name": "omake-saan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スチームパンク"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スチームパンク"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

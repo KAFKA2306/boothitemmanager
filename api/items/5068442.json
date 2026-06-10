@@ -1,6 +1,5 @@
 {
   "item_id": "5068442",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5068442",
   "title": "【VRChat想定】ラスクモチーフズボン！（無料）",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mahiro300-dream",
   "creator_name": "mahiro300-dream",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ズボン",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

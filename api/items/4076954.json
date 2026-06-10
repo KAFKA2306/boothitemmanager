@@ -1,6 +1,5 @@
 {
   "item_id": "4076954",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4076954",
   "title": "School uniform / 制服 [VRC]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hero2poi",
   "creator_name": "hero2poi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

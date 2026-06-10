@@ -1,6 +1,5 @@
 {
   "item_id": "4569240",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4569240",
   "title": "[kikyo / 桔梗] Ribbon la...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "shushu-sss",
   "creator_name": "shushu-sss",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

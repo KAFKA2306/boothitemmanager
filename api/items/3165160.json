@@ -1,6 +1,5 @@
 {
   "item_id": "3165160",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3165160",
   "title": "MatCapテクスチャ詰合せ（金属・プラスチ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "ziston",
   "creator_name": "ziston",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2966074",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2966074",
   "title": "むたちゃんねる共通衣装「ファンタジー制服」",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mutachannel",
   "creator_name": "mutachannel",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー",
-    "制服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 3500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

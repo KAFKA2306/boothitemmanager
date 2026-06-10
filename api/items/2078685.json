@@ -1,6 +1,5 @@
 {
   "item_id": "2078685",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2078685",
   "title": "VRC_HouseBuilder用　窓・天窓...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "joushiikuta",
   "creator_name": "joushiikuta",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 250,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

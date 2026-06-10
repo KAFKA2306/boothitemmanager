@@ -1,6 +1,5 @@
 {
   "item_id": "4010076",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4010076",
   "title": "【竜胆用】ベスト＆スーツ || [For R...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "harukappumen",
   "creator_name": "harukappumen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "ベスト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ",
+      "ベスト"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

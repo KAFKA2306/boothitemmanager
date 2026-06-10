@@ -1,6 +1,5 @@
 {
   "item_id": "6163636",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6163636",
   "title": "金貨バラマキギミック【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "moyacchi",
   "creator_name": "moyacchi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

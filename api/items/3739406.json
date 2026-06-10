@@ -1,6 +1,5 @@
 {
   "item_id": "3739406",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3739406",
   "title": "【桔梗用】メイド水着 / Maid Swim...",
   "description": "",
@@ -8,20 +7,39 @@
   "creator_id": "zaelah",
   "creator_name": "zaelah",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "水着",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着",
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

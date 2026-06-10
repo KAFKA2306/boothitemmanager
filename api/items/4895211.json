@@ -1,6 +1,5 @@
 {
   "item_id": "4895211",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4895211",
   "title": "【無料】ライムちゃんの動くマウスカーソル1種...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "466",
   "creator_name": "466",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,11 +1,17 @@
 {
   "total_items": 40317,
   "types": {
-    "gimmick": 2483,
-    "avatar": 9696,
-    "other": 11273,
-    "outfit": 12836,
-    "accessory": 4029
+    "ANIMATION": 1164,
+    "AVATAR": 4337,
+    "GIMMICK_TOOL": 2187,
+    "PROP": 2157,
+    "ASSET": 6728,
+    "OUTFIT": 16253,
+    "HAIRSTYLE": 1355,
+    "WORLD": 1537,
+    "TEXTURE": 3509,
+    "ACCESSORY": 537,
+    "VROID": 553
   },
   "top_shops": {
     "woodapple": 246,
@@ -31,5 +37,5 @@
     "真冬": 90,
     "瑞希": 71
   },
-  "updated_at": "2026-06-10T17:51:20.781364"
+  "updated_at": "2026-06-10T18:01:05.927015"
 }

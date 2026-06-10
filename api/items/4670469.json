@@ -1,6 +1,5 @@
 {
   "item_id": "4670469",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4670469",
   "title": "【水瀬対応】春ニット【衣装】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "w-zero",
   "creator_name": "w-zero",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

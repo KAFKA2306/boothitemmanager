@@ -1,6 +1,5 @@
 {
   "item_id": "4938397",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4938397",
   "title": "天照の浄衣【対応アバター:萌・セレスティア・桔梗】",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "decoranaige",
   "creator_name": "decoranaige",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -27,5 +43,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

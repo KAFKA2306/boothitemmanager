@@ -1,6 +1,5 @@
 {
   "item_id": "7944888",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7944888",
   "title": "3Dヘアモデル「TwinTail Hair」...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "glitchcat-lab",
   "creator_name": "glitchcat-lab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

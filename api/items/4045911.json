@@ -1,6 +1,5 @@
 {
   "item_id": "4045911",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4045911",
   "title": "【3Dモデル】地雷系ショートブーツ【複数アバ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "shimae",
   "creator_name": "shimae",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア",
-    "ブーツ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア",
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

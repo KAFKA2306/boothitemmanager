@@ -1,6 +1,5 @@
 {
   "item_id": "4019092",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4019092",
   "title": "Angelic Horn / 天使の角",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "chesy1",
   "creator_name": "chesy1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

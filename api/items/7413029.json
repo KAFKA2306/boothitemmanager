@@ -1,6 +1,5 @@
 {
   "item_id": "7413029",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7413029",
   "title": "【ルルネ対応】噛み跡テクスチャ",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "ne4rby",
   "creator_name": "ne4rby",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

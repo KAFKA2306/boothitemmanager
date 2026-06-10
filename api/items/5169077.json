@@ -1,6 +1,5 @@
 {
   "item_id": "5169077",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5169077",
   "title": "【無料】付け爪しなくてもUnity上でネイル...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "szk3",
   "creator_name": "szk3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

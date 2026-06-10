@@ -1,6 +1,5 @@
 {
   "item_id": "6357075",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6357075",
   "title": "【VRC想定】サンシャイン・ボーイズ - S...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "897682512",
   "creator_name": "897682512",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6240312",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6240312",
   "title": "MH_008[MA対応]",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "nachiore",
   "creator_name": "nachiore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

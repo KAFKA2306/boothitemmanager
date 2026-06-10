@@ -1,6 +1,5 @@
 {
   "item_id": "6442489",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6442489",
   "title": "【MSGK】ガーリー💗パンク『Kawaii ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rabbit-luvit",
   "creator_name": "rabbit-luvit",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

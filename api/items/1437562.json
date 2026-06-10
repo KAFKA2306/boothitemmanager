@@ -1,6 +1,5 @@
 {
   "item_id": "1437562",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1437562",
   "title": "小町娘の和服｜#VRoid",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yui-noe",
   "creator_name": "yui-noe",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

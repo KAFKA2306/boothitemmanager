@@ -1,6 +1,5 @@
 {
   "item_id": "6634152",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6634152",
   "title": "【VRChat】ぱいたっち、ビンタ、なで音な...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "aflopirates",
   "creator_name": "aflopirates",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

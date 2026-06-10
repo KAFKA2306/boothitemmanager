@@ -1,6 +1,5 @@
 {
   "item_id": "6759692",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6759692",
   "title": "【3アバター対応】UpBangHair【VR...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "yazuno",
   "creator_name": "yazuno",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

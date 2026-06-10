@@ -1,6 +1,5 @@
 {
   "item_id": "3436956",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3436956",
   "title": "ユニセックスベストコーデ【VRC向け衣装】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kuroinyan",
   "creator_name": "kuroinyan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ベスト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ベスト"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

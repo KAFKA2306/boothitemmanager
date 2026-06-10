@@ -1,6 +1,5 @@
 {
   "item_id": "1006305",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1006305",
   "title": "【無料】VRC向けコンシャツ風パーカー",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "atk-industry",
   "creator_name": "atk-industry",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

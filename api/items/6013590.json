@@ -1,6 +1,5 @@
 {
   "item_id": "6013590",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6013590",
   "title": "「rurune」(ルルネ) Face Tra...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "triturbo",
   "creator_name": "triturbo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 2400,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

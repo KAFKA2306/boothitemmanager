@@ -1,6 +1,5 @@
 {
   "item_id": "3218162",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3218162",
   "title": "【VRChat向け】ゴシックな本【無料】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "magusun812",
   "creator_name": "magusun812",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6432224",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6432224",
   "title": "【MA対応】ヴィクトリア朝風メイド小道具セット",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "mtozi",
   "creator_name": "mtozi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

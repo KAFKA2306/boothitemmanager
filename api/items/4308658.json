@@ -1,6 +1,5 @@
 {
   "item_id": "4308658",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4308658",
   "title": "Tailored Jacket / OGRE",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "onikiworks",
   "creator_name": "onikiworks",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット",
-    "赤",
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

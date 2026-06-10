@@ -1,6 +1,5 @@
 {
   "item_id": "2703709",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2703709",
   "title": "Cosmic ray ネックレス 3Dモデル",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mio3works",
   "creator_name": "mio3works",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネックレス"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネックレス"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

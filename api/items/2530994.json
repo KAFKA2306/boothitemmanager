@@ -1,6 +1,5 @@
 {
   "item_id": "2530994",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2530994",
   "title": "【半額】ざっくりニット デートコーデ【バッグ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "megumivr",
   "creator_name": "megumivr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "バッグ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

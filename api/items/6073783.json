@@ -1,6 +1,5 @@
 {
   "item_id": "6073783",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6073783",
   "title": "Chic Day Dress 「EDEN O...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "eden-spectrum",
   "creator_name": "eden-spectrum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

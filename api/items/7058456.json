@@ -1,6 +1,5 @@
 {
   "item_id": "7058456",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7058456",
   "title": "ハーフジャージ【マリシア専用】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kitakazepyupyu",
   "creator_name": "kitakazepyupyu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

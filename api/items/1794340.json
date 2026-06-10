@@ -1,6 +1,5 @@
 {
   "item_id": "1794340",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1794340",
   "title": "【男女兼用】メタリックゴールド・シルバーショ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "nyanngorou",
   "creator_name": "nyanngorou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金",
-    "銀"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金",
+      "銀"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

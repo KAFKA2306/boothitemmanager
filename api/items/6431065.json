@@ -1,6 +1,5 @@
 {
   "item_id": "6431065",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6431065",
   "title": "065 [しなの / シフォン / マヌカ]",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "eh6666",
   "creator_name": "eh6666",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
@@ -23,5 +38,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

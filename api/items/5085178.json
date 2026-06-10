@@ -1,6 +1,5 @@
 {
   "item_id": "5085178",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5085178",
   "title": "【マヌカちゃん用】Gothic bunny ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "thirdpenguin",
   "creator_name": "thirdpenguin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

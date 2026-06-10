@@ -1,6 +1,5 @@
 {
   "item_id": "6607845",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6607845",
   "title": "【VRCワールドギミック】茶道 お点前ギミック",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "harupon-live2d",
   "creator_name": "harupon-live2d",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1000,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

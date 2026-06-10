@@ -1,6 +1,5 @@
 {
   "item_id": "6113675",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6113675",
   "title": "Shinano(しなの)'s FacialT...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "fermat",
   "creator_name": "fermat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 2000,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

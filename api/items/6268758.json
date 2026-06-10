@@ -1,6 +1,5 @@
 {
   "item_id": "6268758",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6268758",
   "title": "【しなの対応】クロスビキニ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "seniti-1001",
   "creator_name": "seniti-1001",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

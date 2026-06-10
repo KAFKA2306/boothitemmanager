@@ -1,6 +1,5 @@
 {
   "item_id": "7033065",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7033065",
   "title": "【7アバター対応】 SWEETIE",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "cinnamonshop",
   "creator_name": "cinnamonshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6848277",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6848277",
   "title": "【ギミック付き3Dモデル】赤羽刀 無銘 Ve...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "gurrupe",
   "creator_name": "gurrupe",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

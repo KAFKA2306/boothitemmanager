@@ -1,6 +1,5 @@
 {
   "item_id": "7419202",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7419202",
   "title": "【VRC向け】夏暮れリボン帽子 - Late...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "fatty-tuna",
   "creator_name": "fatty-tuna",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "帽子",
-    "リボン"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

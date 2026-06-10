@@ -1,6 +1,5 @@
 {
   "item_id": "1829886",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1829886",
   "title": "着せ替えデータ「テディベアエプロンドレス」",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "sisters",
   "creator_name": "sisters",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "エプロン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス",
+      "エプロン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

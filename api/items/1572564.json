@@ -1,6 +1,5 @@
 {
   "item_id": "1572564",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1572564",
   "title": "【オリジナル３Ｄモデル】ハクト ver1.4.0",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "musakou",
   "creator_name": "musakou",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

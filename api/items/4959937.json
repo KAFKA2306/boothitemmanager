@@ -1,6 +1,5 @@
 {
   "item_id": "4959937",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4959937",
   "title": "Vroid - 白月/ワンピース/White...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "897682512",
   "creator_name": "897682512",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース",
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "1455619",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1455619",
   "title": "[抜刀ギミック付き]Sci-fi Katan...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nyakome-garage",
   "creator_name": "nyakome-garage",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 400,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

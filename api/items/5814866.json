@@ -1,6 +1,5 @@
 {
   "item_id": "5814866",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5814866",
   "title": "【21アバター対応】海軍士官 白詰襟・黒詰襟制服",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "fukuma",
   "creator_name": "fukuma",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "制服",
-    "黒",
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒",
+      "白"
+    ],
+    "outfit_type": [
+      "制服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

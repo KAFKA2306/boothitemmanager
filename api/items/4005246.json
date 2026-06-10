@@ -1,6 +1,5 @@
 {
   "item_id": "4005246",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4005246",
   "title": "【3Dコスチューム】03 アシメスカートセット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "keenooshop",
   "creator_name": "keenooshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スカート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

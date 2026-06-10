@@ -1,6 +1,5 @@
 {
   "item_id": "6251893",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6251893",
   "title": "【無料】ハートタトゥー３種セット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "4rudesign",
   "creator_name": "4rudesign",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "タトゥー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "タトゥー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

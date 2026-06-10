@@ -1,6 +1,5 @@
 {
   "item_id": "4330609",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4330609",
   "title": "【Yoll】振り巫女服",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "monya-vrc",
   "creator_name": "monya-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "巫女服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "巫女服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

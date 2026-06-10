@@ -1,6 +1,5 @@
 {
   "item_id": "2385719",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2385719",
   "title": "メカ尻尾:DVIタイプ(DB,PB対応)_M002",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "alushop",
   "creator_name": "alushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 380,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

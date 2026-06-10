@@ -1,6 +1,5 @@
 {
   "item_id": "4493897",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4493897",
   "title": "【舞夜&セレスティア対応】 K01U",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "km-shop",
   "creator_name": "km-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

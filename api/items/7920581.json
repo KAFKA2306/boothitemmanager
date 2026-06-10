@@ -1,6 +1,5 @@
 {
   "item_id": "7920581",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7920581",
   "title": "【40アバター対応】近未来ネイル『DIGIT...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tsunasand",
   "creator_name": "tsunasand",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

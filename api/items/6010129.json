@@ -1,6 +1,5 @@
 {
   "item_id": "6010129",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6010129",
   "title": "【❥Twinkle Bowknot Dres...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "radiant-iseo",
   "creator_name": "radiant-iseo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

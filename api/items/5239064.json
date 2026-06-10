@@ -1,6 +1,5 @@
 {
   "item_id": "5239064",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5239064",
   "title": "【複数アバター対応】RibbonCoat",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rihyaco",
   "creator_name": "rihyaco",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

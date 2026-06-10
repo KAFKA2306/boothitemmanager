@@ -1,6 +1,5 @@
 {
   "item_id": "4443949",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4443949",
   "title": "Free Star Bracelet",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "li-ne",
   "creator_name": "li-ne",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブレスレット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブレスレット"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

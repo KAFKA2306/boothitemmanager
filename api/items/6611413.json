@@ -1,6 +1,5 @@
 {
   "item_id": "6611413",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6611413",
   "title": "【VRC向けワールド/Quest対応】和空間...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "wikisakamod",
   "creator_name": "wikisakamod",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 2500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

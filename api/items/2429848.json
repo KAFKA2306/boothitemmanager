@@ -1,6 +1,5 @@
 {
   "item_id": "2429848",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2429848",
   "title": "【VRoid/無料】囚人服セット",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "conpeido",
   "creator_name": "conpeido",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

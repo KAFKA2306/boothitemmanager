@@ -1,6 +1,5 @@
 {
   "item_id": "5861659",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5861659",
   "title": "[夏セール]☀️BECKENZI ゴス水着 ...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "beckenzi",
   "creator_name": "beckenzi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "夏",
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック",
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

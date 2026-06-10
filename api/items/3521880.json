@@ -1,6 +1,5 @@
 {
   "item_id": "3521880",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3521880",
   "title": "【竜胆用】 猫ランジェリー - Neko L...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1480,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

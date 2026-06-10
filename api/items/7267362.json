@@ -1,6 +1,5 @@
 {
   "item_id": "7267362",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7267362",
   "title": "【+head対応】リュオンくんのスクール水着...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "comeyan",
   "creator_name": "comeyan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 950,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

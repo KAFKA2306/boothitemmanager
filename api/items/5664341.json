@@ -1,6 +1,5 @@
 {
   "item_id": "5664341",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5664341",
   "title": "九尾の傍観者ちゃん専用☆無料☆衣装３着セット",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "ruruku14",
   "creator_name": "ruruku14",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

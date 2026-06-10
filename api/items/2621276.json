@@ -1,6 +1,5 @@
 {
   "item_id": "2621276",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2621276",
   "title": "【VRchat向け】冬のパーティーな装い【猫...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kasukabe294",
   "creator_name": "kasukabe294",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

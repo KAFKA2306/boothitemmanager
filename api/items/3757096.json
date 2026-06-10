@@ -1,6 +1,5 @@
 {
   "item_id": "3757096",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3757096",
   "title": "【桔梗】白ワンピ - SummerDress...",
   "description": "",
@@ -8,21 +7,39 @@
   "creator_id": "sworks",
   "creator_name": "sworks",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "ドレス",
-    "ワンピース",
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [
+      "ドレス",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

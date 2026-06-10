@@ -1,6 +1,5 @@
 {
   "item_id": "5423752",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5423752",
   "title": "【VRChat向けアバター】白猫のライム・フ...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "kuroinyan",
   "creator_name": "kuroinyan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "ライム",
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 6000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白",
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

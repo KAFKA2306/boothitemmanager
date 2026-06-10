@@ -1,6 +1,5 @@
 {
   "item_id": "5462260",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5462260",
   "title": "【5人】【PB】  Mystic Chic ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "lucavr",
   "creator_name": "lucavr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "1571782",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1571782",
   "title": "中華風カフェセット（愛果茶房）",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "coquelicotz",
   "creator_name": "coquelicotz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "茶"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "茶"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

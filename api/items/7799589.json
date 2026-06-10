@@ -1,6 +1,5 @@
 {
   "item_id": "7799589",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7799589",
   "title": "打ち刀 黒染花 -Kokusenka-",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "syallhainshop",
   "creator_name": "syallhainshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

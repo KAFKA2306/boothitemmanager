@@ -1,6 +1,5 @@
 {
   "item_id": "4149664",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4149664",
   "title": "【桔梗用】上着・ヘルブスト - Jacket...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

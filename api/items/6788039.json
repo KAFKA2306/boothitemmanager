@@ -1,6 +1,5 @@
 {
   "item_id": "6788039",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6788039",
   "title": "⚜️𝐁𝐥𝐨𝐨𝐦 𝐭𝐨 𝐘𝐨𝐮・君に咲く・너에...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rytshop",
   "creator_name": "rytshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

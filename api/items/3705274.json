@@ -1,6 +1,5 @@
 {
   "item_id": "3705274",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3705274",
   "title": "【KIKYO桔梗】セクシーな革のスーツ❤2色❤",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "sakatayu",
   "creator_name": "sakatayu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

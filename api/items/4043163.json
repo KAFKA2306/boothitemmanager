@@ -1,6 +1,5 @@
 {
   "item_id": "4043163",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4043163",
   "title": "【セレスティア用】セータービキニ",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "monya-vrc",
   "creator_name": "monya-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

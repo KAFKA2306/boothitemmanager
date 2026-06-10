@@ -1,6 +1,5 @@
 {
   "item_id": "5153840",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5153840",
   "title": "『真冬 (Mafuyu)』 Casual C...",
   "description": "",
@@ -8,19 +7,37 @@
   "creator_id": "torp3434",
   "creator_name": "torp3434",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "カジュアル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬",
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

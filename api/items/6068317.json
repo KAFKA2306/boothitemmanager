@@ -1,6 +1,5 @@
 {
   "item_id": "6068317",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6068317",
   "title": "【13アバター対応】海のサンシャイン　ワンピース",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "hehzs",
   "creator_name": "hehzs",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

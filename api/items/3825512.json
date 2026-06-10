@@ -1,6 +1,5 @@
 {
   "item_id": "3825512",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3825512",
   "title": "魔法陣レーザー　VRC向けエフェクト　パーティクル",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "dendai",
   "creator_name": "dendai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

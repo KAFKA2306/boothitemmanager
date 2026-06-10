@@ -1,6 +1,5 @@
 {
   "item_id": "7644895",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7644895",
   "title": "《ミルティナ用》冬服",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "section6",
   "creator_name": "section6",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 980,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

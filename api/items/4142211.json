@@ -1,6 +1,5 @@
 {
   "item_id": "4142211",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4142211",
   "title": "ボディピアス_2209【萌・森羅 追加!!】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "kuradeza",
   "creator_name": "kuradeza",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
@@ -25,5 +40,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6428997",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6428997",
   "title": "【VRChat】雪の精霊【しなの/桔梗/ライ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "demicrown",
   "creator_name": "demicrown",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

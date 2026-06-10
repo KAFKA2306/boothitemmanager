@@ -1,6 +1,5 @@
 {
   "item_id": "6140797",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6140797",
   "title": "ちびっ子しなのちゃん改変プリセット",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "7segudynamics",
   "creator_name": "7segudynamics",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

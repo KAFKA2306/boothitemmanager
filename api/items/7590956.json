@@ -1,6 +1,5 @@
 {
   "item_id": "7590956",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7590956",
   "title": "【4アバター対応】‐和装‐ 黎ノ祈 剥がせる...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "secrya",
   "creator_name": "secrya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

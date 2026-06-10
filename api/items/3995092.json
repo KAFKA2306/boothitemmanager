@@ -1,6 +1,5 @@
 {
   "item_id": "3995092",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3995092",
   "title": "【3Dmodel】仕込み刀 隠妖丸【Modu...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sakurame-yuki",
   "creator_name": "sakurame-yuki",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

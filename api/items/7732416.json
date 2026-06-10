@@ -1,6 +1,5 @@
 {
   "item_id": "7732416",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7732416",
   "title": "White Wolf -Hood&Scarf...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "chocomintou-shop",
   "creator_name": "chocomintou-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "マフラー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 650,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マフラー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

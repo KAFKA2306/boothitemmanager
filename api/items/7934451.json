@@ -1,6 +1,5 @@
 {
   "item_id": "7934451",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7934451",
   "title": "【無料】グレーオーバースカート【苺佳、うささ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "minto-akayama",
   "creator_name": "minto-akayama",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スカート",
-    "グレー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "グレー"
+    ],
+    "outfit_type": [
+      "スカート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

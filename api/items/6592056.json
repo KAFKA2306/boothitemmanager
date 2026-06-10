@@ -1,6 +1,5 @@
 {
   "item_id": "6592056",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6592056",
   "title": "Tie me Up【18アバター対応】3D衣装",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "valice",
   "creator_name": "valice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

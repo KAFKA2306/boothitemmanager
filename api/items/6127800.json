@@ -1,6 +1,5 @@
 {
   "item_id": "6127800",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6127800",
   "title": "ツインおさげヘアー【VRChat】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "maorigangu",
   "creator_name": "maorigangu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

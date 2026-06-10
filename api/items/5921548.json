@@ -1,6 +1,5 @@
 {
   "item_id": "5921548",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5921548",
   "title": "【無料/Free】キプフェルちゃんのバッグに...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "akitenaai",
   "creator_name": "akitenaai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バッグ"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "バッグ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4114613",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4114613",
   "title": "【桔梗用】網タイツ - Fishnet Ti...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4145322",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4145322",
   "title": "【VRchat向け】 *:゜:☆†ゴシックハ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "t-shop",
   "creator_name": "t-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

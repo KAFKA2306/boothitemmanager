@@ -1,6 +1,5 @@
 {
   "item_id": "7809963",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7809963",
   "title": "MahinaKimono-2026【 #Vr...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "superindoor",
   "creator_name": "superindoor",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

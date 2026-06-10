@@ -1,6 +1,5 @@
 {
   "item_id": "1453385",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1453385",
   "title": "【無料】からし明太子【VRChat想定】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tetsu9310",
   "creator_name": "tetsu9310",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

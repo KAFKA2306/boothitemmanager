@@ -1,6 +1,5 @@
 {
   "item_id": "8014651",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8014651",
   "title": "白亜《未定義》:CyberBlade:【抜刀...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "fuyuirovison",
   "creator_name": "fuyuirovison",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

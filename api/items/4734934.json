@@ -1,6 +1,5 @@
 {
   "item_id": "4734934",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4734934",
   "title": "VRChat想定衣装モデル 【「雨」AME ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "resha",
   "creator_name": "resha",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

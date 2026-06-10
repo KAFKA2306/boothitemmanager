@@ -1,6 +1,5 @@
 {
   "item_id": "6329671",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6329671",
   "title": "《42アバター対応衣装》ノクターンリボン",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "naginagistore",
   "creator_name": "naginagistore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

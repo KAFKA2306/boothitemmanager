@@ -1,6 +1,5 @@
 {
   "item_id": "2211200",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2211200",
   "title": "【Vroid】パンダ囍チャイナジャージ４色",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nemishop",
   "creator_name": "nemishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャージ"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

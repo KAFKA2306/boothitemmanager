@@ -1,6 +1,5 @@
 {
   "item_id": "6568350",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6568350",
   "title": "[Bird/鳥]メイド服/meidofuku",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "tetunokolab",
   "creator_name": "tetunokolab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

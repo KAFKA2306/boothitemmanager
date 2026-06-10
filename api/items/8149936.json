@@ -1,6 +1,5 @@
 {
   "item_id": "8149936",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8149936",
   "title": "星降る月浴衣【衣装＆アバターギミック 6アバ...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "hyper-tuyotuyo",
   "creator_name": "hyper-tuyotuyo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "浴衣"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "浴衣"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6020704",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6020704",
   "title": "【キプフェル対応】引っ張れる眼帯【PhysB...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "rururirafu",
   "creator_name": "rururirafu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼帯"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

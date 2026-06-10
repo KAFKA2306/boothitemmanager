@@ -1,6 +1,5 @@
 {
   "item_id": "3919801",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3919801",
   "title": "【ｽｷﾆﾝｸﾞ済み衣装】フリルワンピ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kouuao",
   "creator_name": "kouuao",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ワンピース"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

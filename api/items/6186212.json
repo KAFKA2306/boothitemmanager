@@ -1,6 +1,5 @@
 {
   "item_id": "6186212",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6186212",
   "title": "【無料】【Update!】試作特殊二段式狙撃...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "tamagoda",
   "creator_name": "tamagoda",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

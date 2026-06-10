@@ -1,6 +1,5 @@
 {
   "item_id": "5959769",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5959769",
   "title": "【7アバター対応】白無垢風和装『狐雨ノ衣』(...",
   "description": "",
@@ -8,20 +7,37 @@
   "creator_id": "sameno",
   "creator_name": "sameno",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装",
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "KitsuneAme"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "KitsuneAme",
       "name": "狐雨"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

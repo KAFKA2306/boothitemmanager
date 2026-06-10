@@ -1,6 +1,5 @@
 {
   "item_id": "6122165",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6122165",
   "title": "【Shinano】下着を見せたくない人のため...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "itamimimi",
   "creator_name": "itamimimi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

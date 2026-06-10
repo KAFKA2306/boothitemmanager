@@ -1,6 +1,5 @@
 {
   "item_id": "7230929",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7230929",
   "title": "ミルティナ用バニー服　Noble Bunny...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "avakin",
   "creator_name": "avakin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "バニーガール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "バニーガール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4101477",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4101477",
   "title": "8 Avatar「ダボ袖 女教師 / Loo...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "attic",
   "creator_name": "attic",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1600,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

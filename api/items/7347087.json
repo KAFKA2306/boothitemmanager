@@ -1,6 +1,5 @@
 {
   "item_id": "7347087",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7347087",
   "title": "【無料版あり】イチゴ用追加表情パック(Fac...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "verde1viper",
   "creator_name": "verde1viper",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 250,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

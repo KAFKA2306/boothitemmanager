@@ -1,6 +1,5 @@
 {
   "item_id": "6187879",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6187879",
   "title": "【VRC想定・MA対応】我楽多印のどこでもサ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "scrapfactory",
   "creator_name": "scrapfactory",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 1000,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

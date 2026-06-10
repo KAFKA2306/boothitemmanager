@@ -1,6 +1,5 @@
 {
   "item_id": "7597946",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7597946",
   "title": "【無料】【MA対応】猫耳ウルフヘアー【vrc...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "kashio53",
   "creator_name": "kashio53",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "猫耳"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "猫耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6241288",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6241288",
   "title": "【10アバター対応】一本引っ張れるリボン【M...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "flats",
   "creator_name": "flats",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

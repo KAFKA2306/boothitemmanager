@@ -1,6 +1,5 @@
 {
   "item_id": "7113209",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7113209",
   "title": "【まめふれ対応衣装】ぽよぽよ恐竜スーツ【MA対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "5kilogram",
   "creator_name": "5kilogram",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

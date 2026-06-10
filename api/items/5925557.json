@@ -1,6 +1,5 @@
 {
   "item_id": "5925557",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5925557",
   "title": "【8アバター対応】Crossbelt Heel",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "miru-studio",
   "creator_name": "miru-studio",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ベルト"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

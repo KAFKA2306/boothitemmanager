@@ -1,6 +1,5 @@
 {
   "item_id": "3826026",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3826026",
   "title": "【ハオランくん用】衣装集 🔄2024年4月1...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "unimirai",
   "creator_name": "unimirai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 380,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "2800400",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2800400",
   "title": "狐雪用武器 と アーマー セット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "banpaia",
   "creator_name": "banpaia",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "アーマー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "アーマー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

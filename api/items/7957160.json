@@ -1,6 +1,5 @@
 {
   "item_id": "7957160",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7957160",
   "title": "SURVIVAL JACKET【Shinan...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yuhei",
   "creator_name": "yuhei",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジャケット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジャケット"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3557483",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3557483",
   "title": "『カリン (Karin)』ティーシャツ Ts...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "torp3434",
   "creator_name": "torp3434",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

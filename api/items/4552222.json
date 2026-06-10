@@ -1,6 +1,5 @@
 {
   "item_id": "4552222",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4552222",
   "title": "【桔梗ちゃん想定】Hydrangea.",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "miraiyaworkshop",
   "creator_name": "miraiyaworkshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

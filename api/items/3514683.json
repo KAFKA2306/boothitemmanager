@@ -1,6 +1,5 @@
 {
   "item_id": "3514683",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3514683",
   "title": "【VRChat向け】Maid&Apron(メ...",
   "description": "",
@@ -8,15 +7,33 @@
   "creator_id": "trancemode",
   "creator_name": "trancemode",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "エプロン",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "エプロン"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

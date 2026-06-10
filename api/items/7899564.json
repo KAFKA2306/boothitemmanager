@@ -1,6 +1,5 @@
 {
   "item_id": "7899564",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7899564",
   "title": "フォーマルドレス『🌹- Rosetta -🌹...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "rabbit-luvit",
   "creator_name": "rabbit-luvit",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "フォーマル",
-    "ドレス"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 750,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "フォーマル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

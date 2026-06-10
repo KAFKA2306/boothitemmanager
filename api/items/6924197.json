@@ -1,6 +1,5 @@
 {
   "item_id": "6924197",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6924197",
   "title": "【18アバター以上対応】3D衣装『Red L...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "taromin",
   "creator_name": "taromin",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7426603",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7426603",
   "title": "🤍白薔薇の誓い🤍 MA対応ネイル",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "anulapi",
   "creator_name": "anulapi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "ネイル"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

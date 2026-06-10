@@ -1,6 +1,5 @@
 {
   "item_id": "5132797",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5132797",
   "title": "オリジナル3Dモデル「瑞希」メニューギミック搭載",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "paryi",
   "creator_name": "paryi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 6000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mizuki",
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

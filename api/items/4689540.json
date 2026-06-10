@@ -1,6 +1,5 @@
 {
   "item_id": "4689540",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4689540",
   "title": "萌ちゃん専用　えっちな表情20個パック+アニ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "kisanji3",
   "creator_name": "kisanji3",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 700,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

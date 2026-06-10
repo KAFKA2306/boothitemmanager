@@ -1,6 +1,5 @@
 {
   "item_id": "5211113",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5211113",
   "title": "【8アバター対応】 パンツスタイルチャイナ服",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "amanoten10",
   "creator_name": "amanoten10",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ズボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

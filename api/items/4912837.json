@@ -1,6 +1,5 @@
 {
   "item_id": "4912837",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4912837",
   "title": "【ver1.2】目隠し【ベルト式】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "clalice",
   "creator_name": "clalice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

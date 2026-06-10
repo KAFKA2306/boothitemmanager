@@ -1,6 +1,5 @@
 {
   "item_id": "3245491",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3245491",
   "title": "VRCSDK3.0 Worldギミック「Sy...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nazotti",
   "creator_name": "nazotti",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

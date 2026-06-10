@@ -1,6 +1,5 @@
 {
   "item_id": "7053726",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7053726",
   "title": "Dogy (20 Avatars 対応)",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "poy",
   "creator_name": "poy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 950,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

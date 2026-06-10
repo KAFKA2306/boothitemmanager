@@ -1,6 +1,5 @@
 {
   "item_id": "5359856",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5359856",
   "title": "【VRChat想定】月と鎖のピアス PB【萌...",
   "description": "",
@@ -8,19 +7,37 @@
   "creator_id": "jingaikobai",
   "creator_name": "jingaikobai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "イヤリング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

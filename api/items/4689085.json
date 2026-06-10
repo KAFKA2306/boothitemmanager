@@ -1,6 +1,5 @@
 {
   "item_id": "4689085",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4689085",
   "title": "😇4周年50％OFF😇Moe 萌用、PB対応...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "isekaisuzuya",
   "creator_name": "isekaisuzuya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 840,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

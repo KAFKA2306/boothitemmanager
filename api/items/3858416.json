@@ -1,6 +1,5 @@
 {
   "item_id": "3858416",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3858416",
   "title": "【VRChat】厚底ショートブーツ【カリンち...",
   "description": "",
@@ -8,15 +7,29 @@
   "creator_id": "akaringo1go",
   "creator_name": "akaringo1go",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア",
-    "ブーツ",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア",
+      "ブーツ",
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7464809",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7464809",
   "title": "ルークランタン：期間限定無料期間終了",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "shoyutaru",
   "creator_name": "shoyutaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

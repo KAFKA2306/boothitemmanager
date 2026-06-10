@@ -1,6 +1,5 @@
 {
   "item_id": "4393761",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4393761",
   "title": "羽織袴 - Hakama / OGRE",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "onikiworks",
   "creator_name": "onikiworks",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "羽織"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "羽織"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

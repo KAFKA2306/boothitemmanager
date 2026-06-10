@@ -1,6 +1,5 @@
 {
   "item_id": "4484226",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4484226",
   "title": "◤VRChat向け◢ ホテル・カデシュ認証 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "hsworkshop",
   "creator_name": "hsworkshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

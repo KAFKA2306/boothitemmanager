@@ -1,6 +1,5 @@
 {
   "item_id": "8451081",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8451081",
   "title": "✨半額セール✨ Loropetie Bob【...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "uni-humans",
   "creator_name": "uni-humans",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

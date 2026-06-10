@@ -1,6 +1,5 @@
 {
   "item_id": "5438916",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5438916",
   "title": "40's Zoot Suits　複数アバター対応",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nolilon",
   "creator_name": "nolilon",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 3900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

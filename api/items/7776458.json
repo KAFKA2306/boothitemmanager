@@ -1,6 +1,5 @@
 {
   "item_id": "7776458",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7776458",
   "title": "【ルミナ/LUMINA】Dreamy Blu...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "nonbirineko",
   "creator_name": "nonbirineko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

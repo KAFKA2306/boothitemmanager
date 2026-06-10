@@ -1,6 +1,5 @@
 {
   "item_id": "3510184",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3510184",
   "title": "ロングツインテール】VRChat用素材【Ph...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "sharu0605",
   "creator_name": "sharu0605",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "ツイン",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "ロング",
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

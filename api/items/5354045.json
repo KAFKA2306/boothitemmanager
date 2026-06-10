@@ -1,6 +1,5 @@
 {
   "item_id": "5354045",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5354045",
   "title": "61アバター対応 NNN(VRChat向け衣...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mumumumum",
   "creator_name": "mumumumum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 2200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

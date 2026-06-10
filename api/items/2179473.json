@@ -1,6 +1,5 @@
 {
   "item_id": "2179473",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2179473",
   "title": "更新【3type】妖精な服リメイク　【春夏秋...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nemishop",
   "creator_name": "nemishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "夏",
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 880,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [
+      "夏"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

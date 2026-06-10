@@ -1,6 +1,5 @@
 {
   "item_id": "2717995",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2717995",
   "title": "[VRoid] Ribbon Dress [...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nicorin2525",
   "creator_name": "nicorin2525",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ドレス",
-    "リボン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ドレス"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

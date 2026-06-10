@@ -1,6 +1,5 @@
 {
   "item_id": "1573480",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1573480",
   "title": "円形イヤリング",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "totom",
   "creator_name": "totom",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

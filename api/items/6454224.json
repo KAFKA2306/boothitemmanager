@@ -1,6 +1,5 @@
 {
   "item_id": "6454224",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6454224",
   "title": "【無料・Free】キプフェルのTシャツ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mochinokoshop",
   "creator_name": "mochinokoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "Tシャツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "Tシャツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

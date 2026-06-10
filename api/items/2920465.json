@@ -1,6 +1,5 @@
 {
   "item_id": "2920465",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2920465",
   "title": "【Unity/VRChat】Purple O...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "floppiii",
   "creator_name": "floppiii",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "紫",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 4250,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "紫"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

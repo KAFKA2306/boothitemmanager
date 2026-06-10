@@ -1,6 +1,5 @@
 {
   "item_id": "6645066",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6645066",
   "title": "【7アバター対応】Darling bow p...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "4nonymity",
   "creator_name": "4nonymity",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

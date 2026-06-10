@@ -1,6 +1,5 @@
 {
   "item_id": "7875079",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7875079",
   "title": "【VRChat想定MA対応】魔法銃剣-ショッ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "studiosymphony",
   "creator_name": "studiosymphony",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

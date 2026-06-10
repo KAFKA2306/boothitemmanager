@@ -1,6 +1,5 @@
 {
   "item_id": "1461266",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1461266",
   "title": "【FBX】筋肉素体+モブハゲ【着せ替え用モデ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "chinpan-g-072",
   "creator_name": "chinpan-g-072",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

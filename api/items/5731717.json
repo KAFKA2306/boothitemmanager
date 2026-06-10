@@ -1,6 +1,5 @@
 {
   "item_id": "5731717",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5731717",
   "title": "【まめひなた専用】わんぱくオーバーオール",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "18043n777",
   "creator_name": "18043n777",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "オーバーオール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "オーバーオール"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "8183418",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8183418",
   "title": "【3D衣装】♥️Gothic Punk ねこ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kurageyummmy",
   "creator_name": "kurageyummmy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

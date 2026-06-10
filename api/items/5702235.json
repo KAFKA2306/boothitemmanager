@@ -1,6 +1,5 @@
 {
   "item_id": "5702235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5702235",
   "title": "♥34アバター対応♥ at2am. 【MA対応】",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "valice",
   "creator_name": "valice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

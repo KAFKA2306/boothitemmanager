@@ -1,6 +1,5 @@
 {
   "item_id": "7546999",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7546999",
   "title": "【muu - 包帯ショート / 前下がりアシ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "yochiyochi1",
   "creator_name": "yochiyochi1",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア",
-    "包帯"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア",
+      "包帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

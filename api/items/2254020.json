@@ -1,6 +1,5 @@
 {
   "item_id": "2254020",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2254020",
   "title": "【薄荷ちゃん用】カジュアルパーカーセット【C...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "reichan355",
   "creator_name": "reichan355",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル",
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Hakka",
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

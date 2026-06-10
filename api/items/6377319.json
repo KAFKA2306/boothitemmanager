@@ -1,6 +1,5 @@
 {
   "item_id": "6377319",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6377319",
   "title": "【オマケ帽子付き】サンタの白ひげ《複数アバタ...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "kabu-no-omise",
   "creator_name": "kabu-no-omise",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

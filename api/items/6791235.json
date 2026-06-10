@@ -1,6 +1,5 @@
 {
   "item_id": "6791235",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6791235",
   "title": "【ルルネ/シャミ対応】尻尾アクセサリー「fi...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "pitohui",
   "creator_name": "pitohui",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5949518",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5949518",
   "title": "マスク PB Mask (45アバター対応)",
   "description": "",
@@ -8,13 +7,30 @@
   "creator_id": "butanoya",
   "creator_name": "butanoya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 550,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone",
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

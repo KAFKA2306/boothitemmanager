@@ -1,6 +1,5 @@
 {
   "item_id": "5190448",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5190448",
   "title": "【Quest対応版有り】おばけさん&アクセサ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "zassou-shop",
   "creator_name": "zassou-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3416452",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3416452",
   "title": "PB ペア宝石時計&ブレスレット 秒針アニメ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "mocchiriomochi",
   "creator_name": "mocchiriomochi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブレスレット"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ブレスレット"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

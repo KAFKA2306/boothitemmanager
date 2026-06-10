@@ -1,6 +1,5 @@
 {
   "item_id": "7896272",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7896272",
   "title": "【無料】黄昏 - Twilight の翼",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nesyagima",
   "creator_name": "nesyagima",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黄",
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黄"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

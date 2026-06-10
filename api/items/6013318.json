@@ -1,6 +1,5 @@
 {
   "item_id": "6013318",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6013318",
   "title": "海の別荘_unity package",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "hirameki-hakaba",
   "creator_name": "hirameki-hakaba",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

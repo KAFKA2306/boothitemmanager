@@ -1,6 +1,5 @@
 {
   "item_id": "5814301",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5814301",
   "title": "リボンロングヘア",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "li-ne",
   "creator_name": "li-ne",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "リボン"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

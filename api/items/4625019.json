@@ -1,6 +1,5 @@
 {
   "item_id": "4625019",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4625019",
   "title": "minase makeup + eye te...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "bnz",
   "creator_name": "bnz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

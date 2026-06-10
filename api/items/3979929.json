@@ -1,6 +1,5 @@
 {
   "item_id": "3979929",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3979929",
   "title": "オリジナル3Dアクセサリ「桜の角」",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tainaka",
   "creator_name": "tainaka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "角"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

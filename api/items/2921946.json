@@ -1,6 +1,5 @@
 {
   "item_id": "2921946",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2921946",
   "title": "【無料】薄荷専用　瞳キラキラ追加テクスチャ",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "silence-track",
   "creator_name": "silence-track",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Hakka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Hakka",
       "name": "薄荷"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

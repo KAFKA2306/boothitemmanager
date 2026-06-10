@@ -1,6 +1,5 @@
 {
   "item_id": "7999216",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7999216",
   "title": "11アバター対応🩷Pink Poison D...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pathomni",
   "creator_name": "pathomni",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ピンク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1050,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ピンク"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

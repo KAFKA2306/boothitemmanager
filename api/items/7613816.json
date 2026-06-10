@@ -1,6 +1,5 @@
 {
   "item_id": "7613816",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7613816",
   "title": "Marycia winter eye & m...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "amaryllissirius",
   "creator_name": "amaryllissirius",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

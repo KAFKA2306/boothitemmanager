@@ -1,6 +1,5 @@
 {
   "item_id": "8178849",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8178849",
   "title": "✨SALE！✨ Layered Smooth...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nuanua",
   "creator_name": "nuanua",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 890,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5354054",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5354054",
   "title": "【Unity】ポーズ変換ツール【Humanoid】",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "saturnianshop",
   "creator_name": "saturnianshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

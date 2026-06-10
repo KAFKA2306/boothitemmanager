@@ -1,6 +1,5 @@
 {
   "item_id": "3159295",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3159295",
   "title": "【VRChat向け】蝶々アクセサリー(髪飾り...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "ki-tamu",
   "creator_name": "ki-tamu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 200,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

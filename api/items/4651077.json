@@ -1,6 +1,5 @@
 {
   "item_id": "4651077",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4651077",
   "title": "変形メガネ_001～Transform Gl...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "iwashi-can",
   "creator_name": "iwashi-can",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF",
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

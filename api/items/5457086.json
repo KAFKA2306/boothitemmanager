@@ -1,6 +1,5 @@
 {
   "item_id": "5457086",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5457086",
   "title": "【桔梗用】パーカーワンピ３点セット　Hood...",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "kusutto",
   "creator_name": "kusutto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "ワンピース"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

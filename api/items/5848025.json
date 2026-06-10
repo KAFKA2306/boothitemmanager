@@ -1,6 +1,5 @@
 {
   "item_id": "5848025",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5848025",
   "title": "【10モデル対応】シンプルなハイヒール - ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "seele",
   "creator_name": "seele",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ヒール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ヒール"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

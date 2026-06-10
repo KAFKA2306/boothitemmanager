@@ -1,6 +1,5 @@
 {
   "item_id": "4160716",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4160716",
   "title": "【3Dモデル】 Nine tailed fo...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "dimgray",
   "creator_name": "dimgray",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

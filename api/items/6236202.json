@@ -1,6 +1,5 @@
 {
   "item_id": "6236202",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6236202",
   "title": "【しなの対応】マットeye＋顔テクスチャ",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "mkiiii",
   "creator_name": "mkiiii",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

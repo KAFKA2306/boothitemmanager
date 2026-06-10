@@ -1,6 +1,5 @@
 {
   "item_id": "5774004",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5774004",
   "title": "[VFX] Shattered Mirage",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "lombex",
   "creator_name": "lombex",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤",
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 7000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7143522",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7143522",
   "title": "【複数アバター対応】彼シャツ風パジャマワンピ...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "lulls",
   "creator_name": "lulls",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パジャマ",
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パジャマ",
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

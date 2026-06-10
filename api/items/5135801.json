@@ -1,6 +1,5 @@
 {
   "item_id": "5135801",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5135801",
   "title": "【Manuka】セータービキニ２",
   "description": "",
@@ -8,19 +7,37 @@
   "creator_id": "monya-vrc",
   "creator_name": "monya-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4726211",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4726211",
   "title": "【森羅×Shinra】- Make Up +...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "songu",
   "creator_name": "songu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

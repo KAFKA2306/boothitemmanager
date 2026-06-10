@@ -1,6 +1,5 @@
 {
   "item_id": "7228919",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7228919",
   "title": "爆イケ白肌マテリアル(汎用)＋おまけミルティ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "anoyode",
   "creator_name": "anoyode",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

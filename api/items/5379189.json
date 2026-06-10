@@ -1,6 +1,5 @@
 {
   "item_id": "5379189",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5379189",
   "title": "+Head対応和服モデル「黒玉」",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "itsukilab",
   "creator_name": "itsukilab",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "着物",
-    "黒"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

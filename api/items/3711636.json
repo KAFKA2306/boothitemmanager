@@ -1,6 +1,5 @@
 {
   "item_id": "3711636",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3711636",
   "title": "【29アバター対応】眼帯｜Eyepatch",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "funazushi",
   "creator_name": "funazushi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼帯"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼帯"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

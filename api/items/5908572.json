@@ -1,6 +1,5 @@
 {
   "item_id": "5908572",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5908572",
   "title": "【3D】ENERGICO (森羅/マヌカ/ラ...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "lyra-o-o-o",
   "creator_name": "lyra-o-o-o",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka",
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
@@ -23,5 +38,6 @@
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

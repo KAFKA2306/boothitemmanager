@@ -1,6 +1,5 @@
 {
   "item_id": "5422942",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5422942",
   "title": "「桔梗用」オープンクロッチタイツ(Open ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "fermat",
   "creator_name": "fermat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

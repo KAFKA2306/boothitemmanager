@@ -1,6 +1,5 @@
 {
   "item_id": "6418362",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6418362",
   "title": "なんでも白リム&黒リム ゴシック化プリセット...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "lawdamassy",
   "creator_name": "lawdamassy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "黒",
-    "白"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 500,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [
+      "黒",
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

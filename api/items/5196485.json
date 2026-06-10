@@ -1,6 +1,5 @@
 {
   "item_id": "5196485",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5196485",
   "title": "Firsty_Shirt&Jeans [C04]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "seolleo",
   "creator_name": "seolleo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ジーンズ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ジーンズ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

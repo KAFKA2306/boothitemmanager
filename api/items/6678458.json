@@ -1,6 +1,5 @@
 {
   "item_id": "6678458",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6678458",
   "title": "【6Avater・MA対応】GothicHe...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "cute4ggress1on",
   "creator_name": "cute4ggress1on",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

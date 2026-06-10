@@ -1,6 +1,5 @@
 {
   "item_id": "3401927",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3401927",
   "title": "【PB版動作確認済】舞夜用の衣装、キャミワン...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "wakamaru",
   "creator_name": "wakamaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "キャミソール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "キャミソール"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

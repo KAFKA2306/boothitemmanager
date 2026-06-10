@@ -1,6 +1,5 @@
 {
   "item_id": "5481218",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5481218",
   "title": "だらだらスポーツウェア+しんぷるニーソックス...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "lazuritedresser",
   "creator_name": "lazuritedresser",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ",
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

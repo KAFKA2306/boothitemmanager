@@ -1,6 +1,5 @@
 {
   "item_id": "5635701",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5635701",
   "title": "【森羅-shinra】 𝐍𝐀𝐓𝐔𝐑𝐀𝐋♦ E...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "uxxuina",
   "creator_name": "uxxuina",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

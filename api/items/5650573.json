@@ -1,6 +1,5 @@
 {
   "item_id": "5650573",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5650573",
   "title": "【Unity】ネイルセットアップツール Na...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "saturnianshop",
   "creator_name": "saturnianshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 300,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

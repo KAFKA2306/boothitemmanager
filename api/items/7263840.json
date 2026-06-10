@@ -1,6 +1,5 @@
 {
   "item_id": "7263840",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7263840",
   "title": "[13Avatar] ✦𝙷𝚎𝚊𝚛𝚝𝙶𝚕𝚎𝚊𝚖...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "aspartame-999",
   "creator_name": "aspartame-999",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 350,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

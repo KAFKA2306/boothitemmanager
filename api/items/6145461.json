@@ -1,6 +1,5 @@
 {
   "item_id": "6145461",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6145461",
   "title": "おきつねロング OkitsuneLongHa...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "kagekagestore",
   "creator_name": "kagekagestore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

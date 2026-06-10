@@ -1,6 +1,5 @@
 {
   "item_id": "6594944",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6594944",
   "title": "つながる、歩く、感じ合う。【シン・アバターリ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "serial",
   "creator_name": "serial",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 900,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

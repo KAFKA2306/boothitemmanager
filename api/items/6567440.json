@@ -1,6 +1,5 @@
 {
   "item_id": "6567440",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6567440",
   "title": "【15アバター対応】ཐི⋆ necroang...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mirakore",
   "creator_name": "mirakore",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

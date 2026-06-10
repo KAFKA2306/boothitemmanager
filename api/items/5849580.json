@@ -1,6 +1,5 @@
 {
   "item_id": "5849580",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5849580",
   "title": "6アバター対応「浴衣 白鷺」【ヘルべチカ/マ...",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "8-dori",
   "creator_name": "8-dori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "浴衣",
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [
+      "浴衣"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

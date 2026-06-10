@@ -1,6 +1,5 @@
 {
   "item_id": "5059603",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5059603",
   "title": "マヌカ - MANUKA - 마누카 Mak...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "minyang",
   "creator_name": "minyang",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

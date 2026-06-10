@@ -1,6 +1,5 @@
 {
   "item_id": "6961374",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6961374",
   "title": "BUNNY HOODIE 森羅 - Shinra",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "lesh",
   "creator_name": "lesh",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1650,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinra"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinra",
       "name": "森羅"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

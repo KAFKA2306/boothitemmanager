@@ -1,6 +1,5 @@
 {
   "item_id": "7673922",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7673922",
   "title": "見習い剣士コーデ【3アバター対応】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "eichivariety",
   "creator_name": "eichivariety",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

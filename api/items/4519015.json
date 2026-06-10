@@ -1,6 +1,5 @@
 {
   "item_id": "4519015",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4519015",
   "title": "【VRC】小悪魔どりーみんチョーカー - C...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yumoshop",
   "creator_name": "yumoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "チョーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 350,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "チョーカー"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4797676",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4797676",
   "title": "Runa Cyber_Sweater",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "ad-astra",
   "creator_name": "ad-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "セーター"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 3000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5323314",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5323314",
   "title": "VRC用衣装「CelestialSerena...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "rio0405",
   "creator_name": "rio0405",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

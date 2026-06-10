@@ -1,6 +1,5 @@
 {
   "item_id": "5565813",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5565813",
   "title": "【ミュリシア対応】ジャージパーカー【無料】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "bbbluestar",
   "creator_name": "bbbluestar",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

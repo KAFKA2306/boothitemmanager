@@ -1,6 +1,5 @@
 {
   "item_id": "7129293",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7129293",
   "title": "TYPE CASUAL【13アバター対応】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "pompombum",
   "creator_name": "pompombum",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

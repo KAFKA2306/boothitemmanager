@@ -1,6 +1,5 @@
 {
   "item_id": "4913352",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4913352",
   "title": "【ライム - Lime】Pure Eye T...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "soraharushop",
   "creator_name": "soraharushop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

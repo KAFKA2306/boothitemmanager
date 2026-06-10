@@ -1,6 +1,5 @@
 {
   "item_id": "3275704",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3275704",
   "title": "【Unity】Humanoid対応 手の3D...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "umeboc",
   "creator_name": "umeboc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

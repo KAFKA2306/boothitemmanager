@@ -1,6 +1,5 @@
 {
   "item_id": "6263801",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6263801",
   "title": "𓆩♡𓆪 Cyber Succubus Tat...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "vinzo",
   "creator_name": "vinzo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 700,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

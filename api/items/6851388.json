@@ -1,6 +1,5 @@
 {
   "item_id": "6851388",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6851388",
   "title": "💉BUNNY MAID💉～nurse～【2w...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "mr47",
   "creator_name": "mr47",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ナース服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 850,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ナース服"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

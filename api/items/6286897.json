@@ -1,6 +1,5 @@
 {
   "item_id": "6286897",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6286897",
   "title": "【MA対応】「rurune」-ルルネ-　対応...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "cambiria-mfg",
   "creator_name": "cambiria-mfg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7295206",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7295206",
   "title": "【Luxvet SF1.0 Wings SC...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "luxvet",
   "creator_name": "luxvet",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "SF",
-    "翼"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "翼"
+    ],
+    "body_type": [],
+    "style": [
+      "SF"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

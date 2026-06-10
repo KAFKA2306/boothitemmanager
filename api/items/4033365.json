@@ -1,6 +1,5 @@
 {
   "item_id": "4033365",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4033365",
   "title": "【桔梗‐Kikyo‐専用】スポーツサンダル【...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "foxpunch",
   "creator_name": "foxpunch",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スポーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "スポーツ"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -25,5 +40,6 @@
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7623719",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7623719",
   "title": "Lueur Glasses　【14アバターセ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "lumeeen",
   "creator_name": "lumeeen",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

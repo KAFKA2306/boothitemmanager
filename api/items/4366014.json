@@ -1,6 +1,5 @@
 {
   "item_id": "4366014",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4366014",
   "title": "【3Dモデル】『五十鈴神社』新バージョン",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "yumetengu",
   "creator_name": "yumetengu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 1500,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4793300",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4793300",
   "title": "Vestments_of_betrayal(...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "decoranaige",
   "creator_name": "decoranaige",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ベスト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ベスト"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6322473",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6322473",
   "title": "［10アバター対応］6種の帽子×複数ヘアで3...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "whimsy-air",
   "creator_name": "whimsy-air",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

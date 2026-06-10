@@ -1,6 +1,5 @@
 {
   "item_id": "5435473",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5435473",
   "title": "ショコラテディベア【マヌカ・桔梗 】",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "mimi33sp",
   "creator_name": "mimi33sp",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

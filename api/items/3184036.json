@@ -1,6 +1,5 @@
 {
   "item_id": "3184036",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3184036",
   "title": "ゆれる！つまみ細工の髪飾り　5色セット【浴衣...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "omochi-mochishop",
   "creator_name": "omochi-mochishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和装",
-    "浴衣"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [
+      "浴衣"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5306953",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5306953",
   "title": "【FREE】[VRC / Particle]...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "qkun",
   "creator_name": "qkun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

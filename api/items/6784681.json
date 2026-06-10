@@ -1,6 +1,5 @@
 {
   "item_id": "6784681",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6784681",
   "title": "ベールスーツ【ブロキマナク・ポチ】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tekona0",
   "creator_name": "tekona0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

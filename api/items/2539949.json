@@ -1,6 +1,5 @@
 {
   "item_id": "2539949",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2539949",
   "title": "『和パーカー』(京狐、ウルフェリア、幽狐族の...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "yb-motors",
   "creator_name": "yb-motors",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

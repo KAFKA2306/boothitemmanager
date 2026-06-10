@@ -1,6 +1,5 @@
 {
   "item_id": "6842725",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6842725",
   "title": "「VRC想定」しらつめ専用　ニーハイソックス",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "malin-shop",
   "creator_name": "malin-shop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "靴下"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "靴下"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

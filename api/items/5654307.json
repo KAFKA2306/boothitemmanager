@@ -1,6 +1,5 @@
 {
   "item_id": "5654307",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5654307",
   "title": "夢見る桜蝶　Verセレスティア",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "magic-a-porter",
   "creator_name": "magic-a-porter",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 3120,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

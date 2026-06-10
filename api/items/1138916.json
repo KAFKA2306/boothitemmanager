@@ -1,6 +1,5 @@
 {
   "item_id": "1138916",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1138916",
   "title": "白い吐息パーティクル",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "lico-vr",
   "creator_name": "lico-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

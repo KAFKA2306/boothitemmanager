@@ -1,6 +1,5 @@
 {
   "item_id": "5305065",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5305065",
   "title": "【萌、ライム、真冬対応】Moe / Lime...",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "lochiovo",
   "creator_name": "lochiovo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "ライム"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Moe",
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Moe",
@@ -26,5 +42,6 @@
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

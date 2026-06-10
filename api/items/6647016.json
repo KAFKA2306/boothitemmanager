@@ -1,6 +1,5 @@
 {
   "item_id": "6647016",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6647016",
   "title": "【瑞希＆ルルネ対応】CYBER MAID【V...",
   "description": "",
@@ -8,14 +7,32 @@
   "creator_id": "demicrown",
   "creator_name": "demicrown",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "サイバー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド",
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune",
+      "Mizuki"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
@@ -26,5 +43,6 @@
       "name": "瑞希"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

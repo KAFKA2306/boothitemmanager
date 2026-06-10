@@ -1,6 +1,5 @@
 {
   "item_id": "8219407",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8219407",
   "title": "✨sale✨満月少女-再月-【19アバター対応】",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "xiiiange",
   "creator_name": "xiiiange",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

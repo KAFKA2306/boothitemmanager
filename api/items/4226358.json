@@ -1,6 +1,5 @@
 {
   "item_id": "4226358",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4226358",
   "title": "【無料】金属ハロ/metalic halo",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "flabs",
   "creator_name": "flabs",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "金"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "金"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

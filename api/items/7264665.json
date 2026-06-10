@@ -1,6 +1,5 @@
 {
   "item_id": "7264665",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7264665",
   "title": "【真冬用】ジャージ開閉ギミック【無料】",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "guest712",
   "creator_name": "guest712",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

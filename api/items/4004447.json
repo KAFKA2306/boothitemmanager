@@ -1,6 +1,5 @@
 {
   "item_id": "4004447",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4004447",
   "title": "VRChat Bowling Game Pr...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "spookyghostboo",
   "creator_name": "spookyghostboo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 0,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Bow"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Bow",
       "name": "Bow"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7464897",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7464897",
   "title": "バタートーストキプフェルギミック/Butte...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "sanno-lwnt",
   "creator_name": "sanno-lwnt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

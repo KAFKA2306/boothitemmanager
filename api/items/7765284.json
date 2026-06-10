@@ -1,6 +1,5 @@
 {
   "item_id": "7765284",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7765284",
   "title": "露草色の和服　Alué/アルエ (+Head...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "pinoshop",
   "creator_name": "pinoshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "着物"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [
+      "着物"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

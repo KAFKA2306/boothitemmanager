@@ -1,6 +1,5 @@
 {
   "item_id": "7374486",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7374486",
   "title": "【１１種類】カーソル・アクセサリ・セット&ピアス",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "harusamenozakka",
   "creator_name": "harusamenozakka",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

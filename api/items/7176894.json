@@ -1,6 +1,5 @@
 {
   "item_id": "7176894",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7176894",
   "title": "Her glasses",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "slay",
   "creator_name": "slay",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "眼鏡"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "眼鏡"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

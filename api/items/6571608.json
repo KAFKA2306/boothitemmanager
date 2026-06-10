@@ -1,6 +1,5 @@
 {
   "item_id": "6571608",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6571608",
   "title": "🦈【ルルネ用】Ribbontail+リボンア...",
   "description": "",
@@ -8,19 +7,35 @@
   "creator_id": "granchiochanshop",
   "creator_name": "granchiochanshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "リボン",
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "リボン",
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

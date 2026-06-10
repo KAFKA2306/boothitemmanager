@@ -1,6 +1,5 @@
 {
   "item_id": "5540084",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5540084",
   "title": "【5アバター対応】和風衣装「狂華」(ギミック付)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "marumarushop-vrc",
   "creator_name": "marumarushop-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

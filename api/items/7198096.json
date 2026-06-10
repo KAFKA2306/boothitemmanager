@@ -1,6 +1,5 @@
 {
   "item_id": "7198096",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7198096",
   "title": "Gothic Chain Boots【24ア...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "poponium",
   "creator_name": "poponium",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "ブーツ"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 400,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "ブーツ"
+    ],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

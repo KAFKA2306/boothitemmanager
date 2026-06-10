@@ -1,6 +1,5 @@
 {
   "item_id": "4660217",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4660217",
   "title": "【こまどアバター用】下着テクスチャ【全75種】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sanya",
   "creator_name": "sanya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1200,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

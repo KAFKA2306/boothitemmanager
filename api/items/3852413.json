@@ -1,6 +1,5 @@
 {
   "item_id": "3852413",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3852413",
   "title": "Tether Leash(PB)",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "irina",
   "creator_name": "irina",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

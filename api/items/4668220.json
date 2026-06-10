@@ -1,6 +1,5 @@
 {
   "item_id": "4668220",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4668220",
   "title": "ChainTail&ChainEar set",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kenranshop",
   "creator_name": "kenranshop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7360444",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7360444",
   "title": "【複数アバター対応】𝒞𝟏ℛ 𝒢𝓁𝒶𝓈𝓈【3点...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "chocolate-ren214",
   "creator_name": "chocolate-ren214",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 450,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

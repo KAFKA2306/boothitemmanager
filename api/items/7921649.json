@@ -1,6 +1,5 @@
 {
   "item_id": "7921649",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7921649",
   "title": "【𝐒𝐀𝐋𝐄中♥】【15アバター対応】 ♡ 𝓗...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "pinkpudding",
   "creator_name": "pinkpudding",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 990,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

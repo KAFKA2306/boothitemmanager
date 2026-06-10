@@ -1,6 +1,5 @@
 {
   "item_id": "6339491",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6339491",
   "title": "ゆるリボンニット【8アバター対応】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "midorihadayo",
   "creator_name": "midorihadayo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "リボン"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

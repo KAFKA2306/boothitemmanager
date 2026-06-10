@@ -1,6 +1,5 @@
 {
   "item_id": "3079953",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3079953",
   "title": "Slimo [スライム]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "updog",
   "creator_name": "updog",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ライム"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

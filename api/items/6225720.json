@@ -1,6 +1,5 @@
 {
   "item_id": "6225720",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6225720",
   "title": "【まめふれんず対応】Blood Nurse",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "limeadestand",
   "creator_name": "limeadestand",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ナース服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ナース服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

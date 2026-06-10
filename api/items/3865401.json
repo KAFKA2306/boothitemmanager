@@ -1,6 +1,5 @@
 {
   "item_id": "3865401",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3865401",
   "title": "リボンセーター",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "foiv",
   "creator_name": "foiv",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

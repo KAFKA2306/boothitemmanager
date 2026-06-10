@@ -1,6 +1,5 @@
 {
   "item_id": "6025059",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6025059",
   "title": "D001式-競泳水着【対応：マヌカ、萌、セレ...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "decoranaige",
   "creator_name": "decoranaige",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
@@ -25,5 +40,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

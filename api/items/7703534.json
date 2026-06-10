@@ -1,6 +1,5 @@
 {
   "item_id": "7703534",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7703534",
   "title": "着せ替え用モデル『TrackSuitMaid』",
   "description": "",
@@ -8,15 +7,32 @@
   "creator_id": "xelevia",
   "creator_name": "xelevia",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "スーツ",
-    "ジャージ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "スーツ",
+      "ジャージ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6248635",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6248635",
   "title": "[無料・しなの対応] なんか疲弊してそうなメイク",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "nra",
   "creator_name": "nra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

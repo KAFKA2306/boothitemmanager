@@ -1,6 +1,5 @@
 {
   "item_id": "7277667",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7277667",
   "title": "【髪型】まめふれんずのクールショート",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "mossansky",
   "creator_name": "mossansky",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ショートヘア"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "ショートヘア"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

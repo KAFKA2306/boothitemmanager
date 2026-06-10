@@ -1,6 +1,5 @@
 {
   "item_id": "6198367",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6198367",
   "title": "しなの対応衣装【Tech Wear】",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "hajimata",
   "creator_name": "hajimata",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

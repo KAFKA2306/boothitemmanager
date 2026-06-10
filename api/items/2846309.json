@@ -1,6 +1,5 @@
 {
   "item_id": "2846309",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2846309",
   "title": "リング付き水着 & 競泳水着 for Kok...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "qrochairo",
   "creator_name": "qrochairo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

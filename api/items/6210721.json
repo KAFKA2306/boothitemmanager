@@ -1,6 +1,5 @@
 {
   "item_id": "6210721",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6210721",
   "title": "【8アバター対応】sweetie night...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "yume-utsutsu",
   "creator_name": "yume-utsutsu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネクタイ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ネクタイ"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4453778",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4453778",
   "title": "【桔梗、セレスティア、舞夜対応】ファースト・ラブ",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "vagrant",
   "creator_name": "vagrant",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 999000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

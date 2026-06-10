@@ -1,6 +1,5 @@
 {
   "item_id": "2721072",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2721072",
   "title": "【イヨ用、メリノ用】スリムフィットパンツ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "uneuneu",
   "creator_name": "uneuneu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ズボン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 800,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7381302",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7381302",
   "title": "【Marycia/Lapwing/マヌカ/し...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "l2ens4",
   "creator_name": "l2ens4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

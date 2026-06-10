@@ -1,6 +1,5 @@
 {
   "item_id": "8330727",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8330727",
   "title": "【 Future White 】 【 フュー...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "inkkkiss",
   "creator_name": "inkkkiss",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

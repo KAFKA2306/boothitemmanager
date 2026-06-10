@@ -1,6 +1,5 @@
 {
   "item_id": "1436186",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1436186",
   "title": "キッシュちゃんパンツパッチ(200枚)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tenteeeee",
   "creator_name": "tenteeeee",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ズボン"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ズボン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

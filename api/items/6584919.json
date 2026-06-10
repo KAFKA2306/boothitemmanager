@@ -1,6 +1,5 @@
 {
   "item_id": "6584919",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6584919",
   "title": "#Monde_M 🌹Élégant Twee...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "bkmt",
   "creator_name": "bkmt",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

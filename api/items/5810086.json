@@ -1,6 +1,5 @@
 {
   "item_id": "5810086",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5810086",
   "title": "【Floral Fantasy】 - 8 A...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "thesexyfit",
   "creator_name": "thesexyfit",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

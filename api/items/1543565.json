@@ -1,6 +1,5 @@
 {
   "item_id": "1543565",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1543565",
   "title": "【3Dモデル用衣装】VF_Cyan",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "verticalflip",
   "creator_name": "verticalflip",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "シアン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "シアン"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

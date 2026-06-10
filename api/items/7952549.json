@@ -1,6 +1,5 @@
 {
   "item_id": "7952549",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7952549",
   "title": "【2/14まで無料✨】Heart Pose ...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "aochifloria",
   "creator_name": "aochifloria",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 150,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

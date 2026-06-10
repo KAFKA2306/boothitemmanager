@@ -1,6 +1,5 @@
 {
   "item_id": "4361488",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4361488",
   "title": "【無料ワールド】FreeRoom",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "mallta00",
   "creator_name": "mallta00",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

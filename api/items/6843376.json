@@ -1,6 +1,5 @@
 {
   "item_id": "6843376",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6843376",
   "title": "【Cleanfit suit】 水瀬Mina...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "0772cw-viiclub",
   "creator_name": "0772cw-viiclub",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5059742",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5059742",
   "title": "【しなの・マヌカ・桔梗・ルーナリット（リーフ...",
   "description": "",
@@ -8,11 +7,28 @@
   "creator_id": "nyaro",
   "creator_name": "nyaro",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Shinano",
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -27,5 +43,6 @@
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

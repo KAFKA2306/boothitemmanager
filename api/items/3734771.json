@@ -1,6 +1,5 @@
 {
   "item_id": "3734771",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3734771",
   "title": "【VRC/PB】*Forest*[舞夜/桔梗...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "poy",
   "creator_name": "poy",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

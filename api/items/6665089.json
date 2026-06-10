@@ -1,6 +1,5 @@
 {
   "item_id": "6665089",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6665089",
   "title": "【𝗞𝗶𝗽𝗳𝗲𝗹&𝗛𝗮𝗻𝗸𝗮】𝗬𝗢𝗔𝗞𝗘 𝗜𝗟...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "goodnight0bfn",
   "creator_name": "goodnight0bfn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6100866",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6100866",
   "title": "WorkingNekoMaid 【キプフェル...",
   "description": "",
@@ -8,18 +7,36 @@
   "creator_id": "vrc-dream-alice",
   "creator_name": "vrc-dream-alice",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "NekoMaid"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "NekoMaid",
       "name": "猫メイド"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

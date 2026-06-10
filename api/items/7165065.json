@@ -1,6 +1,5 @@
 {
   "item_id": "7165065",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7165065",
   "title": "【PB】【8アバター対応】 Sundrop ...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "rumicloset",
   "creator_name": "rumicloset",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

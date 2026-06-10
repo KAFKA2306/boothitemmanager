@@ -1,6 +1,5 @@
 {
   "item_id": "5093243",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5093243",
   "title": "【12アバター対応】　アニメーションネイル「桜」",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "marumarushop-vrc",
   "creator_name": "marumarushop-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 400,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6766568",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6766568",
   "title": "真冬ちゃんのキャスケット帽子",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "akatsukigarden",
   "creator_name": "akatsukigarden",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6595189",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6595189",
   "title": "【5アバター対応】ゴシックワンピース",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "korarako",
   "creator_name": "korarako",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック",
-    "ワンピース"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ワンピース"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

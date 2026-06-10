@@ -1,6 +1,5 @@
 {
   "item_id": "2225439",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2225439",
   "title": "【37アバター対応】セーラーフリル水着【PB対応】",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "capettiya",
   "creator_name": "capettiya",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "水着"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "水着"
+    ],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

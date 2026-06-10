@@ -1,6 +1,5 @@
 {
   "item_id": "3360896",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3360896",
   "title": "くノ一風和装【12アバター対応】",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "riumu960",
   "creator_name": "riumu960",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風",
-    "和装"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風",
+      "和装"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "7117710",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7117710",
   "title": "【𝗙𝗥𝗘𝗘】𝗡𝗶𝗴𝗵𝘁𝗺𝗮𝗿𝗲𝗣𝗼𝗽【𝗔𝗹𝗹...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "goodnight0bfn",
   "creator_name": "goodnight0bfn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 200,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6643372",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6643372",
   "title": "【2体対応】Tailored Leather...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "beams",
   "creator_name": "beams",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "赤",
-    "尻尾"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 2700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "赤"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

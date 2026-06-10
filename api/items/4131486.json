@@ -1,6 +1,5 @@
 {
   "item_id": "4131486",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4131486",
   "title": "[PB] [ Gothic Earring ]",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "balgu",
   "creator_name": "balgu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ゴシック"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 0,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ゴシック"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

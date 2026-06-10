@@ -1,6 +1,5 @@
 {
   "item_id": "1226393",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/1226393",
   "title": "Fantasy家具セット",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "anasei",
   "creator_name": "anasei",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

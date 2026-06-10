@@ -1,6 +1,5 @@
 {
   "item_id": "4348567",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4348567",
   "title": "セータービキニ<桔梗/セレスティア/うるる/...",
   "description": "",
@@ -8,14 +7,30 @@
   "creator_id": "tr-96c",
   "creator_name": "tr-96c",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -26,5 +41,6 @@
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

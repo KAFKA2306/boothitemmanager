@@ -1,6 +1,5 @@
 {
   "item_id": "4639072",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4639072",
   "title": "【ビキニ風】おとこの娘メイド服　（こまどアバ...",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "spice62",
   "creator_name": "spice62",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ビキニ",
-    "メイド服"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ",
+      "メイド服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

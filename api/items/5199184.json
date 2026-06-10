@@ -1,6 +1,5 @@
 {
   "item_id": "5199184",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5199184",
   "title": "マヌカ用のランジェリーセット、柄3種類4色入り",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "wakamaru",
   "creator_name": "wakamaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ランジェリー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ランジェリー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

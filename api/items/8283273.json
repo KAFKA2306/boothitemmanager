@@ -1,6 +1,5 @@
 {
   "item_id": "8283273",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8283273",
   "title": "[20Avatars] Sunny Pony...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "jmeli",
   "creator_name": "jmeli",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 980,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

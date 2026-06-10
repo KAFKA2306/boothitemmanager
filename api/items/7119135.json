@@ -1,6 +1,5 @@
 {
   "item_id": "7119135",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7119135",
   "title": "【MA対応】『「rurune」-ルルネ-』表...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "nagiko-store",
   "creator_name": "nagiko-store",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 600,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

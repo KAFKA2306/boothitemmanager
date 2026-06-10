@@ -1,6 +1,5 @@
 {
   "item_id": "3513576",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3513576",
   "title": "【Vroid】kawaiicyberパーカー...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "nemishop",
   "creator_name": "nemishop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "サイバー",
-    "パーカー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 750,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "サイバー"
+    ],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

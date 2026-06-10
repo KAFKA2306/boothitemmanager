@@ -1,6 +1,5 @@
 {
   "item_id": "7818555",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7818555",
   "title": "BackZipHoodie【Marycia/...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "l2ens4",
   "creator_name": "l2ens4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "パーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "パーカー"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

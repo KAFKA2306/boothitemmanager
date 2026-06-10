@@ -1,6 +1,5 @@
 {
   "item_id": "6021447",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6021447",
   "title": "「マヌカ用」♡ポーズアニメーション16種類♡",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "sk39p",
   "creator_name": "sk39p",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 250,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

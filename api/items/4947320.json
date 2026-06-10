@@ -1,6 +1,5 @@
 {
   "item_id": "4947320",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4947320",
   "title": "ライム専用ウルトラマイクロビキニ【VRChat】",
   "description": "",
@@ -8,15 +7,31 @@
   "creator_id": "superneko",
   "creator_name": "superneko",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ",
-    "ライム",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

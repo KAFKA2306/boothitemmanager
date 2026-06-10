@@ -1,6 +1,5 @@
 {
   "item_id": "6776874",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6776874",
   "title": "【Free】ルルネ専用　病みメイク　顔+ey...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "sivashop",
   "creator_name": "sivashop",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

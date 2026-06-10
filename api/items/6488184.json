@@ -1,6 +1,5 @@
 {
   "item_id": "6488184",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6488184",
   "title": "【MA対応】蝶々が舞うパーティクル付きバング...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "relea",
   "creator_name": "relea",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ブレスレット"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 600,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [
+      "ブレスレット"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

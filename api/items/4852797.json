@@ -1,6 +1,5 @@
 {
   "item_id": "4852797",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4852797",
   "title": "【オリジナル3Dモデル】炎華-エンカ-【青龍刀】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "irregulars-inc",
   "creator_name": "irregulars-inc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "青"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 1750,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "青"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

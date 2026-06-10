@@ -1,6 +1,5 @@
 {
   "item_id": "4916805",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4916805",
   "title": "VRC想定　動く！！神聖な翼ver1.3（角...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "white72",
   "creator_name": "white72",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "翼",
-    "角"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 750,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "翼",
+      "角"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

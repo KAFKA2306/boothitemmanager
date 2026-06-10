@@ -1,6 +1,5 @@
 {
   "item_id": "5073759",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5073759",
   "title": "Avatar用移動式椅子「Boalboy」",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "masasi",
   "creator_name": "masasi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

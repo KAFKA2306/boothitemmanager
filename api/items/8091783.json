@@ -1,6 +1,5 @@
 {
   "item_id": "8091783",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8091783",
   "title": ".✦ ݁˖ 𝐒𝐮𝐠𝐞𝐫 𝐄𝐝𝐠𝐞 .✦ ݁˖...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "umiyamaru",
   "creator_name": "umiyamaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

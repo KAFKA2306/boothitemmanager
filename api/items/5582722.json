@@ -1,6 +1,5 @@
 {
   "item_id": "5582722",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5582722",
   "title": "ぱっつんロングヘア ＜11アバター対応＞",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "shinkaigyoharu",
   "creator_name": "shinkaigyoharu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6068651",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6068651",
   "title": "【無料 ～ 6,000人フォロー記念】マヌカ...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "aichan-vr",
   "creator_name": "aichan-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

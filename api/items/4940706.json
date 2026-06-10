@@ -1,6 +1,5 @@
 {
   "item_id": "4940706",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4940706",
   "title": "【桔梗・セレスティア向け】Z-1　ショルダー...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "duckmanstrade",
   "creator_name": "duckmanstrade",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia",
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
@@ -23,5 +38,6 @@
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

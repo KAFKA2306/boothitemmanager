@@ -1,6 +1,5 @@
 {
   "item_id": "7428876",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7428876",
   "title": "複数アバター向け衣装「風来道中膝栗毛」",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "dse",
   "creator_name": "dse",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 1000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

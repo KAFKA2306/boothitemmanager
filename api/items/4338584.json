@@ -1,6 +1,5 @@
 {
   "item_id": "4338584",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4338584",
   "title": "【Selestia専用】Eyes+Makeu...",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "no39",
   "creator_name": "no39",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Selestia"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Selestia",
       "name": "セレスティア"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

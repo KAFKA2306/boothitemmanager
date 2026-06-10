@@ -1,6 +1,5 @@
 {
   "item_id": "4823909",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4823909",
   "title": "紅白クッション(Cushion_Kohaku)",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "picori",
   "creator_name": "picori",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

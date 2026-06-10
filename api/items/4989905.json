@@ -1,6 +1,5 @@
 {
   "item_id": "4989905",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4989905",
   "title": "【ライム対応】CYBER MAID【VRChat】",
   "description": "",
@@ -8,16 +7,34 @@
   "creator_id": "demicrown",
   "creator_name": "demicrown",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "サイバー",
-    "ライム",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1900,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [
+      "メイド",
+      "サイバー"
+    ],
+    "color": [
+      "ライム"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

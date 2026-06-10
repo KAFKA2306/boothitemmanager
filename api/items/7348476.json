@@ -1,6 +1,5 @@
 {
   "item_id": "7348476",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7348476",
   "title": "【3対応】Mikohime_【VRChat】",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "moremaru",
   "creator_name": "moremaru",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "巫女服",
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 100,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "巫女服"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

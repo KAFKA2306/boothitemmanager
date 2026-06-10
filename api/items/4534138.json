@@ -1,6 +1,5 @@
 {
   "item_id": "4534138",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4534138",
   "title": "3Dモデル [和室 N6.re]",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "nekoyamakun",
   "creator_name": "nekoyamakun",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "和風"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 2550,
+  "category": "WORLD",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "和風"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

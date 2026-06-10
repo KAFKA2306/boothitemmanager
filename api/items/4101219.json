@@ -1,6 +1,5 @@
 {
   "item_id": "4101219",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4101219",
   "title": "[PB対応] VRC用 Pretzel Hair",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "neru0606",
   "creator_name": "neru0606",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 350,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "3121599",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3121599",
   "title": "ファンタジー風 光の輪 Ring V08",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "xxuebi",
   "creator_name": "xxuebi",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ファンタジー"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 100,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ファンタジー"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

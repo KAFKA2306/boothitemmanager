@@ -1,6 +1,5 @@
 {
   "item_id": "8325092",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8325092",
   "title": "【PB】【VRChat】UNT_Abyss【...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "untitledwork",
   "creator_name": "untitledwork",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 650,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

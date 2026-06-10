@@ -1,6 +1,5 @@
 {
   "item_id": "3941245",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3941245",
   "title": "【オリジナル3Dモデル】ゆみりあ(Yumil...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "rurarinringo",
   "creator_name": "rurarinringo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "avatar",
   "like_count": 0,
   "price": 5000,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

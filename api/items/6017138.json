@@ -1,6 +1,5 @@
 {
   "item_id": "6017138",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6017138",
   "title": "【マヌカ】地雷メイク / 傷 / 瞳 テクスチャー",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "aichan-vr",
   "creator_name": "aichan-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 400,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

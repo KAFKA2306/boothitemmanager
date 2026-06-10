@@ -1,6 +1,5 @@
 {
   "item_id": "7122254",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7122254",
   "title": "23アバター対応🎀地雷系ネイルチップ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "sweetmarshmallow",
   "creator_name": "sweetmarshmallow",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ネイル"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

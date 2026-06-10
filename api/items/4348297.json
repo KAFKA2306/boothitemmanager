@@ -1,6 +1,5 @@
 {
   "item_id": "4348297",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4348297",
   "title": "【Maid Bikini】 9-Avatars",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "zero-vrc",
   "creator_name": "zero-vrc",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイド",
-    "ビキニ"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 990,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "メイド"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

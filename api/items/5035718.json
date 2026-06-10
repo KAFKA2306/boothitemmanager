@@ -1,6 +1,5 @@
 {
   "item_id": "5035718",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5035718",
   "title": "猫耳と尻尾と鈴チョーカー【VRChat】",
   "description": "",
@@ -8,16 +7,31 @@
   "creator_id": "tadanomikan",
   "creator_name": "tadanomikan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "猫耳",
-    "帽子",
-    "尻尾",
-    "チョーカー"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 400,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "尻尾",
+      "チョーカー"
+    ],
+    "body_type": [],
+    "style": [
+      "猫耳"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

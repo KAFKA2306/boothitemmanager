@@ -1,6 +1,5 @@
 {
   "item_id": "3862082",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/3862082",
   "title": "【桔梗-Kiktyou- 萌-Moe- 他8...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "first-trimester",
   "creator_name": "first-trimester",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo",
+      "Moe"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
@@ -23,5 +38,6 @@
       "name": "萌"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

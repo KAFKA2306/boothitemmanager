@@ -1,6 +1,5 @@
 {
   "item_id": "5531397",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5531397",
   "title": "【マヌカ専用】スプリットタン＆ピアス【Mod...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "serasera",
   "creator_name": "serasera",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "イヤリング"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1000,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "イヤリング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

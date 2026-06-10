@@ -1,6 +1,5 @@
 {
   "item_id": "7589630",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7589630",
   "title": "Libra Nail  【VRChat想定塗...",
   "description": "",
@@ -8,14 +7,28 @@
   "creator_id": "disappearn",
   "creator_name": "disappearn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子",
-    "ネイル"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 2500,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "帽子",
+      "ネイル"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4621662",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4621662",
   "title": "【桔梗-Kikyo】 お姫様 メイク 、瞳テ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "aichan-vr",
   "creator_name": "aichan-vr",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

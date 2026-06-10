@@ -1,6 +1,5 @@
 {
   "item_id": "7161368",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7161368",
   "title": "Virtual Market 3D Vide...",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "vket",
   "creator_name": "vket",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

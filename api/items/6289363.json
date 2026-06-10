@@ -1,6 +1,5 @@
 {
   "item_id": "6289363",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6289363",
   "title": "【キプフェル専用】尻尾掴み反応アニメーション...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "kamimuu",
   "creator_name": "kamimuu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "尻尾"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 150,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

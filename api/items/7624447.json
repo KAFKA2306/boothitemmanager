@@ -1,6 +1,5 @@
 {
   "item_id": "7624447",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7624447",
   "title": "冬のお散歩ロングコート【まめふれんず対応】",
   "description": "",
@@ -8,15 +7,30 @@
   "creator_id": "pascal-store",
   "creator_name": "pascal-store",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ロング",
-    "冬",
-    "ロングコート"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "ロング",
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [
+      "ロングコート"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

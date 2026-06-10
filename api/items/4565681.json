@@ -1,6 +1,5 @@
 {
   "item_id": "4565681",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4565681",
   "title": "Lotus Overalls for Mam...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "preto",
   "creator_name": "preto",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "オーバーオール"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "オーバーオール"
+    ],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

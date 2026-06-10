@@ -1,6 +1,5 @@
 {
   "item_id": "5596157",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5596157",
   "title": "シアン＆真冬応援セット",
   "description": "",
@@ -8,14 +7,31 @@
   "creator_id": "mochitei",
   "creator_name": "mochitei",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬",
-    "シアン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [
+      "シアン"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Cian",
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Cian",
@@ -26,5 +42,6 @@
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

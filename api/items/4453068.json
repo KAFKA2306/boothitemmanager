@@ -1,6 +1,5 @@
 {
   "item_id": "4453068",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4453068",
   "title": "Casual Set [Kikyo, Yol...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "ttwaaaag",
   "creator_name": "ttwaaaag",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カジュアル"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "カジュアル"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

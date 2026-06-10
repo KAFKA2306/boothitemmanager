@@ -1,6 +1,5 @@
 {
   "item_id": "2293559",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2293559",
   "title": "軍用帽子上級士官仕様",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "neurl2",
   "creator_name": "neurl2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 600,
+  "category": "ACCESSORY",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

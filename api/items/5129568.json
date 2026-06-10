@@ -1,6 +1,5 @@
 {
   "item_id": "5129568",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5129568",
   "title": "【マヌカ＆カリン対応】Vampire pri...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "aramodo",
   "creator_name": "aramodo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

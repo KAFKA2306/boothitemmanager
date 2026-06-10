@@ -1,6 +1,5 @@
 {
   "item_id": "7077685",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7077685",
   "title": "【VRChat想定】Any Way!【3D衣装】",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "salon-rest",
   "creator_name": "salon-rest",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 800,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4577947",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4577947",
   "title": "《❖이무기❖》⊰✧ 桔梗-kikyo Tex...",
   "description": "",
@@ -8,16 +7,32 @@
   "creator_id": "dalha",
   "creator_name": "dalha",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "outfit",
   "like_count": 0,
   "price": 200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

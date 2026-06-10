@@ -1,6 +1,5 @@
 {
   "item_id": "7332763",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7332763",
   "title": "Ribbon Sailor Cardigan...",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "mii-0x0",
   "creator_name": "mii-0x0",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "カーディガン",
-    "リボン"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1200,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "リボン"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "カーディガン"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

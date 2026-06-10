@@ -1,6 +1,5 @@
 {
   "item_id": "8356113",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/8356113",
   "title": "【期間限定無料 / Free】白黒ギミック【...",
   "description": "",
@@ -8,15 +7,29 @@
   "creator_id": "motodeshoni",
   "creator_name": "motodeshoni",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "モノトーン",
-    "黒",
-    "白"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 200,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "モノトーン",
+      "黒",
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

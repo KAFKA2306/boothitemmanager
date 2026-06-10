@@ -1,6 +1,5 @@
 {
   "item_id": "7756476",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7756476",
   "title": "The Black -黒リムプリセット-🖤 ...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "wamcrn",
   "creator_name": "wamcrn",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "黒"
-  ],
-  "category": "gimmick",
   "like_count": 0,
   "price": 800,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "黒"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

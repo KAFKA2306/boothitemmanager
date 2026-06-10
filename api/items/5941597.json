@@ -1,6 +1,5 @@
 {
   "item_id": "5941597",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5941597",
   "title": "｢真冬ちゃんのヘアゴム」",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "lasttest",
   "creator_name": "lasttest",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "4975343",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4975343",
   "title": "Suits of Agent&Belt【桔梗...",
   "description": "",
@@ -8,19 +7,36 @@
   "creator_id": "rygrk888ggg",
   "creator_name": "rygrk888ggg",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "スーツ",
-    "ベルト"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1500,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "ベルト"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "スーツ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Kikyo"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Kikyo",
       "name": "桔梗"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

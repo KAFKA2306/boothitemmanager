@@ -1,6 +1,5 @@
 {
   "item_id": "4453976",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4453976",
   "title": "⭐おまけ付き⭐　エジプト神マスク　※（マスク...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "akitonko-chu",
   "creator_name": "akitonko-chu",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 250,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

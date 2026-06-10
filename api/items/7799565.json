@@ -1,6 +1,5 @@
 {
   "item_id": "7799565",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7799565",
   "title": "くびれミディアムヘア",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "peachedge",
   "creator_name": "peachedge",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "accessory",
   "like_count": 0,
   "price": 780,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

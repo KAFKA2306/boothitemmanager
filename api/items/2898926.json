@@ -1,6 +1,5 @@
 {
   "item_id": "2898926",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2898926",
   "title": "オリジナル3Dモデル「真白(ましろ)」Ver...",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "tatuolabo",
   "creator_name": "tatuolabo",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "白"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 1500,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [
+      "白"
+    ],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

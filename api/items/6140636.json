@@ -1,6 +1,5 @@
 {
   "item_id": "6140636",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6140636",
   "title": "【しなの対応】シンプルノースリーブニット＆ス...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "royz4",
   "creator_name": "royz4",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "セーター"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 700,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "セーター"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Shinano"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Shinano",
       "name": "しなの"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

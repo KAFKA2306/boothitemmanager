@@ -1,6 +1,5 @@
 {
   "item_id": "7600304",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/7600304",
   "title": "✨無料✨【rurune専用】足透過用マスク👻",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "ncat",
   "creator_name": "ncat",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 0,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Rurune"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Rurune",
       "name": "ルルネ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5107985",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5107985",
   "title": "マヌカ用タイツテクスチャ",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "denyuken210",
   "creator_name": "denyuken210",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ストッキング"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 500,
+  "category": "TEXTURE",
+  "tag_set": {
+    "appearance": [
+      "ストッキング"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Manuka"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Manuka",
       "name": "マヌカ"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

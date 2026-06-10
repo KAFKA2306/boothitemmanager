@@ -1,6 +1,5 @@
 {
   "item_id": "5512088",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5512088",
   "title": "【無料】薄目でこっちの嗜好を全部見抜いてくる...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "upstream-bnrb2",
   "creator_name": "upstream-bnrb2",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "ANIMATION",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "6779311",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6779311",
   "title": "【ミルフィ(Milfy)】-涙袋makeup...",
   "description": "",
@@ -8,13 +7,29 @@
   "creator_id": "sa9pan",
   "creator_name": "sa9pan",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "メイク"
-  ],
-  "category": "other",
   "like_count": 0,
   "price": 300,
+  "category": "ASSET",
+  "tag_set": {
+    "appearance": [
+      "メイク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

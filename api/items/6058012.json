@@ -1,6 +1,5 @@
 {
   "item_id": "6058012",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6058012",
   "title": "H13 Midnight Twintail",
   "description": "",
@@ -8,14 +7,29 @@
   "creator_id": "kiriha-astra",
   "creator_name": "kiriha-astra",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ツイン",
-    "尻尾"
-  ],
-  "category": "accessory",
   "like_count": 0,
   "price": 1500,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [
+      "尻尾"
+    ],
+    "body_type": [],
+    "style": [
+      "ツイン"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

@@ -1,6 +1,5 @@
 {
   "item_id": "5266355",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5266355",
   "title": "多機能マスク PB + MA+9 AVATAR対応",
   "description": "",
@@ -8,13 +7,30 @@
   "creator_id": "31316969",
   "creator_name": "31316969",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "マスク"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 300,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [
+      "マスク"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone",
+      "Modular Avatar"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

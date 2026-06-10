@@ -1,6 +1,5 @@
 {
   "item_id": "4486705",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4486705",
   "title": "新作！☆★L6スタンダードスキン-F★☆6C...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "lotz",
   "creator_name": "lotz",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 650,
+  "category": "VROID",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

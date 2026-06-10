@@ -1,6 +1,5 @@
 {
   "item_id": "6538821",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/6538821",
   "title": "真冬対応「ウルフヘアー＆目隠れヘアー」",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "nyaro",
   "creator_name": "nyaro",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "冬"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 1000,
+  "category": "HAIRSTYLE",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [
+      "冬"
+    ],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "Mafuyu"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "Mafuyu",
       "name": "真冬"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

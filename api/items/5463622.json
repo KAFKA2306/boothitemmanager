@@ -1,6 +1,5 @@
 {
   "item_id": "5463622",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/5463622",
   "title": "VRChatでアバターを人形化できるやつ",
   "description": "",
@@ -8,13 +7,27 @@
   "creator_id": "120byte",
   "creator_name": "120byte",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "帽子"
-  ],
-  "category": "avatar",
   "like_count": 0,
   "price": 120,
+  "category": "AVATAR",
+  "tag_set": {
+    "appearance": [
+      "帽子"
+    ],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

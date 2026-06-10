@@ -1,6 +1,5 @@
 {
   "item_id": "4978778",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4978778",
   "title": "無料版モデル簡略版　合計800円→無料（sm...",
   "description": "",
@@ -8,11 +7,25 @@
   "creator_id": "moruton",
   "creator_name": "moruton",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "other",
   "like_count": 0,
   "price": 108,
+  "category": "PROP",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

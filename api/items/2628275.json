@@ -1,6 +1,5 @@
 {
   "item_id": "2628275",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/2628275",
   "title": "【衣装】ブラジリアンビキニ、サンダル『アイナ...",
   "description": "",
@@ -8,18 +7,34 @@
   "creator_id": "unimirai",
   "creator_name": "unimirai",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [
-    "ビキニ"
-  ],
-  "category": "outfit",
   "like_count": 0,
   "price": 600,
+  "category": "OUTFIT",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [
+      "ビキニ"
+    ],
+    "accessory": [],
+    "feature": [],
+    "platform": [],
+    "season": [],
+    "avatar_link": [
+      "SUN"
+    ]
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [
     {
       "code": "SUN",
       "name": "SUN"
     }
   ],
-  "files": []
+  "files": [],
+  "source": "booth"
 }

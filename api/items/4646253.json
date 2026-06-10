@@ -1,6 +1,5 @@
 {
   "item_id": "4646253",
-  "source": "booth",
   "source_url": "https://booth.pm/ja/items/4646253",
   "title": "【無料アイテム】PB式両手持ちギミック",
   "description": "",
@@ -8,11 +7,27 @@
   "creator_id": "shop-of-lambda",
   "creator_name": "shop-of-lambda",
   "published_at": null,
-  "tags_raw": [],
-  "tags_generated": [],
-  "category": "gimmick",
   "like_count": 0,
   "price": 100,
+  "category": "GIMMICK_TOOL",
+  "tag_set": {
+    "appearance": [],
+    "body_type": [],
+    "style": [],
+    "color": [],
+    "outfit_type": [],
+    "accessory": [],
+    "feature": [
+      "PhysBone"
+    ],
+    "platform": [],
+    "season": [],
+    "avatar_link": []
+  },
+  "similar_items": [],
+  "user_state": {},
+  "tags_raw": [],
   "targets": [],
-  "files": []
+  "files": [],
+  "source": "booth"
 }
