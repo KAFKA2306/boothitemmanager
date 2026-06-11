@@ -524,7 +524,7 @@
                     <span>VIEW ON BOOTH</span> 🔗
                 </a>
 
-                <div class="modal-sub-section">
+                <div class="modal-sub-section" id="modal-compat-section">
                     <h4>AVATAR COMPATIBILITY</h4>
                     <div class="compat-chips" id="modal-compat-grid"></div>
                 </div>
@@ -1046,7 +1046,8 @@
                 return `<div class="compat-chip">${name}</div>`;
             }).join('');
             
-            document.getElementById('modal-compat-grid').innerHTML = targetChips || `<div class="compat-chip generic">汎用アセット（特定の対象アバターなし）</div>`;
+            document.getElementById('modal-compat-grid').innerHTML = targetChips;
+            document.getElementById('modal-compat-section').style.display = targetChips ? 'block' : 'none';
 
             // Dynamic Specification Section
             const tags = new Set((d.tags || []).map(t => t.toLowerCase()));
