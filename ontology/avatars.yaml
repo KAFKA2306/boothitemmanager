@@ -2083,8 +2083,11 @@ avatars:
     aliases:
     - Rindo
     - rindo
+    - 竜胆
+    - りんどう
+    - '3495397'
     booth_item_id: '3495397'
-    canonical_name: Rindo
+    canonical_name: 竜胆
     confidence: 1.0
     creator: STUDIO JINGO
   Rinfei:

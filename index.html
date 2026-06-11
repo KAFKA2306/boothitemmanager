@@ -1106,14 +1106,10 @@
             const tiktokQuery = firstAvatar ? `${firstAvatar} vrchat` : `${safeTitle} vrchat`;
             const tiktokUrl = `https://www.tiktok.com/search?q=${encodeURIComponent(tiktokQuery)}`;
 
-            const discordQuery = firstAvatar ? `${firstAvatar} "discord"` : `${safeTitle} "discord"`;
-            const discordUrl = `https://www.google.com/search?q=${encodeURIComponent(discordQuery)}`;
-
             document.getElementById('modal-social-shortcuts').innerHTML = `
                 <a class="social-btn social-x" href="${xUrl}" target="_blank">X (Twitter) 🔍</a>
                 <a class="social-btn social-insta" href="${instaUrl}" target="_blank">Instagram 📸</a>
                 <a class="social-btn social-tiktok" href="${tiktokUrl}" target="_blank">TikTok 🎵</a>
-                <a class="social-btn social-discord" href="${discordUrl}" target="_blank">Discord 💬</a>
             `;
 
             const sim = (d.similar_items||[]).slice(0, 5);
