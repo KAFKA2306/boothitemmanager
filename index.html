@@ -980,7 +980,7 @@
             if (filters.price !== 'all') addChip(`価格: ${filters.price}`, `rmPrice()`);
             
             filters.features.forEach(f => addChip(f, `rmFeat('${f}')`));
-            filters.styles.forEach(s => addChip(s, `rmStyle()`));
+            filters.styles.forEach(s => addChip(s, `rmStyle('${s}')`));
             filters.colors.forEach(c => addChip(c, `rmColor('${c}')`));
 
             if (h) h += `<button class="clear-filters-btn" onclick="clearAll()">Clear All</button>`;
@@ -994,17 +994,23 @@
         window.rmCat = () => { filters.cat = 'all'; document.querySelectorAll('.category-btn').forEach(b=>b.classList.toggle('active', b.dataset.cat==='all')); applyFilters(); };
         window.rmPrice = () => { filters.price = 'all'; document.querySelectorAll('.price-preset-btn').forEach(b=>b.classList.toggle('active', b.dataset.price==='all')); applyFilters(); };
         window.rmFeat = (v) => { filters.features.delete(v); document.querySelector(`.feature-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
-        window.rmStyle = () => { filters.styles = null; document.querySelectorAll('.style-tag').forEach(b=>b.classList.remove('active')); applyFilters(); };
+        window.rmStyle = (v) => { filters.styles.delete(v); document.querySelector(`.style-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
         window.rmColor = (v) => { filters.colors.delete(v); document.querySelector(`.color-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
-        window.clearAll = () => { 
-            filters.avatar = null; filters.cat = 'all'; filters.price = 'all'; 
-            filters.features.clear(); filters.styles = null; filters.colors.clear();
-            filters.query = ''; document.getElementById('search-bar').value = '';
+        window.clearAll = () => {
+            filters.avatar = null;
+            filters.cat = 'all';
+            filters.price = 'all';
+            filters.features.clear();
+            filters.styles.clear();
+            filters.colors.clear();
+            filters.query = '';
+            document.getElementById('search-bar').value = '';
             document.querySelectorAll('.active').forEach(e => e.classList.remove('active'));
             document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
             document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
             applyFilters();
         };
+
 
         async function openModal(id) {
             DOM.dialog.showModal();
