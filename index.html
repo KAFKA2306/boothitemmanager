@@ -756,8 +756,10 @@
                 return;
             }
 
-            document.getElementById('avatar-selector').innerHTML = metaAvatars
+            // Render avatars sorted by count desc (Popularity Order)
+            document.getElementById('avatar-selector').innerHTML = [...metaAvatars]
                 .filter(a => showAll || avatarCounts[a.code] > 0)
+                .sort((a, b) => (avatarCounts[b.code] || 0) - (avatarCounts[a.code] || 0))
                 .map(a => 
                     `<button class="filter-btn avatar-btn ${filters.avatar === a.code ? 'active' : ''}" data-code="${a.code}">${a.name} (${avatarCounts[a.code]})</button>`
                 ).join('');
