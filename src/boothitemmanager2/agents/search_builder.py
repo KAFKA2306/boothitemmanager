@@ -41,7 +41,7 @@ def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
             }
         )
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
+        json.dump(index, f, ensure_ascii=False)
     return TestBlock(
         trace_id=trace_id,
         input=len(items),
