@@ -19,6 +19,14 @@ def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
                 "compatible_avatars": [t.name for t in item.targets],
                 "tags": item.tags,
                 "style": item.tag_set.style,
+                "outfit_type": item.tag_set.outfit_type,
+                "appearance": item.tag_set.appearance,
+                "color": item.tag_set.color,
+                "accessory": item.tag_set.accessory,
+                "body_type": item.tag_set.body_type,
+                "feature": item.tag_set.feature,
+                "platform": item.tag_set.platform,
+                "season": item.tag_set.season,
                 "has_dynamic_bone": bool(
                     any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags)
                     or "PhysBone" in item.tag_set.feature

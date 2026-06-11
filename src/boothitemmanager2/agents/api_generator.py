@@ -10,14 +10,38 @@ from ..schemas.storage import Item
 
 
 def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -> TestBlock:
+    import shutil
+
     api_dir = "api"
-    os.makedirs(api_dir, exist_ok=True)
+    api_staging = "api_staging"
+
+    # Prepare staging for api/
+    if os.path.exists(api_staging):
+        shutil.rmtree(api_staging)
+    if os.path.exists(api_dir):
+        shutil.copytree(api_dir, api_staging, dirs_exist_ok=True)
+    else:
+        os.makedirs(api_staging, exist_ok=True)
+
+    # Prepare staging for dist/api/ if it exists
+    dist_api_dir = os.path.join("dist", "api")
+    dist_api_staging = os.path.join("dist", "api_staging")
+    has_dist_api = os.path.exists(dist_api_dir)
+
+    if has_dist_api:
+        if os.path.exists(dist_api_staging):
+            shutil.rmtree(dist_api_staging)
+        shutil.copytree(dist_api_dir, dist_api_staging, dirs_exist_ok=True)
 
     def serialize(obj):
         if isinstance(obj, datetime):
             return obj.isoformat()
         if hasattr(obj, "__dataclass_fields__"):
-            return asdict(obj)
+            d = asdict(obj)
+            d.pop("user_state", None)
+            d.pop("trace_log", None)
+            d.pop("raw_html_snippet", None)
+            return d
         if hasattr(obj, "value"):
             return obj.value
         return str(obj)
@@ -42,6 +66,14 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
                 "compatible_avatars": [t.name for t in item.targets],
                 "tags": item.tags,
                 "style": item.tag_set.style,
+                "outfit_type": item.tag_set.outfit_type,
+                "appearance": item.tag_set.appearance,
+                "color": item.tag_set.color,
+                "accessory": item.tag_set.accessory,
+                "body_type": item.tag_set.body_type,
+                "feature": item.tag_set.feature,
+                "platform": item.tag_set.platform,
+                "season": item.tag_set.season,
                 "has_dynamic_bone": bool(
                     any(f in ["PhysBone", "PB対応", "揺れもの", "PB"] for f in item.tags)
                     or "PhysBone" in item.tag_set.feature
@@ -61,54 +93,53 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     part1 = catalog_summaries[:2000]
     part2 = catalog_summaries[2000:]
 
-    # Save to api_dir (api/)
-    with open(os.path.join(api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
+    # Save to staging
+    with open(os.path.join(api_staging, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
         json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
-    with open(os.path.join(api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(api_staging, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
         json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
 
     # Generate fallback JS scripts
-    with open(os.path.join(api_dir, "catalog_summary_part1.js"), "w", encoding="utf-8") as f:
+    with open(os.path.join(api_staging, "catalog_summary_part1.js"), "w", encoding="utf-8") as f:
         f.write("window.BOOTH_CATALOG_PART1 = ")
         json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";")
 
-    metadata_path = os.path.join(api_dir, "metadata.json")
+    metadata_path = os.path.join(api_staging, "metadata.json")
     if os.path.exists(metadata_path):
         with open(metadata_path, encoding="utf-8") as f:
             meta_content = json.load(f)
-        with open(os.path.join(api_dir, "metadata.js"), "w", encoding="utf-8") as f:
+        with open(os.path.join(api_staging, "metadata.js"), "w", encoding="utf-8") as f:
             f.write("window.BOOTH_METADATA = ")
             json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
             f.write(";")
 
-    # Save to dist/api/ if it exists
-    dist_api_dir = os.path.join("dist", "api")
-    if os.path.exists(dist_api_dir):
+    # Save to dist/api_staging/ if it exists
+    if has_dist_api:
         with open(
-            os.path.join(dist_api_dir, "catalog_summary_part1.json"), "w", encoding="utf-8"
+            os.path.join(dist_api_staging, "catalog_summary_part1.json"), "w", encoding="utf-8"
         ) as f:
             json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
         with open(
-            os.path.join(dist_api_dir, "catalog_summary_part2.json"), "w", encoding="utf-8"
+            os.path.join(dist_api_staging, "catalog_summary_part2.json"), "w", encoding="utf-8"
         ) as f:
             json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
         with open(
-            os.path.join(dist_api_dir, "catalog_summary_part1.js"), "w", encoding="utf-8"
+            os.path.join(dist_api_staging, "catalog_summary_part1.js"), "w", encoding="utf-8"
         ) as f:
             f.write("window.BOOTH_CATALOG_PART1 = ")
             json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
             f.write(";")
         if os.path.exists(metadata_path):
-            with open(os.path.join(dist_api_dir, "metadata.js"), "w", encoding="utf-8") as f:
+            with open(os.path.join(dist_api_staging, "metadata.js"), "w", encoding="utf-8") as f:
                 f.write("window.BOOTH_METADATA = ")
                 json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
                 f.write(";")
 
     # Shard individual item data into 100 files to bypass Cloudflare file limits
-    details_dir = os.path.join(api_dir, "details")
+    details_dir = os.path.join(api_staging, "details")
     os.makedirs(details_dir, exist_ok=True)
-    
+
     shards = {str(i).zfill(2): {} for i in range(100)}
     for item in items:
         # Determine shard ID from item_id suffix (numeric) or simple hash
@@ -116,13 +147,25 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
             shard_id = str(int(item.item_id) % 100).zfill(2)
         else:
             shard_id = str(sum(ord(c) for c in item.item_id) % 100).zfill(2)
-        
-        shards[shard_id][item.item_id] = asdict(item)
+
+        # Filter out internal/private fields from the public sharded files
+        item_dict = asdict(item)
+        item_dict.pop("user_state", None)
+        item_dict.pop("trace_log", None)
+        item_dict.pop("raw_html_snippet", None)
+        shards[shard_id][item.item_id] = item_dict
 
     for shard_id, shard_data in shards.items():
         shard_path = os.path.join(details_dir, f"shard_{shard_id}.json")
         with open(shard_path, "w", encoding="utf-8") as f:
             json.dump(shard_data, f, ensure_ascii=False, separators=(",", ":"), default=serialize)
+
+    # Sync details directory to dist/api_staging/details if needed
+    if has_dist_api:
+        dist_details_dir = os.path.join(dist_api_staging, "details")
+        if os.path.exists(dist_details_dir):
+            shutil.rmtree(dist_details_dir)
+        shutil.copytree(details_dir, dist_details_dir, dirs_exist_ok=True)
 
     type_counts = Counter(item.category.value for item in items)
     shop_counts = Counter(item.creator_name for item in items)
@@ -139,9 +182,34 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         "avatar_compatibility_rate": round(avatar_compatibility_rate, 2),
         "updated_at": datetime.now().isoformat(),
     }
-    metrics_path = os.path.join(api_dir, "metrics.json")
+    metrics_path = os.path.join(api_staging, "metrics.json")
     with open(metrics_path, "w", encoding="utf-8") as f:
         json.dump(metrics, f, ensure_ascii=False, indent=2)
+
+    # Perform atomic swaps
+    # Swap api/
+    if os.path.exists(api_dir):
+        api_old = "api_old"
+        if os.path.exists(api_old):
+            shutil.rmtree(api_old)
+        os.rename(api_dir, api_old)
+        os.rename(api_staging, api_dir)
+        shutil.rmtree(api_old)
+    else:
+        os.rename(api_staging, api_dir)
+
+    # Swap dist/api/
+    if has_dist_api:
+        if os.path.exists(dist_api_dir):
+            dist_api_old = os.path.join("dist", "api_old")
+            if os.path.exists(dist_api_old):
+                shutil.rmtree(dist_api_old)
+            os.rename(dist_api_dir, dist_api_old)
+            os.rename(dist_api_staging, dist_api_dir)
+            shutil.rmtree(dist_api_old)
+        else:
+            os.rename(dist_api_staging, dist_api_dir)
+
     return TestBlock(
         trace_id=trace_id,
         input=len(items),
