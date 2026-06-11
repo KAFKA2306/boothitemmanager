@@ -1029,56 +1029,7 @@
                 }
             } catch(e) { console.error("Detail load failed", e); }
 
-            // Dynamic On-Demand Scraping Strategy
-            // If targets/description are empty or missing, fetch actual Booth HTML via corsproxy
-            if (!detailedData || !detailedData.description || !detailedData.targets || detailedData.targets.length === 0) {
-                try {
-                    const targetItem = detailedData || base || { item_id: id };
-                    const boothUrl = `https://booth.pm/ja/items/${id}`;
-                    // Attempt using a reliable public CORS proxy to grab Booth.pm live HTML
-                    const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(boothUrl)}`;
-                    const scrapeRes = await fetch(proxyUrl);
-                    if (scrapeRes.ok) {
-                        const scrapeJson = await scrapeRes.json();
-                        const htmlContent = scrapeJson.contents;
-                        if (htmlContent) {
-                            const parser = new DOMParser();
-                            const doc = parser.parseFromString(htmlContent, 'text/html');
-                            
-                            // 1. Extract real description
-                            const descElem = doc.querySelector('.item-description, .description, .js-market-item-detail-description');
-                            const liveDesc = descElem ? descElem.textContent.trim() : '';
 
-                            // 2. Extract targets using title + description + tags
-                            const title = doc.querySelector('h2.break-all, h1.item-name, h1')?.textContent || targetItem.title || '';
-                            const tags = Array.from(doc.querySelectorAll('a.l-tag, a.u-tpg-label, .item-tags a')).map(t => t.textContent.trim().replace('#', ''));
-                            
-                            // 3. Scan for target avatars (utilize simple client-side lookup from known avatar names)
-                            const foundAvatars = [];
-                            if (window.avatarDict) {
-                                const fullText = `${title} ${liveDesc} ${tags.join(' ')}`.toLowerCase();
-                                for (const [code, av] of Object.entries(window.avatarDict)) {
-                                    const names = [code.toLowerCase(), (av.name_ja || '').toLowerCase(), (av.name_en || '').toLowerCase()].filter(Boolean);
-                                    if (names.some(name => fullText.includes(name))) {
-                                        foundAvatars.push({ code: code, name: av.name_ja || code });
-                                    }
-                                }
-                            }
-
-                            // 4. Update view immediately
-                            const updated = {
-                                ...targetItem,
-                                description: liveDesc || targetItem.description,
-                                targets: foundAvatars.length > 0 ? foundAvatars : targetItem.targets,
-                                tags: tags.length > 0 ? tags : targetItem.tags
-                            };
-                            fillModal(updated);
-                        }
-                    }
-                } catch (scrapeErr) {
-                    console.warn("Live scraping fallback failed", scrapeErr);
-                }
-            }
         }
 
         function fillModal(d) {

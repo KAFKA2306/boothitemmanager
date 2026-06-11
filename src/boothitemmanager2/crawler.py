@@ -64,37 +64,7 @@ def fetch_html(url: str, trace_id: str) -> TestBlock:
     session.mount("http://", HTTPAdapter(max_retries=retries))
     session.mount("https://", HTTPAdapter(max_retries=retries))
 
-    response = None
-    try:
-        response = session.get(url, headers=_HEADERS, timeout=20)
-        if response.status_code != 200:
-            raise requests.HTTPError(f"Status {response.status_code}")
-    except Exception as e:
-        # Fallback Strategy: Attempt using Allorigins public CORS proxy
-        try:
-            proxy_url = f"https://api.allorigins.win/get?url={url}"
-            proxy_res = session.get(proxy_url, timeout=25)
-            if proxy_res.status_code == 200:
-                proxy_data = proxy_res.json()
-                html_content = proxy_data.get("contents", "")
-                if html_content:
-                    # Mock response object for compatibility
-                    class MockResponse:
-                        def __init__(self, text, status_code):
-                            self.text = text
-                            self.content = text
-                            self.status_code = status_code
-                            self.url = url
-                        def raise_for_status(self):
-                            pass
-                    response = MockResponse(html_content, 200)
-        except Exception:
-            pass
-        if not response:
-            if response is not None:
-                response.raise_for_status()
-            raise e
-
+    response = session.get(url, headers=_HEADERS)
     raw_page = RawAssetPage(url=url, content=response.text, scraped_at=datetime.now())
 
     saved = False
