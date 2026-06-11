@@ -1,28 +1,24 @@
-# CLAUDE.md
+# 🌸 CLAUDE.md だよぉ！🌸
 
-## Project
+## 🎀 プロジェクト概要 (Project)
+**BoothList**: BOOTHのアセットダッシュボードを生成するシステムだよ(⑅•ᴗ•⑅)◜..°♡
 
-**BoothList**: BOOTH asset dashboard generator.
+## 🏗️ アーキテクチャ (Architecture)
+- **ETLパイプライン**: Input ➡️ Scrape ➡️ Normalize ➡️ Export
+- **技術スタック**: Python, PyYAML, BeautifulSoup4, HTML/JS だもん！🍭
 
-## Architecture
+## 🛠️ 開発コマンド (Development)
+- **一括実行 (Bulk)**: `.venv/bin/python run_bulk_pipeline.py`
+- **個別実行 (Selective)**: `.venv/bin/python run_boothitemmanager2.py`
+- **ビルド**: `task build` (一括パイプラインを実行するよぉ！)
+- **ローカル起動**: `task serve` (http://localhost:8080 で `dist/` をサーブするの✨)
+- **設定ファイル**: [config.yaml](file:///home/kafka/projects/boothitemmanager/config.yaml)
+- **出力先**: `dist/` および `api/`
+- **ID抽出スクリプト**: `.venv/bin/python -m boothlist.extract_ids`
+  - 標準入力からテキストを読み込んでBooth IDを抽出し、`input/YYYYMMDD.txt` に保存するよぉ！
 
-- **ETL Pipeline**: Input -> Scrape -> Normalize -> Export
-- **Tech Stack**: Python, PyYAML, BeautifulSoup4, HTML/JS
-
-## Development
-
-- **Run (Bulk)**: `python3 run_bulk_pipeline.py`
-- **Run (Selective)**: `python3 run_boothitemmanager2.py`
-- **Build**: `task build` (Runs bulk pipeline)
-- **Serve**: `task serve` (Serves from `dist/` at http://localhost:8080)
-- **Config**: `config.yaml`
-- **Output**: `dist/` and `api/`
-- **Extract IDs**: `python3 -m boothlist.extract_ids`
-  - Reads text from stdin (paste & Ctrl+D), extracts Booth IDs, and saves them to `input/YYYYMMDD.txt`.
-
-## Key Files
-
-- `run_bulk_pipeline.py`: Main entry for processing bulk datasets
-- `run_boothitemmanager2.py`: Orchestrator for selective item crawling
-- `src/boothitemmanager2/agents/api_generator.py`: Static JSON API generator
-- `index.html`: Frontend dashboard (uses `api/` data)
+## 📄 主要ファイル (Key Files)
+- [run_bulk_pipeline.py](file:///home/kafka/projects/boothitemmanager/run_bulk_pipeline.py): 一括データ処理のメインエントリーだもん！
+- [run_boothitemmanager2.py](file:///home/kafka/projects/boothitemmanager/run_boothitemmanager2.py): 個別クロールのオーケストレーターだよ。
+- [api_generator.py](file:///home/kafka/projects/boothitemmanager/src/boothitemmanager2/agents/api_generator.py): 静的JSON APIの生成エージェントだよぉ🍭
+- [index.html](file:///home/kafka/projects/boothitemmanager/index.html): フロントエンドダッシュボード（`api/` のデータを使用するよ！）

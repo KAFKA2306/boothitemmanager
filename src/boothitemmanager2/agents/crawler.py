@@ -46,7 +46,20 @@ def fetch_html(url: str, trace_id: str) -> TestBlock:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept-Language": "ja,en;q=0.9",
     }
-    response = requests.get(url, headers=_HEADERS, timeout=30)
+    from requests.adapters import HTTPAdapter
+    from urllib3.util import Retry
+
+    session = requests.Session()
+    retries = Retry(
+        total=5,
+        backoff_factor=1.0,
+        status_forcelist=[429, 500, 502, 503, 504],
+        raise_on_status=True,
+    )
+    session.mount("http://", HTTPAdapter(max_retries=retries))
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+
+    response = session.get(url, headers=_HEADERS, timeout=30)
     response.raise_for_status()
     raw_page = RawAssetPage(url=url, content=response.text, scraped_at=datetime.now())
 

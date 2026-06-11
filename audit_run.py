@@ -13,41 +13,40 @@ audit_run.py  ─  BoothItemManager2定量監査CLI
   * 未確認は 0 / Unknown
   * 推測補完禁止
 """
+
 import argparse
 import json
-import sys
 from datetime import datetime
-from typing import List
 
 from src.boothitemmanager2.agents import (
-    QuantitativeAuditor,
     CrawlStats,
-    FilterEvidence,
     FeatureStats,
+    FilterEvidence,
+    QuantitativeAuditor,
     format_report,
 )
 from src.boothitemmanager2.schemas.storage import (
-    Item,
-    ItemCategory,
     AvatarRef,
     FileAsset,
+    Item,
+    ItemCategory,
     TagSet,
 )
-
 
 # ---------------------------------------------------------------------------
 # JSON → Item リスト変換
 # ---------------------------------------------------------------------------
 
-def _load_items_from_json(json_path: str) -> List[Item]:
-    with open(json_path, "r", encoding="utf-8") as f:
+
+def _load_items_from_json(json_path: str) -> list[Item]:
+    with open(json_path, encoding="utf-8") as f:
         data = json.load(f)
 
-    items: List[Item] = []
+    items: list[Item] = []
     for d in data:
-        targets = [AvatarRef(code=t['code'], name=t['name']) for t in d.get('targets', [])]
-        files = [FileAsset(filename=f['filename']) for f in d.get('files', [])]
-        
+        targets = [AvatarRef(code=t["code"], name=t["name"]) for t in d.get("targets", [])]
+        files = [FileAsset(filename=f["filename"]) for f in d.get("files", [])]
+
         category_raw = d.get("category", "ASSET")
         try:
             category = ItemCategory(category_raw)
@@ -68,26 +67,30 @@ def _load_items_from_json(json_path: str) -> List[Item]:
             avatar_link=tag_set_raw.get("avatar_link", []),
         )
 
-        items.append(Item(
-            item_id=str(d.get("item_id", "0")),
-            source=d.get("source", "booth"),
-            source_url=d.get("source_url", d.get("url", "")),
-            title=d.get("title", d.get("name", "")),
-            description=d.get("description", d.get("description_excerpt", "")),
-            thumbnail_url=d.get("thumbnail_url", d.get("image_url", "")),
-            creator_id=d.get("creator_id", "unknown"),
-            creator_name=d.get("creator_name", d.get("shop_name", "Unknown Shop")),
-            published_at=datetime.fromisoformat(d['published_at']) if d.get('published_at') else None,
-            tags_raw=d.get("tags_raw", d.get("tags", [])),
-            category=category,
-            tag_set=tag_set,
-            like_count=d.get("like_count", 0),
-            price=d.get("price", d.get("current_price")),
-            targets=targets,
-            files=files,
-            similar_items=d.get("similar_items", []),
-            user_state=d.get("user_state", {})
-        ))
+        items.append(
+            Item(
+                item_id=str(d.get("item_id", "0")),
+                source=d.get("source", "booth"),
+                source_url=d.get("source_url", d.get("url", "")),
+                title=d.get("title", d.get("name", "")),
+                description=d.get("description", d.get("description_excerpt", "")),
+                thumbnail_url=d.get("thumbnail_url", d.get("image_url", "")),
+                creator_id=d.get("creator_id", "unknown"),
+                creator_name=d.get("creator_name", d.get("shop_name", "Unknown Shop")),
+                published_at=datetime.fromisoformat(d["published_at"])
+                if d.get("published_at")
+                else None,
+                tags_raw=d.get("tags_raw", d.get("tags", [])),
+                category=category,
+                tag_set=tag_set,
+                like_count=d.get("like_count", 0),
+                price=d.get("price", d.get("current_price")),
+                targets=targets,
+                files=files,
+                similar_items=d.get("similar_items", []),
+                user_state=d.get("user_state", {}),
+            )
+        )
 
     return items
 
@@ -96,14 +99,22 @@ def _load_items_from_json(json_path: str) -> List[Item]:
 # CLI
 # ---------------------------------------------------------------------------
 
+
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="BoothItemManager2定量監査エンジン")
-    p.add_argument("--catalog", required=True, help="catalog.jsonパス (data/structured/catalog.json)")
+    p.add_argument(
+        "--catalog", required=True, help="catalog.jsonパス (data/structured/catalog.json)"
+    )
     # CrawlStats
-    p.add_argument("--source-items", type=int, default=None,
-                   help="クロール元アイテム総数（未知なら省略）")
-    p.add_argument("--indexed-items", type=int, default=None,
-                   help="インデックス済みアイテム数（省略時はJSON行数）")
+    p.add_argument(
+        "--source-items", type=int, default=None, help="クロール元アイテム総数（未知なら省略）"
+    )
+    p.add_argument(
+        "--indexed-items",
+        type=int,
+        default=None,
+        help="インデックス済みアイテム数（省略時はJSON行数）",
+    )
     # FilterEvidence
     p.add_argument("--year-filter", type=int, default=None)
     p.add_argument("--popularity-filter", type=int, default=None)

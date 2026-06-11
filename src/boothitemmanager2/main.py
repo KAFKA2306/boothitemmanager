@@ -6,6 +6,8 @@ from .agents.api_generator import generate_api
 from .agents.bridge import convert_ndjson_to_items
 from .agents.normalizer import normalize_html
 from .agents.similarity_engine import calculate_similar_items
+from .agents.staging_buffer import StagingBuffer
+from .orchestrator import TransactionOrchestrator
 from .schemas.storage import RawAssetPage
 
 
@@ -47,12 +49,49 @@ def run_pipeline():
             all_items_dict[item.item_id] = item
     items = list(all_items_dict.values())
     log(f"📊 Total items for processing: {len(items)}")
-    log("🔗 Computing item similarities...")
-    sim_block = calculate_similar_items(items, trace_id)
-    items = sim_block.actual_state["items"]
+
+    # Intermediate Staging Buffer for expensive operations
+    log("🔗 Computing item similarities (with caching)...")
+    cache_key = "similarity_results"
+    # Use item IDs and count as cache params
+    cache_params = {"ids": sorted([i.item_id for i in items]), "count": len(items)}
+    cached_result = StagingBuffer.get(cache_key, cache_params)
+
+    if cached_result:
+        log("♻️ Using cached similarity results.")
+        from dataclasses import replace
+        from .schemas.storage import ItemCategory, TagSet
+        # Reconstruct items from cached similar_items
+        sim_map = {r["id"]: r["sim"] for r in cached_result}
+        for i in range(len(items)):
+            if items[i].item_id in sim_map:
+                items[i] = replace(items[i], similar_items=sim_map[items[i].item_id])
+    else:
+        sim_block = calculate_similar_items(items, trace_id)
+        items = sim_block.actual_state["items"]
+        # Save to buffer
+        sim_to_cache = [{"id": i.item_id, "sim": i.similar_items} for i in items]
+        StagingBuffer.set(cache_key, cache_params, sim_to_cache)
+        log("💾 Similarity results cached.")
+
     graph_data = {"nodes": [], "edges": []}
+    
+    # 2-Phase Commit Orchestrator for atomic updates
+    orchestrator = TransactionOrchestrator(trace_id)
+    
     log("✨ Generating API in 'api/' directory...")
+    # api_generator already has some internal atomicity for the 'api/' directory,
+    # but let's use the orchestrator for the core data files as well.
     generate_api(items, graph_data, trace_id)
+    
+    # Prepare updates for Structured and Graph layers
+    orchestrator.prepare("data/structured/catalog.json", [i.__dict__ for i in items])
+    orchestrator.prepare("data/graph/nodes.json", graph_data["nodes"])
+    orchestrator.prepare("data/graph/edges.json", graph_data["edges"])
+    
+    log("🔒 Committing transaction (2PC)...")
+    orchestrator.commit()
+    
     log("🏁 Pipeline complete.")
 
 

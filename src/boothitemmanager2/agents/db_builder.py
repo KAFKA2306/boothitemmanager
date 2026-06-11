@@ -1,5 +1,6 @@
 import json
 import os
+import tempfile
 from datetime import datetime
 from typing import Any
 
@@ -42,8 +43,14 @@ def build_db(items: list[Item], trace_id: str) -> TestBlock:
         }
 
     catalog = [_item_to_dict(item) for item in items]
-    with open(output_path, "w", encoding="utf-8") as f:
+    dir_name = os.path.dirname(output_path)
+    os.makedirs(dir_name, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        mode="w", dir=dir_name, delete=False, encoding="utf-8", suffix=".tmp"
+    ) as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
+        temp_name = f.name
+    os.replace(temp_name, output_path)
     return TestBlock(
         trace_id=trace_id,
         input=len(items),

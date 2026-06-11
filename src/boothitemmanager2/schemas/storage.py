@@ -1,10 +1,10 @@
 from dataclasses import dataclass, field
 from datetime import datetime
-from enum import StrEnum
+from enum import Enum
 from typing import Any, Literal
 
 
-class ItemCategory(StrEnum):
+class ItemCategory(str, Enum):
     AVATAR = "AVATAR"
     OUTFIT = "OUTFIT"
     ACCESSORY = "ACCESSORY"
@@ -30,6 +30,9 @@ class TagSet:
     platform: list[str] = field(default_factory=list)
     season: list[str] = field(default_factory=list)
     avatar_link: list[str] = field(default_factory=list)
+    material_property: list[str] = field(default_factory=list)
+    niche_subculture: list[str] = field(default_factory=list)
+    activity_scene: list[str] = field(default_factory=list)
 
 
 @dataclass(frozen=True)

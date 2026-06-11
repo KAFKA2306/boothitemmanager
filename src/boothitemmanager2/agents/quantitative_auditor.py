@@ -72,13 +72,13 @@ def _has_metadata(item: Item) -> bool:
 
 
 def _count_invalid_tags(item: Item) -> int:
-    return sum(1 for t in item.tags if not t or not t.strip())
+    return sum(1 for t in item.tags_generated if not t or not t.strip())
 
 
 def _count_duplicate_tags(item: Item) -> int:
     seen: set[str] = set()
     dupes = 0
-    for t in item.tags:
+    for t in item.tags_generated:
         if t in seen:
             dupes += 1
         seen.add(t)
@@ -125,7 +125,7 @@ class QuantitativeAuditor:
         features = features or FeatureStats()
         total = len(items)
         with_meta = sum(1 for i in items if _has_metadata(i))
-        with_tags = sum(1 for i in items if i.tags)
+        with_tags = sum(1 for i in items if i.tags_generated)
         missing = sum(1 for i in items if not _has_metadata(i))
         tagged = with_tags
         invalid = sum(_count_invalid_tags(i) for i in items)

@@ -1,31 +1,2508 @@
-
-version: 1
-updated_at: "2026-06-10"
+accessories:
+  Accessory:
+    aliases:
+    - Accessory
+    - accessory
+  Angel Wings:
+    aliases:
+    - Angel Wings
+    - angel wings
+  Animal Ears:
+    aliases:
+    - Animal Ears
+    - animal ears
+  Anklet:
+    aliases:
+    - Anklet
+    - anklet
+  Apron:
+    aliases:
+    - Apron
+    - エプロン
+    - apron
+  Arm Cover:
+    aliases:
+    - arm cover
+    - Arm Cover
+  Axe:
+    aliases:
+    - axe
+    - Axe
+  Backpack:
+    aliases:
+    - backpack
+    - Backpack
+  Bag:
+    aliases:
+    - Bag
+    - bag
+  Band-Aid:
+    aliases:
+    - Band-Aid
+    - band-aid
+  Bandage:
+    aliases:
+    - Bandage
+    - bandage
+  Bandana:
+    aliases:
+    - Bandana
+    - bandana
+  Bangle:
+    aliases:
+    - bangle
+    - Bangle
+  Bat Wings:
+    aliases:
+    - bat wings
+    - Bat Wings
+  Beanie:
+    aliases:
+    - beanie
+    - Beanie
+  Bell:
+    aliases:
+    - bell
+    - Bell
+  Belly Piercing:
+    aliases:
+    - Belly Piercing
+    - belly piercing
+  Belt:
+    aliases:
+    - belt
+    - ベルト
+    - Belt
+  Beret:
+    aliases:
+    - Beret
+    - ベレー帽
+    - ベレー
+    - beret
+  Body Piercing:
+    aliases:
+    - body piercing
+    - Body Piercing
+  Bonnet:
+    aliases:
+    - Bonnet
+    - bonnet
+  Book:
+    aliases:
+    - book
+    - Book
+  Boots:
+    aliases:
+    - Boots
+    - ブーツ
+    - boots
+  Bow:
+    aliases:
+    - bow
+    - Bow
+  Bow Tie:
+    aliases:
+    - bow tie
+    - Bow Tie
+  Bracelet:
+    aliases:
+    - Bracelet
+    - bracelet
+  Brooch:
+    aliases:
+    - Brooch
+    - brooch
+  Bucket Hat:
+    aliases:
+    - bucket hat
+    - Bucket Hat
+  Buckle:
+    aliases:
+    - Buckle
+    - buckle
+  Bunny Ears:
+    aliases:
+    - Bunny Ears
+    - bunny ears
+  Butterfly Motif:
+    aliases:
+    - butterfly motif
+    - Butterfly Motif
+  Cane:
+    aliases:
+    - cane
+    - Cane
+  Cap:
+    aliases:
+    - Cap
+    - cap
+  Casquette:
+    aliases:
+    - Casquette
+    - casquette
+  Cat Ears:
+    aliases:
+    - cat ears
+    - Cat Ears
+  Chain:
+    aliases:
+    - chain
+    - Chain
+  Charm:
+    aliases:
+    - Charm
+    - charm
+  Choker:
+    aliases:
+    - choker
+    - Choker
+  Collar:
+    aliases:
+    - collar
+    - Collar
+  Corset:
+    aliases:
+    - corset
+    - コルセット
+    - Corset
+  Cross:
+    aliases:
+    - cross
+    - Cross
+  Crown:
+    aliases:
+    - crown
+    - Crown
+  Crucifix:
+    aliases:
+    - crucifix
+    - Crucifix
+  Crystal:
+    aliases:
+    - crystal
+    - Crystal
+  Cuffs:
+    aliases:
+    - cuffs
+    - Cuffs
+  Demon Horns:
+    aliases:
+    - Demon Horns
+    - demon horns
+  Demon Wings:
+    aliases:
+    - demon wings
+    - Demon Wings
+  Dog Ears:
+    aliases:
+    - dog ears
+    - Dog Ears
+  Drone:
+    aliases:
+    - Drone
+    - drone
+  Ear Cuff:
+    aliases:
+    - Ear Cuff
+    - ear cuff
+  Earmuffs:
+    aliases:
+    - earmuffs
+    - Earmuffs
+  Earrings:
+    aliases:
+    - earrings
+    - Earrings
+  Eye Mask:
+    aliases:
+    - eye mask
+    - Eye Mask
+  Eyepatch:
+    aliases:
+    - Eyepatch
+    - eyepatch
+  Feathers:
+    aliases:
+    - Feathers
+    - feathers
+  Flower:
+    aliases:
+    - flower
+    - Flower
+  Flower Crown:
+    aliases:
+    - flower crown
+    - Flower Crown
+  Flower Ornament:
+    aliases:
+    - Flower Ornament
+    - flower ornament
+  Folding Fan:
+    aliases:
+    - folding fan
+    - Folding Fan
+  Fox Ears:
+    aliases:
+    - Fox Ears
+    - fox ears
+  Fox Mask:
+    aliases:
+    - Fox Mask
+    - fox mask
+  Frill:
+    aliases:
+    - フリル
+    - Frill
+    - frill
+  Fur:
+    aliases:
+    - Fur
+    - fur
+  Garter:
+    aliases:
+    - Garter
+    - garter
+  Garter Belt:
+    aliases:
+    - ガーターベルト
+    - Garter Belt
+    - garter belt
+  Gas Mask:
+    aliases:
+    - gas mask
+    - Gas Mask
+  Geta:
+    aliases:
+    - Geta
+    - geta
+  Glasses:
+    aliases:
+    - Glasses
+    - glasses
+  Gloves:
+    aliases:
+    - gloves
+    - Gloves
+  Goggles:
+    aliases:
+    - goggles
+    - Goggles
+  Greatsword:
+    aliases:
+    - Greatsword
+    - greatsword
+  Gun:
+    aliases:
+    - gun
+    - Gun
+  Hair Accessories:
+    aliases:
+    - hair accessories
+    - Hair Accessories
+  Hair Band:
+    aliases:
+    - hair band
+    - Hair Band
+  Hair Clip:
+    aliases:
+    - hair clip
+    - Hair Clip
+  Hair Ornament:
+    aliases:
+    - hair ornament
+    - Hair Ornament
+  Hair Ribbon:
+    aliases:
+    - Hair Ribbon
+    - hair ribbon
+  Hair Tie:
+    aliases:
+    - hair tie
+    - Hair Tie
+  Hairpin:
+    aliases:
+    - Hairpin
+    - hairpin
+  Halo:
+    aliases:
+    - halo
+    - Halo
+  Handbag:
+    aliases:
+    - Handbag
+    - handbag
+  Handcuffs:
+    aliases:
+    - handcuffs
+    - Handcuffs
+  Harness:
+    aliases:
+    - ハーネス
+    - Harness
+    - harness
+  Hat:
+    aliases:
+    - 帽子
+    - Hat
+    - ハット
+    - hat
+  Headband:
+    aliases:
+    - Headband
+    - headband
+  Headdress:
+    aliases:
+    - Headdress
+    - ヘッドドレス
+    - headdress
+  Headgear:
+    aliases:
+    - headgear
+    - Headgear
+  Headphones:
+    aliases:
+    - headphones
+    - Headphones
+  Headset:
+    aliases:
+    - headset
+    - Headset
+  Heart:
+    aliases:
+    - heart
+    - Heart
+  Heart Motif:
+    aliases:
+    - heart motif
+    - Heart Motif
+  Heels:
+    aliases:
+    - heels
+    - Heels
+  Helmet:
+    aliases:
+    - Helmet
+    - helmet
+  High Heels:
+    aliases:
+    - high heels
+    - ハイヒール
+    - High Heels
+  Holster:
+    aliases:
+    - Holster
+    - holster
+  Hood:
+    aliases:
+    - hood
+    - Hood
+  Horns:
+    aliases:
+    - horns
+    - Horns
+  Japanese Sword:
+    aliases:
+    - Japanese Sword
+    - japanese sword
+  Japanese Umbrella:
+    aliases:
+    - japanese umbrella
+    - Japanese Umbrella
+  Jewel:
+    aliases:
+    - jewel
+    - Jewel
+  Kanzashi:
+    aliases:
+    - kanzashi
+    - Kanzashi
+  Katana:
+    aliases:
+    - katana
+    - Katana
+  Keychain:
+    aliases:
+    - Keychain
+    - keychain
+  Kiseru Pipe:
+    aliases:
+    - kiseru pipe
+    - Kiseru Pipe
+  Knife:
+    aliases:
+    - Knife
+    - knife
+  Lace:
+    aliases:
+    - レース
+    - lace
+    - Lace
+  Lantern:
+    aliases:
+    - Lantern
+    - lantern
+  Leash:
+    aliases:
+    - Leash
+    - leash
+  Leather Shoes:
+    aliases:
+    - Leather Shoes
+    - leather shoes
+  Leg Belt:
+    aliases:
+    - Leg Belt
+    - leg belt
+  Loafers:
+    aliases:
+    - ローファー
+    - Loafers
+    - loafers
+  Mask:
+    aliases:
+    - Mask
+    - mask
+  Mecha Parts:
+    aliases:
+    - Mecha Parts
+    - mecha parts
+  Mecha Wings:
+    aliases:
+    - Mecha Wings
+    - mecha wings
+  Microphone:
+    aliases:
+    - Microphone
+    - microphone
+  Military Cap:
+    aliases:
+    - military cap
+    - Military Cap
+  Mini Hat:
+    aliases:
+    - Mini Hat
+    - mini hat
+  Monocle:
+    aliases:
+    - monocle
+    - Monocle
+  Moon Motif:
+    aliases:
+    - Moon Motif
+    - moon motif
+  Nail Tips:
+    aliases:
+    - Nail Tips
+    - nail tips
+  Nails:
+    aliases:
+    - nails
+    - Nails
+  Necklace:
+    aliases:
+    - Necklace
+    - necklace
+  Necktie:
+    aliases:
+    - ネクタイ
+    - necktie
+    - Necktie
+  Obi:
+    aliases:
+    - obi
+    - Obi
+  Pacifier:
+    aliases:
+    - pacifier
+    - Pacifier
+  Paw Pads:
+    aliases:
+    - paw pads
+    - Paw Pads
+  Pearl:
+    aliases:
+    - Pearl
+    - pearl
+  Pendant:
+    aliases:
+    - Pendant
+    - pendant
+  Piercing:
+    aliases:
+    - Piercing
+    - piercing
+  Pin Badge:
+    aliases:
+    - Pin Badge
+    - pin badge
+  Plushie:
+    aliases:
+    - Plushie
+    - plushie
+  Pocket Watch:
+    aliases:
+    - pocket watch
+    - Pocket Watch
+  Pom Pom:
+    aliases:
+    - Pom Pom
+    - pom pom
+  Pouch:
+    aliases:
+    - pouch
+    - Pouch
+  Prosthetic Arm:
+    aliases:
+    - prosthetic arm
+    - Prosthetic Arm
+  Prosthetic Leg:
+    aliases:
+    - Prosthetic Leg
+    - prosthetic leg
+  Ribbon:
+    aliases:
+    - Ribbon
+    - ribbon
+  Ribbon Tie:
+    aliases:
+    - ribbon tie
+    - Ribbon Tie
+  Rifle:
+    aliases:
+    - Rifle
+    - rifle
+  Ring:
+    aliases:
+    - Ring
+    - ring
+  Rose:
+    aliases:
+    - Rose
+    - rose
+  Round Glasses:
+    aliases:
+    - round glasses
+    - Round Glasses
+  Sandals:
+    aliases:
+    - Sandals
+    - sandals
+    - サンダル
+  Santa Hat:
+    aliases:
+    - Santa Hat
+    - santa hat
+  Scarf:
+    aliases:
+    - スカーフ
+    - scarf
+    - Scarf
+    - マフラー
+  Scrunchie:
+    aliases:
+    - Scrunchie
+    - scrunchie
+  Scythe:
+    aliases:
+    - Scythe
+    - scythe
+  Shield:
+    aliases:
+    - Shield
+    - shield
+  Shoes:
+    aliases:
+    - Shoes
+    - shoes
+  Shoulder Bag:
+    aliases:
+    - shoulder bag
+    - Shoulder Bag
+  Slippers:
+    aliases:
+    - slippers
+    - Slippers
+  Smartphone:
+    aliases:
+    - smartphone
+    - Smartphone
+  Sneakers:
+    aliases:
+    - sneakers
+    - スニーカー
+    - Sneakers
+  Socks:
+    aliases:
+    - socks
+    - Socks
+  Spear:
+    aliases:
+    - Spear
+    - spear
+  Staff:
+    aliases:
+    - staff
+    - Staff
+  Star:
+    aliases:
+    - Star
+    - star
+  Star Motif:
+    aliases:
+    - star motif
+    - Star Motif
+  Strap:
+    aliases:
+    - Strap
+    - strap
+  Straw Hat:
+    aliases:
+    - straw hat
+    - Straw Hat
+  Studs:
+    aliases:
+    - studs
+    - Studs
+  Sun Visor:
+    aliases:
+    - sun visor
+    - Sun Visor
+  Sunglasses:
+    aliases:
+    - Sunglasses
+    - sunglasses
+  Suspenders:
+    aliases:
+    - サスペンダー
+    - suspenders
+    - Suspenders
+  Swim Ring:
+    aliases:
+    - Swim Ring
+    - swim ring
+  Sword:
+    aliases:
+    - sword
+    - Sword
+  Tail:
+    aliases:
+    - Tail
+    - tail
+  Talisman:
+    aliases:
+    - Talisman
+    - talisman
+  Tassel:
+    aliases:
+    - Tassel
+    - tassel
+  Tattoo:
+    aliases:
+    - tattoo
+    - Tattoo
+  Thigh-high Socks:
+    aliases:
+    - thigh-high socks
+    - Thigh-high Socks
+  Tiara:
+    aliases:
+    - Tiara
+    - tiara
+  Top Hat:
+    aliases:
+    - Top Hat
+    - top hat
+  Umbrella:
+    aliases:
+    - Umbrella
+    - umbrella
+  Veil:
+    aliases:
+    - veil
+    - Veil
+    - ベール
+    - ヴェール
+  Visor:
+    aliases:
+    - Visor
+    - visor
+  Weapon:
+    aliases:
+    - weapon
+    - Weapon
+  Wings:
+    aliases:
+    - Wings
+    - wings
+  Witch Hat:
+    aliases:
+    - witch hat
+    - Witch Hat
+  Wristband:
+    aliases:
+    - wristband
+    - Wristband
+  Wristwatch:
+    aliases:
+    - Wristwatch
+    - wristwatch
+appearances:
+  Ahoge:
+    aliases:
+    - Ahoge
+    - ahoge
+  Angel:
+    aliases:
+    - Angel
+    - angel
+  Animal Ears:
+    aliases:
+    - Animal Ears
+    - animal ears
+  Bear Ears:
+    aliases:
+    - bear ears
+    - Bear Ears
+  Beast Ears:
+    aliases:
+    - Beast Ears
+    - beast ears
+  Black Hair:
+    aliases:
+    - black hair
+    - Black Hair
+  Blonde Hair:
+    aliases:
+    - blonde hair
+    - Blonde Hair
+  Blue Eyes:
+    aliases:
+    - Blue Eyes
+    - blue eyes
+  Blue Hair:
+    aliases:
+    - Blue Hair
+    - blue hair
+  Blunt Bangs:
+    aliases:
+    - Blunt Bangs
+    - blunt bangs
+  Bob Hair:
+    aliases:
+    - Bob Hair
+    - bob hair
+  Braid:
+    aliases:
+    - Braid
+    - braid
+  Braided:
+    aliases:
+    - Braided
+    - braided
+  Brown Eyes:
+    aliases:
+    - Brown Eyes
+    - brown eyes
+  Brown Hair:
+    aliases:
+    - brown hair
+    - Brown Hair
+  Bun Hair:
+    aliases:
+    - Bun Hair
+    - bun hair
+  Bunny Ears:
+    aliases:
+    - Bunny Ears
+    - bunny ears
+  Cat:
+    aliases:
+    - cat
+    - Cat
+  Cat Ears:
+    aliases:
+    - cat ears
+    - Cat Ears
+  Curly Hair:
+    aliases:
+    - Curly Hair
+    - curly hair
+  Dark Skin:
+    aliases:
+    - dark skin
+    - Dark Skin
+  Demon:
+    aliases:
+    - demon
+    - Demon
+  Dog Ears:
+    aliases:
+    - dog ears
+    - Dog Ears
+  Dragon:
+    aliases:
+    - Dragon
+    - dragon
+  Drill Hair:
+    aliases:
+    - drill hair
+    - Drill Hair
+  Elf Ears:
+    aliases:
+    - elf ears
+    - Elf Ears
+  Fang:
+    aliases:
+    - fang
+    - Fang
+  Fangs:
+    aliases:
+    - fangs
+    - Fangs
+  Flipped Ends:
+    aliases:
+    - Flipped Ends
+    - flipped ends
+  Fluffy:
+    aliases:
+    - Fluffy
+    - fluffy
+  Fluffy Fur:
+    aliases:
+    - fluffy fur
+    - Fluffy Fur
+  Fox Ears:
+    aliases:
+    - Fox Ears
+    - fox ears
+  Gold Eyes:
+    aliases:
+    - gold eyes
+    - Gold Eyes
+  Gray Hair:
+    aliases:
+    - Gray Hair
+    - gray hair
+  Green Eyes:
+    aliases:
+    - green eyes
+    - Green Eyes
+  Green Hair:
+    aliases:
+    - green hair
+    - Green Hair
+  Hair Over One Eye:
+    aliases:
+    - Hair Over One Eye
+    - hair over one eye
+  Half Twin Tails:
+    aliases:
+    - half twin tails
+    - Half Twin Tails
+  Half Updo:
+    aliases:
+    - half updo
+    - Half Updo
+  Heterochromia:
+    aliases:
+    - heterochromia
+    - Heterochromia
+  Hime Cut:
+    aliases:
+    - hime cut
+    - Hime Cut
+  Horns:
+    aliases:
+    - horns
+    - Horns
+  Kemono:
+    aliases:
+    - ケモノ
+    - Kemono
+    - kemono
+  Light Blue Hair:
+    aliases:
+    - Light Blue Hair
+    - light blue hair
+  Long Hair:
+    aliases:
+    - Long Hair
+    - long hair
+  Low Ponytail:
+    aliases:
+    - Low Ponytail
+    - low ponytail
+  Low Twin Tails:
+    aliases:
+    - Low Twin Tails
+    - low twin tails
+  Mecha:
+    aliases:
+    - mecha
+    - Mecha
+    - ロボ
+    - メカ
+  Mecha Ears:
+    aliases:
+    - mecha ears
+    - Mecha Ears
+  Medium Hair:
+    aliases:
+    - medium hair
+    - Medium Hair
+  Mesh Hair:
+    aliases:
+    - mesh hair
+    - Mesh Hair
+  Mouse Ears:
+    aliases:
+    - mouse ears
+    - Mouse Ears
+  Mushroom Cut:
+    aliases:
+    - Mushroom Cut
+    - mushroom cut
+  Non-Human:
+    aliases:
+    - Non-Human
+    - non-human
+  Orange Hair:
+    aliases:
+    - Orange Hair
+    - orange hair
+  Paw Pads:
+    aliases:
+    - paw pads
+    - Paw Pads
+  Pink Eyes:
+    aliases:
+    - Pink Eyes
+    - pink eyes
+  Pink Hair:
+    aliases:
+    - pink hair
+    - Pink Hair
+  Ponytail:
+    aliases:
+    - Ponytail
+    - ponytail
+  Purple Eyes:
+    aliases:
+    - purple eyes
+    - Purple Eyes
+  Purple Hair:
+    aliases:
+    - purple hair
+    - Purple Hair
+  Red Eyes:
+    aliases:
+    - Red Eyes
+    - red eyes
+  Red Hair:
+    aliases:
+    - red hair
+    - Red Hair
+  Robot:
+    aliases:
+    - Robot
+    - robot
+  Sheep Ears:
+    aliases:
+    - Sheep Ears
+    - sheep ears
+  Short Bob:
+    aliases:
+    - Short Bob
+    - short bob
+  Short Hair:
+    aliases:
+    - short hair
+    - Short Hair
+  Side Tail:
+    aliases:
+    - side tail
+    - Side Tail
+  Silver Hair:
+    aliases:
+    - silver hair
+    - Silver Hair
+  Straight Hair:
+    aliases:
+    - straight hair
+    - Straight Hair
+  Tail:
+    aliases:
+    - Tail
+    - tail
+  Twin Tails:
+    aliases:
+    - twin tails
+    - Twin Tails
+  Two Side Up:
+    aliases:
+    - Two Side Up
+    - two side up
+  Updo:
+    aliases:
+    - updo
+    - Updo
+  Wave Hair:
+    aliases:
+    - Wave Hair
+    - wave hair
+  Wavy Hair:
+    aliases:
+    - Wavy Hair
+    - wavy hair
+  White Hair:
+    aliases:
+    - white hair
+    - White Hair
+  Wings:
+    aliases:
+    - Wings
+    - wings
+  Wolf Cut:
+    aliases:
+    - wolf cut
+    - Wolf Cut
+  Wolf Ears:
+    aliases:
+    - wolf ears
+    - Wolf Ears
+  Yellow Eyes:
+    aliases:
+    - yellow eyes
+    - Yellow Eyes
+body_types:
+  Chibi:
+    aliases:
+    - デフォルメ
+    - Chibi
+    - sd
+    - ちび
+    - chibi
+  Female:
+    aliases:
+    - feminine
+    - 女の子
+    - Female
+    - 女性
+    - レディース
+    - female
+  Male:
+    aliases:
+    - male
+    - 男の子
+    - 男性
+    - masculine
+    - メンズ
+    - Male
+  Mascot:
+    aliases:
+    - Mascot
+    - mascot
+  Petite:
+    aliases:
+    - petite
+    - Petite
+  Standard Build:
+    aliases:
+    - standard build
+    - Standard Build
+  Tall Build:
+    aliases:
+    - tall build
+    - Tall Build
 categories:
-  AVATAR:
-    aliases: ["アバター", "avatar", "3Dキャラクター", "オリジナル3Dモデル"]
-  OUTFIT:
-    aliases: ["衣装", "服", "outfit", "costume", "dress", "着せ替え", "clothing"]
-    sub_categories: ["tops", "bottoms", "inner", "outer", "set"]
   ACCESSORY:
-    aliases: ["アクセサリ", "accessory", "小物", "item", "prop"]
-    sub_categories: ["head", "face", "ear", "hand", "foot", "weapon"]
-  HAIRSTYLE:
-    aliases: ["髪型", "ヘアスタイル", "hairstyle", "hair", "髪", "ウィッグ"]
-  TEXTURE:
-    aliases: ["テクスチャ", "texture", "skin", "makeup", "eye texture", "body texture", "瞳", "肌", "メイク"]
+    aliases:
+    - アクセサリ
+    - accessory
+    - 小物
+    - item
+    - prop
+    sub_categories:
+    - head
+    - face
+    - ear
+    - hand
+    - foot
+    - weapon
+  AVATAR:
+    aliases:
+    - アバター
+    - avatar
+    - 3Dキャラクター
+    - オリジナル3Dモデル
   GIMMICK_TOOL:
-    aliases: ["ギミック", "gimmick", "tool", "システム", "system", "script", "MA対応", "VRCFury"]
+    aliases:
+    - ギミック
+    - gimmick
+    - tool
+    - システム
+    - system
+    - script
+    - MA対応
+    - VRCFury
+  HAIRSTYLE:
+    aliases:
+    - 髪型
+    - ヘアスタイル
+    - hairstyle
+    - hair
+    - 髪
+    - ウィッグ
+  OUTFIT:
+    aliases:
+    - 衣装
+    - 服
+    - outfit
+    - costume
+    - dress
+    - 着せ替え
+    - clothing
+    sub_categories:
+    - tops
+    - bottoms
+    - inner
+    - outer
+    - set
+  TEXTURE:
+    aliases:
+    - テクスチャ
+    - texture
+    - skin
+    - makeup
+    - eye texture
+    - body texture
+    - 瞳
+    - 肌
+    - メイク
+colors:
+  Beige:
+    aliases:
+    - Beige
+    - ベージュ
+    - beige
+  Black:
+    aliases:
+    - black
+    - 黒
+    - Black
+    - ブラック
+  Blue:
+    aliases:
+    - ブルー
+    - blue
+    - 青
+    - Blue
+  Bordeaux:
+    aliases:
+    - Bordeaux
+    - ボルドー
+    - bordeaux
+  Brown:
+    aliases:
+    - ブラウン
+    - Brown
+    - 茶
+    - brown
+  Charcoal:
+    aliases:
+    - charcoal
+    - Charcoal
+  Cream:
+    aliases:
+    - cream
+    - Cream
+    - クリーム
+  Cyan:
+    aliases:
+    - シアン
+    - cyan
+    - Cyan
+  Gold:
+    aliases:
+    - 金
+    - ゴールド
+    - Gold
+    - gold
+  Gray:
+    aliases:
+    - grey
+    - グレー
+    - 灰
+    - gray
+    - Gray
+  Green:
+    aliases:
+    - green
+    - 緑
+    - Green
+    - グリーン
+  Ivory:
+    aliases:
+    - ivory
+    - アイボリー
+    - Ivory
+  Khaki:
+    aliases:
+    - カーキ
+    - Khaki
+    - khaki
+  Lavender:
+    aliases:
+    - ラベンダー
+    - lavender
+    - Lavender
+  Light Blue:
+    aliases:
+    - ライトブルー
+    - light blue
+    - Light Blue
+    - 水色
+  Magenta:
+    aliases:
+    - magenta
+    - Magenta
+  Mint:
+    aliases:
+    - Mint
+    - ミント
+    - mint
+  Navy:
+    aliases:
+    - ネイビー
+    - Navy
+    - 紺
+    - navy
+  Neon:
+    aliases:
+    - Neon
+    - ネオン
+    - neon
+  Orange:
+    aliases:
+    - 橙
+    - Orange
+    - オレンジ
+    - orange
+  Pastel:
+    aliases:
+    - pastel
+    - パステル
+    - Pastel
+  Pink:
+    aliases:
+    - ピンク
+    - pink
+    - Pink
+  Purple:
+    aliases:
+    - purple
+    - 紫
+    - Purple
+    - パープル
+  Red:
+    aliases:
+    - Red
+    - 赤
+    - レッド
+    - red
+  Silver:
+    aliases:
+    - Silver
+    - silver
+    - 銀
+    - シルバー
+  Turquoise:
+    aliases:
+    - turquoise
+    - ターコイズ
+    - Turquoise
+  White:
+    aliases:
+    - White
+    - 白
+    - ホワイト
+    - white
+  Yellow:
+    aliases:
+    - Yellow
+    - イエロー
+    - yellow
+    - 黄
+components:
+  Animation:
+  - アニメーション
+  - animation
+  - anim
+  BlendShape:
+  - ブレンドシェイプ
+  - blendshape
+  - シェイプキー
+  - shapekey
+  Bone:
+  - ボーン
+  - bone
+  - アーマチュア
+  - armature
+  ExpressionMenu:
+  - expression menu
+  - エクスプレッションメニュー
+  - exメニュー
+  Material:
+  - マテリアル
+  - material
+  - mat
+  Mesh:
+  - メッシュ
+  - mesh
+  Shader:
+  - シェーダー
+  - shader
 features:
+  AFK Motion:
+    aliases:
+    - afk motion
+    - AFK Motion
+  AudioLink Compatible:
+    aliases:
+    - audiolink compatible
+    - AudioLink Compatible
+  Blend Shape:
+    aliases:
+    - Blend Shape
+    - blend shape
+  Dance Animation:
+    aliases:
+    - dance animation
+    - Dance Animation
+  Desktop Compatible:
+    aliases:
+    - Desktop Compatible
+    - desktop compatible
+  Emote:
+    aliases:
+    - emote
+    - Emote
+  Expression Animation:
+    aliases:
+    - Expression Animation
+    - expression animation
+  Eye Tracking:
+    aliases:
+    - eye tracking
+    - Eye Tracking
+  Face Tracking:
+    aliases:
+    - face tracking
+    - Face Tracking
+  FaceEmo Compatible:
+    aliases:
+    - FaceEmo Compatible
+    - faceemo compatible
+  For Photography:
+    aliases:
+    - For Photography
+    - for photography
+  Full Body Tracking Compatible:
+    aliases:
+    - Full Body Tracking Compatible
+    - full body tracking compatible
+  Gesture Linked:
+    aliases:
+    - Gesture Linked
+    - gesture linked
+  Hand Sign Linked:
+    aliases:
+    - Hand Sign Linked
+    - hand sign linked
+  Humanoid Compatible:
+    aliases:
+    - humanoid compatible
+    - Humanoid Compatible
+  Lip Sync:
+    aliases:
+    - Lip Sync
+    - lip sync
+  Mirror:
+    aliases:
+    - Mirror
+    - mirror
+  Mochifitter Compatible:
+    aliases:
+    - mochifitter compatible
+    - Mochifitter Compatible
+  Modular Avatar Compatible:
+    aliases:
+    - Modular Avatar Compatible
+    - modular avatar compatible
   ModularAvatar:
-    aliases: ["Modular Avatar", "MA対応", "MA", "ModularAvatar"]
-  VRCFury:
-    aliases: ["VRCFury", "Fury"]
+    aliases:
+    - Modular Avatar
+    - MA対応
+    - MA
+    - ModularAvatar
+  PSD Included:
+    aliases:
+    - psd included
+    - PSD Included
+  Particle:
+    aliases:
+    - particle
+    - Particle
   PhysBone:
-    aliases: ["PhysBone", "PB対応", "PB", "揺れもの"]
-  QuestCompatible:
-    aliases: ["Quest対応", "Android対応", "Quest", "Android"]
-  lilToon:
-    aliases: ["lilToon", "lil"]
+    aliases:
+    - PhysBone
+    - PB対応
+    - PB
+    - 揺れもの
+  PhysBone Compatible:
+    aliases:
+    - physbone compatible
+    - PhysBone Compatible
+  PhysBone Physics:
+    aliases:
+    - PhysBone Physics
+    - physbone physics
+  Pickupable:
+    aliases:
+    - pickupable
+    - Pickupable
   Poiyomi:
-    aliases: ["Poiyomi", "Poi"]
+    aliases:
+    - Poiyomi
+    - Poi
+  Poiyomi Compatible:
+    aliases:
+    - poiyomi compatible
+    - Poiyomi Compatible
+  Pose Animation:
+    aliases:
+    - Pose Animation
+    - pose animation
+  Quest Compatible:
+    aliases:
+    - quest compatible
+    - Quest Compatible
+  QuestCompatible:
+    aliases:
+    - Quest対応
+    - Android対応
+    - Quest
+    - Android
+  Shader:
+    aliases:
+    - Shader
+    - shader
+  Shape Key:
+    aliases:
+    - Shape Key
+    - shape key
+  Sittable:
+    aliases:
+    - Sittable
+    - sittable
+  Synced:
+    aliases:
+    - synced
+    - Synced
+  Udon:
+    aliases:
+    - Udon
+    - udon
+  VRCFT Compatible:
+    aliases:
+    - VRCFT Compatible
+    - vrcft compatible
+  VRCFury:
+    aliases:
+    - VRCFury
+    - Fury
+  VRCFury Compatible:
+    aliases:
+    - vrcfury compatible
+    - VRCFury Compatible
+  VRM Compatible:
+    aliases:
+    - VRM Compatible
+    - vrm compatible
+  Warp:
+    aliases:
+    - Warp
+    - warp
+  World Fixed:
+    aliases:
+    - world fixed
+    - World Fixed
+  World Gimmick:
+    aliases:
+    - World Gimmick
+    - world gimmick
+  lilToon:
+    aliases:
+    - lilToon
+    - lil
+  lilToon Compatible:
+    aliases:
+    - liltoon compatible
+    - lilToon Compatible
+outfit_types:
+  Apron:
+    aliases:
+    - Apron
+    - エプロン
+    - apron
+  Apron Dress:
+    aliases:
+    - Apron Dress
+    - apron dress
+  Armor:
+    aliases:
+    - Armor
+    - armor
+    - アーマー
+    - 鎧
+  Babydoll:
+    aliases:
+    - Babydoll
+    - babydoll
+    - ベビードール
+  Bath Towel:
+    aliases:
+    - bath towel
+    - Bath Towel
+  Battle Outfit:
+    aliases:
+    - battle outfit
+    - Battle Outfit
+  Belt:
+    aliases:
+    - belt
+    - ベルト
+    - Belt
+  Beret:
+    aliases:
+    - Beret
+    - ベレー帽
+    - ベレー
+    - beret
+  Bikini:
+    aliases:
+    - Bikini
+    - ビキニ
+    - bikini
+  Blazer:
+    aliases:
+    - blazer
+    - ブレザー
+    - Blazer
+  Bloomers:
+    aliases:
+    - bloomers
+    - Bloomers
+    - ブルマ
+  Blouse:
+    aliases:
+    - Blouse
+    - blouse
+    - ブラウス
+  Blouson:
+    aliases:
+    - blouson
+    - Blouson
+  Bodysuit:
+    aliases:
+    - Bodysuit
+    - ボディスーツ
+    - bodysuit
+  Bolero:
+    aliases:
+    - Bolero
+    - bolero
+  Bondage:
+    aliases:
+    - bondage
+    - Bondage
+  Boots:
+    aliases:
+    - Boots
+    - ブーツ
+    - boots
+  Bottoms:
+    aliases:
+    - bottoms
+    - Bottoms
+  Bra Top:
+    aliases:
+    - bra top
+    - ブラトップ
+    - Bra Top
+  Bunny Suit:
+    aliases:
+    - バニーガール
+    - Bunny Suit
+    - バニースーツ
+    - bunny suit
+  Bustier:
+    aliases:
+    - Bustier
+    - ビスチェ
+    - bustier
+  Camisole:
+    aliases:
+    - キャミソール
+    - Camisole
+    - camisole
+    - キャミ
+  Cap:
+    aliases:
+    - Cap
+    - cap
+  Cape:
+    aliases:
+    - cape
+    - Cape
+  Cardigan:
+    aliases:
+    - Cardigan
+    - カーディガン
+    - cardigan
+  Cargo Pants:
+    aliases:
+    - Cargo Pants
+    - カーゴパンツ
+    - cargo pants
+  China Dress:
+    aliases:
+    - チャイナドレス
+    - China Dress
+    - china dress
+    - チャイナ服
+  Cloak:
+    aliases:
+    - Cloak
+    - cloak
+    - マント
+    - クローク
+  Coat:
+    aliases:
+    - coat
+    - コート
+    - Coat
+  Corset:
+    aliases:
+    - corset
+    - コルセット
+    - Corset
+  Costume:
+    aliases:
+    - Costume
+    - costume
+  Crop Top:
+    aliases:
+    - クロップト
+    - クロップド
+    - Crop Top
+    - crop top
+  Denim:
+    aliases:
+    - denim
+    - デニム
+    - Denim
+  Distressed Jeans:
+    aliases:
+    - distressed jeans
+    - Distressed Jeans
+  Down Jacket:
+    aliases:
+    - down jacket
+    - ダウンジャケット
+    - Down Jacket
+    - ダウン
+  Dress:
+    aliases:
+    - ドレス
+    - dress
+    - Dress
+  Dress Shirt:
+    aliases:
+    - dress shirt
+    - Dress Shirt
+  Duffle Coat:
+    aliases:
+    - duffle coat
+    - Duffle Coat
+  Dungarees:
+    aliases:
+    - dungarees
+    - Dungarees
+  Fishnet Tights:
+    aliases:
+    - Fishnet Tights
+    - fishnet tights
+  Flare Skirt:
+    aliases:
+    - flare skirt
+    - Flare Skirt
+  Frill:
+    aliases:
+    - フリル
+    - Frill
+    - frill
+  Frill Skirt:
+    aliases:
+    - Frill Skirt
+    - frill skirt
+  Frilled Dress:
+    aliases:
+    - frilled dress
+    - Frilled Dress
+  Frilled One-Piece:
+    aliases:
+    - Frilled One-Piece
+    - frilled one-piece
+  Fur Coat:
+    aliases:
+    - Fur Coat
+    - fur coat
+  Furisode:
+    aliases:
+    - 振袖
+    - Furisode
+    - furisode
+  Garter:
+    aliases:
+    - Garter
+    - garter
+  Garter Belt:
+    aliases:
+    - ガーターベルト
+    - Garter Belt
+    - garter belt
+  Gloves:
+    aliases:
+    - gloves
+    - Gloves
+  Gothic Dress:
+    aliases:
+    - gothic dress
+    - ゴシックドレス
+    - Gothic Dress
+  Hakama:
+    aliases:
+    - hakama
+    - 袴
+    - Hakama
+  Half Pants:
+    aliases:
+    - half pants
+    - Half Pants
+  Halterneck:
+    aliases:
+    - Halterneck
+    - halterneck
+  Hanbok:
+    aliases:
+    - hanbok
+    - Hanbok
+  Haori:
+    aliases:
+    - 羽織
+    - haori
+    - Haori
+  Harness:
+    aliases:
+    - ハーネス
+    - Harness
+    - harness
+  Hat:
+    aliases:
+    - 帽子
+    - Hat
+    - ハット
+    - hat
+  Headdress:
+    aliases:
+    - Headdress
+    - ヘッドドレス
+    - headdress
+  Heels:
+    aliases:
+    - heels
+    - Heels
+  High Heels:
+    aliases:
+    - high heels
+    - ハイヒール
+    - High Heels
+  High Neck:
+    aliases:
+    - high neck
+    - High Neck
+  High-Leg:
+    aliases:
+    - High-Leg
+    - high-leg
+  Hooded:
+    aliases:
+    - Hooded
+    - hooded
+  Hoodie:
+    aliases:
+    - hoodie
+    - フーディ
+    - Hoodie
+    - パーカー
+  Hot Pants:
+    aliases:
+    - hot pants
+    - Hot Pants
+  Idol Outfit:
+    aliases:
+    - idol outfit
+    - アイドル衣装
+    - Idol Outfit
+  Innerwear:
+    aliases:
+    - innerwear
+    - Innerwear
+    - インナー
+  Jacket:
+    aliases:
+    - Jacket
+    - ジャケット
+    - jacket
+  Japanese Clothing:
+    aliases:
+    - japanese clothing
+    - Japanese Clothing
+  Jeans:
+    aliases:
+    - ジーンズ
+    - Jeans
+    - jeans
+  Jersey:
+    aliases:
+    - ジャージ
+    - jersey
+    - Jersey
+  Jumper Skirt:
+    aliases:
+    - Jumper Skirt
+    - jumper skirt
+  Jumpsuit:
+    aliases:
+    - jumpsuit
+    - Jumpsuit
+  Kigurumi:
+    aliases:
+    - kigurumi
+    - Kigurumi
+  Kimono:
+    aliases:
+    - 着物
+    - kimono
+    - Kimono
+    - きもの
+  Knee-High:
+    aliases:
+    - Knee-High
+    - ニーハイ
+    - knee-high
+  Knee-High Boots:
+    aliases:
+    - Knee-High Boots
+    - knee-high boots
+  Knee-High Socks:
+    aliases:
+    - Knee-High Socks
+    - knee-high socks
+  Knit:
+    aliases:
+    - ニット
+    - knit
+    - Knit
+  Knit Dress:
+    aliases:
+    - knit dress
+    - Knit Dress
+  Lab Coat:
+    aliases:
+    - lab coat
+    - 白衣
+    - Lab Coat
+  Lace:
+    aliases:
+    - レース
+    - lace
+    - Lace
+  Layered:
+    aliases:
+    - layered
+    - Layered
+  Leather Jacket:
+    aliases:
+    - leather jacket
+    - 革ジャン
+    - レザージャケット
+    - Leather Jacket
+  Leg Warmers:
+    aliases:
+    - レッグウォーマー
+    - Leg Warmers
+    - leg warmers
+  Leggings:
+    aliases:
+    - レギンス
+    - Leggings
+    - leggings
+  Leotard:
+    aliases:
+    - レオタード
+    - leotard
+    - Leotard
+  Lingerie:
+    aliases:
+    - lingerie
+    - ランジェリー
+    - Lingerie
+  Loafers:
+    aliases:
+    - ローファー
+    - Loafers
+    - loafers
+  Long Boots:
+    aliases:
+    - long boots
+    - Long Boots
+  Long Coat:
+    aliases:
+    - long coat
+    - Long Coat
+  Long Dress:
+    aliases:
+    - long dress
+    - Long Dress
+  Long Skirt:
+    aliases:
+    - long skirt
+    - Long Skirt
+  Loose Socks:
+    aliases:
+    - loose socks
+    - Loose Socks
+    - ルーズソックス
+  Loungewear:
+    aliases:
+    - ルームウェア
+    - 部屋着
+    - loungewear
+    - Loungewear
+  Maid Outfit:
+    aliases:
+    - maid outfit
+    - メイド服
+    - メイド
+    - Maid Outfit
+  Matching Set:
+    aliases:
+    - Matching Set
+    - matching set
+  Micro Bikini:
+    aliases:
+    - micro bikini
+    - マイクロビキニ
+    - Micro Bikini
+  Miko Outfit:
+    aliases:
+    - miko outfit
+    - 巫女
+    - 巫女服
+    - Miko Outfit
+  Military Uniform:
+    aliases:
+    - 軍服
+    - military uniform
+    - Military Uniform
+    - ミリタリー制服
+  Mini Dress:
+    aliases:
+    - mini dress
+    - Mini Dress
+  Miniskirt:
+    aliases:
+    - ミニスカ
+    - miniskirt
+    - Miniskirt
+    - ミニスカート
+  Necktie:
+    aliases:
+    - ネクタイ
+    - necktie
+    - Necktie
+  Negligee:
+    aliases:
+    - Negligee
+    - negligee
+  Nun Habit:
+    aliases:
+    - nun habit
+    - Nun Habit
+  Nun Outfit:
+    aliases:
+    - 修道女
+    - nun outfit
+    - Nun Outfit
+    - シスター
+  Nurse Outfit:
+    aliases:
+    - nurse outfit
+    - ナース服
+    - ナース
+    - Nurse Outfit
+  Off-Shoulder:
+    aliases:
+    - off-shoulder
+    - オフショル
+    - オフショルダー
+    - Off-Shoulder
+  One-Piece Dress:
+    aliases:
+    - ワンピ
+    - One-Piece Dress
+    - ワンピース
+    - one-piece dress
+  One-Piece Swimsuit:
+    aliases:
+    - One-Piece Swimsuit
+    - one-piece swimsuit
+  Outerwear:
+    aliases:
+    - outerwear
+    - Outerwear
+    - アウター
+  Overalls:
+    aliases:
+    - Overalls
+    - overalls
+    - オーバーオール
+  Oversized:
+    aliases:
+    - oversized
+    - オーバーサイズ
+    - Oversized
+  Pajamas:
+    aliases:
+    - Pajamas
+    - パジャマ
+    - pajamas
+  Pants:
+    aliases:
+    - ズボン
+    - pants
+    - パンツ
+    - Pants
+  Plaid Skirt:
+    aliases:
+    - plaid skirt
+    - Plaid Skirt
+  Platform Boots:
+    aliases:
+    - platform boots
+    - Platform Boots
+  Pleated Skirt:
+    aliases:
+    - プリーツスカート
+    - pleated skirt
+    - Pleated Skirt
+  Poncho:
+    aliases:
+    - Poncho
+    - poncho
+  Pumps:
+    aliases:
+    - pumps
+    - Pumps
+    - パンプス
+  Racing Swimsuit:
+    aliases:
+    - Racing Swimsuit
+    - racing swimsuit
+  Raincoat:
+    aliases:
+    - Raincoat
+    - raincoat
+    - カッパ
+    - レインコート
+  Robe:
+    aliases:
+    - robe
+    - Robe
+    - ローブ
+  Rubber Suit:
+    aliases:
+    - rubber suit
+    - Rubber Suit
+  Sailor:
+    aliases:
+    - sailor
+    - Sailor
+  Sailor Uniform:
+    aliases:
+    - セーラー服
+    - セーラー
+    - Sailor Uniform
+    - sailor uniform
+  Sandals:
+    aliases:
+    - Sandals
+    - sandals
+    - サンダル
+  Santa Outfit:
+    aliases:
+    - santa outfit
+    - Santa Outfit
+    - サンタ服
+    - サンタ衣装
+  Scarf:
+    aliases:
+    - スカーフ
+    - scarf
+    - Scarf
+    - マフラー
+  School Swimsuit:
+    aliases:
+    - School Swimsuit
+    - school swimsuit
+    - スクール水着
+    - スク水
+  School Uniform:
+    aliases:
+    - 学生服
+    - school uniform
+    - 制服
+    - School Uniform
+  Sheer:
+    aliases:
+    - sheer
+    - Sheer
+  Shirt:
+    aliases:
+    - shirt
+    - Shirt
+    - シャツ
+  Shoes:
+    aliases:
+    - Shoes
+    - shoes
+  Short Boots:
+    aliases:
+    - short boots
+    - Short Boots
+  Short Pants:
+    aliases:
+    - ショーツ
+    - ショートパンツ
+    - short pants
+    - 短パン
+    - Short Pants
+  Shorts:
+    aliases:
+    - Shorts
+    - shorts
+    - ショーツ
+  Skinny Pants:
+    aliases:
+    - skinny pants
+    - Skinny Pants
+  Skirt:
+    aliases:
+    - skirt
+    - スカート
+    - Skirt
+  Slacks:
+    aliases:
+    - slacks
+    - Slacks
+    - スラックス
+  Sleeveless:
+    aliases:
+    - Sleeveless
+    - sleeveless
+  Sneakers:
+    aliases:
+    - sneakers
+    - スニーカー
+    - Sneakers
+  Socks:
+    aliases:
+    - socks
+    - Socks
+  Spacesuit:
+    aliases:
+    - Spacesuit
+    - spacesuit
+  Spats:
+    aliases:
+    - スパッツ
+    - Spats
+    - spats
+  Sportswear:
+    aliases:
+    - スポーツウェア
+    - sportswear
+    - Sportswear
+  Stockings:
+    aliases:
+    - stockings
+    - Stockings
+    - ストッキング
+  Suit:
+    aliases:
+    - suit
+    - Suit
+    - スーツ
+  Summer Dress:
+    aliases:
+    - Summer Dress
+    - summer dress
+  Suspenders:
+    aliases:
+    - サスペンダー
+    - suspenders
+    - Suspenders
+  Sweater:
+    aliases:
+    - Sweater
+    - セーター
+    - sweater
+  Sweatpants:
+    aliases:
+    - sweatpants
+    - Sweatpants
+  Sweatshirt:
+    aliases:
+    - sweatshirt
+    - Sweatshirt
+  Swimsuit:
+    aliases:
+    - Swimsuit
+    - swimsuit
+    - 水着
+    - スイムウェア
+  T-Shirt:
+    aliases:
+    - tシャツ
+    - t-shirt
+    - Tシャツ
+    - T-Shirt
+  Tank Top:
+    aliases:
+    - タンクトップ
+    - tank top
+    - Tank Top
+  Techwear:
+    aliases:
+    - techwear
+    - テックウェア
+    - Techwear
+  Thigh-high Socks:
+    aliases:
+    - thigh-high socks
+    - Thigh-high Socks
+  Tight Skirt:
+    aliases:
+    - タイトスカート
+    - Tight Skirt
+    - tight skirt
+  Tights:
+    aliases:
+    - tights
+    - タイツ
+    - Tights
+  Tops:
+    aliases:
+    - Tops
+    - トップス
+    - tops
+  Trench Coat:
+    aliases:
+    - trench coat
+    - Trench Coat
+  Tube Top:
+    aliases:
+    - tube top
+    - Tube Top
+  Turtleneck:
+    aliases:
+    - turtleneck
+    - タートルネック
+    - Turtleneck
+  Underwear:
+    aliases:
+    - underwear
+    - アンダーウェア
+    - Underwear
+    - 下着
+  Uniform:
+    aliases:
+    - ユニフォーム
+    - Uniform
+    - 制服
+    - uniform
+  Varsity Jacket:
+    aliases:
+    - varsity jacket
+    - Varsity Jacket
+  Veil:
+    aliases:
+    - veil
+    - Veil
+    - ベール
+    - ヴェール
+  Vest:
+    aliases:
+    - ベスト
+    - vest
+    - Vest
+  Wafuku:
+    aliases:
+    - Wafuku
+    - wafuku
+  Wedding Dress:
+    aliases:
+    - Wedding Dress
+    - wedding dress
+    - ウェディングドレス
+  Wide Pants:
+    aliases:
+    - wide pants
+    - Wide Pants
+  Witch Outfit:
+    aliases:
+    - witch outfit
+    - 魔女服
+    - 魔女
+    - Witch Outfit
+  Yukata:
+    aliases:
+    - yukata
+    - Yukata
+    - 浴衣
+platforms:
+  Blender:
+    aliases:
+    - Blender
+    - blender
+  Cluster:
+    aliases:
+    - Cluster
+    - cluster
+  FBX:
+    aliases:
+    - FBX
+    - fbx
+  MMD:
+    aliases:
+    - MMD
+    - mmd
+  Modular Avatar Compatible:
+    aliases:
+    - modular avatar compatible
+    - Modular Avatar Compatible
+  PC Compatible:
+    aliases:
+    - pc compatible
+    - PC Compatible
+  Poiyomi:
+    aliases:
+    - poiyomi
+    - Poiyomi
+  Quest Compatible:
+    aliases:
+    - quest compatible
+    - Quest Compatible
+  SDK3:
+    aliases:
+    - SDK3
+    - sdk3
+  Unity:
+    aliases:
+    - unity
+    - Unity
+  UnityPackage:
+    aliases:
+    - UnityPackage
+    - unitypackage
+  VCC Compatible:
+    aliases:
+    - VCC Compatible
+    - vcc compatible
+  VRChat:
+    aliases:
+    - vrchat
+    - VRChat
+    - vrc
+  VRM:
+    aliases:
+    - vrm
+    - VRM
+  VRoid:
+    aliases:
+    - vroid
+    - VRoid
+  lilToon:
+    aliases:
+    - liltoon
+    - lilToon
+seasons:
+  Autumn:
+    aliases:
+    - autumn
+    - オータム
+    - fall
+    - 秋
+    - 紅葉
+    - Autumn
+  Christmas:
+    aliases:
+    - クリスマス
+    - Christmas
+    - christmas
+  Halloween:
+    aliases:
+    - ハロウィン
+    - Halloween
+    - halloween
+  New Year:
+    aliases:
+    - new year
+    - 新年
+    - 正月
+    - New Year
+  Spring:
+    aliases:
+    - スプリング
+    - spring
+    - 春
+    - Spring
+    - 桜
+  Summer:
+    aliases:
+    - summer
+    - 水着
+    - 夏
+    - Summer
+    - サマー
+  Winter:
+    aliases:
+    - 冬
+    - winter
+    - ウィンター
+    - Winter
+    - 雪
+updated_at: '2026-06-10'
+version: 1

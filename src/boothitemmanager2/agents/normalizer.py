@@ -39,6 +39,14 @@ def _pick_published_at(soup: BeautifulSoup, json_ld: dict[str, Any] | None) -> d
     return None
 
 
+def mask_pii(text: str) -> str:
+    # Minimal masking logic for PII (Zero-Fat)
+    # Masking booth item IDs and shop IDs that could identify individuals
+    masked = re.sub(r"(https?://)[a-z0-9]+\.(booth\.pm)", r"\1[MASKED].\2", text)
+    masked = re.sub(r"(items/)(\d+)", r"\1[MASKED_ID]", masked)
+    return masked
+
+
 def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     import hashlib
 
@@ -57,6 +65,11 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     thumbnail_url = _pick_image(soup, og_data, raw_page.url)
     description = _pick_description(soup, og_data) or ""
     tags_raw = _pick_tags(soup)
+
+    # PII Masking Gateway integration (Zero-Fat)
+    masked_description = mask_pii(description)
+    masked_creator_id = "[MASKED]" if creator_id else "unknown"
+
     targets = pick_targets(title, description, tags_raw, aliases)
     category = infer_category(title, description, tags_raw, targets, aliases)
     tag_set = extract_tag_set(title, description, tags_raw, targets, aliases)
@@ -91,9 +104,9 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
         item_id=item_id,
         source_url=raw_page.url,
         title=title,
-        description=description,
+        description=masked_description,  # Masked
         thumbnail_url=thumbnail_url or "",
-        creator_id=creator_id or "unknown",
+        creator_id=masked_creator_id,  # Masked
         creator_name=creator_name,
         published_at=published_at,
         like_count=like_count,
@@ -124,7 +137,6 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
 def load_aliases() -> dict[str, Any]:
     ontology_dir = os.path.join(os.getcwd(), "ontology")
     if not os.path.exists(ontology_dir):
-        # Fallback to old path if ontology dir doesn't exist yet
         old_path = os.path.join(os.getcwd(), "aliases.yml")
         if os.path.exists(old_path):
             with open(old_path, encoding="utf-8") as f:
@@ -132,31 +144,43 @@ def load_aliases() -> dict[str, Any]:
         return {}
 
     res = {}
-    try:
-        avatars = yaml.safe_load(open(os.path.join(ontology_dir, "avatars.yaml"), encoding="utf-8"))
-        # Map canonical format to old aliases.yml format for backward compatibility
-        res["avatars"] = {}
-        for code, data in avatars.get("avatars", {}).items():
-            res["avatars"][code] = {
-                "name_ja": data.get("canonical_name"),
-                "item_id": data.get("booth_item_id"),
-                "aliases": data.get("aliases", []),
-            }
+    avatars_path = os.path.join(ontology_dir, "avatars.yaml")
+    with open(avatars_path, encoding="utf-8") as f:
+        avatars = yaml.safe_load(f)
+    res["avatars"] = {}
+    for code, data in avatars.get("avatars", {}).items():
+        res["avatars"][code] = {
+            "name_ja": data.get("canonical_name"),
+            "item_id": data.get("booth_item_id"),
+            "aliases": data.get("aliases", []),
+        }
 
-        tags = yaml.safe_load(open(os.path.join(ontology_dir, "tags.yaml"), encoding="utf-8"))
-        res["categories"] = tags.get("categories", {})
-        res["features"] = tags.get("features", {})
+    tags_path = os.path.join(ontology_dir, "tags.yaml")
+    with open(tags_path, encoding="utf-8") as f:
+        tags = yaml.safe_load(f)
+    res["categories"] = tags.get("categories", {})
+    res["features"] = tags.get("features", {})
+    res["components"] = tags.get("components", {})
+    res["outfit_types"] = tags.get("outfit_types", {})
+    res["accessories"] = tags.get("accessories", {})
+    res["appearances"] = tags.get("appearances", {})
+    res["colors"] = tags.get("colors", {})
+    res["body_types"] = tags.get("body_types", {})
+    res["platforms"] = tags.get("platforms", {})
+    res["seasons"] = tags.get("seasons", {})
 
-        styles = yaml.safe_load(open(os.path.join(ontology_dir, "styles.yaml"), encoding="utf-8"))
-        res["styles"] = styles.get("styles", {})
+    styles_path = os.path.join(ontology_dir, "styles.yaml")
+    with open(styles_path, encoding="utf-8") as f:
+        styles = yaml.safe_load(f)
+    res["styles"] = styles.get("styles", {})
 
-    except Exception as e:
-        print(f"⚠️ Warning: Failed to load granular ontology: {e}")
-        # Final fallback
-        old_path = os.path.join(os.getcwd(), "aliases.yml")
-        if os.path.exists(old_path):
-            with open(old_path, encoding="utf-8") as f:
-                return yaml.safe_load(f)
+    rich_path = os.path.join(ontology_dir, "rich_dimensions.yaml")
+    if os.path.exists(rich_path):
+        with open(rich_path, encoding="utf-8") as f:
+            rich_dims = yaml.safe_load(f)
+        res["material_properties"] = rich_dims.get("material_properties", {})
+        res["niche_subcultures"] = rich_dims.get("niche_subcultures", {})
+        res["activity_scenes"] = rich_dims.get("activity_scenes", {})
 
     return res
 
@@ -363,6 +387,9 @@ def extract_tag_set(
         "platform": [],
         "season": [],
         "avatar_link": [t.code for t in targets],
+        "material_property": [],
+        "niche_subculture": [],
+        "activity_scene": [],
     }
 
     # 1. Categories mapping (Sub-categories into appropriate dimensions)
@@ -399,6 +426,76 @@ def extract_tag_set(
         norm_terms = [_norm(t) for t in terms]
         if any(t in text for t in norm_terms):
             res["appearance"].append(comp_code)
+
+    # 5. body_type mapping
+    for bt, data in aliases.get("body_types", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["body_type"].append(bt)
+
+    # 6. color mapping
+    color_text = (
+        text.replace("面白い", "")
+        .replace("面白", "")
+        .replace("告白", "")
+        .replace("青春", "")
+        .replace("赤ちゃん", "")
+        .replace("無茶", "")
+        .replace("滅茶", "")
+    )
+    for col, data in aliases.get("colors", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in color_text for t in terms):
+            res["color"].append(col)
+
+    # 7. platform mapping
+    for plat, data in aliases.get("platforms", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["platform"].append(plat)
+
+    # 8. season mapping
+    season_text = text.replace("青春", "")
+    for seas, data in aliases.get("seasons", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in season_text for t in terms):
+            res["season"].append(seas)
+
+    # 9. outfit_types mapping
+    for ot, data in aliases.get("outfit_types", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["outfit_type"].append(ot)
+
+    # 10. accessories mapping
+    for acc, data in aliases.get("accessories", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["accessory"].append(acc)
+
+    # 11. appearances mapping
+    for app, data in aliases.get("appearances", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["appearance"].append(app)
+
+    # 12. material_properties mapping
+    for mp, data in aliases.get("material_properties", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["material_property"].append(mp)
+
+    # 13. niche_subcultures mapping
+    for ns, data in aliases.get("niche_subcultures", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["niche_subculture"].append(ns)
+
+    # 14. activity_scenes mapping
+    for act, data in aliases.get("activity_scenes", {}).items():
+        terms = [_norm(t) for t in data.get("aliases", [])]
+        if any(t in text for t in terms):
+            res["activity_scene"].append(act)
 
     # Deduplicate
     for key in res:

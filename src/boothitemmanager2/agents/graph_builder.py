@@ -1,5 +1,6 @@
 import json
 import os
+import tempfile
 
 from ..core import TestBlock
 from ..schemas.storage import GraphEdge, GraphNode, Item
@@ -36,11 +37,21 @@ def build_graph(items: list[Item], trace_id: str) -> TestBlock:
     ]
     nodes_path = "data/graph/nodes.json"
     edges_path = "data/graph/edges.json"
-    os.makedirs(os.path.dirname(nodes_path), exist_ok=True)
-    with open(nodes_path, "w", encoding="utf-8") as f:
+    dir_name = os.path.dirname(nodes_path)
+    os.makedirs(dir_name, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        mode="w", dir=dir_name, delete=False, encoding="utf-8", suffix=".tmp"
+    ) as f:
         json.dump(nodes_out, f, ensure_ascii=False, indent=2)
-    with open(edges_path, "w", encoding="utf-8") as f:
+        temp_name = f.name
+    os.replace(temp_name, nodes_path)
+
+    with tempfile.NamedTemporaryFile(
+        mode="w", dir=dir_name, delete=False, encoding="utf-8", suffix=".tmp"
+    ) as f:
         json.dump(edges_out, f, ensure_ascii=False, indent=2)
+        temp_name = f.name
+    os.replace(temp_name, edges_path)
     return TestBlock(
         trace_id=trace_id,
         input=len(items),

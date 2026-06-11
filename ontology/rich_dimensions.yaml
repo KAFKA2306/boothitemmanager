@@ -1,0 +1,43 @@
+version: 1
+updated_at: "2026-06-11"
+
+# Richer dimensions exceeding VRCFinder for VRChat modifications
+material_properties:
+  Leather:
+    aliases: ["レザー", "革", "leather", "皮"]
+  Silk:
+    aliases: ["シルク", "絹", "silk"]
+  Latex:
+    aliases: ["ラテックス", "ゴム", "latex", "rubber"]
+  Knit:
+    aliases: ["ニット", "毛糸", "knit", "編み"]
+  Metallic:
+    aliases: ["メタリック", "金属", "metallic", "metal"]
+  Glossy:
+    aliases: ["光沢", "テカリ", "glossy", "エナメル"]
+  Sheer:
+    aliases: ["シースルー", "透け", "sheer", "透明感", "半透明"]
+
+niche_subcultures:
+  Techwear:
+    aliases: ["テックウェア", "techwear", "サイバーパンク", "cyberpunk"]
+  Steampunk:
+    aliases: ["スチームパンク", "steampunk", "歯車"]
+  TenshiKaiwai:
+    aliases: ["天使界隈", "水色界隈", "tenshi"]
+  Ryousankata:
+    aliases: ["量産型", "量産", "ryousan"]
+  JiraiKei:
+    aliases: ["地雷系", "地雷", "jirai"]
+  RetroFuturism:
+    aliases: ["レトロフューチャー", "retro-futuristic"]
+
+activity_scenes:
+  ClubDJ:
+    aliases: ["クラブ向け", "dj", "発光", "audio-link", "オーディオリンク"]
+  Sleeping:
+    aliases: ["睡眠用", "寝間着", "パジャマ", "リラックス", "sleep"]
+  Photography:
+    aliases: ["撮影向け", "スタジオ用", "フォトスタジオ", "photo"]
+  DailyClothes:
+    aliases: ["普段着", "リアルクローズ", "カジュアル服", "daily"]

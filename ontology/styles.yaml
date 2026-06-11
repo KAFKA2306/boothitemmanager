@@ -1,13 +1,541 @@
-
-version: 1
-updated_at: "2026-06-10"
 styles:
-  Street: ["ストリート", "street", "カジュアル", "casual"]
-  Gothic: ["ゴシック", "gothic", "ゴス"]
-  Lolita: ["ロリータ", "lolita", "甘ロリ", "黒ロリ"]
-  Cyber: ["サイバー", "cyber", "テックウェア", "techwear"]
-  Japanese: ["和風", "japanese", "和装", "着物", "浴衣"]
-  Fantasy: ["ファンタジー", "fantasy", "魔道士", "騎士"]
-  Military: ["ミリタリー", "military", "軍服"]
-  Jirai: ["地雷", "地雷系", "jirai"]
-  Tenshi: ["天使", "angel", "サブカル"]
+  American Casual:
+  - American Casual
+  - american casual
+  Androgynous:
+  - Androgynous
+  - androgynous
+  Animal Motif:
+  - animal motif
+  - アニマル
+  - 動物
+  - Animal Motif
+  Anime:
+  - anime
+  - アニメ
+  - Anime
+  Antique:
+  - アンティーク
+  - antique
+  - Antique
+  Art:
+  - art
+  - Art
+  Battle:
+  - battle
+  - Battle
+  Bewitching:
+  - bewitching
+  - Bewitching
+  Bondage:
+  - bondage
+  - Bondage
+  Boyish:
+  - ボーイッシュ
+  - boyish
+  - Boyish
+  Cafe:
+  - cafe
+  - Cafe
+  Calm:
+  - calm
+  - Calm
+  Cartoon:
+  - cartoon
+  - Cartoon
+  Casual:
+  - カジュアル
+  - Casual
+  - casual
+  Chic:
+  - Chic
+  - chic
+  Chinese Style:
+  - Chinese Style
+  - chinese style
+  Chuunibyou:
+  - chuunibyou
+  - Chuunibyou
+  Classic:
+  - classic
+  - Classic
+  Classical:
+  - Classical
+  - クラシカル
+  - classical
+  - クラシック
+  Clean Style:
+  - clean style
+  - Clean Style
+  Colorful:
+  - colorful
+  - Colorful
+  Comical:
+  - Comical
+  - comical
+  Cool:
+  - 格好いい
+  - クール
+  - Cool
+  - かっこいい
+  - cool
+  Cosplay:
+  - Cosplay
+  - cosplay
+  Cute:
+  - キュート
+  - cute
+  - Cute
+  - かわいい
+  - 可愛い
+  Cyber:
+  - cyber
+  - サイバー
+  - techwear
+  - Cyber
+  - テックウェア
+  Cyberpunk:
+  - Cyberpunk
+  - サイバーパンク
+  - cyberpunk
+  Daily:
+  - Daily
+  - daily
+  Dark:
+  - ダーク
+  - dark
+  - Dark
+  - 闇
+  Decora:
+  - Decora
+  - decora
+  Doll:
+  - doll
+  - Doll
+  Elegant:
+  - エレガント
+  - elegant
+  - Elegant
+  Emo:
+  - Emo
+  - emo
+  Energetic:
+  - energetic
+  - Energetic
+  Ethereal:
+  - ethereal
+  - Ethereal
+  Ethnic:
+  - ethnic
+  - Ethnic
+  Everyday:
+  - everyday
+  - Everyday
+  Exotic:
+  - exotic
+  - Exotic
+  Fairy:
+  - fairy
+  - Fairy
+  Fairytale:
+  - Fairytale
+  - fairytale
+  Fancy:
+  - ファンシー
+  - fancy
+  - Fancy
+  Fantastical:
+  - Fantastical
+  - fantastical
+  Fantasy:
+  - fantasy
+  - 魔道士
+  - 騎士
+  - Fantasy
+  - ファンタジー
+  Fashionable:
+  - fashionable
+  - Fashionable
+  Feminine:
+  - feminine
+  - フェミニン
+  - Feminine
+  Fetish:
+  - fetish
+  - Fetish
+  Fluffy:
+  - Fluffy
+  - fluffy
+  For Men:
+  - for men
+  - For Men
+  Formal:
+  - Formal
+  - フォーマル
+  - formal
+  Funny:
+  - Funny
+  - funny
+  Game:
+  - Game
+  - game
+  Girly:
+  - Girly
+  - girly
+  - ガーリー
+  Glamorous:
+  - glamorous
+  - Glamorous
+  Gorgeous:
+  - gorgeous
+  - Gorgeous
+  Gothic:
+  - gothic
+  - Gothic
+  - ゴシック
+  - ゴス
+  Gothic Lolita:
+  - gothic lolita
+  - Gothic Lolita
+  Grunge:
+  - grunge
+  - Grunge
+  Gyaru:
+  - gyaru
+  - ギャル
+  - Gyaru
+  Harajuku Style:
+  - Harajuku Style
+  - harajuku style
+  Healing:
+  - Healing
+  - healing
+  Heartwarming:
+  - Heartwarming
+  - heartwarming
+  Horror:
+  - horror
+  - Horror
+  - ホラー
+  Humor:
+  - Humor
+  - humor
+  Idol:
+  - Idol
+  - idol
+  - アイドル
+  Industrial:
+  - industrial
+  - Industrial
+  Intellectual:
+  - intellectual
+  - Intellectual
+  Japanese:
+  - 和風
+  - japanese
+  - 和装
+  - 着物
+  - 浴衣
+  Japanese Style:
+  - japanese style
+  - 和装
+  - Japanese Style
+  - 和風
+  Jirai:
+  - 地雷
+  - 地雷系
+  - jirai
+  Jirai Kei:
+  - 地雷系
+  - jirai kei
+  - 地雷
+  - Jirai Kei
+  Joke:
+  - joke
+  - Joke
+  Kemono:
+  - ケモノ
+  - Kemono
+  - kemono
+  Korean Style:
+  - korean style
+  - Korean Style
+  Laid-back Cute:
+  - laid-back cute
+  - Laid-back Cute
+  Little Devil:
+  - Little Devil
+  - little devil
+  Lolita:
+  - ロリータ
+  - Lolita
+  - 黒ロリ
+  - lolita
+  - 甘ロリ
+  Lovely:
+  - lovely
+  - Lovely
+  Luxury:
+  - luxury
+  - Luxury
+  Magic:
+  - magic
+  - Magic
+  Magical Girl:
+  - magical girl
+  - Magical Girl
+  Maid:
+  - Maid
+  - メイド
+  - maid
+  Marine:
+  - marine
+  - Marine
+  Mature:
+  - お姉さん
+  - Mature
+  - 大人っぽい
+  - mature
+  Mecha:
+  - mecha
+  - Mecha
+  - ロボ
+  - メカ
+  Mechanical:
+  - mechanical
+  - Mechanical
+  Medieval:
+  - Medieval
+  - medieval
+  Military:
+  - 軍服
+  - ミリタリー
+  - military
+  - Military
+  Minimal:
+  - Minimal
+  - minimal
+  Mode:
+  - mode
+  - Mode
+  Modern:
+  - modern
+  - Modern
+  Modest:
+  - modest
+  - Modest
+  Mori Girl:
+  - mori girl
+  - Mori Girl
+  Mysterious:
+  - mysterious
+  - Mysterious
+  Mystical:
+  - mystical
+  - Mystical
+  Natural:
+  - Natural
+  - ナチュラル
+  - natural
+  Near-Future:
+  - Near-Future
+  - 近未来
+  - near-future
+  Neon:
+  - Neon
+  - ネオン
+  - neon
+  Ninja:
+  - Ninja
+  - ninja
+  Nostalgic:
+  - Nostalgic
+  - nostalgic
+  Ojou-sama:
+  - ojou-sama
+  - Ojou-sama
+  Onee-san Style:
+  - onee-san style
+  - Onee-san Style
+  Pastel:
+  - pastel
+  - パステル
+  - Pastel
+  Pop:
+  - pop
+  - ポップ
+  - Pop
+  Post-Apocalyptic:
+  - post-apocalyptic
+  - Post-Apocalyptic
+  Practical:
+  - Practical
+  - practical
+  Premium Feel:
+  - Premium Feel
+  - premium feel
+  Preppy:
+  - preppy
+  - Preppy
+  Princess:
+  - Princess
+  - princess
+  - プリンセス
+  Punk:
+  - Punk
+  - punk
+  Real Clothes:
+  - real clothes
+  - Real Clothes
+  Realistic:
+  - Realistic
+  - realistic
+  - リアル
+  Refined:
+  - refined
+  - きれいめ
+  - Refined
+  Refreshing:
+  - Refreshing
+  - refreshing
+  Relaxed:
+  - relaxed
+  - Relaxed
+  Religious:
+  - Religious
+  - religious
+  Resort:
+  - resort
+  - Resort
+  Retro:
+  - Retro
+  - retro
+  Retro-Futuristic:
+  - retro-futuristic
+  - Retro-Futuristic
+  Rock:
+  - rock
+  - Rock
+  Romantic:
+  - Romantic
+  - romantic
+  Ryousankata:
+  - 量産型
+  - ryousankata
+  - Ryousankata
+  School:
+  - スクール
+  - 学生
+  - School
+  - school
+  Sci-Fi:
+  - サイファイ
+  - sci-fi
+  - Sci-Fi
+  - sf
+  Sexy:
+  - sexy
+  - Sexy
+  - セクシー
+  - えち
+  Simple:
+  - Simple
+  - simple
+  - シンプル
+  Soft & Relaxed:
+  - Soft & Relaxed
+  - soft & relaxed
+  Space:
+  - Space
+  - 宇宙
+  - space
+  - スペース
+  Sparkly:
+  - Sparkly
+  - sparkly
+  Sporty:
+  - スポーティー
+  - Sporty
+  - sporty
+  Steampunk:
+  - steampunk
+  - Steampunk
+  - スチームパンク
+  Street:
+  - ストリート
+  - Street
+  - street
+  - カジュアル
+  - casual
+  Stylish:
+  - stylish
+  - Stylish
+  Subculture:
+  - Subculture
+  - サブカル
+  - subculture
+  Surreal:
+  - Surreal
+  - surreal
+  Sweets:
+  - sweets
+  - Sweets
+  Tactical:
+  - tactical
+  - Tactical
+  - タクティカル
+  Taisho Roman:
+  - taisho roman
+  - Taisho Roman
+  Techwear:
+  - techwear
+  - テックウェア
+  - Techwear
+  Tenshi:
+  - 天使
+  - angel
+  - サブカル
+  Unique:
+  - Unique
+  - unique
+  Unisex:
+  - Unisex
+  - unisex
+  Valentine:
+  - valentine
+  - Valentine
+  Vampire:
+  - Vampire
+  - ヴァンパイア
+  - 吸血鬼
+  - vampire
+  Vintage:
+  - vintage
+  - Vintage
+  - ヴィンテージ
+  Wedding:
+  - ブライダル
+  - wedding
+  - Wedding
+  - ウェディング
+  Western:
+  - western
+  - Western
+  Wild:
+  - Wild
+  - wild
+  Y2K:
+  - y2k
+  - Y2K
+  Yami Kawaii:
+  - 病みかわいい
+  - Yami Kawaii
+  - 病みかわ
+  - yami kawaii
+  Yume Kawaii:
+  - ゆめかわ
+  - ゆめかわいい
+  - Yume Kawaii
+  - yume kawaii
+updated_at: '2026-06-10'
+version: 1
