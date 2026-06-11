@@ -21,10 +21,10 @@
     }
   },
   {
-    "id": "tag:Anime",
+    "id": "tag:Animation",
     "label": "Tag",
     "properties": {
-      "name": "tag:Anime"
+      "name": "tag:Animation"
     }
   },
   {
@@ -35,10 +35,10 @@
     }
   },
   {
-    "id": "tag:Animation",
+    "id": "tag:Anime",
     "label": "Tag",
     "properties": {
-      "name": "tag:Animation"
+      "name": "tag:Anime"
     }
   },
   {
@@ -133,17 +133,17 @@
     }
   },
   {
-    "id": "tag:PhysBone",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:PhysBone"
-    }
-  },
-  {
     "id": "tag:ModularAvatar",
     "label": "Tag",
     "properties": {
       "name": "tag:ModularAvatar"
+    }
+  },
+  {
+    "id": "tag:PhysBone",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:PhysBone"
     }
   },
   {
@@ -469,17 +469,17 @@
     }
   },
   {
-    "id": "tag:Winter",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Winter"
-    }
-  },
-  {
     "id": "tag:Mafuyu",
     "label": "Tag",
     "properties": {
       "name": "tag:Mafuyu"
+    }
+  },
+  {
+    "id": "tag:Winter",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Winter"
     }
   },
   {
@@ -560,17 +560,17 @@
     }
   },
   {
-    "id": "tag:set",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:set"
-    }
-  },
-  {
     "id": "tag:Hood",
     "label": "Tag",
     "properties": {
       "name": "tag:Hood"
+    }
+  },
+  {
+    "id": "tag:set",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:set"
     }
   },
   {
@@ -819,17 +819,17 @@
     }
   },
   {
-    "id": "tag:Rusk",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Rusk"
-    }
-  },
-  {
     "id": "tag:Obi",
     "label": "Tag",
     "properties": {
       "name": "tag:Obi"
+    }
+  },
+  {
+    "id": "tag:Rusk",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Rusk"
     }
   },
   {
@@ -847,17 +847,17 @@
     }
   },
   {
-    "id": "tag:Sailor",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Sailor"
-    }
-  },
-  {
     "id": "tag:Maid",
     "label": "Tag",
     "properties": {
       "name": "tag:Maid"
+    }
+  },
+  {
+    "id": "tag:Sailor",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Sailor"
     }
   },
   {
@@ -1232,6 +1232,13 @@
     }
   },
   {
+    "id": "tag:Classic",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Classic"
+    }
+  },
+  {
     "id": "tag:Chic",
     "label": "Tag",
     "properties": {
@@ -1243,13 +1250,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Classical"
-    }
-  },
-  {
-    "id": "tag:Classic",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Classic"
     }
   },
   {
@@ -1337,17 +1337,17 @@
     }
   },
   {
-    "id": "tag:Religious",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Religious"
-    }
-  },
-  {
     "id": "tag:Nun Outfit",
     "label": "Tag",
     "properties": {
       "name": "tag:Nun Outfit"
+    }
+  },
+  {
+    "id": "tag:Religious",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Religious"
     }
   },
   {
@@ -1365,17 +1365,17 @@
     }
   },
   {
-    "id": "tag:Short Pants",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Short Pants"
-    }
-  },
-  {
     "id": "tag:Shorts",
     "label": "Tag",
     "properties": {
       "name": "tag:Shorts"
+    }
+  },
+  {
+    "id": "tag:Short Pants",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Short Pants"
     }
   },
   {
@@ -1701,17 +1701,17 @@
     }
   },
   {
-    "id": "tag:Emo",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Emo"
-    }
-  },
-  {
     "id": "tag:Game",
     "label": "Tag",
     "properties": {
       "name": "tag:Game"
+    }
+  },
+  {
+    "id": "tag:Emo",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Emo"
     }
   },
   {
@@ -1743,10 +1743,10 @@
     }
   },
   {
-    "id": "tag:Female",
+    "id": "tag:Male",
     "label": "Tag",
     "properties": {
-      "name": "tag:Female"
+      "name": "tag:Male"
     }
   },
   {
@@ -1757,10 +1757,10 @@
     }
   },
   {
-    "id": "tag:Male",
+    "id": "tag:Female",
     "label": "Tag",
     "properties": {
-      "name": "tag:Male"
+      "name": "tag:Female"
     }
   },
   {
@@ -2023,17 +2023,17 @@
     }
   },
   {
-    "id": "tag:Lavender",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Lavender"
-    }
-  },
-  {
     "id": "tag:Braid",
     "label": "Tag",
     "properties": {
       "name": "tag:Braid"
+    }
+  },
+  {
+    "id": "tag:Lavender",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Lavender"
     }
   },
   {
@@ -2107,17 +2107,17 @@
     }
   },
   {
-    "id": "tag:Angel",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Angel"
-    }
-  },
-  {
     "id": "tag:Tenshi",
     "label": "Tag",
     "properties": {
       "name": "tag:Tenshi"
+    }
+  },
+  {
+    "id": "tag:Angel",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Angel"
     }
   },
   {
@@ -3759,17 +3759,17 @@
     }
   },
   {
-    "id": "tag:Dark",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Dark"
-    }
-  },
-  {
     "id": "tag:Nails",
     "label": "Tag",
     "properties": {
       "name": "tag:Nails"
+    }
+  },
+  {
+    "id": "tag:Dark",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Dark"
     }
   },
   {
@@ -4144,17 +4144,17 @@
     }
   },
   {
-    "id": "tag:DailyClothes",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:DailyClothes"
-    }
-  },
-  {
     "id": "tag:Daily",
     "label": "Tag",
     "properties": {
       "name": "tag:Daily"
+    }
+  },
+  {
+    "id": "tag:DailyClothes",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:DailyClothes"
     }
   },
   {
@@ -4599,17 +4599,17 @@
     }
   },
   {
-    "id": "tag:Yami Kawaii",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Yami Kawaii"
-    }
-  },
-  {
     "id": "tag:Yume Kawaii",
     "label": "Tag",
     "properties": {
       "name": "tag:Yume Kawaii"
+    }
+  },
+  {
+    "id": "tag:Yami Kawaii",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Yami Kawaii"
     }
   },
   {
@@ -4907,17 +4907,17 @@
     }
   },
   {
-    "id": "tag:Skirt",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Skirt"
-    }
-  },
-  {
     "id": "tag:Blouse",
     "label": "Tag",
     "properties": {
       "name": "tag:Blouse"
+    }
+  },
+  {
+    "id": "tag:Skirt",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Skirt"
     }
   },
   {
@@ -7427,17 +7427,17 @@
     }
   },
   {
-    "id": "tag:Suit",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Suit"
-    }
-  },
-  {
     "id": "tag:Wild",
     "label": "Tag",
     "properties": {
       "name": "tag:Wild"
+    }
+  },
+  {
+    "id": "tag:Suit",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Suit"
     }
   },
   {
@@ -7455,17 +7455,17 @@
     }
   },
   {
-    "id": "tag:Chalo",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Chalo"
-    }
-  },
-  {
     "id": "tag:Halo",
     "label": "Tag",
     "properties": {
       "name": "tag:Halo"
+    }
+  },
+  {
+    "id": "tag:Chalo",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Chalo"
     }
   },
   {
@@ -8673,17 +8673,17 @@
     }
   },
   {
-    "id": "tag:Velle",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Velle"
-    }
-  },
-  {
     "id": "tag:Veil",
     "label": "Tag",
     "properties": {
       "name": "tag:Veil"
+    }
+  },
+  {
+    "id": "tag:Velle",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Velle"
     }
   },
   {
@@ -18774,6 +18774,13 @@
     }
   },
   {
+    "id": "tag:Jirai Kei",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Jirai Kei"
+    }
+  },
+  {
     "id": "tag:Jirai",
     "label": "Tag",
     "properties": {
@@ -18785,13 +18792,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:JiraiKei"
-    }
-  },
-  {
-    "id": "tag:Jirai Kei",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Jirai Kei"
     }
   },
   {
@@ -22827,17 +22827,17 @@
     }
   },
   {
-    "id": "tag:Leather",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Leather"
-    }
-  },
-  {
     "id": "tag:Hooded",
     "label": "Tag",
     "properties": {
       "name": "tag:Hooded"
+    }
+  },
+  {
+    "id": "tag:Leather",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Leather"
     }
   },
   {
@@ -25921,17 +25921,17 @@
     }
   },
   {
-    "id": "tag:Sporty",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Sporty"
-    }
-  },
-  {
     "id": "tag:Maya",
     "label": "Tag",
     "properties": {
       "name": "tag:Maya"
+    }
+  },
+  {
+    "id": "tag:Sporty",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Sporty"
     }
   },
   {
@@ -172613,17 +172613,17 @@
     }
   },
   {
-    "id": "tag:bottoms",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:bottoms"
-    }
-  },
-  {
     "id": "tag:Bottoms",
     "label": "Tag",
     "properties": {
       "name": "tag:Bottoms"
+    }
+  },
+  {
+    "id": "tag:bottoms",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:bottoms"
     }
   },
   {
