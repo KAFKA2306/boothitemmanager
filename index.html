@@ -1090,8 +1090,8 @@
             const firstAvatar = rawTargets.length > 0 ? (typeof rawTargets[0] === 'string' ? rawTargets[0] : (rawTargets[0].name || rawTargets[0].code)) : '';
             
             const sanitizeQuery = (q) => {
-                return q.replace(/\b(sexy|skin|naked|nude|boobs|adult|r-18|sex|breast|underwear|panties|bra)\b/gi, '')
-                        .replace(/(セクシー|肌|裸|エロ|下着|パンツ|胸)/g, '')
+                return q.replace(/(sexy|skin|naked|nude|boobs|adult|r-18|sex|breast|underwear|panties|bra|body|harness|bondage|erotic|vulva|penis|butt|ass|oppai)/gi, '')
+                        .replace(/(セクシー|肌|裸|エロ|下着|パンツ|胸|ボディ|ハーネス|ボンデージ|おっぱい|尻)/g, '')
                         .replace(/\s+/g, ' ').trim();
             };
 
