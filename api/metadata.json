@@ -88,12 +88,56 @@
   ],
   "categories": [
     {
+      "code": "ACCESSORY",
+      "aliases": [
+        "アクセサリ",
+        "accessory",
+        "小物",
+        "item",
+        "prop"
+      ],
+      "sub_categories": [
+        "head",
+        "face",
+        "ear",
+        "hand",
+        "foot",
+        "weapon"
+      ]
+    },
+    {
       "code": "AVATAR",
       "aliases": [
         "アバター",
         "avatar",
         "3Dキャラクター",
         "オリジナル3Dモデル"
+      ],
+      "sub_categories": []
+    },
+    {
+      "code": "GIMMICK_TOOL",
+      "aliases": [
+        "ギミック",
+        "gimmick",
+        "tool",
+        "システム",
+        "system",
+        "script",
+        "MA対応",
+        "VRCFury"
+      ],
+      "sub_categories": []
+    },
+    {
+      "code": "HAIRSTYLE",
+      "aliases": [
+        "髪型",
+        "ヘアスタイル",
+        "hairstyle",
+        "hair",
+        "髪",
+        "ウィッグ"
       ],
       "sub_categories": []
     },
@@ -117,36 +161,6 @@
       ]
     },
     {
-      "code": "ACCESSORY",
-      "aliases": [
-        "アクセサリ",
-        "accessory",
-        "小物",
-        "item",
-        "prop"
-      ],
-      "sub_categories": [
-        "head",
-        "face",
-        "ear",
-        "hand",
-        "foot",
-        "weapon"
-      ]
-    },
-    {
-      "code": "HAIRSTYLE",
-      "aliases": [
-        "髪型",
-        "ヘアスタイル",
-        "hairstyle",
-        "hair",
-        "髪",
-        "ウィッグ"
-      ],
-      "sub_categories": []
-    },
-    {
       "code": "TEXTURE",
       "aliases": [
         "テクスチャ",
@@ -160,23 +174,142 @@
         "メイク"
       ],
       "sub_categories": []
-    },
-    {
-      "code": "GIMMICK_TOOL",
-      "aliases": [
-        "ギミック",
-        "gimmick",
-        "tool",
-        "システム",
-        "system",
-        "script",
-        "MA対応",
-        "VRCFury"
-      ],
-      "sub_categories": []
     }
   ],
   "features": [
+    {
+      "code": "AFK Motion",
+      "aliases": [
+        "afk motion",
+        "AFK Motion"
+      ]
+    },
+    {
+      "code": "AudioLink Compatible",
+      "aliases": [
+        "audiolink compatible",
+        "AudioLink Compatible"
+      ]
+    },
+    {
+      "code": "Blend Shape",
+      "aliases": [
+        "Blend Shape",
+        "blend shape"
+      ]
+    },
+    {
+      "code": "Dance Animation",
+      "aliases": [
+        "dance animation",
+        "Dance Animation"
+      ]
+    },
+    {
+      "code": "Desktop Compatible",
+      "aliases": [
+        "Desktop Compatible",
+        "desktop compatible"
+      ]
+    },
+    {
+      "code": "Emote",
+      "aliases": [
+        "emote",
+        "Emote"
+      ]
+    },
+    {
+      "code": "Expression Animation",
+      "aliases": [
+        "Expression Animation",
+        "expression animation"
+      ]
+    },
+    {
+      "code": "Eye Tracking",
+      "aliases": [
+        "eye tracking",
+        "Eye Tracking"
+      ]
+    },
+    {
+      "code": "Face Tracking",
+      "aliases": [
+        "face tracking",
+        "Face Tracking"
+      ]
+    },
+    {
+      "code": "FaceEmo Compatible",
+      "aliases": [
+        "FaceEmo Compatible",
+        "faceemo compatible"
+      ]
+    },
+    {
+      "code": "For Photography",
+      "aliases": [
+        "For Photography",
+        "for photography"
+      ]
+    },
+    {
+      "code": "Full Body Tracking Compatible",
+      "aliases": [
+        "Full Body Tracking Compatible",
+        "full body tracking compatible"
+      ]
+    },
+    {
+      "code": "Gesture Linked",
+      "aliases": [
+        "Gesture Linked",
+        "gesture linked"
+      ]
+    },
+    {
+      "code": "Hand Sign Linked",
+      "aliases": [
+        "Hand Sign Linked",
+        "hand sign linked"
+      ]
+    },
+    {
+      "code": "Humanoid Compatible",
+      "aliases": [
+        "humanoid compatible",
+        "Humanoid Compatible"
+      ]
+    },
+    {
+      "code": "Lip Sync",
+      "aliases": [
+        "Lip Sync",
+        "lip sync"
+      ]
+    },
+    {
+      "code": "Mirror",
+      "aliases": [
+        "Mirror",
+        "mirror"
+      ]
+    },
+    {
+      "code": "Mochifitter Compatible",
+      "aliases": [
+        "mochifitter compatible",
+        "Mochifitter Compatible"
+      ]
+    },
+    {
+      "code": "Modular Avatar Compatible",
+      "aliases": [
+        "Modular Avatar Compatible",
+        "modular avatar compatible"
+      ]
+    },
     {
       "code": "ModularAvatar",
       "aliases": [
@@ -187,10 +320,17 @@
       ]
     },
     {
-      "code": "VRCFury",
+      "code": "PSD Included",
       "aliases": [
-        "VRCFury",
-        "Fury"
+        "psd included",
+        "PSD Included"
+      ]
+    },
+    {
+      "code": "Particle",
+      "aliases": [
+        "particle",
+        "Particle"
       ]
     },
     {
@@ -203,12 +343,145 @@
       ]
     },
     {
+      "code": "PhysBone Compatible",
+      "aliases": [
+        "physbone compatible",
+        "PhysBone Compatible"
+      ]
+    },
+    {
+      "code": "PhysBone Physics",
+      "aliases": [
+        "PhysBone Physics",
+        "physbone physics"
+      ]
+    },
+    {
+      "code": "Pickupable",
+      "aliases": [
+        "pickupable",
+        "Pickupable"
+      ]
+    },
+    {
+      "code": "Poiyomi",
+      "aliases": [
+        "Poiyomi",
+        "Poi"
+      ]
+    },
+    {
+      "code": "Poiyomi Compatible",
+      "aliases": [
+        "poiyomi compatible",
+        "Poiyomi Compatible"
+      ]
+    },
+    {
+      "code": "Pose Animation",
+      "aliases": [
+        "Pose Animation",
+        "pose animation"
+      ]
+    },
+    {
+      "code": "Quest Compatible",
+      "aliases": [
+        "quest compatible",
+        "Quest Compatible"
+      ]
+    },
+    {
       "code": "QuestCompatible",
       "aliases": [
         "Quest対応",
         "Android対応",
         "Quest",
         "Android"
+      ]
+    },
+    {
+      "code": "Shader",
+      "aliases": [
+        "Shader",
+        "shader"
+      ]
+    },
+    {
+      "code": "Shape Key",
+      "aliases": [
+        "Shape Key",
+        "shape key"
+      ]
+    },
+    {
+      "code": "Sittable",
+      "aliases": [
+        "Sittable",
+        "sittable"
+      ]
+    },
+    {
+      "code": "Synced",
+      "aliases": [
+        "synced",
+        "Synced"
+      ]
+    },
+    {
+      "code": "Udon",
+      "aliases": [
+        "Udon",
+        "udon"
+      ]
+    },
+    {
+      "code": "VRCFT Compatible",
+      "aliases": [
+        "VRCFT Compatible",
+        "vrcft compatible"
+      ]
+    },
+    {
+      "code": "VRCFury",
+      "aliases": [
+        "VRCFury",
+        "Fury"
+      ]
+    },
+    {
+      "code": "VRCFury Compatible",
+      "aliases": [
+        "vrcfury compatible",
+        "VRCFury Compatible"
+      ]
+    },
+    {
+      "code": "VRM Compatible",
+      "aliases": [
+        "VRM Compatible",
+        "vrm compatible"
+      ]
+    },
+    {
+      "code": "Warp",
+      "aliases": [
+        "Warp",
+        "warp"
+      ]
+    },
+    {
+      "code": "World Fixed",
+      "aliases": [
+        "world fixed",
+        "World Fixed"
+      ]
+    },
+    {
+      "code": "World Gimmick",
+      "aliases": [
+        "World Gimmick",
+        "world gimmick"
       ]
     },
     {
@@ -219,45 +492,696 @@
       ]
     },
     {
-      "code": "Poiyomi",
+      "code": "lilToon Compatible",
       "aliases": [
-        "Poiyomi",
-        "Poi"
+        "liltoon compatible",
+        "lilToon Compatible"
       ]
     }
   ],
   "styles": [
-    "Street",
-    "Gothic",
-    "Lolita",
+    "American Casual",
+    "Androgynous",
+    "Animal Motif",
+    "Anime",
+    "Antique",
+    "Art",
+    "Battle",
+    "Bewitching",
+    "Bondage",
+    "Boyish",
+    "Cafe",
+    "Calm",
+    "Cartoon",
+    "Casual",
+    "Chic",
+    "Chinese Style",
+    "Chuunibyou",
+    "Classic",
+    "Classical",
+    "Clean Style",
+    "Colorful",
+    "Comical",
+    "Cool",
+    "Cosplay",
+    "Cute",
     "Cyber",
-    "Japanese",
+    "Cyberpunk",
+    "Daily",
+    "Dark",
+    "Decora",
+    "Doll",
+    "Elegant",
+    "Emo",
+    "Energetic",
+    "Ethereal",
+    "Ethnic",
+    "Everyday",
+    "Exotic",
+    "Fairy",
+    "Fairytale",
+    "Fancy",
+    "Fantastical",
     "Fantasy",
-    "Military",
+    "Fashionable",
+    "Feminine",
+    "Fetish",
+    "Fluffy",
+    "For Men",
+    "Formal",
+    "Funny",
+    "Game",
+    "Girly",
+    "Glamorous",
+    "Gorgeous",
+    "Gothic",
+    "Gothic Lolita",
+    "Grunge",
+    "Gyaru",
+    "Harajuku Style",
+    "Healing",
+    "Heartwarming",
+    "Horror",
+    "Humor",
+    "Idol",
+    "Industrial",
+    "Intellectual",
+    "Japanese",
+    "Japanese Style",
     "Jirai",
-    "Tenshi"
+    "Jirai Kei",
+    "Joke",
+    "Kemono",
+    "Korean Style",
+    "Laid-back Cute",
+    "Little Devil",
+    "Lolita",
+    "Lovely",
+    "Luxury",
+    "Magic",
+    "Magical Girl",
+    "Maid",
+    "Marine",
+    "Mature",
+    "Mecha",
+    "Mechanical",
+    "Medieval",
+    "Military",
+    "Minimal",
+    "Mode",
+    "Modern",
+    "Modest",
+    "Mori Girl",
+    "Mysterious",
+    "Mystical",
+    "Natural",
+    "Near-Future",
+    "Neon",
+    "Ninja",
+    "Nostalgic",
+    "Ojou-sama",
+    "Onee-san Style",
+    "Pastel",
+    "Pop",
+    "Post-Apocalyptic",
+    "Practical",
+    "Premium Feel",
+    "Preppy",
+    "Princess",
+    "Punk",
+    "Real Clothes",
+    "Realistic",
+    "Refined",
+    "Refreshing",
+    "Relaxed",
+    "Religious",
+    "Resort",
+    "Retro",
+    "Retro-Futuristic",
+    "Rock",
+    "Romantic",
+    "Ryousankata",
+    "School",
+    "Sci-Fi",
+    "Sexy",
+    "Simple",
+    "Soft & Relaxed",
+    "Space",
+    "Sparkly",
+    "Sporty",
+    "Steampunk",
+    "Street",
+    "Stylish",
+    "Subculture",
+    "Surreal",
+    "Sweets",
+    "Tactical",
+    "Taisho Roman",
+    "Techwear",
+    "Tenshi",
+    "Unique",
+    "Unisex",
+    "Valentine",
+    "Vampire",
+    "Vintage",
+    "Wedding",
+    "Western",
+    "Wild",
+    "Y2K",
+    "Yami Kawaii",
+    "Yume Kawaii"
   ],
   "colors": [
-    "赤",
-    "青",
-    "ピンク",
-    "モノトーン",
-    "黒",
-    "白",
-    "緑",
-    "黄",
-    "紫",
-    "オレンジ",
-    "茶",
-    "金",
-    "銀",
-    "シアン",
-    "マゼンタ",
-    "ライム",
-    "ティール",
-    "ネイビー",
-    "ベージュ",
-    "グレー"
+    "Beige",
+    "Black",
+    "Blue",
+    "Bordeaux",
+    "Brown",
+    "Charcoal",
+    "Cream",
+    "Cyan",
+    "Gold",
+    "Gray",
+    "Green",
+    "Ivory",
+    "Khaki",
+    "Lavender",
+    "Light Blue",
+    "Magenta",
+    "Mint",
+    "Navy",
+    "Neon",
+    "Orange",
+    "Pastel",
+    "Pink",
+    "Purple",
+    "Red",
+    "Silver",
+    "Turquoise",
+    "White",
+    "Yellow"
   ],
-  "updated_at": "2026-06-10"
+  "outfit_types": [
+    "Apron",
+    "Apron Dress",
+    "Armor",
+    "Babydoll",
+    "Bath Towel",
+    "Battle Outfit",
+    "Belt",
+    "Beret",
+    "Bikini",
+    "Blazer",
+    "Bloomers",
+    "Blouse",
+    "Blouson",
+    "Bodysuit",
+    "Bolero",
+    "Bondage",
+    "Boots",
+    "Bottoms",
+    "Bra Top",
+    "Bunny Suit",
+    "Bustier",
+    "Camisole",
+    "Cap",
+    "Cape",
+    "Cardigan",
+    "Cargo Pants",
+    "China Dress",
+    "Cloak",
+    "Coat",
+    "Corset",
+    "Costume",
+    "Crop Top",
+    "Denim",
+    "Distressed Jeans",
+    "Down Jacket",
+    "Dress",
+    "Dress Shirt",
+    "Duffle Coat",
+    "Dungarees",
+    "Fishnet Tights",
+    "Flare Skirt",
+    "Frill",
+    "Frill Skirt",
+    "Frilled Dress",
+    "Frilled One-Piece",
+    "Fur Coat",
+    "Furisode",
+    "Garter",
+    "Garter Belt",
+    "Gloves",
+    "Gothic Dress",
+    "Hakama",
+    "Half Pants",
+    "Halterneck",
+    "Hanbok",
+    "Haori",
+    "Harness",
+    "Hat",
+    "Headdress",
+    "Heels",
+    "High Heels",
+    "High Neck",
+    "High-Leg",
+    "Hooded",
+    "Hoodie",
+    "Hot Pants",
+    "Idol Outfit",
+    "Innerwear",
+    "Jacket",
+    "Japanese Clothing",
+    "Jeans",
+    "Jersey",
+    "Jumper Skirt",
+    "Jumpsuit",
+    "Kigurumi",
+    "Kimono",
+    "Knee-High",
+    "Knee-High Boots",
+    "Knee-High Socks",
+    "Knit",
+    "Knit Dress",
+    "Lab Coat",
+    "Lace",
+    "Layered",
+    "Leather Jacket",
+    "Leg Warmers",
+    "Leggings",
+    "Leotard",
+    "Lingerie",
+    "Loafers",
+    "Long Boots",
+    "Long Coat",
+    "Long Dress",
+    "Long Skirt",
+    "Loose Socks",
+    "Loungewear",
+    "Maid Outfit",
+    "Matching Set",
+    "Micro Bikini",
+    "Miko Outfit",
+    "Military Uniform",
+    "Mini Dress",
+    "Miniskirt",
+    "Necktie",
+    "Negligee",
+    "Nun Habit",
+    "Nun Outfit",
+    "Nurse Outfit",
+    "Off-Shoulder",
+    "One-Piece Dress",
+    "One-Piece Swimsuit",
+    "Outerwear",
+    "Overalls",
+    "Oversized",
+    "Pajamas",
+    "Pants",
+    "Plaid Skirt",
+    "Platform Boots",
+    "Pleated Skirt",
+    "Poncho",
+    "Pumps",
+    "Racing Swimsuit",
+    "Raincoat",
+    "Robe",
+    "Rubber Suit",
+    "Sailor",
+    "Sailor Uniform",
+    "Sandals",
+    "Santa Outfit",
+    "Scarf",
+    "School Swimsuit",
+    "School Uniform",
+    "Sheer",
+    "Shirt",
+    "Shoes",
+    "Short Boots",
+    "Short Pants",
+    "Shorts",
+    "Skinny Pants",
+    "Skirt",
+    "Slacks",
+    "Sleeveless",
+    "Sneakers",
+    "Socks",
+    "Spacesuit",
+    "Spats",
+    "Sportswear",
+    "Stockings",
+    "Suit",
+    "Summer Dress",
+    "Suspenders",
+    "Sweater",
+    "Sweatpants",
+    "Sweatshirt",
+    "Swimsuit",
+    "T-Shirt",
+    "Tank Top",
+    "Techwear",
+    "Thigh-high Socks",
+    "Tight Skirt",
+    "Tights",
+    "Tops",
+    "Trench Coat",
+    "Tube Top",
+    "Turtleneck",
+    "Underwear",
+    "Uniform",
+    "Varsity Jacket",
+    "Veil",
+    "Vest",
+    "Wafuku",
+    "Wedding Dress",
+    "Wide Pants",
+    "Witch Outfit",
+    "Yukata"
+  ],
+  "accessories": [
+    "Accessory",
+    "Angel Wings",
+    "Animal Ears",
+    "Anklet",
+    "Apron",
+    "Arm Cover",
+    "Axe",
+    "Backpack",
+    "Bag",
+    "Band-Aid",
+    "Bandage",
+    "Bandana",
+    "Bangle",
+    "Bat Wings",
+    "Beanie",
+    "Bell",
+    "Belly Piercing",
+    "Belt",
+    "Beret",
+    "Body Piercing",
+    "Bonnet",
+    "Book",
+    "Boots",
+    "Bow",
+    "Bow Tie",
+    "Bracelet",
+    "Brooch",
+    "Bucket Hat",
+    "Buckle",
+    "Bunny Ears",
+    "Butterfly Motif",
+    "Cane",
+    "Cap",
+    "Casquette",
+    "Cat Ears",
+    "Chain",
+    "Charm",
+    "Choker",
+    "Collar",
+    "Corset",
+    "Cross",
+    "Crown",
+    "Crucifix",
+    "Crystal",
+    "Cuffs",
+    "Demon Horns",
+    "Demon Wings",
+    "Dog Ears",
+    "Drone",
+    "Ear Cuff",
+    "Earmuffs",
+    "Earrings",
+    "Eye Mask",
+    "Eyepatch",
+    "Feathers",
+    "Flower",
+    "Flower Crown",
+    "Flower Ornament",
+    "Folding Fan",
+    "Fox Ears",
+    "Fox Mask",
+    "Frill",
+    "Fur",
+    "Garter",
+    "Garter Belt",
+    "Gas Mask",
+    "Geta",
+    "Glasses",
+    "Gloves",
+    "Goggles",
+    "Greatsword",
+    "Gun",
+    "Hair Accessories",
+    "Hair Band",
+    "Hair Clip",
+    "Hair Ornament",
+    "Hair Ribbon",
+    "Hair Tie",
+    "Hairpin",
+    "Halo",
+    "Handbag",
+    "Handcuffs",
+    "Harness",
+    "Hat",
+    "Headband",
+    "Headdress",
+    "Headgear",
+    "Headphones",
+    "Headset",
+    "Heart",
+    "Heart Motif",
+    "Heels",
+    "Helmet",
+    "High Heels",
+    "Holster",
+    "Hood",
+    "Horns",
+    "Japanese Sword",
+    "Japanese Umbrella",
+    "Jewel",
+    "Kanzashi",
+    "Katana",
+    "Keychain",
+    "Kiseru Pipe",
+    "Knife",
+    "Lace",
+    "Lantern",
+    "Leash",
+    "Leather Shoes",
+    "Leg Belt",
+    "Loafers",
+    "Mask",
+    "Mecha Parts",
+    "Mecha Wings",
+    "Microphone",
+    "Military Cap",
+    "Mini Hat",
+    "Monocle",
+    "Moon Motif",
+    "Nail Tips",
+    "Nails",
+    "Necklace",
+    "Necktie",
+    "Obi",
+    "Pacifier",
+    "Paw Pads",
+    "Pearl",
+    "Pendant",
+    "Piercing",
+    "Pin Badge",
+    "Plushie",
+    "Pocket Watch",
+    "Pom Pom",
+    "Pouch",
+    "Prosthetic Arm",
+    "Prosthetic Leg",
+    "Ribbon",
+    "Ribbon Tie",
+    "Rifle",
+    "Ring",
+    "Rose",
+    "Round Glasses",
+    "Sandals",
+    "Santa Hat",
+    "Scarf",
+    "Scrunchie",
+    "Scythe",
+    "Shield",
+    "Shoes",
+    "Shoulder Bag",
+    "Slippers",
+    "Smartphone",
+    "Sneakers",
+    "Socks",
+    "Spear",
+    "Staff",
+    "Star",
+    "Star Motif",
+    "Strap",
+    "Straw Hat",
+    "Studs",
+    "Sun Visor",
+    "Sunglasses",
+    "Suspenders",
+    "Swim Ring",
+    "Sword",
+    "Tail",
+    "Talisman",
+    "Tassel",
+    "Tattoo",
+    "Thigh-high Socks",
+    "Tiara",
+    "Top Hat",
+    "Umbrella",
+    "Veil",
+    "Visor",
+    "Weapon",
+    "Wings",
+    "Witch Hat",
+    "Wristband",
+    "Wristwatch"
+  ],
+  "appearances": [
+    "Ahoge",
+    "Angel",
+    "Animal Ears",
+    "Bear Ears",
+    "Beast Ears",
+    "Black Hair",
+    "Blonde Hair",
+    "Blue Eyes",
+    "Blue Hair",
+    "Blunt Bangs",
+    "Bob Hair",
+    "Braid",
+    "Braided",
+    "Brown Eyes",
+    "Brown Hair",
+    "Bun Hair",
+    "Bunny Ears",
+    "Cat",
+    "Cat Ears",
+    "Curly Hair",
+    "Dark Skin",
+    "Demon",
+    "Dog Ears",
+    "Dragon",
+    "Drill Hair",
+    "Elf Ears",
+    "Fang",
+    "Fangs",
+    "Flipped Ends",
+    "Fluffy",
+    "Fluffy Fur",
+    "Fox Ears",
+    "Gold Eyes",
+    "Gray Hair",
+    "Green Eyes",
+    "Green Hair",
+    "Hair Over One Eye",
+    "Half Twin Tails",
+    "Half Updo",
+    "Heterochromia",
+    "Hime Cut",
+    "Horns",
+    "Kemono",
+    "Light Blue Hair",
+    "Long Hair",
+    "Low Ponytail",
+    "Low Twin Tails",
+    "Mecha",
+    "Mecha Ears",
+    "Medium Hair",
+    "Mesh Hair",
+    "Mouse Ears",
+    "Mushroom Cut",
+    "Non-Human",
+    "Orange Hair",
+    "Paw Pads",
+    "Pink Eyes",
+    "Pink Hair",
+    "Ponytail",
+    "Purple Eyes",
+    "Purple Hair",
+    "Red Eyes",
+    "Red Hair",
+    "Robot",
+    "Sheep Ears",
+    "Short Bob",
+    "Short Hair",
+    "Side Tail",
+    "Silver Hair",
+    "Straight Hair",
+    "Tail",
+    "Twin Tails",
+    "Two Side Up",
+    "Updo",
+    "Wave Hair",
+    "Wavy Hair",
+    "White Hair",
+    "Wings",
+    "Wolf Cut",
+    "Wolf Ears",
+    "Yellow Eyes"
+  ],
+  "body_types": [
+    "Chibi",
+    "Female",
+    "Male",
+    "Mascot",
+    "Petite",
+    "Standard Build",
+    "Tall Build"
+  ],
+  "platforms": [
+    "Blender",
+    "Cluster",
+    "FBX",
+    "MMD",
+    "Modular Avatar Compatible",
+    "PC Compatible",
+    "Poiyomi",
+    "Quest Compatible",
+    "SDK3",
+    "Unity",
+    "UnityPackage",
+    "VCC Compatible",
+    "VRChat",
+    "VRM",
+    "VRoid",
+    "lilToon"
+  ],
+  "seasons": [
+    "Autumn",
+    "Christmas",
+    "Halloween",
+    "New Year",
+    "Spring",
+    "Summer",
+    "Winter"
+  ],
+  "material_properties": [
+    "Leather",
+    "Silk",
+    "Latex",
+    "Knit",
+    "Metallic",
+    "Glossy",
+    "Sheer"
+  ],
+  "niche_subcultures": [
+    "Techwear",
+    "Steampunk",
+    "TenshiKaiwai",
+    "Ryousankata",
+    "JiraiKei",
+    "RetroFuturism"
+  ],
+  "activity_scenes": [
+    "ClubDJ",
+    "Sleeping",
+    "Photography",
+    "DailyClothes"
+  ],
+  "updated_at": "2026-06-11"
 }

@@ -7,6 +7,18 @@
       "weight": 3
     },
     {
+      "tag_id": "Unity",
+      "name": "Unity",
+      "dimension": "platform",
+      "weight": 3
+    },
+    {
+      "tag_id": "VRChat",
+      "name": "VRChat",
+      "dimension": "platform",
+      "weight": 3
+    },
+    {
       "tag_id": "face",
       "name": "face",
       "dimension": "accessory",
@@ -19,6 +31,54 @@
       "weight": 3
     },
     {
+      "tag_id": "Animation",
+      "name": "Animation",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "BlendShape",
+      "name": "BlendShape",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "Blue",
+      "name": "Blue",
+      "dimension": "color",
+      "weight": 1
+    },
+    {
+      "tag_id": "Bone",
+      "name": "Bone",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "Chibi",
+      "name": "Chibi",
+      "dimension": "body_type",
+      "weight": 2
+    },
+    {
+      "tag_id": "Material",
+      "name": "Material",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
+      "tag_id": "Mesh",
+      "name": "Mesh",
+      "dimension": "appearance",
+      "weight": 3
+    },
+    {
+      "tag_id": "Shader",
+      "name": "Shader",
+      "dimension": "appearance",
+      "weight": 2
+    },
+    {
       "tag_id": "foot",
       "name": "foot",
       "dimension": "accessory",
@@ -28,6 +88,12 @@
       "tag_id": "hand",
       "name": "hand",
       "dimension": "accessory",
+      "weight": 1
+    },
+    {
+      "tag_id": "Street",
+      "name": "Street",
+      "dimension": "style",
       "weight": 1
     },
     {
@@ -64,6 +130,16 @@
   "edges": [
     {
       "source_id": "ModularAvatar",
+      "target_id": "Unity",
+      "strength": 1.0
+    },
+    {
+      "source_id": "ModularAvatar",
+      "target_id": "VRChat",
+      "strength": 1.0
+    },
+    {
+      "source_id": "ModularAvatar",
       "target_id": "face",
       "strength": 0.3333
     },
@@ -73,9 +149,389 @@
       "strength": 1.0
     },
     {
+      "source_id": "Unity",
+      "target_id": "VRChat",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Unity",
+      "target_id": "face",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Unity",
+      "target_id": "lilToon",
+      "strength": 1.0
+    },
+    {
+      "source_id": "VRChat",
+      "target_id": "face",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "VRChat",
+      "target_id": "lilToon",
+      "strength": 1.0
+    },
+    {
       "source_id": "face",
       "target_id": "lilToon",
       "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "BlendShape",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Blue",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Bone",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Chibi",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Material",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Mesh",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "ModularAvatar",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Shader",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "Unity",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "VRChat",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Animation",
+      "target_id": "lilToon",
+      "strength": 0.25
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Blue",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Bone",
+      "strength": 1.0
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Chibi",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Material",
+      "strength": 1.0
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Mesh",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "ModularAvatar",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Shader",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Unity",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "VRChat",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "lilToon",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Bone",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Chibi",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Material",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Mesh",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "ModularAvatar",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Shader",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "VRChat",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "foot",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "hand",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Blue",
+      "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Chibi",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Material",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Mesh",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "ModularAvatar",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Shader",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Unity",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "VRChat",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "lilToon",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "Material",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "Mesh",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "ModularAvatar",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "Shader",
+      "strength": 1.0
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "Unity",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "VRChat",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Chibi",
+      "target_id": "lilToon",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Material",
+      "target_id": "Mesh",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Material",
+      "target_id": "ModularAvatar",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Material",
+      "target_id": "Shader",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Material",
+      "target_id": "Unity",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Material",
+      "target_id": "VRChat",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Material",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Material",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Material",
+      "target_id": "lilToon",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "ModularAvatar",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "Shader",
+      "strength": 0.6667
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "Unity",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "VRChat",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "foot",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "hand",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "lilToon",
+      "strength": 0.5
+    },
+    {
+      "source_id": "ModularAvatar",
+      "target_id": "Shader",
+      "strength": 0.25
     },
     {
       "source_id": "ModularAvatar",
@@ -84,6 +540,51 @@
     },
     {
       "source_id": "ModularAvatar",
+      "target_id": "hand",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shader",
+      "target_id": "Unity",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shader",
+      "target_id": "VRChat",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Shader",
+      "target_id": "foot",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Shader",
+      "target_id": "hand",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Shader",
+      "target_id": "lilToon",
+      "strength": 0.25
+    },
+    {
+      "source_id": "Unity",
+      "target_id": "foot",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Unity",
+      "target_id": "hand",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "VRChat",
+      "target_id": "foot",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "VRChat",
       "target_id": "hand",
       "strength": 0.3333
     },
@@ -103,12 +604,77 @@
       "strength": 0.3333
     },
     {
+      "source_id": "Animation",
+      "target_id": "Street",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Cyber",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Kikyo",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Moe",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "PhysBone",
+      "strength": 0.5
+    },
+    {
+      "source_id": "BlendShape",
+      "target_id": "Shinra",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Cyber",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Kikyo",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Moe",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "PhysBone",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Bone",
+      "target_id": "Shinra",
+      "strength": 0.5
+    },
+    {
       "source_id": "Cyber",
       "target_id": "Kikyo",
       "strength": 1.0
     },
     {
       "source_id": "Cyber",
+      "target_id": "Material",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Cyber",
+      "target_id": "Mesh",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Cyber",
       "target_id": "ModularAvatar",
       "strength": 0.3333
     },
@@ -129,7 +695,27 @@
     },
     {
       "source_id": "Cyber",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Cyber",
+      "target_id": "VRChat",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Cyber",
       "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Material",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "Mesh",
       "strength": 0.3333
     },
     {
@@ -154,7 +740,47 @@
     },
     {
       "source_id": "Kikyo",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
+      "target_id": "VRChat",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Kikyo",
       "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Material",
+      "target_id": "Moe",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Material",
+      "target_id": "PhysBone",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Material",
+      "target_id": "Shinra",
+      "strength": 0.5
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "Moe",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "PhysBone",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Mesh",
+      "target_id": "Shinra",
       "strength": 0.3333
     },
     {
@@ -184,6 +810,16 @@
     },
     {
       "source_id": "Moe",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Moe",
+      "target_id": "VRChat",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Moe",
       "target_id": "lilToon",
       "strength": 0.3333
     },
@@ -194,7 +830,27 @@
     },
     {
       "source_id": "PhysBone",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "PhysBone",
+      "target_id": "VRChat",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "PhysBone",
       "target_id": "lilToon",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "Unity",
+      "strength": 0.3333
+    },
+    {
+      "source_id": "Shinra",
+      "target_id": "VRChat",
       "strength": 0.3333
     },
     {
