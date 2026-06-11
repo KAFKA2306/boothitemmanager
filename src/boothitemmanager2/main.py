@@ -2,13 +2,13 @@ import os
 import uuid
 from datetime import datetime
 
-from .agents.api_generator import generate_api
-from .agents.bridge import convert_ndjson_to_items
-from .agents.normalizer import normalize_html
-from .agents.similarity_engine import calculate_similar_items
-from .agents.staging_buffer import StagingBuffer
+from .api_generator import generate_api
+from .bridge import convert_ndjson_to_items
+from .normalizer import normalize_html
+from .similarity_engine import calculate_similar_items
+from .staging_buffer import StagingBuffer
 from .orchestrator import TransactionOrchestrator
-from .schemas.storage import RawAssetPage
+from .storage import RawAssetPage
 
 
 def run_pipeline():
@@ -60,7 +60,7 @@ def run_pipeline():
     if cached_result:
         log("♻️ Using cached similarity results.")
         from dataclasses import replace
-        from .schemas.storage import ItemCategory, TagSet
+        from .storage import ItemCategory, TagSet
         # Reconstruct items from cached similar_items
         sim_map = {r["id"]: r["sim"] for r in cached_result}
         for i in range(len(items)):
