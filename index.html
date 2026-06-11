@@ -727,7 +727,7 @@
                 });
             });
 
-            const showAll = allItems.length === 0;
+            const showAll = false;
 
             document.getElementById('avatar-selector').innerHTML = metaAvatars
                 .filter(a => showAll || avatarCounts[a.code] > 0)
