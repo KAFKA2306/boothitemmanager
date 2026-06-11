@@ -345,27 +345,54 @@ def infer_category(
     name: str, description: str, tags: list[str], targets: list[AvatarRef], aliases: dict[str, Any]
 ) -> ItemCategory:
     text = f"{name} {description} {' '.join(tags)}".lower()
-    if any(k in text for k in ["vroid", "vroidhub"]):
-        return ItemCategory.VROID
-    if any(k in text for k in ["アニメーション", "motion", "モーション", "animation"]):
-        return ItemCategory.ANIMATION
-    if any(k in text for k in ["髪型", "ヘアスタイル", "hairstyle", "髪"]):
-        return ItemCategory.HAIRSTYLE
-    if any(k in text for k in ["アバター", "avatar"]) and "対応" not in name:
-        return ItemCategory.AVATAR
-    if any(k in text for k in ["衣装", "服", "outfit", "costume", "dress"]):
-        return ItemCategory.OUTFIT
-    if any(k in text for k in ["アクセ", "accessory", "靴", "メガネ", "帽子"]):
-        return ItemCategory.ACCESSORY
-    if any(k in text for k in ["テクスチャ", "texture", "瞳", "肌", "skin"]):
+    
+    # 1. TEXTURE & HAIRSTYLE
+    texture_aliases = ["テクスチャ", "texture", "瞳", "肌", "skin", "メイクテクスチャ", "アイテクスチャ"]
+    if any(k in text for k in texture_aliases):
         return ItemCategory.TEXTURE
-    if any(k in text for k in ["ワールド", "world", "scene", "シーン"]):
-        return ItemCategory.WORLD
-    if any(k in text for k in ["ギミック", "gimmick", "modular", "ma対応", "tool", "ツール"]):
+
+    hairstyle_aliases = ["髪型", "ヘアスタイル", "hairstyle", "髪", "ヘア", "ツインテール", "ポニテ"]
+    if any(k in text for k in hairstyle_aliases):
+        return ItemCategory.HAIRSTYLE
+
+    # 2. AVATAR
+    if any(k in text for k in ["アバター", "avatar", "オリジナル3dモデル"]) and "対応" not in name:
+        return ItemCategory.AVATAR
+
+    # 3. Dynamic loading of terms from ontology aliases for ACCESSORY and OUTFIT
+    # Note: Includes PROP (小道具, prop, 家具, etc.) mapped directly to ACCESSORY for frontend compatibility
+    accessory_terms = ["アクセ", "accessory", "小物品", "小物", "靴", "メガネ", "帽子", "バッグ", "チョーカー", "ピアス", "リボン", "指輪", "傘", "ソックス", "タイツ", "ベルト", "小道具", "prop", "家具", "椅子", "机"]
+    for acc_code, data in aliases.get("accessories", {}).items():
+        accessory_terms.extend([t.lower() for t in data.get("aliases", [])])
+    
+    outfit_terms = ["衣装", "服", "outfit", "costume", "dress", "ワンピ", "ジャケット", "パーカー", "スカート", "シャツ", "パンツ"]
+    for ot_code, data in aliases.get("outfit_types", {}).items():
+        outfit_terms.extend([t.lower() for t in data.get("aliases", [])])
+
+    has_accessory = any(k in text for k in accessory_terms if k)
+    has_outfit = any(k in text for k in outfit_terms if k)
+
+    # Resolve overlaps: Accessories are usually more specific than "outfit/clothing" terms
+    if has_accessory and not (has_outfit and "セット" in text and "衣装" in name):
+        return ItemCategory.ACCESSORY
+    if has_outfit:
+        return ItemCategory.OUTFIT
+    if has_accessory:
+        return ItemCategory.ACCESSORY
+
+    # 4. GIMMICK_TOOL (Also maps ANIMATION, WORLD, and other system tools here)
+    gimmick_terms = ["ギミック", "gimmick", "modular", "ma対応", "tool", "ツール", "アニメーション", "motion", "モーション", "animation", "ワールド", "world", "scene", "シーン"]
+    if any(k in text for k in gimmick_terms):
         return ItemCategory.GIMMICK_TOOL
-    if any(k in text for k in ["小道具", "prop", "家具", "椅子", "机"]):
-        return ItemCategory.PROP
-    return ItemCategory.ASSET
+
+    # 5. VROID Fallback (Map to OUTFIT or AVATAR)
+    if any(k in text for k in ["vroid", "vroidhub"]):
+        if any(x in text for x in ["衣装", "服", "ワンピ", "ドレス"]):
+            return ItemCategory.OUTFIT
+        return ItemCategory.AVATAR
+
+    # 6. Final Fallback (Return GIMMICK_TOOL to avoid ASSET which is unsupported in frontend)
+    return ItemCategory.GIMMICK_TOOL
 
 
 def extract_tag_set(
