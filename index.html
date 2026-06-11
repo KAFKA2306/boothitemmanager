@@ -1089,11 +1089,25 @@
             const cleanTitle = title.replace(/【[^】]+】/g, '').replace(/[\[\(\{].*?[\]\)\}]/g, '').replace(/[✦†─❖★☆✨✦@!|]/g, '').trim();
             const firstAvatar = rawTargets.length > 0 ? (typeof rawTargets[0] === 'string' ? rawTargets[0] : (rawTargets[0].name || rawTargets[0].code)) : '';
             
-            const xQuery = firstAvatar ? `"${firstAvatar}" "${cleanTitle}"` : `"${cleanTitle}"`;
+            const sanitizeQuery = (q) => {
+                return q.replace(/\b(sexy|skin|naked|nude|boobs|adult|r-18|sex|breast|underwear|panties|bra)\b/gi, '')
+                        .replace(/(セクシー|肌|裸|エロ|下着|パンツ|胸)/g, '')
+                        .replace(/\s+/g, ' ').trim();
+            };
+
+            const safeTitle = sanitizeQuery(cleanTitle);
+
+            const xQuery = firstAvatar ? `"${firstAvatar}" "${safeTitle}"` : `"${safeTitle}"`;
             const xUrl = `https://x.com/search?q=${encodeURIComponent(xQuery + ' (vrc OR vrc-photo OR vrc改変)')}`;
-            const instaUrl = `https://www.instagram.com/explore/tags/${encodeURIComponent(cleanTitle.replace(/\s+/g, ''))}`;
-            const tiktokUrl = `https://www.tiktok.com/search?q=${encodeURIComponent(cleanTitle + ' vrchat')}`;
-            const discordUrl = `https://www.google.com/search?q=${encodeURIComponent(cleanTitle + ' "discord"')}`;
+
+            const instaTag = firstAvatar ? firstAvatar : safeTitle.replace(/\s+/g, '');
+            const instaUrl = `https://www.instagram.com/explore/tags/${encodeURIComponent(instaTag)}`;
+
+            const tiktokQuery = firstAvatar ? `${firstAvatar} vrchat` : `${safeTitle} vrchat`;
+            const tiktokUrl = `https://www.tiktok.com/search?q=${encodeURIComponent(tiktokQuery)}`;
+
+            const discordQuery = firstAvatar ? `${firstAvatar} "discord"` : `${safeTitle} "discord"`;
+            const discordUrl = `https://www.google.com/search?q=${encodeURIComponent(discordQuery)}`;
 
             document.getElementById('modal-social-shortcuts').innerHTML = `
                 <a class="social-btn social-x" href="${xUrl}" target="_blank">X (Twitter) 🔍</a>
