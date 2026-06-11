@@ -1,106 +1,2977 @@
-
-version: 1
-updated_at: "2026-06-10"
 avatars:
-  Kikyo:
-    canonical_name: "桔梗"
-    booth_item_id: "3681787"
-    creator: "ポンデロニウム研究所"
-    aliases: ["桔梗", "kikyo", "kikyou", "ききょう", "3681787"]
+  +Head:
+    aliases:
+    - +head
+    - +Head
+    booth_item_id: '5153266'
+    canonical_name: +Head
     confidence: 1.0
-  Manuka:
-    canonical_name: "マヌカ"
-    booth_item_id: "5058077"
-    creator: "JINGO CHANNEL"
-    aliases: ["マヌカ", "manuka", "5058077"]
+    creator: 珍飯亭
+  Airi:
+    aliases:
+    - airi
+    - Airi
+    booth_item_id: '4857799'
+    canonical_name: Airi
     confidence: 1.0
-  Shinra:
-    canonical_name: "森羅"
-    booth_item_id: "4707634"
-    creator: "mio"
-    aliases: ["森羅", "shinra", "4707634"]
+    creator: キュビクローゼット
+  Aizara:
+    aliases:
+    - aizara
+    - Aizara
+    booth_item_id: ''
+    canonical_name: Aizara
     confidence: 1.0
-  Selestia:
-    canonical_name: "セレスティア"
-    booth_item_id: "4035411"
-    creator: "JINGO CHANNEL"
-    aliases: ["セレスティア", "selestia", "せれすてぃあ", "Seles", "セレス", "4035411"]
+    creator: 流刑地
+  Akuma Riman:
+    aliases:
+    - Akuma Riman
+    - akuma riman
+    booth_item_id: ''
+    canonical_name: Akuma Riman
     confidence: 1.0
-  Moe:
-    canonical_name: "萌"
-    booth_item_id: "4667400"
-    creator: "キュビクローゼット"
-    aliases: ["萌", "moe", "4667400"]
+    creator: kaibatu2mm LAB
+  Aldona:
+    aliases:
+    - Aldona
+    - aldona
+    booth_item_id: ''
+    canonical_name: Aldona
     confidence: 1.0
+    creator: BRCL BOOTH
+  Alue:
+    aliases:
+    - Alue
+    - alue
+    booth_item_id: ''
+    canonical_name: Alue
+    confidence: 1.0
+    creator: onair
+  Amalo:
+    aliases:
+    - Amalo
+    - amalo
+    booth_item_id: '4806925'
+    canonical_name: Amalo
+    confidence: 1.0
+    creator: Senna Studio
+  Andi:
+    aliases:
+    - Andi
+    - andi
+    booth_item_id: '6222358'
+    canonical_name: Andi
+    confidence: 1.0
+    creator: CodeAldnoah
+  Anias:
+    aliases:
+    - Anias
+    - anias
+    booth_item_id: ''
+    canonical_name: Anias
+    confidence: 1.0
+    creator: ROZIURA雑貨店
+  Anomea:
+    aliases:
+    - anomea
+    - Anomea
+    booth_item_id: ''
+    canonical_name: Anomea
+    confidence: 1.0
+    creator: なるかでぃあ県
+  Anon:
+    aliases:
+    - Anon
+    - anon
+    booth_item_id: ''
+    canonical_name: Anon
+    confidence: 1.0
+    creator: こよりLabo
+  Antique:
+    aliases:
+    - antique
+    - Antique
+    booth_item_id: ''
+    canonical_name: Antique
+    confidence: 1.0
+    creator: にゃわて荘BOOTH
+  Aru:
+    aliases:
+    - aru
+    - Aru
+    booth_item_id: '7731139'
+    canonical_name: Aru
+    confidence: 1.0
+    creator: CHEPU STUDIO
+  Ash:
+    aliases:
+    - Ash
+    - ash
+    booth_item_id: '1940541'
+    canonical_name: Ash
+    confidence: 1.0
+    creator: ぷらすわん
+  Ashel:
+    aliases:
+    - ashel
+    - Ashel
+    booth_item_id: '8005883'
+    canonical_name: Ashel
+    confidence: 1.0
+    creator: 烏有研究所 -UYU Lab-
+  Astel:
+    aliases:
+    - astel
+    - Astel
+    booth_item_id: '5598963'
+    canonical_name: Astel
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Aulia:
+    aliases:
+    - Aulia
+    - aulia
+    booth_item_id: '4183223'
+    canonical_name: Aulia
+    confidence: 1.0
+    creator: アマノソラ
+  Aulka:
+    aliases:
+    - aulka
+    - Aulka
+    booth_item_id: '7502523'
+    canonical_name: Aulka
+    confidence: 1.0
+    creator: いーべるすとあ
+  Azami:
+    aliases:
+    - Azami
+    - azami
+    booth_item_id: '3645012'
+    canonical_name: Azami
+    confidence: 1.0
+    creator: AugmentedDolls
+  Azuki:
+    aliases:
+    - Azuki
+    - azuki
+    booth_item_id: '3159064'
+    canonical_name: Azuki
+    confidence: 1.0
+    creator: えも研
+  Babana:
+    aliases:
+    - babana
+    - Babana
+    booth_item_id: '5575621'
+    canonical_name: Babana
+    confidence: 1.0
+    creator: hehzs
+  Beriul:
+    aliases:
+    - Beriul
+    - beriul
+    booth_item_id: '4321056'
+    canonical_name: Beriul
+    confidence: 1.0
+    creator: アマノソラ
+  Beryl:
+    aliases:
+    - Beryl
+    - beryl
+    booth_item_id: ''
+    canonical_name: Beryl
+    confidence: 1.0
+    creator: Nine Gates
+  Binah:
+    aliases:
+    - binah
+    - Binah
+    booth_item_id: '5694887'
+    canonical_name: Binah
+    confidence: 1.0
+    creator: エルフの森静岡支部
+  Bishonure no Shizuku-san:
+    aliases:
+    - Bishonure no Shizuku-san
+    - bishonure no shizuku-san
+    booth_item_id: ''
+    canonical_name: Bishonure no Shizuku-san
+    confidence: 1.0
+    creator: KUROMARU9
+  Bokusei:
+    aliases:
+    - Bokusei
+    - bokusei
+    booth_item_id: ''
+    canonical_name: Bokusei
+    confidence: 1.0
+    creator: ROKO SHOP
+  CLINEKO:
+    aliases:
+    - clineko
+    - CLINEKO
+    booth_item_id: '4962333'
+    canonical_name: CLINEKO
+    confidence: 1.0
+    creator: zuchicorn
+  CURISHIA:
+    aliases:
+    - curishia
+    - CURISHIA
+    booth_item_id: '3990670'
+    canonical_name: CURISHIA
+    confidence: 1.0
+    creator: SKYMY Workshop
+  Carukia:
+    aliases:
+    - Carukia
+    - carukia
+    booth_item_id: '2930485'
+    canonical_name: Carukia
+    confidence: 1.0
+    creator: Lethal Cats
+  Cazalis:
+    aliases:
+    - cazalis
+    - Cazalis
+    booth_item_id: ''
+    canonical_name: Cazalis
+    confidence: 1.0
+    creator: 半熟りんご
+  Celestia:
+    aliases:
+    - celestia
+    - Celestia
+    booth_item_id: '3170874'
+    canonical_name: Celestia
+    confidence: 1.0
+    creator: STUDIO JINGO
+  Chalo:
+    aliases:
+    - Chalo
+    - chalo
+    booth_item_id: '5201759'
+    canonical_name: Chalo
+    confidence: 1.0
+    creator: もふもふ屋
+  Chiffon:
+    aliases:
+    - chiffon
+    - Chiffon
+    booth_item_id: '5354471'
+    canonical_name: Chiffon
+    confidence: 1.0
+    creator: あまとうさぎ
+  Chimaco:
+    aliases:
+    - chimaco
+    - Chimaco
+    booth_item_id: '4733077'
+    canonical_name: Chimaco
+    confidence: 1.0
+    creator: zuchicorn
+  Chise:
+    aliases:
+    - Chise
+    - chise
+    booth_item_id: '4123536'
+    canonical_name: Chise
+    confidence: 1.0
+    creator: VRC合法チート研究会
+  Chito:
+    aliases:
+    - Chito
+    - chito
+    booth_item_id: '2029165'
+    canonical_name: Chito
+    confidence: 1.0
+    creator: かぷちやのぶーす
+  Chiyo:
+    aliases:
+    - chiyo
+    - Chiyo
+    booth_item_id: '5967093'
+    canonical_name: Chiyo
+    confidence: 1.0
+    creator: 藻類観察会
+  Chocolat:
+    aliases:
+    - Chocolat
+    - chocolat
+    booth_item_id: '6405390'
+    canonical_name: Chocolat
+    confidence: 1.0
+    creator: あまとうさぎ
+  Choucas:
+    aliases:
+    - choucas
+    - Choucas
+    booth_item_id: ''
+    canonical_name: Choucas
+    confidence: 1.0
+    creator: ナナツキ.Studio
+  Ciel:
+    aliases:
+    - Ciel
+    - ciel
+    booth_item_id: '3368697'
+    canonical_name: Ciel
+    confidence: 1.0
+    creator: ArmoireLepus -アルモワール レプス-
+  Cierry:
+    aliases:
+    - Cierry
+    - cierry
+    booth_item_id: ''
+    canonical_name: Cierry
+    confidence: 1.0
+    creator: こよりLabo
+  Cizuku:
+    aliases:
+    - Cizuku
+    - cizuku
+    booth_item_id: ''
+    canonical_name: Cizuku
+    confidence: 1.0
+    creator: ジャム蔵
+  Clara:
+    aliases:
+    - clara
+    - Clara
+    booth_item_id: ''
+    canonical_name: Clara
+    confidence: 1.0
+    creator: えも研
+  Clonka:
+    aliases:
+    - Clonka
+    - clonka
+    booth_item_id: '4256853'
+    canonical_name: Clonka
+    confidence: 1.0
+    creator: アマノソラ
+  Coco:
+    aliases:
+    - coco
+    - Coco
+    booth_item_id: '3935498'
+    canonical_name: Coco
+    confidence: 1.0
+    creator: Pochi by KT
+  Cocoa:
+    aliases:
+    - cocoa
+    - Cocoa
+    booth_item_id: '7752480'
+    canonical_name: Cocoa
+    confidence: 1.0
+    creator: Sisters!
+  Cyan:
+    aliases:
+    - cyan
+    - Cyan
+    booth_item_id: '5314122'
+    canonical_name: Cyan
+    confidence: 1.0
+    creator: sep-neko-ya
+  DAMI:
+    aliases:
+    - dami
+    - DAMI
+    booth_item_id: '6689147'
+    canonical_name: DAMI
+    confidence: 1.0
+    creator: Dea
+  Danzai:
+    aliases:
+    - Danzai
+    - danzai
+    booth_item_id: '3894620'
+    canonical_name: Danzai
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Darjelling:
+    aliases:
+    - Darjelling
+    - darjelling
+    booth_item_id: '4594839'
+    canonical_name: Darjelling
+    confidence: 1.0
+    creator: 紅茶のお店
+  Deltaflair:
+    aliases:
+    - Deltaflair
+    - deltaflair
+    booth_item_id: ''
+    canonical_name: Deltaflair
+    confidence: 1.0
+    creator: VERMILION .Studio
+  EMISTIA:
+    aliases:
+    - emistia
+    - EMISTIA
+    booth_item_id: '2992265'
+    canonical_name: EMISTIA
+    confidence: 1.0
+    creator: SKYMY Workshop
+  ERUQYUNA:
+    aliases:
+    - ERUQYUNA
+    - eruqyuna
+    booth_item_id: '4926689'
+    canonical_name: ERUQYUNA
+    confidence: 1.0
+    creator: SKYMY Workshop
+  Eku:
+    aliases:
+    - eku
+    - Eku
+    booth_item_id: '7328764'
+    canonical_name: Eku
+    confidence: 1.0
+    creator: sep-neko-ya
+  Elmina:
+    aliases:
+    - elmina
+    - Elmina
+    booth_item_id: '5110674'
+    canonical_name: Elmina
+    confidence: 1.0
+    creator: bikiTadpole
+  Elsion:
+    aliases:
+    - Elsion
+    - elsion
+    booth_item_id: ''
+    canonical_name: Elsion
+    confidence: 1.0
+    creator: こまいぬ通り
+  Emmelie3D:
+    aliases:
+    - Emmelie3D
+    - emmelie3d
+    booth_item_id: '4052120'
+    canonical_name: Emmelie3D
+    confidence: 1.0
+    creator: emudotto.avatar
+  Enmetsu:
+    aliases:
+    - Enmetsu
+    - enmetsu
+    booth_item_id: ''
+    canonical_name: Enmetsu
+    confidence: 1.0
+    creator: アンダル ♦︎ andall
+  Epona:
+    aliases:
+    - epona
+    - Epona
+    booth_item_id: '4067678'
+    canonical_name: Epona
+    confidence: 1.0
+    creator: ツクルノモリ公式
+  Fafa:
+    aliases:
+    - fafa
+    - Fafa
+    booth_item_id: ''
+    canonical_name: Fafa
+    confidence: 1.0
+    creator: たみゅ屋(仮)
+  Falria:
+    aliases:
+    - falria
+    - Falria
+    booth_item_id: ''
+    canonical_name: Falria
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Feifeng:
+    aliases:
+    - feifeng
+    - Feifeng
+    booth_item_id: ''
+    canonical_name: Feifeng
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Fiona:
+    aliases:
+    - Fiona
+    - fiona
+    booth_item_id: '4592568'
+    canonical_name: Fiona
+    confidence: 1.0
+    creator: namekuji1337
+  Flare:
+    aliases:
+    - flare
+    - Flare
+    booth_item_id: '4768506'
+    canonical_name: Flare
+    confidence: 1.0
+    creator: Elychiffon
+  Fluctua:
+    aliases:
+    - Fluctua
+    - fluctua
+    booth_item_id: '4076075'
+    canonical_name: Fluctua
+    confidence: 1.0
+    creator: Froginyata Store
+  Fluria:
+    aliases:
+    - Fluria
+    - fluria
+    booth_item_id: '4005540'
+    canonical_name: Fluria
+    confidence: 1.0
+    creator: bikiTadpole
+  Foshunia:
+    aliases:
+    - foshunia
+    - Foshunia
+    booth_item_id: ''
+    canonical_name: Foshunia
+    confidence: 1.0
+    creator: Ama ama 15 ㅊ福
+  Frena:
+    aliases:
+    - frena
+    - Frena
+    booth_item_id: ''
+    canonical_name: Frena
+    confidence: 1.0
+    creator: まつり場
+  Fyuett:
+    aliases:
+    - Fyuett
+    - fyuett
+    booth_item_id: '8147205'
+    canonical_name: Fyuett
+    confidence: 1.0
+    creator: HARUNOPUPU
+  Gabu:
+    aliases:
+    - gabu
+    - Gabu
+    booth_item_id: '7290512'
+    canonical_name: Gabu
+    confidence: 1.0
+    creator: あまとらんど - AmatoLand
+  Galuppi:
+    aliases:
+    - Galuppi
+    - galuppi
+    booth_item_id: ''
+    canonical_name: Galuppi
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Goat Mea:
+    aliases:
+    - Goat Mea
+    - goat mea
+    booth_item_id: '6382745'
+    canonical_name: Goat Mea
+    confidence: 1.0
+    creator: masui
   Grus:
-    canonical_name: "グルス"
-    booth_item_id: "2030978"
-    creator: "久"
-    aliases: ["Grus", "グルス", "2030978"]
+    aliases:
+    - Grus
+    - グルス
+    - '2030978'
+    booth_item_id: '2030978'
+    canonical_name: グルス
     confidence: 1.0
-  Karin:
-    canonical_name: "カリン"
-    booth_item_id: "3470989"
-    creator: "あまとうさぎ"
-    aliases: ["Karin", "カリン", "3470989"]
+    creator: 久
+  HIBIKI:
+    aliases:
+    - hibiki
+    - HIBIKI
+    booth_item_id: '7246910'
+    canonical_name: HIBIKI
     confidence: 1.0
-  Maya:
-    canonical_name: "まや"
-    booth_item_id: "3390957"
-    creator: "キュビクローゼット"
-    aliases: ["Maya", "まや", "3390957"]
+    creator: AOあお堂
+  Haishima:
+    aliases:
+    - Haishima
+    - haishima
+    booth_item_id: '4701501'
+    canonical_name: Haishima
     confidence: 1.0
-  Rusk:
-    canonical_name: "ラスク"
-    booth_item_id: "2559783"
-    creator: "こまど"
-    aliases: ["Rusk", "ラスク", "2559783"]
-    confidence: 1.0
-  Mint:
-    canonical_name: "ミント"
-    booth_item_id: "2258111"
-    creator: "あまとうさぎ"
-    aliases: ["Mint", "ミント", "2258111"]
-    confidence: 1.0
-  Lime:
-    canonical_name: "ライム"
-    booth_item_id: "4876459"
-    creator: "あまとうさぎ"
-    aliases: ["Lime", "ライム", "4876459"]
-    confidence: 1.0
-  Imeris:
-    canonical_name: "イメリス"
-    booth_item_id: "3040745"
-    creator: "JINGO CHANNEL"
-    aliases: ["Imeris", "イメリス", "3040745"]
-    confidence: 1.0
-  Minase:
-    canonical_name: "水瀬"
-    booth_item_id: "4013950"
-    creator: "久"
-    aliases: ["Minase", "水瀬", "4013950"]
-    confidence: 1.0
+    creator: もふもふ屋
   Hakka:
-    canonical_name: "薄荷"
-    booth_item_id: "3953037"
-    creator: "Hotoke-zaka"
-    aliases: ["Hakka", "薄荷", "3953037"]
+    aliases:
+    - Hakka
+    - 薄荷
+    - '3953037'
+    booth_item_id: '3953037'
+    canonical_name: 薄荷
     confidence: 1.0
-  Leufa:
-    canonical_name: "ルーファ"
-    booth_item_id: "3503254"
-    creator: "ひゅうがなつみかん"
-    aliases: ["Leufa", "ルーファ", "3503254"]
+    creator: Hotoke-zaka
+  Hakuan:
+    aliases:
+    - Hakuan
+    - hakuan
+    booth_item_id: ''
+    canonical_name: Hakuan
     confidence: 1.0
-  Mamehinata:
-    canonical_name: "まめひなた"
-    booth_item_id: "4340548"
-    creator: "もち山金魚"
-    aliases: ["まめひなた", "mamehinata", "4340548"]
+    creator: なっふな堂
+  Hakuu:
+    aliases:
+    - hakuu
+    - Hakuu
+    booth_item_id: '6211186'
+    canonical_name: Hakuu
     confidence: 1.0
+    creator: VIVID PLUM
+  Hamu:
+    aliases:
+    - hamu
+    - Hamu
+    booth_item_id: '7520015'
+    canonical_name: Hamu
+    confidence: 1.0
+    creator: Evic+
+  Hanka:
+    aliases:
+    - hanka
+    - Hanka
+    booth_item_id: '6970249'
+    canonical_name: Hanka
+    confidence: 1.0
+    creator: StudioYONO
+  Haolan:
+    aliases:
+    - Haolan
+    - haolan
+    booth_item_id: '3818504'
+    canonical_name: Haolan
+    confidence: 1.0
+    creator: かなﾘぁさんち
+  Haruka:
+    aliases:
+    - haruka
+    - Haruka
+    booth_item_id: ''
+    canonical_name: Haruka
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Hatitt:
+    aliases:
+    - hatitt
+    - Hatitt
+    booth_item_id: '6504608'
+    canonical_name: Hatitt
+    confidence: 1.0
+    creator: てぐらるしょっぷ
+  Helvetica:
+    aliases:
+    - Helvetica
+    - helvetica
+    booth_item_id: ''
+    canonical_name: Helvetica
+    confidence: 1.0
+    creator: KUYUYU/電脳屋
+  Hermit:
+    aliases:
+    - hermit
+    - Hermit
+    booth_item_id: '4503850'
+    canonical_name: Hermit
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Hikarun:
+    aliases:
+    - Hikarun
+    - hikarun
+    booth_item_id: ''
+    canonical_name: Hikarun
+    confidence: 1.0
+    creator: くるるしっぽ
+  Honoka:
+    aliases:
+    - honoka
+    - Honoka
+    booth_item_id: ''
+    canonical_name: Honoka
+    confidence: 1.0
+    creator: sep-neko-ya
+  Horiz:
+    aliases:
+    - Horiz
+    - horiz
+    booth_item_id: '3605652'
+    canonical_name: Horiz
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  INABA:
+    aliases:
+    - inaba
+    - INABA
+    booth_item_id: '4213786'
+    canonical_name: INABA
+    confidence: 1.0
+    creator: ゴールデン商会
+  Iberis:
+    aliases:
+    - iberis
+    - Iberis
+    booth_item_id: '6292193'
+    canonical_name: Iberis
+    confidence: 1.0
+    creator: JUSTDUCKY
+  Ichigo:
+    aliases:
+    - Ichigo
+    - ichigo
+    booth_item_id: ''
+    canonical_name: Ichigo
+    confidence: 1.0
+    creator: はみにの立体箱
+  Ii:
+    aliases:
+    - Ii
+    - ii
+    booth_item_id: '6961216'
+    canonical_name: Ii
+    confidence: 1.0
+    creator: 珍飯亭
+  Imeris:
+    aliases:
+    - Imeris
+    - イメリス
+    - '3040745'
+    booth_item_id: '3040745'
+    canonical_name: イメリス
+    confidence: 1.0
+    creator: JINGO CHANNEL
+  Inaba Kaya:
+    aliases:
+    - Inaba Kaya
+    - inaba kaya
+    booth_item_id: '5511341'
+    canonical_name: Inaba Kaya
+    confidence: 1.0
+    creator: ツクルノモリ公式
+  Internet no Pomae:
+    aliases:
+    - Internet no Pomae
+    - internet no pomae
+    booth_item_id: ''
+    canonical_name: Internet no Pomae
+    confidence: 1.0
+    creator: NYANMAN
+  Iris:
+    aliases:
+    - iris
+    - Iris
+    booth_item_id: '5209634'
+    canonical_name: Iris
+    confidence: 1.0
+    creator: namekuji1337
+  Isanai:
+    aliases:
+    - isanai
+    - Isanai
+    booth_item_id: '6044846'
+    canonical_name: Isanai
+    confidence: 1.0
+    creator: afro-da-afro`s shop
+  Isanai Nuku:
+    aliases:
+    - isanai nuku
+    - Isanai Nuku
+    booth_item_id: '6044846'
+    canonical_name: Isanai Nuku
+    confidence: 1.0
+    creator: afro-da-afro`s shop
+  Itone:
+    aliases:
+    - Itone
+    - itone
+    booth_item_id: '6333504'
+    canonical_name: Itone
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Itsuki:
+    aliases:
+    - itsuki
+    - Itsuki
+    booth_item_id: '4267802'
+    canonical_name: Itsuki
+    confidence: 1.0
+    creator: A.B.Lab
+  Izul:
+    aliases:
+    - izul
+    - Izul
+    booth_item_id: '4718359'
+    canonical_name: Izul
+    confidence: 1.0
+    creator: bikiTadpole
+  Julius:
+    aliases:
+    - Julius
+    - julius
+    booth_item_id: '5380991'
+    canonical_name: Julius
+    confidence: 1.0
+    creator: brochiManac
+  Kalne:
+    aliases:
+    - Kalne
+    - kalne
+    booth_item_id: '5142722'
+    canonical_name: Kalne
+    confidence: 1.0
+    creator: AugmentedDolls
+  Kanata:
+    aliases:
+    - Kanata
+    - kanata
+    booth_item_id: '6813995'
+    canonical_name: Kanata
+    confidence: 1.0
+    creator: BLUESTELLA
+  Kanpeki Maid Melotron:
+    aliases:
+    - kanpeki maid melotron
+    - Kanpeki Maid Melotron
+    booth_item_id: ''
+    canonical_name: Kanpeki Maid Melotron
+    confidence: 1.0
+    creator: KUROMARU9
+  Karin:
+    aliases:
+    - Karin
+    - カリン
+    - '3470989'
+    booth_item_id: '3470989'
+    canonical_name: カリン
+    confidence: 1.0
+    creator: あまとうさぎ
+  Kaya:
+    aliases:
+    - Kaya
+    - kaya
+    booth_item_id: '5511341'
+    canonical_name: Kaya
+    confidence: 1.0
+    creator: SASA-Cafe
+  Kikyo:
+    aliases:
+    - 桔梗
+    - kikyo
+    - kikyou
+    - ききょう
+    - '3681787'
+    booth_item_id: '3681787'
+    canonical_name: 桔梗
+    confidence: 1.0
+    creator: ポンデロニウム研究所
+  Kinako:
+    aliases:
+    - kinako
+    - Kinako
+    booth_item_id: ''
+    canonical_name: Kinako
+    confidence: 1.0
+    creator: こまいぬ通り
   Kipfel:
-    canonical_name: "キプフェル"
-    booth_item_id: "5813187"
-    creator: "もち山金魚"
-    aliases: ["キプフェル", "Kipfel", "5813187"]
+    aliases:
+    - キプフェル
+    - Kipfel
+    - '5813187'
+    booth_item_id: '5813187'
+    canonical_name: キプフェル
     confidence: 1.0
+    creator: もち山金魚
+  Kirise:
+    aliases:
+    - kirise
+    - Kirise
+    booth_item_id: '5789025'
+    canonical_name: Kirise
+    confidence: 1.0
+    creator: '#ikshop'
+  Kirsch:
+    aliases:
+    - kirsch
+    - Kirsch
+    booth_item_id: '7028431'
+    canonical_name: Kirsch
+    confidence: 1.0
+    creator: S0M0 SHOP
+  Kirusaiku:
+    aliases:
+    - kirusaiku
+    - Kirusaiku
+    booth_item_id: ''
+    canonical_name: Kirusaiku
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Kisha:
+    aliases:
+    - kisha
+    - Kisha
+    booth_item_id: '6655159'
+    canonical_name: Kisha
+    confidence: 1.0
+    creator: Dea
+  Koame:
+    aliases:
+    - Koame
+    - koame
+    booth_item_id: ''
+    canonical_name: Koame
+    confidence: 1.0
+    creator: ゴールデン商会
+  Kokuri Ruru:
+    aliases:
+    - kokuri ruru
+    - Kokuri Ruru
+    booth_item_id: '3290957'
+    canonical_name: Kokuri Ruru
+    confidence: 1.0
+    creator: ツクルノモリ公式
+  Komano:
+    aliases:
+    - komano
+    - Komano
+    booth_item_id: '5260363'
+    canonical_name: Komano
+    confidence: 1.0
+    creator: ひゅうがなつみかん
+  Korone:
+    aliases:
+    - Korone
+    - korone
+    booth_item_id: '4465936'
+    canonical_name: Korone
+    confidence: 1.0
+    creator: えも研
+  Koume:
+    aliases:
+    - Koume
+    - koume
+    booth_item_id: ''
+    canonical_name: Koume
+    confidence: 1.0
+    creator: かぷちやのぶーす
+  Kumaly:
+    aliases:
+    - kumaly
+    - Kumaly
+    booth_item_id: '7902859'
+    canonical_name: Kumaly
+    confidence: 1.0
+    creator: STUDIO JINGO
+  Kumari:
+    aliases:
+    - kumari
+    - Kumari
+    booth_item_id: ''
+    canonical_name: Kumari
+    confidence: 1.0
+    creator: STUDIO JINGO
+  Kumin:
+    aliases:
+    - Kumin
+    - kumin
+    booth_item_id: '3968588'
+    canonical_name: Kumin
+    confidence: 1.0
+    creator: hehzs
+  Kuronatu:
+    aliases:
+    - kuronatu
+    - Kuronatu
+    booth_item_id: ''
+    canonical_name: Kuronatu
+    confidence: 1.0
+    creator: なんか作ろうよ
+  Kuuta:
+    aliases:
+    - Kuuta
+    - kuuta
+    booth_item_id: '4897493'
+    canonical_name: Kuuta
+    confidence: 1.0
+    creator: ほとぎ屋
+  Kyalong:
+    aliases:
+    - Kyalong
+    - kyalong
+    booth_item_id: ''
+    canonical_name: Kyalong
+    confidence: 1.0
+    creator: ゴールデン商会
+  Kyubi no Boukansha:
+    aliases:
+    - kyubi no boukansha
+    - Kyubi no Boukansha
+    booth_item_id: ''
+    canonical_name: Kyubi no Boukansha
+    confidence: 1.0
+    creator: アバターショップ コトブキヤ
+  LEU:
+    aliases:
+    - leu
+    - LEU
+    booth_item_id: '4789903'
+    canonical_name: LEU
+    confidence: 1.0
+    creator: うにゃうにゃぽんぽん
+  Lambda:
+    aliases:
+    - Lambda
+    - lambda
+    booth_item_id: ''
+    canonical_name: Lambda
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Lapwing:
+    aliases:
+    - lapwing
+    - Lapwing
+    booth_item_id: '4993931'
+    canonical_name: Lapwing
+    confidence: 1.0
+    creator: 久
+  Lasyusha:
+    aliases:
+    - lasyusha
+    - Lasyusha
+    booth_item_id: '4825073'
+    canonical_name: Lasyusha
+    confidence: 1.0
+    creator: Keenoo
+  Lazuli:
+    aliases:
+    - Lazuli
+    - lazuli
+    booth_item_id: '5255692'
+    canonical_name: Lazuli
+    confidence: 1.0
+    creator: Elychiffon
+  Leefa:
+    aliases:
+    - leefa
+    - Leefa
+    booth_item_id: ''
+    canonical_name: Leefa
+    confidence: 1.0
+    creator: ひゅうがなつみかん
+  Lethal Fleet:
+    aliases:
+    - Lethal Fleet
+    - lethal fleet
+    booth_item_id: ''
+    canonical_name: Lethal Fleet
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Leufa:
+    aliases:
+    - Leufa
+    - ルーファ
+    - '3503254'
+    booth_item_id: '3503254'
+    canonical_name: ルーファ
+    confidence: 1.0
+    creator: ひゅうがなつみかん
+  Licht:
+    aliases:
+    - licht
+    - Licht
+    booth_item_id: ''
+    canonical_name: Licht
+    confidence: 1.0
+    creator: MetaverseCreatorsTYO
+  Lii:
+    aliases:
+    - Lii
+    - lii
+    booth_item_id: '4165545'
+    canonical_name: Lii
+    confidence: 1.0
+    creator: こまいぬ通り
+  Liina:
+    aliases:
+    - Liina
+    - liina
+    booth_item_id: '4165545'
+    canonical_name: Liina
+    confidence: 1.0
+    creator: namekuji1337
+  LilLeo:
+    aliases:
+    - LilLeo
+    - lilleo
+    booth_item_id: '7374627'
+    canonical_name: LilLeo
+    confidence: 1.0
+    creator: トノダショップ
+  Lilie:
+    aliases:
+    - Lilie
+    - lilie
+    booth_item_id: '2908525'
+    canonical_name: Lilie
+    confidence: 1.0
+    creator: こここや
+  Lilith:
+    aliases:
+    - Lilith
+    - lilith
+    booth_item_id: '7003322'
+    canonical_name: Lilith
+    confidence: 1.0
+    creator: りすきーしょっぷ
+  Liloumois:
+    aliases:
+    - liloumois
+    - Liloumois
+    booth_item_id: ''
+    canonical_name: Liloumois
+    confidence: 1.0
+    creator: もにゅめんつ.MONUMENTS
+  Lime:
+    aliases:
+    - Lime
+    - ライム
+    - '4876459'
+    booth_item_id: '4876459'
+    canonical_name: ライム
+    confidence: 1.0
+    creator: あまとうさぎ
+  Limilia:
+    aliases:
+    - limilia
+    - Limilia
+    booth_item_id: '4365043'
+    canonical_name: Limilia
+    confidence: 1.0
+    creator: SKYMY Workshop
+  Lina:
+    aliases:
+    - Lina
+    - lina
+    booth_item_id: '4973055'
+    canonical_name: Lina
+    confidence: 1.0
+    creator: まつり場
+  Linne:
+    aliases:
+    - linne
+    - Linne
+    booth_item_id: '8355117'
+    canonical_name: Linne
+    confidence: 1.0
+    creator: ʟɪʀɪᴏᴘᴇ
+  LiotaReota:
+    aliases:
+    - liotareota
+    - LiotaReota
+    booth_item_id: ''
+    canonical_name: LiotaReota
+    confidence: 1.0
+    creator: Pochi by KT
+  Lise:
+    aliases:
+    - lise
+    - Lise
+    booth_item_id: '4390073'
+    canonical_name: Lise
+    confidence: 1.0
+    creator: Re:Gista
+  Listy:
+    aliases:
+    - Listy
+    - listy
+    booth_item_id: ''
+    canonical_name: Listy
+    confidence: 1.0
+    creator: ROZIURA雑貨店
+  Lowtus:
+    aliases:
+    - Lowtus
+    - lowtus
+    booth_item_id: '5941406'
+    canonical_name: Lowtus
+    confidence: 1.0
+    creator: onair
+  Luchika:
+    aliases:
+    - luchika
+    - Luchika
+    booth_item_id: ''
+    canonical_name: Luchika
+    confidence: 1.0
+    creator: こよりLabo
+  Lucifer:
+    aliases:
+    - Lucifer
+    - lucifer
+    booth_item_id: ''
+    canonical_name: Lucifer
+    confidence: 1.0
+    creator: なっふな堂
+  Lumia:
+    aliases:
+    - lumia
+    - Lumia
+    booth_item_id: '7420249'
+    canonical_name: Lumia
+    confidence: 1.0
+    creator: 24時間休業
+  Lumina:
+    aliases:
+    - Lumina
+    - lumina
+    booth_item_id: ''
+    canonical_name: Lumina
+    confidence: 1.0
+    creator: EXTENSION CLOTHING
+  Lunacea:
+    aliases:
+    - lunacea
+    - Lunacea
+    booth_item_id: '4256740'
+    canonical_name: Lunacea
+    confidence: 1.0
+    creator: アマノソラ
+  Lunalit:
+    aliases:
+    - lunalit
+    - Lunalit
+    booth_item_id: ''
+    canonical_name: Lunalit
+    confidence: 1.0
+    creator: ひゅうがなつみかん
+  Lunato:
+    aliases:
+    - lunato
+    - Lunato
+    booth_item_id: ''
+    canonical_name: Lunato
+    confidence: 1.0
+    creator: Xelevia_Industry
+  Lurie:
+    aliases:
+    - lurie
+    - Lurie
+    booth_item_id: '7427949'
+    canonical_name: Lurie
+    confidence: 1.0
+    creator: 仮想VoidCat
+  Lusiphe:
+    aliases:
+    - lusiphe
+    - Lusiphe
+    booth_item_id: ''
+    canonical_name: Lusiphe
+    confidence: 1.0
+    creator: 追憶の書架
+  Luve:
+    aliases:
+    - luve
+    - Luve
+    booth_item_id: '5534723'
+    canonical_name: Luve
+    confidence: 1.0
+    creator: SMOKY DOLLS
+  Lzebul:
+    aliases:
+    - Lzebul
+    - lzebul
+    booth_item_id: '4887691'
+    canonical_name: Lzebul
+    confidence: 1.0
+    creator: 追憶の書架
+  MARUBODY:
+    aliases:
+    - MARUBODY
+    - marubody
+    booth_item_id: '7769199'
+    canonical_name: MARUBODY
+    confidence: 1.0
+    creator: なんか作ろうよ
+  MIKOMIA:
+    aliases:
+    - mikomia
+    - MIKOMIA
+    booth_item_id: '5967855'
+    canonical_name: MIKOMIA
+    confidence: 1.0
+    creator: SKYMY Workshop
+  MUMUS:
+    aliases:
+    - MUMUS
+    - mumus
+    booth_item_id: '6951878'
+    canonical_name: MUMUS
+    confidence: 1.0
+    creator: inemuriXspree
+  Mafuyu:
+    aliases:
+    - mafuyu
+    - Mafuyu
+    booth_item_id: '5007531'
+    canonical_name: Mafuyu
+    confidence: 1.0
+    creator: ぷらすわん
+  Mamehinata:
+    aliases:
+    - まめひなた
+    - mamehinata
+    - '4340548'
+    booth_item_id: '4340548'
+    canonical_name: まめひなた
+    confidence: 1.0
+    creator: もち山金魚
+  Manuka:
+    aliases:
+    - マヌカ
+    - manuka
+    - '5058077'
+    booth_item_id: '5058077'
+    canonical_name: マヌカ
+    confidence: 1.0
+    creator: JINGO CHANNEL
+  Mao:
+    aliases:
+    - mao
+    - Mao
+    booth_item_id: '6846646'
+    canonical_name: Mao
+    confidence: 1.0
+    creator: IKUSIA
+  Maon:
+    aliases:
+    - maon
+    - Maon
+    booth_item_id: ''
+    canonical_name: Maon
+    confidence: 1.0
+    creator: FLASTORE
+  Mariel:
+    aliases:
+    - Mariel
+    - mariel
+    booth_item_id: ''
+    canonical_name: Mariel
+    confidence: 1.0
+    creator: ひゅうがなつみかん
+  Maro:
+    aliases:
+    - Maro
+    - maro
+    booth_item_id: '4196947'
+    canonical_name: Maro
+    confidence: 1.0
+    creator: BlueCloud
+  Marycia:
+    aliases:
+    - marycia
+    - Marycia
+    booth_item_id: '6305948'
+    canonical_name: Marycia
+    confidence: 1.0
+    creator: BeroarN
+  Mashumero:
+    aliases:
+    - mashumero
+    - Mashumero
+    booth_item_id: ''
+    canonical_name: Mashumero
+    confidence: 1.0
+    creator: 雨咲cafe
+  Masyu:
+    aliases:
+    - masyu
+    - Masyu
+    booth_item_id: ''
+    canonical_name: Masyu
+    confidence: 1.0
+    creator: Sisters!
+  Maya:
+    aliases:
+    - Maya
+    - まや
+    - '3390957'
+    booth_item_id: '3390957'
+    canonical_name: まや
+    confidence: 1.0
+    creator: キュビクローゼット
+  Mayo:
+    aliases:
+    - Mayo
+    - mayo
+    booth_item_id: '8122803'
+    canonical_name: Mayo
+    confidence: 1.0
+    creator: Chocolate rice
+  Meiyun:
+    aliases:
+    - Meiyun
+    - meiyun
+    booth_item_id: '4431242'
+    canonical_name: Meiyun
+    confidence: 1.0
+    creator: にげるな屋
+  Melow:
+    aliases:
+    - Melow
+    - melow
+    booth_item_id: '6218001'
+    canonical_name: Melow
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Memena:
+    aliases:
+    - memena
+    - Memena
+    booth_item_id: '6796261'
+    canonical_name: Memena
+    confidence: 1.0
+    creator: hehzs
+  Memeru:
+    aliases:
+    - Memeru
+    - memeru
+    booth_item_id: '4023814'
+    canonical_name: Memeru
+    confidence: 1.0
+    creator: アマノソラ
+  Mil:
+    aliases:
+    - mil
+    - Mil
+    booth_item_id: '6571299'
+    canonical_name: Mil
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Milfy:
+    aliases:
+    - milfy
+    - Milfy
+    booth_item_id: '6571299'
+    canonical_name: Milfy
+    confidence: 1.0
+    creator: ぷらすわん
+  Milk:
+    aliases:
+    - Milk
+    - milk
+    booth_item_id: '2953391'
+    canonical_name: Milk
+    confidence: 1.0
+    creator: ココナッツショップ
+  Milk Latte:
+    aliases:
+    - milk latte
+    - Milk Latte
+    booth_item_id: ''
+    canonical_name: Milk Latte
+    confidence: 1.0
+    creator: かえりみち
+  Milltina:
+    aliases:
+    - Milltina
+    - milltina
+    booth_item_id: '6564253'
+    canonical_name: Milltina
+    confidence: 1.0
+    creator: DOLOS art
+  Miminoko:
+    aliases:
+    - Miminoko
+    - miminoko
+    booth_item_id: ''
+    canonical_name: Miminoko
+    confidence: 1.0
+    creator: 𝐒𝐚𝐡𝐤𝐞ｔ(さふけっと)
+  Minami:
+    aliases:
+    - minami
+    - Minami
+    booth_item_id: ''
+    canonical_name: Minami
+    confidence: 1.0
+    creator: こよりLabo
+  Minase:
+    aliases:
+    - Minase
+    - 水瀬
+    - '4013950'
+    booth_item_id: '4013950'
+    canonical_name: 水瀬
+    confidence: 1.0
+    creator: 久
+  Mint:
+    aliases:
+    - Mint
+    - ミント
+    - '2258111'
+    booth_item_id: '2258111'
+    canonical_name: ミント
+    confidence: 1.0
+    creator: あまとうさぎ
+  Misaki:
+    aliases:
+    - Misaki
+    - misaki
+    booth_item_id: '8325804'
+    canonical_name: Misaki
+    confidence: 1.0
+    creator: VISION TOKYO
+  Miserum:
+    aliases:
+    - Miserum
+    - miserum
+    booth_item_id: '7107765'
+    canonical_name: Miserum
+    confidence: 1.0
+    creator: Vervain
+  Misumi:
+    aliases:
+    - misumi
+    - Misumi
+    booth_item_id: '7763002'
+    canonical_name: Misumi
+    confidence: 1.0
+    creator: 珍飯亭
+  Mitsumame:
+    aliases:
+    - Mitsumame
+    - mitsumame
+    booth_item_id: '5748454'
+    canonical_name: Mitsumame
+    confidence: 1.0
+    creator: 1058mart
+  Miyo:
+    aliases:
+    - Miyo
+    - miyo
+    booth_item_id: ''
+    canonical_name: Miyo
+    confidence: 1.0
+    creator: Saki#
+  Mizuki:
+    aliases:
+    - Mizuki
+    - mizuki
+    booth_item_id: '6948638'
+    canonical_name: Mizuki
+    confidence: 1.0
+    creator: IKUSIA
+  Moe:
+    aliases:
+    - 萌
+    - moe
+    - '4667400'
+    booth_item_id: '4667400'
+    canonical_name: 萌
+    confidence: 1.0
+    creator: キュビクローゼット
+  Moln:
+    aliases:
+    - moln
+    - Moln
+    booth_item_id: ''
+    canonical_name: Moln
+    confidence: 1.0
+    creator: Xelevia_Industry
+  Momo:
+    aliases:
+    - Momo
+    - momo
+    booth_item_id: '6119724'
+    canonical_name: Momo
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Momoka:
+    aliases:
+    - momoka
+    - Momoka
+    booth_item_id: ''
+    canonical_name: Momoka
+    confidence: 1.0
+    creator: RAKO STUDIO
+  Momone:
+    aliases:
+    - Momone
+    - momone
+    booth_item_id: '5665967'
+    canonical_name: Momone
+    confidence: 1.0
+    creator: CatPrincess
+  Morpho:
+    aliases:
+    - morpho
+    - Morpho
+    booth_item_id: ''
+    canonical_name: Morpho
+    confidence: 1.0
+    creator: はみにの立体箱
+  Mulicia:
+    aliases:
+    - Mulicia
+    - mulicia
+    booth_item_id: ''
+    canonical_name: Mulicia
+    confidence: 1.0
+    creator: もにゅめんつ.MONUMENTS
+  Munkki:
+    aliases:
+    - munkki
+    - Munkki
+    booth_item_id: ''
+    canonical_name: Munkki
+    confidence: 1.0
+    creator: なんか作ろうよ
+  Muon:
+    aliases:
+    - muon
+    - Muon
+    booth_item_id: ''
+    canonical_name: Muon
+    confidence: 1.0
+    creator: FLASTORE
+  Muromu:
+    aliases:
+    - muromu
+    - Muromu
+    booth_item_id: ''
+    canonical_name: Muromu
+    confidence: 1.0
+    creator: こよりLabo
+  Mururu:
+    aliases:
+    - Mururu
+    - mururu
+    booth_item_id: '4672957'
+    canonical_name: Mururu
+    confidence: 1.0
+    creator: Lethal Cats
+  NIKA:
+    aliases:
+    - NIKA
+    - nika
+    booth_item_id: ''
+    canonical_name: NIKA
+    confidence: 1.0
+    creator: afro-da-afro`s shop
+  NORANEKOSEVEN:
+    aliases:
+    - NORANEKOSEVEN
+    - noranekoseven
+    booth_item_id: '2555967'
+    canonical_name: NORANEKOSEVEN
+    confidence: 1.0
+    creator: onigashima
+  Nagi:
+    aliases:
+    - nagi
+    - Nagi
+    booth_item_id: '5345398'
+    canonical_name: Nagi
+    confidence: 1.0
+    creator: rio3d
+  Nakiya:
+    aliases:
+    - Nakiya
+    - nakiya
+    booth_item_id: '7924603'
+    canonical_name: Nakiya
+    confidence: 1.0
+    creator: Keenoo
+  Nanase Noir:
+    aliases:
+    - nanase noir
+    - Nanase Noir
+    booth_item_id: ''
+    canonical_name: Nanase Noir
+    confidence: 1.0
+    creator: ステラー工房
+  Nanodevi:
+    aliases:
+    - Nanodevi
+    - nanodevi
+    booth_item_id: '7334826'
+    canonical_name: Nanodevi
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Natsume:
+    aliases:
+    - natsume
+    - Natsume
+    booth_item_id: ''
+    canonical_name: Natsume
+    confidence: 1.0
+    creator: StudioSelyn
+  Nayu:
+    aliases:
+    - nayu
+    - Nayu
+    booth_item_id: '4023598'
+    canonical_name: Nayu
+    confidence: 1.0
+    creator: ぷらすわん
+  Nebia:
+    aliases:
+    - nebia
+    - Nebia
+    booth_item_id: ''
+    canonical_name: Nebia
+    confidence: 1.0
+    creator: Xelevia_Industry
+  NecoMaid:
+    aliases:
+    - NecoMaid
+    - necomaid
+    booth_item_id: '4252664'
+    canonical_name: NecoMaid
+    confidence: 1.0
+    creator: QuQu
+  Nehail:
+    aliases:
+    - Nehail
+    - nehail
+    booth_item_id: '7425658'
+    canonical_name: Nehail
+    confidence: 1.0
+    creator: かなﾘぁさんち
+  Neige:
+    aliases:
+    - neige
+    - Neige
+    booth_item_id: ''
+    canonical_name: Neige
+    confidence: 1.0
+    creator: Xelevia_Industry
+  Nekochiyan:
+    aliases:
+    - nekochiyan
+    - Nekochiyan
+    booth_item_id: ''
+    canonical_name: Nekochiyan
+    confidence: 1.0
+    creator: 川井商店
+  Nekoyama Sora:
+    aliases:
+    - Nekoyama Sora
+    - nekoyama sora
+    booth_item_id: '5353712'
+    canonical_name: Nekoyama Sora
+    confidence: 1.0
+    creator: ツクルノモリ公式
+  Nemesis:
+    aliases:
+    - nemesis
+    - Nemesis
+    booth_item_id: ''
+    canonical_name: Nemesis
+    confidence: 1.0
+    creator: こまいぬ通り
+  Nemia:
+    aliases:
+    - nemia
+    - Nemia
+    booth_item_id: ''
+    canonical_name: Nemia
+    confidence: 1.0
+    creator: ROKO SHOP
+  Neviathan:
+    aliases:
+    - Neviathan
+    - neviathan
+    booth_item_id: '6067461'
+    canonical_name: Neviathan
+    confidence: 1.0
+    creator: アマノソラ
+  Niban:
+    aliases:
+    - niban
+    - Niban
+    booth_item_id: '6858738'
+    canonical_name: Niban
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Nina:
+    aliases:
+    - nina
+    - Nina
+    booth_item_id: '4281851'
+    canonical_name: Nina
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Nix:
+    aliases:
+    - Nix
+    - nix
+    booth_item_id: '6481122'
+    canonical_name: Nix
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Nochica:
+    aliases:
+    - nochica
+    - Nochica
+    booth_item_id: '7363489'
+    canonical_name: Nochica
+    confidence: 1.0
+    creator: Sisters!
+  Noise:
+    aliases:
+    - noise
+    - Noise
+    booth_item_id: ''
+    canonical_name: Noise
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Nona:
+    aliases:
+    - nona
+    - Nona
+    booth_item_id: ''
+    canonical_name: Nona
+    confidence: 1.0
+    creator: UJU
+  NoraFirika:
+    aliases:
+    - NoraFirika
+    - norafirika
+    booth_item_id: '6358495'
+    canonical_name: NoraFirika
+    confidence: 1.0
+    creator: '#のらなべや'
+  NoraMiaree:
+    aliases:
+    - noramiaree
+    - NoraMiaree
+    booth_item_id: '7657739'
+    canonical_name: NoraMiaree
+    confidence: 1.0
+    creator: '#のらなべや'
+  Nouvelle:
+    aliases:
+    - nouvelle
+    - Nouvelle
+    booth_item_id: '5779320'
+    canonical_name: Nouvelle
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Nozomi:
+    aliases:
+    - nozomi
+    - Nozomi
+    booth_item_id: '4962068'
+    canonical_name: Nozomi
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Nunosp:
+    aliases:
+    - nunosp
+    - Nunosp
+    booth_item_id: '6219021'
+    canonical_name: Nunosp
+    confidence: 1.0
+    creator: トノダショップ
+  Nyamoa:
+    aliases:
+    - Nyamoa
+    - nyamoa
+    booth_item_id: '7176666'
+    canonical_name: Nyamoa
+    confidence: 1.0
+    creator: てぐらるしょっぷ
+  Nyasuka:
+    aliases:
+    - Nyasuka
+    - nyasuka
+    booth_item_id: ''
+    canonical_name: Nyasuka
+    confidence: 1.0
+    creator: ストレイ・ラム
+  Ohkami Laran:
+    aliases:
+    - ohkami laran
+    - Ohkami Laran
+    booth_item_id: ''
+    canonical_name: Ohkami Laran
+    confidence: 1.0
+    creator: ストレイ・ラム
+  Ortwa:
+    aliases:
+    - Ortwa
+    - ortwa
+    booth_item_id: '5702588'
+    canonical_name: Ortwa
+    confidence: 1.0
+    creator: アマノソラ
+  Ousia:
+    aliases:
+    - ousia
+    - Ousia
+    booth_item_id: '3695858'
+    canonical_name: Ousia
+    confidence: 1.0
+    creator: UNO
+  Papillon:
+    aliases:
+    - papillon
+    - Papillon
+    booth_item_id: '5731436'
+    canonical_name: Papillon
+    confidence: 1.0
+    creator: BUGAISYA
+  Perula:
+    aliases:
+    - perula
+    - Perula
+    booth_item_id: ''
+    canonical_name: Perula
+    confidence: 1.0
+    creator: 仮想VoidCat
+  Phenoa:
+    aliases:
+    - Phenoa
+    - phenoa
+    booth_item_id: ''
+    canonical_name: Phenoa
+    confidence: 1.0
+    creator: sino&#x27;s store
+  Phi:
+    aliases:
+    - phi
+    - Phi
+    booth_item_id: '2953001'
+    canonical_name: Phi
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Platinum:
+    aliases:
+    - Platinum
+    - platinum
+    booth_item_id: '3950859'
+    canonical_name: Platinum
+    confidence: 1.0
+    creator: ぷらすわん
+  Plum:
+    aliases:
+    - Plum
+    - plum
+    booth_item_id: '7770415'
+    canonical_name: Plum
+    confidence: 1.0
+    creator: あまとうさぎ
+  Pochi:
+    aliases:
+    - Pochi
+    - pochi
+    booth_item_id: '6989943'
+    canonical_name: Pochi
+    confidence: 1.0
+    creator: Pochi by KT
+  PonAndChune:
+    aliases:
+    - PonAndChune
+    - ponandchune
+    booth_item_id: ''
+    canonical_name: PonAndChune
+    confidence: 1.0
+    creator: Sisters!
+  Pretzel:
+    aliases:
+    - pretzel
+    - Pretzel
+    booth_item_id: ''
+    canonical_name: Pretzel
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Ragusiel:
+    aliases:
+    - ragusiel
+    - Ragusiel
+    booth_item_id: ''
+    canonical_name: Ragusiel
+    confidence: 1.0
+    creator: アマノソラ
+  Ramune:
+    aliases:
+    - Ramune
+    - ramune
+    booth_item_id: '7699667'
+    canonical_name: Ramune
+    confidence: 1.0
+    creator: えも研
+  Reflet:
+    aliases:
+    - Reflet
+    - reflet
+    booth_item_id: '4400771'
+    canonical_name: Reflet
+    confidence: 1.0
+    creator: bikiTadpole
+  Rei:
+    aliases:
+    - rei
+    - Rei
+    booth_item_id: '5788427'
+    canonical_name: Rei
+    confidence: 1.0
+    creator: StudioYONO
+  Reiren:
+    aliases:
+    - reiren
+    - Reiren
+    booth_item_id: ''
+    canonical_name: Reiren
+    confidence: 1.0
+    creator: spicavr
+  Rem:
+    aliases:
+    - rem
+    - Rem
+    booth_item_id: '5284464'
+    canonical_name: Rem
+    confidence: 1.0
+    creator: DOGGY BAG
+  Renard:
+    aliases:
+    - renard
+    - Renard
+    booth_item_id: ''
+    canonical_name: Renard
+    confidence: 1.0
+    creator: ナナツキ.Studio
+  Retinia:
+    aliases:
+    - Retinia
+    - retinia
+    booth_item_id: ''
+    canonical_name: Retinia
+    confidence: 1.0
+    creator: AugmentedDolls
+  Ria:
+    aliases:
+    - ria
+    - Ria
+    booth_item_id: '8326219'
+    canonical_name: Ria
+    confidence: 1.0
+    creator: かぷちやのぶーす
+  Ricorine:
+    aliases:
+    - Ricorine
+    - ricorine
+    booth_item_id: '7525578'
+    canonical_name: Ricorine
+    confidence: 1.0
+    creator: Lethal Cats
+  Rinasciita:
+    aliases:
+    - rinasciita
+    - Rinasciita
+    booth_item_id: ''
+    canonical_name: Rinasciita
+    confidence: 1.0
+    creator: RIONESTA
+  Rindo:
+    aliases:
+    - Rindo
+    - rindo
+    booth_item_id: '3495397'
+    canonical_name: Rindo
+    confidence: 1.0
+    creator: STUDIO JINGO
+  Rinfei:
+    aliases:
+    - Rinfei
+    - rinfei
+    booth_item_id: ''
+    canonical_name: Rinfei
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Rio:
+    aliases:
+    - Rio
+    - rio
+    booth_item_id: '6093194'
+    canonical_name: Rio
+    confidence: 1.0
+    creator: 星ワタリノ空
+  Ririka:
+    aliases:
+    - ririka
+    - Ririka
+    booth_item_id: '6373683'
+    canonical_name: Ririka
+    confidence: 1.0
+    creator: IKUSIA
+  Ririmoka:
+    aliases:
+    - ririmoka
+    - Ririmoka
+    booth_item_id: ''
+    canonical_name: Ririmoka
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Riru:
+    aliases:
+    - riru
+    - Riru
+    booth_item_id: '5260030'
+    canonical_name: Riru
+    confidence: 1.0
+    creator: ALPHA0
+  Riruru:
+    aliases:
+    - riruru
+    - Riruru
+    booth_item_id: '5260030'
+    canonical_name: Riruru
+    confidence: 1.0
+    creator: ChipieRupi
+  Ritori:
+    aliases:
+    - Ritori
+    - ritori
+    booth_item_id: ''
+    canonical_name: Ritori
+    confidence: 1.0
+    creator: Legacy System Works
+  Rize:
+    aliases:
+    - rize
+    - Rize
+    booth_item_id: '5496642'
+    canonical_name: Rize
+    confidence: 1.0
+    creator: 黒柚式のソレ
+  Rokona:
+    aliases:
+    - rokona
+    - Rokona
+    booth_item_id: '7682496'
+    canonical_name: Rokona
+    confidence: 1.0
+    creator: Caramel Macchiato
+  Romad:
+    aliases:
+    - romad
+    - Romad
+    booth_item_id: '5321673'
+    canonical_name: Romad
+    confidence: 1.0
+    creator: 珍飯亭
+  Ronfa:
+    aliases:
+    - Ronfa
+    - ronfa
+    booth_item_id: ''
+    canonical_name: Ronfa
+    confidence: 1.0
+    creator: かぷちやのぶーす
+  Roporikon:
+    aliases:
+    - Roporikon
+    - roporikon
+    booth_item_id: ''
+    canonical_name: Roporikon
+    confidence: 1.0
+    creator: みどりの森°　MIDORI NO MORI°
+  RuRuKo:
+    aliases:
+    - ruruko
+    - RuRuKo
+    booth_item_id: '5652176'
+    canonical_name: RuRuKo
+    confidence: 1.0
+    creator: ayashiisoshiki
+  Rufina:
+    aliases:
+    - rufina
+    - Rufina
+    booth_item_id: '4670579'
+    canonical_name: Rufina
+    confidence: 1.0
+    creator: 仮想VoidCat
+  Rui:
+    aliases:
+    - Rui
+    - rui
+    booth_item_id: '7153176'
+    canonical_name: Rui
+    confidence: 1.0
+    creator: JUSTDUCKY
+  Runya:
+    aliases:
+    - runya
+    - Runya
+    booth_item_id: '5852666'
+    canonical_name: Runya
+    confidence: 1.0
+    creator: なっふな堂
+  Ruru:
+    aliases:
+    - Ruru
+    - ruru
+    booth_item_id: '5957830'
+    canonical_name: Ruru
+    confidence: 1.0
+    creator: hehzs
+  Rurune:
+    aliases:
+    - Rurune
+    - rurune
+    booth_item_id: '5957830'
+    canonical_name: Rurune
+    confidence: 1.0
+    creator: IKUSIA
+  Rururia:
+    aliases:
+    - Rururia
+    - rururia
+    booth_item_id: ''
+    canonical_name: Rururia
+    confidence: 1.0
+    creator: なっふな堂
+  Rushka:
+    aliases:
+    - Rushka
+    - rushka
+    booth_item_id: ''
+    canonical_name: Rushka
+    confidence: 1.0
+    creator: とるた めるか～と -Torta Mercato-
+  Rusk:
+    aliases:
+    - Rusk
+    - ラスク
+    - '2559783'
+    booth_item_id: '2559783'
+    canonical_name: ラスク
+    confidence: 1.0
+    creator: こまど
+  Rwerutu:
+    aliases:
+    - rwerutu
+    - Rwerutu
+    booth_item_id: ''
+    canonical_name: Rwerutu
+    confidence: 1.0
+    creator: もくもくねどこ
+  Ryoma:
+    aliases:
+    - ryoma
+    - Ryoma
+    booth_item_id: '3732048'
+    canonical_name: Ryoma
+    confidence: 1.0
+    creator: OGRE（オーガ）
+  Ryousangata Norakyatto:
+    aliases:
+    - Ryousangata Norakyatto
+    - ryousangata norakyatto
+    booth_item_id: ''
+    canonical_name: Ryousangata Norakyatto
+    confidence: 1.0
+    creator: IMR義体工廠
+  Sagara:
+    aliases:
+    - Sagara
+    - sagara
+    booth_item_id: '3856749'
+    canonical_name: Sagara
+    confidence: 1.0
+    creator: rabishop
+  Sairou:
+    aliases:
+    - sairou
+    - Sairou
+    booth_item_id: ''
+    canonical_name: Sairou
+    confidence: 1.0
+    creator: sashimaru
+  Sakuya:
+    aliases:
+    - Sakuya
+    - sakuya
+    booth_item_id: ''
+    canonical_name: Sakuya
+    confidence: 1.0
+    creator: 星ワタリノ空
+  Sanatia:
+    aliases:
+    - Sanatia
+    - sanatia
+    booth_item_id: '6334763'
+    canonical_name: Sanatia
+    confidence: 1.0
+    creator: ふかんじ屋
+  Sapphy:
+    aliases:
+    - Sapphy
+    - sapphy
+    booth_item_id: ''
+    canonical_name: Sapphy
+    confidence: 1.0
+    creator: 仮想VoidCat
+  Sara:
+    aliases:
+    - sara
+    - Sara
+    booth_item_id: '5323373'
+    canonical_name: Sara
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Saria:
+    aliases:
+    - Saria
+    - saria
+    booth_item_id: ''
+    canonical_name: Saria
+    confidence: 1.0
+    creator: こよりLabo
+  Savarum:
+    aliases:
+    - Savarum
+    - savarum
+    booth_item_id: '7731139'
+    canonical_name: Savarum
+    confidence: 1.0
+    creator: 1058mart
+  Schena:
+    aliases:
+    - Schena
+    - schena
+    booth_item_id: ''
+    canonical_name: Schena
+    confidence: 1.0
+    creator: まつり場
+  Seiran:
+    aliases:
+    - seiran
+    - Seiran
+    booth_item_id: ''
+    canonical_name: Seiran
+    confidence: 1.0
+    creator: 雨咲cafe
+  Selestia:
+    aliases:
+    - セレスティア
+    - selestia
+    - せれすてぃあ
+    - Seles
+    - セレス
+    - '4035411'
+    booth_item_id: '4035411'
+    canonical_name: セレスティア
+    confidence: 1.0
+    creator: JINGO CHANNEL
+  Senbyo:
+    aliases:
+    - Senbyo
+    - senbyo
+    booth_item_id: ''
+    canonical_name: Senbyo
+    confidence: 1.0
+    creator: sashimaru
+  Sensei:
+    aliases:
+    - sensei
+    - Sensei
+    booth_item_id: ''
+    canonical_name: Sensei
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Seraphina:
+    aliases:
+    - seraphina
+    - Seraphina
+    booth_item_id: '5597214'
+    canonical_name: Seraphina
+    confidence: 1.0
+    creator: bikiTadpole
+  Serenium:
+    aliases:
+    - Serenium
+    - serenium
+    booth_item_id: ''
+    canonical_name: Serenium
+    confidence: 1.0
+    creator: FLASTORE
+  Shallen:
+    aliases:
+    - shallen
+    - Shallen
+    booth_item_id: ''
+    canonical_name: Shallen
+    confidence: 1.0
+    creator: Eastern Wind
+  Shidou:
+    aliases:
+    - shidou
+    - Shidou
+    booth_item_id: '8086741'
+    canonical_name: Shidou
+    confidence: 1.0
+    creator: MetaverseCreatorsTYO
+  Shiina:
+    aliases:
+    - Shiina
+    - shiina
+    booth_item_id: ''
+    canonical_name: Shiina
+    confidence: 1.0
+    creator: ゴールデン商会
+  Shiji:
+    aliases:
+    - Shiji
+    - shiji
+    booth_item_id: '6582051'
+    canonical_name: Shiji
+    confidence: 1.0
+    creator: アンダル ♦︎ andall
+  Shinano:
+    aliases:
+    - Shinano
+    - shinano
+    booth_item_id: '7903488'
+    canonical_name: Shinano
+    confidence: 1.0
+    creator: ポンデロニウム研究所
+  Shinonome:
+    aliases:
+    - shinonome
+    - Shinonome
+    booth_item_id: '2764046'
+    canonical_name: Shinonome
+    confidence: 1.0
+    creator: '#SASIKIZU'
+  Shinra:
+    aliases:
+    - 森羅
+    - shinra
+    - '4707634'
+    booth_item_id: '4707634'
+    canonical_name: 森羅
+    confidence: 1.0
+    creator: mio
+  Shipilka:
+    aliases:
+    - shipilka
+    - Shipilka
+    booth_item_id: '4593994'
+    canonical_name: Shipilka
+    confidence: 1.0
+    creator: かなﾘぁさんち
+  Shirai:
+    aliases:
+    - Shirai
+    - shirai
+    booth_item_id: '6050736'
+    canonical_name: Shirai
+    confidence: 1.0
+    creator: HoshinosShop
+  Shiratsume:
+    aliases:
+    - shiratsume
+    - Shiratsume
+    booth_item_id: '6831821'
+    canonical_name: Shiratsume
+    confidence: 1.0
+    creator: HARUNOPUPU
+  Shirayuki Tenshi:
+    aliases:
+    - Shirayuki Tenshi
+    - shirayuki tenshi
+    booth_item_id: ''
+    canonical_name: Shirayuki Tenshi
+    confidence: 1.0
+    creator: おみせです
+  Shirley:
+    aliases:
+    - Shirley
+    - shirley
+    booth_item_id: '7339660'
+    canonical_name: Shirley
+    confidence: 1.0
+    creator: CHARAFT
+  Shizune:
+    aliases:
+    - Shizune
+    - shizune
+    booth_item_id: '7684873'
+    canonical_name: Shizune
+    confidence: 1.0
+    creator: MetaverseCreatorsTYO
+  Shuan:
+    aliases:
+    - Shuan
+    - shuan
+    booth_item_id: '6669962'
+    canonical_name: Shuan
+    confidence: 1.0
+    creator: S2K/GLS
+  Sii:
+    aliases:
+    - sii
+    - Sii
+    booth_item_id: ''
+    canonical_name: Sii
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Sio:
+    aliases:
+    - Sio
+    - sio
+    booth_item_id: '5650156'
+    canonical_name: Sio
+    confidence: 1.0
+    creator: Chocolate rice
+  Siska:
+    aliases:
+    - siska
+    - Siska
+    booth_item_id: '7543853'
+    canonical_name: Siska
+    confidence: 1.0
+    creator: なんか作ろうよ
+  Skimmia:
+    aliases:
+    - skimmia
+    - Skimmia
+    booth_item_id: ''
+    canonical_name: Skimmia
+    confidence: 1.0
+    creator: innoce
+  SnowHavoc:
+    aliases:
+    - SnowHavoc
+    - snowhavoc
+    booth_item_id: ''
+    canonical_name: SnowHavoc
+    confidence: 1.0
+    creator: VERMILION .Studio
+  Sofina:
+    aliases:
+    - sofina
+    - Sofina
+    booth_item_id: ''
+    canonical_name: Sofina
+    confidence: 1.0
+    creator: Luku me
+  Solaha:
+    aliases:
+    - solaha
+    - Solaha
+    booth_item_id: ''
+    canonical_name: Solaha
+    confidence: 1.0
+    creator: こここや
+  Solaria:
+    aliases:
+    - solaria
+    - Solaria
+    booth_item_id: '4929153'
+    canonical_name: Solaria
+    confidence: 1.0
+    creator: Froginyata Store
+  Soleil:
+    aliases:
+    - Soleil
+    - soleil
+    booth_item_id: '3666842'
+    canonical_name: Soleil
+    confidence: 1.0
+    creator: bikiTadpole
+  Spielber:
+    aliases:
+    - spielber
+    - Spielber
+    booth_item_id: ''
+    canonical_name: Spielber
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Stracciatella:
+    aliases:
+    - Stracciatella
+    - stracciatella
+    booth_item_id: ''
+    canonical_name: Stracciatella
+    confidence: 1.0
+    creator: 1058mart
+  Sugar:
+    aliases:
+    - sugar
+    - Sugar
+    booth_item_id: '6810379'
+    canonical_name: Sugar
+    confidence: 1.0
+    creator: AQU
+  Sugar Latte:
+    aliases:
+    - Sugar Latte
+    - sugar latte
+    booth_item_id: ''
+    canonical_name: Sugar Latte
+    confidence: 1.0
+    creator: かえりみち
+  Suiha:
+    aliases:
+    - Suiha
+    - suiha
+    booth_item_id: '7534638'
+    canonical_name: Suiha
+    confidence: 1.0
+    creator: 荒嵜造船所
+  Svartlilja:
+    aliases:
+    - svartlilja
+    - Svartlilja
+    booth_item_id: ''
+    canonical_name: Svartlilja
+    confidence: 1.0
+    creator: FLASTORE
+  T-BODY:
+    aliases:
+    - T-BODY
+    - t-body
+    booth_item_id: ''
+    canonical_name: T-BODY
+    confidence: 1.0
+    creator: 珍飯亭
+  Techie:
+    aliases:
+    - techie
+    - Techie
+    booth_item_id: '4919799'
+    canonical_name: Techie
+    confidence: 1.0
+    creator: 珍飯亭
+  Telmy:
+    aliases:
+    - telmy
+    - Telmy
+    booth_item_id: '7432015'
+    canonical_name: Telmy
+    confidence: 1.0
+    creator: ニラレテル
+  Tenchill:
+    aliases:
+    - tenchill
+    - Tenchill
+    booth_item_id: '7980331'
+    canonical_name: Tenchill
+    confidence: 1.0
+    creator: 寺井カントリー|Terai Country
+  Teresa:
+    aliases:
+    - teresa
+    - Teresa
+    booth_item_id: '4860795'
+    canonical_name: Teresa
+    confidence: 1.0
+    creator: StudioYONO
+  Tigurinasu:
+    aliases:
+    - tigurinasu
+    - Tigurinasu
+    booth_item_id: ''
+    canonical_name: Tigurinasu
+    confidence: 1.0
+    creator: みどりの森°　MIDORI NO MORI°
+  Tonnerre:
+    aliases:
+    - tonnerre
+    - Tonnerre
+    booth_item_id: ''
+    canonical_name: Tonnerre
+    confidence: 1.0
+    creator: Xelevia_Industry
+  Totochan:
+    aliases:
+    - totochan
+    - Totochan
+    booth_item_id: ''
+    canonical_name: Totochan
+    confidence: 1.0
+    creator: かぷちやのぶーす
+  Truss and Wedge:
+    aliases:
+    - Truss and Wedge
+    - truss and wedge
+    booth_item_id: ''
+    canonical_name: Truss and Wedge
+    confidence: 1.0
+    creator: Nylonheart
+  Tsubomi:
+    aliases:
+    - tsubomi
+    - Tsubomi
+    booth_item_id: ''
+    canonical_name: Tsubomi
+    confidence: 1.0
+    creator: こここや
+  Tsuyu:
+    aliases:
+    - Tsuyu
+    - tsuyu
+    booth_item_id: '4247101'
+    canonical_name: Tsuyu
+    confidence: 1.0
+    creator: うにゃうにゃぽんぽん
+  TubeRose:
+    aliases:
+    - tuberose
+    - TubeRose
+    booth_item_id: '4193460'
+    canonical_name: TubeRose
+    confidence: 1.0
+    creator: Three Dots and a Dash
+  Ukon Second Type:
+    aliases:
+    - Ukon Second Type
+    - ukon second type
+    booth_item_id: ''
+    canonical_name: Ukon Second Type
+    confidence: 1.0
+    creator: 狐の迷い宿
+  Ulthara:
+    aliases:
+    - ulthara
+    - Ulthara
+    booth_item_id: '5955835'
+    canonical_name: Ulthara
+    confidence: 1.0
+    creator: rls-house
+  Urobo:
+    aliases:
+    - Urobo
+    - urobo
+    booth_item_id: ''
+    canonical_name: Urobo
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Uruki:
+    aliases:
+    - Uruki
+    - uruki
+    booth_item_id: '6574516'
+    canonical_name: Uruki
+    confidence: 1.0
+    creator: Mispin・ミスピン
+  Ururu:
+    aliases:
+    - ururu
+    - Ururu
+    booth_item_id: '4672957'
+    canonical_name: Ururu
+    confidence: 1.0
+    creator: なっふな堂
+  Usasaki:
+    aliases:
+    - Usasaki
+    - usasaki
+    booth_item_id: '3550881'
+    canonical_name: Usasaki
+    confidence: 1.0
+    creator: もち山金魚
+  Uzuki:
+    aliases:
+    - Uzuki
+    - uzuki
+    booth_item_id: '7447697'
+    canonical_name: Uzuki
+    confidence: 1.0
+    creator: Three Dots and a Dash
+  Uzuruha:
+    aliases:
+    - Uzuruha
+    - uzuruha
+    booth_item_id: '5673586'
+    canonical_name: Uzuruha
+    confidence: 1.0
+    creator: かなﾘぁさんち
+  Vanilla:
+    aliases:
+    - Vanilla
+    - vanilla
+    booth_item_id: '4094498'
+    canonical_name: Vanilla
+    confidence: 1.0
+    creator: AVAKIN&#x27;
+  Velle:
+    aliases:
+    - Velle
+    - velle
+    booth_item_id: '4951792'
+    canonical_name: Velle
+    confidence: 1.0
+    creator: Mispin・ミスピン
+  Velnica:
+    aliases:
+    - Velnica
+    - velnica
+    booth_item_id: '6302886'
+    canonical_name: Velnica
+    confidence: 1.0
+    creator: IMTHRA
+  Viostella:
+    aliases:
+    - viostella
+    - Viostella
+    booth_item_id: ''
+    canonical_name: Viostella
+    confidence: 1.0
+    creator: ROZIURA雑貨店
+  Vlau:
+    aliases:
+    - vlau
+    - Vlau
+    booth_item_id: ''
+    canonical_name: Vlau
+    confidence: 1.0
+    creator: ROKO SHOP
+  Warabi:
+    aliases:
+    - Warabi
+    - warabi
+    booth_item_id: ''
+    canonical_name: Warabi
+    confidence: 1.0
+    creator: FLASTORE
+  Wendy:
+    aliases:
+    - wendy
+    - Wendy
+    booth_item_id: '7841391'
+    canonical_name: Wendy
+    confidence: 1.0
+    creator: かえりみち
+  Wolfram:
+    aliases:
+    - Wolfram
+    - wolfram
+    booth_item_id: ''
+    canonical_name: Wolfram
+    confidence: 1.0
+    creator: FLASTORE
+  YRISPHERE:
+    aliases:
+    - YRISPHERE
+    - yrisphere
+    booth_item_id: '3486694'
+    canonical_name: YRISPHERE
+    confidence: 1.0
+    creator: SKYMY Workshop
+  Yena:
+    aliases:
+    - yena
+    - Yena
+    booth_item_id: '4398963'
+    canonical_name: Yena
+    confidence: 1.0
+    creator: ストレイ・ラム
+  Yilnel:
+    aliases:
+    - Yilnel
+    - yilnel
+    booth_item_id: '6289095'
+    canonical_name: Yilnel
+    confidence: 1.0
+    creator: 塩トローチ
+  Yomura:
+    aliases:
+    - yomura
+    - Yomura
+    booth_item_id: '8027029'
+    canonical_name: Yomura
+    confidence: 1.0
+    creator: MetaverseCreatorsTYO
+  Yoru:
+    aliases:
+    - yoru
+    - Yoru
+    booth_item_id: '8029794'
+    canonical_name: Yoru
+    confidence: 1.0
+    creator: Sugoi Shop
+  Yoshitsugu:
+    aliases:
+    - yoshitsugu
+    - Yoshitsugu
+    booth_item_id: '6773043'
+    canonical_name: Yoshitsugu
+    confidence: 1.0
+    creator: HoshinosShop
+  Yozuki:
+    aliases:
+    - Yozuki
+    - yozuki
+    booth_item_id: ''
+    canonical_name: Yozuki
+    confidence: 1.0
+    creator: こここや
+  Yugi:
+    aliases:
+    - Yugi
+    - yugi
+    booth_item_id: ''
+    canonical_name: Yugi
+    confidence: 1.0
+    creator: Saki#
+  Yui:
+    aliases:
+    - yui
+    - Yui
+    booth_item_id: '5447418'
+    canonical_name: Yui
+    confidence: 1.0
+    creator: MetaverseCreatorsTYO
+  Yuu:
+    aliases:
+    - Yuu
+    - yuu
+    booth_item_id: '7475080'
+    canonical_name: Yuu
+    confidence: 1.0
+    creator: わこーのあとりえ
+  Yuugiri:
+    aliases:
+    - Yuugiri
+    - yuugiri
+    booth_item_id: ''
+    canonical_name: Yuugiri
+    confidence: 1.0
+    creator: エンタス_ BOOTH出張店
+  Yuzuki:
+    aliases:
+    - yuzuki
+    - Yuzuki
+    booth_item_id: '7447697'
+    canonical_name: Yuzuki
+    confidence: 1.0
+    creator: VIVID PLUM
+  Zev:
+    aliases:
+    - zev
+    - Zev
+    booth_item_id: '6717995'
+    canonical_name: Zev
+    confidence: 1.0
+    creator: 珍飯亭
+  Zome:
+    aliases:
+    - Zome
+    - zome
+    booth_item_id: ''
+    canonical_name: Zome
+    confidence: 1.0
+    creator: Yorshka Shop
+updated_at: '2026-06-11'
+version: 1
