@@ -105,7 +105,13 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";")
 
+    # Regrow metadata.json using scripts/generate_metadata.py
+    os.system("python3 scripts/generate_metadata.py")
+
     metadata_path = os.path.join(api_staging, "metadata.json")
+    if not os.path.exists(metadata_path):
+        metadata_path = "api/metadata.json"
+        
     if os.path.exists(metadata_path):
         with open(metadata_path, encoding="utf-8") as f:
             meta_content = json.load(f)

@@ -1,17 +1,14 @@
 {
   "total_items": 40017,
   "types": {
-    "ANIMATION": 1159,
-    "AVATAR": 4259,
-    "GIMMICK_TOOL": 2157,
-    "PROP": 2151,
-    "ASSET": 6719,
-    "OUTFIT": 16149,
-    "HAIRSTYLE": 1296,
-    "WORLD": 1535,
-    "TEXTURE": 3504,
-    "ACCESSORY": 535,
-    "VROID": 553
+    "ANIMATION": 880,
+    "AVATAR": 4487,
+    "GIMMICK_TOOL": 6326,
+    "ACCESSORY": 9217,
+    "OUTFIT": 13081,
+    "TEXTURE": 3853,
+    "HAIRSTYLE": 1681,
+    "VROID": 492
   },
   "top_shops": {
     "woodapple": 246,
@@ -37,6 +34,6 @@
     "Lapwing": 184,
     "グルス": 184
   },
-  "avatar_compatibility_rate": 13.96,
-  "updated_at": "2026-06-11T12:38:34.738328"
+  "avatar_compatibility_rate": 14.85,
+  "updated_at": "2026-06-11T12:49:58.300480"
 }
