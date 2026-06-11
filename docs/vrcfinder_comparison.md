@@ -31,3 +31,11 @@ VRCFinderと私たちのデータベースのカテゴリ別アイテム数を�
 
 3. **`TEXTURE` と `PROP` のカバー不足（カバー率 ~70%）** 🎨
    - **改善命令**: テクスチャ関連キーワード（`メイクテクスチャ`、`アイテクスチャ`）のエイリアス辞書を強化し、`ASSET` から適切なカテゴリへ再分類を行うこと！
+
+## 🛠️ データ管理改善アクションプラン
+- [ ] `scripts/evolve_ontology.py` を定期実行し、VRCFinderの最新タグセットとの同期を維持する
+- [ ] 分類用エイリアス辞書の網羅性を高め、`ASSET` カテゴリ（その他/未分類）の比率を下げる
+- [ ] カテゴリ再判定を含む bulk pipeline を再起動し、データ品質を検証する
+
+---
+🐾 *Axiomatic Space remains consistent with improved intelligence!*

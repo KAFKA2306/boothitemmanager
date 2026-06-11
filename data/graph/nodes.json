@@ -21,10 +21,10 @@
     }
   },
   {
-    "id": "tag:Animation",
+    "id": "tag:Cute",
     "label": "Tag",
     "properties": {
-      "name": "tag:Animation"
+      "name": "tag:Cute"
     }
   },
   {
@@ -35,10 +35,10 @@
     }
   },
   {
-    "id": "tag:Cute",
+    "id": "tag:Animation",
     "label": "Tag",
     "properties": {
-      "name": "tag:Cute"
+      "name": "tag:Animation"
     }
   },
   {
@@ -560,13 +560,6 @@
     }
   },
   {
-    "id": "tag:set",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:set"
-    }
-  },
-  {
     "id": "tag:Hoodie",
     "label": "Tag",
     "properties": {
@@ -578,6 +571,13 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Hood"
+    }
+  },
+  {
+    "id": "tag:set",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:set"
     }
   },
   {
@@ -728,13 +728,6 @@
     }
   },
   {
-    "id": "tag:Moe",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Moe"
-    }
-  },
-  {
     "id": "item:7131644",
     "label": "Item",
     "properties": {
@@ -819,17 +812,17 @@
     }
   },
   {
-    "id": "tag:Rusk",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Rusk"
-    }
-  },
-  {
     "id": "tag:Obi",
     "label": "Tag",
     "properties": {
       "name": "tag:Obi"
+    }
+  },
+  {
+    "id": "tag:Rusk",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Rusk"
     }
   },
   {
@@ -1232,10 +1225,10 @@
     }
   },
   {
-    "id": "tag:Classic",
+    "id": "tag:Chic",
     "label": "Tag",
     "properties": {
-      "name": "tag:Classic"
+      "name": "tag:Chic"
     }
   },
   {
@@ -1246,10 +1239,10 @@
     }
   },
   {
-    "id": "tag:Chic",
+    "id": "tag:Classic",
     "label": "Tag",
     "properties": {
-      "name": "tag:Chic"
+      "name": "tag:Classic"
     }
   },
   {
@@ -1337,17 +1330,17 @@
     }
   },
   {
-    "id": "tag:Religious",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Religious"
-    }
-  },
-  {
     "id": "tag:Nun Outfit",
     "label": "Tag",
     "properties": {
       "name": "tag:Nun Outfit"
+    }
+  },
+  {
+    "id": "tag:Religious",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Religious"
     }
   },
   {
@@ -1708,17 +1701,17 @@
     }
   },
   {
-    "id": "tag:Game",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Game"
-    }
-  },
-  {
     "id": "tag:Emo",
     "label": "Tag",
     "properties": {
       "name": "tag:Emo"
+    }
+  },
+  {
+    "id": "tag:Game",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Game"
     }
   },
   {
@@ -1750,6 +1743,13 @@
     }
   },
   {
+    "id": "tag:Punk",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Punk"
+    }
+  },
+  {
     "id": "tag:Female",
     "label": "Tag",
     "properties": {
@@ -1761,13 +1761,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Male"
-    }
-  },
-  {
-    "id": "tag:Punk",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Punk"
     }
   },
   {
@@ -2114,17 +2107,17 @@
     }
   },
   {
-    "id": "tag:Angel",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Angel"
-    }
-  },
-  {
     "id": "tag:Tenshi",
     "label": "Tag",
     "properties": {
       "name": "tag:Tenshi"
+    }
+  },
+  {
+    "id": "tag:Angel",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Angel"
     }
   },
   {
@@ -2170,17 +2163,17 @@
     }
   },
   {
-    "id": "tag:Onee-san Style",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Onee-san Style"
-    }
-  },
-  {
     "id": "tag:Mature",
     "label": "Tag",
     "properties": {
       "name": "tag:Mature"
+    }
+  },
+  {
+    "id": "tag:Onee-san Style",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Onee-san Style"
     }
   },
   {
@@ -2730,17 +2723,17 @@
     }
   },
   {
-    "id": "tag:School Uniform",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:School Uniform"
-    }
-  },
-  {
     "id": "tag:Uniform",
     "label": "Tag",
     "properties": {
       "name": "tag:Uniform"
+    }
+  },
+  {
+    "id": "tag:School Uniform",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:School Uniform"
     }
   },
   {
@@ -3829,17 +3822,17 @@
     }
   },
   {
-    "id": "tag:Marine",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Marine"
-    }
-  },
-  {
     "id": "tag:Misaki",
     "label": "Tag",
     "properties": {
       "name": "tag:Misaki"
+    }
+  },
+  {
+    "id": "tag:Marine",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Marine"
     }
   },
   {
@@ -4151,17 +4144,17 @@
     }
   },
   {
-    "id": "tag:Daily",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Daily"
-    }
-  },
-  {
     "id": "tag:DailyClothes",
     "label": "Tag",
     "properties": {
       "name": "tag:DailyClothes"
+    }
+  },
+  {
+    "id": "tag:Daily",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Daily"
     }
   },
   {
@@ -4417,17 +4410,17 @@
     }
   },
   {
-    "id": "tag:Japanese Style",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Japanese Style"
-    }
-  },
-  {
     "id": "tag:Japanese",
     "label": "Tag",
     "properties": {
       "name": "tag:Japanese"
+    }
+  },
+  {
+    "id": "tag:Japanese Style",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Japanese Style"
     }
   },
   {
@@ -4606,17 +4599,17 @@
     }
   },
   {
-    "id": "tag:Yami Kawaii",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Yami Kawaii"
-    }
-  },
-  {
     "id": "tag:Yume Kawaii",
     "label": "Tag",
     "properties": {
       "name": "tag:Yume Kawaii"
+    }
+  },
+  {
+    "id": "tag:Yami Kawaii",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Yami Kawaii"
     }
   },
   {
@@ -4746,17 +4739,17 @@
     }
   },
   {
-    "id": "tag:Cat",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Cat"
-    }
-  },
-  {
     "id": "tag:Cyber",
     "label": "Tag",
     "properties": {
       "name": "tag:Cyber"
+    }
+  },
+  {
+    "id": "tag:Cat",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Cat"
     }
   },
   {
@@ -5509,17 +5502,17 @@
     }
   },
   {
-    "id": "tag:Boots",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Boots"
-    }
-  },
-  {
     "id": "tag:Gothic",
     "label": "Tag",
     "properties": {
       "name": "tag:Gothic"
+    }
+  },
+  {
+    "id": "tag:Boots",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Boots"
     }
   },
   {
@@ -7434,17 +7427,17 @@
     }
   },
   {
-    "id": "tag:Suit",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Suit"
-    }
-  },
-  {
     "id": "tag:Wild",
     "label": "Tag",
     "properties": {
       "name": "tag:Wild"
+    }
+  },
+  {
+    "id": "tag:Suit",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Suit"
     }
   },
   {
@@ -7462,17 +7455,17 @@
     }
   },
   {
-    "id": "tag:Chalo",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Chalo"
-    }
-  },
-  {
     "id": "tag:Halo",
     "label": "Tag",
     "properties": {
       "name": "tag:Halo"
+    }
+  },
+  {
+    "id": "tag:Chalo",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Chalo"
     }
   },
   {
@@ -11298,6 +11291,13 @@
     }
   },
   {
+    "id": "tag:Moe",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Moe"
+    }
+  },
+  {
     "id": "item:7543853",
     "label": "Item",
     "properties": {
@@ -12264,17 +12264,17 @@
     }
   },
   {
-    "id": "tag:Haori",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Haori"
-    }
-  },
-  {
     "id": "tag:Hakama",
     "label": "Tag",
     "properties": {
       "name": "tag:Hakama"
+    }
+  },
+  {
+    "id": "tag:Haori",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Haori"
     }
   },
   {
@@ -12572,17 +12572,17 @@
     }
   },
   {
-    "id": "tag:Kimono",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Kimono"
-    }
-  },
-  {
     "id": "tag:New Year",
     "label": "Tag",
     "properties": {
       "name": "tag:New Year"
+    }
+  },
+  {
+    "id": "tag:Kimono",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Kimono"
     }
   },
   {
@@ -14161,17 +14161,17 @@
     }
   },
   {
-    "id": "tag:Isanai",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Isanai"
-    }
-  },
-  {
     "id": "tag:Isanai Nuku",
     "label": "Tag",
     "properties": {
       "name": "tag:Isanai Nuku"
+    }
+  },
+  {
+    "id": "tag:Isanai",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Isanai"
     }
   },
   {
@@ -14994,17 +14994,17 @@
     }
   },
   {
-    "id": "tag:Corset",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Corset"
-    }
-  },
-  {
     "id": "tag:Cream",
     "label": "Tag",
     "properties": {
       "name": "tag:Cream"
+    }
+  },
+  {
+    "id": "tag:Corset",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Corset"
     }
   },
   {
@@ -15953,17 +15953,17 @@
     }
   },
   {
-    "id": "tag:Coat",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Coat"
-    }
-  },
-  {
     "id": "tag:Raincoat",
     "label": "Tag",
     "properties": {
       "name": "tag:Raincoat"
+    }
+  },
+  {
+    "id": "tag:Coat",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Coat"
     }
   },
   {
@@ -19453,17 +19453,17 @@
     }
   },
   {
-    "id": "tag:Kaya",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Kaya"
-    }
-  },
-  {
     "id": "tag:Inaba Kaya",
     "label": "Tag",
     "properties": {
       "name": "tag:Inaba Kaya"
+    }
+  },
+  {
+    "id": "tag:Kaya",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Kaya"
     }
   },
   {
@@ -21056,17 +21056,17 @@
     }
   },
   {
-    "id": "tag:Near-Future",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Near-Future"
-    }
-  },
-  {
     "id": "tag:Ninja",
     "label": "Tag",
     "properties": {
       "name": "tag:Ninja"
+    }
+  },
+  {
+    "id": "tag:Near-Future",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Near-Future"
     }
   },
   {
@@ -22106,17 +22106,17 @@
     }
   },
   {
-    "id": "tag:tops",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:tops"
-    }
-  },
-  {
     "id": "tag:Tops",
     "label": "Tag",
     "properties": {
       "name": "tag:Tops"
+    }
+  },
+  {
+    "id": "tag:tops",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:tops"
     }
   },
   {
@@ -25928,17 +25928,17 @@
     }
   },
   {
-    "id": "tag:Sporty",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Sporty"
-    }
-  },
-  {
     "id": "tag:Maya",
     "label": "Tag",
     "properties": {
       "name": "tag:Maya"
+    }
+  },
+  {
+    "id": "tag:Sporty",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Sporty"
     }
   },
   {

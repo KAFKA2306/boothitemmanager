@@ -2,12 +2,12 @@
   "total_items": 40017,
   "types": {
     "ANIMATION": 880,
-    "AVATAR": 4487,
-    "GIMMICK_TOOL": 6325,
-    "ACCESSORY": 9217,
-    "OUTFIT": 13082,
-    "TEXTURE": 3853,
-    "HAIRSTYLE": 1681,
+    "AVATAR": 4443,
+    "GIMMICK_TOOL": 6271,
+    "ACCESSORY": 9133,
+    "OUTFIT": 12832,
+    "TEXTURE": 3687,
+    "HAIRSTYLE": 2279,
     "VROID": 492
   },
   "top_shops": {
@@ -28,12 +28,12 @@
     "マヌカ": 507,
     "セレスティア": 355,
     "森羅": 320,
-    "萌": 307,
     "まめひなた": 303,
     "水瀬": 187,
-    "Lapwing": 184,
-    "グルス": 184
+    "グルス": 184,
+    "Lapwing": 183,
+    "Milltina": 162
   },
-  "avatar_compatibility_rate": 15.03,
-  "updated_at": "2026-06-12T08:02:57.213059"
+  "avatar_compatibility_rate": 14.81,
+  "updated_at": "2026-06-12T08:21:57.770923"
 }

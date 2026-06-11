@@ -279,6 +279,12 @@ def pick_targets(
     name: str, description: str, tags: list[str], aliases: dict[str, Any]
 ) -> list[AvatarRef]:
     targets_map = {}
+    
+    # Do not match targets if title explicitly mentions generic/universal asset status
+    lower_name = name.lower()
+    if "汎用" in lower_name or "アバター用なし" in lower_name or "特定の対象アバターなし" in lower_name:
+        return []
+
     text = f"{name} {description} {' '.join(tags)}".lower()
 
     # Negative patterns to look for near the term
@@ -316,6 +322,8 @@ def pick_targets(
         )
 
         for term in terms:
+            if not term or len(term) < 2:  # Avoid single character matches like 's', 'm' causing false positives
+                continue
             # Fuzzy boundary: ensure not mid-word for alphanumeric
             if term.isalnum():
                 pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
@@ -346,14 +354,14 @@ def infer_category(
 ) -> ItemCategory:
     text = f"{name} {description} {' '.join(tags)}".lower()
     
-    # 1. TEXTURE & HAIRSTYLE
-    texture_aliases = ["テクスチャ", "texture", "瞳", "肌", "skin", "メイクテクスチャ", "アイテクスチャ"]
-    if any(k in text for k in texture_aliases):
-        return ItemCategory.TEXTURE
-
-    hairstyle_aliases = ["髪型", "ヘアスタイル", "hairstyle", "髪", "ヘア", "ツインテール", "ポニテ"]
+    # 1. TEXTURE & HAIRSTYLE (Give priority to high-specificity keywords)
+    hairstyle_aliases = ["髪型", "ヘアスタイル", "hairstyle", "髪", "ヘア", "ツインテール", "ポニテ", "hair", "ショートヘア", "ロングヘア"]
     if any(k in text for k in hairstyle_aliases):
         return ItemCategory.HAIRSTYLE
+
+    texture_aliases = ["テクスチャ", "texture", "瞳", "肌", "skin", "メイクテクスチャ", "アイテクスチャ", "アイメイク", "アイテクスチャー"]
+    if any(k in text for k in texture_aliases):
+        return ItemCategory.TEXTURE
 
     # 2. AVATAR
     if any(k in text for k in ["アバター", "avatar", "オリジナル3dモデル"]) and "対応" not in name:
