@@ -763,21 +763,23 @@
                 .map(a => 
                     `<button class="filter-btn avatar-btn ${filters.avatar === a.code ? 'active' : ''}" data-code="${a.code}">${a.name} (${avatarCounts[a.code]})</button>`
                 ).join('');
-
-            document.getElementById('feature-selector').innerHTML = metaFeatures
+            document.getElementById('feature-selector').innerHTML = [...metaFeatures]
                 .filter(f => showAll || featureCounts[f.code] > 0)
+                .sort((a, b) => (featureCounts[b.code] || 0) - (featureCounts[a.code] || 0))
                 .map(f => 
                     `<span class="tag-pill feature-tag ${filters.features.has(f.code) ? 'active' : ''}" data-val="${f.code}">${f.code} (${featureCounts[f.code]})</span>`
                 ).join('');
 
-            document.getElementById('style-selector').innerHTML = metaStyles
+            document.getElementById('style-selector').innerHTML = [...metaStyles]
                 .filter(s => showAll || styleCounts[s] > 0)
+                .sort((a, b) => (styleCounts[b] || 0) - (styleCounts[a] || 0))
                 .map(s => 
                     `<span class="tag-pill style-tag ${filters.styles.has(s) ? 'active' : ''}" data-val="${s}">${s} (${styleCounts[s]})</span>`
                 ).join('');
 
-            document.getElementById('color-selector').innerHTML = metaColors
+            document.getElementById('color-selector').innerHTML = [...metaColors]
                 .filter(c => showAll || colorCounts[c] > 0)
+                .sort((a, b) => (colorCounts[b] || 0) - (colorCounts[a] || 0))
                 .map(c => 
                     `<span class="tag-pill color-tag ${filters.colors.has(c) ? 'active' : ''}" data-val="${c}">${c} (${colorCounts[c]})</span>`
                 ).join('');
