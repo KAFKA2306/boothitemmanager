@@ -729,6 +729,25 @@
 
             const showAll = false;
 
+            let needsReapply = false;
+            if (filters.avatar && avatarCounts[filters.avatar] === 0) {
+                filters.avatar = null;
+                needsReapply = true;
+            }
+            filters.features.forEach(f => {
+                if (featureCounts[f] === 0) { filters.features.delete(f); needsReapply = true; }
+            });
+            filters.styles.forEach(s => {
+                if (styleCounts[s] === 0) { filters.styles.delete(s); needsReapply = true; }
+            });
+            filters.colors.forEach(c => {
+                if (colorCounts[c] === 0) { filters.colors.delete(c); needsReapply = true; }
+            });
+            if (needsReapply) {
+                applyFilters();
+                return;
+            }
+
             document.getElementById('avatar-selector').innerHTML = metaAvatars
                 .filter(a => showAll || avatarCounts[a.code] > 0)
                 .map(a => 
@@ -1048,15 +1067,15 @@
 
             // Spec 2: PhysBone Compatibility
             const hasPB = tags.has('physbone') || tags.has('pb対応') || tags.has('pb') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('PhysBone'));
-            specs.push({ label: 'PhysBone Support', val: hasPB ? '✓ 設定済み' : '✗ 未設定 / 不明' });
+            if (hasPB) specs.push({ label: 'PhysBone Support', val: '✓ 設定済み' });
 
             // Spec 3: Modular Avatar Compatibility
             const hasMA = tags.has('modularavatar') || tags.has('ma対応') || tags.has('ma') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('ModularAvatar'));
-            specs.push({ label: 'Modular Avatar', val: hasMA ? '✓ 対応 (ワンクリック着せ替え)' : '✗ 非対応 / 手動導入' });
+            if (hasMA) specs.push({ label: 'Modular Avatar', val: '✓ 対応 (ワンクリック着せ替え)' });
 
             // Spec 4: Quest / Standalone VR support
             const hasQuest = tags.has('questcompatible') || tags.has('quest対応') || tags.has('android') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('QuestCompatible'));
-            specs.push({ label: 'Quest Compatible', val: hasQuest ? '✓ 対応 (Fallback / Lite)' : '✗ PC専用' });
+            if (hasQuest) specs.push({ label: 'Quest Compatible', val: '✓ 対応 (Fallback / Lite)' });
 
             document.getElementById('modal-specs-grid').innerHTML = specs.map(s => `
                 <div class="spec-item">
