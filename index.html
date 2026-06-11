@@ -645,6 +645,7 @@
                 DOM.text.textContent = `SYNCING [${allItems.length.toLocaleString()}]`;
 
                 applyFilters();
+                renderStaticFilters();
 
                 // Load Data Phase 2 (Background)
                 try {
@@ -655,9 +656,11 @@
                             DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
                             updateCounts();
                             applyFilters();
+                            renderStaticFilters();
                         }).catch(err => {
                             console.warn("Background fetch of part 2 failed (expected in local file:// mode):", err);
                             DOM.text.textContent = `LOCAL MODE [${allItems.length.toLocaleString()}]`;
+                            renderStaticFilters();
                         });
                 } catch (e) {
                     console.warn("Part 2 loading error:", e);
@@ -680,18 +683,75 @@
         }
 
         function renderStaticFilters() {
-            document.getElementById('avatar-selector').innerHTML = metaAvatars.map(a => 
-                `<button class="filter-btn avatar-btn ${filters.avatar === a.code ? 'active' : ''}" data-code="${a.code}">${a.name}</button>`
-            ).join('');
-            document.getElementById('feature-selector').innerHTML = metaFeatures.map(f => 
-                `<span class="tag-pill feature-tag" data-val="${f.code}">${f.code}</span>`
-            ).join('');
-            document.getElementById('style-selector').innerHTML = metaStyles.map(s => 
-                `<span class="tag-pill style-tag" data-val="${s}">${s}</span>`
-            ).join('');
-            document.getElementById('color-selector').innerHTML = metaColors.map(c => 
-                `<span class="tag-pill color-tag" data-val="${c}">${c}</span>`
-            ).join('');
+            const avatarCounts = {};
+            const featureCounts = {};
+            const styleCounts = {};
+            const colorCounts = {};
+
+            metaAvatars.forEach(a => avatarCounts[a.code] = 0);
+            metaFeatures.forEach(f => featureCounts[f.code] = 0);
+            metaStyles.forEach(s => styleCounts[s] = 0);
+            metaColors.forEach(c => colorCounts[c] = 0);
+
+            allItems.forEach(i => {
+                const tags = (i.tags || []).map(t => t.toLowerCase());
+                const targets = (i.compatible_avatars || i.targets || []).map(t => 
+                    (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase()
+                );
+
+                metaAvatars.forEach(a => {
+                    const name = a.name.toLowerCase();
+                    const code = a.code.toLowerCase();
+                    if (targets.includes(name) || targets.includes(code) || tags.includes(name) || tags.includes(code)) {
+                        avatarCounts[a.code]++;
+                    }
+                });
+
+                const tagsSet = new Set(tags);
+                if (i.tag_set) {
+                    if (i.tag_set.feature) i.tag_set.feature.forEach(f => tagsSet.add(f.toLowerCase()));
+                    if (i.tag_set.style) i.tag_set.style.forEach(s => tagsSet.add(s.toLowerCase()));
+                    if (i.tag_set.color) i.tag_set.color.forEach(c => tagsSet.add(c.toLowerCase()));
+                }
+
+                metaFeatures.forEach(f => {
+                    if (tagsSet.has(f.code.toLowerCase())) featureCounts[f.code]++;
+                });
+
+                metaStyles.forEach(s => {
+                    if (tagsSet.has(s.toLowerCase())) styleCounts[s]++;
+                });
+
+                metaColors.forEach(c => {
+                    if (tagsSet.has(c.toLowerCase())) colorCounts[c]++;
+                });
+            });
+
+            const showAll = allItems.length === 0;
+
+            document.getElementById('avatar-selector').innerHTML = metaAvatars
+                .filter(a => showAll || avatarCounts[a.code] > 0)
+                .map(a => 
+                    `<button class="filter-btn avatar-btn ${filters.avatar === a.code ? 'active' : ''}" data-code="${a.code}">${a.name} (${avatarCounts[a.code]})</button>`
+                ).join('');
+
+            document.getElementById('feature-selector').innerHTML = metaFeatures
+                .filter(f => showAll || featureCounts[f.code] > 0)
+                .map(f => 
+                    `<span class="tag-pill feature-tag ${filters.features.has(f.code) ? 'active' : ''}" data-val="${f.code}">${f.code} (${featureCounts[f.code]})</span>`
+                ).join('');
+
+            document.getElementById('style-selector').innerHTML = metaStyles
+                .filter(s => showAll || styleCounts[s] > 0)
+                .map(s => 
+                    `<span class="tag-pill style-tag ${filters.styles.has(s) ? 'active' : ''}" data-val="${s}">${s} (${styleCounts[s]})</span>`
+                ).join('');
+
+            document.getElementById('color-selector').innerHTML = metaColors
+                .filter(c => showAll || colorCounts[c] > 0)
+                .map(c => 
+                    `<span class="tag-pill color-tag ${filters.colors.has(c) ? 'active' : ''}" data-val="${c}">${c} (${colorCounts[c]})</span>`
+                ).join('');
         }
 
         function bindEvents() {
