@@ -1,1092 +1,3106 @@
+Colors: &id082
+  Beige:
+    aliases:
+    - ベージュ
+    - beige
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Black:
+    aliases:
+    - black
+    - 黒
+    - ブラック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blue:
+    aliases:
+    - 青
+    - ブルー
+    - Blue
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bordeaux:
+    aliases:
+    - Bordeaux
+    - ボルドー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Brown:
+    aliases:
+    - 茶
+    - ブラウン
+    - Brown
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Charcoal:
+    aliases:
+    - Charcoal
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cream:
+    aliases:
+    - Cream
+    - クリーム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cyan:
+    aliases:
+    - Cyan
+    - シアン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gold:
+    aliases:
+    - gold
+    - ゴールド
+    - 金
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gray:
+    aliases:
+    - gray
+    - グレー
+    - grey
+    - 灰
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Green:
+    aliases:
+    - Green
+    - 緑
+    - グリーン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Ivory:
+    aliases:
+    - Ivory
+    - アイボリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Khaki:
+    aliases:
+    - Khaki
+    - カーキ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lavender:
+    aliases:
+    - Lavender
+    - ラベンダー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Light Blue:
+    aliases:
+    - ライトブルー
+    - Light Blue
+    - 水色
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Magenta:
+    aliases:
+    - Magenta
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mint:
+    aliases:
+    - Mint
+    - ミント
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Navy:
+    aliases:
+    - navy
+    - ネイビー
+    - 紺
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Neon:
+    aliases:
+    - ネオン
+    - Neon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Orange:
+    aliases:
+    - Orange
+    - 橙
+    - オレンジ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pastel:
+    aliases:
+    - Pastel
+    - パステル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pink:
+    aliases:
+    - ピンク
+    - Pink
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Purple:
+    aliases:
+    - パープル
+    - Purple
+    - 紫
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Red:
+    aliases:
+    - 赤
+    - Red
+    - レッド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Silver:
+    aliases:
+    - シルバー
+    - 銀
+    - silver
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Turquoise:
+    aliases:
+    - turquoise
+    - ターコイズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  White:
+    aliases:
+    - ホワイト
+    - 白
+    - White
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Yellow:
+    aliases:
+    - yellow
+    - 黄
+    - イエロー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+Styles:
+  Ahoge: &id001
+    aliases:
+    - ahoge
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Angel: &id002
+    aliases:
+    - Angel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Animal Ears: &id003
+    aliases:
+    - Animal Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Apron: &id128
+    aliases:
+    - apron
+    - エプロン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Apron Dress: &id129
+    aliases:
+    - Apron Dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Armor: &id130
+    aliases:
+    - armor
+    - アーマー
+    - 鎧
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Babydoll: &id131
+    aliases:
+    - ベビードール
+    - babydoll
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bath Towel: &id132
+    aliases:
+    - bath towel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Battle Outfit: &id133
+    aliases:
+    - battle outfit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bear Ears: &id004
+    aliases:
+    - Bear Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Beast Ears: &id005
+    aliases:
+    - Beast Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Belt: &id134
+    aliases:
+    - belt
+    - ベルト
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Beret: &id135
+    aliases:
+    - beret
+    - ベレー帽
+    - ベレー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bikini: &id136
+    aliases:
+    - bikini
+    - ビキニ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Black Hair: &id006
+    aliases:
+    - Black Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blazer: &id137
+    aliases:
+    - Blazer
+    - ブレザー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blonde Hair: &id007
+    aliases:
+    - Blonde Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bloomers: &id138
+    aliases:
+    - ブルマ
+    - Bloomers
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blouse: &id139
+    aliases:
+    - blouse
+    - ブラウス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blouson: &id140
+    aliases:
+    - blouson
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blue Eyes: &id008
+    aliases:
+    - blue eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blue Hair: &id009
+    aliases:
+    - Blue Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Blunt Bangs: &id010
+    aliases:
+    - Blunt Bangs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bob Hair: &id011
+    aliases:
+    - Bob Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bodysuit: &id141
+    aliases:
+    - bodysuit
+    - ボディスーツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bolero: &id142
+    aliases:
+    - Bolero
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bondage: &id143
+    aliases:
+    - 拘束
+    - bondage
+    - ボンデージ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Boots: &id144
+    aliases:
+    - boots
+    - ブーツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bottoms: &id145
+    aliases:
+    - Bottoms
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bra Top: &id146
+    aliases:
+    - ブラトップ
+    - bra top
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Braid: &id012
+    aliases:
+    - Braid
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Braided: &id013
+    aliases:
+    - braided
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Brown Eyes: &id014
+    aliases:
+    - Brown Eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Brown Hair: &id015
+    aliases:
+    - Brown Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bun Hair: &id016
+    aliases:
+    - Bun Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bunny Ears: &id017
+    aliases:
+    - bunny ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bunny Suit: &id147
+    aliases:
+    - バニーガール
+    - bunny suit
+    - バニースーツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Bustier: &id148
+    aliases:
+    - bustier
+    - ビスチェ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Camisole: &id149
+    aliases:
+    - キャミソール
+    - Camisole
+    - キャミ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cap: &id150
+    aliases:
+    - Cap
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cape: &id151
+    aliases:
+    - cape
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cardigan: &id152
+    aliases:
+    - カーディガン
+    - Cardigan
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cargo Pants: &id153
+    aliases:
+    - Cargo Pants
+    - カーゴパンツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cat: &id018
+    aliases:
+    - Cat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cat Ears: &id019
+    aliases:
+    - cat ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  China Dress: &id154
+    aliases:
+    - チャイナ服
+    - チャイナドレス
+    - china dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Cloak: &id155
+    aliases:
+    - マント
+    - cloak
+    - クローク
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Coat: &id156
+    aliases:
+    - Coat
+    - コート
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Corset: &id157
+    aliases:
+    - corset
+    - コルセット
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Costume: &id158
+    aliases:
+    - costume
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Crop Top: &id159
+    aliases:
+    - クロップド
+    - Crop Top
+    - クロップト
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Curly Hair: &id020
+    aliases:
+    - curly hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dark Skin: &id021
+    aliases:
+    - dark skin
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Demon: &id022
+    aliases:
+    - Demon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Denim: &id160
+    aliases:
+    - Denim
+    - デニム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Distressed Jeans: &id161
+    aliases:
+    - distressed jeans
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dog Ears: &id023
+    aliases:
+    - dog ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Down Jacket: &id162
+    aliases:
+    - ダウン
+    - ダウンジャケット
+    - down jacket
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dragon: &id024
+    aliases:
+    - dragon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dress: &id163
+    aliases:
+    - dress
+    - ドレス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dress Shirt: &id164
+    aliases:
+    - Dress Shirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Drill Hair: &id025
+    aliases:
+    - drill hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Duffle Coat: &id165
+    aliases:
+    - Duffle Coat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Dungarees: &id166
+    aliases:
+    - dungarees
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Elf Ears: &id026
+    aliases:
+    - Elf Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fang: &id027
+    aliases:
+    - Fang
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fangs: &id028
+    aliases:
+    - fangs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fishnet Tights: &id167
+    aliases:
+    - Fishnet Tights
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Flare Skirt: &id168
+    aliases:
+    - Flare Skirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Flipped Ends: &id029
+    aliases:
+    - flipped ends
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fluffy: &id030
+    aliases:
+    - モコモコ
+    - Fluffy
+    - ふわふわ
+    - もこもこ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fluffy Fur: &id031
+    aliases:
+    - Fluffy Fur
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fox Ears: &id032
+    aliases:
+    - Fox Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Frill: &id169
+    aliases:
+    - Frill
+    - フリル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Frill Skirt: &id170
+    aliases:
+    - frill skirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Frilled Dress: &id171
+    aliases:
+    - Frilled Dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Frilled One-Piece: &id172
+    aliases:
+    - frilled one-piece
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Fur Coat: &id173
+    aliases:
+    - fur coat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Furisode: &id174
+    aliases:
+    - furisode
+    - 振袖
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Garter: &id175
+    aliases:
+    - Garter
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Garter Belt: &id176
+    aliases:
+    - ガーターベルト
+    - Garter Belt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gloves: &id177
+    aliases:
+    - Gloves
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gold Eyes: &id033
+    aliases:
+    - gold eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gothic Dress: &id178
+    aliases:
+    - gothic dress
+    - ゴシックドレス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Gray Hair: &id034
+    aliases:
+    - Gray Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Green Eyes: &id035
+    aliases:
+    - green eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Green Hair: &id036
+    aliases:
+    - green hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hair Over One Eye: &id037
+    aliases:
+    - hair over one eye
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hakama: &id179
+    aliases:
+    - Hakama
+    - 袴
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Half Pants: &id180
+    aliases:
+    - Half Pants
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Half Twin Tails: &id038
+    aliases:
+    - half twin tails
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Half Updo: &id039
+    aliases:
+    - half updo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Halterneck: &id181
+    aliases:
+    - Halterneck
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hanbok: &id182
+    aliases:
+    - hanbok
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Haori: &id183
+    aliases:
+    - Haori
+    - 羽織
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Harness: &id184
+    aliases:
+    - harness
+    - ハーネス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hat: &id185
+    aliases:
+    - ハット
+    - Hat
+    - 帽子
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Headdress: &id186
+    aliases:
+    - ヘッドドレス
+    - headdress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Heels: &id187
+    aliases:
+    - heels
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Heterochromia: &id040
+    aliases:
+    - Heterochromia
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  High Heels: &id188
+    aliases:
+    - ハイヒール
+    - High Heels
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  High Neck: &id189
+    aliases:
+    - high neck
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  High-Leg: &id190
+    aliases:
+    - high-leg
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hime Cut: &id041
+    aliases:
+    - Hime Cut
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hooded: &id191
+    aliases:
+    - hooded
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hoodie: &id192
+    aliases:
+    - Hoodie
+    - フーディ
+    - パーカー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Horns: &id042
+    aliases:
+    - horns
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Hot Pants: &id193
+    aliases:
+    - hot pants
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Idol Outfit: &id194
+    aliases:
+    - Idol Outfit
+    - アイドル衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Innerwear: &id195
+    aliases:
+    - インナー
+    - Innerwear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Jacket: &id196
+    aliases:
+    - Jacket
+    - ジャケット
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Japanese Clothing: &id197
+    aliases:
+    - japanese clothing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Jeans: &id198
+    aliases:
+    - Jeans
+    - ジーンズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Jersey: &id199
+    aliases:
+    - jersey
+    - ジャージ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Jumper Skirt: &id200
+    aliases:
+    - jumper skirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Jumpsuit: &id201
+    aliases:
+    - jumpsuit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kemono: &id043
+    aliases:
+    - kemono
+    - ケモノ
+    - 獣
+    - けもの
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kigurumi: &id202
+    aliases:
+    - kigurumi
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kimono: &id203
+    aliases:
+    - 着物
+    - Kimono
+    - きもの
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Knee-High: &id204
+    aliases:
+    - Knee-High
+    - ニーハイ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Knee-High Boots: &id205
+    aliases:
+    - Knee-High Boots
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Knee-High Socks: &id206
+    aliases:
+    - knee-high socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Knit: &id207
+    aliases:
+    - Knit
+    - ニット
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Knit Dress: &id208
+    aliases:
+    - knit dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lab Coat: &id209
+    aliases:
+    - 白衣
+    - lab coat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lace: &id210
+    aliases:
+    - Lace
+    - レース
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Layered: &id211
+    aliases:
+    - layered
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Leather Jacket: &id212
+    aliases:
+    - leather jacket
+    - レザージャケット
+    - 革ジャン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Leg Warmers: &id213
+    aliases:
+    - レッグウォーマー
+    - Leg Warmers
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Leggings: &id214
+    aliases:
+    - Leggings
+    - レギンス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Leotard: &id215
+    aliases:
+    - レオタード
+    - Leotard
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Light Blue Hair: &id044
+    aliases:
+    - light blue hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lingerie: &id216
+    aliases:
+    - Lingerie
+    - ランジェリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Loafers: &id217
+    aliases:
+    - loafers
+    - ローファー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Long Boots: &id218
+    aliases:
+    - Long Boots
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Long Coat: &id219
+    aliases:
+    - long coat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Long Dress: &id220
+    aliases:
+    - Long Dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Long Hair: &id045
+    aliases:
+    - Long Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Long Skirt: &id221
+    aliases:
+    - long skirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Loose Socks: &id222
+    aliases:
+    - ルーズソックス
+    - loose socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Loungewear: &id223
+    aliases:
+    - loungewear
+    - ルームウェア
+    - 部屋着
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Low Ponytail: &id046
+    aliases:
+    - low ponytail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Low Twin Tails: &id047
+    aliases:
+    - Low Twin Tails
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Maid Outfit: &id224
+    aliases:
+    - Maid Outfit
+    - メイド服
+    - メイド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Matching Set: &id225
+    aliases:
+    - matching set
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mecha: &id048
+    aliases:
+    - mecha
+    - ロボ
+    - メカ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mecha Ears: &id049
+    aliases:
+    - Mecha Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Medium Hair: &id050
+    aliases:
+    - Medium Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mesh Hair: &id051
+    aliases:
+    - mesh hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Micro Bikini: &id226
+    aliases:
+    - マイクロビキニ
+    - micro bikini
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Miko Outfit: &id227
+    aliases:
+    - 巫女服
+    - miko outfit
+    - 巫女
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Military Uniform: &id228
+    aliases:
+    - ミリタリー制服
+    - military uniform
+    - 軍服
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mini Dress: &id229
+    aliases:
+    - mini dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Miniskirt: &id230
+    aliases:
+    - ミニスカート
+    - miniskirt
+    - ミニスカ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mouse Ears: &id052
+    aliases:
+    - mouse ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mushroom Cut: &id053
+    aliases:
+    - mushroom cut
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Necktie: &id231
+    aliases:
+    - ネクタイ
+    - Necktie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Negligee: &id232
+    aliases:
+    - negligee
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Non-Human: &id054
+    aliases:
+    - non-human
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Nun Habit: &id233
+    aliases:
+    - nun habit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Nun Outfit: &id234
+    aliases:
+    - 修道女
+    - nun outfit
+    - シスター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Nurse Outfit: &id235
+    aliases:
+    - nurse outfit
+    - ナース
+    - ナース服
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Off-Shoulder: &id236
+    aliases:
+    - Off-Shoulder
+    - オフショル
+    - オフショルダー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  One-Piece Dress: &id237
+    aliases:
+    - ワンピ
+    - One-Piece Dress
+    - ワンピース
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  One-Piece Swimsuit: &id238
+    aliases:
+    - one-piece swimsuit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Orange Hair: &id055
+    aliases:
+    - Orange Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Outerwear: &id239
+    aliases:
+    - outerwear
+    - アウター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Overalls: &id240
+    aliases:
+    - Overalls
+    - オーバーオール
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Oversized: &id241
+    aliases:
+    - Oversized
+    - オーバーサイズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pajamas: &id242
+    aliases:
+    - Pajamas
+    - パジャマ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pants: &id243
+    aliases:
+    - ズボン
+    - pants
+    - パンツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Paw Pads: &id056
+    aliases:
+    - paw pads
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pink Eyes: &id057
+    aliases:
+    - Pink Eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pink Hair: &id058
+    aliases:
+    - pink hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Plaid Skirt: &id244
+    aliases:
+    - Plaid Skirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Platform Boots: &id245
+    aliases:
+    - platform boots
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pleated Skirt: &id246
+    aliases:
+    - Pleated Skirt
+    - プリーツスカート
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Poncho: &id247
+    aliases:
+    - Poncho
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Ponytail: &id059
+    aliases:
+    - Ponytail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pumps: &id248
+    aliases:
+    - Pumps
+    - パンプス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Purple Eyes: &id060
+    aliases:
+    - purple eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Purple Hair: &id061
+    aliases:
+    - purple hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Racing Swimsuit: &id249
+    aliases:
+    - Racing Swimsuit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Raincoat: &id250
+    aliases:
+    - レインコート
+    - raincoat
+    - カッパ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Red Eyes: &id062
+    aliases:
+    - Red Eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Red Hair: &id063
+    aliases:
+    - Red Hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Robe: &id251
+    aliases:
+    - ローブ
+    - robe
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Robot: &id064
+    aliases:
+    - robot
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Rubber Suit: &id252
+    aliases:
+    - rubber suit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sailor: &id253
+    aliases:
+    - Sailor
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sailor Uniform: &id254
+    aliases:
+    - セーラー
+    - セーラー服
+    - Sailor Uniform
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sandals: &id255
+    aliases:
+    - サンダル
+    - Sandals
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Santa Outfit: &id256
+    aliases:
+    - santa outfit
+    - サンタ服
+    - サンタ衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Scarf: &id257
+    aliases:
+    - scarf
+    - スカーフ
+    - マフラー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  School Swimsuit: &id258
+    aliases:
+    - スク水
+    - school swimsuit
+    - スクール水着
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  School Uniform: &id259
+    aliases:
+    - 学生服
+    - School Uniform
+    - 制服
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sheep Ears: &id065
+    aliases:
+    - Sheep Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sheer: &id260
+    aliases:
+    - Sheer
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shirt: &id261
+    aliases:
+    - Shirt
+    - シャツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shoes: &id262
+    aliases:
+    - shoes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Short Bob: &id066
+    aliases:
+    - Short Bob
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Short Boots: &id263
+    aliases:
+    - short boots
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Short Hair: &id067
+    aliases:
+    - short hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Short Pants: &id264
+    aliases:
+    - ショーツ
+    - short pants
+    - 短パン
+    - ショートパンツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shorts: &id265
+    aliases:
+    - Shorts
+    - ショーツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Side Tail: &id068
+    aliases:
+    - side tail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Silver Hair: &id069
+    aliases:
+    - silver hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Skinny Pants: &id266
+    aliases:
+    - skinny pants
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Skirt: &id267
+    aliases:
+    - skirt
+    - スカート
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Slacks: &id268
+    aliases:
+    - slacks
+    - スラックス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sleeveless: &id269
+    aliases:
+    - Sleeveless
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sneakers: &id270
+    aliases:
+    - Sneakers
+    - スニーカー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Socks: &id271
+    aliases:
+    - Socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Spacesuit: &id272
+    aliases:
+    - spacesuit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Spats: &id273
+    aliases:
+    - Spats
+    - スパッツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sportswear: &id274
+    aliases:
+    - スポーツウェア
+    - Sportswear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Stockings: &id275
+    aliases:
+    - Stockings
+    - ストッキング
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Straight Hair: &id070
+    aliases:
+    - straight hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Suit: &id276
+    aliases:
+    - スーツ
+    - Suit
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Summer Dress: &id277
+    aliases:
+    - Summer Dress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Suspenders: &id278
+    aliases:
+    - サスペンダー
+    - suspenders
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sweater: &id279
+    aliases:
+    - Sweater
+    - セーター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sweatpants: &id280
+    aliases:
+    - sweatpants
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Sweatshirt: &id281
+    aliases:
+    - sweatshirt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Swimsuit: &id282
+    aliases:
+    - Swimsuit
+    - スイムウェア
+    - 水着
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  T-Shirt: &id283
+    aliases:
+    - T-Shirt
+    - Tシャツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tail: &id071
+    aliases:
+    - tail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tank Top: &id284
+    aliases:
+    - タンクトップ
+    - Tank Top
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Techwear: &id285
+    aliases:
+    - techwear
+    - テックウェア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Thigh-high Socks: &id286
+    aliases:
+    - thigh-high socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tight Skirt: &id287
+    aliases:
+    - Tight Skirt
+    - タイトスカート
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tights: &id288
+    aliases:
+    - タイツ
+    - tights
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tops: &id289
+    aliases:
+    - Tops
+    - トップス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Trench Coat: &id290
+    aliases:
+    - trench coat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tube Top: &id291
+    aliases:
+    - tube top
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Turtleneck: &id292
+    aliases:
+    - turtleneck
+    - タートルネック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Twin Tails: &id072
+    aliases:
+    - Twin Tails
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Two Side Up: &id073
+    aliases:
+    - two side up
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Underwear: &id293
+    aliases:
+    - 下着
+    - Underwear
+    - アンダーウェア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Uniform: &id294
+    aliases:
+    - Uniform
+    - ユニフォーム
+    - 制服
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Updo: &id074
+    aliases:
+    - Updo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Varsity Jacket: &id295
+    aliases:
+    - Varsity Jacket
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Veil: &id296
+    aliases:
+    - ヴェール
+    - Veil
+    - ベール
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Vest: &id297
+    aliases:
+    - ベスト
+    - vest
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wafuku: &id298
+    aliases:
+    - Wafuku
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wave Hair: &id075
+    aliases:
+    - wave hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wavy Hair: &id076
+    aliases:
+    - wavy hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wedding Dress: &id299
+    aliases:
+    - wedding dress
+    - ウェディングドレス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  White Hair: &id077
+    aliases:
+    - white hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wide Pants: &id300
+    aliases:
+    - wide pants
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wings: &id078
+    aliases:
+    - Wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Witch Outfit: &id301
+    aliases:
+    - 魔女
+    - Witch Outfit
+    - 魔女服
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wolf Cut: &id079
+    aliases:
+    - wolf cut
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Wolf Ears: &id080
+    aliases:
+    - wolf ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Yellow Eyes: &id081
+    aliases:
+    - yellow eyes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Yukata: &id302
+    aliases:
+    - yukata
+    - 浴衣
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
 accessories:
   Accessory:
     aliases:
     - Accessory
-    - accessory
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Angel Wings:
     aliases:
-    - Angel Wings
     - angel wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Animal Ears:
     aliases:
     - Animal Ears
-    - animal ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Anklet:
     aliases:
-    - Anklet
     - anklet
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Apron:
     aliases:
-    - Apron
-    - エプロン
     - apron
+    - エプロン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Arm Cover:
     aliases:
-    - arm cover
     - Arm Cover
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Axe:
     aliases:
-    - axe
     - Axe
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Backpack:
     aliases:
     - backpack
-    - Backpack
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bag:
     aliases:
     - Bag
-    - bag
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Band-Aid:
     aliases:
-    - Band-Aid
     - band-aid
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bandage:
     aliases:
     - Bandage
-    - bandage
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bandana:
     aliases:
-    - Bandana
     - bandana
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bangle:
     aliases:
     - bangle
-    - Bangle
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bat Wings:
     aliases:
     - bat wings
-    - Bat Wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Beanie:
     aliases:
-    - beanie
     - Beanie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bell:
     aliases:
     - bell
-    - Bell
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Belly Piercing:
     aliases:
     - Belly Piercing
-    - belly piercing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Belt:
     aliases:
     - belt
     - ベルト
-    - Belt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Beret:
     aliases:
-    - Beret
+    - beret
     - ベレー帽
     - ベレー
-    - beret
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Body Piercing:
     aliases:
     - body piercing
-    - Body Piercing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bonnet:
     aliases:
-    - Bonnet
     - bonnet
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Book:
     aliases:
-    - book
     - Book
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Boots:
     aliases:
-    - Boots
-    - ブーツ
     - boots
+    - ブーツ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bow:
     aliases:
-    - bow
     - Bow
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bow Tie:
     aliases:
-    - bow tie
     - Bow Tie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bracelet:
     aliases:
-    - Bracelet
     - bracelet
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Brooch:
     aliases:
     - Brooch
-    - brooch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bucket Hat:
     aliases:
     - bucket hat
-    - Bucket Hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Buckle:
     aliases:
     - Buckle
-    - buckle
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bunny Ears:
     aliases:
-    - Bunny Ears
     - bunny ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Butterfly Motif:
     aliases:
-    - butterfly motif
     - Butterfly Motif
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cane:
     aliases:
-    - cane
     - Cane
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cap:
     aliases:
     - Cap
-    - cap
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Casquette:
     aliases:
-    - Casquette
     - casquette
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cat Ears:
     aliases:
     - cat ears
-    - Cat Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Chain:
     aliases:
-    - chain
     - Chain
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Charm:
     aliases:
     - Charm
-    - charm
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Choker:
     aliases:
-    - choker
     - Choker
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Collar:
     aliases:
     - collar
-    - Collar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Corset:
     aliases:
     - corset
     - コルセット
-    - Corset
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cross:
     aliases:
     - cross
-    - Cross
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Crown:
     aliases:
     - crown
-    - Crown
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Crucifix:
     aliases:
-    - crucifix
     - Crucifix
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Crystal:
     aliases:
-    - crystal
     - Crystal
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cuffs:
     aliases:
-    - cuffs
     - Cuffs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Demon Horns:
     aliases:
-    - Demon Horns
     - demon horns
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Demon Wings:
     aliases:
     - demon wings
-    - Demon Wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Dog Ears:
     aliases:
     - dog ears
-    - Dog Ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Drone:
     aliases:
-    - Drone
     - drone
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ear Cuff:
     aliases:
     - Ear Cuff
-    - ear cuff
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Earmuffs:
     aliases:
-    - earmuffs
     - Earmuffs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Earrings:
     aliases:
     - earrings
-    - Earrings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Eye Mask:
     aliases:
-    - eye mask
     - Eye Mask
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Eyepatch:
     aliases:
-    - Eyepatch
     - eyepatch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Feathers:
     aliases:
-    - Feathers
     - feathers
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Flower:
     aliases:
     - flower
-    - Flower
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Flower Crown:
     aliases:
-    - flower crown
     - Flower Crown
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Flower Ornament:
     aliases:
-    - Flower Ornament
     - flower ornament
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Folding Fan:
     aliases:
     - folding fan
-    - Folding Fan
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Fox Ears:
     aliases:
     - Fox Ears
-    - fox ears
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Fox Mask:
     aliases:
     - Fox Mask
-    - fox mask
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Frill:
     aliases:
-    - フリル
     - Frill
-    - frill
+    - フリル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Fur:
     aliases:
     - Fur
-    - fur
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Garter:
     aliases:
     - Garter
-    - garter
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Garter Belt:
     aliases:
     - ガーターベルト
     - Garter Belt
-    - garter belt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Gas Mask:
     aliases:
     - gas mask
-    - Gas Mask
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Geta:
     aliases:
-    - Geta
     - geta
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Glasses:
     aliases:
-    - Glasses
     - glasses
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Gloves:
     aliases:
-    - gloves
     - Gloves
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Goggles:
     aliases:
-    - goggles
     - Goggles
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Greatsword:
     aliases:
-    - Greatsword
     - greatsword
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Gun:
     aliases:
     - gun
-    - Gun
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Accessories:
     aliases:
     - hair accessories
-    - Hair Accessories
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Band:
     aliases:
-    - hair band
     - Hair Band
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Clip:
     aliases:
     - hair clip
-    - Hair Clip
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Ornament:
     aliases:
     - hair ornament
-    - Hair Ornament
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Ribbon:
     aliases:
     - Hair Ribbon
-    - hair ribbon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hair Tie:
     aliases:
     - hair tie
-    - Hair Tie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hairpin:
     aliases:
-    - Hairpin
     - hairpin
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Halo:
     aliases:
-    - halo
     - Halo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Handbag:
     aliases:
     - Handbag
-    - handbag
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Handcuffs:
     aliases:
     - handcuffs
-    - Handcuffs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Harness:
     aliases:
-    - ハーネス
-    - Harness
     - harness
+    - ハーネス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hat:
     aliases:
-    - 帽子
-    - Hat
     - ハット
-    - hat
+    - Hat
+    - 帽子
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Headband:
     aliases:
     - Headband
-    - headband
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Headdress:
     aliases:
-    - Headdress
     - ヘッドドレス
     - headdress
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Headgear:
     aliases:
-    - headgear
     - Headgear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Headphones:
     aliases:
-    - headphones
     - Headphones
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Headset:
     aliases:
     - headset
-    - Headset
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Heart:
     aliases:
-    - heart
     - Heart
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Heart Motif:
     aliases:
-    - heart motif
     - Heart Motif
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Heels:
     aliases:
     - heels
-    - Heels
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Helmet:
     aliases:
-    - Helmet
     - helmet
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   High Heels:
     aliases:
-    - high heels
     - ハイヒール
     - High Heels
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Holster:
     aliases:
-    - Holster
     - holster
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Hood:
     aliases:
     - hood
-    - Hood
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Horns:
     aliases:
     - horns
-    - Horns
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Japanese Sword:
     aliases:
-    - Japanese Sword
     - japanese sword
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Japanese Umbrella:
     aliases:
-    - japanese umbrella
     - Japanese Umbrella
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Jewel:
     aliases:
     - jewel
-    - Jewel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Kanzashi:
     aliases:
     - kanzashi
-    - Kanzashi
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Katana:
     aliases:
     - katana
-    - Katana
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Keychain:
     aliases:
-    - Keychain
     - keychain
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Kiseru Pipe:
     aliases:
     - kiseru pipe
-    - Kiseru Pipe
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Knife:
     aliases:
     - Knife
-    - knife
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Lace:
     aliases:
-    - レース
-    - lace
     - Lace
+    - レース
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Lantern:
     aliases:
-    - Lantern
     - lantern
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Leash:
     aliases:
-    - Leash
     - leash
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Leather Shoes:
     aliases:
-    - Leather Shoes
     - leather shoes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Leg Belt:
     aliases:
     - Leg Belt
-    - leg belt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Loafers:
     aliases:
-    - ローファー
-    - Loafers
     - loafers
+    - ローファー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mask:
     aliases:
-    - Mask
     - mask
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mecha Parts:
     aliases:
     - Mecha Parts
-    - mecha parts
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mecha Wings:
     aliases:
-    - Mecha Wings
     - mecha wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Microphone:
     aliases:
-    - Microphone
     - microphone
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Military Cap:
     aliases:
     - military cap
-    - Military Cap
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mini Hat:
     aliases:
-    - Mini Hat
     - mini hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Monocle:
     aliases:
-    - monocle
     - Monocle
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Moon Motif:
     aliases:
-    - Moon Motif
     - moon motif
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Nail Tips:
     aliases:
     - Nail Tips
-    - nail tips
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Nails:
     aliases:
     - nails
-    - Nails
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Necklace:
     aliases:
-    - Necklace
     - necklace
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Necktie:
     aliases:
     - ネクタイ
-    - necktie
     - Necktie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Obi:
     aliases:
-    - obi
     - Obi
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pacifier:
     aliases:
     - pacifier
-    - Pacifier
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Paw Pads:
     aliases:
     - paw pads
-    - Paw Pads
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pearl:
     aliases:
     - Pearl
-    - pearl
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pendant:
     aliases:
-    - Pendant
     - pendant
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Piercing:
     aliases:
     - Piercing
-    - piercing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pin Badge:
     aliases:
-    - Pin Badge
     - pin badge
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Plushie:
     aliases:
     - Plushie
-    - plushie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pocket Watch:
     aliases:
-    - pocket watch
     - Pocket Watch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pom Pom:
     aliases:
     - Pom Pom
-    - pom pom
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pouch:
     aliases:
-    - pouch
     - Pouch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Prosthetic Arm:
     aliases:
-    - prosthetic arm
     - Prosthetic Arm
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Prosthetic Leg:
     aliases:
     - Prosthetic Leg
-    - prosthetic leg
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ribbon:
     aliases:
     - Ribbon
-    - ribbon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ribbon Tie:
     aliases:
     - ribbon tie
-    - Ribbon Tie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Rifle:
     aliases:
-    - Rifle
     - rifle
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ring:
     aliases:
     - Ring
-    - ring
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Rose:
     aliases:
     - Rose
-    - rose
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Round Glasses:
     aliases:
     - round glasses
-    - Round Glasses
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Sandals:
     aliases:
-    - Sandals
-    - sandals
     - サンダル
+    - Sandals
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Santa Hat:
     aliases:
     - Santa Hat
-    - santa hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Scarf:
     aliases:
-    - スカーフ
     - scarf
-    - Scarf
+    - スカーフ
     - マフラー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Scrunchie:
     aliases:
     - Scrunchie
-    - scrunchie
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Scythe:
     aliases:
     - Scythe
-    - scythe
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Shield:
     aliases:
     - Shield
-    - shield
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Shoes:
     aliases:
-    - Shoes
     - shoes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Shoulder Bag:
     aliases:
-    - shoulder bag
     - Shoulder Bag
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Slippers:
     aliases:
     - slippers
-    - Slippers
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Smartphone:
     aliases:
     - smartphone
-    - Smartphone
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Sneakers:
     aliases:
-    - sneakers
-    - スニーカー
     - Sneakers
+    - スニーカー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Socks:
     aliases:
-    - socks
     - Socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Spear:
     aliases:
-    - Spear
     - spear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Staff:
     aliases:
-    - staff
     - Staff
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Star:
     aliases:
-    - Star
     - star
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Star Motif:
     aliases:
     - star motif
-    - Star Motif
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Strap:
     aliases:
     - Strap
-    - strap
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Straw Hat:
     aliases:
-    - straw hat
     - Straw Hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Studs:
     aliases:
-    - studs
     - Studs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Sun Visor:
     aliases:
-    - sun visor
     - Sun Visor
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Sunglasses:
     aliases:
     - Sunglasses
-    - sunglasses
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Suspenders:
     aliases:
     - サスペンダー
     - suspenders
-    - Suspenders
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Swim Ring:
     aliases:
     - Swim Ring
-    - swim ring
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Sword:
     aliases:
     - sword
-    - Sword
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tail:
     aliases:
-    - Tail
     - tail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Talisman:
     aliases:
-    - Talisman
     - talisman
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tassel:
     aliases:
     - Tassel
-    - tassel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tattoo:
     aliases:
-    - tattoo
     - Tattoo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Thigh-high Socks:
     aliases:
     - thigh-high socks
-    - Thigh-high Socks
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tiara:
     aliases:
-    - Tiara
     - tiara
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Top Hat:
     aliases:
-    - Top Hat
     - top hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Umbrella:
     aliases:
     - Umbrella
-    - umbrella
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Veil:
     aliases:
-    - veil
+    - ヴェール
     - Veil
     - ベール
-    - ヴェール
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Visor:
     aliases:
-    - Visor
     - visor
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Weapon:
     aliases:
     - weapon
-    - Weapon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Wings:
     aliases:
     - Wings
-    - wings
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Witch Hat:
     aliases:
     - witch hat
-    - Witch Hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Wristband:
     aliases:
-    - wristband
     - Wristband
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Wristwatch:
     aliases:
-    - Wristwatch
     - wristwatch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
 appearances:
-  Ahoge:
-    aliases:
-    - Ahoge
-    - ahoge
-  Angel:
-    aliases:
-    - Angel
-    - angel
-  Animal Ears:
-    aliases:
-    - Animal Ears
-    - animal ears
-  Bear Ears:
-    aliases:
-    - bear ears
-    - Bear Ears
-  Beast Ears:
-    aliases:
-    - Beast Ears
-    - beast ears
-  Black Hair:
-    aliases:
-    - black hair
-    - Black Hair
-  Blonde Hair:
-    aliases:
-    - blonde hair
-    - Blonde Hair
-  Blue Eyes:
-    aliases:
-    - Blue Eyes
-    - blue eyes
-  Blue Hair:
-    aliases:
-    - Blue Hair
-    - blue hair
-  Blunt Bangs:
-    aliases:
-    - Blunt Bangs
-    - blunt bangs
-  Bob Hair:
-    aliases:
-    - Bob Hair
-    - bob hair
-  Braid:
-    aliases:
-    - Braid
-    - braid
-  Braided:
-    aliases:
-    - Braided
-    - braided
-  Brown Eyes:
-    aliases:
-    - Brown Eyes
-    - brown eyes
-  Brown Hair:
-    aliases:
-    - brown hair
-    - Brown Hair
-  Bun Hair:
-    aliases:
-    - Bun Hair
-    - bun hair
-  Bunny Ears:
-    aliases:
-    - Bunny Ears
-    - bunny ears
-  Cat:
-    aliases:
-    - cat
-    - Cat
-  Cat Ears:
-    aliases:
-    - cat ears
-    - Cat Ears
-  Curly Hair:
-    aliases:
-    - Curly Hair
-    - curly hair
-  Dark Skin:
-    aliases:
-    - dark skin
-    - Dark Skin
-  Demon:
-    aliases:
-    - demon
-    - Demon
-  Dog Ears:
-    aliases:
-    - dog ears
-    - Dog Ears
-  Dragon:
-    aliases:
-    - Dragon
-    - dragon
-  Drill Hair:
-    aliases:
-    - drill hair
-    - Drill Hair
-  Elf Ears:
-    aliases:
-    - elf ears
-    - Elf Ears
-  Fang:
-    aliases:
-    - fang
-    - Fang
-  Fangs:
-    aliases:
-    - fangs
-    - Fangs
-  Flipped Ends:
-    aliases:
-    - Flipped Ends
-    - flipped ends
-  Fluffy:
-    aliases:
-    - Fluffy
-    - fluffy
-  Fluffy Fur:
-    aliases:
-    - fluffy fur
-    - Fluffy Fur
-  Fox Ears:
-    aliases:
-    - Fox Ears
-    - fox ears
-  Gold Eyes:
-    aliases:
-    - gold eyes
-    - Gold Eyes
-  Gray Hair:
-    aliases:
-    - Gray Hair
-    - gray hair
-  Green Eyes:
-    aliases:
-    - green eyes
-    - Green Eyes
-  Green Hair:
-    aliases:
-    - green hair
-    - Green Hair
-  Hair Over One Eye:
-    aliases:
-    - Hair Over One Eye
-    - hair over one eye
-  Half Twin Tails:
-    aliases:
-    - half twin tails
-    - Half Twin Tails
-  Half Updo:
-    aliases:
-    - half updo
-    - Half Updo
-  Heterochromia:
-    aliases:
-    - heterochromia
-    - Heterochromia
-  Hime Cut:
-    aliases:
-    - hime cut
-    - Hime Cut
-  Horns:
-    aliases:
-    - horns
-    - Horns
-  Kemono:
-    aliases:
-    - ケモノ
-    - Kemono
-    - kemono
-  Light Blue Hair:
-    aliases:
-    - Light Blue Hair
-    - light blue hair
-  Long Hair:
-    aliases:
-    - Long Hair
-    - long hair
-  Low Ponytail:
-    aliases:
-    - Low Ponytail
-    - low ponytail
-  Low Twin Tails:
-    aliases:
-    - Low Twin Tails
-    - low twin tails
-  Mecha:
-    aliases:
-    - mecha
-    - Mecha
-    - ロボ
-    - メカ
-  Mecha Ears:
-    aliases:
-    - mecha ears
-    - Mecha Ears
-  Medium Hair:
-    aliases:
-    - medium hair
-    - Medium Hair
-  Mesh Hair:
-    aliases:
-    - mesh hair
-    - Mesh Hair
-  Mouse Ears:
-    aliases:
-    - mouse ears
-    - Mouse Ears
-  Mushroom Cut:
-    aliases:
-    - Mushroom Cut
-    - mushroom cut
-  Non-Human:
-    aliases:
-    - Non-Human
-    - non-human
-  Orange Hair:
-    aliases:
-    - Orange Hair
-    - orange hair
-  Paw Pads:
-    aliases:
-    - paw pads
-    - Paw Pads
-  Pink Eyes:
-    aliases:
-    - Pink Eyes
-    - pink eyes
-  Pink Hair:
-    aliases:
-    - pink hair
-    - Pink Hair
-  Ponytail:
-    aliases:
-    - Ponytail
-    - ponytail
-  Purple Eyes:
-    aliases:
-    - purple eyes
-    - Purple Eyes
-  Purple Hair:
-    aliases:
-    - purple hair
-    - Purple Hair
-  Red Eyes:
-    aliases:
-    - Red Eyes
-    - red eyes
-  Red Hair:
-    aliases:
-    - red hair
-    - Red Hair
-  Robot:
-    aliases:
-    - Robot
-    - robot
-  Sheep Ears:
-    aliases:
-    - Sheep Ears
-    - sheep ears
-  Short Bob:
-    aliases:
-    - Short Bob
-    - short bob
-  Short Hair:
-    aliases:
-    - short hair
-    - Short Hair
-  Side Tail:
-    aliases:
-    - side tail
-    - Side Tail
-  Silver Hair:
-    aliases:
-    - silver hair
-    - Silver Hair
-  Straight Hair:
-    aliases:
-    - straight hair
-    - Straight Hair
-  Tail:
-    aliases:
-    - Tail
-    - tail
-  Twin Tails:
-    aliases:
-    - twin tails
-    - Twin Tails
-  Two Side Up:
-    aliases:
-    - Two Side Up
-    - two side up
-  Updo:
-    aliases:
-    - updo
-    - Updo
-  Wave Hair:
-    aliases:
-    - Wave Hair
-    - wave hair
-  Wavy Hair:
-    aliases:
-    - Wavy Hair
-    - wavy hair
-  White Hair:
-    aliases:
-    - white hair
-    - White Hair
-  Wings:
-    aliases:
-    - Wings
-    - wings
-  Wolf Cut:
-    aliases:
-    - wolf cut
-    - Wolf Cut
-  Wolf Ears:
-    aliases:
-    - wolf ears
-    - Wolf Ears
-  Yellow Eyes:
-    aliases:
-    - yellow eyes
-    - Yellow Eyes
+  Ahoge: *id001
+  Angel: *id002
+  Animal Ears: *id003
+  Bear Ears: *id004
+  Beast Ears: *id005
+  Black Hair: *id006
+  Blonde Hair: *id007
+  Blue Eyes: *id008
+  Blue Hair: *id009
+  Blunt Bangs: *id010
+  Bob Hair: *id011
+  Braid: *id012
+  Braided: *id013
+  Brown Eyes: *id014
+  Brown Hair: *id015
+  Bun Hair: *id016
+  Bunny Ears: *id017
+  Cat: *id018
+  Cat Ears: *id019
+  Curly Hair: *id020
+  Dark Skin: *id021
+  Demon: *id022
+  Dog Ears: *id023
+  Dragon: *id024
+  Drill Hair: *id025
+  Elf Ears: *id026
+  Fang: *id027
+  Fangs: *id028
+  Flipped Ends: *id029
+  Fluffy: *id030
+  Fluffy Fur: *id031
+  Fox Ears: *id032
+  Gold Eyes: *id033
+  Gray Hair: *id034
+  Green Eyes: *id035
+  Green Hair: *id036
+  Hair Over One Eye: *id037
+  Half Twin Tails: *id038
+  Half Updo: *id039
+  Heterochromia: *id040
+  Hime Cut: *id041
+  Horns: *id042
+  Kemono: *id043
+  Light Blue Hair: *id044
+  Long Hair: *id045
+  Low Ponytail: *id046
+  Low Twin Tails: *id047
+  Mecha: *id048
+  Mecha Ears: *id049
+  Medium Hair: *id050
+  Mesh Hair: *id051
+  Mouse Ears: *id052
+  Mushroom Cut: *id053
+  Non-Human: *id054
+  Orange Hair: *id055
+  Paw Pads: *id056
+  Pink Eyes: *id057
+  Pink Hair: *id058
+  Ponytail: *id059
+  Purple Eyes: *id060
+  Purple Hair: *id061
+  Red Eyes: *id062
+  Red Hair: *id063
+  Robot: *id064
+  Sheep Ears: *id065
+  Short Bob: *id066
+  Short Hair: *id067
+  Side Tail: *id068
+  Silver Hair: *id069
+  Straight Hair: *id070
+  Tail: *id071
+  Twin Tails: *id072
+  Two Side Up: *id073
+  Updo: *id074
+  Wave Hair: *id075
+  Wavy Hair: *id076
+  White Hair: *id077
+  Wings: *id078
+  Wolf Cut: *id079
+  Wolf Ears: *id080
+  Yellow Eyes: *id081
 body_types:
   Chibi:
     aliases:
-    - デフォルメ
     - Chibi
-    - sd
-    - ちび
     - chibi
+    - デフォルメ
+    - ちび
+    - sd
   Female:
     aliases:
-    - feminine
-    - 女の子
     - Female
+    - 女の子
+    - feminine
     - 女性
     - レディース
     - female
@@ -1095,25 +3109,25 @@ body_types:
     - male
     - 男の子
     - 男性
-    - masculine
     - メンズ
+    - masculine
     - Male
   Mascot:
     aliases:
-    - Mascot
     - mascot
+    - Mascot
   Petite:
     aliases:
-    - petite
     - Petite
+    - petite
   Standard Build:
     aliases:
-    - standard build
     - Standard Build
+    - standard build
   Tall Build:
     aliases:
-    - tall build
     - Tall Build
+    - tall build
 categories:
   ACCESSORY:
     aliases:
@@ -1179,160 +3193,7 @@ categories:
     - 瞳
     - 肌
     - メイク
-colors:
-  Beige:
-    aliases:
-    - Beige
-    - ベージュ
-    - beige
-  Black:
-    aliases:
-    - black
-    - 黒
-    - Black
-    - ブラック
-  Blue:
-    aliases:
-    - ブルー
-    - blue
-    - 青
-    - Blue
-  Bordeaux:
-    aliases:
-    - Bordeaux
-    - ボルドー
-    - bordeaux
-  Brown:
-    aliases:
-    - ブラウン
-    - Brown
-    - 茶
-    - brown
-  Charcoal:
-    aliases:
-    - charcoal
-    - Charcoal
-  Cream:
-    aliases:
-    - cream
-    - Cream
-    - クリーム
-  Cyan:
-    aliases:
-    - シアン
-    - cyan
-    - Cyan
-  Gold:
-    aliases:
-    - 金
-    - ゴールド
-    - Gold
-    - gold
-  Gray:
-    aliases:
-    - grey
-    - グレー
-    - 灰
-    - gray
-    - Gray
-  Green:
-    aliases:
-    - green
-    - 緑
-    - Green
-    - グリーン
-  Ivory:
-    aliases:
-    - ivory
-    - アイボリー
-    - Ivory
-  Khaki:
-    aliases:
-    - カーキ
-    - Khaki
-    - khaki
-  Lavender:
-    aliases:
-    - ラベンダー
-    - lavender
-    - Lavender
-  Light Blue:
-    aliases:
-    - ライトブルー
-    - light blue
-    - Light Blue
-    - 水色
-  Magenta:
-    aliases:
-    - magenta
-    - Magenta
-  Mint:
-    aliases:
-    - Mint
-    - ミント
-    - mint
-  Navy:
-    aliases:
-    - ネイビー
-    - Navy
-    - 紺
-    - navy
-  Neon:
-    aliases:
-    - Neon
-    - ネオン
-    - neon
-  Orange:
-    aliases:
-    - 橙
-    - Orange
-    - オレンジ
-    - orange
-  Pastel:
-    aliases:
-    - pastel
-    - パステル
-    - Pastel
-  Pink:
-    aliases:
-    - ピンク
-    - pink
-    - Pink
-  Purple:
-    aliases:
-    - purple
-    - 紫
-    - Purple
-    - パープル
-  Red:
-    aliases:
-    - Red
-    - 赤
-    - レッド
-    - red
-  Silver:
-    aliases:
-    - Silver
-    - silver
-    - 銀
-    - シルバー
-  Turquoise:
-    aliases:
-    - turquoise
-    - ターコイズ
-    - Turquoise
-  White:
-    aliases:
-    - White
-    - 白
-    - ホワイト
-    - white
-  Yellow:
-    aliases:
-    - Yellow
-    - イエロー
-    - yellow
-    - 黄
+colors: *id082
 components:
   Animation:
   - アニメーション
@@ -1363,1052 +3224,431 @@ components:
   - シェーダー
   - shader
 features:
-  AFK Motion:
+  AFK Motion: &id083
     aliases:
     - afk motion
     - AFK Motion
-  AudioLink Compatible:
+  AudioLink Compatible: &id084
     aliases:
     - audiolink compatible
     - AudioLink Compatible
-  Blend Shape:
+  Blend Shape: &id085
     aliases:
     - Blend Shape
     - blend shape
-  Dance Animation:
+  Dance Animation: &id086
     aliases:
     - dance animation
     - Dance Animation
-  Desktop Compatible:
+  Desktop Compatible: &id087
     aliases:
     - Desktop Compatible
     - desktop compatible
-  Emote:
+  Emote: &id088
     aliases:
     - emote
     - Emote
-  Expression Animation:
+  Expression Animation: &id089
     aliases:
     - Expression Animation
     - expression animation
-  Eye Tracking:
+  Eye Tracking: &id090
     aliases:
     - eye tracking
     - Eye Tracking
-  Face Tracking:
+  Face Tracking: &id091
     aliases:
     - face tracking
     - Face Tracking
-  FaceEmo Compatible:
+  FaceEmo Compatible: &id092
     aliases:
     - FaceEmo Compatible
     - faceemo compatible
-  For Photography:
+  For Photography: &id093
     aliases:
     - For Photography
     - for photography
-  Full Body Tracking Compatible:
+  Full Body Tracking Compatible: &id094
     aliases:
     - Full Body Tracking Compatible
     - full body tracking compatible
-  Gesture Linked:
+  Gesture Linked: &id095
     aliases:
     - Gesture Linked
     - gesture linked
-  Hand Sign Linked:
+  Hand Sign Linked: &id096
     aliases:
     - Hand Sign Linked
     - hand sign linked
-  Humanoid Compatible:
+  Humanoid Compatible: &id097
     aliases:
     - humanoid compatible
     - Humanoid Compatible
-  Lip Sync:
+  Lip Sync: &id098
     aliases:
     - Lip Sync
     - lip sync
-  Mirror:
+  Mirror: &id099
     aliases:
     - Mirror
     - mirror
-  Mochifitter Compatible:
+  Mochifitter Compatible: &id100
     aliases:
     - mochifitter compatible
     - Mochifitter Compatible
-  Modular Avatar Compatible:
+  Modular Avatar Compatible: &id101
     aliases:
     - Modular Avatar Compatible
     - modular avatar compatible
-  ModularAvatar:
+  ModularAvatar: &id102
     aliases:
     - Modular Avatar
     - MA対応
     - MA
     - ModularAvatar
-  PSD Included:
+  PSD Included: &id103
     aliases:
     - psd included
     - PSD Included
-  Particle:
+  Particle: &id104
     aliases:
     - particle
     - Particle
-  PhysBone:
+  PhysBone: &id105
     aliases:
     - PhysBone
     - PB対応
     - PB
     - 揺れもの
-  PhysBone Compatible:
+  PhysBone Compatible: &id106
     aliases:
     - physbone compatible
     - PhysBone Compatible
-  PhysBone Physics:
+  PhysBone Physics: &id107
     aliases:
     - PhysBone Physics
     - physbone physics
-  Pickupable:
+  Pickupable: &id108
     aliases:
     - pickupable
     - Pickupable
-  Poiyomi:
+  Poiyomi: &id109
     aliases:
     - Poiyomi
     - Poi
-  Poiyomi Compatible:
+  Poiyomi Compatible: &id110
     aliases:
     - poiyomi compatible
     - Poiyomi Compatible
-  Pose Animation:
+  Pose Animation: &id111
     aliases:
     - Pose Animation
     - pose animation
-  Quest Compatible:
+  Quest Compatible: &id112
     aliases:
     - quest compatible
     - Quest Compatible
-  QuestCompatible:
+  QuestCompatible: &id113
     aliases:
     - Quest対応
     - Android対応
     - Quest
     - Android
-  Shader:
+  Shader: &id114
     aliases:
     - Shader
     - shader
-  Shape Key:
+  Shape Key: &id115
     aliases:
     - Shape Key
     - shape key
-  Sittable:
+  Sittable: &id116
     aliases:
     - Sittable
     - sittable
-  Synced:
+  Synced: &id117
     aliases:
     - synced
     - Synced
-  Udon:
+  Udon: &id118
     aliases:
     - Udon
     - udon
-  VRCFT Compatible:
+  VRCFT Compatible: &id119
     aliases:
     - VRCFT Compatible
     - vrcft compatible
-  VRCFury:
+  VRCFury: &id120
     aliases:
     - VRCFury
     - Fury
-  VRCFury Compatible:
+  VRCFury Compatible: &id121
     aliases:
     - vrcfury compatible
     - VRCFury Compatible
-  VRM Compatible:
+  VRM Compatible: &id122
     aliases:
     - VRM Compatible
     - vrm compatible
-  Warp:
+  Warp: &id123
     aliases:
     - Warp
     - warp
-  World Fixed:
+  World Fixed: &id124
     aliases:
     - world fixed
     - World Fixed
-  World Gimmick:
+  World Gimmick: &id125
     aliases:
     - World Gimmick
     - world gimmick
-  lilToon:
+  lilToon: &id126
     aliases:
     - lilToon
     - lil
-  lilToon Compatible:
+  lilToon Compatible: &id127
     aliases:
     - liltoon compatible
     - lilToon Compatible
+features_flat:
+  AFK Motion: *id083
+  AudioLink Compatible: *id084
+  Blend Shape: *id085
+  Dance Animation: *id086
+  Desktop Compatible: *id087
+  Emote: *id088
+  Expression Animation: *id089
+  Eye Tracking: *id090
+  Face Tracking: *id091
+  FaceEmo Compatible: *id092
+  For Photography: *id093
+  Full Body Tracking Compatible: *id094
+  Gesture Linked: *id095
+  Hand Sign Linked: *id096
+  Humanoid Compatible: *id097
+  Lip Sync: *id098
+  Mirror: *id099
+  Mochifitter Compatible: *id100
+  Modular Avatar Compatible: *id101
+  ModularAvatar: *id102
+  PSD Included: *id103
+  Particle: *id104
+  PhysBone: *id105
+  PhysBone Compatible: *id106
+  PhysBone Physics: *id107
+  Pickupable: *id108
+  Poiyomi: *id109
+  Poiyomi Compatible: *id110
+  Pose Animation: *id111
+  Quest Compatible: *id112
+  QuestCompatible: *id113
+  Shader: *id114
+  Shape Key: *id115
+  Sittable: *id116
+  Synced: *id117
+  Udon: *id118
+  VRCFT Compatible: *id119
+  VRCFury: *id120
+  VRCFury Compatible: *id121
+  VRM Compatible: *id122
+  Warp: *id123
+  World Fixed: *id124
+  World Gimmick: *id125
+  lilToon: *id126
+  lilToon Compatible: *id127
 outfit_types:
-  Apron:
-    aliases:
-    - Apron
-    - エプロン
-    - apron
-  Apron Dress:
-    aliases:
-    - Apron Dress
-    - apron dress
-  Armor:
-    aliases:
-    - Armor
-    - armor
-    - アーマー
-    - 鎧
-  Babydoll:
-    aliases:
-    - Babydoll
-    - babydoll
-    - ベビードール
-  Bath Towel:
-    aliases:
-    - bath towel
-    - Bath Towel
-  Battle Outfit:
-    aliases:
-    - battle outfit
-    - Battle Outfit
-  Belt:
-    aliases:
-    - belt
-    - ベルト
-    - Belt
-  Beret:
-    aliases:
-    - Beret
-    - ベレー帽
-    - ベレー
-    - beret
-  Bikini:
-    aliases:
-    - Bikini
-    - ビキニ
-    - bikini
-  Blazer:
-    aliases:
-    - blazer
-    - ブレザー
-    - Blazer
-  Bloomers:
-    aliases:
-    - bloomers
-    - Bloomers
-    - ブルマ
-  Blouse:
-    aliases:
-    - Blouse
-    - blouse
-    - ブラウス
-  Blouson:
-    aliases:
-    - blouson
-    - Blouson
-  Bodysuit:
-    aliases:
-    - Bodysuit
-    - ボディスーツ
-    - bodysuit
-  Bolero:
-    aliases:
-    - Bolero
-    - bolero
-  Bondage:
-    aliases:
-    - bondage
-    - Bondage
-  Boots:
-    aliases:
-    - Boots
-    - ブーツ
-    - boots
-  Bottoms:
-    aliases:
-    - bottoms
-    - Bottoms
-  Bra Top:
-    aliases:
-    - bra top
-    - ブラトップ
-    - Bra Top
-  Bunny Suit:
-    aliases:
-    - バニーガール
-    - Bunny Suit
-    - バニースーツ
-    - bunny suit
-  Bustier:
-    aliases:
-    - Bustier
-    - ビスチェ
-    - bustier
-  Camisole:
-    aliases:
-    - キャミソール
-    - Camisole
-    - camisole
-    - キャミ
-  Cap:
-    aliases:
-    - Cap
-    - cap
-  Cape:
-    aliases:
-    - cape
-    - Cape
-  Cardigan:
-    aliases:
-    - Cardigan
-    - カーディガン
-    - cardigan
-  Cargo Pants:
-    aliases:
-    - Cargo Pants
-    - カーゴパンツ
-    - cargo pants
-  China Dress:
-    aliases:
-    - チャイナドレス
-    - China Dress
-    - china dress
-    - チャイナ服
-  Cloak:
-    aliases:
-    - Cloak
-    - cloak
-    - マント
-    - クローク
-  Coat:
-    aliases:
-    - coat
-    - コート
-    - Coat
-  Corset:
-    aliases:
-    - corset
-    - コルセット
-    - Corset
-  Costume:
-    aliases:
-    - Costume
-    - costume
-  Crop Top:
-    aliases:
-    - クロップト
-    - クロップド
-    - Crop Top
-    - crop top
-  Denim:
-    aliases:
-    - denim
-    - デニム
-    - Denim
-  Distressed Jeans:
-    aliases:
-    - distressed jeans
-    - Distressed Jeans
-  Down Jacket:
-    aliases:
-    - down jacket
-    - ダウンジャケット
-    - Down Jacket
-    - ダウン
-  Dress:
-    aliases:
-    - ドレス
-    - dress
-    - Dress
-  Dress Shirt:
-    aliases:
-    - dress shirt
-    - Dress Shirt
-  Duffle Coat:
-    aliases:
-    - duffle coat
-    - Duffle Coat
-  Dungarees:
-    aliases:
-    - dungarees
-    - Dungarees
-  Fishnet Tights:
-    aliases:
-    - Fishnet Tights
-    - fishnet tights
-  Flare Skirt:
-    aliases:
-    - flare skirt
-    - Flare Skirt
-  Frill:
-    aliases:
-    - フリル
-    - Frill
-    - frill
-  Frill Skirt:
-    aliases:
-    - Frill Skirt
-    - frill skirt
-  Frilled Dress:
-    aliases:
-    - frilled dress
-    - Frilled Dress
-  Frilled One-Piece:
-    aliases:
-    - Frilled One-Piece
-    - frilled one-piece
-  Fur Coat:
-    aliases:
-    - Fur Coat
-    - fur coat
-  Furisode:
-    aliases:
-    - 振袖
-    - Furisode
-    - furisode
-  Garter:
-    aliases:
-    - Garter
-    - garter
-  Garter Belt:
-    aliases:
-    - ガーターベルト
-    - Garter Belt
-    - garter belt
-  Gloves:
-    aliases:
-    - gloves
-    - Gloves
-  Gothic Dress:
-    aliases:
-    - gothic dress
-    - ゴシックドレス
-    - Gothic Dress
-  Hakama:
-    aliases:
-    - hakama
-    - 袴
-    - Hakama
-  Half Pants:
-    aliases:
-    - half pants
-    - Half Pants
-  Halterneck:
-    aliases:
-    - Halterneck
-    - halterneck
-  Hanbok:
-    aliases:
-    - hanbok
-    - Hanbok
-  Haori:
-    aliases:
-    - 羽織
-    - haori
-    - Haori
-  Harness:
-    aliases:
-    - ハーネス
-    - Harness
-    - harness
-  Hat:
-    aliases:
-    - 帽子
-    - Hat
-    - ハット
-    - hat
-  Headdress:
-    aliases:
-    - Headdress
-    - ヘッドドレス
-    - headdress
-  Heels:
-    aliases:
-    - heels
-    - Heels
-  High Heels:
-    aliases:
-    - high heels
-    - ハイヒール
-    - High Heels
-  High Neck:
-    aliases:
-    - high neck
-    - High Neck
-  High-Leg:
-    aliases:
-    - High-Leg
-    - high-leg
-  Hooded:
-    aliases:
-    - Hooded
-    - hooded
-  Hoodie:
-    aliases:
-    - hoodie
-    - フーディ
-    - Hoodie
-    - パーカー
-  Hot Pants:
-    aliases:
-    - hot pants
-    - Hot Pants
-  Idol Outfit:
-    aliases:
-    - idol outfit
-    - アイドル衣装
-    - Idol Outfit
-  Innerwear:
-    aliases:
-    - innerwear
-    - Innerwear
-    - インナー
-  Jacket:
-    aliases:
-    - Jacket
-    - ジャケット
-    - jacket
-  Japanese Clothing:
-    aliases:
-    - japanese clothing
-    - Japanese Clothing
-  Jeans:
-    aliases:
-    - ジーンズ
-    - Jeans
-    - jeans
-  Jersey:
-    aliases:
-    - ジャージ
-    - jersey
-    - Jersey
-  Jumper Skirt:
-    aliases:
-    - Jumper Skirt
-    - jumper skirt
-  Jumpsuit:
-    aliases:
-    - jumpsuit
-    - Jumpsuit
-  Kigurumi:
-    aliases:
-    - kigurumi
-    - Kigurumi
-  Kimono:
-    aliases:
-    - 着物
-    - kimono
-    - Kimono
-    - きもの
-  Knee-High:
-    aliases:
-    - Knee-High
-    - ニーハイ
-    - knee-high
-  Knee-High Boots:
-    aliases:
-    - Knee-High Boots
-    - knee-high boots
-  Knee-High Socks:
-    aliases:
-    - Knee-High Socks
-    - knee-high socks
-  Knit:
-    aliases:
-    - ニット
-    - knit
-    - Knit
-  Knit Dress:
-    aliases:
-    - knit dress
-    - Knit Dress
-  Lab Coat:
-    aliases:
-    - lab coat
-    - 白衣
-    - Lab Coat
-  Lace:
-    aliases:
-    - レース
-    - lace
-    - Lace
-  Layered:
-    aliases:
-    - layered
-    - Layered
-  Leather Jacket:
-    aliases:
-    - leather jacket
-    - 革ジャン
-    - レザージャケット
-    - Leather Jacket
-  Leg Warmers:
-    aliases:
-    - レッグウォーマー
-    - Leg Warmers
-    - leg warmers
-  Leggings:
-    aliases:
-    - レギンス
-    - Leggings
-    - leggings
-  Leotard:
-    aliases:
-    - レオタード
-    - leotard
-    - Leotard
-  Lingerie:
-    aliases:
-    - lingerie
-    - ランジェリー
-    - Lingerie
-  Loafers:
-    aliases:
-    - ローファー
-    - Loafers
-    - loafers
-  Long Boots:
-    aliases:
-    - long boots
-    - Long Boots
-  Long Coat:
-    aliases:
-    - long coat
-    - Long Coat
-  Long Dress:
-    aliases:
-    - long dress
-    - Long Dress
-  Long Skirt:
-    aliases:
-    - long skirt
-    - Long Skirt
-  Loose Socks:
-    aliases:
-    - loose socks
-    - Loose Socks
-    - ルーズソックス
-  Loungewear:
-    aliases:
-    - ルームウェア
-    - 部屋着
-    - loungewear
-    - Loungewear
-  Maid Outfit:
-    aliases:
-    - maid outfit
-    - メイド服
-    - メイド
-    - Maid Outfit
-  Matching Set:
-    aliases:
-    - Matching Set
-    - matching set
-  Micro Bikini:
-    aliases:
-    - micro bikini
-    - マイクロビキニ
-    - Micro Bikini
-  Miko Outfit:
-    aliases:
-    - miko outfit
-    - 巫女
-    - 巫女服
-    - Miko Outfit
-  Military Uniform:
-    aliases:
-    - 軍服
-    - military uniform
-    - Military Uniform
-    - ミリタリー制服
-  Mini Dress:
-    aliases:
-    - mini dress
-    - Mini Dress
-  Miniskirt:
-    aliases:
-    - ミニスカ
-    - miniskirt
-    - Miniskirt
-    - ミニスカート
-  Necktie:
-    aliases:
-    - ネクタイ
-    - necktie
-    - Necktie
-  Negligee:
-    aliases:
-    - Negligee
-    - negligee
-  Nun Habit:
-    aliases:
-    - nun habit
-    - Nun Habit
-  Nun Outfit:
-    aliases:
-    - 修道女
-    - nun outfit
-    - Nun Outfit
-    - シスター
-  Nurse Outfit:
-    aliases:
-    - nurse outfit
-    - ナース服
-    - ナース
-    - Nurse Outfit
-  Off-Shoulder:
-    aliases:
-    - off-shoulder
-    - オフショル
-    - オフショルダー
-    - Off-Shoulder
-  One-Piece Dress:
-    aliases:
-    - ワンピ
-    - One-Piece Dress
-    - ワンピース
-    - one-piece dress
-  One-Piece Swimsuit:
-    aliases:
-    - One-Piece Swimsuit
-    - one-piece swimsuit
-  Outerwear:
-    aliases:
-    - outerwear
-    - Outerwear
-    - アウター
-  Overalls:
-    aliases:
-    - Overalls
-    - overalls
-    - オーバーオール
-  Oversized:
-    aliases:
-    - oversized
-    - オーバーサイズ
-    - Oversized
-  Pajamas:
-    aliases:
-    - Pajamas
-    - パジャマ
-    - pajamas
-  Pants:
-    aliases:
-    - ズボン
-    - pants
-    - パンツ
-    - Pants
-  Plaid Skirt:
-    aliases:
-    - plaid skirt
-    - Plaid Skirt
-  Platform Boots:
-    aliases:
-    - platform boots
-    - Platform Boots
-  Pleated Skirt:
-    aliases:
-    - プリーツスカート
-    - pleated skirt
-    - Pleated Skirt
-  Poncho:
-    aliases:
-    - Poncho
-    - poncho
-  Pumps:
-    aliases:
-    - pumps
-    - Pumps
-    - パンプス
-  Racing Swimsuit:
-    aliases:
-    - Racing Swimsuit
-    - racing swimsuit
-  Raincoat:
-    aliases:
-    - Raincoat
-    - raincoat
-    - カッパ
-    - レインコート
-  Robe:
-    aliases:
-    - robe
-    - Robe
-    - ローブ
-  Rubber Suit:
-    aliases:
-    - rubber suit
-    - Rubber Suit
-  Sailor:
-    aliases:
-    - sailor
-    - Sailor
-  Sailor Uniform:
-    aliases:
-    - セーラー服
-    - セーラー
-    - Sailor Uniform
-    - sailor uniform
-  Sandals:
-    aliases:
-    - Sandals
-    - sandals
-    - サンダル
-  Santa Outfit:
-    aliases:
-    - santa outfit
-    - Santa Outfit
-    - サンタ服
-    - サンタ衣装
-  Scarf:
-    aliases:
-    - スカーフ
-    - scarf
-    - Scarf
-    - マフラー
-  School Swimsuit:
-    aliases:
-    - School Swimsuit
-    - school swimsuit
-    - スクール水着
-    - スク水
-  School Uniform:
-    aliases:
-    - 学生服
-    - school uniform
-    - 制服
-    - School Uniform
-  Sheer:
-    aliases:
-    - sheer
-    - Sheer
-  Shirt:
-    aliases:
-    - shirt
-    - Shirt
-    - シャツ
-  Shoes:
-    aliases:
-    - Shoes
-    - shoes
-  Short Boots:
-    aliases:
-    - short boots
-    - Short Boots
-  Short Pants:
-    aliases:
-    - ショーツ
-    - ショートパンツ
-    - short pants
-    - 短パン
-    - Short Pants
-  Shorts:
-    aliases:
-    - Shorts
-    - shorts
-    - ショーツ
-  Skinny Pants:
-    aliases:
-    - skinny pants
-    - Skinny Pants
-  Skirt:
-    aliases:
-    - skirt
-    - スカート
-    - Skirt
-  Slacks:
-    aliases:
-    - slacks
-    - Slacks
-    - スラックス
-  Sleeveless:
-    aliases:
-    - Sleeveless
-    - sleeveless
-  Sneakers:
-    aliases:
-    - sneakers
-    - スニーカー
-    - Sneakers
-  Socks:
-    aliases:
-    - socks
-    - Socks
-  Spacesuit:
-    aliases:
-    - Spacesuit
-    - spacesuit
-  Spats:
-    aliases:
-    - スパッツ
-    - Spats
-    - spats
-  Sportswear:
-    aliases:
-    - スポーツウェア
-    - sportswear
-    - Sportswear
-  Stockings:
-    aliases:
-    - stockings
-    - Stockings
-    - ストッキング
-  Suit:
-    aliases:
-    - suit
-    - Suit
-    - スーツ
-  Summer Dress:
-    aliases:
-    - Summer Dress
-    - summer dress
-  Suspenders:
-    aliases:
-    - サスペンダー
-    - suspenders
-    - Suspenders
-  Sweater:
-    aliases:
-    - Sweater
-    - セーター
-    - sweater
-  Sweatpants:
-    aliases:
-    - sweatpants
-    - Sweatpants
-  Sweatshirt:
-    aliases:
-    - sweatshirt
-    - Sweatshirt
-  Swimsuit:
-    aliases:
-    - Swimsuit
-    - swimsuit
-    - 水着
-    - スイムウェア
-  T-Shirt:
-    aliases:
-    - tシャツ
-    - t-shirt
-    - Tシャツ
-    - T-Shirt
-  Tank Top:
-    aliases:
-    - タンクトップ
-    - tank top
-    - Tank Top
-  Techwear:
-    aliases:
-    - techwear
-    - テックウェア
-    - Techwear
-  Thigh-high Socks:
-    aliases:
-    - thigh-high socks
-    - Thigh-high Socks
-  Tight Skirt:
-    aliases:
-    - タイトスカート
-    - Tight Skirt
-    - tight skirt
-  Tights:
-    aliases:
-    - tights
-    - タイツ
-    - Tights
-  Tops:
-    aliases:
-    - Tops
-    - トップス
-    - tops
-  Trench Coat:
-    aliases:
-    - trench coat
-    - Trench Coat
-  Tube Top:
-    aliases:
-    - tube top
-    - Tube Top
-  Turtleneck:
-    aliases:
-    - turtleneck
-    - タートルネック
-    - Turtleneck
-  Underwear:
-    aliases:
-    - underwear
-    - アンダーウェア
-    - Underwear
-    - 下着
-  Uniform:
-    aliases:
-    - ユニフォーム
-    - Uniform
-    - 制服
-    - uniform
-  Varsity Jacket:
-    aliases:
-    - varsity jacket
-    - Varsity Jacket
-  Veil:
-    aliases:
-    - veil
-    - Veil
-    - ベール
-    - ヴェール
-  Vest:
-    aliases:
-    - ベスト
-    - vest
-    - Vest
-  Wafuku:
-    aliases:
-    - Wafuku
-    - wafuku
-  Wedding Dress:
-    aliases:
-    - Wedding Dress
-    - wedding dress
-    - ウェディングドレス
-  Wide Pants:
-    aliases:
-    - wide pants
-    - Wide Pants
-  Witch Outfit:
-    aliases:
-    - witch outfit
-    - 魔女服
-    - 魔女
-    - Witch Outfit
-  Yukata:
-    aliases:
-    - yukata
-    - Yukata
-    - 浴衣
+  Apron: *id128
+  Apron Dress: *id129
+  Armor: *id130
+  Babydoll: *id131
+  Bath Towel: *id132
+  Battle Outfit: *id133
+  Belt: *id134
+  Beret: *id135
+  Bikini: *id136
+  Blazer: *id137
+  Bloomers: *id138
+  Blouse: *id139
+  Blouson: *id140
+  Bodysuit: *id141
+  Bolero: *id142
+  Bondage: *id143
+  Boots: *id144
+  Bottoms: *id145
+  Bra Top: *id146
+  Bunny Suit: *id147
+  Bustier: *id148
+  Camisole: *id149
+  Cap: *id150
+  Cape: *id151
+  Cardigan: *id152
+  Cargo Pants: *id153
+  China Dress: *id154
+  Cloak: *id155
+  Coat: *id156
+  Corset: *id157
+  Costume: *id158
+  Crop Top: *id159
+  Denim: *id160
+  Distressed Jeans: *id161
+  Down Jacket: *id162
+  Dress: *id163
+  Dress Shirt: *id164
+  Duffle Coat: *id165
+  Dungarees: *id166
+  Fishnet Tights: *id167
+  Flare Skirt: *id168
+  Frill: *id169
+  Frill Skirt: *id170
+  Frilled Dress: *id171
+  Frilled One-Piece: *id172
+  Fur Coat: *id173
+  Furisode: *id174
+  Garter: *id175
+  Garter Belt: *id176
+  Gloves: *id177
+  Gothic Dress: *id178
+  Hakama: *id179
+  Half Pants: *id180
+  Halterneck: *id181
+  Hanbok: *id182
+  Haori: *id183
+  Harness: *id184
+  Hat: *id185
+  Headdress: *id186
+  Heels: *id187
+  High Heels: *id188
+  High Neck: *id189
+  High-Leg: *id190
+  Hooded: *id191
+  Hoodie: *id192
+  Hot Pants: *id193
+  Idol Outfit: *id194
+  Innerwear: *id195
+  Jacket: *id196
+  Japanese Clothing: *id197
+  Jeans: *id198
+  Jersey: *id199
+  Jumper Skirt: *id200
+  Jumpsuit: *id201
+  Kigurumi: *id202
+  Kimono: *id203
+  Knee-High: *id204
+  Knee-High Boots: *id205
+  Knee-High Socks: *id206
+  Knit: *id207
+  Knit Dress: *id208
+  Lab Coat: *id209
+  Lace: *id210
+  Layered: *id211
+  Leather Jacket: *id212
+  Leg Warmers: *id213
+  Leggings: *id214
+  Leotard: *id215
+  Lingerie: *id216
+  Loafers: *id217
+  Long Boots: *id218
+  Long Coat: *id219
+  Long Dress: *id220
+  Long Skirt: *id221
+  Loose Socks: *id222
+  Loungewear: *id223
+  Maid Outfit: *id224
+  Matching Set: *id225
+  Micro Bikini: *id226
+  Miko Outfit: *id227
+  Military Uniform: *id228
+  Mini Dress: *id229
+  Miniskirt: *id230
+  Necktie: *id231
+  Negligee: *id232
+  Nun Habit: *id233
+  Nun Outfit: *id234
+  Nurse Outfit: *id235
+  Off-Shoulder: *id236
+  One-Piece Dress: *id237
+  One-Piece Swimsuit: *id238
+  Outerwear: *id239
+  Overalls: *id240
+  Oversized: *id241
+  Pajamas: *id242
+  Pants: *id243
+  Plaid Skirt: *id244
+  Platform Boots: *id245
+  Pleated Skirt: *id246
+  Poncho: *id247
+  Pumps: *id248
+  Racing Swimsuit: *id249
+  Raincoat: *id250
+  Robe: *id251
+  Rubber Suit: *id252
+  Sailor: *id253
+  Sailor Uniform: *id254
+  Sandals: *id255
+  Santa Outfit: *id256
+  Scarf: *id257
+  School Swimsuit: *id258
+  School Uniform: *id259
+  Sheer: *id260
+  Shirt: *id261
+  Shoes: *id262
+  Short Boots: *id263
+  Short Pants: *id264
+  Shorts: *id265
+  Skinny Pants: *id266
+  Skirt: *id267
+  Slacks: *id268
+  Sleeveless: *id269
+  Sneakers: *id270
+  Socks: *id271
+  Spacesuit: *id272
+  Spats: *id273
+  Sportswear: *id274
+  Stockings: *id275
+  Suit: *id276
+  Summer Dress: *id277
+  Suspenders: *id278
+  Sweater: *id279
+  Sweatpants: *id280
+  Sweatshirt: *id281
+  Swimsuit: *id282
+  T-Shirt: *id283
+  Tank Top: *id284
+  Techwear: *id285
+  Thigh-high Socks: *id286
+  Tight Skirt: *id287
+  Tights: *id288
+  Tops: *id289
+  Trench Coat: *id290
+  Tube Top: *id291
+  Turtleneck: *id292
+  Underwear: *id293
+  Uniform: *id294
+  Varsity Jacket: *id295
+  Veil: *id296
+  Vest: *id297
+  Wafuku: *id298
+  Wedding Dress: *id299
+  Wide Pants: *id300
+  Witch Outfit: *id301
+  Yukata: *id302
 platforms:
   Blender:
     aliases:
-    - Blender
     - blender
+    - Blender
   Cluster:
     aliases:
-    - Cluster
     - cluster
+    - Cluster
   FBX:
     aliases:
-    - FBX
     - fbx
+    - FBX
   MMD:
     aliases:
-    - MMD
     - mmd
+    - MMD
   Modular Avatar Compatible:
     aliases:
     - modular avatar compatible
@@ -2423,37 +3663,37 @@ platforms:
     - Poiyomi
   Quest Compatible:
     aliases:
-    - quest compatible
     - Quest Compatible
+    - quest compatible
   SDK3:
     aliases:
-    - SDK3
     - sdk3
+    - SDK3
   Unity:
     aliases:
-    - unity
     - Unity
+    - unity
   UnityPackage:
     aliases:
-    - UnityPackage
     - unitypackage
+    - UnityPackage
   VCC Compatible:
     aliases:
     - VCC Compatible
     - vcc compatible
   VRChat:
     aliases:
+    - vrc
     - vrchat
     - VRChat
-    - vrc
   VRM:
     aliases:
     - vrm
     - VRM
   VRoid:
     aliases:
-    - vroid
     - VRoid
+    - vroid
   lilToon:
     aliases:
     - liltoon
@@ -2463,46 +3703,46 @@ seasons:
     aliases:
     - autumn
     - オータム
-    - fall
     - 秋
     - 紅葉
+    - fall
     - Autumn
   Christmas:
     aliases:
-    - クリスマス
     - Christmas
     - christmas
+    - クリスマス
   Halloween:
     aliases:
-    - ハロウィン
-    - Halloween
     - halloween
+    - Halloween
+    - ハロウィン
   New Year:
     aliases:
-    - new year
     - 新年
-    - 正月
     - New Year
+    - new year
+    - 正月
   Spring:
     aliases:
+    - Spring
+    - 春
     - スプリング
     - spring
-    - 春
-    - Spring
     - 桜
   Summer:
     aliases:
-    - summer
-    - 水着
-    - 夏
-    - Summer
     - サマー
+    - summer
+    - 夏
+    - 水着
+    - Summer
   Winter:
     aliases:
+    - Winter
     - 冬
     - winter
     - ウィンター
-    - Winter
     - 雪
 updated_at: '2026-06-10'
 version: 1

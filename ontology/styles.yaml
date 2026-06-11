@@ -1,19 +1,23 @@
 styles:
   American Casual:
-  - American Casual
   - american casual
+  - アメカジ
+  - American Casual
+  - アメリカンカジュアル
   Androgynous:
-  - Androgynous
+  - 中性的
   - androgynous
+  - Androgynous
+  - アンドロジナス
   Animal Motif:
-  - animal motif
   - アニマル
   - 動物
+  - animal motif
   - Animal Motif
   Anime:
+  - Anime
   - anime
   - アニメ
-  - Anime
   Antique:
   - アンティーク
   - antique
@@ -22,85 +26,113 @@ styles:
   - art
   - Art
   Battle:
-  - battle
+  - 戦闘
+  - 戦う
+  - バトル
   - Battle
+  - battle
   Bewitching:
   - bewitching
+  - 妖艶な
+  - あでやか
   - Bewitching
   Bondage:
+  - 拘束
   - bondage
   - Bondage
+  - ボンデージ
   Boyish:
+  - Boyish
   - ボーイッシュ
   - boyish
-  - Boyish
   Cafe:
+  - カフェ
   - cafe
   - Cafe
   Calm:
+  - 静か
+  - 落ち着いた
   - calm
   - Calm
   Cartoon:
   - cartoon
+  - アニメ調
+  - カートゥーン
   - Cartoon
   Casual:
-  - カジュアル
   - Casual
   - casual
+  - カジュアル
   Chic:
   - Chic
+  - シック
+  - 上品
   - chic
   Chinese Style:
-  - Chinese Style
+  - 中華風
+  - チャイナ
+  - 中華
+  - チャイナ服
   - chinese style
+  - Chinese Style
   Chuunibyou:
-  - chuunibyou
+  - ちゅうにびょう
   - Chuunibyou
+  - 中二病
+  - chuunibyou
   Classic:
   - classic
   - Classic
   Classical:
+  - クラシック
+  - classical
   - Classical
   - クラシカル
-  - classical
-  - クラシック
   Clean Style:
-  - clean style
+  - 上品
+  - 清楚
+  - きれいめ
   - Clean Style
+  - clean style
   Colorful:
-  - colorful
   - Colorful
+  - colorful
+  - カラフル
   Comical:
-  - Comical
   - comical
+  - Comical
+  - コミカル
   Cool:
-  - 格好いい
   - クール
+  - 格好いい
   - Cool
-  - かっこいい
   - cool
+  - かっこいい
   Cosplay:
-  - Cosplay
   - cosplay
+  - コスプレ
+  - Cosplay
   Cute:
-  - キュート
   - cute
-  - Cute
   - かわいい
   - 可愛い
+  - Cute
+  - キュート
   Cyber:
+  - Cyber
+  - techwear
   - cyber
   - サイバー
-  - techwear
-  - Cyber
   - テックウェア
   Cyberpunk:
   - Cyberpunk
-  - サイバーパンク
   - cyberpunk
+  - サイバーパンク
   Daily:
-  - Daily
   - daily
+  - デイリー
+  - Daily
+  - 普段着
   Dark:
   - ダーク
   - dark
@@ -109,127 +141,180 @@ styles:
   Decora:
   - Decora
   - decora
+  - デコラ
   Doll:
-  - doll
+  - ドール
   - Doll
+  - 人形
+  - doll
   Elegant:
-  - エレガント
   - elegant
+  - エレガント
   - Elegant
   Emo:
+  - エモい
+  - エモ
   - Emo
   - emo
   Energetic:
-  - energetic
+  - 活発
+  - エネルギッシュ
   - Energetic
+  - energetic
   Ethereal:
-  - ethereal
+  - 幽玄
   - Ethereal
+  - 幻想的
+  - ethereal
   Ethnic:
+  - 民族調
   - ethnic
   - Ethnic
+  - エスニック
   Everyday:
+  - 日常
+  - デイリー
   - everyday
   - Everyday
   Exotic:
-  - exotic
   - Exotic
+  - エキゾチック
+  - 異国情緒
+  - exotic
   Fairy:
-  - fairy
   - Fairy
+  - フェアリー
+  - 妖精
+  - fairy
   Fairytale:
-  - Fairytale
+  - おとぎ話
   - fairytale
+  - Fairytale
+  - メルヘン
   Fancy:
   - ファンシー
-  - fancy
   - Fancy
+  - fancy
   Fantastical:
-  - Fantastical
   - fantastical
+  - Fantastical
   Fantasy:
-  - fantasy
   - 魔道士
+  - ファンタジー
   - 騎士
   - Fantasy
-  - ファンタジー
+  - fantasy
   Fashionable:
+  - ファッショナブル
+  - おしゃれ
   - fashionable
+  - お洒落
   - Fashionable
   Feminine:
-  - feminine
   - フェミニン
   - Feminine
+  - feminine
   Fetish:
-  - fetish
   - Fetish
+  - フェチ
+  - fetish
+  - フェティッシュ
   Fluffy:
+  - モコモコ
   - Fluffy
   - fluffy
+  - ふわふわ
+  - もこもこ
   For Men:
+  - 男用
+  - 男性向け
+  - メンズ向け
   - for men
   - For Men
   Formal:
-  - Formal
-  - フォーマル
   - formal
+  - フォーマル
+  - Formal
   Funny:
-  - Funny
+  - ウケる
+  - おもしろい
   - funny
+  - 面白い
+  - Funny
   Game:
-  - Game
   - game
+  - ゲーム
+  - ゲーマー
+  - Game
   Girly:
-  - Girly
   - girly
   - ガーリー
+  - Girly
   Glamorous:
   - glamorous
   - Glamorous
+  - グラマラス
   Gorgeous:
+  - 豪華
   - gorgeous
+  - ゴージャス
   - Gorgeous
   Gothic:
-  - gothic
-  - Gothic
   - ゴシック
+  - gothic
   - ゴス
+  - Gothic
   Gothic Lolita:
-  - gothic lolita
   - Gothic Lolita
+  - gothic lolita
+  - ゴシックロリータ
+  - ゴスロリ
   Grunge:
   - grunge
+  - グランジ
   - Grunge
   Gyaru:
   - gyaru
-  - ギャル
   - Gyaru
+  - ギャル
   Harajuku Style:
   - Harajuku Style
+  - 原宿系
   - harajuku style
   Healing:
   - Healing
   - healing
   Heartwarming:
   - Heartwarming
+  - 温かい
+  - ほっこり
   - heartwarming
   Horror:
+  - 怖い
+  - 怪談
   - horror
-  - Horror
   - ホラー
+  - Horror
   Humor:
-  - Humor
   - humor
+  - ユーモア
+  - Humor
+  - おもしろ
   Idol:
-  - Idol
   - idol
+  - Idol
   - アイドル
   Industrial:
+  - インダストリアル
   - industrial
   - Industrial
+  - 工業的
   Intellectual:
-  - intellectual
+  - メガネ
   - Intellectual
+  - intellectual
+  - 知的
+  - インテリ
   Japanese:
   - 和風
   - japanese
@@ -237,10 +322,10 @@ styles:
   - 着物
   - 浴衣
   Japanese Style:
-  - japanese style
-  - 和装
   - Japanese Style
   - 和風
+  - 和装
+  - japanese style
   Jirai:
   - 地雷
   - 地雷系
@@ -248,244 +333,317 @@ styles:
   Jirai Kei:
   - 地雷系
   - jirai kei
-  - 地雷
   - Jirai Kei
+  - 地雷
   Joke:
-  - joke
+  - ネタ
   - Joke
+  - ネタ系
+  - joke
+  - ジョーク
   Kemono:
-  - ケモノ
-  - Kemono
   - kemono
+  - Kemono
+  - ケモノ
+  - 獣
+  - けもの
   Korean Style:
-  - korean style
   - Korean Style
+  - 韓国風
+  - オルチャン
+  - korean style
   Laid-back Cute:
-  - laid-back cute
   - Laid-back Cute
+  - laid-back cute
   Little Devil:
-  - Little Devil
+  - こあくま
   - little devil
+  - 小悪魔
+  - Little Devil
   Lolita:
-  - ロリータ
-  - Lolita
-  - 黒ロリ
   - lolita
+  - ロリータ
   - 甘ロリ
+  - 黒ロリ
+  - Lolita
   Lovely:
-  - lovely
   - Lovely
+  - ラブリー
+  - lovely
   Luxury:
   - luxury
+  - 高級
   - Luxury
+  - ラグジュアリー
   Magic:
-  - magic
   - Magic
+  - magic
+  - マジック
+  - 魔法
   Magical Girl:
+  - 魔法少女
   - magical girl
   - Magical Girl
   Maid:
   - Maid
-  - メイド
   - maid
+  - メイド服
+  - メイド
   Marine:
-  - marine
+  - 海
+  - 水兵
+  - マリン
   - Marine
+  - marine
   Mature:
   - お姉さん
   - Mature
-  - 大人っぽい
   - mature
+  - 大人っぽい
   Mecha:
   - mecha
-  - Mecha
   - ロボ
   - メカ
+  - Mecha
   Mechanical:
+  - メカニカル
+  - 機械的
   - mechanical
   - Mechanical
   Medieval:
+  - 中世
   - Medieval
   - medieval
+  - 中世風
   Military:
-  - 軍服
   - ミリタリー
   - military
+  - 軍服
   - Military
   Minimal:
-  - Minimal
   - minimal
+  - 最小限
+  - ミニマル
+  - Minimal
   Mode:
+  - モード
+  - モード系
   - mode
   - Mode
   Modern:
+  - モダン
+  - 現代的
   - modern
   - Modern
   Modest:
+  - 地味
   - modest
+  - 控えめ
   - Modest
   Mori Girl:
-  - mori girl
   - Mori Girl
+  - mori girl
+  - 森ガール
   Mysterious:
   - mysterious
   - Mysterious
+  - ミステリアス
+  - 神秘的
   Mystical:
-  - mystical
+  - 神秘的
   - Mystical
+  - ミスティカル
+  - mystical
   Natural:
   - Natural
   - ナチュラル
   - natural
   Near-Future:
+  - near-future
   - Near-Future
   - 近未来
-  - near-future
   Neon:
-  - Neon
   - ネオン
+  - Neon
   - neon
   Ninja:
-  - Ninja
+  - 忍者
   - ninja
+  - Ninja
+  - ニンジャ
   Nostalgic:
   - Nostalgic
+  - ノスタルジック
+  - 懐かしい
   - nostalgic
   Ojou-sama:
-  - ojou-sama
+  - お嬢さま
   - Ojou-sama
+  - お嬢様
+  - ojou-sama
   Onee-san Style:
-  - onee-san style
   - Onee-san Style
+  - onee-san style
+  - お姉さん系
+  - お姉さん
   Pastel:
-  - pastel
-  - パステル
   - Pastel
+  - パステル
+  - pastel
   Pop:
-  - pop
   - ポップ
   - Pop
+  - pop
   Post-Apocalyptic:
   - post-apocalyptic
+  - ポストアポカリプス
   - Post-Apocalyptic
+  - 終末もの
   Practical:
-  - Practical
   - practical
+  - 実用的
+  - Practical
   Premium Feel:
-  - Premium Feel
   - premium feel
+  - Premium Feel
+  - 高級感
   Preppy:
-  - preppy
   - Preppy
+  - プレッピー
+  - preppy
   Princess:
-  - Princess
+  - お姫様
   - princess
+  - Princess
   - プリンセス
   Punk:
-  - Punk
   - punk
+  - Punk
   Real Clothes:
-  - real clothes
+  - 私服
   - Real Clothes
+  - リアルクローズ
+  - 普段着
+  - real clothes
   Realistic:
-  - Realistic
   - realistic
+  - Realistic
   - リアル
   Refined:
   - refined
-  - きれいめ
   - Refined
+  - きれいめ
   Refreshing:
+  - さわやか
   - Refreshing
   - refreshing
+  - 爽やか
   Relaxed:
-  - relaxed
   - Relaxed
+  - relaxed
+  - リラックス
+  - 部屋着
   Religious:
-  - Religious
+  - シスター
+  - 宗教的
   - religious
+  - Religious
+  - 神父
   Resort:
   - resort
+  - リゾート
   - Resort
   Retro:
-  - Retro
   - retro
+  - Retro
   Retro-Futuristic:
   - retro-futuristic
+  - レトロフューチャー
   - Retro-Futuristic
   Rock:
   - rock
+  - ロック
   - Rock
   Romantic:
-  - Romantic
   - romantic
+  - Romantic
   Ryousankata:
-  - 量産型
   - ryousankata
+  - 量産型
   - Ryousankata
   School:
-  - スクール
-  - 学生
   - School
+  - 学生
+  - スクール
   - school
   Sci-Fi:
-  - サイファイ
   - sci-fi
   - Sci-Fi
+  - サイファイ
   - sf
   Sexy:
-  - sexy
-  - Sexy
   - セクシー
+  - Sexy
+  - sexy
   - えち
   Simple:
-  - Simple
   - simple
   - シンプル
+  - Simple
   Soft & Relaxed:
-  - Soft & Relaxed
+  - ふんわり
   - soft & relaxed
+  - やわらかい
+  - Soft & Relaxed
   Space:
-  - Space
   - 宇宙
-  - space
   - スペース
+  - Space
+  - space
   Sparkly:
-  - Sparkly
+  - きらきら
+  - キラキラ
   - sparkly
+  - Sparkly
   Sporty:
+  - sporty
   - スポーティー
   - Sporty
-  - sporty
   Steampunk:
+  - スチームパンク
   - steampunk
   - Steampunk
-  - スチームパンク
   Street:
-  - ストリート
-  - Street
   - street
-  - カジュアル
+  - ストリート
   - casual
+  - Street
+  - カジュアル
   Stylish:
   - stylish
+  - スタイリッシュ
   - Stylish
   Subculture:
-  - Subculture
   - サブカル
+  - Subculture
   - subculture
   Surreal:
   - Surreal
+  - シュール
   - surreal
   Sweets:
   - sweets
   - Sweets
+  - お菓子
+  - スイーツ
   Tactical:
+  - タクティカル
   - tactical
   - Tactical
-  - タクティカル
   Taisho Roman:
   - taisho roman
+  - 大正ロマン
+  - 大正浪漫
   - Taisho Roman
   Techwear:
   - techwear
@@ -496,46 +654,54 @@ styles:
   - angel
   - サブカル
   Unique:
-  - Unique
   - unique
+  - Unique
+  - ユニーク
+  - 個性的
   Unisex:
-  - Unisex
   - unisex
+  - 男女兼用
+  - ユニセックス
+  - Unisex
   Valentine:
-  - valentine
   - Valentine
+  - valentine
+  - バレンタイン
   Vampire:
-  - Vampire
-  - ヴァンパイア
   - 吸血鬼
   - vampire
+  - ヴァンパイア
+  - Vampire
   Vintage:
-  - vintage
   - Vintage
+  - vintage
   - ヴィンテージ
   Wedding:
-  - ブライダル
-  - wedding
   - Wedding
   - ウェディング
+  - ブライダル
+  - wedding
   Western:
-  - western
+  - ウェスタン
   - Western
+  - 西部劇
+  - western
   Wild:
   - Wild
   - wild
+  - ワイルド
   Y2K:
-  - y2k
   - Y2K
+  - y2k
   Yami Kawaii:
-  - 病みかわいい
   - Yami Kawaii
+  - 病みかわいい
   - 病みかわ
   - yami kawaii
   Yume Kawaii:
-  - ゆめかわ
   - ゆめかわいい
   - Yume Kawaii
+  - ゆめかわ
   - yume kawaii
 updated_at: '2026-06-10'
 version: 1

@@ -1,160 +1,308 @@
-version: 2
-updated_at: "2026-06-10"
-
-# [AXIOM] Ontology for VRChat Avatar Modification Ecosystem
-# Derived from: VRChat Docs, BOOTH Conventions, Note Tech-reviews, and Tool specifications (MA/VRCFury).
-
-options:
-  case_insensitive: true
-  unicode_normalization: "NFKC"
-  trim_whitespace: true
-
-# 1. Base Avatars (The core of the ecosystem)
-# items are indexed by canonical code. item_id is MUST for ID-based discovery.
 avatars:
-  # --- Komado System ---
-  Kikyo:
-    name_ja: "桔梗"
-    item_id: "3681787"
-    creator: "ポンデロニウム研究所"
-    base_body: "KikyoBody"
-    aliases: ["桔梗", "kikyo", "kikyou", "ききょう", "3681787"]
-  Manuka:
-    name_ja: "マヌカ"
-    item_id: "5058077"
-    creator: "JINGO CHANNEL"
-    aliases: ["マヌカ", "manuka", "5058077"]
-  Shinra:
-    name_ja: "森羅"
-    item_id: "4707634"
-    creator: "mio"
-    aliases: ["森羅", "shinra", "4707634"]
-  Selestia:
-    name_ja: "セレスティア"
-    item_id: "4035411"
-    creator: "JINGO CHANNEL"
-    aliases: ["セレスティア", "selestia", "せれすてぃあ", "Seles", "セレス", "4035411"]
-  Moe:
-    name_ja: "萌"
-    item_id: "4667400"
-    creator: "キュビクローゼット"
-    aliases: ["萌", "moe", "4667400"]
-  # --- Popular Avatars ---
   Grus:
-    name_ja: "グルス"
-    item_id: "2030978"
-    creator: "久"
-    aliases: ["Grus", "グルス", "2030978"]
-  Karin:
-    name_ja: "カリン"
-    item_id: "3470989"
-    creator: "あまとうさぎ"
-    aliases: ["Karin", "カリン", "3470989"]
-  Maya:
-    name_ja: "まや"
-    item_id: "3390957"
-    creator: "キュビクローゼット"
-    aliases: ["Maya", "まや", "3390957"]
-  Rusk:
-    name_ja: "ラスク"
-    item_id: "2559783"
-    creator: "こまど"
-    aliases: ["Rusk", "ラスク", "2559783"]
-  Mint:
-    name_ja: "ミント"
-    item_id: "2258111"
-    creator: "あまとうさぎ"
-    aliases: ["Mint", "ミント", "2258111"]
-  Lime:
-    name_ja: "ライム"
-    item_id: "4876459"
-    creator: "あまとうさぎ"
-    aliases: ["Lime", "ライム", "4876459"]
-  Imeris:
-    name_ja: "イメリス"
-    item_id: "3040745"
-    creator: "JINGO CHANNEL"
-    aliases: ["Imeris", "イメリス", "3040745"]
-  Minase:
-    name_ja: "水瀬"
-    item_id: "4013950"
-    creator: "久"
-    aliases: ["Minase", "水瀬", "4013950"]
+    aliases:
+    - Grus
+    - グルス
+    creator: 久
+    item_id: '2030978'
+    name_ja: グルス
   Hakka:
-    name_ja: "薄荷"
-    item_id: "3953037"
-    creator: "Hotoke-zaka"
-    aliases: ["Hakka", "薄荷", "3953037"]
-  Leufa:
-    name_ja: "ルーファ"
-    item_id: "3503254"
-    creator: "ひゅうがなつみかん"
-    aliases: ["Leufa", "ルーファ", "3503254"]
-  # --- Mamehinata / Animal System ---
-  Mamehinata:
-    name_ja: "まめひなた"
-    item_id: "4340548"
-    creator: "もち山金魚"
-    aliases: ["まめひなた", "mamehinata", "4340548"]
+    aliases:
+    - Hakka
+    - 薄荷
+    creator: Hotoke-zaka
+    item_id: '3953037'
+    name_ja: 薄荷
+  Imeris:
+    aliases:
+    - Imeris
+    - イメリス
+    creator: JINGO CHANNEL
+    item_id: '3040745'
+    name_ja: イメリス
+  Karin:
+    aliases:
+    - Karin
+    - カリン
+    creator: あまとうさぎ
+    item_id: '3470989'
+    name_ja: カリン
+  Kikyo:
+    aliases:
+    - 桔梗
+    - kikyo
+    - kikyou
+    - ききょう
+    base_body: KikyoBody
+    creator: ポンデロニウム研究所
+    item_id: '3681787'
+    name_ja: 桔梗
   Kipfel:
-    name_ja: "キプフェル"
-    item_id: "5813187"
-    creator: "もち山金魚"
-    aliases: ["キプフェル", "Kipfel", "5813187"]
-
-# 2. Asset Categories (Ontology of Modification)
-# Based on VRChat component structure and BOOTH usage.
+    aliases:
+    - キプフェル
+    - Kipfel
+    creator: もち山金魚
+    item_id: '5813187'
+    name_ja: キプフェル
+  Leufa:
+    aliases:
+    - Leufa
+    - ルーファ
+    creator: ひゅうがなつみかん
+    item_id: '3503254'
+    name_ja: ルーファ
+  Lime:
+    aliases:
+    - Lime
+    - ライム
+    creator: あまとうさぎ
+    item_id: '4876459'
+    name_ja: ライム
+  Mamehinata:
+    aliases:
+    - まめひなた
+    - mamehinata
+    creator: もち山金魚
+    item_id: '4340548'
+    name_ja: まめひなた
+  Manuka:
+    aliases:
+    - マヌカ
+    - manuka
+    creator: JINGO CHANNEL
+    item_id: '5058077'
+    name_ja: マヌカ
+  Maya:
+    aliases:
+    - Maya
+    - まや
+    creator: キュビクローゼット
+    item_id: '3390957'
+    name_ja: まや
+  Minase:
+    aliases:
+    - Minase
+    - 水瀬
+    creator: 久
+    item_id: '4013950'
+    name_ja: 水瀬
+  Mint:
+    aliases:
+    - Mint
+    - ミント
+    creator: あまとうさぎ
+    item_id: '2258111'
+    name_ja: ミント
+  Moe:
+    aliases:
+    - 萌
+    - moe
+    creator: キュビクローゼット
+    item_id: '4667400'
+    name_ja: 萌
+  Rusk:
+    aliases:
+    - Rusk
+    - ラスク
+    creator: こまど
+    item_id: '2559783'
+    name_ja: ラスク
+  Selestia:
+    aliases:
+    - セレスティア
+    - selestia
+    - せれすてぃあ
+    - Seles
+    - セレス
+    creator: JINGO CHANNEL
+    item_id: '4035411'
+    name_ja: セレスティア
+  Shinra:
+    aliases:
+    - 森羅
+    - shinra
+    creator: mio
+    item_id: '4707634'
+    name_ja: 森羅
 categories:
-  AVATAR:
-    aliases: ["アバター", "avatar", "3Dキャラクター", "オリジナル3Dモデル"]
-    indicators: ["original avatar", "オリジナルアバター"]
-  OUTFIT:
-    aliases: ["衣装", "服", "outfit", "costume", "dress", "着せ替え", "clothing"]
-    sub_categories: ["tops", "bottoms", "inner", "outer", "set"]
   ACCESSORY:
-    aliases: ["アクセサリ", "accessory", "小物", "item", "prop"]
-    sub_categories: ["head", "face", "ear", "hand", "foot", "weapon"]
-  HAIRSTYLE:
-    aliases: ["髪型", "ヘアスタイル", "hairstyle", "hair", "髪", "ウィッグ"]
-  TEXTURE:
-    aliases: ["テクスチャ", "texture", "skin", "makeup", "eye texture", "body texture", "瞳", "肌", "メイク"]
+    aliases:
+    - アクセサリ
+    - accessory
+    - 小物
+    - item
+    - prop
+    sub_categories:
+    - head
+    - face
+    - ear
+    - hand
+    - foot
+    - weapon
+  AVATAR:
+    aliases:
+    - アバター
+    - avatar
+    - 3Dキャラクター
+    - オリジナル3Dモデル
+    indicators:
+    - original avatar
+    - オリジナルアバター
   GIMMICK_TOOL:
-    aliases: ["ギミック", "gimmick", "tool", "システム", "system", "script", "MA対応", "VRCFury"]
-    features: ["Modular Avatar", "VRCFury", "PhysBone", "Expression Menu"]
-
-# 3. Technical Specs (Features for filtering)
+    aliases:
+    - ギミック
+    - gimmick
+    - tool
+    - システム
+    - system
+    - script
+    - MA対応
+    - VRCFury
+    features:
+    - Modular Avatar
+    - VRCFury
+    - PhysBone
+    - Expression Menu
+  HAIRSTYLE:
+    aliases:
+    - 髪型
+    - ヘアスタイル
+    - hairstyle
+    - hair
+    - 髪
+    - ウィッグ
+  OUTFIT:
+    aliases:
+    - 衣装
+    - 服
+    - outfit
+    - costume
+    - dress
+    - 着せ替え
+    - clothing
+    sub_categories:
+    - tops
+    - bottoms
+    - inner
+    - outer
+    - set
+  TEXTURE:
+    aliases:
+    - テクスチャ
+    - texture
+    - skin
+    - makeup
+    - eye texture
+    - body texture
+    - 瞳
+    - 肌
+    - メイク
+components:
+  Animation:
+  - アニメーション
+  - animation
+  - anim
+  BlendShape:
+  - ブレンドシェイプ
+  - blendshape
+  - シェイプキー
+  - shapekey
+  Bone:
+  - ボーン
+  - bone
+  - アーマチュア
+  - armature
+  ExpressionMenu:
+  - expression menu
+  - エクスプレッションメニュー
+  - exメニュー
+  Material:
+  - マテリアル
+  - material
+  - mat
+  Mesh:
+  - メッシュ
+  - mesh
+  Shader:
+  - シェーダー
+  - shader
 features:
   ModularAvatar:
-    aliases: ["Modular Avatar", "MA対応", "MA", "ModularAvatar"]
-  VRCFury:
-    aliases: ["VRCFury", "Fury"]
+    aliases:
+    - Modular Avatar
+    - MA対応
+    - MA
+    - ModularAvatar
   PhysBone:
-    aliases: ["PhysBone", "PB対応", "PB", "揺れもの"]
-  QuestCompatible:
-    aliases: ["Quest対応", "Android対応", "Quest", "Android"]
-  lilToon:
-    aliases: ["lilToon", "lil"]
+    aliases:
+    - PhysBone
+    - PB対応
+    - PB
+    - 揺れもの
   Poiyomi:
-    aliases: ["Poiyomi", "Poi"]
-
-# 4. Visual Styles (Mood/Taste Ontology)
+    aliases:
+    - Poiyomi
+    - Poi
+  QuestCompatible:
+    aliases:
+    - Quest対応
+    - Android対応
+    - Quest
+    - Android
+  VRCFury:
+    aliases:
+    - VRCFury
+    - Fury
+  lilToon:
+    aliases:
+    - lilToon
+    - lil
+options:
+  case_insensitive: true
+  trim_whitespace: true
+  unicode_normalization: NFKC
 styles:
-  Street: ["ストリート", "street", "カジュアル", "casual"]
-  Gothic: ["ゴシック", "gothic", "ゴス"]
-  Lolita: ["ロリータ", "lolita", "甘ロリ", "黒ロリ"]
-  Cyber: ["サイバー", "cyber", "テックウェア", "techwear"]
-  Japanese: ["和風", "japanese", "和装", "着物", "浴衣"]
-  Fantasy: ["ファンタジー", "fantasy", "魔道士", "騎士"]
-  Military: ["ミリタリー", "military", "軍服"]
-  Jirai: ["地雷", "地雷系", "jirai"]
-  Tenshi: ["天使", "angel", "サブカル"]
-
-# 5. Technical Elements (Granular Components)
-components:
-  Mesh: ["メッシュ", "mesh"]
-  Bone: ["ボーン", "bone", "アーマチュア", "armature"]
-  Material: ["マテリアル", "material", "mat"]
-  Shader: ["シェーダー", "shader"]
-  BlendShape: ["ブレンドシェイプ", "blendshape", "シェイプキー", "shapekey"]
-  Animation: ["アニメーション", "animation", "anim"]
-  ExpressionMenu: ["expression menu", "エクスプレッションメニュー", "exメニュー"]
+  Cyber:
+  - サイバー
+  - cyber
+  - テックウェア
+  - techwear
+  Fantasy:
+  - ファンタジー
+  - fantasy
+  - 魔道士
+  - 騎士
+  Gothic:
+  - ゴシック
+  - gothic
+  - ゴス
+  Japanese:
+  - 和風
+  - japanese
+  - 和装
+  - 着物
+  - 浴衣
+  Jirai:
+  - 地雷
+  - 地雷系
+  - jirai
+  Lolita:
+  - ロリータ
+  - lolita
+  - 甘ロリ
+  - 黒ロリ
+  Military:
+  - ミリタリー
+  - military
+  - 軍服
+  Street:
+  - ストリート
+  - street
+  - カジュアル
+  - casual
+  Tenshi:
+  - 天使
+  - angel
+  - サブカル
+updated_at: '2026-06-10'
+version: 2

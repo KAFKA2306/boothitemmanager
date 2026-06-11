@@ -9,6 +9,16 @@ from ..core import TestBlock
 from ..schemas.storage import Item
 
 
+def safe_rmtree(path: str):
+    import shutil
+    import os
+    if os.path.exists(path):
+        try:
+            shutil.rmtree(path)
+        except Exception:
+            os.system(f"rm -rf {path}")
+
+
 def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -> TestBlock:
     import shutil
 
@@ -17,7 +27,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     # Prepare staging for api/
     if os.path.exists(api_staging):
-        shutil.rmtree(api_staging)
+        safe_rmtree(api_staging)
     if os.path.exists(api_dir):
         shutil.copytree(api_dir, api_staging, dirs_exist_ok=True)
     else:
@@ -30,7 +40,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     if has_dist_api:
         if os.path.exists(dist_api_staging):
-            shutil.rmtree(dist_api_staging)
+            safe_rmtree(dist_api_staging)
         shutil.copytree(dist_api_dir, dist_api_staging, dirs_exist_ok=True)
 
     def serialize(obj):
@@ -170,7 +180,7 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     if has_dist_api:
         dist_details_dir = os.path.join(dist_api_staging, "details")
         if os.path.exists(dist_details_dir):
-            shutil.rmtree(dist_details_dir)
+            safe_rmtree(dist_details_dir)
         shutil.copytree(details_dir, dist_details_dir, dirs_exist_ok=True)
 
     type_counts = Counter(item.category.value for item in items)
@@ -197,10 +207,10 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     if os.path.exists(api_dir):
         api_old = "api_old"
         if os.path.exists(api_old):
-            shutil.rmtree(api_old)
+            safe_rmtree(api_old)
         os.rename(api_dir, api_old)
         os.rename(api_staging, api_dir)
-        shutil.rmtree(api_old)
+        safe_rmtree(api_old)
     else:
         os.rename(api_staging, api_dir)
 
@@ -209,10 +219,10 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         if os.path.exists(dist_api_dir):
             dist_api_old = os.path.join("dist", "api_old")
             if os.path.exists(dist_api_old):
-                shutil.rmtree(dist_api_old)
+                safe_rmtree(dist_api_old)
             os.rename(dist_api_dir, dist_api_old)
             os.rename(dist_api_staging, dist_api_dir)
-            shutil.rmtree(dist_api_old)
+            safe_rmtree(dist_api_old)
         else:
             os.rename(dist_api_staging, dist_api_dir)
 

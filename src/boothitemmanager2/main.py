@@ -37,9 +37,9 @@ def run_pipeline():
     raw_files = list(raw_dir.glob("*.html"))
     if raw_files:
         log(
-            f"📦 Processing {len(raw_files)} detailed HTML files (limiting to 100 for verification)..."
+            f"📦 Processing {len(raw_files)} detailed HTML files..."
         )
-        for rf in raw_files[:100]:
+        for rf in raw_files:
             item_id = rf.stem
             url = f"https://booth.pm/ja/items/{item_id}"
             content = rf.read_text(encoding="utf-8")

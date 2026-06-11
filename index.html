@@ -368,6 +368,18 @@
         .similar-card:hover { border-color: var(--accent); transform: scale(1.05); }
         .similar-card img { width: 100%; height: 100%; object-fit: cover; }
 
+        /* Social search shortcut layout */
+        .social-shortcuts-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+        .social-btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; border-radius: 10px; font-size: 0.75rem; font-weight: 700; border: 1px solid; cursor: pointer; text-decoration: none; transition: background 0.2s, border-color 0.2s; }
+        .social-x { border-color: rgba(255, 255, 255, 0.15); background: rgba(255, 255, 255, 0.02); color: #fff; }
+        .social-x:hover { background: rgba(255, 255, 255, 0.08); border-color: #fff; }
+        .social-insta { border-color: rgba(255, 0, 122, 0.2); background: rgba(255, 0, 122, 0.03); color: #ff007a; }
+        .social-insta:hover { background: rgba(255, 0, 122, 0.1); border-color: #ff007a; }
+        .social-discord { border-color: rgba(88, 101, 242, 0.2); background: rgba(88, 101, 242, 0.03); color: #5865F2; }
+        .social-discord:hover { background: rgba(88, 101, 242, 0.1); border-color: #5865F2; }
+        .social-tiktok { border-color: rgba(0, 240, 255, 0.2); background: rgba(0, 240, 255, 0.03); color: var(--accent); }
+        .social-tiktok:hover { background: rgba(0, 240, 255, 0.1); border-color: var(--accent); }
+
         /* Responsive Layout Updates */
         @media (max-width: 800px) {
             body { grid-template-areas: "header" "main"; grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
@@ -520,6 +532,11 @@
                 <div class="modal-sub-section">
                     <h4>ASSET SPECIFICATIONS</h4>
                     <div class="specs-grid" id="modal-specs-grid"></div>
+                </div>
+
+                <div class="modal-sub-section">
+                    <h4>SNS SEARCH SHORTCUTS</h4>
+                    <div class="social-shortcuts-grid" id="modal-social-shortcuts"></div>
                 </div>
 
                 <div class="modal-sub-section">
@@ -790,7 +807,17 @@
                 const tagsSet = new Set(tags.map(t => t.toLowerCase()));
                 for (const f of filters.features) if (!tagsSet.has(f.toLowerCase())) return false;
                 for (const s of filters.styles) if (!tagsSet.has(s.toLowerCase())) return false;
-                for (const c of filters.colors) if (!tagsSet.has(c.toLowerCase())) return false;
+                
+                if (filters.colors.size > 0) {
+                    let hasAnyColor = false;
+                    for (const c of filters.colors) {
+                        if (tagsSet.has(c.toLowerCase())) {
+                            hasAnyColor = true;
+                            break;
+                        }
+                    }
+                    if (!hasAnyColor) return false;
+                }
 
                 if (filters.query) {
                     const tgt = `${i.title} ${author} ${tags.join(' ')}`.toLowerCase();
@@ -977,6 +1004,23 @@
                     <span class="spec-val">${s.val}</span>
                 </div>
             `).join('');
+
+            // Generate SNS Search Shortcuts
+            const cleanTitle = title.replace(/【[^】]+】/g, '').replace(/[\[\(\{].*?[\]\)\}]/g, '').replace(/[✦†─❖★☆✨✦@!|]/g, '').trim();
+            const firstAvatar = rawTargets.length > 0 ? (typeof rawTargets[0] === 'string' ? rawTargets[0] : (rawTargets[0].name || rawTargets[0].code)) : '';
+            
+            const xQuery = firstAvatar ? `"${firstAvatar}" "${cleanTitle}"` : `"${cleanTitle}"`;
+            const xUrl = `https://x.com/search?q=${encodeURIComponent(xQuery + ' (vrc OR vrc-photo OR vrc改変)')}`;
+            const instaUrl = `https://www.instagram.com/explore/tags/${encodeURIComponent(cleanTitle.replace(/\s+/g, ''))}`;
+            const tiktokUrl = `https://www.tiktok.com/search?q=${encodeURIComponent(cleanTitle + ' vrchat')}`;
+            const discordUrl = `https://www.google.com/search?q=${encodeURIComponent(cleanTitle + ' "discord"')}`;
+
+            document.getElementById('modal-social-shortcuts').innerHTML = `
+                <a class="social-btn social-x" href="${xUrl}" target="_blank">X (Twitter) 🔍</a>
+                <a class="social-btn social-insta" href="${instaUrl}" target="_blank">Instagram 📸</a>
+                <a class="social-btn social-tiktok" href="${tiktokUrl}" target="_blank">TikTok 🎵</a>
+                <a class="social-btn social-discord" href="${discordUrl}" target="_blank">Discord 💬</a>
+            `;
 
             const sim = (d.similar_items||[]).slice(0, 5);
             document.getElementById('modal-similar-grid').innerHTML = sim.length ? sim.map(sid => {
