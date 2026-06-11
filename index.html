@@ -345,17 +345,23 @@
         .modal-price { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 900; color: var(--accent); }
         .modal-title { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; line-height: 1.3; }
         .modal-creator { font-size: 0.85rem; color: var(--text-secondary); }
-        .modal-description { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; max-height: 150px; overflow-y: auto; white-space: pre-wrap; }
+        .modal-description { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; max-height: 120px; overflow-y: auto; white-space: pre-wrap; }
         
         .modal-action-btn { display: flex; justify-content: center; gap: 10px; background: var(--accent); color: #030305; border-radius: 12px; padding: 12px 24px; font-weight: 800; cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
         .modal-action-btn:hover { transform: translateY(-2px); box-shadow: 0 0 25px var(--accent-glow); filter: brightness(1.1); }
 
-        .modal-sub-section h4 { font-family: var(--font-heading); font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.75rem; }
-        .compatibility-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
-        .compat-item { background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 6px; padding: 6px; font-size: 0.75rem; display: flex; gap: 6px; color: var(--text-muted); }
-        .compat-item.supported { border-color: rgba(255,0,122,0.2); background: rgba(255,0,122,0.03); color: #fff; }
-        .compat-item.supported::before { content: '✓'; color: var(--accent-pink); font-weight: bold; }
-        .compat-item::before { content: '✗'; color: var(--text-muted); }
+        .modal-sub-section h4 { font-family: var(--font-heading); font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.75rem; letter-spacing: 1px; }
+        
+        /* Redesigned clean tags list for compat */
+        .compat-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+        .compat-chip { background: rgba(255,0,122,0.1); border: 1px solid var(--accent-pink); border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; font-weight: 600; color: #fff; }
+        .compat-chip.generic { background: rgba(255,255,255,0.05); border-color: var(--border-color); color: var(--text-secondary); }
+
+        /* Specs section styling */
+        .specs-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+        .spec-item { background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 4px; }
+        .spec-label { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; }
+        .spec-val { font-size: 0.8rem; font-weight: 700; color: var(--text-primary); }
 
         .similar-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
         .similar-card { border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; cursor: pointer; aspect-ratio: 1; transition: transform 0.2s; }
@@ -365,7 +371,7 @@
         /* Responsive Layout Updates */
         @media (max-width: 800px) {
             body { grid-template-areas: "header" "main"; grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
-            aside { display: none; } /* Hide sidebar completely for simple mobile flow, could add drawer later */
+            aside { display: none; }
             header { flex-direction: column; gap: 12px; padding: 1rem; align-items: stretch; }
             .logo { justify-content: center; }
             .search-container { margin: 0; }
@@ -375,10 +381,10 @@
             .asset-title { font-size: 0.85rem; height: 2.4rem; }
             
             dialog { width: 95%; }
-            .modal-wrapper { grid-template-columns: 1fr; height: 80vh; overflow-y: auto; }
+            .modal-wrapper { grid-template-columns: 1fr; height: 85vh; overflow-y: auto; }
             .modal-left { height: 250px; border-right: none; border-bottom: 1px solid var(--border-color); }
-            .modal-right { overflow-y: visible; }
-            .compatibility-grid { grid-template-columns: repeat(2, 1fr); }
+            .modal-right { padding: 1.5rem; overflow-y: visible; }
+            .specs-grid { grid-template-columns: 1fr; }
         }
 
         /* Scrollbars */
@@ -508,7 +514,12 @@
 
                 <div class="modal-sub-section">
                     <h4>AVATAR COMPATIBILITY</h4>
-                    <div class="compatibility-grid" id="modal-compat-grid"></div>
+                    <div class="compat-chips" id="modal-compat-grid"></div>
+                </div>
+
+                <div class="modal-sub-section">
+                    <h4>ASSET SPECIFICATIONS</h4>
+                    <div class="specs-grid" id="modal-specs-grid"></div>
                 </div>
 
                 <div class="modal-sub-section">
@@ -922,10 +933,50 @@
             document.getElementById('modal-booth-link').href = sourceUrl;
             document.getElementById('modal-desc').textContent = description;
 
-            const tgts = new Set((d.targets || d.compatible_avatars || []).map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase()));
-            document.getElementById('modal-compat-grid').innerHTML = metaAvatars.map(av => 
-                `<div class="compat-item ${tgts.has(av.code.toLowerCase()) || tgts.has(av.name.toLowerCase()) ? 'supported' : ''}">${av.name}</div>`
-            ).join('');
+            // Redesigned compatibility list: display ONLY matching/supported avatars
+            const rawTargets = d.targets || d.compatible_avatars || [];
+            const targetChips = rawTargets.map(t => {
+                const name = typeof t === 'string' ? t : (t.name || t.code);
+                return `<div class="compat-chip">${name}</div>`;
+            }).join('');
+            
+            document.getElementById('modal-compat-grid').innerHTML = targetChips || `<div class="compat-chip generic">汎用アセット（特定の対象アバターなし）</div>`;
+
+            // Dynamic Specification Section
+            const tags = new Set((d.tags || []).map(t => t.toLowerCase()));
+            const files = d.files || [];
+            const fileExtensions = [...new Set(files.map(f => {
+                const ext = f.filename.split('.').pop().toLowerCase();
+                return ext;
+            }).filter(ext => ['unitypackage', 'fbx', 'zip', 'png', 'psd'].includes(ext)))];
+
+            const specs = [];
+            
+            // Spec 1: File Assets Included
+            if (fileExtensions.length > 0) {
+                specs.push({ label: 'Included Formats', val: fileExtensions.map(e => e.toUpperCase()).join(', ') });
+            } else {
+                specs.push({ label: 'Included Formats', val: 'UnityPackage / FBX (推定)' });
+            }
+
+            // Spec 2: PhysBone Compatibility
+            const hasPB = tags.has('physbone') || tags.has('pb対応') || tags.has('pb') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('PhysBone'));
+            specs.push({ label: 'PhysBone Support', val: hasPB ? '✓ 設定済み' : '✗ 未設定 / 不明' });
+
+            // Spec 3: Modular Avatar Compatibility
+            const hasMA = tags.has('modularavatar') || tags.has('ma対応') || tags.has('ma') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('ModularAvatar'));
+            specs.push({ label: 'Modular Avatar', val: hasMA ? '✓ 対応 (ワンクリック着せ替え)' : '✗ 非対応 / 手動導入' });
+
+            // Spec 4: Quest / Standalone VR support
+            const hasQuest = tags.has('questcompatible') || tags.has('quest対応') || tags.has('android') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('QuestCompatible'));
+            specs.push({ label: 'Quest Compatible', val: hasQuest ? '✓ 対応 (Fallback / Lite)' : '✗ PC専用' });
+
+            document.getElementById('modal-specs-grid').innerHTML = specs.map(s => `
+                <div class="spec-item">
+                    <span class="spec-label">${s.label}</span>
+                    <span class="spec-val">${s.val}</span>
+                </div>
+            `).join('');
 
             const sim = (d.similar_items||[]).slice(0, 5);
             document.getElementById('modal-similar-grid').innerHTML = sim.length ? sim.map(sid => {
