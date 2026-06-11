@@ -30,6 +30,38 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "outfit_type": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "appearance": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "color": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "accessory": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "body_type": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "feature": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "platform": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "season": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "has_dynamic_bone": { "type": "boolean" },
     "quest_compatible": { "type": "boolean" },
     "author": { "type": "string" },
