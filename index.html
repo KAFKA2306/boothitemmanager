@@ -878,7 +878,22 @@
                 });
             };
             handleTagToggle('feature-selector', 'features');
-            handleTagToggle('color-selector', 'colors');
+
+            // Color-tag is single-select (mutually exclusive)
+            document.getElementById('color-selector').addEventListener('click', e => {
+                const pill = e.target.closest('.color-tag');
+                if (!pill) return;
+                const val = pill.dataset.val;
+                const set = filters.colors;
+                const alreadyHas = set.has(val);
+                set.clear();
+                document.querySelectorAll('.color-tag').forEach(el => el.classList.remove('active'));
+                if (!alreadyHas) {
+                    set.add(val);
+                    pill.classList.add('active');
+                }
+                applyFiltersDeferred();
+            });
 
             // Style-tag is single-select (mutually exclusive)
             document.getElementById('style-selector').addEventListener('click', e => {
