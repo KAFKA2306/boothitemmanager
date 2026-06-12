@@ -828,12 +828,12 @@
         function bindEvents() {
             document.getElementById('search-bar').addEventListener('input', e => {
                 filters.query = e.target.value.toLowerCase().trim();
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             document.getElementById('sort-select').addEventListener('change', e => {
                 filters.sort = e.target.value;
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             document.getElementById('avatar-selector').addEventListener('click', e => {
@@ -841,7 +841,7 @@
                 if (!b) return;
                 filters.avatar = filters.avatar === b.dataset.code ? null : b.dataset.code;
                 document.querySelectorAll('.avatar-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.code === filters.avatar));
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             document.getElementById('category-selector').addEventListener('click', e => {
@@ -849,7 +849,7 @@
                 if (!b) return;
                 filters.cat = b.dataset.cat;
                 document.querySelectorAll('.category-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.cat === filters.cat));
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             document.getElementById('price-selector').addEventListener('click', e => {
@@ -857,7 +857,7 @@
                 if (!b) return;
                 filters.price = b.dataset.price;
                 document.querySelectorAll('.price-preset-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.price === filters.price));
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             const handleTagToggle = (selector, key) => {
@@ -874,7 +874,7 @@
                         filters[key] = (filters[key] === val) ? null : val;
                         document.querySelectorAll(`#${selector} .tag-pill`).forEach(p => p.classList.toggle('active', p.dataset.val === filters[key]));
                     }
-                    applyFilters();
+                    applyFiltersDeferred();
                 });
             };
             handleTagToggle('feature-selector', 'features');
@@ -893,7 +893,7 @@
                     set.add(val);
                     pill.classList.add('active');
                 }
-                applyFilters();
+                applyFiltersDeferred();
             });
 
             document.getElementById('modal-close-btn').addEventListener('click', () => DOM.dialog.close());
@@ -908,6 +908,14 @@
                 const el = document.getElementById(`count-${k === 'gimmick_tool' ? 'gimmick' : k === 'hairstyle' ? 'hair' : k}`);
                 if(el) el.textContent = v.toLocaleString();
             }
+        }
+
+        let filterTimeout = null;
+        function applyFiltersDeferred() {
+            if (filterTimeout) clearTimeout(filterTimeout);
+            filterTimeout = setTimeout(() => {
+                applyFilters();
+            }, 0);
         }
 
         let precomputedItems = [];
@@ -1076,12 +1084,12 @@
         }
 
         // Global removers
-        window.rmAv = () => { filters.avatar = null; document.querySelectorAll('.avatar-btn').forEach(b=>b.classList.remove('active')); applyFilters(); };
-        window.rmCat = () => { filters.cat = 'all'; document.querySelectorAll('.category-btn').forEach(b=>b.classList.toggle('active', b.dataset.cat==='all')); applyFilters(); };
-        window.rmPrice = () => { filters.price = 'all'; document.querySelectorAll('.price-preset-btn').forEach(b=>b.classList.toggle('active', b.dataset.price==='all')); applyFilters(); };
-        window.rmFeat = (v) => { filters.features.delete(v); document.querySelector(`.feature-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
-        window.rmStyle = (v) => { filters.styles.delete(v); document.querySelector(`.style-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
-        window.rmColor = (v) => { filters.colors.delete(v); document.querySelector(`.color-tag[data-val="${v}"]`)?.classList.remove('active'); applyFilters(); };
+        window.rmAv = () => { filters.avatar = null; document.querySelectorAll('.avatar-btn').forEach(b=>b.classList.remove('active')); applyFiltersDeferred(); };
+        window.rmCat = () => { filters.cat = 'all'; document.querySelectorAll('.category-btn').forEach(b=>b.classList.toggle('active', b.dataset.cat==='all')); applyFiltersDeferred(); };
+        window.rmPrice = () => { filters.price = 'all'; document.querySelectorAll('.price-preset-btn').forEach(b=>b.classList.toggle('active', b.dataset.price==='all')); applyFiltersDeferred(); };
+        window.rmFeat = (v) => { filters.features.delete(v); document.querySelector(`.feature-tag[data-val="${v}"]`)?.classList.remove('active'); applyFiltersDeferred(); };
+        window.rmStyle = (v) => { filters.styles.delete(v); document.querySelector(`.style-tag[data-val="${v}"]`)?.classList.remove('active'); applyFiltersDeferred(); };
+        window.rmColor = (v) => { filters.colors.delete(v); document.querySelector(`.color-tag[data-val="${v}"]`)?.classList.remove('active'); applyFiltersDeferred(); };
         window.clearAll = () => {
             filters.avatar = null;
             filters.cat = 'all';
@@ -1094,7 +1102,7 @@
             document.querySelectorAll('.active').forEach(e => e.classList.remove('active'));
             document.querySelector('.category-btn[data-cat="all"]').classList.add('active');
             document.querySelector('.price-preset-btn[data-price="all"]').classList.add('active');
-            applyFilters();
+            applyFiltersDeferred();
         };
 
         window.applyAvatarFilterFromModal = (avatarName) => {
@@ -1104,14 +1112,14 @@
             document.querySelectorAll('.avatar-btn').forEach(b => {
                 b.classList.toggle('active', b.dataset.code === code);
             });
-            applyFilters();
+            applyFiltersDeferred();
             DOM.dialog.close();
         };
 
         window.applyCreatorFilterFromModal = (creator) => {
             filters.query = creator;
             document.getElementById('search-bar').value = creator;
-            applyFilters();
+            applyFiltersDeferred();
             DOM.dialog.close();
         };
 
@@ -1127,7 +1135,7 @@
                 filters.features.add(val);
                 document.querySelector(`.feature-tag[data-val="${val}"]`)?.classList.add('active');
             }
-            applyFilters();
+            applyFiltersDeferred();
             DOM.dialog.close();
         };
 
