@@ -36,6 +36,11 @@ def cleanup_ontology():
         re.I
     )
 
+    PLURAL_BAD_PATTERN = re.compile(
+        r"^(複数|全|多|多数)\s*(アバター|avatar|avatars|想定|人|体|種類|対応|モデル|キャラクター|shop|ショップ)?$",
+        re.I
+    )
+
     # Helper to check if a key should be excluded
     def should_exclude(key):
         norm_key = unicodedata.normalize("NFKC", str(key))
@@ -48,6 +53,8 @@ def cleanup_ontology():
         if re.match(r"^全?\d+$", kl):
             return True
         if BAD_TAG_PATTERN.search(kl):
+            return True
+        if PLURAL_BAD_PATTERN.match(kl):
             return True
         
         # Check if it contains or is contained in any avatar name/alias exactly

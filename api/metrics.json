@@ -3,9 +3,9 @@
   "types": {
     "ANIMATION": 880,
     "AVATAR": 4429,
-    "GIMMICK_TOOL": 3270,
-    "ACCESSORY": 15828,
-    "OUTFIT": 9152,
+    "GIMMICK_TOOL": 3312,
+    "ACCESSORY": 15320,
+    "OUTFIT": 9618,
     "TEXTURE": 3687,
     "HAIRSTYLE": 2279,
     "VROID": 492
@@ -35,5 +35,5 @@
     "Milltina": 162
   },
   "avatar_compatibility_rate": 14.81,
-  "updated_at": "2026-06-13T06:15:12.202625"
+  "updated_at": "2026-06-13T06:31:01.535865"
 }

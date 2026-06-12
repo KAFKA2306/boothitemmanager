@@ -115,8 +115,13 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
         r"(?<![a-zA-Z0-9])([0-9]+)\s*(アバター|avatars|avatar|人|モデル|対応|体|点|種類|色|color|colors|way|着|px|shard|avaters|v|av|men\s*avatars|パターン|種|時間)",
         re.I
     )
+    PLURAL_BAD_PATTERN = re.compile(
+        r"^(複数|全|多|多数)\s*(アバター|avatar|avatars|想定|人|体|種類|対応|モデル|キャラクター|shop|ショップ)?$",
+        re.I
+    )
     has_bad_tag = any(
         BAD_TAG_PATTERN.search(unicodedata.normalize("NFKC", t).lower())
+        or PLURAL_BAD_PATTERN.match(unicodedata.normalize("NFKC", t).lower().strip())
         or unicodedata.normalize("NFKC", t).strip().isdigit()
         for t in tags_raw
     )
