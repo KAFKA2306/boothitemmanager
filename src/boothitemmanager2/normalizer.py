@@ -26,6 +26,24 @@ def _pick_like_count(soup: BeautifulSoup) -> int:
     return 0
 
 
+_LIKES_CACHE = None
+
+def _get_cached_likes(item_id: str) -> int:
+    global _LIKES_CACHE
+    if _LIKES_CACHE is None:
+        _LIKES_CACHE = {}
+        cache_path = "data/raw/likes_cache.json"
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    _LIKES_CACHE = json.load(f)
+            except Exception:
+                pass
+    # item_id is loaded as string or int in JSON, handle both
+    val = _LIKES_CACHE.get(str(item_id)) or _LIKES_CACHE.get(int(item_id))
+    return int(val) if val is not None else 0
+
+
 def _pick_published_at(soup: BeautifulSoup, json_ld: dict[str, Any] | None) -> datetime | None:
     if json_ld and json_ld.get("releaseDate"):
         return datetime.fromisoformat(json_ld["releaseDate"].replace("Z", "+00:00"))
@@ -74,7 +92,7 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     category = infer_category(title, description, tags_raw, targets, aliases)
     tag_set = extract_tag_set(title, description, tags_raw, targets, aliases)
     files = _pick_files(soup)
-    like_count = _pick_like_count(soup)
+    like_count = _get_cached_likes(item_id) or _pick_like_count(soup)
     published_at = _pick_published_at(soup, json_ld)
 
     # Compute provenance data
