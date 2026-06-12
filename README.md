@@ -1,28 +1,28 @@
-# 🌸 BoothList だよぉ！🌸
+# 🌸 BoothItemManager2 だよぉ！🌸
 
-BOOTHの購入アイテムやウィッシュリストを収集・整理し、検索・フィルタリング・可視化できる静的ダッシュボードを自動生成するめっちゃ可愛いツールだよぉ！(⑅•ᴗ•⑅)◜..°♡
+BOOTHの40,000件以上のVRChatアセットを完全に収集・構造化し、爆速で検索・フィルタリングできる次世代の静的ダッシュボードとオントロジー管理システムだよぉ！(⑅•ᴗ•⑅)◜..°♡
 
-[🍬 デモサイト (GitHub Pages)](https://kafka2306.github.io/boothitemmanager/)
+[🍬 デモサイト (Cloudflare Pages)](https://boothitemmanager.pages.dev) / [(GitHub Pages)](https://kafka2306.github.io/boothitemmanager/)
 
 ## ✨ 特長 (Features)
 
-- **多角的なデータ収集**:
-  - `input/` ディレクトリ内のMarkdown/CSV/YAMLファイルからアイテムリストを読み込むよぉ！
-  - Chromeの履歴から自動で抽出する機能もあるの (`src/boothlist/chrome_history.py`)
-  - 商品ページからメタデータ（画像、価格、ショップ名など）を自動スクレイピングしちゃうよ！
-- **高度な正規化**:
-  - 表記ゆれを綺麗に統一するよぉ！
-  - カテゴリを自動でわかりやすく分類・整理するの🍭
-- **高速なダッシュボード**:
-  - インクリメンタルな全文検索でサクサク探せるよ！
-  - カテゴリやタグによるフィルタリングもバッチリ！
-  - 静的HTML出力だから、GitHub Pagesなどで簡単にホスティングできるよぉ✨
+- **Zero-Fat Architecture (脂肪ゼロ設計)**:
+  - 無駄なコードやボイラープレートを極限まで削ぎ落とし、Cloudflare Pagesの厳しいファイル制限（25 MiB）やWorkersのメモリ制限（128 MB）を完全回避するよ！
+  - 重いRDB（Relational Database）を使わず、フロントエンドで直接検索できるように高度に非正規化・シャーディングされたJSON APIを出力する最強の設計だもん！🍭
+- **Evolving Ontology Loop (EOL: 進化するオントロジー)**:
+  - 毎日大量に生まれるBOOTHのタグから、価値のある概念だけを自動で学習・抽出して昇格させるよ！
+  - 数字ベースの低品質タグ（例: "40アバター対応"）は自動で監査（Audit）され、パージ（廃却）される自己浄化システム付きだよぉ✨
+- **Crash-Driven Development (CDD)**:
+  - エラーを隠蔽する `try-catch` を排除し、問題があれば即座にクラッシュさせて根本原因を修正する「例外駆動」で堅牢性を維持してるよ！
+- **次世代の類似アイテムエンジン (Novelty-Aware Similarity)**:
+  - ただ似ているだけじゃなくて、新しい発見（Novelty）ができるように、公開日（新しさ）や別のクリエイターのアイテムを優遇してサジェストするよ！ウィンドウショッピングが捗るねぇ(⑅•ᴗ•⑅)
 
 ## 📦 必要要件 (Requirements)
 
-- Python 3.11+ だもん！
-- [uv](https://github.com/astral-sh/uv)
-- [go-task](https://taskfile.dev/) (推奨だよぉ！)
+- Python 3.12+ だもん！
+- [uv](https://github.com/astral-sh/uv) (高速なパッケージマネージャー)
+- [go-task](https://taskfile.dev/) (タスクランナー)
+- Node.js & Playwright (E2Eテスト用)
 
 ## 🎀 使い方 (Usage)
 
@@ -30,38 +30,37 @@ BOOTHの購入アイテムやウィッシュリストを収集・整理し、検
 依存関係をかわいくインストールしてね！
 ```bash
 uv sync
+playwright install chromium
 ```
 
-### 2. 設定
-[config.yaml](file:///home/kafka/projects/boothitemmanager/config.yaml) をお好みで編集して、入力データの場所や除外URLなどを設定してねぇ！
-
-### 3. ビルド
-データを収集してダッシュボードを生成するよ！生成物は `dist/` ディレクトリに出力されるの(⑅•ᴗ•⑅)◜..°♡
+### 2. バルクパイプラインの実行
+クローラーが取得した生のデータ（`data/raw/index.ndjson`）から、グラフ構造、オントロジー、そして検索用APIまで一気に構築するよぉ！
 ```bash
-task build
+python3 scripts/run_bulk_pipeline.py
+```
+
+### 3. デプロイ用テスト
+ブラウザを使ったE2Eテストを実行して、ダッシュボードが壊れていないか確認するよ！
+```bash
+pytest tests/e2e/
 ```
 
 ### 4. プレビュー
-生成されたダッシュボードをローカルサーバーで確認するよぉ！
+生成されたダッシュボード（`dist/`）をローカルサーバーで確認するよぉ！
 ```bash
 task serve
 ```
 ブラウザで `http://localhost:8080` にアクセスしてね！🍭
 
-## 🛠️ 開発コマンド (Developer Commands)
-[Taskfile.yml](file:///home/kafka/projects/boothitemmanager/Taskfile.yml) に定義された開発用コマンドが使えるよぉ！
-- **Lint**: `task lint` (Ruffによる静的解析をするの)
-- **Format**: `task format` (Ruffによるフォーマットだよ)
-- **Clean**: `task clean` (ビルド成果物をすっきり削除するよ)
-- **Clean Cache**: `task clean-cache` (メタデータキャッシュを削除するよ)
-
 ## 📁 プロジェクト構成 (Directory Structure)
-- `src/boothlist/`: ソースコードが入っているよぉ！
-  - `main.py`: アプリケーションのエントリーポイント
-  - `input_loader.py`: 各種ソースからのデータ読み込み
-  - `scrape.py`: Webスクレイピングとキャッシュ制御
-  - `normalize.py`: データのクレンジングと正規化ロジック
-  - `export.py`: HTMLダッシュボードおよびJSONデータの生成
-  - `chrome_history.py`: Chrome履歴データの解析
-- `dist/`: 生成された静的サイト（公開用）だよ✨
-- `input/`: 入力データ（Markdown, CSVなど）を置く場所だよぉ！
+- `src/boothitemmanager2/`: 進化したコアシステムが入っているよぉ！
+  - `core.py`: システムの核となるテストブロック（TestBlock）定義
+  - `bridge.py`: NDJSONをパースするデータ変換層
+  - `normalizer.py`: タグの抽出・分類・オントロジー正規化
+  - `similarity_engine.py`: 新しさを考慮したアイテム類似度計算
+  - `search_builder.py`: 高速検索用のシャーディングインデックス生成
+  - `api_generator.py`: Cloudflare Pages対応の分割API生成
+  - `audit.py`: 厳格な品質監査ルール
+- `ontology/`: システムが学習したタグやスタイルの知識ベース（`tags.yaml`, `styles.yaml`）
+- `docs/`: アーキテクチャの意思決定記録（ADR）や仕様書がまとまっているよ！
+- `api/` / `dist/`: 生成された静的APIとダッシュボード（公開用）だよ✨
