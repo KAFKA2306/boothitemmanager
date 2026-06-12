@@ -329,6 +329,9 @@
         .asset-shop { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .asset-targets { display: flex; flex-wrap: wrap; gap: 4px; margin-top: auto; height: 20px; overflow: hidden; }
         .target-tag { font-size: 0.65rem; background: rgba(255,255,255,0.05); border-radius: 4px; padding: 2px 6px; color: var(--text-secondary); }
+        .like-tag { font-size: 0.65rem; background: rgba(255,0,122,0.15); border: 1px solid rgba(255,0,122,0.3); border-radius: 12px; padding: 2px 8px; color: #ff007a; font-weight: 700; display: inline-flex; align-items: center; gap: 2px; }
+        .modal-likes-badge { font-size: 0.75rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--accent-pink); background: rgba(255,0,122,0.15); color: #ff007a; display: inline-flex; align-items: center; gap: 4px; }
+
 
         /* Splash Screen */
         .splash-screen { position: fixed; inset: 0; background: #030305; display: grid; place-content: center; z-index: 9999; transition: opacity 0.5s ease; }
@@ -542,7 +545,10 @@
                 <div style="display:flex; flex-direction:column; gap:8px;">
                     <div class="modal-header-top">
                         <span id="modal-cat-badge" class="modal-category">CATEGORY</span>
-                        <span id="modal-price" class="modal-price">¥0</span>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span id="modal-likes" class="modal-likes-badge" style="display: none;">❤️ 0</span>
+                            <span id="modal-price" class="modal-price">¥0</span>
+                        </div>
                     </div>
                     <h2 id="modal-title" class="modal-title">Item Title</h2>
                     <div id="modal-creator" class="modal-creator">@shop</div>
@@ -990,7 +996,7 @@
                             <div class="asset-category ${cCls}">${i.category}</div>
                             <div class="asset-title" title="${i.title}">${i.title}</div>
                             <div class="asset-shop">@${creator}</div>
-                            <div class="asset-targets">${targets.slice(0,3).map(t=>`<span class="target-tag">${typeof t === 'string' ? t : (t.name || t.code)}</span>`).join('')}</div>
+                            <div class="asset-targets"><span class="like-tag">❤️ ${(i.like_count||0).toLocaleString()}</span>${targets.slice(0,3).map(t=>`<span class="target-tag">${typeof t === 'string' ? t : (t.name || t.code)}</span>`).join('')}</div>
                         </div>
                     </div>`;
             }).join('');
@@ -1088,6 +1094,13 @@
             bdg.textContent = d.category; bdg.className = `modal-category ${getCatClass(d.category)}`;
             
             document.getElementById('modal-price').textContent = d.price === 0 ? 'Free' : `¥${(d.price||0).toLocaleString()}`;
+            const mLikes = document.getElementById('modal-likes');
+            if (d.like_count && d.like_count > 0) {
+                mLikes.textContent = `❤️ ${d.like_count.toLocaleString()}`;
+                mLikes.style.display = 'inline-flex';
+            } else {
+                mLikes.style.display = 'none';
+            }
             document.getElementById('modal-booth-link').href = sourceUrl;
 
             // Redesigned compatibility list: display ONLY matching/supported avatars
@@ -1156,7 +1169,7 @@
             }
 
             // Schema-defined metadata fields from Item
-            if (d.like_count !== undefined && d.like_count !== null && d.like_count > 0) specs.push({ label: 'Likes', val: d.like_count.toLocaleString() });
+
             if (d.published_at) specs.push({ label: 'Published At', val: new Date(d.published_at).toLocaleDateString('ja-JP') });
             if (d.creator_id) specs.push({ label: 'Creator ID', val: d.creator_id });
             if (d.source) specs.push({ label: 'Source Platform', val: d.source.toUpperCase() });
