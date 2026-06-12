@@ -1129,7 +1129,7 @@
             }
 
             // Schema-defined metadata fields from Item
-            if (d.like_count !== undefined && d.like_count !== null) specs.push({ label: 'Likes', val: d.like_count.toLocaleString() });
+            if (d.like_count !== undefined && d.like_count !== null && d.like_count > 0) specs.push({ label: 'Likes', val: d.like_count.toLocaleString() });
             if (d.published_at) specs.push({ label: 'Published At', val: new Date(d.published_at).toLocaleDateString('ja-JP') });
             if (d.creator_id) specs.push({ label: 'Creator ID', val: d.creator_id });
             if (d.source) specs.push({ label: 'Source Platform', val: d.source.toUpperCase() });
