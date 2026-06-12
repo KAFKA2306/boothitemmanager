@@ -1289,7 +1289,7 @@
             // Schema-defined metadata fields from Item
 
             if (d.published_at) specs.push({ label: 'Published At', val: new Date(d.published_at).toLocaleDateString('ja-JP') });
-            if (d.creator_id) specs.push({ label: 'Creator ID', val: d.creator_id });
+            if (d.creator_id) specs.push({ label: 'Creator ID', val: `<span class="modal-link-tag" onclick="applyCreatorFilterFromModal('${d.creator_id}')">${d.creator_id}</span>` });
             if (d.source) specs.push({ label: 'Source Platform', val: d.source.toUpperCase() });
             if (d.audit_status) specs.push({ label: 'Audit Status', val: d.audit_status });
 
