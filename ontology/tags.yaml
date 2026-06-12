@@ -1361,21 +1361,6 @@ Styles:
     - yukata
     - 浴衣
 accessories:
-  100円:
-    aliases:
-    - 100円
-  '12':
-    aliases:
-    - '12'
-  '14':
-    aliases:
-    - '14'
-  15パターン以上:
-    aliases:
-    - 15パターン以上
-  '19':
-    aliases:
-    - '19'
   2025y.Collection:
     aliases:
     - 2025y.Collection
@@ -1383,13 +1368,6 @@ accessories:
   2周年記念セール - 6月15日まで:
     aliases:
     - 2周年記念セール - 6月15日まで
-  2種:
-    aliases:
-    - 2種
-  3 Men Avatars:
-    aliases:
-    - 3 Men Avatars
-    - 3 men avatars
   3.0 Update!:
     aliases:
     - 3.0 Update!
@@ -1466,29 +1444,9 @@ accessories:
     aliases:
     - 3D髪型
     - 3d髪型
-  4体:
-    aliases:
-    - 4体
-  50% Sale:
-    aliases:
-    - 50% Sale
-    - 50% sale
-  5体:
-    aliases:
-    - 5体
-  6 アバター:
-    aliases:
-    - 6 アバター
-  7color:
-    aliases:
-    - 7color
   7月まで販売停止:
     aliases:
     - 7月まで販売停止
-  8Avaters:
-    aliases:
-    - 8Avaters
-    - 8avaters
   AFK:
     aliases:
     - AFK
@@ -2864,34 +2822,6 @@ accessories:
     aliases:
     - VRC想定
     - vrc想定
-  VRC想定/17アバター:
-    aliases:
-    - VRC想定/17アバター
-    - vrc想定/17アバター
-  VRC想定/18アバター:
-    aliases:
-    - VRC想定/18アバター
-    - vrc想定/18アバター
-  VRC想定/19アバター:
-    aliases:
-    - VRC想定/19アバター
-    - vrc想定/19アバター
-  VRC想定/20アバター:
-    aliases:
-    - VRC想定/20アバター
-    - vrc想定/20アバター
-  VRC想定/21アバター:
-    aliases:
-    - VRC想定/21アバター
-    - vrc想定/21アバター
-  VRC想定/22アバター:
-    aliases:
-    - VRC想定/22アバター
-    - vrc想定/22アバター
-  VRC想定/23アバター:
-    aliases:
-    - VRC想定/23アバター
-    - vrc想定/23アバター
   VRC想定3Dアバター:
     aliases:
     - VRC想定3Dアバター
@@ -3382,9 +3312,6 @@ accessories:
   フォシュニア専:
     aliases:
     - フォシュニア専
-  フォロワー100人記念:
-    aliases:
-    - フォロワー100人記念
   フリーシェイプキー付:
     aliases:
     - フリーシェイプキー付
@@ -3511,15 +3438,6 @@ accessories:
   光る！:
     aliases:
     - 光る！
-  全25:
-    aliases:
-    - 全25
-  全6種:
-    aliases:
-    - 全6種
-  全6色:
-    aliases:
-    - 全6色
   全アバター:
     aliases:
     - 全アバター
@@ -3858,25 +3776,6 @@ accessories:
   龍のヨルちゃん専:
     aliases:
     - 龍のヨルちゃん専
-  ＋Head専:
-    aliases:
-    - ＋Head専
-    - ＋head専
-  １０アバター:
-    aliases:
-    - １０アバター
-  １５アバター:
-    aliases:
-    - １５アバター
-  １７アバター:
-    aliases:
-    - １７アバター
-  ２アバター:
-    aliases:
-    - ２アバター
-  ２時間限定販売:
-    aliases:
-    - ２時間限定販売
   ３Dモデルアクセサリ:
     aliases:
     - ３Dモデルアクセサリ
@@ -3889,33 +3788,6 @@ accessories:
     aliases:
     - ３D小物
     - ３d小物
-  ３アバター:
-    aliases:
-    - ３アバター
-  ４アバター:
-    aliases:
-    - ４アバター
-  ５アバター:
-    aliases:
-    - ５アバター
-  ６アバター:
-    aliases:
-    - ６アバター
-  ７アバター:
-    aliases:
-    - ７アバター
-  ７体:
-    aliases:
-    - ７体
-  ８アバター:
-    aliases:
-    - ８アバター
-  ９アバター:
-    aliases:
-    - ９アバター
-  ９体:
-    aliases:
-    - ９体
   ＰＢ:
     aliases:
     - ＰＢ
@@ -3930,9 +3802,6 @@ accessories:
   𝐀𝐎𝐏𝐎𝐍:
     aliases:
     - 𝐀𝐎𝐏𝐎𝐍
-  𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬:
-    aliases:
-    - 𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬
   🎁無料:
     aliases:
     - 🎁無料
