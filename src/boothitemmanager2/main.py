@@ -84,8 +84,40 @@ def run_pipeline():
     # but let's use the orchestrator for the core data files as well.
     generate_api(items, graph_data, trace_id)
     
+    def _serialize(obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        if hasattr(obj, "value"):
+            return obj.value
+        return str(obj)
+
+    def _item_to_dict(item) -> dict:
+        return {
+            "item_id": item.item_id,
+            "source_url": item.source_url,
+            "title": item.title,
+            "description": item.description,
+            "thumbnail_url": item.thumbnail_url,
+            "creator_id": item.creator_id,
+            "creator_name": item.creator_name,
+            "published_at": _serialize(item.published_at) if item.published_at else None,
+            "tags_raw": item.tags_raw,
+            "tag_set": {k: v for (k, v) in item.tag_set.__dict__.items() if isinstance(v, list)},
+            "category": item.category.value if hasattr(item.category, "value") else str(item.category),
+            "like_count": item.like_count,
+            "price": item.price,
+            "targets": [{"code": t.code, "name": t.name} for t in item.targets],
+            "similar_items": item.similar_items,
+            "user_state": item.user_state,
+            "audit_status": item.audit_status,
+            "trace_log": item.trace_log,
+            "raw_html_snippet": item.raw_html_snippet,
+        }
+
     # Prepare updates for Structured and Graph layers
-    orchestrator.prepare("data/structured/catalog.json", [i.__dict__ for i in items])
+    from typing import Any
+    serialized_items = [_item_to_dict(i) for i in items]
+    orchestrator.prepare("data/structured/catalog.json", serialized_items)
     orchestrator.prepare("data/graph/nodes.json", graph_data["nodes"])
     orchestrator.prepare("data/graph/edges.json", graph_data["edges"])
     

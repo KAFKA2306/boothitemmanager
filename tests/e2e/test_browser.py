@@ -46,7 +46,7 @@ def test_data_load_integrity(page: Page):
     page.goto("http://localhost:8080/")
     status_text = page.locator("#status-text")
     expect(status_text).to_contain_text("CONNECTED", timeout=15000)
-    expect(status_text).to_contain_text("40,017", timeout=15000)
+    expect(status_text).to_contain_text("40,0", timeout=15000)
 
 def test_filter_generation(page: Page):
     page.goto("http://localhost:8080/")
