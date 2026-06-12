@@ -3,12 +3,12 @@
   "types": {
     "ANIMATION": 880,
     "AVATAR": 4429,
-    "ACCESSORY": 27808,
+    "ACCESSORY": 27805,
     "TEXTURE": 3687,
     "HAIRSTYLE": 2279,
-    "GIMMICK_TOOL": 348,
+    "GIMMICK_TOOL": 350,
     "VROID": 492,
-    "OUTFIT": 94
+    "OUTFIT": 95
   },
   "top_shops": {
     "woodapple": 246,
@@ -35,5 +35,5 @@
     "Milltina": 162
   },
   "avatar_compatibility_rate": 14.81,
-  "updated_at": "2026-06-12T22:59:04.207577"
+  "updated_at": "2026-06-13T01:09:58.089771"
 }
