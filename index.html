@@ -8,6 +8,7 @@
     <meta name="description" content="Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
     <script src="api/metadata.js" defer></script>
     <script src="api/catalog_summary_part1.js" defer></script>
@@ -191,16 +192,39 @@
             text-align: left;
         }
         
-        .avatar-btn { padding: 8px 4px; text-align: center; font-weight: 600; }
+        .avatar-btn {
+            padding: 8px 4px;
+            min-height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: 600;
+        }
         .avatar-btn:hover { border-color: var(--accent-pink); color: #fff; background: rgba(255,0,122,0.05); }
         .avatar-btn.active { background: var(--pink-glow); border-color: var(--accent-pink); color: #fff; box-shadow: 0 0 10px var(--pink-glow); }
 
-        .category-btn { display: flex; justify-content: space-between; padding: 8px 12px; font-weight: 600; }
+        .category-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            min-height: 40px;
+            font-weight: 600;
+        }
         .category-btn:hover { background: rgba(255,255,255,0.03); color: #fff; }
         .category-btn.active { background: rgba(0,240,255,0.05); border-color: rgba(0,240,255,0.15); color: var(--accent); }
         .category-count { font-size: 0.75rem; color: var(--text-muted); background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 10px; }
 
-        .tag-pill { padding: 5px 10px; border-radius: 6px; }
+        .tag-pill {
+            padding: 6px 12px;
+            border-radius: 6px;
+            min-height: 36px;
+            min-width: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
         .tag-pill:hover { border-color: var(--text-secondary); color: #fff; }
         .tag-pill.active { background: var(--accent-glow); border-color: var(--accent); color: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
 
@@ -345,8 +369,7 @@
         .modal-price { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 900; color: var(--accent); }
         .modal-title { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; line-height: 1.3; }
         .modal-creator { font-size: 0.85rem; color: var(--text-secondary); }
-        .modal-description { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; max-height: 120px; overflow-y: auto; white-space: pre-wrap; }
-        
+
         .modal-action-btn { display: flex; justify-content: center; gap: 10px; background: var(--accent); color: #030305; border-radius: 12px; padding: 12px 24px; font-weight: 800; cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
         .modal-action-btn:hover { transform: translateY(-2px); box-shadow: 0 0 25px var(--accent-glow); filter: brightness(1.1); }
 
@@ -359,8 +382,16 @@
 
         /* Specs section styling */
         .specs-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-        .spec-item { background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 4px; }
-        .spec-label { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; }
+        .spec-item {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .spec-label { font-size: 0.65rem; color: #9a9ab0; text-transform: uppercase; }
         .spec-val { font-size: 0.8rem; font-weight: 700; color: var(--text-primary); }
 
         .similar-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
@@ -418,10 +449,10 @@
             <div class="logo-icon"></div>
             <div class="logo-text">BoothItemManager2</div>
         </a>
-        <div class="search-container">
-            <input type="text" id="search-bar" class="search-input" placeholder="アイテム、ショップ、アバターを検索..." aria-label="検索">
+        <form class="search-container" role="search" action="javascript:void(0)">
+            <input type="search" id="search-bar" class="search-input" placeholder="アイテム、ショップ、アバターを検索..." aria-label="検索" enterkeyhint="search">
             <span class="search-icon" aria-hidden="true">🔍</span>
-        </div>
+        </form>
         <div class="db-status">
             <div id="status-dot" class="status-dot"></div>
             <span id="status-text">CONNECTING</span>
@@ -516,8 +547,6 @@
                     <h2 id="modal-title" class="modal-title">Item Title</h2>
                     <div id="modal-creator" class="modal-creator">@shop</div>
                 </div>
-
-                <div id="modal-desc" class="modal-description">Loading...</div>
 
                 <a id="modal-booth-link" class="modal-action-btn" href="" target="_blank">
                     <span>VIEW ON BOOTH</span> 🔗
@@ -942,18 +971,19 @@
             const chunk = filtered.slice(0, displayedCount);
             if (!chunk.length) { DOM.grid.innerHTML = `<div style="grid-column:1/-1; padding:4rem; text-align:center; color:var(--text-muted);">NO ASSETS LOCATED</div>`; return; }
             
-            DOM.grid.innerHTML = chunk.map(i => {
+            DOM.grid.innerHTML = chunk.map((i, idx) => {
                 const cCls = getCatClass(i.category);
                 const pf = i.price === 0 ? 'Free' : `¥${(i.price||0).toLocaleString()}`;
                 const thumb = i.thumbnail || i.thumbnail_url;
                 const itemId = i.id || i.item_id;
                 const creator = i.author || i.creator_name;
                 const targets = i.compatible_avatars || i.targets || [];
+                const loadingAttr = idx < 8 ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
                 
                 return `
                     <div class="asset-card" data-id="${itemId}">
                         <div class="asset-thumb-container">
-                            <img src="${thumb}" class="asset-thumb" loading="lazy" alt="Thumb" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/300x300.png?text=Image+Unavailable'">
+                            <img src="${thumb}" class="asset-thumb" ${loadingAttr} alt="Thumb" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/300x300.png?text=Image+Unavailable'">
                             <div class="asset-price">${pf}</div>
                         </div>
                         <div class="asset-info">
@@ -1047,8 +1077,6 @@
             const title = d.title;
             const creator = d.creator_name || d.author;
             const sourceUrl = d.source_url || d.booth_url || `https://booth.pm/ja/items/${d.item_id || d.id}`;
-            const description = d.description || 'No description.';
-            const itemId = d.item_id || d.id;
 
             document.getElementById('modal-img').src = thumb;
             document.getElementById('modal-img').referrerPolicy = "no-referrer";
@@ -1061,7 +1089,6 @@
             
             document.getElementById('modal-price').textContent = d.price === 0 ? 'Free' : `¥${(d.price||0).toLocaleString()}`;
             document.getElementById('modal-booth-link').href = sourceUrl;
-            document.getElementById('modal-desc').textContent = description;
 
             // Redesigned compatibility list: display ONLY matching/supported avatars
             const rawTargets = d.targets || d.compatible_avatars || [];
