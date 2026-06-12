@@ -404,12 +404,175 @@ def promote_tags_phase():
     print(f"✅ [EOL:PROMOTION_ENGINE] Completed promotion. Promoted tags: {promoted_tags}, Promoted styles: {promoted_styles}")
 
 
+def evolution_phase() -> None:
+    pass
+
+
+def propagation_phase() -> None:
+    pass
+
+
+def pruning_pipeline_phase() -> None:
+    print("🧹 [EOL:PRUNING_PIPELINE] Running Tag Deprecation & Alias Merging...")
+    catalog = load_json(CATALOG_PATH)
+    
+    import difflib
+    from datetime import datetime, timezone, timedelta
+    
+    now = datetime.now(timezone.utc)
+    limit_date = now - timedelta(days=90)
+    
+    active_tags: set[str] = set()
+    for item in catalog:
+        pub_str = item.get("published_at")
+        if not pub_str:
+            continue
+        try:
+            clean_str = pub_str.replace("Z", "+00:00")
+            dt = datetime.fromisoformat(clean_str)
+        except Exception:
+            continue
+            
+        dt_utc = dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        if dt_utc >= limit_date:
+            tag_set = item.get("tag_set") or {}
+            for t_list in tag_set.values():
+                if isinstance(t_list, list):
+                    for t in t_list:
+                        if isinstance(t, str) and t:
+                            active_tags.add(t.lower())
+            for t in item.get("tags_raw") or []:
+                if isinstance(t, str) and t:
+                    active_tags.add(t.lower())
+                    
+    # Fallback to general catalog presence if no active tags found via date window
+    if len(active_tags) < 5:
+        print("⚠️ [EOL:PRUNING_PIPELINE] Too few active tags found via date window. Falling back to entire catalog presence.")
+        for item in catalog:
+            tag_set = item.get("tag_set") or {}
+            for t_list in tag_set.values():
+                if isinstance(t_list, list):
+                    for t in t_list:
+                        if isinstance(t, str) and t:
+                            active_tags.add(t.lower())
+            for t in item.get("tags_raw") or []:
+                if isinstance(t, str) and t:
+                    active_tags.add(t.lower())
+    tags_data = load_yaml(TAGS_PATH)
+    styles_data = load_yaml(STYLES_PATH)
+    
+    active_ontology_tags: set[str] = set()
+    for section_name, section_dict in tags_data.items():
+        if not isinstance(section_dict, dict):
+            continue
+        for tag_key, tag_info in section_dict.items():
+            if not isinstance(tag_info, dict):
+                continue
+            aliases = tag_info.get("aliases") or []
+            if tag_key.lower() in active_tags or any(a.lower() in active_tags for a in aliases):
+                active_ontology_tags.add(tag_key)
+                
+    style_dict = styles_data.get("styles") or {}
+    for style_key, aliases in style_dict.items():
+        if style_key.lower() in active_tags or any(a.lower() in active_tags for a in aliases):
+            active_ontology_tags.add(style_key)
+            
+    tags_modified = False
+    for section_name, section_dict in list(tags_data.items()):
+        if not isinstance(section_dict, dict):
+            continue
+        for tag_key, tag_info in list(section_dict.items()):
+            if not isinstance(tag_info, dict):
+                continue
+            aliases = tag_info.get("aliases") or []
+            is_active = tag_key.lower() in active_tags or any(a.lower() in active_tags for a in aliases)
+            if not is_active:
+                best_match = None
+                best_ratio = 0.0
+                for active in active_ontology_tags:
+                    ratio = difflib.SequenceMatcher(None, tag_key.lower(), active.lower()).ratio()
+                    if ratio >= 0.85 and ratio > best_ratio:
+                        best_ratio = ratio
+                        best_match = active
+                        
+                if best_match:
+                    merged = False
+                    for s_name, s_dict in tags_data.items():
+                        if isinstance(s_dict, dict) and best_match in s_dict:
+                            s_dict[best_match].setdefault("aliases", [])
+                            for a in [tag_key] + aliases:
+                                if a not in s_dict[best_match]["aliases"]:
+                                    s_dict[best_match]["aliases"].append(a)
+                            merged = True
+                            break
+                    if not merged and best_match in style_dict:
+                        for a in [tag_key] + aliases:
+                            if a not in style_dict[best_match]:
+                                style_dict[best_match].append(a)
+                        merged = True
+                    
+                    del section_dict[tag_key]
+                    log_evolution("tag_merged", f"Merged inactive tag '{tag_key}' into active tag '{best_match}'")
+                    tags_modified = True
+                else:
+                    tag_info.setdefault("metadata", {})["status"] = "deprecated"
+                    log_evolution("tag_deprecated", f"Deprecated inactive tag '{tag_key}'")
+                    tags_modified = True
+
+    styles_modified = False
+    for style_key, aliases in list(style_dict.items()):
+        is_active = style_key.lower() in active_tags or any(a.lower() in active_tags for a in aliases)
+        if not is_active:
+            best_match = None
+            best_ratio = 0.0
+            for active in active_ontology_tags:
+                ratio = difflib.SequenceMatcher(None, style_key.lower(), active.lower()).ratio()
+                if ratio >= 0.85 and ratio > best_ratio:
+                    best_ratio = ratio
+                    best_match = active
+                    
+            if best_match:
+                merged = False
+                if best_match in style_dict:
+                    for a in [style_key] + aliases:
+                        if a not in style_dict[best_match]:
+                            style_dict[best_match].append(a)
+                    merged = True
+                else:
+                    for s_name, s_dict in tags_data.items():
+                        if isinstance(s_dict, dict) and best_match in s_dict:
+                            s_dict[best_match].setdefault("aliases", [])
+                            for a in [style_key] + aliases:
+                                if a not in s_dict[best_match]["aliases"]:
+                                    s_dict[best_match]["aliases"].append(a)
+                            merged = True
+                            break
+                            
+                del style_dict[style_key]
+                log_evolution("style_merged", f"Merged inactive style '{style_key}' into active '{best_match}'")
+                styles_modified = True
+            else:
+                styles_data.setdefault("style_metadata", {}).setdefault(style_key, {})["status"] = "deprecated"
+                log_evolution("style_deprecated", f"Deprecated inactive style '{style_key}'")
+                styles_modified = True
+
+    if tags_modified:
+        with open(TAGS_PATH, "w", encoding="utf-8") as f:
+            yaml.safe_dump(tags_data, f, allow_unicode=True, default_flow_style=False)
+    if styles_modified:
+        with open(STYLES_PATH, "w", encoding="utf-8") as f:
+            yaml.safe_dump(styles_data, f, allow_unicode=True, default_flow_style=False)
+            
+    print("✅ [EOL:PRUNING_PIPELINE] Pruning completed.")
+
+
 def main():
     print(json.dumps({"event": "pipeline_start", "description": "Initializing Autonomous Evolution Loop (Zero-Trust Mode)"}))
     try:
         discovery_phase()
         concept_invention_phase()
         promote_tags_phase()
+        pruning_pipeline_phase()
         validation_phase()
         evolution_phase()
         propagation_phase()

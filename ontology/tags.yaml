@@ -22,6 +22,13 @@ Colors: &id082
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  BlueGuaShop:
+    aliases:
+    - BlueGuaShop
+    - blueguashop
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Bordeaux:
     aliases:
     - Bordeaux
@@ -34,6 +41,13 @@ Colors: &id082
     - 茶
     - ブラウン
     - Brown
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  CENSORED:
+    aliases:
+    - CENSORED
+    - censored
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -205,6 +219,20 @@ Colors: &id082
     - yellow
     - 黄
     - イエロー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  灰島専:
+    aliases:
+    - 灰島専
+    - 灰島専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  赤夜式:
+    aliases:
+    - 赤夜式
+    - 赤夜式
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -1897,9 +1925,1381 @@ Styles:
       faceemo_version: any
       udonsharp_compat: true
 accessories:
+  10 avatars:
+    aliases:
+    - 10 avatars
+    - 10 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  100アバター以上:
+    aliases:
+    - 100アバター以上
+    - 100アバター以上
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  100円:
+    aliases:
+    - 100円
+    - 100円
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10Avatar:
+    aliases:
+    - 10Avatar
+    - 10avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10Avatars:
+    aliases:
+    - 10Avatars
+    - 10avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10Avaters:
+    aliases:
+    - 10Avaters
+    - 10avaters
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10アバター:
+    aliases:
+    - 10アバター
+    - 10アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10人:
+    aliases:
+    - 10人
+    - 10人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10体:
+    aliases:
+    - 10体
+    - 10体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  10点:
+    aliases:
+    - 10点
+    - 10点
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11 Avatar:
+    aliases:
+    - 11 Avatar
+    - 11 avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11 Avatars:
+    aliases:
+    - 11 Avatars
+    - 11 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11Avatar:
+    aliases:
+    - 11Avatar
+    - 11avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11Avatars:
+    aliases:
+    - 11Avatars
+    - 11avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11アバター:
+    aliases:
+    - 11アバター
+    - 11アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11モデル:
+    aliases:
+    - 11モデル
+    - 11モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  11体:
+    aliases:
+    - 11体
+    - 11体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  '12':
+    aliases:
+    - '12'
+    - '12'
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12 Avatars:
+    aliases:
+    - 12 Avatars
+    - 12 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12Avatar:
+    aliases:
+    - 12Avatar
+    - 12avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12Avatars:
+    aliases:
+    - 12Avatars
+    - 12avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12アバター:
+    aliases:
+    - 12アバター
+    - 12アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12モデル:
+    aliases:
+    - 12モデル
+    - 12モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  12体:
+    aliases:
+    - 12体
+    - 12体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  '13':
+    aliases:
+    - '13'
+    - '13'
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13 Avatars:
+    aliases:
+    - 13 Avatars
+    - 13 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13-Avatars:
+    aliases:
+    - 13-Avatars
+    - 13-avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13Avatar:
+    aliases:
+    - 13Avatar
+    - 13avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13アバター:
+    aliases:
+    - 13アバター
+    - 13アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13モデル:
+    aliases:
+    - 13モデル
+    - 13モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13人:
+    aliases:
+    - 13人
+    - 13人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  13体:
+    aliases:
+    - 13体
+    - 13体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  '14':
+    aliases:
+    - '14'
+    - '14'
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  14 Avatar:
+    aliases:
+    - 14 Avatar
+    - 14 avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  14アバター:
+    aliases:
+    - 14アバター
+    - 14アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  14アバター対応！/ギミック付き！:
+    aliases:
+    - 14アバター対応！/ギミック付き！
+    - 14アバター対応！/ギミック付き！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  14体:
+    aliases:
+    - 14体
+    - 14体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15 Avatars:
+    aliases:
+    - 15 Avatars
+    - 15 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15Avatar:
+    aliases:
+    - 15Avatar
+    - 15avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15Avatars:
+    aliases:
+    - 15Avatars
+    - 15avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15アバター:
+    aliases:
+    - 15アバター
+    - 15アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15アバター対応 VRC Hair:
+    aliases:
+    - 15アバター対応 VRC Hair
+    - 15アバター対応 vrc hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15パターン以上:
+    aliases:
+    - 15パターン以上
+    - 15パターン以上
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15人:
+    aliases:
+    - 15人
+    - 15人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  15体:
+    aliases:
+    - 15体
+    - 15体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  16 Avatars:
+    aliases:
+    - 16 Avatars
+    - 16 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  16avatar:
+    aliases:
+    - 16avatar
+    - 16avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  16アバター:
+    aliases:
+    - 16アバター
+    - 16アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  16アバター対応 VRC Hair:
+    aliases:
+    - 16アバター対応 VRC Hair
+    - 16アバター対応 vrc hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  16モデル:
+    aliases:
+    - 16モデル
+    - 16モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17 Avatars:
+    aliases:
+    - 17 Avatars
+    - 17 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17Avatars:
+    aliases:
+    - 17Avatars
+    - 17avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17アバター:
+    aliases:
+    - 17アバター
+    - 17アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17アバター対応 VRC Hair:
+    aliases:
+    - 17アバター対応 VRC Hair
+    - 17アバター対応 vrc hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17モデル:
+    aliases:
+    - 17モデル
+    - 17モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  17人:
+    aliases:
+    - 17人
+    - 17人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18 avatars:
+    aliases:
+    - 18 avatars
+    - 18 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18-Avatars:
+    aliases:
+    - 18-Avatars
+    - 18-avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18Avatar:
+    aliases:
+    - 18Avatar
+    - 18avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18Avatars:
+    aliases:
+    - 18Avatars
+    - 18avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18アバター:
+    aliases:
+    - 18アバター
+    - 18アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18モデル:
+    aliases:
+    - 18モデル
+    - 18モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  18人:
+    aliases:
+    - 18人
+    - 18人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  '19':
+    aliases:
+    - '19'
+    - '19'
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  19 Avatar:
+    aliases:
+    - 19 Avatar
+    - 19 avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  19 アバター:
+    aliases:
+    - 19 アバター
+    - 19 アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  19アバター:
+    aliases:
+    - 19アバター
+    - 19アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  19モデル:
+    aliases:
+    - 19モデル
+    - 19モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  19体:
+    aliases:
+    - 19体
+    - 19体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20 Avatars:
+    aliases:
+    - 20 Avatars
+    - 20 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  2025y.Collection:
+    aliases:
+    - 2025y.Collection
+    - 2025y.collection
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20Avatars:
+    aliases:
+    - 20Avatars
+    - 20avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20アバター:
+    aliases:
+    - 20アバター
+    - 20アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20アバター、MA:
+    aliases:
+    - 20アバター、MA
+    - 20アバター、ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20モデル:
+    aliases:
+    - 20モデル
+    - 20モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  20人:
+    aliases:
+    - 20人
+    - 20人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21 Avatars:
+    aliases:
+    - 21 Avatars
+    - 21 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21Avatars:
+    aliases:
+    - 21Avatars
+    - 21avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21avatar:
+    aliases:
+    - 21avatar
+    - 21avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21アバター:
+    aliases:
+    - 21アバター
+    - 21アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21モデル:
+    aliases:
+    - 21モデル
+    - 21モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  21体:
+    aliases:
+    - 21体
+    - 21体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  22 Avatars:
+    aliases:
+    - 22 Avatars
+    - 22 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  22アバター:
+    aliases:
+    - 22アバター
+    - 22アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  22アバター対応コーデ:
+    aliases:
+    - 22アバター対応コーデ
+    - 22アバター対応コーデ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  23アバター:
+    aliases:
+    - 23アバター
+    - 23アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  24アバター:
+    aliases:
+    - 24アバター
+    - 24アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  25アバター:
+    aliases:
+    - 25アバター
+    - 25アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  26アバター:
+    aliases:
+    - 26アバター
+    - 26アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  27アバター:
+    aliases:
+    - 27アバター
+    - 27アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  28アバター:
+    aliases:
+    - 28アバター
+    - 28アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  28モデル:
+    aliases:
+    - 28モデル
+    - 28モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  28点:
+    aliases:
+    - 28点
+    - 28点
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  29アバター:
+    aliases:
+    - 29アバター
+    - 29アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  2アバター:
+    aliases:
+    - 2アバター
+    - 2アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  2周年記念セール - 6月15日まで:
+    aliases:
+    - 2周年記念セール - 6月15日まで
+    - 2周年記念セール - 6月15日まで
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  2種:
+    aliases:
+    - 2種
+    - 2種
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3 Avatars:
+    aliases:
+    - 3 Avatars
+    - 3 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3 Men Avatars:
+    aliases:
+    - 3 Men Avatars
+    - 3 men avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3.0 Update!:
+    aliases:
+    - 3.0 Update!
+    - 3.0 update!
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  30 Avatar:
+    aliases:
+    - 30 Avatar
+    - 30 avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  30アバター:
+    aliases:
+    - 30アバター
+    - 30アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  31アバター:
+    aliases:
+    - 31アバター
+    - 31アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  32アバター:
+    aliases:
+    - 32アバター
+    - 32アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  33アバター:
+    aliases:
+    - 33アバター
+    - 33アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  34アバター:
+    aliases:
+    - 34アバター
+    - 34アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  35アバター:
+    aliases:
+    - 35アバター
+    - 35アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  36アバター:
+    aliases:
+    - 36アバター
+    - 36アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  37アバター:
+    aliases:
+    - 37アバター
+    - 37アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  38アバター:
+    aliases:
+    - 38アバター
+    - 38アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  39アバター:
+    aliases:
+    - 39アバター
+    - 39アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Avatars:
+    aliases:
+    - 3Avatars
+    - 3avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D:
+    aliases:
+    - 3D
+    - 3d
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D model:
+    aliases:
+    - 3D model
+    - 3d model
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3DCG:
+    aliases:
+    - 3DCG
+    - 3dcg
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3DModel:
+    aliases:
+    - 3DModel
+    - 3dmodel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Ditem:
+    aliases:
+    - 3Ditem
+    - 3ditem
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dアクセ:
+    aliases:
+    - 3Dアクセ
+    - 3dアクセ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dアクセサリー:
+    aliases:
+    - 3Dアクセサリー
+    - 3dアクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dアバター:
+    aliases:
+    - 3Dアバター
+    - 3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dコスチューム:
+    aliases:
+    - 3Dコスチューム
+    - 3dコスチューム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dヘアモデル:
+    aliases:
+    - 3Dヘアモデル
+    - 3dヘアモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dモデル:
+    aliases:
+    - 3Dモデル
+    - 3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dモデルアクセサリ:
+    aliases:
+    - 3Dモデルアクセサリ
+    - 3dモデルアクセサリ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dモデルウェア:
+    aliases:
+    - 3Dモデルウェア
+    - 3dモデルウェア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dモデルデータ:
+    aliases:
+    - 3Dモデルデータ
+    - 3dモデルデータ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3Dモデル・MA対応・VRChat想定:
+    aliases:
+    - 3Dモデル・MA対応・VRChat想定
+    - 3dモデル・ma対応・vrchat想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D小物:
+    aliases:
+    - 3D小物
+    - 3d小物
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D小道具:
+    aliases:
+    - 3D小道具
+    - 3d小道具
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D環境・ワールド:
+    aliases:
+    - 3D環境・ワールド
+    - 3d環境・ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D背景:
+    aliases:
+    - 3D背景
+    - 3d背景
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D髪型:
+    aliases:
+    - 3D髪型
+    - 3d髪型
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3アバター:
+    aliases:
+    - 3アバター
+    - 3アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4 Avatars:
+    aliases:
+    - 4 Avatars
+    - 4 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  40アバター:
+    aliases:
+    - 40アバター
+    - 40アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  41アバター:
+    aliases:
+    - 41アバター
+    - 41アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  43アバター:
+    aliases:
+    - 43アバター
+    - 43アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  44アバター:
+    aliases:
+    - 44アバター
+    - 44アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  45アバター:
+    aliases:
+    - 45アバター
+    - 45アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  46アバター:
+    aliases:
+    - 46アバター
+    - 46アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  47アバター:
+    aliases:
+    - 47アバター
+    - 47アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  48アバター:
+    aliases:
+    - 48アバター
+    - 48アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  49アバター:
+    aliases:
+    - 49アバター
+    - 49アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4Avatar:
+    aliases:
+    - 4Avatar
+    - 4avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4Avatars:
+    aliases:
+    - 4Avatars
+    - 4avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4アバター:
+    aliases:
+    - 4アバター
+    - 4アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4人:
+    aliases:
+    - 4人
+    - 4人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  4体:
+    aliases:
+    - 4体
+    - 4体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5 Avatars:
+    aliases:
+    - 5 Avatars
+    - 5 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  50% Sale:
+    aliases:
+    - 50% Sale
+    - 50% sale
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5Avatar:
+    aliases:
+    - 5Avatar
+    - 5avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5アバター:
+    aliases:
+    - 5アバター
+    - 5アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5モデル:
+    aliases:
+    - 5モデル
+    - 5モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5人:
+    aliases:
+    - 5人
+    - 5人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5体:
+    aliases:
+    - 5体
+    - 5体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6 Avatars:
+    aliases:
+    - 6 Avatars
+    - 6 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6 アバター:
+    aliases:
+    - 6 アバター
+    - 6 アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  60アバター:
+    aliases:
+    - 60アバター
+    - 60アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  69アバター:
+    aliases:
+    - 69アバター
+    - 69アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6Avatar:
+    aliases:
+    - 6Avatar
+    - 6avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6Avatars:
+    aliases:
+    - 6Avatars
+    - 6avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6アバター:
+    aliases:
+    - 6アバター
+    - 6アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6アバター対応です:
+    aliases:
+    - 6アバター対応です
+    - 6アバター対応です
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6モデル:
+    aliases:
+    - 6モデル
+    - 6モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  6人:
+    aliases:
+    - 6人
+    - 6人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7 AVATAR:
+    aliases:
+    - 7 AVATAR
+    - 7 avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7 Avatars:
+    aliases:
+    - 7 Avatars
+    - 7 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7Avatar:
+    aliases:
+    - 7Avatar
+    - 7avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7Avatars:
+    aliases:
+    - 7Avatars
+    - 7avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7color:
+    aliases:
+    - 7color
+    - 7color
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7アバター:
+    aliases:
+    - 7アバター
+    - 7アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7モデル:
+    aliases:
+    - 7モデル
+    - 7モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  7月まで販売停止:
+    aliases:
+    - 7月まで販売停止
+    - 7月まで販売停止
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8 Avatars:
+    aliases:
+    - 8 Avatars
+    - 8 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  83アバター:
+    aliases:
+    - 83アバター
+    - 83アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8Avatar:
+    aliases:
+    - 8Avatar
+    - 8avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8Avatars:
+    aliases:
+    - 8Avatars
+    - 8avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8Avaters:
+    aliases:
+    - 8Avaters
+    - 8avaters
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8アバター:
+    aliases:
+    - 8アバター
+    - 8アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8モデル:
+    aliases:
+    - 8モデル
+    - 8モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  8人:
+    aliases:
+    - 8人
+    - 8人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  9 Avatars:
+    aliases:
+    - 9 Avatars
+    - 9 avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  9Avatar:
+    aliases:
+    - 9Avatar
+    - 9avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  9Avatars:
+    aliases:
+    - 9Avatars
+    - 9avatars
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  9アバター:
+    aliases:
+    - 9アバター
+    - 9アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  9人:
+    aliases:
+    - 9人
+    - 9人
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  AFK:
+    aliases:
+    - AFK
+    - afk
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ALPHANO:
+    aliases:
+    - ALPHANO
+    - alphano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  APL:
+    aliases:
+    - APL
+    - apl
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ARCHIVE:
+    aliases:
+    - ARCHIVE
+    - archive
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Accessory:
     aliases:
     - Accessory
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  All Avatar:
+    aliases:
+    - All Avatar
+    - all avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Almani Pajamas:
+    aliases:
+    - Almani Pajamas
+    - almani pajamas
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Alué:
+    aliases:
+    - Alué
+    - alué
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Alué アルエ:
+    aliases:
+    - Alué アルエ
+    - alué アルエ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Alué 専:
+    aliases:
+    - Alué 専
+    - alué 専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Alué専:
+    aliases:
+    - Alué専
+    - alué専
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -1921,6 +3321,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Anubis Summer:
+    aliases:
+    - Anubis Summer
+    - anubis summer
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Apron:
     aliases:
     - apron
@@ -1928,9 +3335,30 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Archived:
+    aliases:
+    - Archived
+    - archived
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Arm Cover:
     aliases:
     - Arm Cover
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Ashenclothes:
+    aliases:
+    - Ashenclothes
+    - ashenclothes
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  AudioLink:
+    aliases:
+    - AudioLink
+    - audiolink
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2015,6 +3443,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Bird/鳥:
+    aliases:
+    - Bird/鳥
+    - bird/鳥
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Body Piercing:
     aliases:
     - body piercing
@@ -2088,6 +3523,27 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  CC0:
+    aliases:
+    - CC0
+    - cc0
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  CORE:
+    aliases:
+    - CORE
+    - core
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  CORE]:
+    aliases:
+    - CORE]
+    - core]
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Cane:
     aliases:
     - Cane
@@ -2097,6 +3553,13 @@ accessories:
   Cap:
     aliases:
     - Cap
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Caped Coat:
+    aliases:
+    - Caped Coat
+    - caped coat
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2112,15 +3575,43 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Cavo's:
+    aliases:
+    - Cavo's
+    - cavo's
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Chain:
     aliases:
     - Chain
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Chalo専:
+    aliases:
+    - Chalo専
+    - chalo専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Charm:
     aliases:
     - Charm
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Chiffon/シフォン:
+    aliases:
+    - Chiffon/シフォン
+    - chiffon/シフォン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Chocolat/ショコラ:
+    aliases:
+    - Chocolat/ショコラ
+    - chocolat/ショコラ
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2173,6 +3664,27 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  CusUniWear:
+    aliases:
+    - CusUniWear
+    - cusuniwear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DB・PB:
+    aliases:
+    - DB・PB
+    - db・pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DanceMotion:
+    aliases:
+    - DanceMotion
+    - dancemotion
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Demon Horns:
     aliases:
     - demon horns
@@ -2185,15 +3697,64 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Deorart:
+    aliases:
+    - Deorart
+    - deorart
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Dog Ears:
     aliases:
     - dog ears
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  DragonARMシリーズ:
+    aliases:
+    - DragonARMシリーズ
+    - dragonarmシリーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DragonHornシリーズ:
+    aliases:
+    - DragonHornシリーズ
+    - dragonhornシリーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DragonParts:
+    aliases:
+    - DragonParts
+    - dragonparts
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DragonTailシリーズ:
+    aliases:
+    - DragonTailシリーズ
+    - dragontailシリーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  DragonWingシリーズ:
+    aliases:
+    - DragonWingシリーズ
+    - dragonwingシリーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Drone:
     aliases:
     - drone
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  EYEtexture:
+    aliases:
+    - EYEtexture
+    - eyetexture
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2215,6 +3776,27 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  EasternWindアバター:
+    aliases:
+    - EasternWindアバター
+    - easternwindアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  EvicPlus:
+    aliases:
+    - EvicPlus
+    - evicplus
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  EvicPlus】:
+    aliases:
+    - EvicPlus】
+    - evicplus】
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Eye Mask:
     aliases:
     - Eye Mask
@@ -2224,6 +3806,69 @@ accessories:
   Eyepatch:
     aliases:
     - eyepatch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE:
+    aliases:
+    - FREE
+    - free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE - MA:
+    aliases:
+    - FREE - MA
+    - free - ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE 無料:
+    aliases:
+    - FREE 無料
+    - free 無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE!:
+    aliases:
+    - FREE!
+    - free!
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE/商用OK:
+    aliases:
+    - FREE/商用OK
+    - free/商用ok
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE/無料:
+    aliases:
+    - FREE/無料
+    - free/無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE♥無料:
+    aliases:
+    - FREE♥無料
+    - free♥無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREEあり:
+    aliases:
+    - FREEあり
+    - freeあり
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FX:
+    aliases:
+    - FX
+    - fx
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2251,9 +3896,37 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Flower_Nail:
+    aliases:
+    - Flower_Nail
+    - flower_nail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Folding Fan:
     aliases:
     - folding fan
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  For Avatar:
+    aliases:
+    - For Avatar
+    - for avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  For VRChat 3D Model:
+    aliases:
+    - For VRChat 3D Model
+    - for vrchat 3d model
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  For World:
+    aliases:
+    - For World
+    - for world
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2269,6 +3942,34 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Free / 無料:
+    aliases:
+    - Free / 無料
+    - free / 無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Free-無料-:
+    aliases:
+    - Free-無料-
+    - free-無料-
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Free・無料:
+    aliases:
+    - Free・無料
+    - free・無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Free無料:
+    aliases:
+    - Free無料
+    - free無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Frill:
     aliases:
     - Frill
@@ -2279,6 +3980,13 @@ accessories:
   Fur:
     aliases:
     - Fur
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  GIFT:
+    aliases:
+    - GIFT
+    - gift
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2328,6 +4036,27 @@ accessories:
   Greatsword:
     aliases:
     - greatsword
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Grus/Lapwing:
+    aliases:
+    - Grus/Lapwing
+    - grus/lapwing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Grus/Lapwing/Lowtus:
+    aliases:
+    - Grus/Lapwing/Lowtus
+    - grus/lapwing/lowtus
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Grus専:
+    aliases:
+    - Grus専
+    - grus専
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2510,6 +4239,27 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  KARINカリン:
+    aliases:
+    - KARINカリン
+    - karinカリン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  KUMALY  update:
+    aliases:
+    - KUMALY  update
+    - kumaly  update
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  KUMALY update:
+    aliases:
+    - KUMALY update
+    - kumaly update
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Kanzashi:
     aliases:
     - kanzashi
@@ -2528,6 +4278,20 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Kikyo●桔梗専:
+    aliases:
+    - Kikyo●桔梗専
+    - kikyo●桔梗専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kipfel/キプフェル:
+    aliases:
+    - Kipfel/キプフェル
+    - kipfel/キプフェル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Kiseru Pipe:
     aliases:
     - kiseru pipe
@@ -2537,6 +4301,27 @@ accessories:
   Knife:
     aliases:
     - Knife
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kuuta専:
+    aliases:
+    - Kuuta専
+    - kuuta専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Kyee_N:
+    aliases:
+    - Kyee_N
+    - kyee_n
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  LUMINA/ルミナ:
+    aliases:
+    - LUMINA/ルミナ
+    - lumina/ルミナ
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2553,6 +4338,34 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Lapwing/Grus:
+    aliases:
+    - Lapwing/Grus
+    - lapwing/grus
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lapwingちゃん:
+    aliases:
+    - Lapwingちゃん
+    - lapwingちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lapwing専:
+    aliases:
+    - Lapwing専
+    - lapwing専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lasyusha・ラシューシャ:
+    aliases:
+    - Lasyusha・ラシューシャ
+    - lasyusha・ラシューシャ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Leash:
     aliases:
     - leash
@@ -2565,9 +4378,30 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Leeme＆Reeva:
+    aliases:
+    - Leeme＆Reeva
+    - leeme＆reeva
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Leg Belt:
     aliases:
     - Leg Belt
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Li-ne_Shop:
+    aliases:
+    - Li-ne_Shop
+    - li-ne_shop
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lily Cafe:
+    aliases:
+    - Lily Cafe
+    - lily cafe
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2578,9 +4412,191 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Long skirt maid:
+    aliases:
+    - Long skirt maid
+    - long skirt maid
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Lume Optic専:
+    aliases:
+    - Lume Optic専
+    - lume optic専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA/PB:
+    aliases:
+    - MA/PB
+    - ma/pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MANUKA(マヌカ):
+    aliases:
+    - MANUKA(マヌカ)
+    - manuka(マヌカ)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MAYA舞夜:
+    aliases:
+    - MAYA舞夜
+    - maya舞夜
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MAYO UPD:
+    aliases:
+    - MAYO UPD
+    - mayo upd
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MAギミック付き:
+    aliases:
+    - MAギミック付き
+    - maギミック付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA前提ギミック:
+    aliases:
+    - MA前提ギミック
+    - ma前提ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA対応 丨武器ギミック:
+    aliases:
+    - MA対応 丨武器ギミック
+    - ma対応 丨武器ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA対応・VRChat想定:
+    aliases:
+    - MA対応・VRChat想定
+    - ma対応・vrchat想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA対応済:
+    aliases:
+    - MA対応済
+    - ma対応済
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA対応済み:
+    aliases:
+    - MA対応済み
+    - ma対応済み
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA対応！:
+    aliases:
+    - MA対応！
+    - ma対応！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA想定:
+    aliases:
+    - MA想定
+    - ma想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA設定済:
+    aliases:
+    - MA設定済
+    - ma設定済
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA設定済み:
+    aliases:
+    - MA設定済み
+    - ma設定済み
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MA設定済み/武器モデル:
+    aliases:
+    - MA設定済み/武器モデル
+    - ma設定済み/武器モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MDollnail:
+    aliases:
+    - MDollnail
+    - mdollnail
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MOMORI:
+    aliases:
+    - MOMORI
+    - momori
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MP:
+    aliases:
+    - MP
+    - mp
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  MameFriends:
+    aliases:
+    - MameFriends
+    - mamefriends
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Maru's VFX:
+    aliases:
+    - Maru's VFX
+    - maru's vfx
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Marycia マリシア専用髪型:
+    aliases:
+    - Marycia マリシア専用髪型
+    - marycia マリシア専用髪型
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Marycia専:
+    aliases:
+    - Marycia専
+    - marycia専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mask:
     aliases:
     - mask
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Maya●舞夜専:
+    aliases:
+    - Maya●舞夜専
+    - maya●舞夜専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mayo / まよ:
+    aliases:
+    - Mayo / まよ
+    - mayo / まよ
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2602,15 +4618,50 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Milfy/ミルフィ:
+    aliases:
+    - Milfy/ミルフィ
+    - milfy/ミルフィ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Military Cap:
     aliases:
     - military cap
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Milltina/ミルティナ:
+    aliases:
+    - Milltina/ミルティナ
+    - milltina/ミルティナ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Mini Hat:
     aliases:
     - mini hat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Misaki Update:
+    aliases:
+    - Misaki Update
+    - misaki update
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ModularAvatar対応ギミック:
+    aliases:
+    - ModularAvatar対応ギミック
+    - modularavatar対応ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Moe(萌):
+    aliases:
+    - Moe(萌)
+    - moe(萌)
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2623,6 +4674,41 @@ accessories:
   Moon Motif:
     aliases:
     - moon motif
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Motion Animation:
+    aliases:
+    - Motion Animation
+    - motion animation
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Mouse+:
+    aliases:
+    - Mouse+
+    - mouse+
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  N...:
+    aliases:
+    - N...
+    - n...
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  NN SHOP:
+    aliases:
+    - NN SHOP
+    - nn shop
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Nail + Ring:
+    aliases:
+    - Nail + Ring
+    - nail + ring
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2651,15 +4737,120 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  OSC:
+    aliases:
+    - OSC
+    - osc
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Obi:
     aliases:
     - Obi
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Original 3D Model:
+    aliases:
+    - Original 3D Model
+    - original 3d model
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  O₂ Series:
+    aliases:
+    - O₂ Series
+    - o₂ series
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB対応/Liltoon:
+    aliases:
+    - PB対応/Liltoon
+    - pb対応/liltoon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB未:
+    aliases:
+    - PB未
+    - pb未
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB版動作確認済:
+    aliases:
+    - PB版動作確認済
+    - pb版動作確認済
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB設定付き:
+    aliases:
+    - PB設定付き
+    - pb設定付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB設定済:
+    aliases:
+    - PB設定済
+    - pb設定済
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PB設定済み:
+    aliases:
+    - PB設定済み
+    - pb設定済み
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PC & Android:
+    aliases:
+    - PC & Android
+    - pc & android
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PC/Quest:
+    aliases:
+    - PC/Quest
+    - pc/quest
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PC版VRChat:
+    aliases:
+    - PC版VRChat
+    - pc版vrchat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PIROUETTE:
+    aliases:
+    - PIROUETTE
+    - pirouette
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PSD:
+    aliases:
+    - PSD
+    - psd
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Pacifier:
     aliases:
     - pacifier
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Pati･Par!:
+    aliases:
+    - Pati･Par!
+    - pati･par!
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2681,6 +4872,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Physics Bone:
+    aliases:
+    - Physics Bone
+    - physics bone
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Piercing:
     aliases:
     - Piercing
@@ -2690,6 +4888,27 @@ accessories:
   Pin Badge:
     aliases:
     - pin badge
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Plum update:
+    aliases:
+    - Plum update
+    - plum update
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PlusGimmick:
+    aliases:
+    - PlusGimmick
+    - plusgimmick
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  PlusHead:
+    aliases:
+    - PlusHead
+    - plushead
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2729,6 +4948,41 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  QvPen差し替えモデル:
+    aliases:
+    - QvPen差し替えモデル
+    - qvpen差し替えモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  RE:
+    aliases:
+    - RE
+    - re
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  RVC:
+    aliases:
+    - RVC
+    - rvc
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  RVCv2:
+    aliases:
+    - RVCv2
+    - rvcv2
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  RVCモデル:
+    aliases:
+    - RVCモデル
+    - rvcモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ribbon:
     aliases:
     - Ribbon
@@ -2747,6 +5001,20 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Rindo●竜胆専:
+    aliases:
+    - Rindo●竜胆専
+    - rindo●竜胆専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Rindo専:
+    aliases:
+    - Rindo専
+    - rindo専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Ring:
     aliases:
     - Ring
@@ -2762,6 +5030,34 @@ accessories:
   Round Glasses:
     aliases:
     - round glasses
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  SALE:
+    aliases:
+    - SALE
+    - sale
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  SBOシリーズ:
+    aliases:
+    - SBOシリーズ
+    - sboシリーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  SDK3:
+    aliases:
+    - SDK3
+    - sdk3
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  SION:
+    aliases:
+    - SION
+    - sion
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2798,9 +5094,44 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Selestia専:
+    aliases:
+    - Selestia専
+    - selestia専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Shield:
     aliases:
     - Shield
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shinano/しなの:
+    aliases:
+    - Shinano/しなの
+    - shinano/しなの
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shinra(森羅):
+    aliases:
+    - Shinra(森羅)
+    - shinra(森羅)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shinra(森羅)専:
+    aliases:
+    - Shinra(森羅)専
+    - shinra(森羅)専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Shinra專:
+    aliases:
+    - Shinra專
+    - shinra專
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2813,6 +5144,13 @@ accessories:
   Shoulder Bag:
     aliases:
     - Shoulder Bag
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Skybox:
+    aliases:
+    - Skybox
+    - skybox
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2877,6 +5215,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Studio4NIMARU:
+    aliases:
+    - Studio4NIMARU
+    - studio4nimaru
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Studs:
     aliases:
     - Studs
@@ -2914,6 +5259,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Symphony of Duchess:
+    aliases:
+    - Symphony of Duchess
+    - symphony of duchess
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tail:
     aliases:
     - tail
@@ -2932,9 +5284,23 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Tatoo texture:
+    aliases:
+    - Tatoo texture
+    - tatoo texture
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Tattoo:
     aliases:
     - Tattoo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Tech Wear:
+    aliases:
+    - Tech Wear
+    - tech wear
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2950,15 +5316,890 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  ToN:
+    aliases:
+    - ToN
+    - ton
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Top:
+    aliases:
+    - Top
+    - top
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Top Hat:
     aliases:
     - top hat
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  U#:
+    aliases:
+    - U#
+    - u#
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  UdonChips:
+    aliases:
+    - UdonChips
+    - udonchips
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Udonギミック:
+    aliases:
+    - Udonギミック
+    - udonギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Umbrella:
     aliases:
     - Umbrella
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Unity/VRChat:
+    aliases:
+    - Unity/VRChat
+    - unity/vrchat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Unity/VRChat シェーダー:
+    aliases:
+    - Unity/VRChat シェーダー
+    - unity/vrchat シェーダー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Unity/VRChat パーティクル:
+    aliases:
+    - Unity/VRChat パーティクル
+    - unity/vrchat パーティクル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  UnityEditor拡張:
+    aliases:
+    - UnityEditor拡張
+    - unityeditor拡張
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Update 1.03:
+    aliases:
+    - Update 1.03
+    - update 1.03
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  UrbanViper:
+    aliases:
+    - UrbanViper
+    - urbanviper
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  V...:
+    aliases:
+    - V...
+    - v...
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VARAYA:
+    aliases:
+    - VARAYA
+    - varaya
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VCC:
+    aliases:
+    - VCC
+    - vcc
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VFX:
+    aliases:
+    - VFX
+    - vfx
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VR...:
+    aliases:
+    - VR...
+    - vr...
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC / Particle:
+    aliases:
+    - VRC / Particle
+    - vrc / particle
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC / VRM 対応3Dモデル:
+    aliases:
+    - VRC / VRM 対応3Dモデル
+    - vrc / vrm 対応3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC Hair:
+    aliases:
+    - VRC Hair
+    - vrc hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC UDONギミック:
+    aliases:
+    - VRC UDONギミック
+    - vrc udonギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC ギミック:
+    aliases:
+    - VRC ギミック
+    - vrc ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC 対応3Dモデル:
+    aliases:
+    - VRC 対応3Dモデル
+    - vrc 対応3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC 想定:
+    aliases:
+    - VRC 想定
+    - vrc 想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC 髪型:
+    aliases:
+    - VRC 髪型
+    - vrc 髪型
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC/PB:
+    aliases:
+    - VRC/PB
+    - vrc/pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC/Quest/VRM:
+    aliases:
+    - VRC/Quest/VRM
+    - vrc/quest/vrm
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC/Udon:
+    aliases:
+    - VRC/Udon
+    - vrc/udon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC/Unity:
+    aliases:
+    - VRC/Unity
+    - vrc/unity
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC/VRM:
+    aliases:
+    - VRC/VRM
+    - vrc/vrm
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCAvatar:
+    aliases:
+    - VRCAvatar
+    - vrcavatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCHAT想定:
+    aliases:
+    - VRCHAT想定
+    - vrchat想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCHAT想定3Dモデル:
+    aliases:
+    - VRCHAT想定3Dモデル
+    - vrchat想定3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCSDK3:
+    aliases:
+    - VRCSDK3
+    - vrcsdk3
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat Hair:
+    aliases:
+    - VRChat Hair
+    - vrchat hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat PB:
+    aliases:
+    - VRChat PB
+    - vrchat pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat World:
+    aliases:
+    - VRChat World
+    - vrchat world
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat ワールド:
+    aliases:
+    - VRChat ワールド
+    - vrchat ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat/3Dモデル:
+    aliases:
+    - VRChat/3Dモデル
+    - vrchat/3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat/UnityEffcts:
+    aliases:
+    - VRChat/UnityEffcts
+    - vrchat/unityeffcts
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatAvatar3.0想定:
+    aliases:
+    - VRChatAvatar3.0想定
+    - vrchatavatar3.0想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatUDON:
+    aliases:
+    - VRChatUDON
+    - vrchatudon
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatアバター:
+    aliases:
+    - VRChatアバター
+    - vrchatアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatアバターギミック:
+    aliases:
+    - VRChatアバターギミック
+    - vrchatアバターギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatワールド:
+    aliases:
+    - VRChatワールド
+    - vrchatワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChatワールドギミック:
+    aliases:
+    - VRChatワールドギミック
+    - vrchatワールドギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向け フルトラ:
+    aliases:
+    - VRChat向け フルトラ
+    - vrchat向け フルトラ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向け3Dモデル:
+    aliases:
+    - VRChat向け3Dモデル
+    - vrchat向け3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向けアクセサリ:
+    aliases:
+    - VRChat向けアクセサリ
+    - vrchat向けアクセサリ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向けアクセサリー:
+    aliases:
+    - VRChat向けアクセサリー
+    - vrchat向けアクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向けアバター:
+    aliases:
+    - VRChat向けアバター
+    - vrchat向けアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向けオリジナル3Dモデル:
+    aliases:
+    - VRChat向けオリジナル3Dモデル
+    - vrchat向けオリジナル3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向けワールド:
+    aliases:
+    - VRChat向けワールド
+    - vrchat向けワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向け小物:
+    aliases:
+    - VRChat向け小物
+    - vrchat向け小物
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat対応3Dモデル:
+    aliases:
+    - VRChat対応3Dモデル
+    - vrchat対応3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定/MA:
+    aliases:
+    - VRChat想定/MA
+    - vrchat想定/ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定3Dアバター:
+    aliases:
+    - VRChat想定3Dアバター
+    - vrchat想定3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定MA:
+    aliases:
+    - VRChat想定MA
+    - vrchat想定ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定アクセサリー:
+    aliases:
+    - VRChat想定アクセサリー
+    - vrchat想定アクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定アバター:
+    aliases:
+    - VRChat想定アバター
+    - vrchat想定アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定アバターギミック:
+    aliases:
+    - VRChat想定アバターギミック
+    - vrchat想定アバターギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定ギミック:
+    aliases:
+    - VRChat想定ギミック
+    - vrchat想定ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定モデル:
+    aliases:
+    - VRChat想定モデル
+    - vrchat想定モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定ワールド:
+    aliases:
+    - VRChat想定ワールド
+    - vrchat想定ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定・MA:
+    aliases:
+    - VRChat想定・MA
+    - vrchat想定・ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定一部MA:
+    aliases:
+    - VRChat想定一部MA
+    - vrchat想定一部ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat想定３Dモデル:
+    aliases:
+    - VRChat想定３Dモデル
+    - vrchat想定３dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat無料アバター:
+    aliases:
+    - VRChat無料アバター
+    - vrchat無料アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat用アクセサリー:
+    aliases:
+    - VRChat用アクセサリー
+    - vrchat用アクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat用アバターギミック:
+    aliases:
+    - VRChat用アバターギミック
+    - vrchat用アバターギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat用３Dモデル:
+    aliases:
+    - VRChat用３Dモデル
+    - vrchat用３dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCに簡単導入！:
+    aliases:
+    - VRCに簡単導入！
+    - vrcに簡単導入！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCアバター:
+    aliases:
+    - VRCアバター
+    - vrcアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCアバターギミック:
+    aliases:
+    - VRCアバターギミック
+    - vrcアバターギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCギミック:
+    aliases:
+    - VRCギミック
+    - vrcギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCワールド:
+    aliases:
+    - VRCワールド
+    - vrcワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCワールドギミック:
+    aliases:
+    - VRCワールドギミック
+    - vrcワールドギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRCワールド想定:
+    aliases:
+    - VRCワールド想定
+    - vrcワールド想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC・VRM アバター:
+    aliases:
+    - VRC・VRM アバター
+    - vrc・vrm アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC使用想定:
+    aliases:
+    - VRC使用想定
+    - vrc使用想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC利用想定:
+    aliases:
+    - VRC利用想定
+    - vrc利用想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC可:
+    aliases:
+    - VRC可
+    - vrc可
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC向け3Dモデル:
+    aliases:
+    - VRC向け3Dモデル
+    - vrc向け3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC向けアバター:
+    aliases:
+    - VRC向けアバター
+    - vrc向けアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC向けワールド:
+    aliases:
+    - VRC向けワールド
+    - vrc向けワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC対応3Dアバター:
+    aliases:
+    - VRC対応3Dアバター
+    - vrc対応3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC対応3Dモデル:
+    aliases:
+    - VRC対応3Dモデル
+    - vrc対応3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC対応3D雑貨モデル:
+    aliases:
+    - VRC対応3D雑貨モデル
+    - vrc対応3d雑貨モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定:
+    aliases:
+    - VRC想定
+    - vrc想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/17アバター:
+    aliases:
+    - VRC想定/17アバター
+    - vrc想定/17アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/18アバター:
+    aliases:
+    - VRC想定/18アバター
+    - vrc想定/18アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/19アバター:
+    aliases:
+    - VRC想定/19アバター
+    - vrc想定/19アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/20アバター:
+    aliases:
+    - VRC想定/20アバター
+    - vrc想定/20アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/21アバター:
+    aliases:
+    - VRC想定/21アバター
+    - vrc想定/21アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/22アバター:
+    aliases:
+    - VRC想定/22アバター
+    - vrc想定/22アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定/23アバター:
+    aliases:
+    - VRC想定/23アバター
+    - vrc想定/23アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定3Dアバター:
+    aliases:
+    - VRC想定3Dアバター
+    - vrc想定3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定3Dモデル:
+    aliases:
+    - VRC想定3Dモデル
+    - vrc想定3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定hair:
+    aliases:
+    - VRC想定hair
+    - vrc想定hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定アクセサリー:
+    aliases:
+    - VRC想定アクセサリー
+    - vrc想定アクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定・MA:
+    aliases:
+    - VRC想定・MA
+    - vrc想定・ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定武器:
+    aliases:
+    - VRC想定武器
+    - vrc想定武器
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定｜MA:
+    aliases:
+    - VRC想定｜MA
+    - vrc想定｜ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定･MA:
+    aliases:
+    - VRC想定･MA
+    - vrc想定･ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC推奨:
+    aliases:
+    - VRC推奨
+    - vrc推奨
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC武器モデル/ABS:
+    aliases:
+    - VRC武器モデル/ABS
+    - vrc武器モデル/abs
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC用アニメファイル:
+    aliases:
+    - VRC用アニメファイル
+    - vrc用アニメファイル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC用ギミック:
+    aliases:
+    - VRC用ギミック
+    - vrc用ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC用武器:
+    aliases:
+    - VRC用武器
+    - vrc用武器
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRM&Unitypackage:
+    aliases:
+    - VRM&Unitypackage
+    - vrm&unitypackage
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRMモデル:
+    aliases:
+    - VRMモデル
+    - vrmモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRchat・Quest:
+    aliases:
+    - VRchat・Quest
+    - vrchat・quest
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRchat対応オリジナル3Dアバター:
+    aliases:
+    - VRchat対応オリジナル3Dアバター
+    - vrchat対応オリジナル3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRchat対応オリジナル3Dモデル:
+    aliases:
+    - VRchat対応オリジナル3Dモデル
+    - vrchat対応オリジナル3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRchat対応ワールド:
+    aliases:
+    - VRchat対応ワールド
+    - vrchat対応ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRchat想定・汎用・PB:
+    aliases:
+    - VRchat想定・汎用・PB
+    - vrchat想定・汎用・pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid:
+    aliases:
+    - VRoid
+    - vroid
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid / VRM model:
+    aliases:
+    - VRoid / VRM model
+    - vroid / vrm model
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid β:
+    aliases:
+    - VRoid β
+    - vroid β
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoidテクスチャ:
+    aliases:
+    - VRoidテクスチャ
+    - vroidテクスチャ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid正式:
+    aliases:
+    - VRoid正式
+    - vroid正式
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid正式版（stable:
+    aliases:
+    - VRoid正式版（stable
+    - vroid正式版（stable
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRアバター:
+    aliases:
+    - VRアバター
+    - vrアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRガ...:
+    aliases:
+    - VRガ...
+    - vrガ...
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRブラリコ:
+    aliases:
+    - VRブラリコ
+    - vrブラリコ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRワールド:
+    aliases:
+    - VRワールド
+    - vrワールド
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2982,6 +6223,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  Wind Racer:
+    aliases:
+    - Wind Racer
+    - wind racer
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Wings:
     aliases:
     - Wings
@@ -2994,6 +6242,13 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
+  World:
+    aliases:
+    - World
+    - world
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Wristband:
     aliases:
     - Wristband
@@ -3003,6 +6258,2687 @@ accessories:
   Wristwatch:
     aliases:
     - wristwatch
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  XWear:
+    aliases:
+    - XWear
+    - xwear
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  YMファンメイド:
+    aliases:
+    - YMファンメイド
+    - ymファンメイド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  Yoll:
+    aliases:
+    - Yoll
+    - yoll
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ZEF:
+    aliases:
+    - ZEF
+    - zef
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  a...:
+    aliases:
+    - a...
+    - a...
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ahzkwid:
+    aliases:
+    - ahzkwid
+    - ahzkwid
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  for VRChat:
+    aliases:
+    - for VRChat
+    - for vrchat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  minase/水瀬:
+    aliases:
+    - minase/水瀬
+    - minase/水瀬
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  muu(ﾑｰ):
+    aliases:
+    - muu(ﾑｰ)
+    - muu(ﾑｰ)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  only 4U:
+    aliases:
+    - only 4U
+    - only 4u
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  rurune専:
+    aliases:
+    - rurune専
+    - rurune専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  shinra森羅:
+    aliases:
+    - shinra森羅
+    - shinra森羅
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  unityエディタ拡張:
+    aliases:
+    - unityエディタ拡張
+    - unityエディタ拡張
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  v2対応済・商用利用可・歌唱:
+    aliases:
+    - v2対応済・商用利用可・歌唱
+    - v2対応済・商用利用可・歌唱
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  vrm/vroid/vrc:
+    aliases:
+    - vrm/vroid/vrc
+    - vrm/vroid/vrc
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  wbc:
+    aliases:
+    - wbc
+    - wbc
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  yay_yay:
+    aliases:
+    - yay_yay
+    - yay_yay
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ☁Lapwing:
+    aliases:
+    - ☁Lapwing
+    - ☁lapwing
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  うささき:
+    aliases:
+    - うささき
+    - うささき
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  うささき・まめひなた:
+    aliases:
+    - うささき・まめひなた
+    - うささき・まめひなた
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  うささき・まめひなた・キプフェル:
+    aliases:
+    - うささき・まめひなた・キプフェル
+    - うささき・まめひなた・キプフェル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  うささき・まめふれんず:
+    aliases:
+    - うささき・まめふれんず
+    - うささき・まめふれんず
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  うささき専:
+    aliases:
+    - うささき専
+    - うささき専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  えりをはだけるギミック:
+    aliases:
+    - えりをはだけるギミック
+    - えりをはだけるギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  お着替え:
+    aliases:
+    - お着替え
+    - お着替え
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  かんたん着:
+    aliases:
+    - かんたん着
+    - かんたん着
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  きりはら製作所:
+    aliases:
+    - きりはら製作所
+    - きりはら製作所
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  くうた:
+    aliases:
+    - くうた
+    - くうた
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  くうた- Kuuta-:
+    aliases:
+    - くうた- Kuuta-
+    - くうた- kuuta-
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  くうた-Kuuta:
+    aliases:
+    - くうた-Kuuta
+    - くうた-kuuta
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  くうた-Kuuta-:
+    aliases:
+    - くうた-Kuuta-
+    - くうた-kuuta-
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  くろなつ:
+    aliases:
+    - くろなつ
+    - くろなつ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ここあ:
+    aliases:
+    - ここあ
+    - ここあ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  こまどアバター:
+    aliases:
+    - こまどアバター
+    - こまどアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  こまどアバター専:
+    aliases:
+    - こまどアバター専
+    - こまどアバター専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  さくら屋雑貨店:
+    aliases:
+    - さくら屋雑貨店
+    - さくら屋雑貨店
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  さたにあ式タバコギミック:
+    aliases:
+    - さたにあ式タバコギミック
+    - さたにあ式タバコギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しお:
+    aliases:
+    - しお
+    - しお
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しお(Sio)専:
+    aliases:
+    - しお(Sio)専
+    - しお(sio)専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しおSio:
+    aliases:
+    - しおSio
+    - しおsio
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しずくさん専:
+    aliases:
+    - しずくさん専
+    - しずくさん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの:
+    aliases:
+    - しなの
+    - しなの
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの - Shinano:
+    aliases:
+    - しなの - Shinano
+    - しなの - shinano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの Shinano:
+    aliases:
+    - しなの Shinano
+    - しなの shinano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの(Shinano):
+    aliases:
+    - しなの(Shinano)
+    - しなの(shinano)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの-Shinano:
+    aliases:
+    - しなの-Shinano
+    - しなの-shinano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの/Shinano:
+    aliases:
+    - しなの/Shinano
+    - しなの/shinano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しなの専:
+    aliases:
+    - しなの専
+    - しなの専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しゅあん/Shuan:
+    aliases:
+    - しゅあん/Shuan
+    - しゅあん/shuan
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  しらつめ:
+    aliases:
+    - しらつめ
+    - しらつめ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  なのでび:
+    aliases:
+    - なのでび
+    - なのでび
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  なのでび専:
+    aliases:
+    - なのでび専
+    - なのでび専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  なりきり本舗:
+    aliases:
+    - なりきり本舗
+    - なりきり本舗
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  はむ:
+    aliases:
+    - はむ
+    - はむ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ぷにぷにあばたー:
+    aliases:
+    - ぷにぷにあばたー
+    - ぷにぷにあばたー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ぽわり追加:
+    aliases:
+    - ぽわり追加
+    - ぽわり追加
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ましゅちゃん:
+    aliases:
+    - ましゅちゃん
+    - ましゅちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ますきゃっと:
+    aliases:
+    - ますきゃっと
+    - ますきゃっと
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まばたきアニメーション付き:
+    aliases:
+    - まばたきアニメーション付き
+    - まばたきアニメーション付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめひなたちゃん専:
+    aliases:
+    - まめひなたちゃん専
+    - まめひなたちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめひなた・キプフェル:
+    aliases:
+    - まめひなた・キプフェル
+    - まめひなた・キプフェル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめひなた・キプフェル専:
+    aliases:
+    - まめひなた・キプフェル専
+    - まめひなた・キプフェル専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめひなた専:
+    aliases:
+    - まめひなた専
+    - まめひなた専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめひなた＆キプフェル:
+    aliases:
+    - まめひなた＆キプフェル
+    - まめひなた＆キプフェル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめふれ:
+    aliases:
+    - まめふれ
+    - まめふれ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめふれんず:
+    aliases:
+    - まめふれんず
+    - まめふれんず
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめふれんず・うささき:
+    aliases:
+    - まめふれんず・うささき
+    - まめふれんず・うささき
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめふれんず専:
+    aliases:
+    - まめふれんず専
+    - まめふれんず専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめフレンズ:
+    aliases:
+    - まめフレンズ
+    - まめフレンズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まよ:
+    aliases:
+    - まよ
+    - まよ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まるぼでぃ:
+    aliases:
+    - まるぼでぃ
+    - まるぼでぃ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  みみのこ:
+    aliases:
+    - みみのこ
+    - みみのこ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  りりか:
+    aliases:
+    - りりか
+    - りりか
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アイズ:
+    aliases:
+    - アイズ
+    - アイズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アイテクスチャ:
+    aliases:
+    - アイテクスチャ
+    - アイテクスチャ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アクセサリー:
+    aliases:
+    - アクセサリー
+    - アクセサリー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アズキ:
+    aliases:
+    - アズキ
+    - アズキ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アズキ専:
+    aliases:
+    - アズキ専
+    - アズキ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アニメーション付き:
+    aliases:
+    - アニメーション付き
+    - アニメーション付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アバターに置くだけ！:
+    aliases:
+    - アバターに置くだけ！
+    - アバターに置くだけ！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アバターギミック:
+    aliases:
+    - アバターギミック
+    - アバターギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アバターギミック/MA:
+    aliases:
+    - アバターギミック/MA
+    - アバターギミック/ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  イチゴ:
+    aliases:
+    - イチゴ
+    - イチゴ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  イメリスちゃん:
+    aliases:
+    - イメリスちゃん
+    - イメリスちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  イヤリング:
+    aliases:
+    - イヤリング
+    - イヤリング
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  イヨ:
+    aliases:
+    - イヨ
+    - イヨ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  イリス:
+    aliases:
+    - イリス
+    - イリス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ウルキ:
+    aliases:
+    - ウルキ
+    - ウルキ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ウルフェリア:
+    aliases:
+    - ウルフェリア
+    - ウルフェリア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ウルフェリア専:
+    aliases:
+    - ウルフェリア専
+    - ウルフェリア専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  エク:
+    aliases:
+    - エク
+    - エク
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  エク/Eku:
+    aliases:
+    - エク/Eku
+    - エク/eku
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  エク専:
+    aliases:
+    - エク専
+    - エク専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  エルシオン専:
+    aliases:
+    - エルシオン専
+    - エルシオン専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  オリジナル3Dアバター:
+    aliases:
+    - オリジナル3Dアバター
+    - オリジナル3dアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  オリジナル3Dコスチューム:
+    aliases:
+    - オリジナル3Dコスチューム
+    - オリジナル3dコスチューム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  オリジナル３Dモデル:
+    aliases:
+    - オリジナル３Dモデル
+    - オリジナル３dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  オリジナル３Ｄモデル:
+    aliases:
+    - オリジナル３Ｄモデル
+    - オリジナル３ｄモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  カリン(Karin):
+    aliases:
+    - カリン(Karin)
+    - カリン(karin)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  カリンちゃん:
+    aliases:
+    - カリンちゃん
+    - カリンちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  カリンちゃん専:
+    aliases:
+    - カリンちゃん専
+    - カリンちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  カリン専:
+    aliases:
+    - カリン専
+    - カリン専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル / Kipfel:
+    aliases:
+    - キプフェル / Kipfel
+    - キプフェル / kipfel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル Kipfel:
+    aliases:
+    - キプフェル Kipfel
+    - キプフェル kipfel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル kipfel専:
+    aliases:
+    - キプフェル kipfel専
+    - キプフェル kipfel専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル-Kipfel:
+    aliases:
+    - キプフェル-Kipfel
+    - キプフェル-kipfel
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル/Kipfel専:
+    aliases:
+    - キプフェル/Kipfel専
+    - キプフェル/kipfel専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル・まめひなた:
+    aliases:
+    - キプフェル・まめひなた
+    - キプフェル・まめひなた
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル・みみのこ:
+    aliases:
+    - キプフェル・みみのこ
+    - キプフェル・みみのこ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル・リルレオ:
+    aliases:
+    - キプフェル・リルレオ
+    - キプフェル・リルレオ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル専:
+    aliases:
+    - キプフェル専
+    - キプフェル専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミックつき:
+    aliases:
+    - ギミックつき
+    - ギミックつき
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付:
+    aliases:
+    - ギミック付
+    - ギミック付
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付3D武器モデル:
+    aliases:
+    - ギミック付3D武器モデル
+    - ギミック付3d武器モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付き:
+    aliases:
+    - ギミック付き
+    - ギミック付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付き3Dモデル:
+    aliases:
+    - ギミック付き3Dモデル
+    - ギミック付き3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付武具:
+    aliases:
+    - ギミック付武具
+    - ギミック付武具
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  クマリ:
+    aliases:
+    - クマリ
+    - クマリ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  コロネ専:
+    aliases:
+    - コロネ専
+    - コロネ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  サフィー:
+    aliases:
+    - サフィー
+    - サフィー
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  サポート停止中:
+    aliases:
+    - サポート停止中
+    - サポート停止中
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  サポート終了:
+    aliases:
+    - サポート終了
+    - サポート終了
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  シフォン:
+    aliases:
+    - シフォン
+    - シフォン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  シャロ:
+    aliases:
+    - シャロ
+    - シャロ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ショコラ:
+    aliases:
+    - ショコラ
+    - ショコラ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ショコラ(Chocolat)専:
+    aliases:
+    - ショコラ(Chocolat)専
+    - ショコラ(chocolat)専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ショコラ/Chocolat:
+    aliases:
+    - ショコラ/Chocolat
+    - ショコラ/chocolat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ショコラ専:
+    aliases:
+    - ショコラ専
+    - ショコラ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セイレーンの織り:
+    aliases:
+    - セイレーンの織り
+    - セイレーンの織り
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セレスティア(SELESTIA):
+    aliases:
+    - セレスティア(SELESTIA)
+    - セレスティア(selestia)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セレスティアちゃん:
+    aliases:
+    - セレスティアちゃん
+    - セレスティアちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セレスティア専:
+    aliases:
+    - セレスティア専
+    - セレスティア専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セール:
+    aliases:
+    - セール
+    - セール
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セール中:
+    aliases:
+    - セール中
+    - セール中
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セール開催中:
+    aliases:
+    - セール開催中
+    - セール開催中
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ソフィナ:
+    aliases:
+    - ソフィナ
+    - ソフィナ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ゾメ:
+    aliases:
+    - ゾメ
+    - ゾメ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ゾメちゃん:
+    aliases:
+    - ゾメちゃん
+    - ゾメちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ゾメちゃん専:
+    aliases:
+    - ゾメちゃん専
+    - ゾメちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  タマクラゲ専:
+    aliases:
+    - タマクラゲ専
+    - タマクラゲ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ダイナミックボーン設定済み:
+    aliases:
+    - ダイナミックボーン設定済み
+    - ダイナミックボーン設定済み
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ダージェリン:
+    aliases:
+    - ダージェリン
+    - ダージェリン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  デルタフレア:
+    aliases:
+    - デルタフレア
+    - デルタフレア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ナユ:
+    aliases:
+    - ナユ
+    - ナユ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ネコチヤン:
+    aliases:
+    - ネコチヤン
+    - ネコチヤン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ネメシス:
+    aliases:
+    - ネメシス
+    - ネメシス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ネメシス専:
+    aliases:
+    - ネメシス専
+    - ネメシス専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ハオラン専:
+    aliases:
+    - ハオラン専
+    - ハオラン専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  パスワードが見つかれば無料:
+    aliases:
+    - パスワードが見つかれば無料
+    - パスワードが見つかれば無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  パーティクル:
+    aliases:
+    - パーティクル
+    - パーティクル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  パーティクル付き:
+    aliases:
+    - パーティクル付き
+    - パーティクル付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  フィユエ追加:
+    aliases:
+    - フィユエ追加
+    - フィユエ追加
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  フォシュニア専:
+    aliases:
+    - フォシュニア専
+    - フォシュニア専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  フォロワー100人記念:
+    aliases:
+    - フォロワー100人記念
+    - フォロワー100人記念
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  フリーシェイプキー付:
+    aliases:
+    - フリーシェイプキー付
+    - フリーシェイプキー付
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  フルリメイクバージョン:
+    aliases:
+    - フルリメイクバージョン
+    - フルリメイクバージョン
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  プラム:
+    aliases:
+    - プラム
+    - プラム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  プラム/Plum:
+    aliases:
+    - プラム/Plum
+    - プラム/plum
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  プラム専:
+    aliases:
+    - プラム専
+    - プラム専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカ - Manuka:
+    aliases:
+    - マヌカ - Manuka
+    - マヌカ - manuka
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカ(Manuka):
+    aliases:
+    - マヌカ(Manuka)
+    - マヌカ(manuka)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカ(Manuka)専:
+    aliases:
+    - マヌカ(Manuka)専
+    - マヌカ(manuka)専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカManuka:
+    aliases:
+    - マヌカManuka
+    - マヌカmanuka
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカちゃん:
+    aliases:
+    - マヌカちゃん
+    - マヌカちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マヌカ専:
+    aliases:
+    - マヌカ専
+    - マヌカ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マリシア:
+    aliases:
+    - マリシア
+    - マリシア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マリシア Marycia専:
+    aliases:
+    - マリシア Marycia専
+    - マリシア marycia専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  マリシア専:
+    aliases:
+    - マリシア専
+    - マリシア専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ:
+    aliases:
+    - ミルティナ
+    - ミルティナ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ Milltina:
+    aliases:
+    - ミルティナ Milltina
+    - ミルティナ milltina
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ(Milltina):
+    aliases:
+    - ミルティナ(Milltina)
+    - ミルティナ(milltina)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ-Milltina:
+    aliases:
+    - ミルティナ-Milltina
+    - ミルティナ-milltina
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ/Milltina:
+    aliases:
+    - ミルティナ/Milltina
+    - ミルティナ/milltina
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナちゃん専:
+    aliases:
+    - ミルティナちゃん専
+    - ミルティナちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルティナ専:
+    aliases:
+    - ミルティナ専
+    - ミルティナ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルフィ:
+    aliases:
+    - ミルフィ
+    - ミルフィ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルフィ-Milfy:
+    aliases:
+    - ミルフィ-Milfy
+    - ミルフィ-milfy
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルフィ/Milfy:
+    aliases:
+    - ミルフィ/Milfy
+    - ミルフィ/milfy
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ミルフィ専:
+    aliases:
+    - ミルフィ専
+    - ミルフィ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ムルル専:
+    aliases:
+    - ムルル専
+    - ムルル専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  メリノ:
+    aliases:
+    - メリノ
+    - メリノ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  モジュラーアバター:
+    aliases:
+    - モジュラーアバター
+    - モジュラーアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラシューシャ:
+    aliases:
+    - ラシューシャ
+    - ラシューシャ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラシューシャ専:
+    aliases:
+    - ラシューシャ専
+    - ラシューシャ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラスク/ミルク/カリンちゃん:
+    aliases:
+    - ラスク/ミルク/カリンちゃん
+    - ラスク/ミルク/カリンちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラスクちゃん:
+    aliases:
+    - ラスクちゃん
+    - ラスクちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラムネ:
+    aliases:
+    - ラムネ
+    - ラムネ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ラムネ/Ramune:
+    aliases:
+    - ラムネ/Ramune
+    - ラムネ/ramune
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リップシンク:
+    aliases:
+    - リップシンク
+    - リップシンク
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リナシータ/Rinasciita 専:
+    aliases:
+    - リナシータ/Rinasciita 専
+    - リナシータ/rinasciita 専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リュック:
+    aliases:
+    - リュック
+    - リュック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リルレオ専:
+    aliases:
+    - リルレオ専
+    - リルレオ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リーサルフリート:
+    aliases:
+    - リーサルフリート
+    - リーサルフリート
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  リーファ:
+    aliases:
+    - リーファ
+    - リーファ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルチカ専:
+    aliases:
+    - ルチカ専
+    - ルチカ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルミナ:
+    aliases:
+    - ルミナ
+    - ルミナ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルミナ/LUMINA:
+    aliases:
+    - ルミナ/LUMINA
+    - ルミナ/lumina
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルミナあり:
+    aliases:
+    - ルミナあり
+    - ルミナあり
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルルネ:
+    aliases:
+    - ルルネ
+    - ルルネ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルルネ/rurune:
+    aliases:
+    - ルルネ/rurune
+    - ルルネ/rurune
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルルネ専:
+    aliases:
+    - ルルネ専
+    - ルルネ専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルルネ想定:
+    aliases:
+    - ルルネ想定
+    - ルルネ想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ルルネ／rurune専:
+    aliases:
+    - ルルネ／rurune専
+    - ルルネ／rurune専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ロボらぼ:
+    aliases:
+    - ロボらぼ
+    - ロボらぼ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ワールド:
+    aliases:
+    - ワールド
+    - ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ワールド パーツ販売:
+    aliases:
+    - ワールド パーツ販売
+    - ワールド パーツ販売
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ワールドギミック:
+    aliases:
+    - ワールドギミック
+    - ワールドギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ワールド販売:
+    aliases:
+    - ワールド販売
+    - ワールド販売
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  一部無料:
+    aliases:
+    - 一部無料
+    - 一部無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  三日間無料:
+    aliases:
+    - 三日間無料
+    - 三日間無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  両変換:
+    aliases:
+    - 両変換
+    - 両変換
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  仙猫:
+    aliases:
+    - 仙猫
+    - 仙猫
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  仙猫、豺狼:
+    aliases:
+    - 仙猫、豺狼
+    - 仙猫、豺狼
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  伊弉諾:
+    aliases:
+    - 伊弉諾
+    - 伊弉諾
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  個人商用ライセンス:
+    aliases:
+    - 個人商用ライセンス
+    - 個人商用ライセンス
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  値下げ:
+    aliases:
+    - 値下げ
+    - 値下げ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  光る！:
+    aliases:
+    - 光る！
+    - 光る！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  全25:
+    aliases:
+    - 全25
+    - 全25
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  全6種:
+    aliases:
+    - 全6種
+    - 全6種
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  全6色:
+    aliases:
+    - 全6色
+    - 全6色
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  全アバター:
+    aliases:
+    - 全アバター
+    - 全アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  全品半額セール中:
+    aliases:
+    - 全品半額セール中
+    - 全品半額セール中
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  公認VRChat用モデル:
+    aliases:
+    - 公認VRChat用モデル
+    - 公認vrchat用モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  凪夜瑠璃:
+    aliases:
+    - 凪夜瑠璃
+    - 凪夜瑠璃
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  動く:
+    aliases:
+    - 動く
+    - 動く
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  商用利用可:
+    aliases:
+    - 商用利用可
+    - 商用利用可
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  基本無料:
+    aliases:
+    - 基本無料
+    - 基本無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  墨惺:
+    aliases:
+    - 墨惺
+    - 墨惺
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  墨惺 bokusei:
+    aliases:
+    - 墨惺 bokusei
+    - 墨惺 bokusei
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  夏セール:
+    aliases:
+    - 夏セール
+    - 夏セール
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  天狐ノ鬼姫ちゃん:
+    aliases:
+    - 天狐ノ鬼姫ちゃん
+    - 天狐ノ鬼姫ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  幽狐族のお姉様:
+    aliases:
+    - 幽狐族のお姉様
+    - 幽狐族のお姉様
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  廃止:
+    aliases:
+    - 廃止
+    - 廃止
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  彼方:
+    aliases:
+    - 彼方
+    - 彼方
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  愛莉:
+    aliases:
+    - 愛莉
+    - 愛莉
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  愛莉(Airi):
+    aliases:
+    - 愛莉(Airi)
+    - 愛莉(airi)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  愛莉, Airi:
+    aliases:
+    - 愛莉, Airi
+    - 愛莉, airi
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  愛莉-Airi:
+    aliases:
+    - 愛莉-Airi
+    - 愛莉-airi
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  揺れる:
+    aliases:
+    - 揺れる
+    - 揺れる
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  斑霞:
+    aliases:
+    - 斑霞
+    - 斑霞
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  斑霞専:
+    aliases:
+    - 斑霞専
+    - 斑霞専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  日本語+한국어+English:
+    aliases:
+    - 日本語+한국어+English
+    - 日本語+한국어+english
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  旧販売ページ:
+    aliases:
+    - 旧販売ページ
+    - 旧販売ページ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  星座series:
+    aliases:
+    - 星座series
+    - 星座series
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  更新:
+    aliases:
+    - 更新
+    - 更新
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  更新停止:
+    aliases:
+    - 更新停止
+    - 更新停止
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  期間限定無料:
+    aliases:
+    - 期間限定無料
+    - 期間限定無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  本体無料:
+    aliases:
+    - 本体無料
+    - 本体無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗(Kikyo):
+    aliases:
+    - 桔梗(Kikyo)
+    - 桔梗(kikyo)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗,Kikyo:
+    aliases:
+    - 桔梗,Kikyo
+    - 桔梗,kikyo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗-Kikyo:
+    aliases:
+    - 桔梗-Kikyo
+    - 桔梗-kikyo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗/Kikyo:
+    aliases:
+    - 桔梗/Kikyo
+    - 桔梗/kikyo
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗/舞夜:
+    aliases:
+    - 桔梗/舞夜
+    - 桔梗/舞夜
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗ちゃん:
+    aliases:
+    - 桔梗ちゃん
+    - 桔梗ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗ちゃん専:
+    aliases:
+    - 桔梗ちゃん専
+    - 桔梗ちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗ちゃん想定:
+    aliases:
+    - 桔梗ちゃん想定
+    - 桔梗ちゃん想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗専:
+    aliases:
+    - 桔梗専
+    - 桔梗専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅 / Shinra 専:
+    aliases:
+    - 森羅 / Shinra 専
+    - 森羅 / shinra 専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅(Shinra):
+    aliases:
+    - 森羅(Shinra)
+    - 森羅(shinra)
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅-shinra:
+    aliases:
+    - 森羅-shinra
+    - 森羅-shinra
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅/Shinra:
+    aliases:
+    - 森羅/Shinra
+    - 森羅/shinra
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅Shinra:
+    aliases:
+    - 森羅Shinra
+    - 森羅shinra
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅ちゃん:
+    aliases:
+    - 森羅ちゃん
+    - 森羅ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  正式:
+    aliases:
+    - 正式
+    - 正式
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  正式版対応済:
+    aliases:
+    - 正式版対応済
+    - 正式版対応済
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  水瀬 Minase:
+    aliases:
+    - 水瀬 Minase
+    - 水瀬 minase
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  水瀬-Minase:
+    aliases:
+    - 水瀬-Minase
+    - 水瀬-minase
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  水瀬<MINASE>専:
+    aliases:
+    - 水瀬<MINASE>専
+    - 水瀬<minase>専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  汎用3Dアイテム:
+    aliases:
+    - 汎用3Dアイテム
+    - 汎用3dアイテム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  汎用マテリアル:
+    aliases:
+    - 汎用マテリアル
+    - 汎用マテリアル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  汎用小物:
+    aliases:
+    - 汎用小物
+    - 汎用小物
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  泣夜専:
+    aliases:
+    - 泣夜専
+    - 泣夜専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無償:
+    aliases:
+    - 無償
+    - 無償
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料:
+    aliases:
+    - 無料
+    - 無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料 / Free:
+    aliases:
+    - 無料 / Free
+    - 無料 / free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料 / VRC想定:
+    aliases:
+    - 無料 / VRC想定
+    - 無料 / vrc想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料 FREE:
+    aliases:
+    - 無料 FREE
+    - 無料 free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料!!:
+    aliases:
+    - 無料!!
+    - 無料!!
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料, VRC想定:
+    aliases:
+    - 無料, VRC想定
+    - 無料, vrc想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料/FREE:
+    aliases:
+    - 無料/FREE
+    - 無料/free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料/MA:
+    aliases:
+    - 無料/MA
+    - 無料/ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料/free 汎:
+    aliases:
+    - 無料/free 汎
+    - 無料/free 汎
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料3Dモデル:
+    aliases:
+    - 無料3Dモデル
+    - 無料3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料DL3Dモデル:
+    aliases:
+    - 無料DL3Dモデル
+    - 無料dl3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料FREE:
+    aliases:
+    - 無料FREE
+    - 無料free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料VRCアバター:
+    aliases:
+    - 無料VRCアバター
+    - 無料vrcアバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料あり:
+    aliases:
+    - 無料あり
+    - 無料あり
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料あり/free sample:
+    aliases:
+    - 無料あり/free sample
+    - 無料あり/free sample
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料アイテム:
+    aliases:
+    - 無料アイテム
+    - 無料アイテム
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料アバター:
+    aliases:
+    - 無料アバター
+    - 無料アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料オリジナル3Dモデル:
+    aliases:
+    - 無料オリジナル3Dモデル
+    - 無料オリジナル3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料ポーズ:
+    aliases:
+    - 無料ポーズ
+    - 無料ポーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料ワールド:
+    aliases:
+    - 無料ワールド
+    - 無料ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料・Free:
+    aliases:
+    - 無料・Free
+    - 無料・free
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料・MA:
+    aliases:
+    - 無料・MA
+    - 無料・ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料・Quest:
+    aliases:
+    - 無料・Quest
+    - 無料・quest
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料・VRChat:
+    aliases:
+    - 無料・VRChat
+    - 無料・vrchat
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料有:
+    aliases:
+    - 無料有
+    - 無料有
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料有/ポーズ:
+    aliases:
+    - 無料有/ポーズ
+    - 無料有/ポーズ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料有/＋Free sample:
+    aliases:
+    - 無料有/＋Free sample
+    - 無料有/＋free sample
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料有り:
+    aliases:
+    - 無料有り
+    - 無料有り
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料版あり:
+    aliases:
+    - 無料版あり
+    - 無料版あり
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料版有:
+    aliases:
+    - 無料版有
+    - 無料版有
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料版有り:
+    aliases:
+    - 無料版有り
+    - 無料版有り
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料配布:
+    aliases:
+    - 無料配布
+    - 無料配布
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料配布中:
+    aliases:
+    - 無料配布中
+    - 無料配布中
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料！:
+    aliases:
+    - 無料！
+    - 無料！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  無料･VRC想定･MA:
+    aliases:
+    - 無料･VRC想定･MA
+    - 無料･vrc想定･ma
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  狐雪:
+    aliases:
+    - 狐雪
+    - 狐雪
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  狛乃:
+    aliases:
+    - 狛乃
+    - 狛乃
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  狛乃/Komano専:
+    aliases:
+    - 狛乃/Komano専
+    - 狛乃/komano専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  狛乃Komano:
+    aliases:
+    - 狛乃Komano
+    - 狛乃komano
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  狛乃専:
+    aliases:
+    - 狛乃専
+    - 狛乃専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  瑞希:
+    aliases:
+    - 瑞希
+    - 瑞希
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  瑞希、ルルネ:
+    aliases:
+    - 瑞希、ルルネ
+    - 瑞希、ルルネ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  瑞希＆ルルネ:
+    aliases:
+    - 瑞希＆ルルネ
+    - 瑞希＆ルルネ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  真冬:
+    aliases:
+    - 真冬
+    - 真冬
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  真冬ちゃん:
+    aliases:
+    - 真冬ちゃん
+    - 真冬ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  真冬専:
+    aliases:
+    - 真冬専
+    - 真冬専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  真央:
+    aliases:
+    - 真央
+    - 真央
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  真央専:
+    aliases:
+    - 真央専
+    - 真央専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  眼鏡:
+    aliases:
+    - 眼鏡
+    - 眼鏡
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  碼希:
+    aliases:
+    - 碼希
+    - 碼希
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  竜胆ちゃん:
+    aliases:
+    - 竜胆ちゃん
+    - 竜胆ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  竜胆ちゃん専:
+    aliases:
+    - 竜胆ちゃん専
+    - 竜胆ちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  竜胆専:
+    aliases:
+    - 竜胆専
+    - 竜胆専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  簡単導入:
+    aliases:
+    - 簡単導入
+    - 簡単導入
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  簡単！:
+    aliases:
+    - 簡単！
+    - 簡単！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  素体付き:
+    aliases:
+    - 素体付き
+    - 素体付き
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  素材・再配布可能:
+    aliases:
+    - 素材・再配布可能
+    - 素材・再配布可能
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  自動表情変化ギミック:
+    aliases:
+    - 自動表情変化ギミック
+    - 自動表情変化ギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  舞夜:
+    aliases:
+    - 舞夜
+    - 舞夜
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  舞夜,Maya:
+    aliases:
+    - 舞夜,Maya
+    - 舞夜,maya
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  舞夜-Maya:
+    aliases:
+    - 舞夜-Maya
+    - 舞夜-maya
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  舞夜ちゃん:
+    aliases:
+    - 舞夜ちゃん
+    - 舞夜ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  舞夜ちゃん専:
+    aliases:
+    - 舞夜ちゃん専
+    - 舞夜ちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  萌(Moe)専:
+    aliases:
+    - 萌(Moe)専
+    - 萌(moe)専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  萌ちゃん:
+    aliases:
+    - 萌ちゃん
+    - 萌ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  薄荷ちゃん:
+    aliases:
+    - 薄荷ちゃん
+    - 薄荷ちゃん
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  複数:
+    aliases:
+    - 複数
+    - 複数
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  複数Avatar:
+    aliases:
+    - 複数Avatar
+    - 複数avatar
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  複数アバター:
+    aliases:
+    - 複数アバター
+    - 複数アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  複数想定:
+    aliases:
+    - 複数想定
+    - 複数想定
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  記念コラボ:
+    aliases:
+    - 記念コラボ
+    - 記念コラボ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  豺狼:
+    aliases:
+    - 豺狼
+    - 豺狼
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  販売ワールド:
+    aliases:
+    - 販売ワールド
+    - 販売ワールド
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  追従ペット:
+    aliases:
+    - 追従ペット
+    - 追従ペット
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  追従型ペット:
+    aliases:
+    - 追従型ペット
+    - 追従型ペット
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  追従型ペットギミック:
+    aliases:
+    - 追従型ペットギミック
+    - 追従型ペットギミック
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  電脳義体用装備:
+    aliases:
+    - 電脳義体用装備
+    - 電脳義体用装備
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  食べられる:
+    aliases:
+    - 食べられる
+    - 食べられる
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  食べられる！:
+    aliases:
+    - 食べられる！
+    - 食べられる！
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  髪型Hair:
+    aliases:
+    - 髪型Hair
+    - 髪型hair
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  髪型PB:
+    aliases:
+    - 髪型PB
+    - 髪型pb
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  髪飾り:
+    aliases:
+    - 髪飾り
+    - 髪飾り
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  鳥専:
+    aliases:
+    - 鳥専
+    - 鳥専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  龍のヨルちゃん専:
+    aliases:
+    - 龍のヨルちゃん専
+    - 龍のヨルちゃん専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ＋Head専:
+    aliases:
+    - ＋Head専
+    - ＋head専
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  １０アバター:
+    aliases:
+    - １０アバター
+    - １０アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  １５アバター:
+    aliases:
+    - １５アバター
+    - １５アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  １７アバター:
+    aliases:
+    - １７アバター
+    - １７アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ２アバター:
+    aliases:
+    - ２アバター
+    - ２アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ２時間限定販売:
+    aliases:
+    - ２時間限定販売
+    - ２時間限定販売
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３Dモデル:
+    aliases:
+    - ３Dモデル
+    - ３dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３Dモデルアクセサリ:
+    aliases:
+    - ３Dモデルアクセサリ
+    - ３dモデルアクセサリ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３Dモデルウェア:
+    aliases:
+    - ３Dモデルウェア
+    - ３dモデルウェア
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３D小物:
+    aliases:
+    - ３D小物
+    - ３d小物
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３アバター:
+    aliases:
+    - ３アバター
+    - ３アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ４アバター:
+    aliases:
+    - ４アバター
+    - ４アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ５アバター:
+    aliases:
+    - ５アバター
+    - ５アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ６アバター:
+    aliases:
+    - ６アバター
+    - ６アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ７アバター:
+    aliases:
+    - ７アバター
+    - ７アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ７体:
+    aliases:
+    - ７体
+    - ７体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ８アバター:
+    aliases:
+    - ８アバター
+    - ８アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ９アバター:
+    aliases:
+    - ９アバター
+    - ９アバター
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ９体:
+    aliases:
+    - ９体
+    - ９体
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ＰＢ:
+    aliases:
+    - ＰＢ
+    - ｐｂ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ＳＤＫ2:
+    aliases:
+    - ＳＤＫ2
+    - ｓｄｋ2
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ﾑｰ:
+    aliases:
+    - ﾑｰ
+    - ﾑｰ
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  𝐀𝐎𝐏𝐎𝐍:
+    aliases:
+    - 𝐀𝐎𝐏𝐎𝐍
+    - 𝐀𝐎𝐏𝐎𝐍
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬:
+    aliases:
+    - 𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬
+    - 𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  🎁無料:
+    aliases:
+    - 🎁無料
+    - 🎁無料
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  💖セール中💖:
+    aliases:
+    - 💖セール中💖
+    - 💖セール中💖
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -3457,6 +9393,41 @@ features_flat:
   lilToon: *id126
   lilToon Compatible: *id127
 outfit_types:
+  3Dモデル衣装:
+    aliases:
+    - 3Dモデル衣装
+    - 3dモデル衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D衣装:
+    aliases:
+    - 3D衣装
+    - 3d衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3D衣装モデル:
+    aliases:
+    - 3D衣装モデル
+    - 3d衣装モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  3アバター対応衣装:
+    aliases:
+    - 3アバター対応衣装
+    - 3アバター対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  5アバター対応衣装:
+    aliases:
+    - 5アバター対応衣装
+    - 5アバター対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Apron: *id128
   Apron Dress: *id129
   Armor: *id130
@@ -3496,6 +9467,20 @@ outfit_types:
   Dress Shirt: *id164
   Duffle Coat: *id165
   Dungarees: *id166
+  EFBody専用衣装:
+    aliases:
+    - EFBody専用衣装
+    - efbody専用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  FREE/セット衣装:
+    aliases:
+    - FREE/セット衣装
+    - free/セット衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Fishnet Tights: *id167
   Flare Skirt: *id168
   Frill: *id169
@@ -3553,6 +9538,13 @@ outfit_types:
   Long Skirt: *id221
   Loose Socks: *id222
   Loungewear: *id223
+  MAYA 舞夜 用衣装:
+    aliases:
+    - MAYA 舞夜 用衣装
+    - maya 舞夜 用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Maid Outfit: *id224
   Matching Set: *id225
   Micro Bikini: *id226
@@ -3624,6 +9616,76 @@ outfit_types:
   Turtleneck: *id292
   Underwear: *id293
   Uniform: *id294
+  VRC 衣装:
+    aliases:
+    - VRC 衣装
+    - vrc 衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat 3D衣装:
+    aliases:
+    - VRChat 3D衣装
+    - vrchat 3d衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat3D衣装:
+    aliases:
+    - VRChat3D衣装
+    - vrchat3d衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat向け衣装:
+    aliases:
+    - VRChat向け衣装
+    - vrchat向け衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRChat衣装:
+    aliases:
+    - VRChat衣装
+    - vrchat衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC対応3D服飾モデル:
+    aliases:
+    - VRC対応3D服飾モデル
+    - vrc対応3d服飾モデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC対応衣装:
+    aliases:
+    - VRC対応衣装
+    - vrc対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC想定衣装:
+    aliases:
+    - VRC想定衣装
+    - vrc想定衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRC衣装:
+    aliases:
+    - VRC衣装
+    - vrc衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  VRoid衣装:
+    aliases:
+    - VRoid衣装
+    - vroid衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
   Varsity Jacket: *id295
   Veil: *id296
   Vest: *id297
@@ -3632,6 +9694,174 @@ outfit_types:
   Wide Pants: *id300
   Witch Outfit: *id301
   Yukata: *id302
+  くろなつ用衣装:
+    aliases:
+    - くろなつ用衣装
+    - くろなつ用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  まめふれんず対応衣装:
+    aliases:
+    - まめふれんず対応衣装
+    - まめふれんず対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  アバター向け衣装3Dモデル:
+    aliases:
+    - アバター向け衣装3Dモデル
+    - アバター向け衣装3dモデル
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ウルフェリア用衣装:
+    aliases:
+    - ウルフェリア用衣装
+    - ウルフェリア用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  オリジナル3D衣装:
+    aliases:
+    - オリジナル3D衣装
+    - オリジナル3d衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  キプフェル対応衣装:
+    aliases:
+    - キプフェル対応衣装
+    - キプフェル対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ギミック付き衣装:
+    aliases:
+    - ギミック付き衣装
+    - ギミック付き衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  クララ・コロネ・アズキ対応衣装:
+    aliases:
+    - クララ・コロネ・アズキ対応衣装
+    - クララ・コロネ・アズキ対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セミ対応衣装:
+    aliases:
+    - セミ対応衣装
+    - セミ対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  セレスティア用衣装:
+    aliases:
+    - セレスティア用衣装
+    - セレスティア用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  センティッド用衣装:
+    aliases:
+    - センティッド用衣装
+    - センティッド用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ソフィナちゃん用衣装:
+    aliases:
+    - ソフィナちゃん用衣装
+    - ソフィナちゃん用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  デルタフレア向け衣装:
+    aliases:
+    - デルタフレア向け衣装
+    - デルタフレア向け衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  対応衣装:
+    aliases:
+    - 対応衣装
+    - 対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  専用衣装:
+    aliases:
+    - 専用衣装
+    - 専用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  桔梗用衣装:
+    aliases:
+    - 桔梗用衣装
+    - 桔梗用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  森羅-Shinra-用衣装:
+    aliases:
+    - 森羅-Shinra-用衣装
+    - 森羅-shinra-用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  灰島専用衣装:
+    aliases:
+    - 灰島専用衣装
+    - 灰島専用衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  衣装 / 靴:
+    aliases:
+    - 衣装 / 靴
+    - 衣装 / 靴
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  衣装・小物:
+    aliases:
+    - 衣装・小物
+    - 衣装・小物
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  複数アバター対応衣装:
+    aliases:
+    - 複数アバター対応衣装
+    - 複数アバター対応衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ３D衣装:
+    aliases:
+    - ３D衣装
+    - ３d衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ｽｷﾆﾝｸﾞ済み衣装:
+    aliases:
+    - ｽｷﾆﾝｸﾞ済み衣装
+    - ｽｷﾆﾝｸﾞ済み衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
+  ｽｷﾆﾝｸﾞ済衣装:
+    aliases:
+    - ｽｷﾆﾝｸﾞ済衣装
+    - ｽｷﾆﾝｸﾞ済衣装
+    metadata:
+      faceemo_version: any
+      udonsharp_compat: true
 platforms:
   Blender:
     aliases:

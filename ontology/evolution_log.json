@@ -83,5 +83,4460 @@
     "timestamp": "2026-06-11T17:09:15.542120",
     "event": "pipeline_run_verified",
     "description": "Autonomous cycle completed with full schema enforcement."
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.763123",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Ashenclothes' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.763781",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EvicPlus' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.764052",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.764307",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10 avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.764605",
+    "event": "tag_promoted",
+    "description": "Promoted tag '100アバター以上' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.764857",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.765135",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.765378",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10Avaters' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.765700",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.765965",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10人' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.766209",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10体' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.766503",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11 Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.766744",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.767092",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.767362",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.767664",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11体' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.767986",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.768258",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.768541",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.768891",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.769151",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.769426",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.769687",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.770023",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.770291",
+    "event": "tag_promoted",
+    "description": "Promoted tag '14アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.770559",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.770888",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.771177",
+    "event": "tag_promoted",
+    "description": "Promoted tag '16 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.771553",
+    "event": "tag_promoted",
+    "description": "Promoted tag '16アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.771904",
+    "event": "tag_promoted",
+    "description": "Promoted tag '16モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.772285",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.772609",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17アバター対応 VRC Hair' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.773006",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.773379",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18 avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.773743",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.774083",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.774484",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.774894",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.775268",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.775639",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.776039",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.776432",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.776759",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.777143",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.777481",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.777882",
+    "event": "tag_promoted",
+    "description": "Promoted tag '22 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.778419",
+    "event": "tag_promoted",
+    "description": "Promoted tag '22アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.778776",
+    "event": "tag_promoted",
+    "description": "Promoted tag '23アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.779139",
+    "event": "tag_promoted",
+    "description": "Promoted tag '24アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.780327",
+    "event": "tag_promoted",
+    "description": "Promoted tag '25アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.781861",
+    "event": "tag_promoted",
+    "description": "Promoted tag '26アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.782287",
+    "event": "tag_promoted",
+    "description": "Promoted tag '27アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.782709",
+    "event": "tag_promoted",
+    "description": "Promoted tag '28アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.783108",
+    "event": "tag_promoted",
+    "description": "Promoted tag '29アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.783547",
+    "event": "tag_promoted",
+    "description": "Promoted tag '2アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.784041",
+    "event": "tag_promoted",
+    "description": "Promoted tag '2周年記念セール - 6月15日まで' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.784493",
+    "event": "tag_promoted",
+    "description": "Promoted tag '2種' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.784922",
+    "event": "tag_promoted",
+    "description": "Promoted tag '30アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.785337",
+    "event": "tag_promoted",
+    "description": "Promoted tag '31アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.785789",
+    "event": "tag_promoted",
+    "description": "Promoted tag '32アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.786378",
+    "event": "tag_promoted",
+    "description": "Promoted tag '33アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.786815",
+    "event": "tag_promoted",
+    "description": "Promoted tag '34アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.787261",
+    "event": "tag_promoted",
+    "description": "Promoted tag '35アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.787761",
+    "event": "tag_promoted",
+    "description": "Promoted tag '36アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.788184",
+    "event": "tag_promoted",
+    "description": "Promoted tag '37アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.788618",
+    "event": "tag_promoted",
+    "description": "Promoted tag '38アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.789014",
+    "event": "tag_promoted",
+    "description": "Promoted tag '39アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.789415",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.789816",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D model' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.790219",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3DModel' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.790642",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Ditem' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.791053",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dアクセサリー' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.791470",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.791921",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dコスチューム' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.792418",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dヘアモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.792868",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.793310",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデルアクセサリ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.793813",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデルウェア' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.794292",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデル・MA対応・VRChat想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.794772",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデル衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.795318",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D小物' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.795832",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D小道具' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.796293",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D環境・ワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.796771",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.797475",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D衣装モデル' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.798083",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.798696",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3アバター対応衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.799296",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.799930",
+    "event": "tag_promoted",
+    "description": "Promoted tag '40アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.800425",
+    "event": "tag_promoted",
+    "description": "Promoted tag '43アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.800969",
+    "event": "tag_promoted",
+    "description": "Promoted tag '44アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.801464",
+    "event": "tag_promoted",
+    "description": "Promoted tag '45アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.801973",
+    "event": "tag_promoted",
+    "description": "Promoted tag '46アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.802486",
+    "event": "tag_promoted",
+    "description": "Promoted tag '47アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.802980",
+    "event": "tag_promoted",
+    "description": "Promoted tag '48アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.803474",
+    "event": "tag_promoted",
+    "description": "Promoted tag '49アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.804052",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.804555",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.805076",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4人' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.805580",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.806213",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.806928",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.807547",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5アバター対応衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.808163",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.808758",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5人' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.810079",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.810798",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.811403",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.812014",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.812562",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6人' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.813117",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.813692",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.814481",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.815048",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8 Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.815783",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.816365",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.816947",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.817517",
+    "event": "tag_promoted",
+    "description": "Promoted tag '9Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.818086",
+    "event": "tag_promoted",
+    "description": "Promoted tag '9Avatars' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.818682",
+    "event": "tag_promoted",
+    "description": "Promoted tag '9アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.819409",
+    "event": "tag_promoted",
+    "description": "Promoted tag '9人' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.820188",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'AFK' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.820840",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Alué' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.821560",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Archived' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.822244",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'AudioLink' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.823002",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Bird/鳥' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.823619",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'BlueGuaShop' to tags.yaml (colors) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.824428",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CC0' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.825229",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Chocolat/ショコラ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.825903",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Deorart' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.826514",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DragonHornシリーズ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.827122",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DragonTailシリーズ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.827819",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DragonWingシリーズ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.828448",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EFBody専用衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.829084",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EasternWindアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.829730",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EvicPlus】' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.830436",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.831136",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE!' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.831831",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE/無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.832547",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FX' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.833301",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'For World' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.833954",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Free / 無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.835024",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Free-無料-' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.836391",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Grus/Lapwing' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.837121",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Grus/Lapwing/Lowtus' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.837845",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Grus専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.838525",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'KUMALY  update' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.839259",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'KUMALY update' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.840106",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Kipfel/キプフェル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.840787",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lapwing専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.841538",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Li-ne_Shop' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.842234",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lily Cafe' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.842958",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lume Optic専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.843705",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MANUKA(マヌカ)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.844584",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MAYA 舞夜 用衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.845354",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MAYA舞夜' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.846103",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MAギミック付き' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.846845",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA前提ギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.847700",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA対応 丨武器ギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.848531",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA対応・VRChat想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.849418",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA対応！' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.850297",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA設定済' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.851090",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA設定済み' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.851899",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MDollnail' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.852650",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MP' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.853399",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MameFriends' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.854199",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Marycia専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.855060",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Maya●舞夜専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.855880",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Milltina/ミルティナ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.856784",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ModularAvatar対応ギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.857636",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Motion Animation' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.858444",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'NN SHOP' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.859380",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Nail + Ring' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.860752",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'OSC' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.861515",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Original 3D Model' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.862323",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'O₂ Series' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.863092",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB未' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.863890",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB設定付き' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.864779",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB設定済' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.865584",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB設定済み' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.866376",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PC/Quest' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.867356",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PIROUETTE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.868437",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Physics Bone' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.869378",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Plum update' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.870481",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PlusGimmick' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.871475",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'QvPen差し替えモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.872496",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Rindo●竜胆専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.873307",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'SALE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.874259",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Selestia専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.875202",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Shinra(森羅)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.876103",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Shinra(森羅)専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.876955",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Skybox' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.878547",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Symphony of Duchess' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.880036",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'UdonChips' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.881122",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Udonギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.882171",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Unity/VRChat' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.883314",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'UnityEditor拡張' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.884334",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'UrbanViper' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.885544",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'V...' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.887075",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VCC' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.888692",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VFX' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.889603",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VR...' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.890584",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC / Particle' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.891604",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC / VRM 対応3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.892579",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC Hair' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.893453",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC UDONギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.894309",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC 対応3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.895226",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC 想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.896172",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC 衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.897083",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC/PB' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.898045",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC/Quest/VRM' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.899087",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC/VRM' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.900392",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCHAT想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.901572",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCHAT想定3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.902863",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat 3D衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.903970",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat Hair' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.905178",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat PB' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.906156",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat ワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.907385",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat/3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.908424",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat/UnityEffcts' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.909666",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatAvatar3.0想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.911026",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.912526",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatアバターギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.913850",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.915618",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatワールドギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.917248",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向け3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.918644",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向けアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.920032",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向けオリジナル3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.921571",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向けワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.923342",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向け衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.925063",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat対応3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.926129",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定3Dアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.927098",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定MA' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.928169",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.929121",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定・MA' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.930136",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定３Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.931224",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.932511",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCに簡単導入！' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.933571",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.934580",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCアバターギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.935795",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.936858",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.937935",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCワールドギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.938992",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC向け3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.940140",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC向けアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.941572",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC向けワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.943193",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC対応3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.944319",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC対応3D服飾モデル' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.945553",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC対応3D雑貨モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.946855",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.948024",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/20アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.949225",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/21アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.950382",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/22アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.951550",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/23アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.952740",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.954084",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定hair' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.955312",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定アクセサリー' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.956876",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定武器' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.958323",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.959778",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定･MA' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.961055",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC用アニメファイル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.962431",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC用武器' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.964353",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.965815",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRM&Unitypackage' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.967029",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRMモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.968225",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRchat対応ワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.969838",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid β' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.970997",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoidテクスチャ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.972330",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.973510",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Wind Racer' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.974792",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'World' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.976212",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'YMファンメイド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.977333",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ZEF' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.978479",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ahzkwid' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.979682",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'for VRChat' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.980931",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'minase/水瀬' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.982093",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'muu(ﾑｰ)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.983635",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'only 4U' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.984898",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'vrm/vroid/vrc' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.986168",
+    "event": "tag_promoted",
+    "description": "Promoted tag '☁Lapwing' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.987567",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'うささき' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.989113",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'うささき専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.990617",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'お着替え' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.992264",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'かんたん着' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.994379",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くうた' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.996161",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くうた-Kuuta' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.997311",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くろなつ用衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.998489",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ここあ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:14.999779",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'こまどアバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.001045",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しお' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.002367",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.003644",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの(Shinano)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.004847",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの/Shinano' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.006141",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.007409",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しゅあん/Shuan' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.008777",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'はむ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.010770",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ますきゃっと' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.012071",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめひなた・キプフェル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.013269",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめひなた専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.014491",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめふれ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.015866",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめふれんず' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.017212",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめふれんず対応衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.019127",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめふれんず専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.020490",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まよ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.021694",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'みみのこ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.022964",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アイテクスチャ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.024217",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アクセサリー' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.025478",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アニメーション付き' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.026709",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アバターギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.028061",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'イチゴ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.029310",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'イヤリング' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.030615",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'イヨ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.032197",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ウルフェリア' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.033751",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'エク' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.035143",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'エルシオン専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.036699",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'オリジナル3Dコスチューム' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.038167",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'オリジナル３Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.039604",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'オリジナル３Ｄモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.041495",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'カリンちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.043245",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'カリンちゃん専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.044570",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'カリン専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.046009",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル / Kipfel' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.048216",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル Kipfel' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.049656",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル/Kipfel専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.051007",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル・まめひなた' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.052442",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル・みみのこ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.053769",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル・リルレオ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.055069",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.056568",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミックつき' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.058009",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.059332",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付3D武器モデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.060847",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付き' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.062244",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付き3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.063679",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付き衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.065075",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'コロネ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.066845",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'サフィー' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.068225",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'サポート終了' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.069589",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'シフォン' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.070912",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'シャロ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.072348",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ショコラ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.073960",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ショコラ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.076134",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セミ対応衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.078131",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セレスティアちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.079943",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セレスティア専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.081817",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セール' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.084190",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セール開催中' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.086349",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ゾメ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.089135",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ゾメちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.091300",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ゾメちゃん専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.093380",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'デルタフレア' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.095271",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ネコチヤン' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.097088",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ネメシス' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.099203",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'パーティクル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.102154",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'パーティクル付き' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.104100",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'フォシュニア専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.105946",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'プラム' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.108277",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカManuka' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.110708",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.113257",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.117000",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マリシア' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.119420",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マリシア専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.128807",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.133548",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ Milltina' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.136717",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ(Milltina)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.139250",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ-Milltina' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.142036",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ/Milltina' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.145158",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.149670",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルフィ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.152698",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルフィ/Milfy' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.154629",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'メリノ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.156701",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラシューシャ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.158458",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラシューシャ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.160492",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラスクちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.162709",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラムネ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.164474",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラムネ/Ramune' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.166699",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リップシンク' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.168405",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リーサルフリート' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.170138",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルミナ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.172114",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルミナ/LUMINA' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.174177",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルミナあり' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.176495",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルルネ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.178784",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルルネ専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.181239",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.184372",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ワールドギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.187591",
+    "event": "tag_promoted",
+    "description": "Promoted tag '一部無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.190961",
+    "event": "tag_promoted",
+    "description": "Promoted tag '三日間無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.193761",
+    "event": "tag_promoted",
+    "description": "Promoted tag '両変換' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.195980",
+    "event": "tag_promoted",
+    "description": "Promoted tag '仙猫、豺狼' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.198173",
+    "event": "tag_promoted",
+    "description": "Promoted tag '値下げ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.200507",
+    "event": "tag_promoted",
+    "description": "Promoted tag '全25' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.202398",
+    "event": "tag_promoted",
+    "description": "Promoted tag '全アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.204467",
+    "event": "tag_promoted",
+    "description": "Promoted tag '動く' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.206427",
+    "event": "tag_promoted",
+    "description": "Promoted tag '墨惺' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.208878",
+    "event": "tag_promoted",
+    "description": "Promoted tag '夏セール' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.211339",
+    "event": "tag_promoted",
+    "description": "Promoted tag '天狐ノ鬼姫ちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.213451",
+    "event": "tag_promoted",
+    "description": "Promoted tag '彼方' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.215677",
+    "event": "tag_promoted",
+    "description": "Promoted tag '愛莉' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.218424",
+    "event": "tag_promoted",
+    "description": "Promoted tag '愛莉(Airi)' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.220628",
+    "event": "tag_promoted",
+    "description": "Promoted tag '斑霞' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.223096",
+    "event": "tag_promoted",
+    "description": "Promoted tag '星座series' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.226070",
+    "event": "tag_promoted",
+    "description": "Promoted tag '期間限定無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.229438",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗,Kikyo' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.231698",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗-Kikyo' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.233946",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗ちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.235659",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗ちゃん専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.237421",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗ちゃん想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.239635",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.241388",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗用衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.244055",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅/Shinra' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.246521",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅ちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.250424",
+    "event": "tag_promoted",
+    "description": "Promoted tag '正式' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.254131",
+    "event": "tag_promoted",
+    "description": "Promoted tag '水瀬-Minase' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.259391",
+    "event": "tag_promoted",
+    "description": "Promoted tag '汎用3Dアイテム' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.262492",
+    "event": "tag_promoted",
+    "description": "Promoted tag '汎用マテリアル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.265203",
+    "event": "tag_promoted",
+    "description": "Promoted tag '汎用小物' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.268092",
+    "event": "tag_promoted",
+    "description": "Promoted tag '灰島専用衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.271937",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.276365",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料 / Free' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.279505",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料 / VRC想定' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.281836",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料 FREE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.285005",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料/FREE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.287200",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.289229",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料DL3Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.291674",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料FREE' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.294078",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料あり' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.295903",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料アイテム' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.297930",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料ポーズ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.300293",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料・Free' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.302787",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料有' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.304964",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料有/＋Free sample' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.307467",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料版あり' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.312044",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料版有' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.316941",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料版有り' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.319016",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料配布' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.320866",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料！' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.322594",
+    "event": "tag_promoted",
+    "description": "Promoted tag '狐雪' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.324611",
+    "event": "tag_promoted",
+    "description": "Promoted tag '狛乃' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.326951",
+    "event": "tag_promoted",
+    "description": "Promoted tag '狛乃専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.328910",
+    "event": "tag_promoted",
+    "description": "Promoted tag '瑞希' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.332144",
+    "event": "tag_promoted",
+    "description": "Promoted tag '真冬' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.334908",
+    "event": "tag_promoted",
+    "description": "Promoted tag '真央' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.337862",
+    "event": "tag_promoted",
+    "description": "Promoted tag '真央専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.341242",
+    "event": "tag_promoted",
+    "description": "Promoted tag '竜胆ちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.344305",
+    "event": "tag_promoted",
+    "description": "Promoted tag '簡単導入' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.347723",
+    "event": "tag_promoted",
+    "description": "Promoted tag '自動表情変化ギミック' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.351347",
+    "event": "tag_promoted",
+    "description": "Promoted tag '舞夜' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.354629",
+    "event": "tag_promoted",
+    "description": "Promoted tag '舞夜,Maya' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.358524",
+    "event": "tag_promoted",
+    "description": "Promoted tag '舞夜ちゃん' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.363463",
+    "event": "tag_promoted",
+    "description": "Promoted tag '舞夜ちゃん専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.366362",
+    "event": "tag_promoted",
+    "description": "Promoted tag '衣装・小物' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.369053",
+    "event": "tag_promoted",
+    "description": "Promoted tag '複数' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.372303",
+    "event": "tag_promoted",
+    "description": "Promoted tag '複数Avatar' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.375350",
+    "event": "tag_promoted",
+    "description": "Promoted tag '複数アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.378418",
+    "event": "tag_promoted",
+    "description": "Promoted tag '複数アバター対応衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.381886",
+    "event": "tag_promoted",
+    "description": "Promoted tag '販売ワールド' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.385290",
+    "event": "tag_promoted",
+    "description": "Promoted tag '追従ペット' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.388655",
+    "event": "tag_promoted",
+    "description": "Promoted tag '電脳義体用装備' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.391709",
+    "event": "tag_promoted",
+    "description": "Promoted tag '食べられる' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.394994",
+    "event": "tag_promoted",
+    "description": "Promoted tag '髪飾り' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.397292",
+    "event": "tag_promoted",
+    "description": "Promoted tag '＋Head専' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.400004",
+    "event": "tag_promoted",
+    "description": "Promoted tag '２時間限定販売' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.402295",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３Dモデル' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.405310",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３Dモデルアクセサリ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.408589",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３Dモデルウェア' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.411481",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３D小物' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.413794",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３D衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.416495",
+    "event": "tag_promoted",
+    "description": "Promoted tag '３アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.419436",
+    "event": "tag_promoted",
+    "description": "Promoted tag '４アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.423456",
+    "event": "tag_promoted",
+    "description": "Promoted tag '５アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.426913",
+    "event": "tag_promoted",
+    "description": "Promoted tag '６アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.429777",
+    "event": "tag_promoted",
+    "description": "Promoted tag '７アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.432310",
+    "event": "tag_promoted",
+    "description": "Promoted tag '８アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.435582",
+    "event": "tag_promoted",
+    "description": "Promoted tag '９アバター' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.439739",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ｽｷﾆﾝｸﾞ済み衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.446088",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ｽｷﾆﾝｸﾞ済衣装' to tags.yaml (outfit_types) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.449753",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ﾑｰ' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.453811",
+    "event": "tag_promoted",
+    "description": "Promoted tag '𝐀𝐎𝐏𝐎𝐍' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.458618",
+    "event": "tag_promoted",
+    "description": "Promoted tag '🎁無料' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.462229",
+    "event": "tag_promoted",
+    "description": "Promoted tag '💖セール中💖' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.465884",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CORE' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.470927",
+    "event": "tag_promoted",
+    "description": "Promoted tag '100円' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.477379",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11Avatar' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.481587",
+    "event": "tag_promoted",
+    "description": "Promoted tag '11モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.485538",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13人' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.490072",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13体' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.495549",
+    "event": "tag_promoted",
+    "description": "Promoted tag '14 Avatar' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.500061",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.504423",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.508275",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17人' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.512549",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18-Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.516635",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20人' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.520078",
+    "event": "tag_promoted",
+    "description": "Promoted tag '22アバター対応コーデ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.523059",
+    "event": "tag_promoted",
+    "description": "Promoted tag '28モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.527084",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3 Men Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.532457",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3.0 Update!' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.535205",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.537731",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dアクセ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.539878",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D背景' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.541967",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3D髪型' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.544153",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4体' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.546243",
+    "event": "tag_promoted",
+    "description": "Promoted tag '5体' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.548809",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6 アバター' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.551952",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.554677",
+    "event": "tag_promoted",
+    "description": "Promoted tag '6アバター対応です' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.557734",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7color' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.561187",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.564022",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7月まで販売停止' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.567537",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.571621",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8Avaters' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.575137",
+    "event": "tag_promoted",
+    "description": "Promoted tag '9 Avatars' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.578727",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'All Avatar' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.581572",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Alué 専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.586180",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Anubis Summer' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.590497",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CORE]' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.606765",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Caped Coat' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.611574",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Cavo's' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.615289",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DanceMotion' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.619389",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DragonARMシリーズ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.626015",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DragonParts' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.630298",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EYEtexture' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.634847",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE♥無料' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.639170",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREEあり' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.642186",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Flower_Nail' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.647091",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'For Avatar' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.651734",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Free無料' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.656319",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Kikyo●桔梗専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.661149",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'LUMINA/ルミナ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.665227",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lapwing/Grus' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.671050",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lasyusha・ラシューシャ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.675046",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Leeme＆Reeva' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.686274",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA/PB' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.691150",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA設定済み/武器モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.695142",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Maru's VFX' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.699348",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Moe(萌)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.703626",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB対応/Liltoon' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.711106",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PC & Android' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.716074",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PSD' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.720375",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'RVC' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.723861",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'RVCモデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.728975",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'SBOシリーズ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.733742",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Shinra專' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.738075",
+    "event": "style_promoted",
+    "description": "Promoted tag 'Street Hoody' to styles.yaml with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.741467",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Tatoo texture' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.747491",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Unity/VRChat シェーダー' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.753822",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Unity/VRChat パーティクル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.758154",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC 髪型' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.761363",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCAvatar' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.764448",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat3D衣装' to tags.yaml (outfit_types) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.767234",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定/MA' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.770476",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定アバターギミック' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.773802",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定ギミック' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.777271",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.787216",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定ワールド' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.793272",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定一部MA' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.796237",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat用アクセサリー' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.799091",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC利用想定' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.801649",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC武器モデル/ABS' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.804389",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRchat・Quest' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.807071",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'XWear' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.809717",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'rurune専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.812424",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'unityエディタ拡張' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.815158",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'v2対応済・商用利用可・歌唱' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.817812",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'えりをはだけるギミック' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.820991",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'きりはら製作所' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.826868",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くうた- Kuuta-' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.831725",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くうた-Kuuta-' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.835737",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'こまどアバター専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.839451",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの Shinano' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.843105",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの-Shinano' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.846339",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しらつめ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.849612",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ぷにぷにあばたー' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.853560",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめひなたちゃん専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.858248",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめふれんず・うささき' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.862659",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめフレンズ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.866363",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'りりか' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.869735",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アズキ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.874260",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アバターギミック/MA' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.877479",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アバター向け衣装3Dモデル' to tags.yaml (outfit_types) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.880483",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'イリス' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.883456",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'エク/Eku' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.886872",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'オリジナル3D衣装' to tags.yaml (outfit_types) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.890164",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'カリン(Karin)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.894220",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル-Kipfel' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.897989",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ギミック付武具' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.901664",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ショコラ(Chocolat)専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.905017",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セレスティア(SELESTIA)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.908330",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セール中' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.913529",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ハオラン専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.917303",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'フルリメイクバージョン' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.932089",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカ(Manuka)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.937206",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルフィ専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.945424",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ムルル専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.950286",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リナシータ/Rinasciita 専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.954755",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リーファ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.963302",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルルネ／rurune専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.966996",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ワールド パーツ販売' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.970773",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ワールド販売' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.975570",
+    "event": "tag_promoted",
+    "description": "Promoted tag '仙猫' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.980298",
+    "event": "tag_promoted",
+    "description": "Promoted tag '伊弉諾' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.984945",
+    "event": "tag_promoted",
+    "description": "Promoted tag '個人商用ライセンス' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.990062",
+    "event": "tag_promoted",
+    "description": "Promoted tag '公認VRChat用モデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.994032",
+    "event": "tag_promoted",
+    "description": "Promoted tag '商用利用可' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:15.998012",
+    "event": "tag_promoted",
+    "description": "Promoted tag '基本無料' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.001897",
+    "event": "tag_promoted",
+    "description": "Promoted tag '墨惺 bokusei' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.005020",
+    "event": "tag_promoted",
+    "description": "Promoted tag '対応衣装' to tags.yaml (outfit_types) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.007669",
+    "event": "tag_promoted",
+    "description": "Promoted tag '更新停止' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.010208",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗(Kikyo)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.012791",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅(Shinra)' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.015327",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅-shinra' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.018249",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅Shinra' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.020910",
+    "event": "tag_promoted",
+    "description": "Promoted tag '水瀬 Minase' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.023327",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料!!' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.026135",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料/free 汎' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.028713",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料オリジナル3Dモデル' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.031266",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料・Quest' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.034240",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料・VRChat' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.037682",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料有/ポーズ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.041149",
+    "event": "tag_promoted",
+    "description": "Promoted tag '瑞希＆ルルネ' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.043835",
+    "event": "tag_promoted",
+    "description": "Promoted tag '真冬ちゃん' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.046519",
+    "event": "tag_promoted",
+    "description": "Promoted tag '真冬専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.049450",
+    "event": "tag_promoted",
+    "description": "Promoted tag '眼鏡' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.052189",
+    "event": "tag_promoted",
+    "description": "Promoted tag '竜胆専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.054853",
+    "event": "tag_promoted",
+    "description": "Promoted tag '素体付き' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.057389",
+    "event": "tag_promoted",
+    "description": "Promoted tag '素材・再配布可能' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.059992",
+    "event": "tag_promoted",
+    "description": "Promoted tag '舞夜-Maya' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.062628",
+    "event": "tag_promoted",
+    "description": "Promoted tag '萌(Moe)専' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.065772",
+    "event": "tag_promoted",
+    "description": "Promoted tag '萌ちゃん' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.068766",
+    "event": "tag_promoted",
+    "description": "Promoted tag '衣装 / 靴' to tags.yaml (outfit_types) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.072778",
+    "event": "tag_promoted",
+    "description": "Promoted tag '１７アバター' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.075888",
+    "event": "tag_promoted",
+    "description": "Promoted tag '２アバター' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.078896",
+    "event": "tag_promoted",
+    "description": "Promoted tag '９体' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.081603",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ＳＤＫ2' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.084201",
+    "event": "tag_promoted",
+    "description": "Promoted tag '𝟒 𝐌𝐞𝐧 𝐀𝐯𝐚𝐭𝐚𝐫𝐬' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.086812",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRブラリコ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.089393",
+    "event": "tag_promoted",
+    "description": "Promoted tag '10点' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.092040",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.095043",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.098430",
+    "event": "tag_promoted",
+    "description": "Promoted tag '12体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.101559",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.104233",
+    "event": "tag_promoted",
+    "description": "Promoted tag '13-Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.107071",
+    "event": "tag_promoted",
+    "description": "Promoted tag '14' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.110334",
+    "event": "tag_promoted",
+    "description": "Promoted tag '14アバター対応！/ギミック付き！' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.113399",
+    "event": "tag_promoted",
+    "description": "Promoted tag '14体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.116170",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.118889",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15アバター対応 VRC Hair' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.121534",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15パターン以上' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.124079",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15人' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.126701",
+    "event": "tag_promoted",
+    "description": "Promoted tag '15体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.129393",
+    "event": "tag_promoted",
+    "description": "Promoted tag '16avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.132192",
+    "event": "tag_promoted",
+    "description": "Promoted tag '16アバター対応 VRC Hair' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.134940",
+    "event": "tag_promoted",
+    "description": "Promoted tag '17 Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.137787",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.140679",
+    "event": "tag_promoted",
+    "description": "Promoted tag '18人' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.143218",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.145800",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19 Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.148372",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19 アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.151122",
+    "event": "tag_promoted",
+    "description": "Promoted tag '19体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.154451",
+    "event": "tag_promoted",
+    "description": "Promoted tag '2025y.Collection' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.157534",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.160141",
+    "event": "tag_promoted",
+    "description": "Promoted tag '20アバター、MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.162894",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21 Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.165688",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.168401",
+    "event": "tag_promoted",
+    "description": "Promoted tag '21体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.171195",
+    "event": "tag_promoted",
+    "description": "Promoted tag '28点' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.174151",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3 Avatars' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.177369",
+    "event": "tag_promoted",
+    "description": "Promoted tag '30 Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.180330",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3DCG' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.182951",
+    "event": "tag_promoted",
+    "description": "Promoted tag '3Dモデルデータ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.185820",
+    "event": "tag_promoted",
+    "description": "Promoted tag '41アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.188602",
+    "event": "tag_promoted",
+    "description": "Promoted tag '4Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.191565",
+    "event": "tag_promoted",
+    "description": "Promoted tag '50% Sale' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.194482",
+    "event": "tag_promoted",
+    "description": "Promoted tag '60アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.197203",
+    "event": "tag_promoted",
+    "description": "Promoted tag '69アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.200014",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7 AVATAR' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.202735",
+    "event": "tag_promoted",
+    "description": "Promoted tag '7Avatar' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.205515",
+    "event": "tag_promoted",
+    "description": "Promoted tag '83アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.208634",
+    "event": "tag_promoted",
+    "description": "Promoted tag '8人' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.211363",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ALPHANO' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.214144",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'APL' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.216861",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ARCHIVE' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.219724",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Almani Pajamas' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.222524",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Alué アルエ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.225336",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Alué専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.228069",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CENSORED' to tags.yaml (colors) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.230962",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Chalo専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.233713",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Chiffon/シフォン' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.236572",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CusUniWear' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.239536",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'DB・PB' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.242473",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE - MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.245474",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE 無料' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.248359",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE/セット衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.251153",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'FREE/商用OK' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.254053",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'For VRChat 3D Model' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.256864",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Free・無料' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.259725",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'GIFT' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.262494",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'KARINカリン' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.265369",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Kuuta専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.268264",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Kyee_N' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.271171",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Lapwingちゃん' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.274056",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Long skirt maid' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.277197",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MAYO UPD' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.280698",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA対応済' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.284006",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA対応済み' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.287263",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MA想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.290214",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'MOMORI' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.293286",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Marycia マリシア専用髪型' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.297352",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Mayo / まよ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.300908",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Milfy/ミルフィ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.304824",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Misaki Update' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.308211",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Mouse+' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.311350",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'N...' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.314635",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PB版動作確認済' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.318053",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PC版VRChat' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.321784",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Pati･Par!' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.325184",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'PlusHead' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.328388",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'RE' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.331770",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'RVCv2' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.335586",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Rindo専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.339183",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'SDK3' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.342824",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'SION' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.346182",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Shinano/しなの' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.349531",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Studio4NIMARU' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.353341",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Tech Wear' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.356697",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ToN' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.360476",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Top' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.363950",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'U#' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.367611",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Update 1.03' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.370465",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VARAYA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.374004",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC ギミック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.377655",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC/Udon' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.382026",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC/Unity' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.385192",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCSDK3' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.388632",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat World' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.392283",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChatUDON' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.395799",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向け フルトラ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.399603",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向けアクセサリ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.403199",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向けアクセサリー' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.407034",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat向け小物' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.410182",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat想定アクセサリー' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.413217",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat無料アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.416311",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat用アバターギミック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.419604",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRChat用３Dモデル' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.422568",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRCワールド想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.425861",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC・VRM アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.428872",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC使用想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.431827",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC可' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.435022",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC対応3Dアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.438086",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC対応衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.442080",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/17アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.446386",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/18アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.450318",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定/19アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.454183",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定3Dアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.457515",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定・MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.460910",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC想定｜MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.464259",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC推奨' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.467695",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRC用ギミック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.471997",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRchat対応オリジナル3Dアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.476880",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRchat対応オリジナル3Dモデル' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.481897",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRchat想定・汎用・PB' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.486189",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid / VRM model' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.489817",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid正式' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.493377",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid正式版（stable' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.498318",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.503504",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.508151",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRガ...' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.512466",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Yoll' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.516199",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'a...' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.519860",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'shinra森羅' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.523549",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'wbc' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.527154",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'yay_yay' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.530359",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'うささき・まめひなた' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.533556",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'うささき・まめひなた・キプフェル' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.537201",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'うささき・まめふれんず' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.542287",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'くろなつ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.545593",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'さくら屋雑貨店' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.549117",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'さたにあ式タバコギミック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.552158",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しお(Sio)専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.555273",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しおSio' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.558622",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しずくさん専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.562005",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'しなの - Shinano' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.565980",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'なのでび' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.569982",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'なのでび専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.573675",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'なりきり本舗' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.577789",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ぽわり追加' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.581260",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ましゅちゃん' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.585404",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まばたきアニメーション付き' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.589439",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめひなた・キプフェル専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.592987",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まめひなた＆キプフェル' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.596316",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'まるぼでぃ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.599564",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アイズ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.602740",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アズキ専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.605971",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'アバターに置くだけ！' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.609421",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'イメリスちゃん' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.612956",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ウルキ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.616304",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ウルフェリア専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.619438",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ウルフェリア用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.622570",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'エク専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.625897",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'オリジナル3Dアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.629221",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル kipfel専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.632567",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'キプフェル対応衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.636218",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'クマリ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.639435",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'クララ・コロネ・アズキ対応衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.642718",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'サポート停止中' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.646068",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ショコラ/Chocolat' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.649507",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セイレーンの織り' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.652966",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'セレスティア用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.656469",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'センティッド用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.659693",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ソフィナ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.662825",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ソフィナちゃん用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.666033",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'タマクラゲ専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.669401",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ダイナミックボーン設定済み' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.672546",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ダージェリン' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.675591",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'デルタフレア向け衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.678781",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ナユ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.681902",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ネメシス専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.685072",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'パスワードが見つかれば無料' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.688242",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'フィユエ追加' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.691457",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'フォロワー100人記念' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.694605",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'フリーシェイプキー付' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.697814",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'プラム/Plum' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.700965",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'プラム専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.704208",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカ - Manuka' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.707319",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マヌカ(Manuka)専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.710450",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'マリシア Marycia専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.713647",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルティナちゃん専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.716792",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ミルフィ-Milfy' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.719931",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'モジュラーアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.723059",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ラスク/ミルク/カリンちゃん' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.726253",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リュック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.729423",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'リルレオ専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.732593",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルチカ専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.735730",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルルネ/rurune' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.738860",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ルルネ想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.742119",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ロボらぼ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.745315",
+    "event": "tag_promoted",
+    "description": "Promoted tag '光る！' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.748481",
+    "event": "tag_promoted",
+    "description": "Promoted tag '全6種' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.751636",
+    "event": "tag_promoted",
+    "description": "Promoted tag '全6色' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.754855",
+    "event": "tag_promoted",
+    "description": "Promoted tag '全品半額セール中' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.758101",
+    "event": "tag_promoted",
+    "description": "Promoted tag '凪夜瑠璃' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.761244",
+    "event": "tag_promoted",
+    "description": "Promoted tag '専用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.764434",
+    "event": "tag_promoted",
+    "description": "Promoted tag '幽狐族のお姉様' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.767640",
+    "event": "tag_promoted",
+    "description": "Promoted tag '廃止' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.770995",
+    "event": "tag_promoted",
+    "description": "Promoted tag '愛莉, Airi' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.774223",
+    "event": "tag_promoted",
+    "description": "Promoted tag '愛莉-Airi' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.777418",
+    "event": "tag_promoted",
+    "description": "Promoted tag '揺れる' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.780720",
+    "event": "tag_promoted",
+    "description": "Promoted tag '斑霞専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.784203",
+    "event": "tag_promoted",
+    "description": "Promoted tag '日本語+한국어+English' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.788963",
+    "event": "tag_promoted",
+    "description": "Promoted tag '旧販売ページ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.796223",
+    "event": "tag_promoted",
+    "description": "Promoted tag '更新' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.801082",
+    "event": "tag_promoted",
+    "description": "Promoted tag '本体無料' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.804524",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗/Kikyo' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.808065",
+    "event": "tag_promoted",
+    "description": "Promoted tag '桔梗/舞夜' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.811328",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅 / Shinra 専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.814905",
+    "event": "tag_promoted",
+    "description": "Promoted tag '森羅-Shinra-用衣装' to tags.yaml (outfit_types) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.818226",
+    "event": "tag_promoted",
+    "description": "Promoted tag '正式版対応済' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.821497",
+    "event": "tag_promoted",
+    "description": "Promoted tag '水瀬<MINASE>専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.824804",
+    "event": "tag_promoted",
+    "description": "Promoted tag '泣夜専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.828148",
+    "event": "tag_promoted",
+    "description": "Promoted tag '灰島専' to tags.yaml (colors) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.831363",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無償' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.834618",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料, VRC想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.837909",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料/MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.841309",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料VRCアバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.847223",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料あり/free sample' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.852942",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.858090",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料ワールド' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.863592",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料・MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.869428",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料有り' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.874921",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料配布中' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.879480",
+    "event": "tag_promoted",
+    "description": "Promoted tag '無料･VRC想定･MA' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.884051",
+    "event": "tag_promoted",
+    "description": "Promoted tag '狛乃/Komano専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.888031",
+    "event": "tag_promoted",
+    "description": "Promoted tag '狛乃Komano' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.891681",
+    "event": "tag_promoted",
+    "description": "Promoted tag '瑞希、ルルネ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.896701",
+    "event": "tag_promoted",
+    "description": "Promoted tag '碼希' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.902358",
+    "event": "tag_promoted",
+    "description": "Promoted tag '竜胆ちゃん専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.905853",
+    "event": "tag_promoted",
+    "description": "Promoted tag '簡単！' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.909240",
+    "event": "tag_promoted",
+    "description": "Promoted tag '薄荷ちゃん' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.912686",
+    "event": "tag_promoted",
+    "description": "Promoted tag '複数想定' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.916057",
+    "event": "tag_promoted",
+    "description": "Promoted tag '記念コラボ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.919362",
+    "event": "tag_promoted",
+    "description": "Promoted tag '豺狼' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.922660",
+    "event": "tag_promoted",
+    "description": "Promoted tag '赤夜式' to tags.yaml (colors) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.926074",
+    "event": "tag_promoted",
+    "description": "Promoted tag '追従型ペット' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.929660",
+    "event": "tag_promoted",
+    "description": "Promoted tag '追従型ペットギミック' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.933057",
+    "event": "tag_promoted",
+    "description": "Promoted tag '食べられる！' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.936437",
+    "event": "tag_promoted",
+    "description": "Promoted tag '髪型Hair' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.939836",
+    "event": "tag_promoted",
+    "description": "Promoted tag '髪型PB' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.943244",
+    "event": "tag_promoted",
+    "description": "Promoted tag '鳥専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.946621",
+    "event": "tag_promoted",
+    "description": "Promoted tag '龍のヨルちゃん専' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.950027",
+    "event": "tag_promoted",
+    "description": "Promoted tag '１０アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.953474",
+    "event": "tag_promoted",
+    "description": "Promoted tag '１５アバター' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.956899",
+    "event": "tag_promoted",
+    "description": "Promoted tag '７体' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T19:26:16.960279",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'ＰＢ' to tags.yaml (accessories) with confidence 0.80"
   }
 ]

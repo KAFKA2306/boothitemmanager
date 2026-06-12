@@ -2,13 +2,13 @@
   "total_items": 40017,
   "types": {
     "ANIMATION": 880,
-    "AVATAR": 4443,
-    "GIMMICK_TOOL": 6271,
-    "ACCESSORY": 9133,
-    "OUTFIT": 12832,
+    "AVATAR": 4429,
+    "ACCESSORY": 27808,
     "TEXTURE": 3687,
     "HAIRSTYLE": 2279,
-    "VROID": 492
+    "GIMMICK_TOOL": 348,
+    "VROID": 492,
+    "OUTFIT": 94
   },
   "top_shops": {
     "woodapple": 246,
@@ -35,5 +35,5 @@
     "Milltina": 162
   },
   "avatar_compatibility_rate": 14.81,
-  "updated_at": "2026-06-12T18:01:51.593211"
+  "updated_at": "2026-06-12T19:57:51.460009"
 }
