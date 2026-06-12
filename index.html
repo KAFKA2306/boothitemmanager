@@ -663,7 +663,7 @@
                     if (found) { filters.avatar = found.code; document.title = `${found.name} - BoothItemManager`; }
                 }
 
-                // Load Data Phase 1
+                // Load Data Phase 1 (Shard 1)
                 let part1Loaded = false;
                 try {
                     const res1 = await fetch('api/catalog_summary_part1.json');
@@ -694,25 +694,34 @@
                 applyFilters();
                 renderStaticFilters();
 
-                // Load Data Phase 2 (Background)
-                try {
-                    fetch('api/catalog_summary_part2.json')
-                        .then(r => r.ok ? r.json() : [])
-                        .then(part2 => {
-                            allItems = allItems.concat(part2);
-                            precomputeItemData();
-                            DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
-                            updateCounts();
-                            applyFilters();
-                            renderStaticFilters();
-                        }).catch(err => {
-                            console.warn("Background fetch of part 2 failed (expected in local file:// mode):", err);
-                            DOM.text.textContent = `LOCAL MODE [${allItems.length.toLocaleString()}]`;
-                            renderStaticFilters();
-                        });
-                } catch (e) {
-                    console.warn("Part 2 loading error:", e);
+                // Load Remaining Shards (Background)
+                const metadata = window.BOOTH_METADATA || {};
+                const totalShards = metadata.catalog_shards || 2; 
+
+                const loadShard = async (s) => {
+                    try {
+                        const res = await fetch(`api/catalog_summary_part${s}.json`);
+                        if (res.ok) {
+                            const part = await res.json();
+                            allItems = allItems.concat(part);
+                        }
+                    } catch (e) {
+                        console.warn(`Shard ${s} loading error:`, e);
+                    }
+                };
+
+                const shardPromises = [];
+                for (let s = 2; s <= totalShards; s++) {
+                    shardPromises.push(loadShard(s));
                 }
+                
+                Promise.all(shardPromises).then(() => {
+                    precomputeItemData();
+                    DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+                    updateCounts();
+                    applyFilters();
+                    renderStaticFilters();
+                });
 
                 bindEvents();
                 setupObserver();

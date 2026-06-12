@@ -16,7 +16,7 @@ DATA_DIR = Path("data")
 CATALOG_PATH = DATA_DIR / "structured" / "catalog.json"
 NODES_PATH = DATA_DIR / "graph" / "nodes.json"
 EDGES_PATH = DATA_DIR / "graph" / "edges.json"
-API_PATH = Path("api") / "search_index.json"
+API_PATH = Path("api") / "catalog_summary_part1.json"
 
 
 def get_file_stats(path: Path) -> dict[str, Any]:

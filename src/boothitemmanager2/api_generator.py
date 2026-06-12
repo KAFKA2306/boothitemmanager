@@ -100,20 +100,32 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     avatar_compatibility_rate = (items_with_compat / len(items)) * 100 if items else 0
 
-    part1 = catalog_summaries[:2000]
-    part2 = catalog_summaries[2000:]
+    # Consistently shard into 5000-item blocks to stay under 25MiB
+    shard_size = 5000
+    for i in range(0, len(catalog_summaries), shard_size):
+        part_id = (i // shard_size) + 1
+        part_data = catalog_summaries[i : i + shard_size]
+        
+        # Save JSON to staging
+        with open(os.path.join(api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8") as f:
+            json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
+        
+        # Save JS fallback to staging
+        with open(os.path.join(api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8") as f:
+            f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
+            json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
+            f.write(";")
 
-    # Save to staging
-    with open(os.path.join(api_staging, "catalog_summary_part1.json"), "w", encoding="utf-8") as f:
-        json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
-    with open(os.path.join(api_staging, "catalog_summary_part2.json"), "w", encoding="utf-8") as f:
-        json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
+        # Also save to dist if it exists
+        if has_dist_api:
+            with open(os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8") as f:
+                json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
+            with open(os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8") as f:
+                f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
+                json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
+                f.write(";")
 
-    # Generate fallback JS scripts
-    with open(os.path.join(api_staging, "catalog_summary_part1.js"), "w", encoding="utf-8") as f:
-        f.write("window.BOOTH_CATALOG_PART1 = ")
-        json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
-        f.write(";")
+    total_shards = (len(catalog_summaries) + shard_size - 1) // shard_size
 
     # Regrow metadata.json using scripts/generate_metadata.py
     os.system("python3 scripts/generate_metadata.py")
@@ -125,32 +137,16 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     if os.path.exists(metadata_path):
         with open(metadata_path, encoding="utf-8") as f:
             meta_content = json.load(f)
+        
+        # Inject shard info into metadata
+        meta_content["catalog_shards"] = total_shards
+        with open(os.path.join(api_staging, "metadata.json"), "w", encoding="utf-8") as f:
+            json.dump(meta_content, f, ensure_ascii=False, indent=2)
+
         with open(os.path.join(api_staging, "metadata.js"), "w", encoding="utf-8") as f:
             f.write("window.BOOTH_METADATA = ")
             json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
             f.write(";")
-
-    # Save to dist/api_staging/ if it exists
-    if has_dist_api:
-        with open(
-            os.path.join(dist_api_staging, "catalog_summary_part1.json"), "w", encoding="utf-8"
-        ) as f:
-            json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
-        with open(
-            os.path.join(dist_api_staging, "catalog_summary_part2.json"), "w", encoding="utf-8"
-        ) as f:
-            json.dump(part2, f, ensure_ascii=False, separators=(",", ":"))
-        with open(
-            os.path.join(dist_api_staging, "catalog_summary_part1.js"), "w", encoding="utf-8"
-        ) as f:
-            f.write("window.BOOTH_CATALOG_PART1 = ")
-            json.dump(part1, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(";")
-        if os.path.exists(metadata_path):
-            with open(os.path.join(dist_api_staging, "metadata.js"), "w", encoding="utf-8") as f:
-                f.write("window.BOOTH_METADATA = ")
-                json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
-                f.write(";")
 
     # Shard individual item data into 100 files to bypass Cloudflare file limits
     details_dir = os.path.join(api_staging, "details")

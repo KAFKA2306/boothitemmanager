@@ -2943,5 +2943,6 @@
     "Photography",
     "DailyClothes"
   ],
-  "updated_at": "2026-06-11"
+  "updated_at": "2026-06-11",
+  "catalog_shards": 9
 }
