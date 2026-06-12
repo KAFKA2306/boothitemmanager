@@ -3,9 +3,16 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import dataclass
 
-from .storage import Item
+from .storage import Item, ItemCategory
 
 _TOTAL_FEATURES = 4
+
+
+def _count_category_tag_mismatches(item: Item) -> int:
+    # Mismatch when ItemCategory.ANIMATION or GIMMICK_TOOL has outfit_type or accessory tags.
+    if item.category in (ItemCategory.ANIMATION, ItemCategory.GIMMICK_TOOL):
+        return len(item.tag_set.outfit_type) + len(item.tag_set.accessory)
+    return 0
 
 
 @dataclass(frozen=True)
@@ -48,6 +55,7 @@ class AuditReport:
     invalid_tags: int
     duplicate_tags: int
     multi_label_conflicts: int
+    category_tag_mismatches: int
     valid_tag_rate: float
     source_items: int
     indexed_items: int
@@ -131,6 +139,7 @@ class QuantitativeAuditor:
         invalid = sum(_count_invalid_tags(i) for i in items)
         dupes = sum(_count_duplicate_tags(i) for i in items)
         conflicts = sum(1 for i in items if _has_multi_label_conflict(i))
+        mismatches = sum(_count_category_tag_mismatches(i) for i in items)
         valid_tag = _safe_rate(max(tagged - invalid, 0), tagged) if tagged > 0 else 0.0
         src = crawl.source_items if crawl.source_items is not None else 0
         idx = crawl.indexed_items if crawl.indexed_items is not None else total
@@ -167,6 +176,7 @@ class QuantitativeAuditor:
             invalid_tags=invalid,
             duplicate_tags=dupes,
             multi_label_conflicts=conflicts,
+            category_tag_mismatches=mismatches,
             valid_tag_rate=valid_tag,
             source_items=src,
             indexed_items=idx,
@@ -180,7 +190,7 @@ class QuantitativeAuditor:
             avatar_reverse_search=avatar_rev_n,
             cross_category_search=cross_n,
             feature_coverage_score=feat_score,
-            final_score=final_score,
+            final_score=final_score if mismatches == 0 else 0.0,
         )
 
 
@@ -207,6 +217,7 @@ def format_report(r: AuditReport) -> str:
         f"invalid_tags: {r.invalid_tags}",
         f"duplicate_tags: {r.duplicate_tags}",
         f"multi_label_conflicts: {r.multi_label_conflicts}",
+        f"category_tag_mismatches: {r.category_tag_mismatches}",
         "",
         f"valid_tag_rate = {r.valid_tag_rate}",
         "",

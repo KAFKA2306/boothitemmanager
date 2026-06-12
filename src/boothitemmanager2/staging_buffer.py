@@ -32,3 +32,22 @@ class StagingBuffer:
     def _make_key(cls, key: str, params: Any) -> str:
         param_str = json.dumps(params, sort_keys=True)
         return hashlib.sha256(f"{key}:{param_str}".encode("utf-8")).hexdigest()
+
+    PENDING_EVOLUTION_PATH = "ontology/pending_evolution.json"
+
+    @classmethod
+    def get_pending_evolution(cls) -> list[Any]:
+        path = cls.PENDING_EVOLUTION_PATH
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return []
+
+    @classmethod
+    def save_pending_evolution(cls, data: list[Any]) -> None:
+        path = cls.PENDING_EVOLUTION_PATH
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+

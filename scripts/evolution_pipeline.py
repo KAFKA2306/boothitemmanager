@@ -5,10 +5,15 @@ Discovery -> Validation -> Evolution -> Propagation
 
 import json
 import os
+import re
+import sys
 from datetime import datetime
 
 import yaml
 from jsonschema import ValidationError, validate
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+
 
 # Path Configuration
 ONTOLOGY_DIR = "ontology"
@@ -89,6 +94,112 @@ def generate_tags(item):
     return item
 
 
+def _get_existing_ontology_concepts() -> set[str]:
+    concepts = set()
+    if os.path.exists(TAGS_PATH):
+        with open(TAGS_PATH, encoding="utf-8") as f:
+            tags = yaml.safe_load(f)
+        for _, data in tags.items():
+            if isinstance(data, dict):
+                for key, val in data.items():
+                    concepts.add(key.lower())
+                    if isinstance(val, dict) and "aliases" in val:
+                        for alias in val["aliases"]:
+                            concepts.add(alias.lower())
+    if os.path.exists(STYLES_PATH):
+        with open(STYLES_PATH, encoding="utf-8") as f:
+            styles = yaml.safe_load(f)
+        for key, val in styles.get("styles", {}).items():
+            concepts.add(key.lower())
+            for alias in val:
+                concepts.add(alias.lower())
+    rich_path = os.path.join(ONTOLOGY_DIR, "rich_dimensions.yaml")
+    if os.path.exists(rich_path):
+        with open(rich_path, encoding="utf-8") as f:
+            rich = yaml.safe_load(f)
+        for category in ["material_properties", "niche_subcultures", "activity_scenes"]:
+            for key, val in rich.get(category, {}).items():
+                concepts.add(key.lower())
+                if isinstance(val, dict) and "aliases" in val:
+                    for alias in val["aliases"]:
+                        concepts.add(alias.lower())
+    if os.path.exists(AVATARS_PATH):
+        with open(AVATARS_PATH, encoding="utf-8") as f:
+            avatars = yaml.safe_load(f)
+        for key, val in avatars.get("avatars", {}).items():
+            concepts.add(key.lower())
+            if isinstance(val, dict):
+                concepts.add(val.get("canonical_name", "").lower())
+                for alias in val.get("aliases", []):
+                    concepts.add(alias.lower())
+    return concepts
+
+
+def _clean_concept(term: str) -> str | None:
+    term = term.strip()
+    if len(term) < 2:
+        return None
+    if re.match(r"^[\d\W_]+$", term):
+        return None
+    for suffix in ["対応", "用", "版", "セット", "向け"]:
+        if term.endswith(suffix) and len(term) > len(suffix):
+            term = term[:-len(suffix)]
+    term = term.strip()
+    if len(term) < 2:
+        return None
+    return term
+
+
+def concept_invention_phase() -> None:
+    print("🧠 [EOL:CONCEPT_INVENTION] Identifying potential new tags from catalog...")
+    catalog = load_json(CATALOG_PATH)
+    existing_concepts = _get_existing_ontology_concepts()
+    extracted_map = {}
+    
+    from boothitemmanager2.staging_buffer import StagingBuffer
+    
+    for item in catalog:
+        item_id = str(item.get("item_id"))
+        title = item.get("title") or ""
+        description = item.get("description") or ""
+        
+        params = {"title": title, "description": description}
+        cached = StagingBuffer.get("concepts", params)
+        if cached is not None:
+            candidates = cached
+        else:
+            candidates = []
+            for pattern in [r"【([^】]+)】", r"\[([^\]]+)\]", r"\(([^)]+)\)"]:
+                for match in re.finditer(pattern, title + " " + description):
+                    candidates.append(match.group(1))
+            for match in re.finditer(r"#([^\s#]+)", title + " " + description):
+                candidates.append(match.group(1))
+            StagingBuffer.set("concepts", params, candidates)
+            
+        for raw_cand in candidates:
+            cleaned = _clean_concept(raw_cand)
+            if cleaned:
+                cleaned_lower = cleaned.lower()
+                if cleaned_lower not in existing_concepts:
+                    if cleaned not in extracted_map:
+                        extracted_map[cleaned] = []
+                    if item_id not in extracted_map[cleaned]:
+                        extracted_map[cleaned].append(item_id)
+                        
+    pending_list = []
+    for tag, items in extracted_map.items():
+        confidence = min(1.0, 0.5 + 0.1 * len(items))
+        pending_list.append({
+            "tag": tag,
+            "confidence": confidence,
+            "sources": items
+        })
+        
+    pending_list.sort(key=lambda x: (-x["confidence"], x["tag"]))
+    StagingBuffer.save_pending_evolution(pending_list)
+    print(f"✅ [EOL:CONCEPT_INVENTION] Found {len(pending_list)} new potential tags and buffered them.")
+
+
 def discovery_phase():
     print("🔍 [EOL:DISCOVERY] Analyzing dataset for missing tags...")
     catalog = load_json(CATALOG_PATH)
@@ -147,26 +258,158 @@ def validation_phase():
             raise e
 
 
-def evolution_phase():
-    print(json.dumps({"event": "evolution_start", "description": "Applying Ontology updates"}))
-    avatars = load_yaml(AVATARS_PATH)
+def promote_tags_phase():
+    """
+    Autonomous Tag Lifecycle & Promotion Engine
+    Reads pending_evolution.json and processes through 4 automated filtering stages:
+    Stage 1: Frequency Filtering (drop tags appearing in < 3 items).
+    Stage 2: Basic Semantic Clustering/Merging (group tags with similar suffixes or lowercase equivalents).
+    Stage 3: Automatic Category Prediction (determine destination: tags.yaml section vs styles.yaml).
+    Stage 4: Auto-Promotion (promote highly confident tags >= 0.8 to tags.yaml/styles.yaml and log evolution).
+    """
+    print("🚀 [EOL:PROMOTION_ENGINE] Initializing Tag Lifecycle & Promotion Engine...")
+    from boothitemmanager2.staging_buffer import StagingBuffer
+    
+    pending = StagingBuffer.get_pending_evolution()
+    if not pending:
+        print("ℹ️ [EOL:PROMOTION_ENGINE] No pending tags to promote.")
+        return
 
-    for code, data in avatars.get("avatars", {}).items():
-        assert "booth_item_id" in data, json.dumps({"event": "evolution_error", "reason": f"Missing item_id for avatar: {code}"})
-        assert data.get("confidence", 0) >= 0.0, json.dumps({"event": "evolution_error", "reason": f"Invalid confidence for: {code}"})
+    # Stage 2: Basic Semantic Clustering/Merging (group tags with similar suffixes or lowercase equivalents)
+    # We cluster by:
+    # - case-insensitive canonical tag
+    # - stripping common suffixes to find a common stem
+    # - merging sources and retaining highest confidence
+    clusters = {}
+    for entry in pending:
+        raw_tag = entry["tag"].strip()
+        if raw_tag.startswith("#"):
+            raw_tag = raw_tag[1:]
+        
+        # Simple canonicalization: strip common suffixes, then lowercase
+        cleaned_tag = raw_tag
+        for suffix in ["対応", "用", "版", "セット", "向け"]:
+            if cleaned_tag.endswith(suffix) and len(cleaned_tag) > len(suffix):
+                cleaned_tag = cleaned_tag[:-len(suffix)]
+        
+        stem = cleaned_tag.lower()
+        
+        if stem not in clusters:
+            clusters[stem] = {
+                "canonical_name": cleaned_tag,
+                "confidence": entry["confidence"],
+                "sources": set(entry["sources"]),
+            }
+        else:
+            clusters[stem]["sources"].update(entry["sources"])
+            if entry["confidence"] > clusters[stem]["confidence"]:
+                clusters[stem]["confidence"] = entry["confidence"]
+                clusters[stem]["canonical_name"] = cleaned_tag  # Use the casing of the highest confidence match
 
+    # Stage 1: Frequency Filtering (sources must be at least 3 items)
+    # Drop clusters appearing in < 3 items
+    filtered_clusters = {
+        stem: info for stem, info in clusters.items() if len(info["sources"]) >= 3
+    }
 
-def propagation_phase():
-    print(json.dumps({"event": "propagation_start", "description": "Syncing changes to Static API"}))
-    res = os.system("python3 run_bulk_pipeline.py")
-    if res != 0:
-        raise RuntimeError(json.dumps({"event": "propagation_failed", "exit_code": res}))
+    # Stage 3: Automatic Category Prediction & Stage 4: Auto-Promotion
+    # Read existing tags and styles
+    tags_data = load_yaml(TAGS_PATH)
+    styles_data = load_yaml(STYLES_PATH)
+    
+    promoted_tags = 0
+    promoted_styles = 0
+    
+    # Pre-load category mappings based on keyword presence to predict destination
+    # We predict styles vs colors vs accessories etc.
+    for stem, info in filtered_clusters.items():
+        # High confidence threshold for auto-promotion: confidence >= 0.8
+        if info["confidence"] < 0.8:
+            continue
+            
+        name = info["canonical_name"]
+        
+        # Let's predict category:
+        # If color keywords matched, goes to colors.
+        # If style keywords or "style" / "look" / "kawaii" / "punk" etc, styles.yaml.
+        # Default fallback to tag.yaml's outfit_types or accessories based on ending.
+        name_lower = name.lower()
+        
+        # 1. Colors check
+        color_keywords = ["黒", "白", "赤", "青", "緑", "黄", "紫", "橙", "紺", "茶", "灰", "金", "銀", "black", "white", "red", "blue", "green", "yellow", "purple", "orange", "navy", "brown", "gray", "gold", "silver", "pink", "pink", "pink"]
+        is_color = any(k in name_lower for k in color_keywords)
+        
+        # 2. Styles check
+        style_keywords = ["cute", "cool", "sexy", "dark", "casual", "street", "gothic", "elegant", "simple", "classical", "girly", "y2k", "retro", "pop", "horror", "lolita", "modern", "和風", "和装", "中華", "チャイナ", "量産型", "地雷", "病み", "ゆめ", "お姉さん", "大人", "yami", "kawaii", "punk"]
+        is_style = any(k in name_lower for k in style_keywords) or name_lower.endswith("style") or name_lower.endswith("kei")
+        
+        if is_style:
+            # styles.yaml promotion
+            if "styles" not in styles_data:
+                styles_data["styles"] = {}
+            # Find or insert style category
+            # We either append to existing category matching name, or create new one.
+            matched_key = None
+            for key in styles_data["styles"]:
+                if key.lower() == name_lower:
+                    matched_key = key
+                    break
+            if matched_key:
+                if name not in styles_data["styles"][matched_key]:
+                    styles_data["styles"][matched_key].append(name)
+            else:
+                styles_data["styles"][name] = [name, name.lower()]
+            promoted_styles += 1
+            log_evolution("style_promoted", f"Promoted tag '{name}' to styles.yaml with confidence {info['confidence']:.2f}")
+        else:
+            # tags.yaml promotion
+            section = "accessories"
+            if any(k in name_lower for k in ["服", "衣装", "ワンピ", "ドレス", "ジャケット", "パーカー", "スカート", "シャツ", "パンツ", "outfit", "dress", "suit", "jersey"]):
+                section = "outfit_types"
+            elif is_color:
+                section = "colors"
+                
+            if section not in tags_data:
+                tags_data[section] = {}
+                
+            matched_key = None
+            for key in tags_data[section]:
+                if key.lower() == name_lower:
+                    matched_key = key
+                    break
+            if matched_key:
+                if "aliases" not in tags_data[section][matched_key]:
+                    tags_data[section][matched_key]["aliases"] = []
+                if name not in tags_data[section][matched_key]["aliases"]:
+                    tags_data[section][matched_key]["aliases"].append(name)
+            else:
+                tags_data[section][name] = {
+                    "aliases": [name, name.lower()],
+                    "metadata": {
+                        "faceemo_version": "any",
+                        "udonsharp_compat": True
+                    }
+                }
+            promoted_tags += 1
+            log_evolution("tag_promoted", f"Promoted tag '{name}' to tags.yaml ({section}) with confidence {info['confidence']:.2f}")
+
+    # Write files back if any changes were made
+    if promoted_tags > 0:
+        with open(TAGS_PATH, "w", encoding="utf-8") as f:
+            yaml.safe_dump(tags_data, f, allow_unicode=True, default_flow_style=False)
+    if promoted_styles > 0:
+        with open(STYLES_PATH, "w", encoding="utf-8") as f:
+            yaml.safe_dump(styles_data, f, allow_unicode=True, default_flow_style=False)
+
+    print(f"✅ [EOL:PROMOTION_ENGINE] Completed promotion. Promoted tags: {promoted_tags}, Promoted styles: {promoted_styles}")
 
 
 def main():
     print(json.dumps({"event": "pipeline_start", "description": "Initializing Autonomous Evolution Loop (Zero-Trust Mode)"}))
     try:
         discovery_phase()
+        concept_invention_phase()
+        promote_tags_phase()
         validation_phase()
         evolution_phase()
         propagation_phase()
