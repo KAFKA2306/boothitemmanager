@@ -111,7 +111,11 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     }
 
     # Audit determination
-    if not title or not thumbnail_url:
+    import re
+    BAD_TAG_PATTERN = re.compile(r"^[0-9]+(アバター|avatars|avatar|人|モデル|対応| Avatars| Avatar)", re.I)
+    has_bad_tag = any(BAD_TAG_PATTERN.match(t) for t in tags_raw)
+    
+    if not title or not thumbnail_url or has_bad_tag:
         audit_status = "FAIL"
     elif category == ItemCategory.ASSET or not targets:
         audit_status = "UNVERIFIED"

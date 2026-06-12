@@ -329,6 +329,14 @@ def promote_tags_phase():
             
         name = info["canonical_name"]
         
+        # [EOL:AUDIT_FILTER] Skip low-quality tags
+        import re
+        BAD_TAG_PATTERN = re.compile(r"^[0-9]+(アバター|avatars|avatar|人|モデル|対応| Avatars| Avatar)", re.I)
+        BAD_TAGS_SPECIFIC = {"3d衣装モデル", "オリジナル3dモデル", "3d衣装対応"}
+        if BAD_TAG_PATTERN.match(name) or name.lower() in BAD_TAGS_SPECIFIC:
+            # print(f"⚠️ [EOL:PROMOTION_ENGINE] Skipping low-quality tag: {name}")
+            continue
+            
         # Let's predict category:
         # If color keywords matched, goes to colors.
         # If style keywords or "style" / "look" / "kawaii" / "punk" etc, styles.yaml.

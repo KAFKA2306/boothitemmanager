@@ -1,3 +1,188 @@
+style_metadata:
+  American Casual:
+    status: deprecated
+  Androgynous:
+    status: deprecated
+  Antique:
+    status: deprecated
+  Battle:
+    status: deprecated
+  Bewitching:
+    status: deprecated
+  Boyish:
+    status: deprecated
+  Chuunibyou:
+    status: deprecated
+  Classic:
+    status: deprecated
+  Classical:
+    status: deprecated
+  Clean Style:
+    status: deprecated
+  Colorful:
+    status: deprecated
+  Comical:
+    status: deprecated
+  Cosplay:
+    status: deprecated
+  Daily:
+    status: deprecated
+  Elegant:
+    status: deprecated
+  Energetic:
+    status: deprecated
+  Ethereal:
+    status: deprecated
+  Ethnic:
+    status: deprecated
+  Everyday:
+    status: deprecated
+  Exotic:
+    status: deprecated
+  Fairytale:
+    status: deprecated
+  Fancy:
+    status: deprecated
+  Fantastical:
+    status: deprecated
+  Fashionable:
+    status: deprecated
+  Feminine:
+    status: deprecated
+  Fetish:
+    status: deprecated
+  For Men:
+    status: deprecated
+  Funny:
+    status: deprecated
+  Girly:
+    status: deprecated
+  Glamorous:
+    status: deprecated
+  Grunge:
+    status: deprecated
+  Gyaru:
+    status: deprecated
+  Harajuku Style:
+    status: deprecated
+  Healing:
+    status: deprecated
+  Heartwarming:
+    status: deprecated
+  Horror:
+    status: deprecated
+  Humor:
+    status: deprecated
+  Idol:
+    status: deprecated
+  Industrial:
+    status: deprecated
+  Korean Style:
+    status: deprecated
+  Laid-back Cute:
+    status: deprecated
+  Little Devil:
+    status: deprecated
+  Lolita:
+    status: deprecated
+  Lovely:
+    status: deprecated
+  Luxury:
+    status: deprecated
+  Magical Girl:
+    status: deprecated
+  Mature:
+    status: deprecated
+  Mechanical:
+    status: deprecated
+  Medieval:
+    status: deprecated
+  Minimal:
+    status: deprecated
+  Modern:
+    status: deprecated
+  Modest:
+    status: deprecated
+  Mori Girl:
+    status: deprecated
+  Mysterious:
+    status: deprecated
+  Mystical:
+    status: deprecated
+  Near-Future:
+    status: deprecated
+  Ninja:
+    status: deprecated
+  Nostalgic:
+    status: deprecated
+  Onee-san Style:
+    status: deprecated
+  Post-Apocalyptic:
+    status: deprecated
+  Practical:
+    status: deprecated
+  Premium Feel:
+    status: deprecated
+  Preppy:
+    status: deprecated
+  Princess:
+    status: deprecated
+  Real Clothes:
+    status: deprecated
+  Refined:
+    status: deprecated
+  Refreshing:
+    status: deprecated
+  Relaxed:
+    status: deprecated
+  Religious:
+    status: deprecated
+  Resort:
+    status: deprecated
+  Retro:
+    status: deprecated
+  Retro-Futuristic:
+    status: deprecated
+  Romantic:
+    status: deprecated
+  Ryousankata:
+    status: deprecated
+  Sci-Fi:
+    status: deprecated
+  Soft & Relaxed:
+    status: deprecated
+  Sporty:
+    status: deprecated
+  Street Hoody:
+    status: deprecated
+  Stylish:
+    status: deprecated
+  Subculture:
+    status: deprecated
+  Surreal:
+    status: deprecated
+  Taisho Roman:
+    status: deprecated
+  Unique:
+    status: deprecated
+  Valentine:
+    status: deprecated
+  Vampire:
+    status: deprecated
+  Vintage:
+    status: deprecated
+  Wedding:
+    status: deprecated
+  Western:
+    status: deprecated
+  Wild:
+    status: deprecated
+  Y2K:
+    status: deprecated
+  Yami Kawaii:
+    status: deprecated
+  Yume Kawaii:
+    status: deprecated
 styles:
   American Casual:
   - american casual

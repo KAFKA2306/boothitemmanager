@@ -5,6 +5,7 @@ Colors: &id082
     - beige
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Black:
     aliases:
@@ -35,6 +36,7 @@ Colors: &id082
     - ボルドー
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Brown:
     aliases:
@@ -56,6 +58,7 @@ Colors: &id082
     - Charcoal
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Cream:
     aliases:
@@ -130,6 +133,7 @@ Colors: &id082
     - Magenta
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Mint:
     aliases:
@@ -267,6 +271,7 @@ Styles:
     - Apron Dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Armor: &id130
     aliases:
@@ -275,6 +280,7 @@ Styles:
     - 鎧
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Babydoll: &id131
     aliases:
@@ -282,30 +288,35 @@ Styles:
     - babydoll
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bath Towel: &id132
     aliases:
     - bath towel
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Battle Outfit: &id133
     aliases:
     - battle outfit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bear Ears: &id004
     aliases:
     - Bear Ears
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Beast Ears: &id005
     aliases:
     - Beast Ears
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Belt: &id134
     aliases:
@@ -334,6 +345,7 @@ Styles:
     - Black Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blazer: &id137
     aliases:
@@ -341,12 +353,14 @@ Styles:
     - ブレザー
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blonde Hair: &id007
     aliases:
     - Blonde Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bloomers: &id138
     aliases:
@@ -354,6 +368,7 @@ Styles:
     - Bloomers
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blouse: &id139
     aliases:
@@ -361,30 +376,35 @@ Styles:
     - ブラウス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blouson: &id140
     aliases:
     - blouson
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blue Eyes: &id008
     aliases:
     - blue eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blue Hair: &id009
     aliases:
     - Blue Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Blunt Bangs: &id010
     aliases:
     - Blunt Bangs
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bob Hair: &id011
     aliases:
@@ -398,12 +418,14 @@ Styles:
     - ボディスーツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bolero: &id142
     aliases:
     - Bolero
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bondage: &id143
     aliases:
@@ -425,6 +447,7 @@ Styles:
     - Bottoms
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bra Top: &id146
     aliases:
@@ -432,6 +455,7 @@ Styles:
     - bra top
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Braid: &id012
     aliases:
@@ -450,12 +474,14 @@ Styles:
     - Brown Eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Brown Hair: &id015
     aliases:
     - Brown Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bun Hair: &id016
     aliases:
@@ -476,6 +502,7 @@ Styles:
     - バニースーツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bustier: &id148
     aliases:
@@ -483,6 +510,7 @@ Styles:
     - ビスチェ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Camisole: &id149
     aliases:
@@ -491,32 +519,31 @@ Styles:
     - キャミ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Cap: &id150
     aliases:
     - Cap
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  Cape: &id151
-    aliases:
+    - Cape
     - cape
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Cardigan: &id152
+  Cardigan: &id151
     aliases:
     - カーディガン
     - Cardigan
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Cargo Pants: &id153
+  Cargo Pants: &id152
     aliases:
     - Cargo Pants
     - カーゴパンツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Cat: &id018
     aliases:
@@ -530,49 +557,53 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  China Dress: &id154
+  China Dress: &id153
     aliases:
     - チャイナ服
     - チャイナドレス
     - china dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Cloak: &id155
+  Cloak: &id154
     aliases:
     - マント
     - cloak
     - クローク
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Coat: &id156
+  Coat: &id155
     aliases:
     - Coat
     - コート
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Corset: &id157
+  Corset: &id156
     aliases:
     - corset
     - コルセット
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Costume: &id158
+  Costume: &id157
     aliases:
     - costume
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Crop Top: &id159
+  Crop Top: &id158
     aliases:
     - クロップド
     - Crop Top
     - クロップト
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Curly Hair: &id020
     aliases:
@@ -592,18 +623,19 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Denim: &id160
+  Denim: &id159
     aliases:
     - Denim
     - デニム
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Distressed Jeans: &id161
+  Distressed Jeans: &id160
     aliases:
     - distressed jeans
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Dog Ears: &id023
     aliases:
@@ -611,13 +643,14 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Down Jacket: &id162
+  Down Jacket: &id161
     aliases:
     - ダウン
     - ダウンジャケット
     - down jacket
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Dragon: &id024
     aliases:
@@ -625,36 +658,40 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Dress: &id163
+  Dress: &id162
     aliases:
     - dress
     - ドレス
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Dress Shirt: &id164
+  Dress Shirt: &id163
     aliases:
     - Dress Shirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Drill Hair: &id025
     aliases:
     - drill hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Duffle Coat: &id165
+  Duffle Coat: &id164
     aliases:
     - Duffle Coat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Dungarees: &id166
+  Dungarees: &id165
     aliases:
     - dungarees
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Elf Ears: &id026
     aliases:
@@ -674,23 +711,26 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Fishnet Tights: &id167
+  Fishnet Tights: &id166
     aliases:
     - Fishnet Tights
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Flare Skirt: &id168
+  Flare Skirt: &id167
     aliases:
     - Flare Skirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Flipped Ends: &id029
     aliases:
     - flipped ends
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Fluffy: &id030
     aliases:
@@ -706,6 +746,7 @@ Styles:
     - Fluffy Fur
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Fox Ears: &id032
     aliases:
@@ -713,58 +754,63 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Frill: &id169
+  Frill: &id168
     aliases:
     - Frill
     - フリル
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Frill Skirt: &id170
+  Frill Skirt: &id169
     aliases:
     - frill skirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Frilled Dress: &id171
+  Frilled Dress: &id170
     aliases:
     - Frilled Dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Frilled One-Piece: &id172
+  Frilled One-Piece: &id171
     aliases:
     - frilled one-piece
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Fur Coat: &id173
+  Fur Coat: &id172
     aliases:
     - fur coat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Furisode: &id174
+  Furisode: &id173
     aliases:
     - furisode
     - 振袖
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Garter: &id175
+  Garter: &id174
     aliases:
     - Garter
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Garter Belt: &id176
+  Garter Belt: &id175
     aliases:
     - ガーターベルト
     - Garter Belt
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Gloves: &id177
+  Gloves: &id176
     aliases:
     - Gloves
     metadata:
@@ -775,90 +821,103 @@ Styles:
     - gold eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Gothic Dress: &id178
+  Gothic Dress: &id177
     aliases:
     - gothic dress
     - ゴシックドレス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Gray Hair: &id034
     aliases:
     - Gray Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Green Eyes: &id035
     aliases:
     - green eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Green Hair: &id036
     aliases:
     - green hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Hair Over One Eye: &id037
     aliases:
     - hair over one eye
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Hakama: &id179
+  Hakama: &id178
     aliases:
     - Hakama
     - 袴
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Half Pants: &id180
+  Half Pants: &id179
     aliases:
     - Half Pants
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Half Twin Tails: &id038
     aliases:
     - half twin tails
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Half Updo: &id039
     aliases:
     - half updo
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Halterneck: &id181
+  Halterneck: &id180
     aliases:
     - Halterneck
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Hanbok: &id182
+  Hanbok: &id181
     aliases:
     - hanbok
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Haori: &id183
+  Haori: &id182
     aliases:
     - Haori
     - 羽織
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Harness: &id184
+  Harness: &id183
     aliases:
     - harness
     - ハーネス
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Hat: &id185
+  Hat: &id184
     aliases:
     - ハット
     - Hat
@@ -866,14 +925,14 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Headdress: &id186
+  Headdress: &id185
     aliases:
     - ヘッドドレス
     - headdress
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Heels: &id187
+  Heels: &id186
     aliases:
     - heels
     metadata:
@@ -884,25 +943,28 @@ Styles:
     - Heterochromia
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  High Heels: &id188
+  High Heels: &id187
     aliases:
     - ハイヒール
     - High Heels
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  High Neck: &id189
+  High Neck: &id188
     aliases:
     - high neck
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  High-Leg: &id190
+  High-Leg: &id189
     aliases:
     - high-leg
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Hime Cut: &id041
     aliases:
@@ -910,13 +972,14 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Hooded: &id191
+  Hooded: &id190
     aliases:
     - hooded
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Hoodie: &id192
+  Hoodie: &id191
     aliases:
     - Hoodie
     - フーディ
@@ -930,64 +993,73 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Hot Pants: &id193
+  Hot Pants: &id192
     aliases:
     - hot pants
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Idol Outfit: &id194
+  Idol Outfit: &id193
     aliases:
     - Idol Outfit
     - アイドル衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Innerwear: &id195
+  Innerwear: &id194
     aliases:
     - インナー
     - Innerwear
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Jacket: &id196
+  Jacket: &id195
     aliases:
     - Jacket
     - ジャケット
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Japanese Clothing: &id197
+  Japanese Clothing: &id196
     aliases:
     - japanese clothing
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Jeans: &id198
+  Jeans: &id197
     aliases:
     - Jeans
     - ジーンズ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Jersey: &id199
+  Jersey: &id198
     aliases:
     - jersey
     - ジャージ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Jumper Skirt: &id200
+  Jumper Skirt: &id199
     aliases:
     - jumper skirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Jumpsuit: &id201
+  Jumpsuit: &id200
     aliases:
     - jumpsuit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Kemono: &id043
     aliases:
@@ -998,13 +1070,14 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Kigurumi: &id202
+  Kigurumi: &id201
     aliases:
     - kigurumi
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Kimono: &id203
+  Kimono: &id202
     aliases:
     - 着物
     - Kimono
@@ -1012,124 +1085,139 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Knee-High: &id204
+  Knee-High: &id203
     aliases:
     - Knee-High
     - ニーハイ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Knee-High Boots: &id205
+  Knee-High Boots: &id204
     aliases:
     - Knee-High Boots
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Knee-High Socks: &id206
+  Knee-High Socks: &id205
     aliases:
     - knee-high socks
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Knit: &id207
+  Knit: &id206
     aliases:
     - Knit
     - ニット
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Knit Dress: &id208
+  Knit Dress: &id207
     aliases:
     - knit dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Lab Coat: &id209
+  Lab Coat: &id208
     aliases:
     - 白衣
     - lab coat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Lace: &id210
+  Lace: &id209
     aliases:
     - Lace
     - レース
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Layered: &id211
+  Layered: &id210
     aliases:
     - layered
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Leather Jacket: &id212
+  Leather Jacket: &id211
     aliases:
     - leather jacket
     - レザージャケット
     - 革ジャン
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Leg Warmers: &id213
+  Leg Warmers: &id212
     aliases:
     - レッグウォーマー
     - Leg Warmers
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Leggings: &id214
+  Leggings: &id213
     aliases:
     - Leggings
     - レギンス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Leotard: &id215
+  Leotard: &id214
     aliases:
     - レオタード
     - Leotard
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Light Blue Hair: &id044
     aliases:
     - light blue hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Lingerie: &id216
+  Lingerie: &id215
     aliases:
     - Lingerie
     - ランジェリー
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Loafers: &id217
+  Loafers: &id216
     aliases:
     - loafers
     - ローファー
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Long Boots: &id218
+  Long Boots: &id217
     aliases:
     - Long Boots
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Long Coat: &id219
+  Long Coat: &id218
     aliases:
     - long coat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Long Dress: &id220
+  Long Dress: &id219
     aliases:
     - Long Dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Long Hair: &id045
     aliases:
@@ -1137,26 +1225,29 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Long Skirt: &id221
+  Long Skirt: &id220
     aliases:
     - long skirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Loose Socks: &id222
+  Loose Socks: &id221
     aliases:
     - ルーズソックス
     - loose socks
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Loungewear: &id223
+  Loungewear: &id222
     aliases:
     - loungewear
     - ルームウェア
     - 部屋着
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Low Ponytail: &id046
     aliases:
@@ -1169,8 +1260,9 @@ Styles:
     - Low Twin Tails
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Maid Outfit: &id224
+  Maid Outfit: &id223
     aliases:
     - Maid Outfit
     - メイド服
@@ -1178,11 +1270,12 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Matching Set: &id225
+  Matching Set: &id224
     aliases:
     - matching set
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Mecha: &id048
     aliases:
@@ -1197,6 +1290,7 @@ Styles:
     - Mecha Ears
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Medium Hair: &id050
     aliases:
@@ -1209,23 +1303,26 @@ Styles:
     - mesh hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Micro Bikini: &id226
+  Micro Bikini: &id225
     aliases:
     - マイクロビキニ
     - micro bikini
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Miko Outfit: &id227
+  Miko Outfit: &id226
     aliases:
     - 巫女服
     - miko outfit
     - 巫女
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Military Uniform: &id228
+  Military Uniform: &id227
     aliases:
     - ミリタリー制服
     - military uniform
@@ -1233,19 +1330,21 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Mini Dress: &id229
+  Mini Dress: &id228
     aliases:
     - mini dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Miniskirt: &id230
+  Miniskirt: &id229
     aliases:
     - ミニスカート
     - miniskirt
     - ミニスカ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Mouse Ears: &id052
     aliases:
@@ -1258,57 +1357,64 @@ Styles:
     - mushroom cut
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Necktie: &id231
+  Necktie: &id230
     aliases:
     - ネクタイ
     - Necktie
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Negligee: &id232
+  Negligee: &id231
     aliases:
     - negligee
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Non-Human: &id054
     aliases:
     - non-human
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Nun Habit: &id233
+  Nun Habit: &id232
     aliases:
     - nun habit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Nun Outfit: &id234
+  Nun Outfit: &id233
     aliases:
     - 修道女
     - nun outfit
     - シスター
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Nurse Outfit: &id235
+  Nurse Outfit: &id234
     aliases:
     - nurse outfit
     - ナース
     - ナース服
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Off-Shoulder: &id236
+  Off-Shoulder: &id235
     aliases:
     - Off-Shoulder
     - オフショル
     - オフショルダー
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  One-Piece Dress: &id237
+  One-Piece Dress: &id236
     aliases:
     - ワンピ
     - One-Piece Dress
@@ -1316,96 +1422,110 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  One-Piece Swimsuit: &id238
+  One-Piece Swimsuit: &id237
     aliases:
     - one-piece swimsuit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Orange Hair: &id055
     aliases:
     - Orange Hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Outerwear: &id239
+  Outerwear: &id238
     aliases:
     - outerwear
     - アウター
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Overalls: &id240
+  Overalls: &id239
     aliases:
     - Overalls
     - オーバーオール
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Oversized: &id241
+  Oversized: &id240
     aliases:
     - Oversized
     - オーバーサイズ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Pajamas: &id242
+  Pajamas: &id241
     aliases:
     - Pajamas
     - パジャマ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Pants: &id243
+  Pants: &id242
     aliases:
     - ズボン
     - pants
     - パンツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Paw Pads: &id056
     aliases:
     - paw pads
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Pink Eyes: &id057
     aliases:
     - Pink Eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Pink Hair: &id058
     aliases:
     - pink hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Plaid Skirt: &id244
+  Plaid Skirt: &id243
     aliases:
     - Plaid Skirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Platform Boots: &id245
+  Platform Boots: &id244
     aliases:
     - platform boots
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Pleated Skirt: &id246
+  Pleated Skirt: &id245
     aliases:
     - Pleated Skirt
     - プリーツスカート
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Poncho: &id247
+  Poncho: &id246
     aliases:
     - Poncho
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Ponytail: &id059
     aliases:
@@ -1413,44 +1533,50 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Pumps: &id248
+  Pumps: &id247
     aliases:
     - Pumps
     - パンプス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Purple Eyes: &id060
     aliases:
     - purple eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Purple Hair: &id061
     aliases:
     - purple hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Racing Swimsuit: &id249
+  Racing Swimsuit: &id248
     aliases:
     - Racing Swimsuit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Raincoat: &id250
+  Raincoat: &id249
     aliases:
     - レインコート
     - raincoat
     - カッパ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Red Eyes: &id062
     aliases:
     - Red Eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Red Hair: &id063
     aliases:
@@ -1458,12 +1584,13 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Robe: &id251
+  Robe: &id250
     aliases:
     - ローブ
     - robe
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Robot: &id064
     aliases:
@@ -1471,42 +1598,46 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Rubber Suit: &id252
+  Rubber Suit: &id251
     aliases:
     - rubber suit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sailor: &id253
+  Sailor: &id252
     aliases:
     - Sailor
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sailor Uniform: &id254
+  Sailor Uniform: &id253
     aliases:
     - セーラー
     - セーラー服
     - Sailor Uniform
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sandals: &id255
+  Sandals: &id254
     aliases:
     - サンダル
     - Sandals
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Santa Outfit: &id256
+  Santa Outfit: &id255
     aliases:
     - santa outfit
     - サンタ服
     - サンタ衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Scarf: &id257
+  Scarf: &id256
     aliases:
     - scarf
     - スカーフ
@@ -1514,7 +1645,7 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  School Swimsuit: &id258
+  School Swimsuit: &id257
     aliases:
     - スク水
     - school swimsuit
@@ -1522,7 +1653,7 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  School Uniform: &id259
+  School Uniform: &id258
     aliases:
     - 学生服
     - School Uniform
@@ -1535,21 +1666,23 @@ Styles:
     - Sheep Ears
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sheer: &id260
+  Sheer: &id259
     aliases:
     - Sheer
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Shirt: &id261
+  Shirt: &id260
     aliases:
     - Shirt
     - シャツ
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Shoes: &id262
+  Shoes: &id261
     aliases:
     - shoes
     metadata:
@@ -1561,11 +1694,12 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Short Boots: &id263
+  Short Boots: &id262
     aliases:
     - short boots
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Short Hair: &id067
     aliases:
@@ -1573,7 +1707,7 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Short Pants: &id264
+  Short Pants: &id263
     aliases:
     - ショーツ
     - short pants
@@ -1581,13 +1715,15 @@ Styles:
     - ショートパンツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Shorts: &id265
+  Shorts: &id264
     aliases:
     - Shorts
     - ショーツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Side Tail: &id068
     aliases:
@@ -1600,72 +1736,80 @@ Styles:
     - silver hair
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Skinny Pants: &id266
+  Skinny Pants: &id265
     aliases:
     - skinny pants
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Skirt: &id267
+  Skirt: &id266
     aliases:
     - skirt
     - スカート
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Slacks: &id268
+  Slacks: &id267
     aliases:
     - slacks
     - スラックス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sleeveless: &id269
+  Sleeveless: &id268
     aliases:
     - Sleeveless
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sneakers: &id270
+  Sneakers: &id269
     aliases:
     - Sneakers
     - スニーカー
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Socks: &id271
+  Socks: &id270
     aliases:
     - Socks
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Spacesuit: &id272
+  Spacesuit: &id271
     aliases:
     - spacesuit
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Spats: &id273
+  Spats: &id272
     aliases:
     - Spats
     - スパッツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sportswear: &id274
+  Sportswear: &id273
     aliases:
     - スポーツウェア
     - Sportswear
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Stockings: &id275
+  Stockings: &id274
     aliases:
     - Stockings
     - ストッキング
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Straight Hair: &id070
     aliases:
@@ -1673,46 +1817,50 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Suit: &id276
+  Suit: &id275
     aliases:
     - スーツ
     - Suit
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Summer Dress: &id277
+  Summer Dress: &id276
     aliases:
     - Summer Dress
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Suspenders: &id278
+  Suspenders: &id277
     aliases:
     - サスペンダー
     - suspenders
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Sweater: &id279
+  Sweater: &id278
     aliases:
     - Sweater
     - セーター
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sweatpants: &id280
+  Sweatpants: &id279
     aliases:
     - sweatpants
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Sweatshirt: &id281
+  Sweatshirt: &id280
     aliases:
     - sweatshirt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Swimsuit: &id282
+  Swimsuit: &id281
     aliases:
     - Swimsuit
     - スイムウェア
@@ -1720,12 +1868,13 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  T-Shirt: &id283
+  T-Shirt: &id282
     aliases:
     - T-Shirt
     - Tシャツ
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Tail: &id071
     aliases:
@@ -1733,65 +1882,65 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Tank Top: &id284
+  Tank Top: &id283
     aliases:
     - タンクトップ
     - Tank Top
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Techwear: &id285
+  Techwear: &id284
     aliases:
     - techwear
     - テックウェア
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Thigh-high Socks: &id286
+  Thigh-high Socks: &id285
     aliases:
     - thigh-high socks
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Tight Skirt: &id287
+  Tight Skirt: &id286
     aliases:
     - Tight Skirt
     - タイトスカート
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Tights: &id288
+  Tights: &id287
     aliases:
     - タイツ
     - tights
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Tops: &id289
-    aliases:
-    - Tops
-    - トップス
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  Trench Coat: &id290
+  Trench Coat: &id288
     aliases:
     - trench coat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Tube Top: &id291
+  Tube Top: &id289
     aliases:
     - tube top
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Turtleneck: &id292
+  Turtleneck: &id290
     aliases:
     - turtleneck
     - タートルネック
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Twin Tails: &id072
     aliases:
@@ -1805,15 +1954,16 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Underwear: &id293
+  Underwear: &id291
     aliases:
     - 下着
     - Underwear
     - アンダーウェア
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Uniform: &id294
+  Uniform: &id292
     aliases:
     - Uniform
     - ユニフォーム
@@ -1827,13 +1977,14 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Varsity Jacket: &id295
+  Varsity Jacket: &id293
     aliases:
     - Varsity Jacket
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Veil: &id296
+  Veil: &id294
     aliases:
     - ヴェール
     - Veil
@@ -1841,18 +1992,20 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Vest: &id297
+  Vest: &id295
     aliases:
     - ベスト
     - vest
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Wafuku: &id298
+  Wafuku: &id296
     aliases:
     - Wafuku
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Wave Hair: &id075
     aliases:
@@ -1866,12 +2019,13 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Wedding Dress: &id299
+  Wedding Dress: &id297
     aliases:
     - wedding dress
     - ウェディングドレス
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   White Hair: &id077
     aliases:
@@ -1879,11 +2033,12 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Wide Pants: &id300
+  Wide Pants: &id298
     aliases:
     - wide pants
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Wings: &id078
     aliases:
@@ -1891,19 +2046,21 @@ Styles:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  Witch Outfit: &id301
+  Witch Outfit: &id299
     aliases:
     - 魔女
     - Witch Outfit
     - 魔女服
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Wolf Cut: &id079
     aliases:
     - wolf cut
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Wolf Ears: &id080
     aliases:
@@ -1916,8 +2073,9 @@ Styles:
     - yellow eyes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Yukata: &id302
+  Yukata: &id300
     aliases:
     - yukata
     - 浴衣
@@ -1925,20 +2083,6 @@ Styles:
       faceemo_version: any
       udonsharp_compat: true
 accessories:
-  10 avatars:
-    aliases:
-    - 10 avatars
-    - 10 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  100アバター以上:
-    aliases:
-    - 100アバター以上
-    - 100アバター以上
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   100円:
     aliases:
     - 100円
@@ -1946,38 +2090,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  10Avatar:
-    aliases:
-    - 10Avatar
-    - 10avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  10Avatars:
-    aliases:
-    - 10Avatars
-    - 10avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   10Avaters:
     aliases:
     - 10Avaters
     - 10avaters
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  10アバター:
-    aliases:
-    - 10アバター
-    - 10アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  10人:
-    aliases:
-    - 10人
-    - 10人
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -1995,48 +2111,6 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  11 Avatar:
-    aliases:
-    - 11 Avatar
-    - 11 avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  11 Avatars:
-    aliases:
-    - 11 Avatars
-    - 11 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  11Avatar:
-    aliases:
-    - 11Avatar
-    - 11avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  11Avatars:
-    aliases:
-    - 11Avatars
-    - 11avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  11アバター:
-    aliases:
-    - 11アバター
-    - 11アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  11モデル:
-    aliases:
-    - 11モデル
-    - 11モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   11体:
     aliases:
     - 11体
@@ -2048,41 +2122,6 @@ accessories:
     aliases:
     - '12'
     - '12'
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  12 Avatars:
-    aliases:
-    - 12 Avatars
-    - 12 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  12Avatar:
-    aliases:
-    - 12Avatar
-    - 12avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  12Avatars:
-    aliases:
-    - 12Avatars
-    - 12avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  12アバター:
-    aliases:
-    - 12アバター
-    - 12アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  12モデル:
-    aliases:
-    - 12モデル
-    - 12モデル
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2100,45 +2139,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  13 Avatars:
-    aliases:
-    - 13 Avatars
-    - 13 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   13-Avatars:
     aliases:
     - 13-Avatars
     - 13-avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  13Avatar:
-    aliases:
-    - 13Avatar
-    - 13avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  13アバター:
-    aliases:
-    - 13アバター
-    - 13アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  13モデル:
-    aliases:
-    - 13モデル
-    - 13モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  13人:
-    aliases:
-    - 13人
-    - 13人
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2156,66 +2160,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  14 Avatar:
-    aliases:
-    - 14 Avatar
-    - 14 avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  14アバター:
-    aliases:
-    - 14アバター
-    - 14アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  14アバター対応！/ギミック付き！:
-    aliases:
-    - 14アバター対応！/ギミック付き！
-    - 14アバター対応！/ギミック付き！
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   14体:
     aliases:
     - 14体
     - 14体
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  15 Avatars:
-    aliases:
-    - 15 Avatars
-    - 15 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  15Avatar:
-    aliases:
-    - 15Avatar
-    - 15avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  15Avatars:
-    aliases:
-    - 15Avatars
-    - 15avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  15アバター:
-    aliases:
-    - 15アバター
-    - 15アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  15アバター対応 VRC Hair:
-    aliases:
-    - 15アバター対応 VRC Hair
-    - 15アバター対応 vrc hair
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2226,101 +2174,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  15人:
-    aliases:
-    - 15人
-    - 15人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   15体:
     aliases:
     - 15体
     - 15体
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  16 Avatars:
-    aliases:
-    - 16 Avatars
-    - 16 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  16avatar:
-    aliases:
-    - 16avatar
-    - 16avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  16アバター:
-    aliases:
-    - 16アバター
-    - 16アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  16アバター対応 VRC Hair:
-    aliases:
-    - 16アバター対応 VRC Hair
-    - 16アバター対応 vrc hair
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  16モデル:
-    aliases:
-    - 16モデル
-    - 16モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17 Avatars:
-    aliases:
-    - 17 Avatars
-    - 17 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17Avatars:
-    aliases:
-    - 17Avatars
-    - 17avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17アバター:
-    aliases:
-    - 17アバター
-    - 17アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17アバター対応 VRC Hair:
-    aliases:
-    - 17アバター対応 VRC Hair
-    - 17アバター対応 vrc hair
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17モデル:
-    aliases:
-    - 17モデル
-    - 17モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  17人:
-    aliases:
-    - 17人
-    - 17人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  18 avatars:
-    aliases:
-    - 18 avatars
-    - 18 avatars
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2331,52 +2188,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  18Avatar:
-    aliases:
-    - 18Avatar
-    - 18avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  18Avatars:
-    aliases:
-    - 18Avatars
-    - 18avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  18アバター:
-    aliases:
-    - 18アバター
-    - 18アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  18モデル:
-    aliases:
-    - 18モデル
-    - 18モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  18人:
-    aliases:
-    - 18人
-    - 18人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   '19':
     aliases:
     - '19'
     - '19'
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  19 Avatar:
-    aliases:
-    - 19 Avatar
-    - 19 avatar
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2387,31 +2202,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  19アバター:
-    aliases:
-    - 19アバター
-    - 19アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  19モデル:
-    aliases:
-    - 19モデル
-    - 19モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   19体:
     aliases:
     - 19体
     - 19体
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  20 Avatars:
-    aliases:
-    - 20 Avatars
-    - 20 avatars
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2422,76 +2216,6 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  20Avatars:
-    aliases:
-    - 20Avatars
-    - 20avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  20アバター:
-    aliases:
-    - 20アバター
-    - 20アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  20アバター、MA:
-    aliases:
-    - 20アバター、MA
-    - 20アバター、ma
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  20モデル:
-    aliases:
-    - 20モデル
-    - 20モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  20人:
-    aliases:
-    - 20人
-    - 20人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  21 Avatars:
-    aliases:
-    - 21 Avatars
-    - 21 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  21Avatars:
-    aliases:
-    - 21Avatars
-    - 21avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  21avatar:
-    aliases:
-    - 21avatar
-    - 21avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  21アバター:
-    aliases:
-    - 21アバター
-    - 21アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  21モデル:
-    aliases:
-    - 21モデル
-    - 21モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   21体:
     aliases:
     - 21体
@@ -2499,94 +2223,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  22 Avatars:
-    aliases:
-    - 22 Avatars
-    - 22 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  22アバター:
-    aliases:
-    - 22アバター
-    - 22アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  22アバター対応コーデ:
-    aliases:
-    - 22アバター対応コーデ
-    - 22アバター対応コーデ
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  23アバター:
-    aliases:
-    - 23アバター
-    - 23アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  24アバター:
-    aliases:
-    - 24アバター
-    - 24アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  25アバター:
-    aliases:
-    - 25アバター
-    - 25アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  26アバター:
-    aliases:
-    - 26アバター
-    - 26アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  27アバター:
-    aliases:
-    - 27アバター
-    - 27アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  28アバター:
-    aliases:
-    - 28アバター
-    - 28アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  28モデル:
-    aliases:
-    - 28モデル
-    - 28モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   28点:
     aliases:
     - 28点
     - 28点
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  29アバター:
-    aliases:
-    - 29アバター
-    - 29アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  2アバター:
-    aliases:
-    - 2アバター
-    - 2アバター
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2604,13 +2244,6 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  3 Avatars:
-    aliases:
-    - 3 Avatars
-    - 3 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   3 Men Avatars:
     aliases:
     - 3 Men Avatars
@@ -2622,90 +2255,6 @@ accessories:
     aliases:
     - 3.0 Update!
     - 3.0 update!
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  30 Avatar:
-    aliases:
-    - 30 Avatar
-    - 30 avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  30アバター:
-    aliases:
-    - 30アバター
-    - 30アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  31アバター:
-    aliases:
-    - 31アバター
-    - 31アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  32アバター:
-    aliases:
-    - 32アバター
-    - 32アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  33アバター:
-    aliases:
-    - 33アバター
-    - 33アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  34アバター:
-    aliases:
-    - 34アバター
-    - 34アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  35アバター:
-    aliases:
-    - 35アバター
-    - 35アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  36アバター:
-    aliases:
-    - 36アバター
-    - 36アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  37アバター:
-    aliases:
-    - 37アバター
-    - 37アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  38アバター:
-    aliases:
-    - 38アバター
-    - 38アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  39アバター:
-    aliases:
-    - 39アバター
-    - 39アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  3Avatars:
-    aliases:
-    - 3Avatars
-    - 3avatars
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2849,122 +2398,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  3アバター:
-    aliases:
-    - 3アバター
-    - 3アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  4 Avatars:
-    aliases:
-    - 4 Avatars
-    - 4 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  40アバター:
-    aliases:
-    - 40アバター
-    - 40アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  41アバター:
-    aliases:
-    - 41アバター
-    - 41アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  43アバター:
-    aliases:
-    - 43アバター
-    - 43アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  44アバター:
-    aliases:
-    - 44アバター
-    - 44アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  45アバター:
-    aliases:
-    - 45アバター
-    - 45アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  46アバター:
-    aliases:
-    - 46アバター
-    - 46アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  47アバター:
-    aliases:
-    - 47アバター
-    - 47アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  48アバター:
-    aliases:
-    - 48アバター
-    - 48アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  49アバター:
-    aliases:
-    - 49アバター
-    - 49アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  4Avatar:
-    aliases:
-    - 4Avatar
-    - 4avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  4Avatars:
-    aliases:
-    - 4Avatars
-    - 4avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  4アバター:
-    aliases:
-    - 4アバター
-    - 4アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  4人:
-    aliases:
-    - 4人
-    - 4人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   4体:
     aliases:
     - 4体
     - 4体
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  5 Avatars:
-    aliases:
-    - 5 Avatars
-    - 5 avatars
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -2975,45 +2412,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  5Avatar:
-    aliases:
-    - 5Avatar
-    - 5avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  5アバター:
-    aliases:
-    - 5アバター
-    - 5アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  5モデル:
-    aliases:
-    - 5モデル
-    - 5モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  5人:
-    aliases:
-    - 5人
-    - 5人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   5体:
     aliases:
     - 5体
     - 5体
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6 Avatars:
-    aliases:
-    - 6 Avatars
-    - 6 avatars
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -3024,108 +2426,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  60アバター:
-    aliases:
-    - 60アバター
-    - 60アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  69アバター:
-    aliases:
-    - 69アバター
-    - 69アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6Avatar:
-    aliases:
-    - 6Avatar
-    - 6avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6Avatars:
-    aliases:
-    - 6Avatars
-    - 6avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6アバター:
-    aliases:
-    - 6アバター
-    - 6アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6アバター対応です:
-    aliases:
-    - 6アバター対応です
-    - 6アバター対応です
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6モデル:
-    aliases:
-    - 6モデル
-    - 6モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  6人:
-    aliases:
-    - 6人
-    - 6人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7 AVATAR:
-    aliases:
-    - 7 AVATAR
-    - 7 avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7 Avatars:
-    aliases:
-    - 7 Avatars
-    - 7 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7Avatar:
-    aliases:
-    - 7Avatar
-    - 7avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7Avatars:
-    aliases:
-    - 7Avatars
-    - 7avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   7color:
     aliases:
     - 7color
     - 7color
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7アバター:
-    aliases:
-    - 7アバター
-    - 7アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  7モデル:
-    aliases:
-    - 7モデル
-    - 7モデル
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -3136,94 +2440,10 @@ accessories:
     metadata:
       faceemo_version: any
       udonsharp_compat: true
-  8 Avatars:
-    aliases:
-    - 8 Avatars
-    - 8 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  83アバター:
-    aliases:
-    - 83アバター
-    - 83アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  8Avatar:
-    aliases:
-    - 8Avatar
-    - 8avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  8Avatars:
-    aliases:
-    - 8Avatars
-    - 8avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
   8Avaters:
     aliases:
     - 8Avaters
     - 8avaters
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  8アバター:
-    aliases:
-    - 8アバター
-    - 8アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  8モデル:
-    aliases:
-    - 8モデル
-    - 8モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  8人:
-    aliases:
-    - 8人
-    - 8人
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  9 Avatars:
-    aliases:
-    - 9 Avatars
-    - 9 avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  9Avatar:
-    aliases:
-    - 9Avatar
-    - 9avatar
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  9Avatars:
-    aliases:
-    - 9Avatars
-    - 9avatars
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  9アバター:
-    aliases:
-    - 9アバター
-    - 9アバター
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  9人:
-    aliases:
-    - 9人
-    - 9人
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -3320,6 +2540,7 @@ accessories:
     - anklet
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Anubis Summer:
     aliases:
@@ -3409,6 +2630,7 @@ accessories:
     - bat wings
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Beanie:
     aliases:
@@ -3455,6 +2677,7 @@ accessories:
     - body piercing
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bonnet:
     aliases:
@@ -3486,6 +2709,7 @@ accessories:
     - Bow Tie
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Bracelet:
     aliases:
@@ -3522,6 +2746,7 @@ accessories:
     - Butterfly Motif
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   CC0:
     aliases:
@@ -3651,6 +2876,7 @@ accessories:
     - Crucifix
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Crystal:
     aliases:
@@ -3690,6 +2916,7 @@ accessories:
     - demon horns
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Demon Wings:
     aliases:
@@ -3877,6 +3104,7 @@ accessories:
     - feathers
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Flower:
     aliases:
@@ -3895,6 +3123,7 @@ accessories:
     - flower ornament
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Flower_Nail:
     aliases:
@@ -3908,6 +3137,7 @@ accessories:
     - folding fan
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   For Avatar:
     aliases:
@@ -4089,12 +3319,14 @@ accessories:
     - hair ornament
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Hair Ribbon:
     aliases:
     - Hair Ribbon
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Hair Tie:
     aliases:
@@ -4119,12 +3351,14 @@ accessories:
     - Handbag
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Handcuffs:
     aliases:
     - handcuffs
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Harness:
     aliases:
@@ -4183,6 +3417,7 @@ accessories:
     - Heart Motif
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Heels:
     aliases:
@@ -4226,12 +3461,14 @@ accessories:
     - japanese sword
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Japanese Umbrella:
     aliases:
     - Japanese Umbrella
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Jewel:
     aliases:
@@ -4265,6 +3502,7 @@ accessories:
     - kanzashi
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Katana:
     aliases:
@@ -4297,6 +3535,7 @@ accessories:
     - kiseru pipe
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Knife:
     aliases:
@@ -4377,6 +3616,7 @@ accessories:
     - leather shoes
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Leeme＆Reeva:
     aliases:
@@ -4390,6 +3630,7 @@ accessories:
     - Leg Belt
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Li-ne_Shop:
     aliases:
@@ -4605,12 +3846,14 @@ accessories:
     - Mecha Parts
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Mecha Wings:
     aliases:
     - mecha wings
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Microphone:
     aliases:
@@ -4630,6 +3873,7 @@ accessories:
     - military cap
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Milltina/ミルティナ:
     aliases:
@@ -4643,6 +3887,7 @@ accessories:
     - mini hat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Misaki Update:
     aliases:
@@ -4676,6 +3921,7 @@ accessories:
     - moon motif
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Motion Animation:
     aliases:
@@ -4717,6 +3963,7 @@ accessories:
     - Nail Tips
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Nails:
     aliases:
@@ -4846,6 +4093,7 @@ accessories:
     - pacifier
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Pati･Par!:
     aliases:
@@ -4859,6 +4107,7 @@ accessories:
     - paw pads
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Pearl:
     aliases:
@@ -4871,6 +4120,7 @@ accessories:
     - pendant
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Physics Bone:
     aliases:
@@ -4890,6 +4140,7 @@ accessories:
     - pin badge
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Plum update:
     aliases:
@@ -4923,6 +4174,7 @@ accessories:
     - Pocket Watch
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Pom Pom:
     aliases:
@@ -4941,6 +4193,7 @@ accessories:
     - Prosthetic Arm
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Prosthetic Leg:
     aliases:
@@ -4994,6 +4247,7 @@ accessories:
     - ribbon tie
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Rifle:
     aliases:
@@ -5073,6 +4327,7 @@ accessories:
     - Santa Hat
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Scarf:
     aliases:
@@ -5087,6 +4342,7 @@ accessories:
     - Scrunchie
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Scythe:
     aliases:
@@ -5202,6 +4458,7 @@ accessories:
     - star motif
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Strap:
     aliases:
@@ -5233,6 +4490,7 @@ accessories:
     - Sun Visor
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Sunglasses:
     aliases:
@@ -5277,6 +4535,7 @@ accessories:
     - talisman
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Tassel:
     aliases:
@@ -5309,6 +4568,7 @@ accessories:
     - thigh-high socks
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   Tiara:
     aliases:
@@ -5327,6 +4587,8 @@ accessories:
     aliases:
     - Top
     - top
+    - Tops
+    - トップス
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -5927,6 +5189,8 @@ accessories:
     aliases:
     - VRC対応3Dモデル
     - vrc対応3dモデル
+    - VRC対応3D服飾モデル
+    - vrc対応3d服飾モデル
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -6088,6 +5352,8 @@ accessories:
     aliases:
     - VRM&Unitypackage
     - vrm&unitypackage
+    - UnityPackage
+    - unitypackage
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -6260,6 +5526,7 @@ accessories:
     - wristwatch
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   XWear:
     aliases:
@@ -7063,6 +6330,7 @@ accessories:
     aliases:
     - ギミック付き
     - ギミック付き
+    - ギミック付き衣装
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -9032,6 +8300,8 @@ body_types:
     - デフォルメ
     - ちび
     - sd
+    metadata:
+      status: deprecated
   Female:
     aliases:
     - Female
@@ -9040,6 +8310,8 @@ body_types:
     - 女性
     - レディース
     - female
+    metadata:
+      status: deprecated
   Male:
     aliases:
     - male
@@ -9048,22 +8320,32 @@ body_types:
     - メンズ
     - masculine
     - Male
+    metadata:
+      status: deprecated
   Mascot:
     aliases:
     - mascot
     - Mascot
+    metadata:
+      status: deprecated
   Petite:
     aliases:
     - Petite
     - petite
+    metadata:
+      status: deprecated
   Standard Build:
     aliases:
     - Standard Build
     - standard build
+    metadata:
+      status: deprecated
   Tall Build:
     aliases:
     - Tall Build
     - tall build
+    metadata:
+      status: deprecated
 categories:
   ACCESSORY:
     aliases:
@@ -9079,12 +8361,6 @@ categories:
     - hand
     - foot
     - weapon
-  AVATAR:
-    aliases:
-    - アバター
-    - avatar
-    - 3Dキャラクター
-    - オリジナル3Dモデル
   GIMMICK_TOOL:
     aliases:
     - ギミック
@@ -9095,6 +8371,8 @@ categories:
     - script
     - MA対応
     - VRCFury
+    metadata:
+      status: deprecated
   HAIRSTYLE:
     aliases:
     - 髪型
@@ -9103,6 +8381,8 @@ categories:
     - hair
     - 髪
     - ウィッグ
+    metadata:
+      status: deprecated
   OUTFIT:
     aliases:
     - 衣装
@@ -9129,6 +8409,8 @@ categories:
     - 瞳
     - 肌
     - メイク
+    metadata:
+      status: deprecated
 colors: *id082
 components:
   Animation:
@@ -9164,22 +8446,32 @@ features:
     aliases:
     - afk motion
     - AFK Motion
+    metadata:
+      status: deprecated
   AudioLink Compatible: &id084
     aliases:
     - audiolink compatible
     - AudioLink Compatible
+    metadata:
+      status: deprecated
   Blend Shape: &id085
     aliases:
     - Blend Shape
     - blend shape
+    metadata:
+      status: deprecated
   Dance Animation: &id086
     aliases:
     - dance animation
     - Dance Animation
+    metadata:
+      status: deprecated
   Desktop Compatible: &id087
     aliases:
     - Desktop Compatible
     - desktop compatible
+    metadata:
+      status: deprecated
   Emote: &id088
     aliases:
     - emote
@@ -9188,54 +8480,80 @@ features:
     aliases:
     - Expression Animation
     - expression animation
+    metadata:
+      status: deprecated
   Eye Tracking: &id090
     aliases:
     - eye tracking
     - Eye Tracking
+    metadata:
+      status: deprecated
   Face Tracking: &id091
     aliases:
     - face tracking
     - Face Tracking
+    metadata:
+      status: deprecated
   FaceEmo Compatible: &id092
     aliases:
     - FaceEmo Compatible
     - faceemo compatible
+    metadata:
+      status: deprecated
   For Photography: &id093
     aliases:
     - For Photography
     - for photography
+    metadata:
+      status: deprecated
   Full Body Tracking Compatible: &id094
     aliases:
     - Full Body Tracking Compatible
     - full body tracking compatible
+    metadata:
+      status: deprecated
   Gesture Linked: &id095
     aliases:
     - Gesture Linked
     - gesture linked
+    metadata:
+      status: deprecated
   Hand Sign Linked: &id096
     aliases:
     - Hand Sign Linked
     - hand sign linked
+    metadata:
+      status: deprecated
   Humanoid Compatible: &id097
     aliases:
     - humanoid compatible
     - Humanoid Compatible
+    metadata:
+      status: deprecated
   Lip Sync: &id098
     aliases:
     - Lip Sync
     - lip sync
+    metadata:
+      status: deprecated
   Mirror: &id099
     aliases:
     - Mirror
     - mirror
+    metadata:
+      status: deprecated
   Mochifitter Compatible: &id100
     aliases:
     - mochifitter compatible
     - Mochifitter Compatible
+    metadata:
+      status: deprecated
   Modular Avatar Compatible: &id101
     aliases:
     - Modular Avatar Compatible
     - modular avatar compatible
+    metadata:
+      status: deprecated
   ModularAvatar: &id102
     aliases:
     - Modular Avatar
@@ -9246,10 +8564,14 @@ features:
     aliases:
     - psd included
     - PSD Included
+    metadata:
+      status: deprecated
   Particle: &id104
     aliases:
     - particle
     - Particle
+    metadata:
+      status: deprecated
   PhysBone: &id105
     aliases:
     - PhysBone
@@ -9260,14 +8582,20 @@ features:
     aliases:
     - physbone compatible
     - PhysBone Compatible
+    metadata:
+      status: deprecated
   PhysBone Physics: &id107
     aliases:
     - PhysBone Physics
     - physbone physics
+    metadata:
+      status: deprecated
   Pickupable: &id108
     aliases:
     - pickupable
     - Pickupable
+    metadata:
+      status: deprecated
   Poiyomi: &id109
     aliases:
     - Poiyomi
@@ -9276,20 +8604,28 @@ features:
     aliases:
     - poiyomi compatible
     - Poiyomi Compatible
+    metadata:
+      status: deprecated
   Pose Animation: &id111
     aliases:
     - Pose Animation
     - pose animation
+    metadata:
+      status: deprecated
   Quest Compatible: &id112
     aliases:
     - quest compatible
     - Quest Compatible
+    metadata:
+      status: deprecated
   QuestCompatible: &id113
     aliases:
     - Quest対応
     - Android対応
     - Quest
     - Android
+    metadata:
+      status: deprecated
   Shader: &id114
     aliases:
     - Shader
@@ -9298,46 +8634,68 @@ features:
     aliases:
     - Shape Key
     - shape key
+    metadata:
+      status: deprecated
   Sittable: &id116
     aliases:
     - Sittable
     - sittable
+    metadata:
+      status: deprecated
   Synced: &id117
     aliases:
     - synced
     - Synced
+    metadata:
+      status: deprecated
   Udon: &id118
     aliases:
     - Udon
     - udon
+    metadata:
+      status: deprecated
   VRCFT Compatible: &id119
     aliases:
     - VRCFT Compatible
     - vrcft compatible
+    metadata:
+      status: deprecated
   VRCFury: &id120
     aliases:
     - VRCFury
     - Fury
+    metadata:
+      status: deprecated
   VRCFury Compatible: &id121
     aliases:
     - vrcfury compatible
     - VRCFury Compatible
+    metadata:
+      status: deprecated
   VRM Compatible: &id122
     aliases:
     - VRM Compatible
     - vrm compatible
+    metadata:
+      status: deprecated
   Warp: &id123
     aliases:
     - Warp
     - warp
+    metadata:
+      status: deprecated
   World Fixed: &id124
     aliases:
     - world fixed
     - World Fixed
+    metadata:
+      status: deprecated
   World Gimmick: &id125
     aliases:
     - World Gimmick
     - world gimmick
+    metadata:
+      status: deprecated
   lilToon: &id126
     aliases:
     - lilToon
@@ -9346,6 +8704,8 @@ features:
     aliases:
     - liltoon compatible
     - lilToon Compatible
+    metadata:
+      status: deprecated
 features_flat:
   AFK Motion: *id083
   AudioLink Compatible: *id084
@@ -9399,32 +8759,12 @@ outfit_types:
     - 3dモデル衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   3D衣装:
     aliases:
     - 3D衣装
     - 3d衣装
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  3D衣装モデル:
-    aliases:
-    - 3D衣装モデル
-    - 3d衣装モデル
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  3アバター対応衣装:
-    aliases:
-    - 3アバター対応衣装
-    - 3アバター対応衣装
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  5アバター対応衣装:
-    aliases:
-    - 5アバター対応衣装
-    - 5アバター対応衣装
     metadata:
       faceemo_version: any
       udonsharp_compat: true
@@ -9451,28 +8791,28 @@ outfit_types:
   Bustier: *id148
   Camisole: *id149
   Cap: *id150
-  Cape: *id151
-  Cardigan: *id152
-  Cargo Pants: *id153
-  China Dress: *id154
-  Cloak: *id155
-  Coat: *id156
-  Corset: *id157
-  Costume: *id158
-  Crop Top: *id159
-  Denim: *id160
-  Distressed Jeans: *id161
-  Down Jacket: *id162
-  Dress: *id163
-  Dress Shirt: *id164
-  Duffle Coat: *id165
-  Dungarees: *id166
+  Cardigan: *id151
+  Cargo Pants: *id152
+  China Dress: *id153
+  Cloak: *id154
+  Coat: *id155
+  Corset: *id156
+  Costume: *id157
+  Crop Top: *id158
+  Denim: *id159
+  Distressed Jeans: *id160
+  Down Jacket: *id161
+  Dress: *id162
+  Dress Shirt: *id163
+  Duffle Coat: *id164
+  Dungarees: *id165
   EFBody専用衣装:
     aliases:
     - EFBody専用衣装
     - efbody専用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   FREE/セット衣装:
     aliases:
@@ -9480,148 +8820,150 @@ outfit_types:
     - free/セット衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Fishnet Tights: *id167
-  Flare Skirt: *id168
-  Frill: *id169
-  Frill Skirt: *id170
-  Frilled Dress: *id171
-  Frilled One-Piece: *id172
-  Fur Coat: *id173
-  Furisode: *id174
-  Garter: *id175
-  Garter Belt: *id176
-  Gloves: *id177
-  Gothic Dress: *id178
-  Hakama: *id179
-  Half Pants: *id180
-  Halterneck: *id181
-  Hanbok: *id182
-  Haori: *id183
-  Harness: *id184
-  Hat: *id185
-  Headdress: *id186
-  Heels: *id187
-  High Heels: *id188
-  High Neck: *id189
-  High-Leg: *id190
-  Hooded: *id191
-  Hoodie: *id192
-  Hot Pants: *id193
-  Idol Outfit: *id194
-  Innerwear: *id195
-  Jacket: *id196
-  Japanese Clothing: *id197
-  Jeans: *id198
-  Jersey: *id199
-  Jumper Skirt: *id200
-  Jumpsuit: *id201
-  Kigurumi: *id202
-  Kimono: *id203
-  Knee-High: *id204
-  Knee-High Boots: *id205
-  Knee-High Socks: *id206
-  Knit: *id207
-  Knit Dress: *id208
-  Lab Coat: *id209
-  Lace: *id210
-  Layered: *id211
-  Leather Jacket: *id212
-  Leg Warmers: *id213
-  Leggings: *id214
-  Leotard: *id215
-  Lingerie: *id216
-  Loafers: *id217
-  Long Boots: *id218
-  Long Coat: *id219
-  Long Dress: *id220
-  Long Skirt: *id221
-  Loose Socks: *id222
-  Loungewear: *id223
+  Fishnet Tights: *id166
+  Flare Skirt: *id167
+  Frill: *id168
+  Frill Skirt: *id169
+  Frilled Dress: *id170
+  Frilled One-Piece: *id171
+  Fur Coat: *id172
+  Furisode: *id173
+  Garter: *id174
+  Garter Belt: *id175
+  Gloves: *id176
+  Gothic Dress: *id177
+  Hakama: *id178
+  Half Pants: *id179
+  Halterneck: *id180
+  Hanbok: *id181
+  Haori: *id182
+  Harness: *id183
+  Hat: *id184
+  Headdress: *id185
+  Heels: *id186
+  High Heels: *id187
+  High Neck: *id188
+  High-Leg: *id189
+  Hooded: *id190
+  Hoodie: *id191
+  Hot Pants: *id192
+  Idol Outfit: *id193
+  Innerwear: *id194
+  Jacket: *id195
+  Japanese Clothing: *id196
+  Jeans: *id197
+  Jersey: *id198
+  Jumper Skirt: *id199
+  Jumpsuit: *id200
+  Kigurumi: *id201
+  Kimono: *id202
+  Knee-High: *id203
+  Knee-High Boots: *id204
+  Knee-High Socks: *id205
+  Knit: *id206
+  Knit Dress: *id207
+  Lab Coat: *id208
+  Lace: *id209
+  Layered: *id210
+  Leather Jacket: *id211
+  Leg Warmers: *id212
+  Leggings: *id213
+  Leotard: *id214
+  Lingerie: *id215
+  Loafers: *id216
+  Long Boots: *id217
+  Long Coat: *id218
+  Long Dress: *id219
+  Long Skirt: *id220
+  Loose Socks: *id221
+  Loungewear: *id222
   MAYA 舞夜 用衣装:
     aliases:
     - MAYA 舞夜 用衣装
     - maya 舞夜 用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Maid Outfit: *id224
-  Matching Set: *id225
-  Micro Bikini: *id226
-  Miko Outfit: *id227
-  Military Uniform: *id228
-  Mini Dress: *id229
-  Miniskirt: *id230
-  Necktie: *id231
-  Negligee: *id232
-  Nun Habit: *id233
-  Nun Outfit: *id234
-  Nurse Outfit: *id235
-  Off-Shoulder: *id236
-  One-Piece Dress: *id237
-  One-Piece Swimsuit: *id238
-  Outerwear: *id239
-  Overalls: *id240
-  Oversized: *id241
-  Pajamas: *id242
-  Pants: *id243
-  Plaid Skirt: *id244
-  Platform Boots: *id245
-  Pleated Skirt: *id246
-  Poncho: *id247
-  Pumps: *id248
-  Racing Swimsuit: *id249
-  Raincoat: *id250
-  Robe: *id251
-  Rubber Suit: *id252
-  Sailor: *id253
-  Sailor Uniform: *id254
-  Sandals: *id255
-  Santa Outfit: *id256
-  Scarf: *id257
-  School Swimsuit: *id258
-  School Uniform: *id259
-  Sheer: *id260
-  Shirt: *id261
-  Shoes: *id262
-  Short Boots: *id263
-  Short Pants: *id264
-  Shorts: *id265
-  Skinny Pants: *id266
-  Skirt: *id267
-  Slacks: *id268
-  Sleeveless: *id269
-  Sneakers: *id270
-  Socks: *id271
-  Spacesuit: *id272
-  Spats: *id273
-  Sportswear: *id274
-  Stockings: *id275
-  Suit: *id276
-  Summer Dress: *id277
-  Suspenders: *id278
-  Sweater: *id279
-  Sweatpants: *id280
-  Sweatshirt: *id281
-  Swimsuit: *id282
-  T-Shirt: *id283
-  Tank Top: *id284
-  Techwear: *id285
-  Thigh-high Socks: *id286
-  Tight Skirt: *id287
-  Tights: *id288
-  Tops: *id289
-  Trench Coat: *id290
-  Tube Top: *id291
-  Turtleneck: *id292
-  Underwear: *id293
-  Uniform: *id294
+  Maid Outfit: *id223
+  Matching Set: *id224
+  Micro Bikini: *id225
+  Miko Outfit: *id226
+  Military Uniform: *id227
+  Mini Dress: *id228
+  Miniskirt: *id229
+  Necktie: *id230
+  Negligee: *id231
+  Nun Habit: *id232
+  Nun Outfit: *id233
+  Nurse Outfit: *id234
+  Off-Shoulder: *id235
+  One-Piece Dress: *id236
+  One-Piece Swimsuit: *id237
+  Outerwear: *id238
+  Overalls: *id239
+  Oversized: *id240
+  Pajamas: *id241
+  Pants: *id242
+  Plaid Skirt: *id243
+  Platform Boots: *id244
+  Pleated Skirt: *id245
+  Poncho: *id246
+  Pumps: *id247
+  Racing Swimsuit: *id248
+  Raincoat: *id249
+  Robe: *id250
+  Rubber Suit: *id251
+  Sailor: *id252
+  Sailor Uniform: *id253
+  Sandals: *id254
+  Santa Outfit: *id255
+  Scarf: *id256
+  School Swimsuit: *id257
+  School Uniform: *id258
+  Sheer: *id259
+  Shirt: *id260
+  Shoes: *id261
+  Short Boots: *id262
+  Short Pants: *id263
+  Shorts: *id264
+  Skinny Pants: *id265
+  Skirt: *id266
+  Slacks: *id267
+  Sleeveless: *id268
+  Sneakers: *id269
+  Socks: *id270
+  Spacesuit: *id271
+  Spats: *id272
+  Sportswear: *id273
+  Stockings: *id274
+  Suit: *id275
+  Summer Dress: *id276
+  Suspenders: *id277
+  Sweater: *id278
+  Sweatpants: *id279
+  Sweatshirt: *id280
+  Swimsuit: *id281
+  T-Shirt: *id282
+  Tank Top: *id283
+  Techwear: *id284
+  Thigh-high Socks: *id285
+  Tight Skirt: *id286
+  Tights: *id287
+  Trench Coat: *id288
+  Tube Top: *id289
+  Turtleneck: *id290
+  Underwear: *id291
+  Uniform: *id292
   VRC 衣装:
     aliases:
     - VRC 衣装
     - vrc 衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRChat 3D衣装:
     aliases:
@@ -9629,6 +8971,7 @@ outfit_types:
     - vrchat 3d衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRChat3D衣装:
     aliases:
@@ -9636,6 +8979,7 @@ outfit_types:
     - vrchat3d衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRChat向け衣装:
     aliases:
@@ -9643,20 +8987,7 @@ outfit_types:
     - vrchat向け衣装
     metadata:
       faceemo_version: any
-      udonsharp_compat: true
-  VRChat衣装:
-    aliases:
-    - VRChat衣装
-    - vrchat衣装
-    metadata:
-      faceemo_version: any
-      udonsharp_compat: true
-  VRC対応3D服飾モデル:
-    aliases:
-    - VRC対応3D服飾モデル
-    - vrc対応3d服飾モデル
-    metadata:
-      faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRC対応衣装:
     aliases:
@@ -9664,6 +8995,7 @@ outfit_types:
     - vrc対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRC想定衣装:
     aliases:
@@ -9671,6 +9003,7 @@ outfit_types:
     - vrc想定衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRC衣装:
     aliases:
@@ -9678,6 +9011,7 @@ outfit_types:
     - vrc衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   VRoid衣装:
     aliases:
@@ -9685,21 +9019,23 @@ outfit_types:
     - vroid衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
-  Varsity Jacket: *id295
-  Veil: *id296
-  Vest: *id297
-  Wafuku: *id298
-  Wedding Dress: *id299
-  Wide Pants: *id300
-  Witch Outfit: *id301
-  Yukata: *id302
+  Varsity Jacket: *id293
+  Veil: *id294
+  Vest: *id295
+  Wafuku: *id296
+  Wedding Dress: *id297
+  Wide Pants: *id298
+  Witch Outfit: *id299
+  Yukata: *id300
   くろなつ用衣装:
     aliases:
     - くろなつ用衣装
     - くろなつ用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   まめふれんず対応衣装:
     aliases:
@@ -9707,6 +9043,7 @@ outfit_types:
     - まめふれんず対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   アバター向け衣装3Dモデル:
     aliases:
@@ -9714,6 +9051,7 @@ outfit_types:
     - アバター向け衣装3dモデル
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   ウルフェリア用衣装:
     aliases:
@@ -9721,6 +9059,7 @@ outfit_types:
     - ウルフェリア用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   オリジナル3D衣装:
     aliases:
@@ -9728,6 +9067,7 @@ outfit_types:
     - オリジナル3d衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   キプフェル対応衣装:
     aliases:
@@ -9735,13 +9075,7 @@ outfit_types:
     - キプフェル対応衣装
     metadata:
       faceemo_version: any
-      udonsharp_compat: true
-  ギミック付き衣装:
-    aliases:
-    - ギミック付き衣装
-    - ギミック付き衣装
-    metadata:
-      faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   クララ・コロネ・アズキ対応衣装:
     aliases:
@@ -9749,6 +9083,7 @@ outfit_types:
     - クララ・コロネ・アズキ対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   セミ対応衣装:
     aliases:
@@ -9756,6 +9091,7 @@ outfit_types:
     - セミ対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   セレスティア用衣装:
     aliases:
@@ -9763,6 +9099,7 @@ outfit_types:
     - セレスティア用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   センティッド用衣装:
     aliases:
@@ -9770,6 +9107,7 @@ outfit_types:
     - センティッド用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   ソフィナちゃん用衣装:
     aliases:
@@ -9777,6 +9115,7 @@ outfit_types:
     - ソフィナちゃん用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   デルタフレア向け衣装:
     aliases:
@@ -9784,6 +9123,7 @@ outfit_types:
     - デルタフレア向け衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   対応衣装:
     aliases:
@@ -9791,6 +9131,7 @@ outfit_types:
     - 対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   専用衣装:
     aliases:
@@ -9805,6 +9146,7 @@ outfit_types:
     - 桔梗用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   森羅-Shinra-用衣装:
     aliases:
@@ -9812,6 +9154,7 @@ outfit_types:
     - 森羅-shinra-用衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   灰島専用衣装:
     aliases:
@@ -9826,6 +9169,7 @@ outfit_types:
     - 衣装 / 靴
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   衣装・小物:
     aliases:
@@ -9833,6 +9177,7 @@ outfit_types:
     - 衣装・小物
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   複数アバター対応衣装:
     aliases:
@@ -9840,6 +9185,7 @@ outfit_types:
     - 複数アバター対応衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   ３D衣装:
     aliases:
@@ -9854,6 +9200,7 @@ outfit_types:
     - ｽｷﾆﾝｸﾞ済み衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
   ｽｷﾆﾝｸﾞ済衣装:
     aliases:
@@ -9861,6 +9208,7 @@ outfit_types:
     - ｽｷﾆﾝｸﾞ済衣装
     metadata:
       faceemo_version: any
+      status: deprecated
       udonsharp_compat: true
 platforms:
   Blender:
@@ -9871,22 +9219,32 @@ platforms:
     aliases:
     - cluster
     - Cluster
+    metadata:
+      status: deprecated
   FBX:
     aliases:
     - fbx
     - FBX
+    metadata:
+      status: deprecated
   MMD:
     aliases:
     - mmd
     - MMD
+    metadata:
+      status: deprecated
   Modular Avatar Compatible:
     aliases:
     - modular avatar compatible
     - Modular Avatar Compatible
+    metadata:
+      status: deprecated
   PC Compatible:
     aliases:
     - pc compatible
     - PC Compatible
+    metadata:
+      status: deprecated
   Poiyomi:
     aliases:
     - poiyomi
@@ -9895,6 +9253,8 @@ platforms:
     aliases:
     - Quest Compatible
     - quest compatible
+    metadata:
+      status: deprecated
   SDK3:
     aliases:
     - sdk3
@@ -9903,23 +9263,25 @@ platforms:
     aliases:
     - Unity
     - unity
-  UnityPackage:
-    aliases:
-    - unitypackage
-    - UnityPackage
   VCC Compatible:
     aliases:
     - VCC Compatible
     - vcc compatible
+    metadata:
+      status: deprecated
   VRChat:
     aliases:
     - vrc
     - vrchat
     - VRChat
+    - VRChat衣装
+    - vrchat衣装
   VRM:
     aliases:
     - vrm
     - VRM
+    metadata:
+      status: deprecated
   VRoid:
     aliases:
     - VRoid
@@ -9937,22 +9299,30 @@ seasons:
     - 紅葉
     - fall
     - Autumn
+    metadata:
+      status: deprecated
   Christmas:
     aliases:
     - Christmas
     - christmas
     - クリスマス
+    metadata:
+      status: deprecated
   Halloween:
     aliases:
     - halloween
     - Halloween
     - ハロウィン
+    metadata:
+      status: deprecated
   New Year:
     aliases:
     - 新年
     - New Year
     - new year
     - 正月
+    metadata:
+      status: deprecated
   Spring:
     aliases:
     - Spring

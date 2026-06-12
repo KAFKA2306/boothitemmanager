@@ -4538,5 +4538,3110 @@
     "timestamp": "2026-06-12T19:26:16.960279",
     "event": "tag_promoted",
     "description": "Promoted tag 'ＰＢ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.680273",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'Ashenclothes' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.684037",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'EvicPlus' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.687731",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRoid' to tags.yaml (accessories) with confidence 1.00"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.691394",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'CORE' to tags.yaml (accessories) with confidence 0.90"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.694968",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'VRブラリコ' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:54.698504",
+    "event": "tag_promoted",
+    "description": "Promoted tag 'SDK3' to tags.yaml (accessories) with confidence 0.80"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.304290",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Beige'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.314776",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bordeaux'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.324443",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Charcoal'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.334010",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Magenta'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.344762",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Apron Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.359328",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Armor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.371952",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Babydoll'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.386586",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bath Towel'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.401310",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Battle Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.600490",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bear Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.611826",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Beast Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.622665",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Black Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.632192",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blazer'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.643402",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blonde Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.655068",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bloomers'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.664111",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blouse'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.673332",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blouson'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.683780",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blue Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.695144",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blue Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.706488",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blunt Bangs'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.717576",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bodysuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.730964",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bolero'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.742068",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bottoms'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.753730",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bra Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.764388",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Brown Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.775184",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Brown Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.786022",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bunny Suit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.798184",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bustier'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.808624",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Camisole'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.817899",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'Cape' into active tag 'Cap'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.828466",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cardigan'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.841318",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cargo Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.854061",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'China Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.863355",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cloak'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.873277",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Costume'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.883660",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Crop Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.896402",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Distressed Jeans'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.908629",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Down Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.920524",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dress Shirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.933469",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Drill Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.944557",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Duffle Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.955269",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dungarees'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.967570",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fishnet Tights'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.980358",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Flare Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:56.991226",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Flipped Ends'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.000973",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fluffy Fur'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.012704",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frill Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.027388",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frilled Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.041722",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frilled One-Piece'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.052647",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fur Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.063782",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Furisode'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.076205",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gold Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.088103",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gothic Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.098820",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gray Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.109406",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Green Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.120713",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Green Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.133413",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hair Over One Eye'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.143000",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hakama'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.153719",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.165897",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Twin Tails'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.176524",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Updo'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.188225",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Halterneck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.198696",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hanbok'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.210500",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Haori'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.222084",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Heterochromia'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.232286",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'High Neck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.242027",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'High-Leg'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.252201",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hooded'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.264271",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hot Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.275466",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Idol Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.286579",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Innerwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.296727",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.309658",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Japanese Clothing'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.318901",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jeans'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.328330",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jersey'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.342285",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jumper Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.354415",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jumpsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.364427",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Kigurumi'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.374528",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.387310",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.399990",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.411749",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knit Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.423351",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lab Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.433622",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Layered'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.445557",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leather Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.456593",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leg Warmers'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.466413",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leggings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.478575",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leotard'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.492955",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Light Blue Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.504384",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lingerie'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.515595",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.526410",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.537346",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.548188",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.558964",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Loose Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.570768",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Loungewear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.582827",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Low Twin Tails'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.595951",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Matching Set'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.607789",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mecha Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.618537",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mesh Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.629834",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Micro Bikini'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.641144",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Miko Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.653065",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mini Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.666970",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Miniskirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.679105",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mushroom Cut'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.689749",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Negligee'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.701231",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Non-Human'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.713988",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nun Habit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.724735",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nun Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.735878",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nurse Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.748136",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Off-Shoulder'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.762859",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'One-Piece Swimsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.774248",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Orange Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.789697",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Outerwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.802281",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Overalls'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.813642",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Oversized'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.823703",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pajamas'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.833501",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.847915",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Paw Pads'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.859254",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pink Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.870575",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pink Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.882460",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Plaid Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.895998",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Platform Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.910152",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pleated Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.920166",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Poncho'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.929989",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pumps'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.943455",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Purple Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.955072",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Purple Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.967383",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Racing Swimsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.978746",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Raincoat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.990928",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Red Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:57.999811",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Robe'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.011677",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Rubber Suit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.022175",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sailor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.034253",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sailor Uniform'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.046162",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Santa Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.057517",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sheep Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.067444",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sheer'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.079998",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Short Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.091562",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Short Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.101958",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Shorts'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.114141",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Silver Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.125414",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Skinny Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.135092",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Slacks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.145598",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sleeveless'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.156490",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Spacesuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.169509",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Spats'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.181869",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sportswear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.193950",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Stockings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.209836",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Summer Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.220886",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweater'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.232107",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweatpants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.243235",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweatshirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.253308",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'T-Shirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.265890",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tank Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.278434",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Thigh-high Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.295274",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tight Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.311616",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tights'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.321175",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'Tops' into active tag 'Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.336750",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Trench Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.347118",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tube Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.358267",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Turtleneck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.369390",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Underwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.382700",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Varsity Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.394577",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Vest'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.406534",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wafuku'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.420224",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wedding Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.434599",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wide Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.446699",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Witch Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.457429",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wolf Cut'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.468146",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Yellow Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.483020",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Anklet'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.497847",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bat Wings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.510634",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Body Piercing'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.521785",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bow Tie'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.538788",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Butterfly Motif'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.552181",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Crucifix'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.563710",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Demon Horns'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.574892",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Feathers'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.590374",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Flower Ornament'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.603733",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Folding Fan'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.617424",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hair Ornament'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.631313",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hair Ribbon'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.641844",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Handbag'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.653349",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Handcuffs'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.667402",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Heart Motif'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.680741",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Japanese Sword'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.694713",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Japanese Umbrella'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.706117",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Kanzashi'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.719448",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Kiseru Pipe'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.731606",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leather Shoes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.742714",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leg Belt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.756628",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mecha Parts'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.768728",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mecha Wings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.780585",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Military Cap'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.792199",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mini Hat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.805830",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Moon Motif'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.817178",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nail Tips'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.828278",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pacifier'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.839890",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Paw Pads'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.853143",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pendant'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.864270",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pin Badge'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.876482",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pocket Watch'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.891448",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Prosthetic Arm'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.903168",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Ribbon Tie'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.914244",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Santa Hat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.927463",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Scrunchie'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.941670",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Star Motif'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.953021",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sun Visor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.963365",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Talisman'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.975876",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Thigh-high Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:58.989812",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wristwatch'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.001718",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bear Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.013714",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Beast Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.027168",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Black Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.040279",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blonde Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.052428",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blue Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.064551",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blue Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.078116",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blunt Bangs'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.089486",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Brown Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.101145",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Brown Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.113454",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Drill Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.127405",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Flipped Ends'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.146202",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fluffy Fur'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.171032",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gold Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.191023",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gray Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.207821",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Green Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.223299",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Green Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.243220",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hair Over One Eye'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.259228",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Twin Tails'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.270653",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Updo'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.284255",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Heterochromia'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.300414",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Light Blue Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.314856",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Low Twin Tails'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.327612",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mecha Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.340269",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mesh Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.355330",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mushroom Cut'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.366441",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Non-Human'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.379591",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Orange Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.396518",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Paw Pads'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.409102",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pink Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.421268",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pink Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.436208",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Purple Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.450658",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Purple Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.462158",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Red Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.477323",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sheep Ears'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.495028",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Silver Hair'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.508530",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wolf Cut'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.523784",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Yellow Eyes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.537507",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Chibi'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.550051",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Female'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.560931",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Male'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.573405",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mascot'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.585770",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Petite'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.600566",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Standard Build'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.614976",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tall Build'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.633692",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'AVATAR' into active tag '4Avatar'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.648999",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'GIMMICK_TOOL'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.665921",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'HAIRSTYLE'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.680609",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'TEXTURE'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.693833",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Beige'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.711220",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bordeaux'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.728179",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Charcoal'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.741352",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Magenta'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.757734",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'AFK Motion'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.787174",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'AudioLink Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.811060",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blend Shape'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.838295",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dance Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.861894",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Desktop Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.879588",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Expression Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.899284",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Eye Tracking'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.939752",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Face Tracking'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.970874",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'FaceEmo Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:17:59.998957",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'For Photography'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.033958",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Full Body Tracking Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.069287",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gesture Linked'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.103686",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hand Sign Linked'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.135658",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Humanoid Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.155677",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lip Sync'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.177422",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mirror'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.209486",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mochifitter Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.265343",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Modular Avatar Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.298474",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PSD Included'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.323215",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Particle'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.366242",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PhysBone Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.392761",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PhysBone Physics'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.426851",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pickupable'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.457600",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Poiyomi Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.484124",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pose Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.512254",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Quest Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.538938",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'QuestCompatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.562328",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Shape Key'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.588055",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sittable'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.615475",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Synced'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.637605",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Udon'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.667725",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFT Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.687608",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFury'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.720225",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFury Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.760308",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRM Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.781229",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Warp'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.804462",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'World Fixed'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.831870",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'World Gimmick'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.860559",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'lilToon Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.882736",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'AFK Motion'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.909209",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'AudioLink Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.934023",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blend Shape'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.958757",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dance Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:00.989319",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Desktop Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.017058",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Expression Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.043899",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Eye Tracking'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.081185",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Face Tracking'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.123801",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'FaceEmo Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.203789",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'For Photography'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.255110",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Full Body Tracking Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.280370",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gesture Linked'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.313347",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hand Sign Linked'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.350287",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Humanoid Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.377179",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lip Sync'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.400662",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mirror'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.454394",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mochifitter Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.495031",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Modular Avatar Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.527996",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PSD Included'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.566005",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Particle'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.612513",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PhysBone Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.648958",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PhysBone Physics'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.680632",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pickupable'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.723359",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Poiyomi Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.752069",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pose Animation'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.804454",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Quest Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.835889",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'QuestCompatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.857316",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Shape Key'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.881725",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sittable'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.910953",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Synced'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.928825",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Udon'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.966338",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFT Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:01.985897",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFury'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.015016",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRCFury Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.046835",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRM Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.065570",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Warp'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.095454",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'World Fixed'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.120316",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'World Gimmick'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.154282",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'lilToon Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.172575",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '3Dモデル衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.193353",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '3アバター対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.212680",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '5アバター対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.241093",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Apron Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.262806",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Armor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.289404",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Babydoll'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.311204",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bath Towel'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.333170",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Battle Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.351867",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blazer'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.372230",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bloomers'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.390305",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blouse'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.410822",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Blouson'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.430821",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bodysuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.449337",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bolero'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.469783",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bottoms'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.488230",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bra Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.507478",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bunny Suit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.526670",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Bustier'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.551590",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Camisole'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.582209",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'Cape' into active tag 'Cap'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.608811",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cardigan'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.637863",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cargo Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.665814",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'China Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.684730",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cloak'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.705400",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Costume'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.727950",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Crop Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.755627",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Distressed Jeans'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.777032",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Down Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.797667",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dress Shirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.819044",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Duffle Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.839788",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Dungarees'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.858581",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'EFBody専用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.875664",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'FREE/セット衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.895812",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fishnet Tights'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.917241",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Flare Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.938313",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frill Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.961789",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frilled Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.983006",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Frilled One-Piece'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:02.998240",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Fur Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.020139",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Furisode'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.040643",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Gothic Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.066253",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hakama'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.090234",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Half Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.115386",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Halterneck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.134329",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hanbok'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.156505",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Haori'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.182447",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'High Neck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.205889",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'High-Leg'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.221016",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hooded'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.239335",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Hot Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.261893",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Idol Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.283422",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Innerwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.303706",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.322887",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Japanese Clothing'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.342557",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jeans'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.362812",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jersey'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.388533",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jumper Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.407820",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Jumpsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.425874",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Kigurumi'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.447082",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.468381",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.493574",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knee-High Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.516304",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Knit Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.540814",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lab Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.564605",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Layered'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.596477",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leather Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.623426",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leg Warmers'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.642283",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leggings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.661712",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Leotard'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.682147",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Lingerie'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.709116",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.727955",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.750065",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.777531",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Long Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.798147",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Loose Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.819657",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Loungewear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.840999",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'MAYA 舞夜 用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.864761",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Matching Set'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.894547",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Micro Bikini'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.922094",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Miko Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.943324",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Mini Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.969191",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Miniskirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:03.988939",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Negligee'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.011120",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nun Habit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.033585",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nun Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.065301",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Nurse Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.093714",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Off-Shoulder'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.120429",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'One-Piece Swimsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.147551",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Outerwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.175370",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Overalls'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.202953",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Oversized'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.238530",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pajamas'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.273157",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.321196",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Plaid Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.359779",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Platform Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.401351",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pleated Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.434241",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Poncho'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.463695",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Pumps'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.490597",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Racing Swimsuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.520121",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Raincoat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.545610",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Robe'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.575527",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Rubber Suit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.601494",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sailor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.633815",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sailor Uniform'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.666158",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Santa Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.689642",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sheer'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.715018",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Short Boots'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.738651",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Short Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.767877",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Shorts'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.791843",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Skinny Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.812663",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Slacks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.835640",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sleeveless'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.866891",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Spacesuit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.905109",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Spats'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.931309",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sportswear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.959689",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Stockings'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:04.995716",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Summer Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.017516",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweater'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.045112",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweatpants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.075386",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Sweatshirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.107651",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'T-Shirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.135111",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tank Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.159487",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Thigh-high Socks'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.186847",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tight Skirt'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.213698",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tights'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.237447",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'Tops' into active tag 'Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.278693",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Trench Coat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.303496",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Tube Top'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.325898",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Turtleneck'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.351992",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Underwear'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.381173",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRC 衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.414014",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRChat 3D衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.439984",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRChat3D衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.463109",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRChat向け衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.488634",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'VRChat衣装' into active tag 'VRChat'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.513224",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'VRC対応3D服飾モデル' into active tag 'VRC対応3Dモデル'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.537091",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRC対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.587789",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRC想定衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.654852",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRC衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.682132",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRoid衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.718142",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Varsity Jacket'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.743968",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Vest'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.768757",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wafuku'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.824914",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wedding Dress'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.892675",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Wide Pants'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.942320",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Witch Outfit'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.970357",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'くろなつ用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:05.995359",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'まめふれんず対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.038245",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'アバター向け衣装3Dモデル'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.075853",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'ウルフェリア用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.111262",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'オリジナル3D衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.144507",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'キプフェル対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.169093",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'ギミック付き衣装' into active tag 'ギミック付き'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.198200",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'クララ・コロネ・アズキ対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.232136",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'セミ対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.262933",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'セレスティア用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.284406",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'センティッド用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.309797",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'ソフィナちゃん用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.331610",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'デルタフレア向け衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.357044",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.381885",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '桔梗用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.419828",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '森羅-Shinra-用衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.450365",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '衣装 / 靴'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.471686",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '衣装・小物'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.497288",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag '複数アバター対応衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.528050",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'ｽｷﾆﾝｸﾞ済み衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.571031",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'ｽｷﾆﾝｸﾞ済衣装'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.605899",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Cluster'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.633734",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'FBX'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.655988",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'MMD'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.707461",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Modular Avatar Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.776372",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'PC Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.822945",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Quest Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.858692",
+    "event": "tag_merged",
+    "description": "Merged inactive tag 'UnityPackage' into active tag 'VRM&Unitypackage'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.900527",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VCC Compatible'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.932639",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'VRM'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:06.971545",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Autumn'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.084008",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Christmas'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.129601",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'Halloween'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.165291",
+    "event": "tag_deprecated",
+    "description": "Deprecated inactive tag 'New Year'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.201152",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'American Casual'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.230346",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Androgynous'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.254522",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Antique'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.301761",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Battle'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.328389",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Bewitching'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.359514",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Boyish'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.383687",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Chuunibyou'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.415673",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Classic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.446737",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Classical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.473811",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Clean Style'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.564685",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Colorful'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.624401",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Comical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.673207",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Cosplay'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.712868",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Daily'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.751873",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Elegant'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.786080",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Energetic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.831461",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Ethereal'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.884129",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Ethnic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.913592",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Everyday'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:07.946814",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Exotic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.036414",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Fairytale'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.073327",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Fancy'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.103695",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Fantastical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.140806",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Fashionable'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.171119",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Feminine'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.205514",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Fetish'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.235824",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'For Men'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.257421",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Funny'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.280080",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Girly'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.313233",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Glamorous'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.349280",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Grunge'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.401900",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Gyaru'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.455704",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Harajuku Style'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.516397",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Healing'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.565122",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Heartwarming'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.606199",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Horror'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.644914",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Humor'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.672387",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Idol'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.699417",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Industrial'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.735435",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Korean Style'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.768540",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Laid-back Cute'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.794339",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Little Devil'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.819582",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Lolita'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.879326",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Lovely'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.919755",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Luxury'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:08.968783",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Magical Girl'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.000429",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Mature'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.036304",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Mechanical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.064416",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Medieval'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.092590",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Minimal'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.113631",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Modern'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.142362",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Modest'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.165939",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Mori Girl'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.192602",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Mysterious'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.217490",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Mystical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.242453",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Near-Future'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.273575",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Ninja'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.317954",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Nostalgic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.356562",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Onee-san Style'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.392006",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Post-Apocalyptic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.419220",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Practical'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.441191",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Premium Feel'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.460886",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Preppy'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.487342",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Princess'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.511243",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Real Clothes'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.555913",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Refined'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.585383",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Refreshing'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.608077",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Relaxed'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.632254",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Religious'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.673893",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Resort'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.703494",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Retro'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.732137",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Retro-Futuristic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.754641",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Romantic'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.780763",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Ryousankata'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.804230",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Sci-Fi'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.837914",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Soft & Relaxed'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.868408",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Sporty'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.919462",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Street Hoody'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.960800",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Stylish'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:09.993132",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Subculture'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.026916",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Surreal'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.081359",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Taisho Roman'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.122014",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Unique'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.166974",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Valentine'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.204941",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Vampire'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.243039",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Vintage'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.283502",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Wedding'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.356803",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Western'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.392489",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Wild'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.423498",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Y2K'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.467551",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Yami Kawaii'"
+  },
+  {
+    "timestamp": "2026-06-12T20:18:10.497670",
+    "event": "style_deprecated",
+    "description": "Deprecated inactive style 'Yume Kawaii'"
+  },
+  {
+    "timestamp": "2026-06-12T20:19:03.508938",
+    "event": "pipeline_run_verified",
+    "description": "Autonomous cycle completed with full schema enforcement."
   }
 ]
