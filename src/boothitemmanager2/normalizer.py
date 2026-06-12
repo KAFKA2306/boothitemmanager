@@ -90,7 +90,7 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
 
     targets = pick_targets(title, description, tags_raw, aliases)
     category = infer_category(title, description, tags_raw, targets, aliases)
-    tag_set = extract_tag_set(title, description, tags_raw, targets, aliases)
+    tag_set = extract_tag_set(title, description, tags_raw, targets, aliases, category)
     files = _pick_files(soup)
     like_count = _get_cached_likes(item_id) or _pick_like_count(soup)
     published_at = _pick_published_at(soup, json_ld)
@@ -437,7 +437,7 @@ def infer_category(
 
 
 def extract_tag_set(
-    name: str, description: str, tags: list[str], targets: list[AvatarRef], aliases: dict[str, Any]
+    name: str, description: str, tags: list[str], targets: list[AvatarRef], aliases: dict[str, Any], category: ItemCategory | None = None
 ) -> TagSet:
 
     def _norm(t: str) -> str:
@@ -530,16 +530,18 @@ def extract_tag_set(
             res["season"].append(seas)
 
     # 9. outfit_types mapping
-    for ot, data in aliases.get("outfit_types", {}).items():
-        terms = [_norm(t) for t in data.get("aliases", [])]
-        if any(t in text for t in terms):
-            res["outfit_type"].append(ot)
+    if category not in (ItemCategory.ANIMATION, ItemCategory.GIMMICK_TOOL):
+        for ot, data in aliases.get("outfit_types", {}).items():
+            terms = [_norm(t) for t in data.get("aliases", [])]
+            if any(t in text for t in terms):
+                res["outfit_type"].append(ot)
 
     # 10. accessories mapping
-    for acc, data in aliases.get("accessories", {}).items():
-        terms = [_norm(t) for t in data.get("aliases", [])]
-        if any(t in text for t in terms):
-            res["accessory"].append(acc)
+    if category not in (ItemCategory.ANIMATION, ItemCategory.GIMMICK_TOOL):
+        for acc, data in aliases.get("accessories", {}).items():
+            terms = [_norm(t) for t in data.get("aliases", [])]
+            if any(t in text for t in terms):
+                res["accessory"].append(acc)
 
     # 11. appearances mapping
     for app, data in aliases.get("appearances", {}).items():

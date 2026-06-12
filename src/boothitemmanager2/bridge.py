@@ -39,7 +39,7 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
             category = CATEGORY_RAW_MAP.get(category_raw)
             if not category:
                 category = infer_category(title, desc, [category_raw], targets, aliases)
-            tag_set = extract_tag_set(title, desc, [category_raw], targets, aliases)
+            tag_set = extract_tag_set(title, desc, [category_raw], targets, aliases, category)
             from datetime import datetime
 
             trace_log = {
