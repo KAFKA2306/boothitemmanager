@@ -1100,6 +1100,41 @@
             const hasQuest = tags.has('questcompatible') || tags.has('quest対応') || tags.has('android') || (d.tag_set && d.tag_set.feature && d.tag_set.feature.includes('QuestCompatible'));
             if (hasQuest) specs.push({ label: 'Quest Compatible', val: '✓ 対応 (Fallback / Lite)' });
 
+            // Schema-defined tag dimensions from TagSet
+            if (d.tag_set) {
+                const labelMap = {
+                    appearance: 'Appearance',
+                    body_type: 'Body Type',
+                    style: 'Style',
+                    color: 'Color',
+                    outfit_type: 'Outfit Type',
+                    accessory: 'Accessory',
+                    feature: 'Features',
+                    platform: 'Platform',
+                    season: 'Season',
+                    avatar_link: 'Linked Avatars',
+                    material_property: 'Material Property',
+                    niche_subculture: 'Subculture',
+                    activity_scene: 'Activity Scene'
+                };
+                for (const [key, label] of Object.entries(labelMap)) {
+                    if (Array.isArray(d.tag_set[key]) && d.tag_set[key].length > 0) {
+                        // Avoid duplicates if already shown
+                        const valStr = d.tag_set[key].join(', ');
+                        if (!specs.some(s => s.label === label)) {
+                            specs.push({ label: label, val: valStr });
+                        }
+                    }
+                }
+            }
+
+            // Schema-defined metadata fields from Item
+            if (d.like_count !== undefined && d.like_count !== null) specs.push({ label: 'Likes', val: d.like_count.toLocaleString() });
+            if (d.published_at) specs.push({ label: 'Published At', val: new Date(d.published_at).toLocaleDateString('ja-JP') });
+            if (d.creator_id) specs.push({ label: 'Creator ID', val: d.creator_id });
+            if (d.source) specs.push({ label: 'Source Platform', val: d.source.toUpperCase() });
+            if (d.audit_status) specs.push({ label: 'Audit Status', val: d.audit_status });
+
             document.getElementById('modal-specs-grid').innerHTML = specs.map(s => `
                 <div class="spec-item">
                     <span class="spec-label">${s.label}</span>
