@@ -96,7 +96,9 @@ jobs:
           tar -xf dist-archive/artifact.tar -C dist/
 
       - name: Deploy to Cloudflare Pages
-        if: secrets.CLOUDFLARE_API_TOKEN != ''
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        if: env.CF_API_TOKEN != ''
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
