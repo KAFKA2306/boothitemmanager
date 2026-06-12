@@ -1086,8 +1086,6 @@
             // Spec 1: File Assets Included
             if (fileExtensions.length > 0) {
                 specs.push({ label: 'Included Formats', val: fileExtensions.map(e => e.toUpperCase()).join(', ') });
-            } else {
-                specs.push({ label: 'Included Formats', val: 'UnityPackage / FBX (推定)' });
             }
 
             // Spec 2: PhysBone Compatibility
