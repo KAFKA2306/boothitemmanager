@@ -1,39 +1,39 @@
 {
-  "total_items": 40032,
+  "total_items": 40017,
   "types": {
-    "AVATAR": 4634,
-    "HAIRSTYLE": 2664,
-    "GIMMICK_TOOL": 6202,
-    "TEXTURE": 4084,
-    "ACCESSORY": 9205,
-    "OUTFIT": 11936,
-    "ANIMATION": 816,
-    "VROID": 491
+    "ANIMATION": 880,
+    "AVATAR": 4443,
+    "GIMMICK_TOOL": 6271,
+    "ACCESSORY": 9133,
+    "OUTFIT": 12832,
+    "TEXTURE": 3687,
+    "HAIRSTYLE": 2279,
+    "VROID": 492
   },
   "top_shops": {
-    "woodapple": 241,
-    "overay": 174,
-    "kodamaaltanative": 168,
-    "kainrypus": 159,
-    "cybercritter": 124,
+    "woodapple": 246,
+    "overay": 183,
+    "kodamaaltanative": 176,
+    "kainrypus": 165,
+    "cybercritter": 146,
     "seele": 108,
-    "van-labo": 104,
-    "stellaquartz": 103,
-    "vinzo": 100,
-    "koarare-atelier": 94
+    "van-labo": 106,
+    "stellaquartz": 104,
+    "koarare-atelier": 101,
+    "vinzo": 101
   },
   "top_avatars": {
-    "マヌカ": 1207,
-    "桔梗": 972,
-    "森羅": 807,
-    "セレスティア": 783,
-    "キプフェル": 752,
-    "萌": 580,
-    "Shinano": 551,
-    "Sio": 545,
-    "Milltina": 461,
-    "Chocolat": 442
+    "桔梗": 589,
+    "キプフェル": 563,
+    "マヌカ": 507,
+    "セレスティア": 355,
+    "森羅": 320,
+    "まめひなた": 303,
+    "水瀬": 187,
+    "グルス": 184,
+    "Lapwing": 183,
+    "Milltina": 162
   },
-  "avatar_compatibility_rate": 17.77,
-  "updated_at": "2026-06-12T16:05:30.748945"
+  "avatar_compatibility_rate": 14.81,
+  "updated_at": "2026-06-12T18:01:51.593211"
 }

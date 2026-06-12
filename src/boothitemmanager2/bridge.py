@@ -3,7 +3,7 @@ import os
 
 from .core import TestBlock
 from .storage import Item, ItemCategory
-from .normalizer import extract_tag_set, infer_category, load_aliases, pick_targets
+from .normalizer import extract_tag_set, infer_category, load_aliases, pick_targets, _get_cached_likes
 
 
 def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
@@ -56,7 +56,7 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
                 creator_id=data.get("creator_id", "unknown"),
                 creator_name=data.get("creator_name", "Unknown Shop"),
                 published_at=None,
-                like_count=data.get("like_count", 0),
+                like_count=data.get("like_count") if data.get("like_count") is not None else _get_cached_likes(item_id),
                 price=data.get("price"),
                 category=category,
                 tag_set=tag_set,

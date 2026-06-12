@@ -380,7 +380,8 @@
         
         /* Redesigned clean tags list for compat */
         .compat-chips { display: flex; flex-wrap: wrap; gap: 6px; }
-        .compat-chip { background: rgba(255,0,122,0.1); border: 1px solid var(--accent-pink); border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; font-weight: 600; color: #fff; }
+        .compat-chip { background: rgba(255,0,122,0.1); border: 1px solid var(--accent-pink); border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; font-weight: 600; color: #fff; cursor: pointer; transition: all 0.15s ease; }
+        .compat-chip:hover { background: rgba(255,0,122,0.3); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(255,0,122,0.25); }
         .compat-chip.generic { background: rgba(255,255,255,0.05); border-color: var(--border-color); color: var(--text-secondary); }
 
         /* Specs section styling */
@@ -396,6 +397,8 @@
         }
         .spec-label { font-size: 0.65rem; color: #9a9ab0; text-transform: uppercase; }
         .spec-val { font-size: 0.8rem; font-weight: 700; color: var(--text-primary); }
+        .modal-link-tag { color: var(--accent); cursor: pointer; transition: color 0.15s ease; display: inline-block; }
+        .modal-link-tag:hover { color: #fff; text-decoration: underline; }
 
         .similar-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
         .similar-card { border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; cursor: pointer; aspect-ratio: 1; transition: transform 0.2s; }
@@ -687,6 +690,7 @@
                 DOM.dot.classList.add('connected');
                 DOM.text.textContent = `SYNCING [${allItems.length.toLocaleString()}]`;
 
+                precomputeItemData();
                 applyFilters();
                 renderStaticFilters();
 
@@ -696,6 +700,7 @@
                         .then(r => r.ok ? r.json() : [])
                         .then(part2 => {
                             allItems = allItems.concat(part2);
+                            precomputeItemData();
                             DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
                             updateCounts();
                             applyFilters();
@@ -905,52 +910,97 @@
             }
         }
 
+        let precomputedItems = [];
+        function precomputeItemData() {
+            precomputedItems = allItems.map(item => {
+                const category = (item.category || '').toLowerCase();
+                const targets = (item.compatible_avatars || item.targets || []).map(t => {
+                    return typeof t === 'string' ? t.toLowerCase() : (t.name || t.code || '').toLowerCase();
+                });
+                const tags = (item.tags || []).map(t => t.toLowerCase());
+                const tagsSet = new Set(tags);
+                const titleLower = item.title.toLowerCase();
+                const authorLower = (item.author || item.creator_name || '').toLowerCase();
+                const searchBlob = `${titleLower} ${authorLower} ${tags.join(' ')}`;
+                
+                return {
+                    item: item,
+                    category: category,
+                    targets: targets,
+                    tags: tags,
+                    tagsSet: tagsSet,
+                    price: item.price || 0,
+                    searchBlob: searchBlob
+                };
+            });
+        }
+
         function applyFilters() {
-            filtered = allItems.filter(i => {
-                const itemId = i.id || i.item_id;
-                const author = i.author || i.creator_name || '';
-                const category = (i.category || '').toLowerCase();
-                const tags = i.tags || [];
-                const targets = i.compatible_avatars || i.targets || [];
+            const catFilter = filters.cat !== 'all' ? filters.cat.toLowerCase() : null;
+            const avatarFilter = filters.avatar ? filters.avatar.toLowerCase() : null;
+            const avatarNameFilter = filters.avatar ? (metaAvatars.find(a => a.code === filters.avatar)?.name || filters.avatar).toLowerCase() : null;
+            const priceFilter = filters.price;
+            const activeFeatures = Array.from(filters.features).map(f => f.toLowerCase());
+            const activeStyles = Array.from(filters.styles).map(s => s.toLowerCase());
+            const activeColors = Array.from(filters.colors).map(c => c.toLowerCase());
+            const queryFilter = filters.query ? filters.query.toLowerCase() : null;
 
-                if (filters.cat !== 'all' && category !== filters.cat.toLowerCase()) return false;
+            filtered = [];
+            
+            for (let idx = 0; idx < precomputedItems.length; idx++) {
+                const i = precomputedItems[idx];
                 
-                if (filters.avatar) {
-                    const info = metaAvatars.find(a => a.code === filters.avatar);
-                    const name = info ? info.name.toLowerCase() : filters.avatar.toLowerCase();
-                    const targetNames = targets.map(t => (typeof t === 'string' ? t : (t.name || t.code || '')).toLowerCase());
-                    const tagNames = tags.map(t => t.toLowerCase());
-                    if (!targetNames.includes(name) && !targetNames.includes(filters.avatar.toLowerCase()) && !tagNames.includes(name) && !tagNames.includes(filters.avatar.toLowerCase())) return false;
+                if (catFilter && i.category !== catFilter) continue;
+                
+                if (avatarFilter) {
+                    if (!i.targets.includes(avatarFilter) && 
+                        !i.targets.includes(avatarNameFilter) && 
+                        !i.tags.includes(avatarFilter) && 
+                        !i.tags.includes(avatarNameFilter)) {
+                        continue;
+                    }
                 }
-
-                const p = i.price || 0;
-                if (filters.price === 'free' && p > 0) return false;
-                if (filters.price === 'under500' && p > 500) return false;
-                if (filters.price === 'under1000' && p > 1000) return false;
-                if (filters.price === 'under2000' && p > 2000) return false;
-                if (filters.price === 'over2000' && p < 2000) return false;
-
-                const tagsSet = new Set(tags.map(t => t.toLowerCase()));
-                for (const f of filters.features) if (!tagsSet.has(f.toLowerCase())) return false;
-                for (const s of filters.styles) if (!tagsSet.has(s.toLowerCase())) return false;
                 
-                if (filters.colors.size > 0) {
+                const p = i.price;
+                if (priceFilter === 'free' && p > 0) continue;
+                if (priceFilter === 'under500' && p > 500) continue;
+                if (priceFilter === 'under1000' && p > 1000) continue;
+                if (priceFilter === 'under2000' && p > 2000) continue;
+                if (priceFilter === 'over2000' && p < 2000) continue;
+                
+                let matchesFeatures = true;
+                for (let k = 0; k < activeFeatures.length; k++) {
+                    if (!i.tagsSet.has(activeFeatures[k])) {
+                        matchesFeatures = false;
+                        break;
+                    }
+                }
+                if (!matchesFeatures) continue;
+
+                let matchesStyles = true;
+                for (let k = 0; k < activeStyles.length; k++) {
+                    if (!i.tagsSet.has(activeStyles[k])) {
+                        matchesStyles = false;
+                        break;
+                    }
+                }
+                if (!matchesStyles) continue;
+
+                if (activeColors.length > 0) {
                     let hasAnyColor = false;
-                    for (const c of filters.colors) {
-                        if (tagsSet.has(c.toLowerCase())) {
+                    for (let k = 0; k < activeColors.length; k++) {
+                        if (i.tagsSet.has(activeColors[k])) {
                             hasAnyColor = true;
                             break;
                         }
                     }
-                    if (!hasAnyColor) return false;
+                    if (!hasAnyColor) continue;
                 }
 
-                if (filters.query) {
-                    const tgt = `${i.title} ${author} ${tags.join(' ')}`.toLowerCase();
-                    if (!tgt.includes(filters.query)) return false;
-                }
-                return true;
-            });
+                if (queryFilter && !i.searchBlob.includes(queryFilter)) continue;
+
+                filtered.push(i.item);
+            }
 
             // Sort
             if (filters.sort === 'name_asc') filtered.sort((a,b) => a.title.localeCompare(b.title, 'ja'));
@@ -996,7 +1046,7 @@
                             <div class="asset-category ${cCls}">${i.category}</div>
                             <div class="asset-title" title="${i.title}">${i.title}</div>
                             <div class="asset-shop">@${creator}</div>
-                            <div class="asset-targets"><span class="like-tag">❤️ ${(i.like_count||0).toLocaleString()}</span>${targets.slice(0,3).map(t=>`<span class="target-tag">${typeof t === 'string' ? t : (t.name || t.code)}</span>`).join('')}</div>
+                            <div class="asset-targets">${i.like_count && i.like_count > 0 ? `<span class="like-tag">❤️ ${i.like_count.toLocaleString()}</span>` : ''}${targets.slice(0,3).map(t=>`<span class="target-tag">${typeof t === 'string' ? t : (t.name || t.code)}</span>`).join('')}</div>
                         </div>
                     </div>`;
             }).join('');
@@ -1047,6 +1097,40 @@
             applyFilters();
         };
 
+        window.applyAvatarFilterFromModal = (avatarName) => {
+            const found = metaAvatars.find(a => a.name.toLowerCase() === avatarName.toLowerCase() || a.code.toLowerCase() === avatarName.toLowerCase());
+            const code = found ? found.code : avatarName;
+            filters.avatar = code;
+            document.querySelectorAll('.avatar-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.code === code);
+            });
+            applyFilters();
+            DOM.dialog.close();
+        };
+
+        window.applyCreatorFilterFromModal = (creator) => {
+            filters.query = creator;
+            document.getElementById('search-bar').value = creator;
+            applyFilters();
+            DOM.dialog.close();
+        };
+
+        window.applyTagFilterFromModal = (type, value) => {
+            const val = value.trim();
+            if (type === 'style') {
+                filters.styles.add(val);
+                document.querySelector(`.style-tag[data-val="${val}"]`)?.classList.add('active');
+            } else if (type === 'color') {
+                filters.colors.add(val);
+                document.querySelector(`.color-tag[data-val="${val}"]`)?.classList.add('active');
+            } else if (type === 'feature') {
+                filters.features.add(val);
+                document.querySelector(`.feature-tag[data-val="${val}"]`)?.classList.add('active');
+            }
+            applyFilters();
+            DOM.dialog.close();
+        };
+
 
         async function openModal(id) {
             DOM.dialog.showModal();
@@ -1088,7 +1172,7 @@
             document.getElementById('modal-img').referrerPolicy = "no-referrer";
             document.getElementById('modal-img').onerror = function() { this.src='https://placehold.jp/24/12121a/00f0ff/600x600.png?text=Image+Unavailable'; };
             document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-creator').textContent = `@${creator}`;
+            document.getElementById('modal-creator').innerHTML = `<span onclick="applyCreatorFilterFromModal('${creator}')">@${creator}</span>`;
             
             const bdg = document.getElementById('modal-cat-badge');
             bdg.textContent = d.category; bdg.className = `modal-category ${getCatClass(d.category)}`;
@@ -1107,7 +1191,7 @@
             const rawTargets = d.targets || d.compatible_avatars || [];
             const targetChips = rawTargets.map(t => {
                 const name = typeof t === 'string' ? t : (t.name || t.code);
-                return `<div class="compat-chip">${name}</div>`;
+                return `<div class="compat-chip" onclick="applyAvatarFilterFromModal('${name}')">${name}</div>`;
             }).join('');
             
             document.getElementById('modal-compat-grid').innerHTML = targetChips;
@@ -1159,10 +1243,21 @@
                 };
                 for (const [key, label] of Object.entries(labelMap)) {
                     if (Array.isArray(d.tag_set[key]) && d.tag_set[key].length > 0) {
-                        // Avoid duplicates if already shown
-                        const valStr = d.tag_set[key].join(', ');
+                        const tagsList = d.tag_set[key];
+                        let renderedVal = '';
+                        if (key === 'style') {
+                            renderedVal = tagsList.map(t => `<span class="modal-link-tag" onclick="applyTagFilterFromModal('style', '${t}')">${t}</span>`).join(', ');
+                        } else if (key === 'color') {
+                            renderedVal = tagsList.map(t => `<span class="modal-link-tag" onclick="applyTagFilterFromModal('color', '${t}')">${t}</span>`).join(', ');
+                        } else if (key === 'feature') {
+                            renderedVal = tagsList.map(t => `<span class="modal-link-tag" onclick="applyTagFilterFromModal('feature', '${t}')">${t}</span>`).join(', ');
+                        } else if (key === 'avatar_link') {
+                            renderedVal = tagsList.map(t => `<span class="modal-link-tag" onclick="applyAvatarFilterFromModal('${t}')">${t}</span>`).join(', ');
+                        } else {
+                            renderedVal = tagsList.join(', ');
+                        }
                         if (!specs.some(s => s.label === label)) {
-                            specs.push({ label: label, val: valStr });
+                            specs.push({ label: label, val: renderedVal });
                         }
                     }
                 }
