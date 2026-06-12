@@ -15,10 +15,6 @@ Colors:
     - 青
     - ブルー
     - Blue
-  BlueGuaShop:
-    aliases:
-    - BlueGuaShop
-    - blueguashop
   Bordeaux:
     aliases:
     - Bordeaux
@@ -43,10 +39,6 @@ Colors:
     aliases:
     - Cream
     - クリーム
-  Cyan:
-    aliases:
-    - Cyan
-    - シアン
   Gold:
     aliases:
     - gold
@@ -85,10 +77,6 @@ Colors:
     - Magenta
     metadata:
       status: deprecated
-  Mint:
-    aliases:
-    - Mint
-    - ミント
   Navy:
     aliases:
     - navy
@@ -103,10 +91,6 @@ Colors:
     - Orange
     - 橙
     - オレンジ
-  Pastel:
-    aliases:
-    - Pastel
-    - パステル
   Pink:
     aliases:
     - ピンク
@@ -461,11 +445,6 @@ Styles:
     - Fishnet Tights
     metadata:
       status: deprecated
-  Flare Skirt:
-    aliases:
-    - Flare Skirt
-    metadata:
-      status: deprecated
   Flipped Ends:
     aliases:
     - flipped ends
@@ -597,11 +576,6 @@ Styles:
     aliases:
     - harness
     - ハーネス
-  Hat:
-    aliases:
-    - ハット
-    - Hat
-    - 帽子
   Headdress:
     aliases:
     - ヘッドドレス
@@ -875,11 +849,6 @@ Styles:
     - 巫女
     metadata:
       status: deprecated
-  Military Uniform:
-    aliases:
-    - ミリタリー制服
-    - military uniform
-    - 軍服
   Mini Dress:
     aliases:
     - mini dress
@@ -1395,70 +1364,22 @@ accessories:
   100円:
     aliases:
     - 100円
-  10Avaters:
-    aliases:
-    - 10Avaters
-    - 10avaters
-  10体:
-    aliases:
-    - 10体
-  10点:
-    aliases:
-    - 10点
-  11体:
-    aliases:
-    - 11体
   '12':
     aliases:
     - '12'
-  12体:
-    aliases:
-    - 12体
-  '13':
-    aliases:
-    - '13'
-  13-Avatars:
-    aliases:
-    - 13-Avatars
-    - 13-avatars
-  13体:
-    aliases:
-    - 13体
   '14':
     aliases:
     - '14'
-  14体:
-    aliases:
-    - 14体
   15パターン以上:
     aliases:
     - 15パターン以上
-  15体:
-    aliases:
-    - 15体
-  18-Avatars:
-    aliases:
-    - 18-Avatars
-    - 18-avatars
   '19':
     aliases:
     - '19'
-  19 アバター:
-    aliases:
-    - 19 アバター
-  19体:
-    aliases:
-    - 19体
   2025y.Collection:
     aliases:
     - 2025y.Collection
     - 2025y.collection
-  21体:
-    aliases:
-    - 21体
-  28点:
-    aliases:
-    - 28点
   2周年記念セール - 6月15日まで:
     aliases:
     - 2周年記念セール - 6月15日まで
@@ -1473,10 +1394,6 @@ accessories:
     aliases:
     - 3.0 Update!
     - 3.0 update!
-  3D:
-    aliases:
-    - 3D
-    - 3d
   3D model:
     aliases:
     - 3D model
@@ -1513,10 +1430,6 @@ accessories:
     aliases:
     - 3Dヘアモデル
     - 3dヘアモデル
-  3Dモデル:
-    aliases:
-    - 3Dモデル
-    - 3dモデル
   3Dモデルアクセサリ:
     aliases:
     - 3Dモデルアクセサリ
@@ -1645,10 +1558,6 @@ accessories:
   Arm Cover:
     aliases:
     - Arm Cover
-  Ashenclothes:
-    aliases:
-    - Ashenclothes
-    - ashenclothes
   AudioLink:
     aliases:
     - AudioLink
@@ -1779,21 +1688,9 @@ accessories:
   Chain:
     aliases:
     - Chain
-  Chalo専:
-    aliases:
-    - Chalo専
-    - chalo専
   Charm:
     aliases:
     - Charm
-  Chiffon/シフォン:
-    aliases:
-    - Chiffon/シフォン
-    - chiffon/シフォン
-  Chocolat/ショコラ:
-    aliases:
-    - Chocolat/ショコラ
-    - chocolat/ショコラ
   Choker:
     aliases:
     - Choker
@@ -2033,18 +1930,6 @@ accessories:
   Greatsword:
     aliases:
     - greatsword
-  Grus/Lapwing:
-    aliases:
-    - Grus/Lapwing
-    - grus/lapwing
-  Grus/Lapwing/Lowtus:
-    aliases:
-    - Grus/Lapwing/Lowtus
-    - grus/lapwing/lowtus
-  Grus専:
-    aliases:
-    - Grus専
-    - grus専
   Gun:
     aliases:
     - gun
@@ -2073,9 +1958,6 @@ accessories:
   Hairpin:
     aliases:
     - hairpin
-  Halo:
-    aliases:
-    - Halo
   Handbag:
     aliases:
     - Handbag
@@ -2090,11 +1972,6 @@ accessories:
     aliases:
     - harness
     - ハーネス
-  Hat:
-    aliases:
-    - ハット
-    - Hat
-    - 帽子
   Headband:
     aliases:
     - Headband
@@ -2151,37 +2028,12 @@ accessories:
   Jewel:
     aliases:
     - jewel
-  KARINカリン:
-    aliases:
-    - KARINカリン
-    - karinカリン
-  KUMALY  update:
-    aliases:
-    - KUMALY  update
-    - kumaly  update
-  KUMALY update:
-    aliases:
-    - KUMALY update
-    - kumaly update
-  Kanzashi:
-    aliases:
-    - kanzashi
-    metadata:
-      status: deprecated
   Katana:
     aliases:
     - katana
   Keychain:
     aliases:
     - keychain
-  Kikyo●桔梗専:
-    aliases:
-    - Kikyo●桔梗専
-    - kikyo●桔梗専
-  Kipfel/キプフェル:
-    aliases:
-    - Kipfel/キプフェル
-    - kipfel/キプフェル
   Kiseru Pipe:
     aliases:
     - kiseru pipe
@@ -2190,18 +2042,10 @@ accessories:
   Knife:
     aliases:
     - Knife
-  Kuuta専:
-    aliases:
-    - Kuuta専
-    - kuuta専
   Kyee_N:
     aliases:
     - Kyee_N
     - kyee_n
-  LUMINA/ルミナ:
-    aliases:
-    - LUMINA/ルミナ
-    - lumina/ルミナ
   Lace:
     aliases:
     - Lace
@@ -2209,25 +2053,6 @@ accessories:
   Lantern:
     aliases:
     - lantern
-  Lapwing/Grus:
-    aliases:
-    - Lapwing/Grus
-    - lapwing/grus
-  Lapwingちゃん:
-    aliases:
-    - Lapwingちゃん
-    - lapwingちゃん
-  Lapwing専:
-    aliases:
-    - Lapwing専
-    - lapwing専
-  Lasyusha・ラシューシャ:
-    aliases:
-    - Lasyusha・ラシューシャ
-    - lasyusha・ラシューシャ
-  Leash:
-    aliases:
-    - leash
   Leather Shoes:
     aliases:
     - leather shoes
@@ -2266,18 +2091,6 @@ accessories:
     aliases:
     - MA/PB
     - ma/pb
-  MANUKA(マヌカ):
-    aliases:
-    - MANUKA(マヌカ)
-    - manuka(マヌカ)
-  MAYA舞夜:
-    aliases:
-    - MAYA舞夜
-    - maya舞夜
-  MAYO UPD:
-    aliases:
-    - MAYO UPD
-    - mayo upd
   MAギミック付き:
     aliases:
     - MAギミック付き
@@ -2326,10 +2139,6 @@ accessories:
     aliases:
     - MDollnail
     - mdollnail
-  MOMORI:
-    aliases:
-    - MOMORI
-    - momori
   MP:
     aliases:
     - MP
@@ -2338,29 +2147,9 @@ accessories:
     aliases:
     - MameFriends
     - mamefriends
-  Maru's VFX:
-    aliases:
-    - Maru's VFX
-    - maru's vfx
-  Marycia マリシア専用髪型:
-    aliases:
-    - Marycia マリシア専用髪型
-    - marycia マリシア専用髪型
-  Marycia専:
-    aliases:
-    - Marycia専
-    - marycia専
   Mask:
     aliases:
     - mask
-  Maya●舞夜専:
-    aliases:
-    - Maya●舞夜専
-    - maya●舞夜専
-  Mayo / まよ:
-    aliases:
-    - Mayo / まよ
-    - mayo / まよ
   Mecha Parts:
     aliases:
     - Mecha Parts
@@ -2374,36 +2163,15 @@ accessories:
   Microphone:
     aliases:
     - microphone
-  Milfy/ミルフィ:
-    aliases:
-    - Milfy/ミルフィ
-    - milfy/ミルフィ
-  Military Cap:
-    aliases:
-    - military cap
-    metadata:
-      status: deprecated
-  Milltina/ミルティナ:
-    aliases:
-    - Milltina/ミルティナ
-    - milltina/ミルティナ
   Mini Hat:
     aliases:
     - mini hat
     metadata:
       status: deprecated
-  Misaki Update:
-    aliases:
-    - Misaki Update
-    - misaki update
   ModularAvatar対応ギミック:
     aliases:
     - ModularAvatar対応ギミック
     - modularavatar対応ギミック
-  Moe(萌):
-    aliases:
-    - Moe(萌)
-    - moe(萌)
   Monocle:
     aliases:
     - Monocle
@@ -2540,10 +2308,6 @@ accessories:
     - pin badge
     metadata:
       status: deprecated
-  Plum update:
-    aliases:
-    - Plum update
-    - plum update
   PlusGimmick:
     aliases:
     - PlusGimmick
@@ -2578,10 +2342,6 @@ accessories:
     aliases:
     - QvPen差し替えモデル
     - qvpen差し替えモデル
-  RE:
-    aliases:
-    - RE
-    - re
   RVC:
     aliases:
     - RVC
@@ -2605,20 +2365,9 @@ accessories:
   Rifle:
     aliases:
     - rifle
-  Rindo●竜胆専:
-    aliases:
-    - Rindo●竜胆専
-    - rindo●竜胆専
-  Rindo専:
-    aliases:
-    - Rindo専
-    - rindo専
   Ring:
     aliases:
     - Ring
-  Rose:
-    aliases:
-    - Rose
   Round Glasses:
     aliases:
     - round glasses
@@ -2634,10 +2383,6 @@ accessories:
     aliases:
     - SDK3
     - sdk3
-  SION:
-    aliases:
-    - SION
-    - sion
   Sandals:
     aliases:
     - サンダル
@@ -2660,29 +2405,9 @@ accessories:
   Scythe:
     aliases:
     - Scythe
-  Selestia専:
-    aliases:
-    - Selestia専
-    - selestia専
   Shield:
     aliases:
     - Shield
-  Shinano/しなの:
-    aliases:
-    - Shinano/しなの
-    - shinano/しなの
-  Shinra(森羅):
-    aliases:
-    - Shinra(森羅)
-    - shinra(森羅)
-  Shinra(森羅)専:
-    aliases:
-    - Shinra(森羅)専
-    - shinra(森羅)専
-  Shinra專:
-    aliases:
-    - Shinra專
-    - shinra專
   Shoes:
     aliases:
     - shoes
@@ -2726,10 +2451,6 @@ accessories:
   Straw Hat:
     aliases:
     - Straw Hat
-  Studio4NIMARU:
-    aliases:
-    - Studio4NIMARU
-    - studio4nimaru
   Studs:
     aliases:
     - Studs
@@ -2785,10 +2506,6 @@ accessories:
   Tiara:
     aliases:
     - tiara
-  ToN:
-    aliases:
-    - ToN
-    - ton
   Top:
     aliases:
     - Top
@@ -3356,9 +3073,6 @@ accessories:
     aliases:
     - for VRChat
     - for vrchat
-  minase/水瀬:
-    aliases:
-    - minase/水瀬
   muu(ﾑｰ):
     aliases:
     - muu(ﾑｰ)
@@ -3366,12 +3080,6 @@ accessories:
     aliases:
     - only 4U
     - only 4u
-  rurune専:
-    aliases:
-    - rurune専
-  shinra森羅:
-    aliases:
-    - shinra森羅
   unityエディタ拡張:
     aliases:
     - unityエディタ拡張
@@ -3387,19 +3095,9 @@ accessories:
   yay_yay:
     aliases:
     - yay_yay
-  ☁Lapwing:
-    aliases:
-    - ☁Lapwing
-    - ☁lapwing
   うささき:
     aliases:
     - うささき
-  うささき・まめひなた:
-    aliases:
-    - うささき・まめひなた
-  うささき・まめひなた・キプフェル:
-    aliases:
-    - うささき・まめひなた・キプフェル
   うささき・まめふれんず:
     aliases:
     - うささき・まめふれんず
@@ -3421,18 +3119,6 @@ accessories:
   くうた:
     aliases:
     - くうた
-  くうた- Kuuta-:
-    aliases:
-    - くうた- Kuuta-
-    - くうた- kuuta-
-  くうた-Kuuta:
-    aliases:
-    - くうた-Kuuta
-    - くうた-kuuta
-  くうた-Kuuta-:
-    aliases:
-    - くうた-Kuuta-
-    - くうた-kuuta-
   くろなつ:
     aliases:
     - くろなつ
@@ -3454,47 +3140,15 @@ accessories:
   しお:
     aliases:
     - しお
-  しお(Sio)専:
-    aliases:
-    - しお(Sio)専
-    - しお(sio)専
-  しおSio:
-    aliases:
-    - しおSio
-    - しおsio
   しずくさん専:
     aliases:
     - しずくさん専
   しなの:
     aliases:
     - しなの
-  しなの - Shinano:
-    aliases:
-    - しなの - Shinano
-    - しなの - shinano
-  しなの Shinano:
-    aliases:
-    - しなの Shinano
-    - しなの shinano
-  しなの(Shinano):
-    aliases:
-    - しなの(Shinano)
-    - しなの(shinano)
-  しなの-Shinano:
-    aliases:
-    - しなの-Shinano
-    - しなの-shinano
-  しなの/Shinano:
-    aliases:
-    - しなの/Shinano
-    - しなの/shinano
   しなの専:
     aliases:
     - しなの専
-  しゅあん/Shuan:
-    aliases:
-    - しゅあん/Shuan
-    - しゅあん/shuan
   しらつめ:
     aliases:
     - しらつめ
@@ -3525,21 +3179,6 @@ accessories:
   まばたきアニメーション付き:
     aliases:
     - まばたきアニメーション付き
-  まめひなたちゃん専:
-    aliases:
-    - まめひなたちゃん専
-  まめひなた・キプフェル:
-    aliases:
-    - まめひなた・キプフェル
-  まめひなた・キプフェル専:
-    aliases:
-    - まめひなた・キプフェル専
-  まめひなた専:
-    aliases:
-    - まめひなた専
-  まめひなた＆キプフェル:
-    aliases:
-    - まめひなた＆キプフェル
   まめふれ:
     aliases:
     - まめふれ
@@ -3598,9 +3237,6 @@ accessories:
   イチゴ:
     aliases:
     - イチゴ
-  イメリスちゃん:
-    aliases:
-    - イメリスちゃん
   イヤリング:
     aliases:
     - イヤリング
@@ -3622,76 +3258,16 @@ accessories:
   エク:
     aliases:
     - エク
-  エク/Eku:
-    aliases:
-    - エク/Eku
-    - エク/eku
   エク専:
     aliases:
     - エク専
   エルシオン専:
     aliases:
     - エルシオン専
-  オリジナル3Dアバター:
-    aliases:
-    - オリジナル3Dアバター
-    - オリジナル3dアバター
   オリジナル3Dコスチューム:
     aliases:
     - オリジナル3Dコスチューム
     - オリジナル3dコスチューム
-  オリジナル３Dモデル:
-    aliases:
-    - オリジナル３Dモデル
-    - オリジナル３dモデル
-  オリジナル３Ｄモデル:
-    aliases:
-    - オリジナル３Ｄモデル
-    - オリジナル３ｄモデル
-  カリン(Karin):
-    aliases:
-    - カリン(Karin)
-    - カリン(karin)
-  カリンちゃん:
-    aliases:
-    - カリンちゃん
-  カリンちゃん専:
-    aliases:
-    - カリンちゃん専
-  カリン専:
-    aliases:
-    - カリン専
-  キプフェル / Kipfel:
-    aliases:
-    - キプフェル / Kipfel
-    - キプフェル / kipfel
-  キプフェル Kipfel:
-    aliases:
-    - キプフェル Kipfel
-    - キプフェル kipfel
-  キプフェル kipfel専:
-    aliases:
-    - キプフェル kipfel専
-  キプフェル-Kipfel:
-    aliases:
-    - キプフェル-Kipfel
-    - キプフェル-kipfel
-  キプフェル/Kipfel専:
-    aliases:
-    - キプフェル/Kipfel専
-    - キプフェル/kipfel専
-  キプフェル・まめひなた:
-    aliases:
-    - キプフェル・まめひなた
-  キプフェル・みみのこ:
-    aliases:
-    - キプフェル・みみのこ
-  キプフェル・リルレオ:
-    aliases:
-    - キプフェル・リルレオ
-  キプフェル専:
-    aliases:
-    - キプフェル専
   ギミックつき:
     aliases:
     - ギミックつき
@@ -3737,30 +3313,12 @@ accessories:
   ショコラ:
     aliases:
     - ショコラ
-  ショコラ(Chocolat)専:
-    aliases:
-    - ショコラ(Chocolat)専
-    - ショコラ(chocolat)専
-  ショコラ/Chocolat:
-    aliases:
-    - ショコラ/Chocolat
-    - ショコラ/chocolat
   ショコラ専:
     aliases:
     - ショコラ専
   セイレーンの織り:
     aliases:
     - セイレーンの織り
-  セレスティア(SELESTIA):
-    aliases:
-    - セレスティア(SELESTIA)
-    - セレスティア(selestia)
-  セレスティアちゃん:
-    aliases:
-    - セレスティアちゃん
-  セレスティア専:
-    aliases:
-    - セレスティア専
   セール:
     aliases:
     - セール
@@ -3836,64 +3394,18 @@ accessories:
   プラム:
     aliases:
     - プラム
-  プラム/Plum:
-    aliases:
-    - プラム/Plum
-    - プラム/plum
   プラム専:
     aliases:
     - プラム専
-  マヌカ - Manuka:
-    aliases:
-    - マヌカ - Manuka
-    - マヌカ - manuka
-  マヌカ(Manuka):
-    aliases:
-    - マヌカ(Manuka)
-    - マヌカ(manuka)
-  マヌカ(Manuka)専:
-    aliases:
-    - マヌカ(Manuka)専
-    - マヌカ(manuka)専
-  マヌカManuka:
-    aliases:
-    - マヌカManuka
-    - マヌカmanuka
-  マヌカちゃん:
-    aliases:
-    - マヌカちゃん
-  マヌカ専:
-    aliases:
-    - マヌカ専
   マリシア:
     aliases:
     - マリシア
-  マリシア Marycia専:
-    aliases:
-    - マリシア Marycia専
-    - マリシア marycia専
   マリシア専:
     aliases:
     - マリシア専
   ミルティナ:
     aliases:
     - ミルティナ
-  ミルティナ Milltina:
-    aliases:
-    - ミルティナ Milltina
-    - ミルティナ milltina
-  ミルティナ(Milltina):
-    aliases:
-    - ミルティナ(Milltina)
-    - ミルティナ(milltina)
-  ミルティナ-Milltina:
-    aliases:
-    - ミルティナ-Milltina
-    - ミルティナ-milltina
-  ミルティナ/Milltina:
-    aliases:
-    - ミルティナ/Milltina
-    - ミルティナ/milltina
   ミルティナちゃん専:
     aliases:
     - ミルティナちゃん専
@@ -3903,14 +3415,6 @@ accessories:
   ミルフィ:
     aliases:
     - ミルフィ
-  ミルフィ-Milfy:
-    aliases:
-    - ミルフィ-Milfy
-    - ミルフィ-milfy
-  ミルフィ/Milfy:
-    aliases:
-    - ミルフィ/Milfy
-    - ミルフィ/milfy
   ミルフィ専:
     aliases:
     - ミルフィ専
@@ -3929,26 +3433,12 @@ accessories:
   ラシューシャ専:
     aliases:
     - ラシューシャ専
-  ラスク/ミルク/カリンちゃん:
-    aliases:
-    - ラスク/ミルク/カリンちゃん
-  ラスクちゃん:
-    aliases:
-    - ラスクちゃん
   ラムネ:
     aliases:
     - ラムネ
-  ラムネ/Ramune:
-    aliases:
-    - ラムネ/Ramune
-    - ラムネ/ramune
   リップシンク:
     aliases:
     - リップシンク
-  リナシータ/Rinasciita 専:
-    aliases:
-    - リナシータ/Rinasciita 専
-    - リナシータ/rinasciita 専
   リュック:
     aliases:
     - リュック
@@ -3967,28 +3457,18 @@ accessories:
   ルミナ:
     aliases:
     - ルミナ
-  ルミナ/LUMINA:
-    aliases:
-    - ルミナ/LUMINA
-    - ルミナ/lumina
   ルミナあり:
     aliases:
     - ルミナあり
   ルルネ:
     aliases:
     - ルルネ
-  ルルネ/rurune:
-    aliases:
-    - ルルネ/rurune
   ルルネ専:
     aliases:
     - ルルネ専
   ルルネ想定:
     aliases:
     - ルルネ想定
-  ルルネ／rurune専:
-    aliases:
-    - ルルネ／rurune専
   ロボらぼ:
     aliases:
     - ロボらぼ
@@ -4065,9 +3545,6 @@ accessories:
   墨惺:
     aliases:
     - 墨惺
-  墨惺 bokusei:
-    aliases:
-    - 墨惺 bokusei
   夏セール:
     aliases:
     - 夏セール
@@ -4086,18 +3563,6 @@ accessories:
   愛莉:
     aliases:
     - 愛莉
-  愛莉(Airi):
-    aliases:
-    - 愛莉(Airi)
-    - 愛莉(airi)
-  愛莉, Airi:
-    aliases:
-    - 愛莉, Airi
-    - 愛莉, airi
-  愛莉-Airi:
-    aliases:
-    - 愛莉-Airi
-    - 愛莉-airi
   揺れる:
     aliases:
     - 揺れる
@@ -4129,77 +3594,12 @@ accessories:
   本体無料:
     aliases:
     - 本体無料
-  桔梗(Kikyo):
-    aliases:
-    - 桔梗(Kikyo)
-    - 桔梗(kikyo)
-  桔梗,Kikyo:
-    aliases:
-    - 桔梗,Kikyo
-    - 桔梗,kikyo
-  桔梗-Kikyo:
-    aliases:
-    - 桔梗-Kikyo
-    - 桔梗-kikyo
-  桔梗/Kikyo:
-    aliases:
-    - 桔梗/Kikyo
-    - 桔梗/kikyo
-  桔梗/舞夜:
-    aliases:
-    - 桔梗/舞夜
-  桔梗ちゃん:
-    aliases:
-    - 桔梗ちゃん
-  桔梗ちゃん専:
-    aliases:
-    - 桔梗ちゃん専
-  桔梗ちゃん想定:
-    aliases:
-    - 桔梗ちゃん想定
-  桔梗専:
-    aliases:
-    - 桔梗専
-  森羅 / Shinra 専:
-    aliases:
-    - 森羅 / Shinra 専
-    - 森羅 / shinra 専
-  森羅(Shinra):
-    aliases:
-    - 森羅(Shinra)
-    - 森羅(shinra)
-  森羅-shinra:
-    aliases:
-    - 森羅-shinra
-  森羅/Shinra:
-    aliases:
-    - 森羅/Shinra
-    - 森羅/shinra
-  森羅Shinra:
-    aliases:
-    - 森羅Shinra
-    - 森羅shinra
-  森羅ちゃん:
-    aliases:
-    - 森羅ちゃん
   正式:
     aliases:
     - 正式
   正式版対応済:
     aliases:
     - 正式版対応済
-  水瀬 Minase:
-    aliases:
-    - 水瀬 Minase
-    - 水瀬 minase
-  水瀬-Minase:
-    aliases:
-    - 水瀬-Minase
-    - 水瀬-minase
-  水瀬<MINASE>専:
-    aliases:
-    - 水瀬<MINASE>専
-    - 水瀬<minase>専
   汎用3Dアイテム:
     aliases:
     - 汎用3Dアイテム
@@ -4344,14 +3744,6 @@ accessories:
   狛乃:
     aliases:
     - 狛乃
-  狛乃/Komano専:
-    aliases:
-    - 狛乃/Komano専
-    - 狛乃/komano専
-  狛乃Komano:
-    aliases:
-    - 狛乃Komano
-    - 狛乃komano
   狛乃専:
     aliases:
     - 狛乃専
@@ -4385,15 +3777,6 @@ accessories:
   碼希:
     aliases:
     - 碼希
-  竜胆ちゃん:
-    aliases:
-    - 竜胆ちゃん
-  竜胆ちゃん専:
-    aliases:
-    - 竜胆ちゃん専
-  竜胆専:
-    aliases:
-    - 竜胆専
   簡単導入:
     aliases:
     - 簡単導入
@@ -4412,30 +3795,12 @@ accessories:
   舞夜:
     aliases:
     - 舞夜
-  舞夜,Maya:
-    aliases:
-    - 舞夜,Maya
-    - 舞夜,maya
-  舞夜-Maya:
-    aliases:
-    - 舞夜-Maya
-    - 舞夜-maya
   舞夜ちゃん:
     aliases:
     - 舞夜ちゃん
   舞夜ちゃん専:
     aliases:
     - 舞夜ちゃん専
-  萌(Moe)専:
-    aliases:
-    - 萌(Moe)専
-    - 萌(moe)専
-  萌ちゃん:
-    aliases:
-    - 萌ちゃん
-  薄荷ちゃん:
-    aliases:
-    - 薄荷ちゃん
   複数:
     aliases:
     - 複数
@@ -4512,10 +3877,6 @@ accessories:
   ２時間限定販売:
     aliases:
     - ２時間限定販売
-  ３Dモデル:
-    aliases:
-    - ３Dモデル
-    - ３dモデル
   ３Dモデルアクセサリ:
     aliases:
     - ３Dモデルアクセサリ
@@ -5040,10 +4401,6 @@ colors:
     - 青
     - ブルー
     - Blue
-  BlueGuaShop:
-    aliases:
-    - BlueGuaShop
-    - blueguashop
   Bordeaux:
     aliases:
     - Bordeaux
@@ -5068,10 +4425,6 @@ colors:
     aliases:
     - Cream
     - クリーム
-  Cyan:
-    aliases:
-    - Cyan
-    - シアン
   Gold:
     aliases:
     - gold
@@ -5110,10 +4463,6 @@ colors:
     - Magenta
     metadata:
       status: deprecated
-  Mint:
-    aliases:
-    - Mint
-    - ミント
   Navy:
     aliases:
     - navy
@@ -5128,10 +4477,6 @@ colors:
     - Orange
     - 橙
     - オレンジ
-  Pastel:
-    aliases:
-    - Pastel
-    - パステル
   Pink:
     aliases:
     - ピンク
@@ -5186,14 +4531,6 @@ components:
   - bone
   - アーマチュア
   - armature
-  ExpressionMenu:
-  - expression menu
-  - エクスプレッションメニュー
-  - exメニュー
-  Material:
-  - マテリアル
-  - material
-  - mat
   Mesh:
   - メッシュ
   - mesh
@@ -5235,12 +4572,6 @@ features:
     aliases:
     - emote
     - Emote
-  Expression Animation:
-    aliases:
-    - Expression Animation
-    - expression animation
-    metadata:
-      status: deprecated
   Eye Tracking:
     aliases:
     - eye tracking
@@ -5500,12 +4831,6 @@ features_flat:
     aliases:
     - emote
     - Emote
-  Expression Animation:
-    aliases:
-    - Expression Animation
-    - expression animation
-    metadata:
-      status: deprecated
   Eye Tracking:
     aliases:
     - eye tracking
@@ -5963,11 +5288,6 @@ outfit_types:
     - Fishnet Tights
     metadata:
       status: deprecated
-  Flare Skirt:
-    aliases:
-    - Flare Skirt
-    metadata:
-      status: deprecated
   Frill:
     aliases:
     - Frill
@@ -6045,11 +5365,6 @@ outfit_types:
     aliases:
     - harness
     - ハーネス
-  Hat:
-    aliases:
-    - ハット
-    - Hat
-    - 帽子
   Headdress:
     aliases:
     - ヘッドドレス
@@ -6249,12 +5564,6 @@ outfit_types:
     - 部屋着
     metadata:
       status: deprecated
-  MAYA 舞夜 用衣装:
-    aliases:
-    - MAYA 舞夜 用衣装
-    - maya 舞夜 用衣装
-    metadata:
-      status: deprecated
   Maid Outfit:
     aliases:
     - Maid Outfit
@@ -6278,11 +5587,6 @@ outfit_types:
     - 巫女
     metadata:
       status: deprecated
-  Military Uniform:
-    aliases:
-    - ミリタリー制服
-    - military uniform
-    - 軍服
   Mini Dress:
     aliases:
     - mini dress
@@ -6753,11 +6057,6 @@ outfit_types:
     - オリジナル3d衣装
     metadata:
       status: deprecated
-  キプフェル対応衣装:
-    aliases:
-    - キプフェル対応衣装
-    metadata:
-      status: deprecated
   クララ・コロネ・アズキ対応衣装:
     aliases:
     - クララ・コロネ・アズキ対応衣装
@@ -6766,11 +6065,6 @@ outfit_types:
   セミ対応衣装:
     aliases:
     - セミ対応衣装
-    metadata:
-      status: deprecated
-  セレスティア用衣装:
-    aliases:
-    - セレスティア用衣装
     metadata:
       status: deprecated
   センティッド用衣装:
@@ -6796,17 +6090,6 @@ outfit_types:
   専用衣装:
     aliases:
     - 専用衣装
-  桔梗用衣装:
-    aliases:
-    - 桔梗用衣装
-    metadata:
-      status: deprecated
-  森羅-Shinra-用衣装:
-    aliases:
-    - 森羅-Shinra-用衣装
-    - 森羅-shinra-用衣装
-    metadata:
-      status: deprecated
   灰島専用衣装:
     aliases:
     - 灰島専用衣装
@@ -6898,13 +6181,6 @@ platforms:
     - vcc compatible
     metadata:
       status: deprecated
-  VRChat:
-    aliases:
-    - vrc
-    - vrchat
-    - VRChat
-    - VRChat衣装
-    - vrchat衣装
   VRM:
     aliases:
     - vrm

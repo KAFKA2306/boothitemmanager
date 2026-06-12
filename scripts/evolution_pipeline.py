@@ -329,12 +329,46 @@ def promote_tags_phase():
             
         name = info["canonical_name"]
         
-        # [EOL:AUDIT_FILTER] Skip low-quality tags
+        # [EOL:AUDIT_FILTER] Skip low-quality, generic, and avatar-specific tags
         import re
+        import yaml
+        
+        global _AVATAR_TERMS_CACHE
+        if "_AVATAR_TERMS_CACHE" not in globals():
+            _AVATAR_TERMS_CACHE = set()
+            avatars_path = os.path.join(ONTOLOGY_DIR, "avatars.yaml")
+            if os.path.exists(avatars_path):
+                with open(avatars_path, "r", encoding="utf-8") as f:
+                    avatars = yaml.safe_load(f)
+                for key, val in avatars.get("avatars", {}).items():
+                    _AVATAR_TERMS_CACHE.add(key.lower())
+                    if isinstance(val, dict):
+                        _AVATAR_TERMS_CACHE.add(val.get("canonical_name", "").lower())
+                        for alias in val.get("aliases", []):
+                            _AVATAR_TERMS_CACHE.add(str(alias).lower())
+
         BAD_TAG_PATTERN = re.compile(r"^[0-9]+(アバター|avatars|avatar|人|モデル|対応| Avatars| Avatar)", re.I)
-        BAD_TAGS_SPECIFIC = {"3d衣装モデル", "オリジナル3dモデル", "3d衣装対応"}
-        if BAD_TAG_PATTERN.match(name) or name.lower() in BAD_TAGS_SPECIFIC:
-            # print(f"⚠️ [EOL:PROMOTION_ENGINE] Skipping low-quality tag: {name}")
+        GENERIC_EXCLUSIONS = {
+            "3dモデル", "3d", "３d", "３dモデル", "オリジナル3d", "オリジナル３d",
+            "オリジナル3dモデル", "オリジナル３dモデル", "オリジナル3dアバター", "オリジナル３dアバター",
+            "vrchat", "vrc", "booth", "対応", "用", "専", "avatar", "avatars", "アバター",
+            "10体", "12体", "13体", "14体", "15体", "18体", "19体", "21体", "28点", "10点",
+            "11体", "12点", "13点", "14点", "15点", "10avaters", "13-avatars", "18-avatars",
+            "19 アバター", "3d衣装モデル", "3d衣装対応", "オリジナル３ｄモデル"
+        }
+        
+        name_lower = name.lower().strip()
+        
+        is_bad = False
+        if BAD_TAG_PATTERN.match(name) or name_lower in GENERIC_EXCLUSIONS or len(name_lower) < 2:
+            is_bad = True
+        else:
+            for av in _AVATAR_TERMS_CACHE:
+                if av and (av == name_lower or av in name_lower or name_lower in av):
+                    is_bad = True
+                    break
+                    
+        if is_bad:
             continue
             
         # Let's predict category:
