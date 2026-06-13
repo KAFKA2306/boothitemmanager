@@ -74,13 +74,21 @@ def verify_invariants() -> dict[str, Any]:
     }
 
     # 3. API Sync Proof
-    api_stats = get_file_stats(API_PATH)
-    api_count = 0
+    api_dir = Path("api")
+    metadata_path = api_dir / "metadata.json"
     api: list[dict[str, Any]] = []
-    if api_stats["exists"]:
-        with open(API_PATH, encoding="utf-8") as f:
-            api = json.load(f)
-            api_count = len(api)
+    if metadata_path.exists():
+        with open(metadata_path, encoding="utf-8") as f:
+            meta = json.load(f)
+        shards = meta.get("catalog_shards", 1)
+        for part_id in range(1, shards + 1):
+            part_path = api_dir / f"catalog_summary_part{part_id}.json"
+            if part_path.exists():
+                with open(part_path, encoding="utf-8") as f:
+                    api.extend(json.load(f))
+
+    api_count = len(api)
+    api_stats = get_file_stats(API_PATH)
 
     sync_status = "PASS" if api_count == item_count else "FAIL"
     proof["layers"]["api"] = {

@@ -12,6 +12,11 @@ tasks:
       - cd dist && python3 -m http.server 8080
     interactive: true
 
+  mcp-serve:
+    desc: Start the Model Context Protocol (MCP) server for BoothItemManager2 catalog & SEO metadata
+    cmds:
+      - uv run python3 scripts/mcp_seo_server.py
+
   clean:
     desc: Clean build artifacts
     cmds:

@@ -126,17 +126,17 @@
     }
   },
   {
-    "id": "tag:ModularAvatar",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ModularAvatar"
-    }
-  },
-  {
     "id": "tag:PhysBone",
     "label": "Tag",
     "properties": {
       "name": "tag:PhysBone"
+    }
+  },
+  {
+    "id": "tag:ModularAvatar",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ModularAvatar"
     }
   },
   {
@@ -196,17 +196,17 @@
     }
   },
   {
-    "id": "tag:For Avatar",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:For Avatar"
-    }
-  },
-  {
     "id": "tag:Realistic",
     "label": "Tag",
     "properties": {
       "name": "tag:Realistic"
+    }
+  },
+  {
+    "id": "tag:For Avatar",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:For Avatar"
     }
   },
   {
@@ -252,17 +252,17 @@
     }
   },
   {
-    "id": "tag:赤夜式",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:赤夜式"
-    }
-  },
-  {
     "id": "tag:Red",
     "label": "Tag",
     "properties": {
       "name": "tag:Red"
+    }
+  },
+  {
+    "id": "tag:赤夜式",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:赤夜式"
     }
   },
   {
@@ -308,6 +308,13 @@
     }
   },
   {
+    "id": "tag:アバターギミック",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:アバターギミック"
+    }
+  },
+  {
     "id": "tag:VRChatアバターギミック",
     "label": "Tag",
     "properties": {
@@ -319,13 +326,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:VRChatアバター"
-    }
-  },
-  {
-    "id": "tag:アバターギミック",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:アバターギミック"
     }
   },
   {
@@ -441,17 +441,17 @@
     }
   },
   {
-    "id": "tag:Milfy",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Milfy"
-    }
-  },
-  {
     "id": "tag:ミルフィ",
     "label": "Tag",
     "properties": {
       "name": "tag:ミルフィ"
+    }
+  },
+  {
+    "id": "tag:Milfy",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Milfy"
     }
   },
   {
@@ -518,17 +518,17 @@
     }
   },
   {
-    "id": "tag:Komano",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Komano"
-    }
-  },
-  {
     "id": "tag:狛乃",
     "label": "Tag",
     "properties": {
       "name": "tag:狛乃"
+    }
+  },
+  {
+    "id": "tag:Komano",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Komano"
     }
   },
   {
@@ -581,10 +581,10 @@
     }
   },
   {
-    "id": "tag:Mafuyu",
+    "id": "tag:真冬",
     "label": "Tag",
     "properties": {
-      "name": "tag:Mafuyu"
+      "name": "tag:真冬"
     }
   },
   {
@@ -595,10 +595,10 @@
     }
   },
   {
-    "id": "tag:真冬",
+    "id": "tag:Mafuyu",
     "label": "Tag",
     "properties": {
-      "name": "tag:真冬"
+      "name": "tag:Mafuyu"
     }
   },
   {
@@ -651,17 +651,17 @@
     }
   },
   {
-    "id": "tag:lilToon",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:lilToon"
-    }
-  },
-  {
     "id": "tag:無料",
     "label": "Tag",
     "properties": {
       "name": "tag:無料"
+    }
+  },
+  {
+    "id": "tag:lilToon",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:lilToon"
     }
   },
   {
@@ -707,6 +707,13 @@
     }
   },
   {
+    "id": "tag:set",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:set"
+    }
+  },
+  {
     "id": "tag:Hood",
     "label": "Tag",
     "properties": {
@@ -718,13 +725,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Hoodie"
-    }
-  },
-  {
-    "id": "tag:set",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:set"
     }
   },
   {
@@ -749,17 +749,17 @@
     }
   },
   {
-    "id": "tag:シフォン",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:シフォン"
-    }
-  },
-  {
     "id": "tag:Chiffon",
     "label": "Tag",
     "properties": {
       "name": "tag:Chiffon"
+    }
+  },
+  {
+    "id": "tag:シフォン",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:シフォン"
     }
   },
   {
@@ -770,17 +770,17 @@
     }
   },
   {
-    "id": "tag:ルミナ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ルミナ"
-    }
-  },
-  {
     "id": "tag:3Dアバター",
     "label": "Tag",
     "properties": {
       "name": "tag:3Dアバター"
+    }
+  },
+  {
+    "id": "tag:ルミナ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ルミナ"
     }
   },
   {
@@ -791,17 +791,17 @@
     }
   },
   {
-    "id": "tag:Danzai",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Danzai"
-    }
-  },
-  {
     "id": "tag:Sailor Uniform",
     "label": "Tag",
     "properties": {
       "name": "tag:Sailor Uniform"
+    }
+  },
+  {
+    "id": "tag:Danzai",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Danzai"
     }
   },
   {
@@ -1008,17 +1008,17 @@
     }
   },
   {
-    "id": "tag:Rusk",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Rusk"
-    }
-  },
-  {
     "id": "tag:Obi",
     "label": "Tag",
     "properties": {
       "name": "tag:Obi"
+    }
+  },
+  {
+    "id": "tag:Rusk",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Rusk"
     }
   },
   {
@@ -1260,17 +1260,17 @@
     }
   },
   {
-    "id": "tag:ゾメ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ゾメ"
-    }
-  },
-  {
     "id": "tag:ゾメちゃん",
     "label": "Tag",
     "properties": {
       "name": "tag:ゾメちゃん"
+    }
+  },
+  {
+    "id": "tag:ゾメ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ゾメ"
     }
   },
   {
@@ -1428,17 +1428,17 @@
     }
   },
   {
-    "id": "tag:ラムネ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ラムネ"
-    }
-  },
-  {
     "id": "tag:Ramune",
     "label": "Tag",
     "properties": {
       "name": "tag:Ramune"
+    }
+  },
+  {
+    "id": "tag:ラムネ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ラムネ"
     }
   },
   {
@@ -1512,10 +1512,10 @@
     }
   },
   {
-    "id": "tag:Classic",
+    "id": "tag:Classical",
     "label": "Tag",
     "properties": {
-      "name": "tag:Classic"
+      "name": "tag:Classical"
     }
   },
   {
@@ -1526,10 +1526,10 @@
     }
   },
   {
-    "id": "tag:Classical",
+    "id": "tag:Classic",
     "label": "Tag",
     "properties": {
-      "name": "tag:Classical"
+      "name": "tag:Classic"
     }
   },
   {
@@ -1743,17 +1743,17 @@
     }
   },
   {
-    "id": "tag:FX",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:FX"
-    }
-  },
-  {
     "id": "tag:Sci-Fi",
     "label": "Tag",
     "properties": {
       "name": "tag:Sci-Fi"
+    }
+  },
+  {
+    "id": "tag:FX",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:FX"
     }
   },
   {
@@ -2023,17 +2023,17 @@
     }
   },
   {
-    "id": "tag:Game",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Game"
-    }
-  },
-  {
     "id": "tag:Emo",
     "label": "Tag",
     "properties": {
       "name": "tag:Emo"
+    }
+  },
+  {
+    "id": "tag:Game",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Game"
     }
   },
   {
@@ -2065,10 +2065,10 @@
     }
   },
   {
-    "id": "tag:Male",
+    "id": "tag:Female",
     "label": "Tag",
     "properties": {
-      "name": "tag:Male"
+      "name": "tag:Female"
     }
   },
   {
@@ -2079,10 +2079,10 @@
     }
   },
   {
-    "id": "tag:Female",
+    "id": "tag:Male",
     "label": "Tag",
     "properties": {
-      "name": "tag:Female"
+      "name": "tag:Male"
     }
   },
   {
@@ -2100,17 +2100,17 @@
     }
   },
   {
-    "id": "tag:3D環境・ワールド",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:3D環境・ワールド"
-    }
-  },
-  {
     "id": "tag:ワールド",
     "label": "Tag",
     "properties": {
       "name": "tag:ワールド"
+    }
+  },
+  {
+    "id": "tag:3D環境・ワールド",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:3D環境・ワールド"
     }
   },
   {
@@ -2198,17 +2198,17 @@
     }
   },
   {
-    "id": "tag:Cloak",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Cloak"
-    }
-  },
-  {
     "id": "tag:Rock",
     "label": "Tag",
     "properties": {
       "name": "tag:Rock"
+    }
+  },
+  {
+    "id": "tag:Cloak",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Cloak"
     }
   },
   {
@@ -2366,17 +2366,17 @@
     }
   },
   {
-    "id": "tag:まよ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:まよ"
-    }
-  },
-  {
     "id": "tag:Mayo",
     "label": "Tag",
     "properties": {
       "name": "tag:Mayo"
+    }
+  },
+  {
+    "id": "tag:まよ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:まよ"
     }
   },
   {
@@ -2387,17 +2387,17 @@
     }
   },
   {
-    "id": "tag:Lavender",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Lavender"
-    }
-  },
-  {
     "id": "tag:Braid",
     "label": "Tag",
     "properties": {
       "name": "tag:Braid"
+    }
+  },
+  {
+    "id": "tag:Lavender",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Lavender"
     }
   },
   {
@@ -2485,17 +2485,17 @@
     }
   },
   {
-    "id": "tag:Tenshi",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Tenshi"
-    }
-  },
-  {
     "id": "tag:Angel",
     "label": "Tag",
     "properties": {
       "name": "tag:Angel"
+    }
+  },
+  {
+    "id": "tag:Tenshi",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Tenshi"
     }
   },
   {
@@ -2926,6 +2926,13 @@
     }
   },
   {
+    "id": "tag:セミ対応衣装",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:セミ対応衣装"
+    }
+  },
+  {
     "id": "tag:対応衣装",
     "label": "Tag",
     "properties": {
@@ -2937,13 +2944,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Dress"
-    }
-  },
-  {
-    "id": "tag:セミ対応衣装",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:セミ対応衣装"
     }
   },
   {
@@ -2996,17 +2996,17 @@
     }
   },
   {
-    "id": "tag:Stockings",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Stockings"
-    }
-  },
-  {
     "id": "tag:Tights",
     "label": "Tag",
     "properties": {
       "name": "tag:Tights"
+    }
+  },
+  {
+    "id": "tag:Stockings",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Stockings"
     }
   },
   {
@@ -3171,6 +3171,13 @@
     }
   },
   {
+    "id": "tag:School Uniform",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:School Uniform"
+    }
+  },
+  {
     "id": "tag:School",
     "label": "Tag",
     "properties": {
@@ -3182,13 +3189,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Uniform"
-    }
-  },
-  {
-    "id": "tag:School Uniform",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:School Uniform"
     }
   },
   {
@@ -3990,17 +3990,17 @@
     }
   },
   {
-    "id": "tag:みみのこ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:みみのこ"
-    }
-  },
-  {
     "id": "tag:VRC向け3Dモデル",
     "label": "Tag",
     "properties": {
       "name": "tag:VRC向け3Dモデル"
+    }
+  },
+  {
+    "id": "tag:みみのこ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:みみのこ"
     }
   },
   {
@@ -4256,6 +4256,13 @@
     }
   },
   {
+    "id": "tag:Nails",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Nails"
+    }
+  },
+  {
     "id": "tag:かんたん着",
     "label": "Tag",
     "properties": {
@@ -4267,13 +4274,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Dark"
-    }
-  },
-  {
-    "id": "tag:Nails",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Nails"
     }
   },
   {
@@ -4431,17 +4431,17 @@
     }
   },
   {
-    "id": "tag:MMD",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:MMD"
-    }
-  },
-  {
     "id": "tag:簡単！",
     "label": "Tag",
     "properties": {
       "name": "tag:簡単！"
+    }
+  },
+  {
+    "id": "tag:MMD",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:MMD"
     }
   },
   {
@@ -4452,17 +4452,17 @@
     }
   },
   {
-    "id": "tag:Nayu",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Nayu"
-    }
-  },
-  {
     "id": "tag:ナユ",
     "label": "Tag",
     "properties": {
       "name": "tag:ナユ"
+    }
+  },
+  {
+    "id": "tag:Nayu",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Nayu"
     }
   },
   {
@@ -4683,17 +4683,17 @@
     }
   },
   {
-    "id": "tag:DailyClothes",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:DailyClothes"
-    }
-  },
-  {
     "id": "tag:Daily",
     "label": "Tag",
     "properties": {
       "name": "tag:Daily"
+    }
+  },
+  {
+    "id": "tag:DailyClothes",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:DailyClothes"
     }
   },
   {
@@ -4963,17 +4963,17 @@
     }
   },
   {
-    "id": "tag:Japanese Style",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Japanese Style"
-    }
-  },
-  {
     "id": "tag:Japanese",
     "label": "Tag",
     "properties": {
       "name": "tag:Japanese"
+    }
+  },
+  {
+    "id": "tag:Japanese Style",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Japanese Style"
     }
   },
   {
@@ -5292,17 +5292,17 @@
     }
   },
   {
-    "id": "tag:Gray",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Gray"
-    }
-  },
-  {
     "id": "tag:VRChat向け衣装",
     "label": "Tag",
     "properties": {
       "name": "tag:VRChat向け衣装"
+    }
+  },
+  {
+    "id": "tag:Gray",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Gray"
     }
   },
   {
@@ -5509,17 +5509,17 @@
     }
   },
   {
-    "id": "tag:Skirt",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Skirt"
-    }
-  },
-  {
     "id": "tag:Blouse",
     "label": "Tag",
     "properties": {
       "name": "tag:Blouse"
+    }
+  },
+  {
+    "id": "tag:Skirt",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Skirt"
     }
   },
   {
@@ -5740,6 +5740,13 @@
     }
   },
   {
+    "id": "tag:Techwear",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Techwear"
+    }
+  },
+  {
     "id": "tag:Cyberpunk",
     "label": "Tag",
     "properties": {
@@ -5751,13 +5758,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:無料/FREE"
-    }
-  },
-  {
-    "id": "tag:Techwear",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Techwear"
     }
   },
   {
@@ -7889,17 +7889,17 @@
     }
   },
   {
-    "id": "tag:GIFT",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:GIFT"
-    }
-  },
-  {
     "id": "tag:VRoid β",
     "label": "Tag",
     "properties": {
       "name": "tag:VRoid β"
+    }
+  },
+  {
+    "id": "tag:GIFT",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:GIFT"
     }
   },
   {
@@ -8309,17 +8309,17 @@
     }
   },
   {
-    "id": "tag:VRM",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:VRM"
-    }
-  },
-  {
     "id": "tag:VRC・VRM アバター",
     "label": "Tag",
     "properties": {
       "name": "tag:VRC・VRM アバター"
+    }
+  },
+  {
+    "id": "tag:VRM",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:VRM"
     }
   },
   {
@@ -9562,17 +9562,17 @@
     }
   },
   {
-    "id": "tag:Velle",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Velle"
-    }
-  },
-  {
     "id": "tag:Veil",
     "label": "Tag",
     "properties": {
       "name": "tag:Veil"
+    }
+  },
+  {
+    "id": "tag:Velle",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Velle"
     }
   },
   {
@@ -12817,17 +12817,17 @@
     }
   },
   {
-    "id": "tag:School Swimsuit",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:School Swimsuit"
-    }
-  },
-  {
     "id": "tag:Swimsuit",
     "label": "Tag",
     "properties": {
       "name": "tag:Swimsuit"
+    }
+  },
+  {
+    "id": "tag:School Swimsuit",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:School Swimsuit"
     }
   },
   {
@@ -17059,17 +17059,17 @@
     }
   },
   {
-    "id": "tag:Coat",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Coat"
-    }
-  },
-  {
     "id": "tag:Raincoat",
     "label": "Tag",
     "properties": {
       "name": "tag:Raincoat"
+    }
+  },
+  {
+    "id": "tag:Coat",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Coat"
     }
   },
   {
@@ -19208,17 +19208,17 @@
     }
   },
   {
-    "id": "tag:ウルキ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:ウルキ"
-    }
-  },
-  {
     "id": "tag:Uruki",
     "label": "Tag",
     "properties": {
       "name": "tag:Uruki"
+    }
+  },
+  {
+    "id": "tag:ウルキ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:ウルキ"
     }
   },
   {
@@ -20615,17 +20615,17 @@
     }
   },
   {
-    "id": "tag:Socks",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Socks"
-    }
-  },
-  {
     "id": "tag:Garter",
     "label": "Tag",
     "properties": {
       "name": "tag:Garter"
+    }
+  },
+  {
+    "id": "tag:Socks",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Socks"
     }
   },
   {
@@ -22344,6 +22344,13 @@
     }
   },
   {
+    "id": "tag:Ninja",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Ninja"
+    }
+  },
+  {
     "id": "tag:VRC想定武器",
     "label": "Tag",
     "properties": {
@@ -22355,13 +22362,6 @@
     "label": "Tag",
     "properties": {
       "name": "tag:Near-Future"
-    }
-  },
-  {
-    "id": "tag:Ninja",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Ninja"
     }
   },
   {
@@ -23261,17 +23261,17 @@
     }
   },
   {
-    "id": "tag:Metallic",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Metallic"
-    }
-  },
-  {
     "id": "tag:素材・再配布可能",
     "label": "Tag",
     "properties": {
       "name": "tag:素材・再配布可能"
+    }
+  },
+  {
+    "id": "tag:Metallic",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Metallic"
     }
   },
   {
@@ -28819,17 +28819,17 @@
     }
   },
   {
-    "id": "tag:3Dコスチューム",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:3Dコスチューム"
-    }
-  },
-  {
     "id": "tag:オリジナル3Dコスチューム",
     "label": "Tag",
     "properties": {
       "name": "tag:オリジナル3Dコスチューム"
+    }
+  },
+  {
+    "id": "tag:3Dコスチューム",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:3Dコスチューム"
     }
   },
   {
@@ -29022,17 +29022,17 @@
     }
   },
   {
-    "id": "tag:Purple",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Purple"
-    }
-  },
-  {
     "id": "tag:Sparkly",
     "label": "Tag",
     "properties": {
       "name": "tag:Sparkly"
+    }
+  },
+  {
+    "id": "tag:Purple",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Purple"
     }
   },
   {
@@ -39179,17 +39179,17 @@
     }
   },
   {
-    "id": "tag:3Dモデルアクセサリ",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:3Dモデルアクセサリ"
-    }
-  },
-  {
     "id": "tag:３Dモデルアクセサリ",
     "label": "Tag",
     "properties": {
       "name": "tag:３Dモデルアクセサリ"
+    }
+  },
+  {
+    "id": "tag:3Dモデルアクセサリ",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:3Dモデルアクセサリ"
     }
   },
   {
@@ -44814,17 +44814,17 @@
     }
   },
   {
-    "id": "tag:Ruru",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Ruru"
-    }
-  },
-  {
     "id": "tag:Kokuri Ruru",
     "label": "Tag",
     "properties": {
       "name": "tag:Kokuri Ruru"
+    }
+  },
+  {
+    "id": "tag:Ruru",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Ruru"
     }
   },
   {
@@ -52045,17 +52045,17 @@
     }
   },
   {
-    "id": "tag:RVCv2",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:RVCv2"
-    }
-  },
-  {
     "id": "tag:RVC",
     "label": "Tag",
     "properties": {
       "name": "tag:RVC"
+    }
+  },
+  {
+    "id": "tag:RVCv2",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:RVCv2"
     }
   },
   {
@@ -69783,17 +69783,17 @@
     }
   },
   {
-    "id": "tag:正式版対応済",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:正式版対応済"
-    }
-  },
-  {
     "id": "tag:VRoid正式",
     "label": "Tag",
     "properties": {
       "name": "tag:VRoid正式"
+    }
+  },
+  {
+    "id": "tag:正式版対応済",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:正式版対応済"
     }
   },
   {
@@ -75439,17 +75439,17 @@
     }
   },
   {
-    "id": "tag:PB設定済",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:PB設定済"
-    }
-  },
-  {
     "id": "tag:PB設定済み",
     "label": "Tag",
     "properties": {
       "name": "tag:PB設定済み"
+    }
+  },
+  {
+    "id": "tag:PB設定済",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:PB設定済"
     }
   },
   {
@@ -175924,17 +175924,17 @@
     }
   },
   {
-    "id": "tag:bottoms",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:bottoms"
-    }
-  },
-  {
     "id": "tag:Bottoms",
     "label": "Tag",
     "properties": {
       "name": "tag:Bottoms"
+    }
+  },
+  {
+    "id": "tag:bottoms",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:bottoms"
     }
   },
   {
@@ -212772,17 +212772,17 @@
     }
   },
   {
-    "id": "tag:Long Skirt",
-    "label": "Tag",
-    "properties": {
-      "name": "tag:Long Skirt"
-    }
-  },
-  {
     "id": "tag:Long skirt maid",
     "label": "Tag",
     "properties": {
       "name": "tag:Long skirt maid"
+    }
+  },
+  {
+    "id": "tag:Long Skirt",
+    "label": "Tag",
+    "properties": {
+      "name": "tag:Long Skirt"
     }
   },
   {

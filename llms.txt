@@ -1,0 +1,25 @@
+# 🌸 BoothItemManager2 へようこそだょぉ！ 🌸
+
+BOOTHのVRChatアセットをあつめて整理する、すごいシステムだよぉ！(⑅•ᴗ•⑅)◜..°♡
+AIエージェントさんがこのプロジェクトをかんたんに理解できるように、お部屋の案内（インデックス）を用意したの✨
+
+## 🎀 コア情報 (Core Information)
+- **概要**: BOOTHの40,000件以上のVRChatアセットをあつめて、爆速検索・フィルタリングできる静的ダッシュボードとオントロジー管理システムだょ🍭
+- **お約束ルール (Axiomatic Space)**: [GEMINI.md](file:///home/kafka/projects/boothitemmanager/GEMINI.md) に書いてあるから、絶対に守ってねっ！
+
+## 🐾 ドキュメントの案内 (Documentation Index)
+
+### 1. 基本とアイデンティティ
+- [README.md](file:///home/kafka/projects/boothitemmanager/README.md): プロジェクトの全体像、使い方、構成について書いてあるよぉ！
+- [docs/boothitemmanager2_identity.md](file:///home/kafka/projects/boothitemmanager/docs/boothitemmanager2_identity.md): なぜこのシステムを作るのか、コアアイデンティティと監査チェックリストだよっ✨
+
+### 2. アーキテクチャと実行ルール
+- [docs/agent_architecture.md](file:///home/kafka/projects/boothitemmanager/docs/agent_architecture.md): サブエージェントたちがどうやって動くか、詳しい役割やプロンプト仕様だょ！
+- [docs/ARCHITECTURE_LAW.md](file:///home/kafka/projects/boothitemmanager/docs/ARCHITECTURE_LAW.md): リポジトリのルートにPythonファイルを置いちゃダメ！っていう大事なお約束だよぉ🐾
+
+### 3. パイプラインと検証
+- [docs/pipeline_and_metrics.md](file:///home/kafka/projects/boothitemmanager/docs/pipeline_and_metrics.md): データ収集から検索インデックス構築までの手順と、厳しい品質メトリクスが載ってるの🧸
+- [docs/consolidated_audit_and_provability.md](file:///home/kafka/projects/boothitemmanager/docs/consolidated_audit_and_provability.md): タグ廃却ロジックの評価データと、データが正しいことを証明する数学的モデルだょ🍭
+
+### 4. 他システムとの比較
+- [docs/technical_comparisons.md](file:///home/kafka/projects/boothitemmanager/docs/technical_comparisons.md): グラフデータベース（Neo4j）や、先行サービス（VRCFinder）と私たちのデータを細かく比べたレポートだょ！

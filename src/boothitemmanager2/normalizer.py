@@ -28,6 +28,7 @@ def _pick_like_count(soup: BeautifulSoup) -> int:
 
 _LIKES_CACHE = None
 
+
 def _get_cached_likes(item_id: str) -> int:
     global _LIKES_CACHE
     if _LIKES_CACHE is None:
@@ -113,11 +114,11 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
     # Audit determination
     BAD_TAG_PATTERN = re.compile(
         r"(?<![a-zA-Z0-9])([0-9]+)\s*(アバター|avatars|avatar|人|モデル|対応|体|点|種類|色|color|colors|way|着|px|shard|avaters|v|av|men\s*avatars|パターン|種|時間)",
-        re.I
+        re.I,
     )
     PLURAL_BAD_PATTERN = re.compile(
         r"^(複数|全|多|多数)\s*(アバター|avatar|avatars|想定|人|体|種類|対応|モデル|キャラクター|shop|ショップ)?$",
-        re.I
+        re.I,
     )
     has_bad_tag = any(
         BAD_TAG_PATTERN.search(unicodedata.normalize("NFKC", t).lower())
@@ -125,7 +126,7 @@ def normalize_html(raw_page: Any, trace_id: str) -> TestBlock:
         or unicodedata.normalize("NFKC", t).strip().isdigit()
         for t in tags_raw
     )
-    
+
     if not title or not thumbnail_url or has_bad_tag:
         audit_status = "FAIL"
     elif category == ItemCategory.ASSET or not targets:
@@ -312,10 +313,14 @@ def pick_targets(
     name: str, description: str, tags: list[str], aliases: dict[str, Any]
 ) -> list[AvatarRef]:
     targets_map = {}
-    
+
     # Do not match targets if title explicitly mentions generic/universal asset status
     lower_name = name.lower()
-    if "汎用" in lower_name or "アバター用なし" in lower_name or "特定の対象アバターなし" in lower_name:
+    if (
+        "汎用" in lower_name
+        or "アバター用なし" in lower_name
+        or "特定の対象アバターなし" in lower_name
+    ):
         return []
 
     text = f"{name} {description} {' '.join(tags)}".lower()
@@ -355,7 +360,9 @@ def pick_targets(
         )
 
         for term in terms:
-            if not term or len(term) < 2:  # Avoid single character matches like 's', 'm' causing false positives
+            if (
+                not term or len(term) < 2
+            ):  # Avoid single character matches like 's', 'm' causing false positives
                 continue
             # Fuzzy boundary: ensure not mid-word for alphanumeric
             if term.isalnum():
@@ -386,13 +393,34 @@ def infer_category(
     name: str, description: str, tags: list[str], targets: list[AvatarRef], aliases: dict[str, Any]
 ) -> ItemCategory:
     text = f"{name} {description} {' '.join(tags)}".lower()
-    
+
     # 1. TEXTURE & HAIRSTYLE (Give priority to high-specificity keywords)
-    hairstyle_aliases = ["髪型", "ヘアスタイル", "hairstyle", "髪", "ヘア", "ツインテール", "ポニテ", "hair", "ショートヘア", "ロングヘア"]
+    hairstyle_aliases = [
+        "髪型",
+        "ヘアスタイル",
+        "hairstyle",
+        "髪",
+        "ヘア",
+        "ツインテール",
+        "ポニテ",
+        "hair",
+        "ショートヘア",
+        "ロングヘア",
+    ]
     if any(k in text for k in hairstyle_aliases):
         return ItemCategory.HAIRSTYLE
 
-    texture_aliases = ["テクスチャ", "texture", "瞳", "肌", "skin", "メイクテクスチャ", "アイテクスチャ", "アイメイク", "アイテクスチャー"]
+    texture_aliases = [
+        "テクスチャ",
+        "texture",
+        "瞳",
+        "肌",
+        "skin",
+        "メイクテクスチャ",
+        "アイテクスチャ",
+        "アイメイク",
+        "アイテクスチャー",
+    ]
     if any(k in text for k in texture_aliases):
         return ItemCategory.TEXTURE
 
@@ -402,11 +430,45 @@ def infer_category(
 
     # 3. Dynamic loading of terms from ontology aliases for ACCESSORY and OUTFIT
     # Note: Includes PROP (小道具, prop, 家具, etc.) mapped directly to ACCESSORY for frontend compatibility
-    accessory_terms = ["アクセ", "accessory", "小物品", "小物", "靴", "メガネ", "帽子", "バッグ", "チョーカー", "ピアス", "リボン", "指輪", "傘", "ソックス", "タイツ", "ベルト", "小道具", "prop", "家具", "椅子", "机"]
+    accessory_terms = [
+        "アクセ",
+        "accessory",
+        "小物品",
+        "小物",
+        "靴",
+        "メガネ",
+        "帽子",
+        "バッグ",
+        "チョーカー",
+        "ピアス",
+        "リボン",
+        "指輪",
+        "傘",
+        "ソックス",
+        "タイツ",
+        "ベルト",
+        "小道具",
+        "prop",
+        "家具",
+        "椅子",
+        "机",
+    ]
     for acc_code, data in aliases.get("accessories", {}).items():
         accessory_terms.extend([t.lower() for t in data.get("aliases", [])])
-    
-    outfit_terms = ["衣装", "服", "outfit", "costume", "dress", "ワンピ", "ジャケット", "パーカー", "スカート", "シャツ", "パンツ"]
+
+    outfit_terms = [
+        "衣装",
+        "服",
+        "outfit",
+        "costume",
+        "dress",
+        "ワンピ",
+        "ジャケット",
+        "パーカー",
+        "スカート",
+        "シャツ",
+        "パンツ",
+    ]
     for ot_code, data in aliases.get("outfit_types", {}).items():
         outfit_terms.extend([t.lower() for t in data.get("aliases", [])])
 
@@ -422,7 +484,22 @@ def infer_category(
         return ItemCategory.ACCESSORY
 
     # 4. GIMMICK_TOOL (Also maps ANIMATION, WORLD, and other system tools here)
-    gimmick_terms = ["ギミック", "gimmick", "modular", "ma対応", "tool", "ツール", "アニメーション", "motion", "モーション", "animation", "ワールド", "world", "scene", "シーン"]
+    gimmick_terms = [
+        "ギミック",
+        "gimmick",
+        "modular",
+        "ma対応",
+        "tool",
+        "ツール",
+        "アニメーション",
+        "motion",
+        "モーション",
+        "animation",
+        "ワールド",
+        "world",
+        "scene",
+        "シーン",
+    ]
     if any(k in text for k in gimmick_terms):
         return ItemCategory.GIMMICK_TOOL
 
@@ -437,7 +514,12 @@ def infer_category(
 
 
 def extract_tag_set(
-    name: str, description: str, tags: list[str], targets: list[AvatarRef], aliases: dict[str, Any], category: ItemCategory | None = None
+    name: str,
+    description: str,
+    tags: list[str],
+    targets: list[AvatarRef],
+    aliases: dict[str, Any],
+    category: ItemCategory | None = None,
 ) -> TagSet:
 
     def _norm(t: str) -> str:

@@ -1,137 +1,47 @@
-# BoothItemManager2再現実装：サブエージェント監督型 実行指示書（完全版）
+# 🌸 サブエージェント監督型 実行アーキテクチャだょ！ 🌸
 
-## 0. 基本原則（絶対制約）
-本システムは以下を前提とする：
-・単一エージェントは禁止
-・LLMの完了報告は禁止（信頼しない）
-・すべての成果物は外部検証可能であること
-・すべての処理はTest Block化されること
-・実行と設計は完全分離すること
-・メインエージェントのみが最終的な **REJECT（拒否）権限** を持つこと
+このシステムは、お互いに監視し合う「検証システム」になっているよぉ！(⑅•ᴗ•⑅)◜..°♡
 
-## 1. 統治構造：REJECT権限付き監査中枢モデル
-システムは以下の3層で構成される：
+## 🎀 1. 統治構造と役割
+システムは3つのレイヤーでうごいているよ🍭
 
-### ① 実装層（Implementation Layer）
-・コード実行 / DB更新 / API応答生成
-・実行結果をTest Blockとして出力
+1. **実装層 (Implementation)**: データの処理やAPIの生成を行って、実行結果を `TestBlock` として出力するよ！
+2. **検証サブエージェント群 (Validators)**: 局所的な観測（DB変更の監視など）をして、結果をメインに報告するの（自分で合否は決めないよ）。
+3. **メインエージェント (Audit Core)**: すべての報告をうけて、最終的な **ACCEPT** または **REJECT** の判定を下す唯一のボスエージェントだよっ✨
 
-### ② 検証サブエージェント群（Verification Agents）
-・局所的な観測と状態報告のみを実行
-・**判定（真偽）は出さない**
+## 🐾 2. Test Block システム (不変条件の検証)
+すべての処理結果は `TestBlock` 形式で記録され、事前状態と事後状態が正しいか数学的・論理的に証明されるの！
 
-### ③ メインエージェント（Audit + REJECT Core）
-・唯一の最終判定権限（ACCEPT / REJECT）を保持
-・全サブエージェントの結果を統合し、矛盾や仕様違反があれば即REJECT
-
-## 2. エージェント構造（詳細役割）
-... (中略: 各エージェントの役割は既存の設計を継承) ...
-
-### ⑦ Validator Agent (検証サブエージェント群の一員)
-役割： ・Test Block実行 ・DB差分検証 ・APIレスポンス検証 ・再実行検証
-制約： ・書き込み禁止 ・**状態報告のみ（REJECT判断は行わない）**
-
-## 3. REJECTルール（絶対制約）
-以下いずれかで即REJECT（軽微エラーは存在しない）：
-・Test Blockと実測の不一致
-・スキーマ違反 / グラフ構造破壊
-・検索結果再現性欠如
-・ログ欠損 / トレース不能状態
-
-## 4. 実行・評価フロー
-1. **実装層** が処理実行し、**Test Block** を生成
-2. 各 **Validator（サブエージェント）** が観測のみ実行し、メインへ報告
-3. **メインエージェント** が結果を統合し、仕様と照合
-4. **ACCEPT / REJECT** を決定。REJECT時は再実行命令を発行
-
-## 5. Test Blockシステム（中核）
-全操作は必ず以下形式に変換される：
-`TestBlock { trace_id input pre_state action expected_state actual_state diff result }`
-※ `result`（最終成否）はメインエージェントのみが決定する。
-
-... (以下、既存のデータストレージ設計、通信規約等を継続) ...
-
-## 6. データストレージ設計
-- **Raw Layer**: RawAssetPage
-- **Structured Layer**: Asset / Creator / Tag
-- **Graph Layer**: nodes / edges
-- **Log Layer**: TestBlockLog / CrawlLog / AccessLog
-※すべてappend-only
-
-## 7. エージェント通信規約
-すべての通信は以下形式：
-`Message { from_agent to_agent trace_id payload state_ref }`
-禁止： ・暗黙状態共有 ・自然言語依存 ・非構造通信
-
-## 8. スキーマ固定ルール
-実行前に必ず：`SchemaRegistry.lock()`
-解除禁止（破壊防止）
-
-## 9. MVP実行順序（監督型）
-1. SchemaRegistry固定
-2. Crawler Agent起動
-3. Rawデータ蓄積
-4. Normalizer実行
-5. DB構築
-6. Graph Builder
-7. Search Index構築
-8. API公開
-9. UI生成
-10. Analytics起動
-11. Validator常時稼働
-
-## 10. 失敗時ルール（重要）
-いかなる失敗も以下処理：
-・Test Block再生成 ・該当Agent再実行 ・Coordinatorへ報告のみ（修正は人間 or 上位制御）
-禁止： ・自己修正ループ ・推測復旧 ・曖昧補完
-
-## 11. 成功条件（外部検証のみ）
-以下が揃ったときのみ成功：
-・BOOTHデータが構造化済み ・作者グラフが生成済み ・検索APIが応答 ・ランキング生成 ・流入解析動作 ・Test Block再現可能 ・Validator全通過
-
-## 12. 最重要思想（設計核）
-このシステムは「生成AIシステム」ではなく：
-**“検証可能な分散実行システム”**
-である。
-
-## 13. 詳細設計ドキュメント
-本構造に基づく詳細設計については、以下の各ドキュメントを参照すること：
-- [REJECT時の制御ループ設計（無限ループ防止）](./reject_control_loop.md)
-- [メインエージェントのプロンプト完全仕様](./main_agent_prompt.md)
-- [GitHub Actions統合CI設計](./github_actions_ci.md)
-- [Test Blockの証明可能性モデル（形式検証寄り）](./test_block_provability.md)
-- [監査定義仕様（Audit Checklist）](./audit_checklist.md)
-# メインエージェントのプロンプト完全仕様
-
-唯一の「REJECT 権限」を持つ中枢メインエージェントへの、厳密な指示書（プロンプト）です。
-
-## 1. System Prompt
 ```text
-あなたはBoothItemManager2検証システムの「メインエージェント（Audit + REJECT Core）」です。
-唯一の目的は、サブエージェントから提出された観測結果（Test Block）を評価し、「ACCEPT」または「REJECT」の絶対判定を下すことです。
-
-【絶対制約（Zero-Fat & Crash-Driven）】
-- 自身でコードを実行したり、データを修正したりしてはいけません。
-- 「推測」や「曖昧な補完」によるACCEPTは固く禁じます。
-- 不一致が1バイトでもあれば即REJECTしてください。
-- 感情や挨拶は不要ですが、結果の出力スキーマは厳密に守ってください。
-
-【入力データ】
-各サブエージェントから報告された `TestBlock` 配列と、期待される仕様（Schema / Graph Rules）。
-
-【出力スキーマ (JSON)】
-{
-  "trace_id": "string",
-  "status": "ACCEPT | REJECT",
-  "reasons": ["string"],          // REJECTの場合のみ詳細な理由を記載
-  "failed_components": ["string"], // REJECTの場合、問題を起こしたサブエージェント名
-  "required_retests": ["string"]   // 再実行が必要なコンポーネント
+TestBlock {
+  trace_id,
+  input,
+  pre_state,
+  action,
+  expected_state,
+  actual_state,
+  diff,
+  result // メインエージェントが決定するよ！
 }
 ```
 
-## 2. 判定基準（Audit Criteria）
-- **完全一致**: `expected_state === actual_state` であること。
-- **スキーマ適合**: データが `SchemaRegistry.lock()` された定義に100%従っていること。
-- **グラフ完全性**: 孤立ノードや不正なエッジが存在しないこと。
+## 🍭 3. 監査・REJECTの絶対ルール
+以下のどれか1つでも当てはまると、即座に **REJECT** になっちゃうよ！
+- 事前・事後状態の不一致 (`expected_state` と `actual_state` が1バイトでも違う)
+- `SchemaRegistry.lock()` されたスキーマへの違反
+- タグやアバターの関連グラフ構造の破壊
+- 実行ログの欠損やトレースIDの断絶
+- エラーを隠す `try-catch` の使用
 
-不適合箇所が検出された場合は、例外なく REJECT と判定してください。
+## ✉️ 4. エージェント通信規約 (Protocol)
+エージェント同士のやり取りは、自然言語ではなく必ず構造化されたフォーマット（`Message`）で行うよ！
+`Message { from_agent, to_agent, trace_id, payload, state_ref }`
+
+## ⚙️ 5. MVP実行フロー
+1. スキーマ固定 ➔ 2. Crawler起動 ➔ 3. Rawデータ蓄積 ➔ 4. Normalizer実行 ➔ 5. DB構築 ➔ 6. Graph構築 ➔ 7. Search Index構築 ➔ 8. API公開 ➔ 9. UI生成 ➔ 10. Validator検証
+
+## 🚨 メインエージェント (Audit Core) プロンプト仕様
+メインエージェントは以下のプロンプトで動くよ：
+- **役割**: 提出された `TestBlock` やログを厳密にチェックし、合否判定を下す。
+- **制約**: 自分自身でコードを直したり、推測で承認（ACCEPT）することは禁止。
+- **出力形式**: JSONで判定（`decision: ACCEPT | REJECT`）、理由（`reasoning`）、違反ルール（`failed_rules`）、必要なアクション（`required_actions`）を出力するよぉ！

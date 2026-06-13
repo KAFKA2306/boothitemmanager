@@ -3,7 +3,13 @@ import os
 
 from .core import TestBlock
 from .storage import Item, ItemCategory
-from .normalizer import extract_tag_set, infer_category, load_aliases, pick_targets, _get_cached_likes
+from .normalizer import (
+    extract_tag_set,
+    infer_category,
+    load_aliases,
+    pick_targets,
+    _get_cached_likes,
+)
 
 
 def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
@@ -52,6 +58,7 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
             html_path = f"input/raw/{item_id}.html"
             if os.path.exists(html_path):
                 from bs4 import BeautifulSoup
+
                 try:
                     with open(html_path, "r", encoding="utf-8") as html_f:
                         soup = BeautifulSoup(html_f.read(), "html.parser")
@@ -63,6 +70,7 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
                         except Exception:
                             pass
                     from .normalizer import _pick_published_at
+
                     published_at = _pick_published_at(soup, json_ld)
                 except Exception:
                     pass
@@ -81,7 +89,9 @@ def convert_ndjson_to_items(file_path: str, trace_id: str) -> TestBlock:
                 creator_id=data.get("creator_id", "unknown"),
                 creator_name=data.get("creator_name", "Unknown Shop"),
                 published_at=published_at,
-                like_count=data.get("like_count") if data.get("like_count") is not None else _get_cached_likes(item_id),
+                like_count=data.get("like_count")
+                if data.get("like_count") is not None
+                else _get_cached_likes(item_id),
                 price=data.get("price"),
                 category=category,
                 tag_set=tag_set,

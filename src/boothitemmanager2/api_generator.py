@@ -12,6 +12,7 @@ from .storage import Item
 def safe_rmtree(path: str):
     import shutil
     import os
+
     if os.path.exists(path):
         try:
             shutil.rmtree(path)
@@ -105,22 +106,34 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     for i in range(0, len(catalog_summaries), shard_size):
         part_id = (i // shard_size) + 1
         part_data = catalog_summaries[i : i + shard_size]
-        
+
         # Save JSON to staging
-        with open(os.path.join(api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8") as f:
+        with open(
+            os.path.join(api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8"
+        ) as f:
             json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
-        
+
         # Save JS fallback to staging
-        with open(os.path.join(api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8") as f:
+        with open(
+            os.path.join(api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8"
+        ) as f:
             f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
             json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
             f.write(";")
 
         # Also save to dist if it exists
         if has_dist_api:
-            with open(os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8") as f:
+            with open(
+                os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.json"),
+                "w",
+                encoding="utf-8",
+            ) as f:
                 json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
-            with open(os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8") as f:
+            with open(
+                os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.js"),
+                "w",
+                encoding="utf-8",
+            ) as f:
                 f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
                 json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
                 f.write(";")
@@ -133,11 +146,11 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     metadata_path = os.path.join(api_staging, "metadata.json")
     if not os.path.exists(metadata_path):
         metadata_path = "api/metadata.json"
-        
+
     if os.path.exists(metadata_path):
         with open(metadata_path, encoding="utf-8") as f:
             meta_content = json.load(f)
-        
+
         # Inject shard info into metadata
         meta_content["catalog_shards"] = total_shards
         with open(os.path.join(api_staging, "metadata.json"), "w", encoding="utf-8") as f:

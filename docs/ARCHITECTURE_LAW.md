@@ -1,47 +1,22 @@
-# ARCHITECTURE LAW
+# 🌸 ルートにPythonファイルを置いちゃダメな約束だょ！ 🌸
 
-NEVER place Python files on repository root.
+リポジトリのルートに `*.py` ファイルを直接置くのは絶対に禁止だよぉ！(⑅•ᴗ•⑅)◜..°♡
 
-Repository root is reserved for:
+## 🎀 ルートに置いていいもの
+- `pyproject.toml` や `Taskfile.yml` などの設定ファイル
+- `README.md` や `llms.txt` などのドキュメント
+- `LICENSE` や `.gitignore`
 
-* pyproject.toml
-* README.md
-* LICENSE
-* .gitignore
-* configuration files
-* documentation
+## 🐾 置いちゃダメなもの
+- すべての `.py` ファイル
+- 実行用・ツール用のスクリプト
+- テストコードや一時ファイル
 
-Forbidden on root:
+## 🍭 正しい置き場所 (Folders)
+- **ライブラリコード**: `src/boothitemmanager2/`
+- **実行スクリプト**: `scripts/`
+- **テストコード**: `tests/`
+- **開発ツール**: `tools/`
 
-* *.py
-* executable scripts
-* utility scripts
-* migration scripts
-* test runners
-* temporary tooling
+もしルートにPythonファイルを見つけたら、すぐに正しいフォルダに引っ越しさせて、参照を書き換えてねっ！ルートはいつもきれいに（Pythonファイル数：0件）保つのがお約束だもん☆
 
-Required locations:
-
-* src/<package>/        → library code
-* scripts/             → executable entrypoints
-* tests/               → test code
-* tools/               → development tooling
-* docs/                → documentation
-
-Before creating any new Python file:
-
-1. Check whether a suitable directory already exists.
-2. If not, create an appropriate subdirectory.
-3. NEVER place the file on root.
-
-If a Python file is found on root:
-
-1. Consider it architecture debt.
-2. Propose relocation.
-3. Update references.
-4. Verify execution.
-5. Remove the root copy.
-
-ROOT SHALL CONTAIN ZERO PYTHON FILES.
-
-This rule overrides convenience, habit, and temporary workarounds.

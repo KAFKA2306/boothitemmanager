@@ -7,12 +7,15 @@
 !docs/
 !.github/
 !api/
+!tests/
 !data/structured/
 
 # Files to track
 !src/**
 !docs/**
+!tests/**
 !.github/**
+
 !api/**
 !data/structured/catalog.json
 !data/graph/nodes.json
@@ -36,6 +39,11 @@
 !index.html
 !verify_fix.py
 !test_duplicates.py
+!scripts/mcp_seo_server.py
+!scripts/seo_autofix.py
+!llms.txt
+!AGENTS.md
+
 
 # Force ignore clutter even within tracked categories if they appear (just in case)
 __pycache__/

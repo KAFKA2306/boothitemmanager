@@ -8,11 +8,11 @@ from .storage import Item
 def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
     output_dir = "api"
     os.makedirs(output_dir, exist_ok=True)
-    
+
     # Sharding index to bypass Cloudflare 25MiB limit
     shard_size = 10000
     shards_paths = []
-    
+
     for i in range(0, len(items), shard_size):
         shard_items = items[i : i + shard_size]
         shard_index = []
@@ -49,7 +49,7 @@ def build_search_index(items: list[Item], trace_id: str) -> TestBlock:
                     "booth_url": item.source_url,
                 }
             )
-        
+
         shard_id = i // shard_size
         output_path = os.path.join(output_dir, f"search_index_part{shard_id}.json")
         with open(output_path, "w", encoding="utf-8") as f:

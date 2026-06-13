@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "BoothItemManager2",
+  "url": "https://boothitemmanager.pages.dev/",
+  "description": "Discover VRChat virtual assets, outfits, accessories, hairstyles, and gimmicks from Booth.pm.",
+  "applicationCategory": "SearchEngine",
+  "operatingSystem": "All"
+}
+    </script>
+    <!-- AEO / SEO & Discovery -->
+    <link rel="alternate" type="text/plain" href="llms.txt" title="LLM Context">
+    <meta name="keywords" content="VRChat, Booth, 3D Assets, Avatar, Outfit, Accessory, Gimmick, Discovery, Search, Compatibility, PhysBone, Modular Avatar">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <link rel="canonical" href="https://boothitemmanager.pages.dev/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <title>BoothItemManager2 - VRChat Booth Asset Discovery</title>
     <meta name="description" content="Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly.">
+
+    <!-- OpenGraph (OGP) Meta Tags -->
+    <meta property="og:title" content="BoothItemManager2 - VRChat Booth Asset Discovery">
+    <meta property="og:description" content="Discover VRChat virtual assets, outfits, accessories, hairstyles, and gimmicks from Booth.pm. Filter instantly by base avatar compatibility, style, color, category, and price.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://boothitemmanager.pages.dev/">
+    <meta property="og:image" content="https://placehold.jp/24/12121a/00f0ff/1200x630.png?text=BoothItemManager2">
+    <meta property="og:site_name" content="BoothItemManager2">
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BoothItemManager2 - VRChat Booth Asset Discovery">
+    <meta name="twitter:description" content="Discover VRChat virtual assets, outfits, accessories, hairstyles, and gimmicks from Booth.pm. Filter instantly by base avatar compatibility, style, color, category, and price.">
+    <meta name="twitter:image" content="https://placehold.jp/24/12121a/00f0ff/1200x630.png?text=BoothItemManager2">
+
+    <!-- AI & Generative Search Optimization (GEO) Citations -->
+    <meta name="citation_title" content="BoothItemManager2 - VRChat Booth Asset Discovery">
+    <meta name="citation_author" content="BoothItemManager Contributors">
+    <meta name="citation_publication_date" content="2026-06-13">
+    <meta name="ai-optimized" content="true">
+    <meta name="search-engine" content="generative-engine-optimization">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;900&display=swap" as="style">
@@ -1341,7 +1381,7 @@
                 const s = allItems.find(i => (i.id || i.item_id) === sid);
                 if (!s) return '';
                 const sThumb = s.thumbnail || s.thumbnail_url;
-                return `<div class="similar-card" title="${s.title}" onclick="openModal('${sid}')"><img src="${sThumb}" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/100x100.png?text=N/A'"></div>`;
+                return `<div class="similar-card" title="${s.title}" onclick="openModal('${sid}')"><img src="${sThumb}" referrerpolicy="no-referrer" onerror="this.src='https://placehold.jp/24/12121a/00f0ff/100x100.png?text=N/A'" alt="Asset Preview"></div>`;
             }).join('') : '<span style="font-size:0.75rem; color:var(--text-muted); grid-column:1/-1;">No similar assets.</span>';
         }
 
