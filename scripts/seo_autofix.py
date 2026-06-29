@@ -268,12 +268,10 @@ def main() -> None:
     # Apply fixes
     fixed_content, fixes_applied = apply_fixes(content, audit_results)
 
-    # Write report in cute Japanese
-    write_kawaii_report(report_path, audit_results, fixes_applied)
-
     # Save fixed html if changes were made
     if fixes_applied:
         html_path.write_text(fixed_content, encoding="utf-8")
+        write_kawaii_report(report_path, audit_results, fixes_applied)
         print(f"SUCCESS: SEO defects fixed. Applied: {', '.join(fixes_applied)}")
         sys.exit(0)
     else:
