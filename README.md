@@ -4,6 +4,10 @@ BOOTHの40,000件以上のVRChatアセットを完全に収集・構造化し、
 
 👉 **AIエージェントさんへ**: プロジェクトの全体構造は [llms.txt](file:///home/kafka/projects/boothitemmanager/llms.txt) を、開発ガイドは [AGENTS.md](file:///home/kafka/projects/boothitemmanager/AGENTS.md) を最初に読んでねっ✨
 
+## 🚀 デプロイ先 (Deployments)
+- GitHub Pages: https://kafka2306.github.io/boothitemmanager/
+- Cloudflare Pages: https://boothitemmanager.pages.dev/
+
 ## ✨ 特長 (Features)
 - **Zero-Fat Architecture**: 無駄を極限まで削ぎ落とし、Cloudflare Pagesの25 MiB制限を回避する超軽量設計！
 - **Evolving Ontology Loop**: 収集したタグから価値ある概念を自動学習し、不要なタグ（"40アバター対応"等）を監査でパージ！

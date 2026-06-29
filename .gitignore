@@ -41,6 +41,7 @@
 !test_duplicates.py
 !scripts/mcp_seo_server.py
 !scripts/seo_autofix.py
+!scripts/demo_harness.py
 !llms.txt
 !AGENTS.md
 
