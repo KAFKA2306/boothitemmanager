@@ -1,40 +1,59 @@
-# 🌸 BoothItemManager2 だよぉ！ 🌸
+# BoothItemManager2
 
-BOOTHの40,000件以上のVRChatアセットを完全に収集・構造化し、爆速で検索・フィルタリングできる次世代の静的ダッシュボードとオントロジー管理システムだよぉ！(⑅•ᴗ•⑅)◜..°♡
+BOOTH上の公開VRChatアセット情報を収集・正規化し、検索・比較・分類できる静的ダッシュボードとオントロジー管理システムです。
 
-👉 **AIエージェントさんへ**: プロジェクトの全体構造は [llms.txt](file:///home/kafka/projects/boothitemmanager/llms.txt) を、開発ガイドは [AGENTS.md](file:///home/kafka/projects/boothitemmanager/AGENTS.md) を最初に読んでねっ✨
+## 公開先
 
-## 🚀 デプロイ先 (Deployments)
 - GitHub Pages: https://kafka2306.github.io/boothitemmanager/
 - Cloudflare Pages: https://boothitemmanager.pages.dev/
 
-## ✨ 特長 (Features)
-- **Zero-Fat Architecture**: 無駄を極限まで削ぎ落とし、Cloudflare Pagesの25 MiB制限を回避する超軽量設計！
-- **Evolving Ontology Loop**: 収集したタグから価値ある概念を自動学習し、不要なタグ（"40アバター対応"等）を監査でパージ！
-- **Crash-Driven Development**: `try-catch` を排除し、問題があれば即座にクラッシュさせて根本修正する堅牢設計。
-- **Novelty-Aware Similarity**: 新しさと多様性を重視した、ウィンドウショッピングが楽しくなる類似サジェスト！
+## 因果・証拠オントロジー
 
-## 📦 必要要件 (Requirements)
-- Python 3.12+
-- [uv](https://github.com/astral-sh/uv) (高速パッケージマネージャー)
-- [go-task](https://taskfile.dev/) (タスクランナー)
+上位システムは `MarketplaceAssetCatalogSystem` です。
 
-## 🎀 使い方 (Usage)
-```bash
-# 1. 依存関係のインストール
-uv sync
-playwright install chromium
-
-# 2. パイプライン実行（ビルド）
-task build
-
-# 3. テストとプレビュー
-task check
-task serve  # http://localhost:8080 で確認できるよ！
+```text
+販売者の公開出品情報
+→ 出品・販売者の同定
+→ 原文フィールド保存
+→ 正規化
+→ 派生分類・類似度計算
+→ 重複・互換性・権利状態の監査
+→ 静的API・検索画面公開
 ```
 
-## 📁 フォルダ構成 (Directory)
-- `src/boothitemmanager2/`: 進化したコアシステム（ノーマライザ、検索ビルダー等）
-- `ontology/`: タグやスタイルの知識ベース（`tags.yaml`等）
-- `docs/`: 仕様書や意思決定ログ（ADR）
+販売者記載、マーケット観測、正規化値、派生タグ、対応アバター、ライセンス観測を別クラスとして保存します。タイトルや近接タグだけから対応アバターや利用許諾を推定しません。根拠が不足・矛盾する項目は `UNKNOWN` または `quarantine` とします。
+
+- [プロジェクト・オントロジー](ontology/project.yaml)
+- [共通因果・証拠オントロジー](https://github.com/KAFKA2306/know/blob/main/ontology/causal-evidence-core.yaml)
+- [開発ガイド](AGENTS.md)
+- [エージェント向け索引](llms.txt)
+
+## 特長
+
+- **Zero-Fat Architecture**: 公開成果物を軽量化し、配信制約を管理
+- **Evolving Ontology Loop**: 出典フィールドを保持したまま正規タグを更新
+- **Fail-Fast Validation**: 破損データや不整合を黙って継続しない
+- **Novelty-Aware Similarity**: 新規性と多様性を考慮した類似候補
+
+## 必要要件
+
+- Python 3.12+
+- [uv](https://github.com/astral-sh/uv)
+- [go-task](https://taskfile.dev/)
+
+## 使い方
+
+```bash
+uv sync
+playwright install chromium
+task build
+task check
+task serve
+```
+
+## 主な構成
+
+- `src/boothitemmanager2/`: 収集・正規化・検索生成
+- `ontology/`: タグ・スタイル知識とプロジェクト意味モデル
+- `docs/`: 仕様・ADR
 - `api/` / `dist/`: 生成された静的APIとダッシュボード
