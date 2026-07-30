@@ -1,0 +1,82 @@
+project:
+  id: kafka:boothitemmanager
+  name: BoothItemManager2
+  repository: https://github.com/KAFKA2306/boothitemmanager
+  pages: https://kafka2306.github.io/boothitemmanager/
+  version: 0.1.0
+  updated: 2026-07-30
+  core_ontology: https://raw.githubusercontent.com/KAFKA2306/know/main/ontology/causal-evidence-core.yaml
+  schema: https://raw.githubusercontent.com/KAFKA2306/know/main/ontology/project.schema.json
+
+purpose:
+  problem: Acquire and normalize public BOOTH VRChat asset metadata into a searchable catalog while preserving seller, listing, compatibility, license, and classification provenance.
+  intended_decisions: [include, update, merge_duplicate, classify, quarantine, remove]
+  success_conditions:
+    - Each item retains listing identity, seller, source URL, retrieval time, and source fields.
+    - Seller-provided tags and descriptions remain distinct from normalized and derived ontology labels.
+    - Compatibility and license claims are not inferred from title similarity alone.
+  falsification_conditions:
+    - Different listings or variants are merged without identity evidence.
+    - Derived style or compatibility tags are represented as seller statements.
+    - A listing is described as usable for an avatar without explicit source evidence or reviewed mapping.
+
+scope:
+  included: [listings, sellers, item variants, categories, tags, avatar compatibility, license observations, prices, images by URL, normalized ontology]
+  excluded: [purchased asset files, private buyer data, inferred legal permission, copied commercial images by default]
+  temporal: Listing publication, retrieval, update, price observation, and ontology-version times are explicit.
+  abstraction_level: Source-traceable marketplace metadata catalog and evolving classification system.
+
+competency_questions:
+  - Which BOOTH listing and seller support each catalog record?
+  - Which fields are seller-provided, normalized, or inferred by a rule?
+  - What evidence supports avatar compatibility and license-related labels?
+  - Why were duplicate records merged, retained separately, or quarantined?
+  - Does the deployed search index match the validated source snapshot and ontology version?
+
+domain_mapping:
+  System: MarketplaceAssetCatalogSystem
+  State: [listing state, availability state, normalization state, compatibility state, publication state]
+  Action: [acquire listing, normalize field, classify tag, resolve identity, merge duplicate, quarantine, publish]
+  Process: [source acquisition, parsing, normalization, ontology mapping, similarity indexing, static publication]
+  Observation: [seller listing field, price, tag, description, image URL, availability status]
+  Model: [tag normalizer, compatibility mapper, style ontology, similarity model]
+  Requirement: [listing provenance, seller-field separation, rights boundary, compatibility evidence, duplicate control]
+  Claim: [item identity, seller, category, style, avatar compatibility, license observation, price]
+  Evidence: [listing URL, seller identity, source snapshot, field locator, mapping rule, review record]
+  Decision: [include, update, merge_duplicate, classify, quarantine, remove]
+
+claims_and_evidence:
+  assertion_types: [SellerReportedFact, MarketplaceObservation, NormalizedValue, DerivedClassification, CompatibilityClaim, LicenseObservation, DecisionAssertion]
+  required_evidence:
+    SellerReportedFact: [listing URL, seller, source field, retrieval time]
+    MarketplaceObservation: [listing ID, value, observation time]
+    DerivedClassification: [rule or model version, upstream fields]
+    CompatibilityClaim: [explicit listing text or reviewed compatibility mapping]
+    LicenseObservation: [source text or linked terms, retrieval time]
+  unknown_policy: Missing listing identity, compatibility evidence, or license text remains UNKNOWN and is not inferred from nearby tags.
+
+decision_rules:
+  - id: include-listing
+    when: Stable listing identity, seller, source URL, and retrieval record are present.
+    result: include
+  - id: derived-tag
+    when: A versioned ontology rule maps retained source fields to a normalized class.
+    result: classify
+  - id: compatibility-gate
+    when: Explicit seller evidence or a reviewed adapter mapping supports compatibility.
+    result: accepted_compatibility
+  - id: unsupported-or-conflicting
+    when: Identity, rights, or compatibility evidence is missing or contradictory.
+    result: quarantine
+
+provenance:
+  sources: [public BOOTH listing pages and seller-provided linked terms]
+  generated_artifacts: [normalized catalog, ontology files, search index, similarity index, static API, dashboard]
+  agents: [Playwright collector, parser, normalizer, ontology builder, search builder, human reviewer]
+  lineage: Each catalog field links to listing snapshot, seller, source field, retrieval time, transformation rule, and ontology version.
+
+validation:
+  structural: Validate listing and seller IDs, URLs, timestamps, normalized values, and output references.
+  semantic: Separate seller statements, marketplace observations, normalized values, derived tags, compatibility, and license observations.
+  evidence: Verify source snapshots, mapping rules, duplicate decisions, compatibility evidence, and rights boundaries.
+  publication: Static API and dashboard must match the validated catalog and expose source links and classification status.
