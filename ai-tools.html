@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="BOOTH販売ページの明示情報から、AI機能・AI生成物含有・AI支援制作を証拠付きで整理したリンク集。">
+  <title>AI関連ツール evidence list | BoothItemManager2</title>
+  <style>
+    :root { color-scheme:dark; --bg:#08090d; --panel:#11131a; --panel-2:#171a23; --line:#2b3040; --text:#f4f6fb; --muted:#a5adbd; --accent:#6ee7ff; --accent-2:#d3a7ff; --ok:#8ef0b4; --warn:#ffd37a; --shadow:0 18px 50px rgba(0,0,0,.28); }
+    * { box-sizing:border-box; }
+    html { background:var(--bg); }
+    body { margin:0; min-width:0; background:radial-gradient(circle at 20% -10%,rgba(110,231,255,.14),transparent 36rem),radial-gradient(circle at 90% 4%,rgba(211,167,255,.12),transparent 30rem),var(--bg); color:var(--text); font-family:Inter,"Noto Sans JP",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.65; overflow-x:hidden; }
+    a { color:inherit; } button,input,select { font:inherit; }
+    .shell { width:min(1180px,calc(100% - 32px)); margin:0 auto; }
+    header { position:sticky; top:0; z-index:20; border-bottom:1px solid rgba(255,255,255,.08); background:rgba(8,9,13,.86); backdrop-filter:blur(18px); }
+    .topbar { min-height:64px; display:flex; gap:16px; align-items:center; justify-content:space-between; }
+    .brand { display:flex; align-items:center; gap:10px; text-decoration:none; font-weight:800; }
+    .brand-mark { width:28px; height:28px; border-radius:8px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); box-shadow:0 0 24px rgba(110,231,255,.25); }
+    .back { color:var(--muted); text-decoration:none; font-size:.9rem; border:1px solid var(--line); border-radius:999px; padding:7px 12px; }
+    main { padding:46px 0 72px; }
+    .eyebrow { display:inline-flex; gap:8px; align-items:center; color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:12px 0; font-size:clamp(2rem,6vw,4.5rem); line-height:1.05; letter-spacing:-.045em; }
+    .lead { max-width:760px; margin:0; color:var(--muted); font-size:clamp(1rem,2.2vw,1.16rem); }
+    .notice { margin-top:24px; padding:17px 18px; border:1px solid rgba(255,211,122,.35); border-radius:14px; background:rgba(255,211,122,.07); color:#f7e5bd; }
+    .notice strong { color:var(--warn); }
+    .metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:28px 0 18px; }
+    .metric { border:1px solid var(--line); background:rgba(17,19,26,.78); border-radius:16px; padding:18px; box-shadow:var(--shadow); }
+    .metric b { display:block; font-size:1.8rem; line-height:1.1; }
+    .metric span { color:var(--muted); font-size:.84rem; }
+    .controls { display:grid; grid-template-columns:minmax(0,1fr) 240px; gap:12px; margin:22px 0 16px; }
+    .control { width:100%; min-width:0; color:var(--text); background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px 14px; outline:none; }
+    .control:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(110,231,255,.12); }
+    .tabs { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px; }
+    .tab { border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:999px; padding:8px 12px; cursor:pointer; }
+    .tab[aria-pressed="true"] { color:#071015; border-color:var(--accent); background:var(--accent); font-weight:800; }
+    .section-head { display:flex; gap:12px; align-items:end; justify-content:space-between; margin:34px 0 14px; }
+    .section-head h2 { margin:0; font-size:1.35rem; } .section-head p { margin:0; color:var(--muted); font-size:.85rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { min-width:0; display:flex; flex-direction:column; gap:14px; border:1px solid var(--line); border-radius:18px; padding:20px; background:linear-gradient(180deg,rgba(23,26,35,.94),rgba(14,16,22,.94)); box-shadow:var(--shadow); }
+    .card-head { display:flex; gap:12px; align-items:flex-start; justify-content:space-between; }
+    .card h3 { margin:0; font-size:1.04rem; line-height:1.45; overflow-wrap:anywhere; }
+    .shop { color:var(--muted); font-size:.86rem; }
+    .badges { display:flex; flex-wrap:wrap; gap:7px; }
+    .badge { display:inline-flex; align-items:center; border-radius:999px; padding:4px 9px; font-size:.72rem; font-weight:800; }
+    .badge.tool { color:#031116; background:var(--accent); } .badge.service { color:#160b20; background:var(--accent-2); } .badge.generated { color:#171006; background:var(--warn); } .badge.assisted { color:#07150d; background:var(--ok); } .badge.confidence { color:var(--muted); background:#202432; border:1px solid var(--line); }
+    .evidence { margin:0; padding:13px 14px; border-left:3px solid var(--accent); border-radius:8px; background:rgba(110,231,255,.055); color:#dfe9f3; font-size:.91rem; }
+    .evidence small { display:block; margin-bottom:3px; color:var(--accent); font-weight:800; }
+    .actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:auto; }
+    .action { display:inline-flex; align-items:center; justify-content:center; min-height:40px; border-radius:10px; padding:8px 12px; text-decoration:none; font-weight:800; font-size:.86rem; border:1px solid var(--line); background:#202432; }
+    .action.primary { color:#061014; background:var(--accent); border-color:var(--accent); }
+    .shop-list { display:grid; gap:10px; }
+    .shop-row { display:grid; grid-template-columns:minmax(0,1fr) auto auto; align-items:center; gap:12px; border:1px solid var(--line); border-radius:14px; padding:14px 16px; background:var(--panel); }
+    .shop-row strong,.shop-row span { overflow-wrap:anywhere; } .shop-row span { color:var(--muted); font-size:.84rem; }
+    .method { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:14px; }
+    .method article { border:1px solid var(--line); border-radius:14px; padding:16px; background:var(--panel); }
+    .method h3 { margin:0 0 6px; font-size:.95rem; } .method p { margin:0; color:var(--muted); font-size:.86rem; }
+    .empty { grid-column:1/-1; padding:48px 20px; text-align:center; color:var(--muted); border:1px dashed var(--line); border-radius:16px; }
+    footer { border-top:1px solid var(--line); padding:26px 0 44px; color:var(--muted); font-size:.82rem; } code { color:var(--accent); }
+    @media (max-width:800px) { .metrics,.method,.grid { grid-template-columns:1fr; } .controls { grid-template-columns:1fr; } .topbar { min-height:58px; } .brand span:last-child { display:none; } main { padding-top:30px; } .shop-row { grid-template-columns:minmax(0,1fr) auto; } .shop-row .shop-note { grid-column:1/-1; } }
+  </style>
+</head>
+<body>
+<header><div class="shell topbar"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true"></span><span>BoothItemManager2</span></a><a class="back" href="./">通常の商品検索へ</a></div></header>
+<main class="shell">
+  <span class="eyebrow">Evidence-based catalog</span>
+  <h1>AI関連ツール<br>証拠リンク集</h1>
+  <p class="lead">BOOTHの商品名・説明文に販売者自身が明示した情報だけを抽出し、AI機能、AIサービス連携、AI生成物の含有、AI支援制作を区別して表示します。</p>
+  <div class="notice"><strong>重要:</strong> ショップがAI関連ツールを販売していても、そのショップの衣装や3DモデルまでAI制作だとは判定しません。これは購入前に確認すべき商品ページを見つけるための索引です。</div>
+  <section class="metrics" aria-label="集計"><div class="metric"><b id="item-count">—</b><span>明示的な候補商品</span></div><div class="metric"><b id="shop-count">—</b><span>候補を含むショップ</span></div><div class="metric"><b id="updated-at">—</b><span>最終確認日</span></div></section>
+  <section aria-labelledby="items-title">
+    <div class="controls"><input id="search" class="control" type="search" placeholder="商品名・ショップ・証拠を検索" aria-label="候補を検索"><select id="sort" class="control" aria-label="並び順"><option value="score">証拠スコア順</option><option value="shop">ショップ順</option><option value="title">商品名順</option></select></div>
+    <div id="tabs" class="tabs" aria-label="分類フィルター"></div>
+    <div class="section-head"><div><h2 id="items-title">候補商品</h2><p id="result-count">読み込み中</p></div></div>
+    <div id="item-grid" class="grid" aria-live="polite"></div>
+  </section>
+  <section aria-labelledby="shops-title"><div class="section-head"><div><h2 id="shops-title">ショップ単位のシグナル</h2><p>候補商品の存在のみを集計。別商品へは伝播しません。</p></div></div><div id="shop-list" class="shop-list"></div></section>
+  <section aria-labelledby="method-title"><div class="section-head"><div><h2 id="method-title">抽出ルール</h2><p>誤検出を減らすための境界条件</p></div></div><div class="method"><article><h3>採用する</h3><p>「AIアシスタント」「ChatGPT翻訳」「AI生成物を含む」など、販売ページ上の肯定的で具体的な明示。</p></article><article><h3>採用しない</h3><p>「AI学習禁止」だけの規約文や、「自動生成」だけの通常自動化。AI利用の証拠にはしません。</p></article><article><h3>連座させない</h3><p>ショップ内に候補があっても、同じショップの衣装・アバター・素材は個別の証拠がない限り未判定です。</p></article></div></section>
+</main>
+<footer><div class="shell">データ源: 各BOOTH販売ページの公開記載。価格・配布状況・説明は変更されるため、購入時はリンク先を再確認してください。</div></footer>
+<script>
+const LABELS={ALL:"すべて",AI_TOOL:"AI機能を提供",AI_SERVICE_INTEGRATION:"AIサービス連携",AI_GENERATED_COMPONENTS:"AI生成物を含む",AI_ASSISTED_CREATION:"AI支援で制作",AI_RELATED_TOOL:"AI関連"};
+const CLASS_NAMES={AI_TOOL:"tool",AI_SERVICE_INTEGRATION:"service",AI_GENERATED_COMPONENTS:"generated",AI_ASSISTED_CREATION:"assisted",AI_RELATED_TOOL:"service"};
+let report=null,activeClass="ALL"; const search=document.getElementById("search"),sort=document.getElementById("sort");
+function escapeHtml(value){return String(value??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[ch]));}
+function formatDate(value){const date=new Date(value);return Number.isNaN(date.getTime())?"—":new Intl.DateTimeFormat("ja-JP",{year:"numeric",month:"2-digit",day:"2-digit"}).format(date);}
+function searchable(item){const evidence=(item.evidence||[]).map(e=>`${e.label} ${e.snippet} ${e.matched_text}`).join(" ");return `${item.title} ${item.creator_name} ${item.classification} ${evidence}`.toLocaleLowerCase("ja");}
+function renderTabs(){const counts={ALL:report.items.length};report.items.forEach(item=>counts[item.classification]=(counts[item.classification]||0)+1);const order=["ALL","AI_TOOL","AI_SERVICE_INTEGRATION","AI_GENERATED_COMPONENTS","AI_ASSISTED_CREATION"];document.getElementById("tabs").innerHTML=order.filter(key=>counts[key]).map(key=>`<button class="tab" data-class="${key}" aria-pressed="${activeClass===key}">${LABELS[key]} ${counts[key]}</button>`).join("");document.querySelectorAll(".tab").forEach(button=>button.addEventListener("click",()=>{activeClass=button.dataset.class;renderTabs();renderItems();}));}
+function renderItems(){const q=search.value.trim().toLocaleLowerCase("ja");let items=report.items.filter(item=>(activeClass==="ALL"||item.classification===activeClass)&&(!q||searchable(item).includes(q)));if(sort.value==="shop")items.sort((a,b)=>a.creator_name.localeCompare(b.creator_name,"ja")||b.score-a.score);else if(sort.value==="title")items.sort((a,b)=>a.title.localeCompare(b.title,"ja"));else items.sort((a,b)=>b.score-a.score||a.title.localeCompare(b.title,"ja"));document.getElementById("result-count").textContent=`${items.length.toLocaleString()}件を表示`;document.getElementById("item-grid").innerHTML=items.length?items.map(item=>{const primary=(item.evidence||[])[0]||{};return `<article class="card"><div class="card-head"><div><h3>${escapeHtml(item.title)}</h3><div class="shop">${escapeHtml(item.creator_name)}</div></div></div><div class="badges"><span class="badge ${CLASS_NAMES[item.classification]||"service"}">${escapeHtml(LABELS[item.classification]||item.classification)}</span><span class="badge confidence">${escapeHtml(item.confidence)} / score ${escapeHtml(item.score)}</span></div><blockquote class="evidence"><small>${escapeHtml(primary.label||"明示情報")}</small>${escapeHtml(primary.snippet||primary.matched_text||"商品ページを確認")}</blockquote><div class="actions"><a class="action primary" href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">商品ページを確認</a>${item.shop_url?`<a class="action" href="${escapeHtml(item.shop_url)}" target="_blank" rel="noopener noreferrer">ショップを見る</a>`:""}</div></article>`;}).join(""):`<div class="empty">条件に一致する候補はありません。</div>`;}
+function renderShops(){document.getElementById("shop-list").innerHTML=report.shops.map(shop=>`<div class="shop-row"><strong>${escapeHtml(shop.creator_name)}</strong><span>${shop.candidate_count}件</span><a class="action" href="${escapeHtml(shop.shop_url||shop.item_urls[0])}" target="_blank" rel="noopener noreferrer">確認</a><span class="shop-note">${escapeHtml(shop.note)}</span></div>`).join("");}
+async function init(){try{const response=await fetch("api/ai_tool_candidates.json",{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);report=await response.json();document.getElementById("item-count").textContent=report.metrics.candidate_items.toLocaleString();document.getElementById("shop-count").textContent=report.metrics.candidate_shops.toLocaleString();document.getElementById("updated-at").textContent=formatDate(report.generated_at);renderTabs();renderItems();renderShops();}catch(error){document.getElementById("item-grid").innerHTML=`<div class="empty">データを読み込めませんでした。<br><code>${escapeHtml(error.message)}</code></div>`;document.getElementById("result-count").textContent="読み込み失敗";}}
+search.addEventListener("input",renderItems);sort.addEventListener("change",renderItems);init();
+</script>
+</body>
+</html>

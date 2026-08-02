@@ -2,11 +2,13 @@ name: Build, Test and Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch: {}
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -34,7 +36,7 @@ jobs:
       - name: Build static site
         run: |
           mkdir -p dist
-          cp index.html dist/
+          cp index.html ai-tools.html dist/
           mkdir -p dist/api
           if [ -d api ]; then
             cp api/*.json api/*.js dist/api/ 2>/dev/null || true
@@ -44,10 +46,10 @@ jobs:
           fi
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
 
-      - name: Run E2E Tests
+      - name: Run tests
         run: |
           source .venv/bin/activate
-          uv run pytest tests/e2e/test_browser.py -v
+          uv run pytest tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -59,6 +61,7 @@ jobs:
           path: dist
 
   deploy-gh-pages:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     permissions:
       pages: write
       id-token: write
@@ -73,6 +76,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   deploy-cf-pages:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: build-and-test
     environment:
@@ -89,7 +93,7 @@ jobs:
         with:
           name: github-pages
           path: dist-archive
-          
+
       - name: Extract artifact
         run: |
           mkdir -p dist
