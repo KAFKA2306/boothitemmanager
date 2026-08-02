@@ -108,3 +108,35 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name=boothitemmanager
+
+  cleanup-merged-branches:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - name: Delete merged repository branches
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const pulls = await github.paginate(github.rest.pulls.list, {
+              owner,
+              repo,
+              state: 'closed',
+              per_page: 100,
+            });
+            for (const pull of pulls) {
+              const branch = pull.head?.ref;
+              const sameRepository = pull.head?.repo?.full_name === `${owner}/${repo}`;
+              if (!pull.merged_at || !sameRepository || !branch || branch === 'main') continue;
+              try {
+                await github.rest.git.deleteRef({ owner, repo, ref: `heads/${branch}` });
+                core.info(`Deleted merged branch: ${branch}`);
+              } catch (error) {
+                if (![404, 422].includes(error.status)) throw error;
+                core.info(`Branch already absent or protected: ${branch}`);
+              }
+            }
