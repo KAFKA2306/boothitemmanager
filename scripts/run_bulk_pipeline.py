@@ -1,63 +1,68 @@
-import sys; import os; sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
-import sys; import os; sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+"""Orchestrate the BoothItemManager2 bulk integration pipeline.
+
+Flow: NDJSON bridge -> similarity -> DB -> graph -> search index ->
+AI-related evidence report -> static API.
 """
-run_bulk_pipeline.py - Orchestrates bulk data integration for BoothItemManager2
-Orchestrates: Bridge (ndjson -> Item) -> DB -> Graph -> Search Index -> API
-"""
+
+from __future__ import annotations
 
 import os
 import sys
 import time
 
-sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
-from boothitemmanager2.db_builder import build_db; from boothitemmanager2.graph_builder import build_graph; from boothitemmanager2.search_builder import build_search_index; from boothitemmanager2.api_generator import generate_api
+from boothitemmanager2.ai_tool_detector import write_ai_tool_report
+from boothitemmanager2.api_generator import generate_api
 from boothitemmanager2.bridge import convert_ndjson_to_items
+from boothitemmanager2.db_builder import build_db
+from boothitemmanager2.graph_builder import build_graph
+from boothitemmanager2.search_builder import build_search_index
 from boothitemmanager2.similarity_engine import calculate_similar_items
 
 NDJSON_PATH = "data/raw/index.ndjson"
 
 
-def main():
+def main() -> None:
     if not os.path.exists(NDJSON_PATH):
         print(f"❌ Error: {NDJSON_PATH} not found.")
         return
 
     print(f"🚀 [BRIDGE] Converting bulk data from {NDJSON_PATH}...")
     trace_id = f"bulk_{int(time.time())}"
-
     start_time = time.time()
+
     bridge_block = convert_ndjson_to_items(NDJSON_PATH, f"{trace_id}:bridge")
     items = bridge_block.actual_state["items"]
+    print(f"✅ [BRIDGE] Converted {len(items)} items in {time.time() - start_time:.2f}s")
 
-    elapsed = time.time() - start_time
-    print(f"✅ [BRIDGE] Converted {len(items)} items in {elapsed:.2f}s")
+    print("\n🏗️ [BUILD] Finalizing data layers for bulk dataset...")
 
-    print("\n🏗️ [BUILD] Finalizing Data Layers for bulk dataset...")
-
-    # Similarity Engine
-    print("  - Calculating Item Similarities...")
+    print("  - Calculating item similarities...")
     similarity_block = calculate_similar_items(items, f"{trace_id}:similarity")
     items = similarity_block.actual_state["items"]
 
-    # 3. Build DB
     print("  - Building DB...")
     build_db(items, f"{trace_id}:db")
 
-    # 4. Build Graph
-    print("  - Building Graph (this might take a moment)...")
+    print("  - Building graph...")
     build_graph(items, f"{trace_id}:graph")
 
-    # 5. Build Search Index
-    print("  - Building Search Index...")
+    print("  - Building search index...")
     build_search_index(items, f"{trace_id}:search")
 
-    # 6. Generate Static API
-    print("  - Generating API...")
+    print("  - Detecting explicitly disclosed AI-related tools...")
+    ai_report = write_ai_tool_report(items)
+    print(
+        "    "
+        f"{ai_report['metrics']['candidate_items']} candidate items / "
+        f"{ai_report['metrics']['candidate_shops']} shops"
+    )
+
+    print("  - Generating static API...")
     generate_api(items, {}, f"{trace_id}:api")
 
-    total_elapsed = time.time() - start_time
-    print(f"\n✨ Bulk pipeline complete in {total_elapsed:.2f}s!")
+    print(f"\n✨ Bulk pipeline complete in {time.time() - start_time:.2f}s!")
     print(f"📊 Total items indexed: {len(items)}")
 
 
