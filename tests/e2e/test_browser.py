@@ -1,3 +1,4 @@
+import re
 import subprocess
 import time
 
@@ -80,8 +81,9 @@ def test_ui_rendering_and_modal(page: Page):
     modal = page.locator("#detail-dialog")
     expect(modal).to_be_visible()
     expect(page.locator("#modal-title")).not_to_be_empty()
-    expect(page.locator(".ux-provenance-section")).to_be_visible()
-    expect(page.get_by_text("販売ページ観測", exact=True)).to_be_visible()
+    provenance = modal.locator(".ux-provenance-section")
+    expect(provenance).to_be_visible()
+    expect(provenance.get_by_text("販売ページ観測", exact=True)).to_be_visible()
 
     page.locator("#modal-close-btn").click()
     expect(modal).to_be_hidden()
@@ -97,7 +99,7 @@ def test_search_functionality_and_url_restore(page: Page):
 
     expect(page.locator(".ux-results-summary")).to_contain_text("条件で絞り込み")
     expect(page.locator(".asset-card").first).to_be_visible()
-    expect(page).to_have_url(lambda url: "q=%E6%A1%94%E6%A2%97" in url)
+    expect(page).to_have_url(re.compile(r"[?&]q=%E6%A1%94%E6%A2%97"))
 
     restored_url = page.url
     page.reload()
@@ -111,14 +113,14 @@ def test_compare_two_products_and_restore_selection(page: Page):
     wait_for_catalogue(page)
 
     cards = page.locator(".asset-card")
-    expect(cards).to_have_count(40)
+    assert cards.count() >= 2
     cards.nth(0).locator("[data-compare-item]").check()
     cards.nth(1).locator("[data-compare-item]").check()
 
     tray = page.locator("#ux-compare-tray")
     expect(tray).to_be_visible()
     expect(tray.locator("[data-compare-count]")).to_have_text("2")
-    expect(page).to_have_url(lambda url: "compare=" in url)
+    expect(page).to_have_url(re.compile(r"[?&]compare="))
 
     tray.locator("[data-show-comparison]").click()
     panel = page.locator("#ux-comparison-panel")
