@@ -6,20 +6,31 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-CSS_MARKER = '<link rel="stylesheet" href="comparison.css">'
-JS_MARKER = '<script src="comparison.js"></script>'
+CSS_MARKERS = (
+    '<link rel="stylesheet" href="comparison.css">',
+    '<link rel="stylesheet" href="kafka-signal.css">',
+)
+JS_MARKERS = (
+    '<script src="comparison.js"></script>',
+    '<script src="kafka-signal.js"></script>',
+)
+META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v1.0.0">'
 
 
 def build(source: Path, destination: Path) -> None:
     html = source.read_text(encoding="utf-8")
-    if CSS_MARKER not in html:
-        if "</head>" not in html:
-            raise ValueError("index.html has no closing head element")
-        html = html.replace("</head>", f"    {CSS_MARKER}\n</head>", 1)
-    if JS_MARKER not in html:
-        if "</body>" not in html:
-            raise ValueError("index.html has no closing body element")
-        html = html.replace("</body>", f"    {JS_MARKER}\n</body>", 1)
+    if "</head>" not in html:
+        raise ValueError("index.html has no closing head element")
+    if "</body>" not in html:
+        raise ValueError("index.html has no closing body element")
+    for marker in CSS_MARKERS:
+        if marker not in html:
+            html = html.replace("</head>", f"    {marker}\n</head>", 1)
+    if META_MARKER not in html:
+        html = html.replace("</head>", f"    {META_MARKER}\n</head>", 1)
+    for marker in JS_MARKERS:
+        if marker not in html:
+            html = html.replace("</body>", f"    {marker}\n</body>", 1)
 
     required_runtime_markers = (
         'id="search-bar"',
