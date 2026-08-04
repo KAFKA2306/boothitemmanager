@@ -36,7 +36,8 @@ jobs:
       - name: Build static site
         run: |
           mkdir -p dist
-          cp index.html ai-tools.html dist/
+          python scripts/build_ui.py --source index.html --output dist/index.html
+          cp ai-tools.html comparison.css comparison.js dist/
           mkdir -p dist/api
           if [ -d api ]; then
             cp api/*.json api/*.js dist/api/ 2>/dev/null || true
@@ -46,10 +47,11 @@ jobs:
           fi
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
 
-      - name: Run tests
+      - name: Validate static sources
         run: |
-          source .venv/bin/activate
-          uv run pytest tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
+          python -m py_compile scripts/build_ui.py tests/test_comparison_ui.py
+          node --check comparison.js
+          uv run pytest tests/test_comparison_ui.py tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
