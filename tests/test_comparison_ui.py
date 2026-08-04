@@ -1,10 +1,15 @@
 from __future__ import annotations
 
+import importlib.util
 from pathlib import Path
 
-from scripts.build_ui import build
-
 ROOT = Path(__file__).resolve().parents[1]
+BUILD_UI_PATH = ROOT / "scripts" / "build_ui.py"
+SPEC = importlib.util.spec_from_file_location("boothitemmanager_build_ui", BUILD_UI_PATH)
+assert SPEC is not None and SPEC.loader is not None
+BUILD_UI = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(BUILD_UI)
+build = BUILD_UI.build
 
 
 def test_build_injects_comparison_assets(tmp_path: Path) -> None:
