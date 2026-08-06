@@ -1,0 +1,51 @@
+name: Static API integrity
+
+on:
+  pull_request:
+    paths:
+      - "api/catalog_summary_part*.json"
+      - "scripts/audit_static_api.py"
+      - "tests/test_audit_static_api.py"
+      - ".github/workflows/static-api-integrity.yml"
+  push:
+    branches: [main]
+    paths:
+      - "api/catalog_summary_part*.json"
+      - "scripts/audit_static_api.py"
+      - "tests/test_audit_static_api.py"
+      - ".github/workflows/static-api-integrity.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: static-api-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile
+        run: python -m py_compile scripts/audit_static_api.py tests/test_audit_static_api.py
+      - name: Unit tests
+        run: python -m unittest tests.test_audit_static_api -v
+      - name: Audit published shards
+        run: |
+          python scripts/audit_static_api.py api \
+            --report build/static-api-audit.json \
+            --max-bytes 4500000
+      - name: Upload deterministic audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-api-audit
+          path: build/static-api-audit.json
+          if-no-files-found: error
+          retention-days: 30
