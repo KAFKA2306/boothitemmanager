@@ -5,14 +5,22 @@ on:
     paths:
       - "api/catalog_summary_part*.json"
       - "scripts/audit_static_api.py"
+      - "scripts/build_static_distribution.py"
       - "tests/test_audit_static_api.py"
+      - "tests/test_build_static_distribution.py"
+      - "build_static.sh"
+      - "docs/data-api.md"
       - ".github/workflows/static-api-integrity.yml"
   push:
     branches: [main]
     paths:
       - "api/catalog_summary_part*.json"
       - "scripts/audit_static_api.py"
+      - "scripts/build_static_distribution.py"
       - "tests/test_audit_static_api.py"
+      - "tests/test_build_static_distribution.py"
+      - "build_static.sh"
+      - "docs/data-api.md"
       - ".github/workflows/static-api-integrity.yml"
   workflow_dispatch:
 
@@ -26,26 +34,91 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Compile
-        run: python -m py_compile scripts/audit_static_api.py tests/test_audit_static_api.py
+        run: |
+          python -m py_compile \
+            scripts/audit_static_api.py \
+            scripts/build_static_distribution.py \
+            tests/test_audit_static_api.py \
+            tests/test_build_static_distribution.py
       - name: Unit tests
-        run: python -m unittest tests.test_audit_static_api -v
+        run: |
+          python -m unittest \
+            tests.test_audit_static_api \
+            tests.test_build_static_distribution -v
       - name: Audit published shards
         run: |
           python scripts/audit_static_api.py api \
             --report build/static-api-audit.json \
             --max-bytes 4500000
+      - name: Build v1 distribution
+        run: |
+          rm -rf build/api-v1
+          python scripts/build_static_distribution.py \
+            --api-dir api \
+            --output-dir build/api-v1
+      - name: Smoke test distribution
+        run: |
+          python - <<'PY'
+          import csv
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path('build/api-v1')
+          manifest = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
+          shards = json.loads((root / 'shards.json').read_text(encoding='utf-8'))
+          facets = json.loads((root / 'facets.json').read_text(encoding='utf-8'))
+          profile = json.loads((root / 'schema-profile.json').read_text(encoding='utf-8'))
+
+          assert manifest['record_count'] == shards['record_count'] == facets['record_count'] == profile['record_count']
+          assert manifest['shard_count'] == shards['shard_count']
+          assert manifest['unique_stable_id_count'] + manifest['records_without_stable_id'] == manifest['record_count']
+          assert manifest['record_count'] > 0
+          assert manifest['shard_count'] > 0
+
+          for item in manifest['files']:
+              path = root / Path(item['path']).name
+              assert path.stat().st_size == item['bytes']
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              assert digest == item['sha256']
+
+          print(json.dumps({
+              'records': manifest['record_count'],
+              'unique_ids': manifest['unique_stable_id_count'],
+              'records_without_stable_id': manifest['records_without_stable_id'],
+              'shards': manifest['shard_count'],
+              'facet_sizes': {k: len(v) for k, v in facets['facets'].items()},
+              'schema_fields': len(profile['fields']),
+          }, ensure_ascii=False, sort_keys=True))
+          PY
+      - name: Build Cloudflare Pages payload
+        run: bash build_static.sh
+      - name: Verify deployed payload contains v1 API
+        run: |
+          test -f dist/api/v1/manifest.json
+          test -f dist/api/v1/shards.json
+          test -f dist/api/v1/facets.json
+          test -f dist/api/v1/schema-profile.json
+          test -f dist/proof.json
       - name: Upload deterministic audit report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: static-api-audit
           path: build/static-api-audit.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Upload v1 static API distribution
+        uses: actions/upload-artifact@v4
+        with:
+          name: boothitemmanager-api-v1
+          path: build/api-v1/
           if-no-files-found: error
           retention-days: 30
