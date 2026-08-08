@@ -7,9 +7,11 @@ import argparse
 from pathlib import Path
 
 CSS_MARKERS = (
+    '<link rel="stylesheet" href="catalog-ux.css">',
     '<link rel="stylesheet" href="kafka-signal.css">',
 )
 JS_MARKERS = (
+    '<script src="catalog-ux.js"></script>',
     '<script src="kafka-signal.js"></script>',
 )
 META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v1.0.0">'
