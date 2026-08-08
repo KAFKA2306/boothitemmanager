@@ -117,6 +117,8 @@ def test_removed_comparison_and_evidence_controls_are_absent(page: Page):
     expect(page.locator("#ux-comparison-panel")).to_have_count(0)
     expect(page.locator(".asset-provenance")).to_have_count(0)
     expect(page.locator(".ux-provenance-section")).to_have_count(0)
+    expect(page.locator(".why-shown")).to_have_count(0)
+    expect(page.get_by_text("この商品が表示された理由", exact=True)).to_have_count(0)
     assert "compare=" not in page.url
 
 
