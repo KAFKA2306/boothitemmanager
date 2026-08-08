@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public catalogue HTML with the 2026 UI enhancement layer."""
+"""Build the public catalogue HTML with the retained UI assets."""
 
 from __future__ import annotations
 
@@ -7,11 +7,9 @@ import argparse
 from pathlib import Path
 
 CSS_MARKERS = (
-    '<link rel="stylesheet" href="comparison.css">',
     '<link rel="stylesheet" href="kafka-signal.css">',
 )
 JS_MARKERS = (
-    '<script src="comparison.js"></script>',
     '<script src="kafka-signal.js"></script>',
 )
 META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v1.0.0">'
@@ -55,7 +53,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=Path("dist/index.html"))
     args = parser.parse_args()
     build(args.source, args.output)
-    print(f"Built enhanced catalogue: {args.output}")
+    print(f"Built catalogue: {args.output}")
     return 0
 
 
