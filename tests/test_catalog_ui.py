@@ -71,3 +71,13 @@ def test_catalog_css_keeps_responsive_ux_without_removed_ui() -> None:
         ".asset-compare",
     ):
         assert removed not in css
+
+
+def test_why_shown_panel_is_not_generated_or_styled() -> None:
+    script = (ROOT / "kafka-signal.js").read_text(encoding="utf-8")
+    css = (ROOT / "kafka-signal.css").read_text(encoding="utf-8")
+
+    assert "why-shown" not in script
+    assert "この商品が表示された理由" not in script
+    assert "現在の検索・カテゴリ・タグ条件に一致したため表示しています" not in script
+    assert ".why-shown" not in css
