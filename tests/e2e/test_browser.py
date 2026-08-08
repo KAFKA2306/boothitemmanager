@@ -75,15 +75,14 @@ def test_ui_rendering_and_modal(page: Page):
 
     first_card = page.locator(".asset-card").first
     expect(first_card).to_be_visible()
-    expect(first_card.locator(".asset-provenance")).to_be_visible()
-    first_card.locator("[data-open-detail]").click()
+    expect(first_card.locator("[data-open-detail]")).to_have_count(0)
+    expect(first_card.locator("[data-compare-item]")).to_have_count(0)
+    first_card.click()
 
     modal = page.locator("#detail-dialog")
     expect(modal).to_be_visible()
     expect(page.locator("#modal-title")).not_to_be_empty()
-    provenance = modal.locator(".ux-provenance-section")
-    expect(provenance).to_be_visible()
-    expect(provenance.get_by_text("販売ページ観測", exact=True)).to_be_visible()
+    expect(modal.locator(".ux-provenance-section")).to_have_count(0)
 
     page.locator("#modal-close-btn").click()
     expect(modal).to_be_hidden()
@@ -108,32 +107,17 @@ def test_search_functionality_and_url_restore(page: Page):
     assert page.url == restored_url
 
 
-def test_compare_two_products_and_restore_selection(page: Page):
+def test_removed_comparison_and_evidence_controls_are_absent(page: Page):
     page.goto("http://localhost:8080/")
     wait_for_catalogue(page)
 
-    cards = page.locator(".asset-card")
-    assert cards.count() >= 2
-    cards.nth(0).locator("[data-compare-item]").check()
-    cards.nth(1).locator("[data-compare-item]").check()
-
-    tray = page.locator("#ux-compare-tray")
-    expect(tray).to_be_visible()
-    expect(tray.locator("[data-compare-count]")).to_have_text("2")
-    expect(page).to_have_url(re.compile(r"[?&]compare="))
-
-    tray.locator("[data-show-comparison]").click()
-    panel = page.locator("#ux-comparison-panel")
-    expect(panel).to_be_visible()
-    expect(panel.locator(".ux-comparison-table")).to_be_attached()
-    expect(panel).to_contain_text("明示対応")
-    expect(panel).to_contain_text("正規化タグ")
-
-    compare_url = page.url
-    page.reload()
-    wait_for_catalogue(page)
-    expect(page.locator("#ux-compare-tray [data-compare-count]")).to_have_text("2")
-    assert page.url == compare_url
+    expect(page.locator("[data-compare-item]")).to_have_count(0)
+    expect(page.locator("[data-open-detail]")).to_have_count(0)
+    expect(page.locator("#ux-compare-tray")).to_have_count(0)
+    expect(page.locator("#ux-comparison-panel")).to_have_count(0)
+    expect(page.locator(".asset-provenance")).to_have_count(0)
+    expect(page.locator(".ux-provenance-section")).to_have_count(0)
+    assert "compare=" not in page.url
 
 
 def test_mobile_filter_dialog(page: Page):
