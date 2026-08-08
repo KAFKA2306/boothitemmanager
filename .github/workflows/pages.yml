@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p dist
           python scripts/build_ui.py --source index.html --output dist/index.html
-          cp ai-tools.html comparison.css comparison.js dist/
+          cp ai-tools.html kafka-signal.css kafka-signal.js dist/
           mkdir -p dist/api
           if [ -d api ]; then
             cp api/*.json api/*.js dist/api/ 2>/dev/null || true
@@ -49,9 +49,9 @@ jobs:
 
       - name: Validate static sources
         run: |
-          python -m py_compile scripts/build_ui.py tests/test_comparison_ui.py
-          node --check comparison.js
-          uv run pytest tests/test_comparison_ui.py tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
+          python -m py_compile scripts/build_ui.py
+          node --check kafka-signal.js
+          uv run pytest tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
