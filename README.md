@@ -1,14 +1,18 @@
-# BoothItemManager2 — VRChat向けBOOTH商品検索基盤
+# BoothItemManager2
+
+**BOOTHで欲しい衣装を見つけても、「自分のアバターで使えるか」まで同じ書き方では分からない。**
+
+対応アバター、価格、利用条件、カテゴリは販売者ごとに表記が違います。商品タイトルや自動生成タグだけを見て互換性や許諾を決めると、販売者が明示していないことまで事実として扱ってしまいます。
+
+BoothItemManager2は、BOOTH上で公開されているVRChat向けアセット情報を、販売者の記載とシステムの派生情報を分けたまま検索・比較できる静的ダッシュボードです。その意味を示した後で、正規化、類似度、AEO、GEOなどの技術を使います。
+
+READMEの入口は [`KAFKA2306/articles#34`](https://github.com/KAFKA2306/articles/issues/34) の「広い問題 → 具体例 → 技術」の編集原則を維持します。対応アバターや利用許諾をタイトルや派生タグから推測せず、根拠不足は `UNKNOWN` / `quarantine` として扱います。
 
 **GitHub Pages:** https://kafka2306.github.io/boothitemmanager/
 
 **Cloudflare Pages:** https://boothitemmanager.pages.dev/
 
 **AI関連ツール証拠リンク集:** https://boothitemmanager.pages.dev/ai-tools.html
-
-BOOTH上で公開されているVRChat向けアセット情報を収集・正規化し、衣装、アバター、アクセサリー、ギミックなどを検索・閲覧する静的ダッシュボードです。
-
-販売者の記載内容と、システムが生成したタグ・分類・類似度を分けて保持し、タイトルだけから対応アバターや利用許諾を推測しません。
 
 ## 主な機能
 
@@ -122,4 +126,4 @@ llms.txt                 エージェント向け入口
 - AI関連候補は販売ページの明示情報の索引であり、他商品の制作方法を断定しません
 - 商品画像、名称、説明文などの権利は各権利者に帰属します
 
-**README最終監査:** 2026-08-08
+**README最終監査:** 2026-08-13
