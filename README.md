@@ -1,93 +1,138 @@
 # BoothItemManager2
 
-**BOOTHで欲しい衣装を見つけても、「自分のアバターで使えるか」まで同じ書き方では分からない。**
+**BOOTHで欲しい衣装を見つけても、「自分のアバターで使えるか」は商品タイトルだけでは分からない。**
 
-対応アバター、価格、利用条件、カテゴリは販売者ごとに表記が違います。商品タイトルや自動生成タグだけを見て互換性や許諾を決めると、販売者が明示していないことまで事実として扱ってしまいます。
+対応アバター、価格、利用条件、カテゴリは販売者ごとに書き方が違います。派生タグや商品名から互換性・許諾を推測すると、販売者が一度も明示していないことまで「対応済み」に見えてしまいます。
 
-BoothItemManager2は、BOOTH上で公開されているVRChat向けアセット情報を、販売者の記載とシステムの派生情報を分けたまま検索・比較できる静的ダッシュボードです。正規化、類似度、AEO、GEOなどを使いながら、対応アバターや利用許諾をタイトルや派生タグから推測せず、根拠不足は`UNKNOWN` / `quarantine`として扱います。
+BoothItemManager2 は、VRChat向けBOOTH商品を **販売者が明示した事実と、システムが導出した検索情報を分けたまま探し・比較する** 静的dashboardです。
 
-**GitHub Pages:** https://kafka2306.github.io/boothitemmanager/
+- Cloudflare Pages: https://boothitemmanager.pages.dev/
+- GitHub Pages: https://kafka2306.github.io/boothitemmanager/
+- AI tools evidence index: https://boothitemmanager.pages.dev/ai-tools.html
 
-**Cloudflare Pages:** https://boothitemmanager.pages.dev/
+## Vision
 
-**AI関連ツール証拠リンク集:** https://boothitemmanager.pages.dev/ai-tools.html
+「気になる商品を見つける」から、**買う前に“自分に使える根拠があるか”まで確認できる商品探索**へ変えます。
 
-## 主な機能
+利用者が判断したいこと:
 
-- 公開商品情報の収集と正規化
-- 商品名、販売者、カテゴリ、価格、対応アバターなどの検索
-- タグ、色、スタイル、機能による絞り込み
-- 人気度に応じたフィルター順序
-- 商品詳細と販売者ページへの移動
-- 商品間の類似度・新規性の計算
-- 対応アバター名の正規化
-- 重複、根拠不足、分類矛盾の監査
-- 販売ページの明示情報に基づくAI関連ツール候補の抽出
-- 大規模データを分割した静的API生成
-- AEO / GEO向け構造化情報と検索エンジン監査
+- 自分のavatarへの対応が販売ページに明示されているか
+- 価格・カテゴリ・販売者を比較できるか
+- 似た商品だけでなく別の選択肢も見つかるか
+- 利用条件をどこまで確認できたか
+- AI関連という分類は販売者自身の説明に基づくか
+- 根拠不足ならUNKNOWNとして見分けられるか
 
-## AI関連ツール候補の扱い
+## Design philosophy
 
-AI関連候補は、販売者が商品名・説明・タグで明示した肯定的な証拠だけを使います。
+- **Seller evidence before inference.** 対応avatar・利用条件・AI関連性をtitleや派生tagだけで確定しない。
+- **Observed and derived stay separate.** 販売者記載、BOOTH観測値、正規化tag、similarity scoreを別種の情報として保持する。
+- **Unknown is safer than confident fiction.** 根拠不足・矛盾は`UNKNOWN` / `quarantine`へ送る。
+- **No shop-wide propagation.** 1商品がAI関連でも、同一shopの他商品へ判定を伝播しない。
+- **Diversity matters.** similarityだけで同質候補を並べず、noveltyを使って探索幅を残す。
+- **Static distribution must stay bounded.** Pagesのfile/size制約を超えないよう大規模dataを分割し、壊れたartifactをpublishしない。
+- **Latest seller page wins.** dashboardは発見・比較を助けるが、価格・在庫・規約の最終確認は販売ページで行う。
 
-- `AI_TOOL`: AIアシスタントなど、商品自体がAI機能を提供
-- `AI_SERVICE_INTEGRATION`: ChatGPT、Gemini、GPTなどのサービス・モデル連携
-- `AI_GENERATED_COMPONENTS`: 販売者がAI生成物の含有を開示
-- `AI_ASSISTED_CREATION`: 販売者がAI支援での作成・開発を開示
+## Why / 差別化
 
-「AI学習禁止」という規約文だけの商品や、「自動生成」という通常の自動化だけの商品は候補にしません。ショップ内に候補商品があっても、同じショップの衣装・アバター・素材へ判定を伝播させません。
+一般的な商品検索は「キーワードが一致するか」「似ているか」を中心にします。BoothItemManager2 は、**検索結果の横に“何が観測事実で、何が派生情報で、何がまだ分からないか”を残すこと**を中心にします。
 
-## データ処理の流れ
+AEO / GEO、ontology、similarity、static APIは価値そのものではありません。これらは、販売者が書いていない互換性や制作方法をシステムが勝手に事実化しないための手段です。
+
+## User journey
 
 ```text
-販売者が公開した出品情報
-  → 商品・販売者を同定
-  → 原文フィールドを保存
-  → 表記・カテゴリ・タグを正規化
-  → 類似度・新規性・AI関連の明示証拠を計算
-  → 重複・互換性・権利状態を監査
-  → 静的APIと検索画面を生成
-  → GitHub Pages / Cloudflare Pagesへ公開
+欲しいカテゴリ / avatar / styleを探す
+  → 候補を絞る
+  → seller-stated compatibilityを見る
+  → derived tags / similarityを補助情報として使う
+  → UNKNOWN / conflictを確認する
+  → BOOTH商品ページへ移動
+  → 最新価格・規約・対応条件を最終確認
 ```
 
-## 情報の区分
+## What you can do
 
-- 販売者が記載した事実
-- BOOTH上で観測した価格・評価・公開日時
-- 正規化したカテゴリ・色・スタイル
-- システムが生成した派生タグ
-- 対応アバターの明示的な記載
-- ライセンス・利用条件の観測
-- 類似度・新規性などの計算値
+- 商品名 / 販売者 / カテゴリ / 価格で検索
+- 明示対応avatarで絞り込み
+- tag / color / style / featureで探索
+- 人気度に応じたfilter ordering
+- 類似度 + noveltyで関連商品探索
+- duplicate / evidence gap / classification conflict監査
+- seller evidenceに基づくAI-related tool候補抽出
+- static API再利用
+- AEO / GEO向け構造化情報生成
 
-根拠が不足または矛盾する項目は、推測で埋めず`UNKNOWN`または`quarantine`として扱います。
+## Evidence model
 
-## 設計上の特徴
+```text
+seller public listing
+  → observed fields
+  → normalization
+  → derived category / tag / similarity
+  → compatibility / license evidence audit
+  → UNKNOWN / quarantine / publishable
+  → static API / search UI
+```
 
-### Zero-Fat Architecture
+情報種別:
 
-生成物を必要最小限に保ち、Cloudflare Pagesなどのファイル数・サイズ制約に対応します。大きな検索インデックスや詳細データは分割して配信します。
+- seller-stated fact
+- BOOTH observed value
+- normalized vocabulary
+- derived tag
+- explicit avatar compatibility
+- observed license/usage condition
+- calculated similarity / novelty
 
-### Evolving Ontology Loop
+これらを一つの「商品属性」へ潰しません。
 
-元の出品情報を保持したまま、正規タグ、カテゴリ、スタイル語彙を監査・更新します。低品質な数値タグ、汎用語、誤ったアバター名を自動的に正規語彙へ昇格させません。
+## AI-related tool evidence
 
-### Fail-Fast Validation
+AI-related候補は肯定的なseller evidenceがある場合だけ付与します。
 
-破損JSON、欠損フィールド、カテゴリ不整合、配信制約超過を検知した場合、黙って不完全なサイトを公開しません。
+- `AI_TOOL`
+- `AI_SERVICE_INTEGRATION`
+- `AI_GENERATED_COMPONENTS`
+- `AI_ASSISTED_CREATION`
 
-### Novelty-Aware Similarity
+`AI学習禁止`という規約だけ、通常の`自動生成`という語だけではAI関連商品と判定しません。
 
-単に似た商品を並べるだけでなく、同質な候補の集中を抑え、多様性と新規性を考慮します。
+shop内の1商品から他商品へ判定を伝播しません。
 
-## 必要環境
+## Evolving ontology
 
-- Python 3.12以上
+元listingを保持したまま、category / style / avatar / tag vocabularyを改善します。
+
+- 数字だけの低品質tag
+- 汎用語
+- 誤ったavatar名
+- seller evidenceのない互換性
+
+をcanonical vocabularyへ自動昇格しません。
+
+## Distribution / Zero-Fat boundary
+
+大規模datasetをPages制約へ収めるため、検索index・詳細data・APIを必要な単位へ分割します。
+
+fail-fastする代表例:
+
+- broken JSON
+- required field欠損
+- category contradiction
+- distribution size/file limit違反
+- evidence contract違反
+
+不完全なsiteを「buildできた」だけで公開しません。
+
+## Quick start
+
+必要環境:
+
+- Python 3.12+
 - `uv`
 - `go-task`
 - Playwright Chromium
-
-## ローカル実行
 
 ```bash
 uv sync
@@ -97,29 +142,36 @@ task check
 task serve
 ```
 
-## 主な構成
+## Repository map
 
 ```text
-src/boothitemmanager2/  収集・正規化・検索データ生成
-ontology/               タグ・スタイル語彙と意味モデル
-docs/                   仕様・ADR・監査記録
-api/                    生成された静的API
-dist/                   公開ダッシュボード
-AGENTS.md                開発・監査ルール
-llms.txt                 エージェント向け入口
+src/boothitemmanager2/  collect / normalize / build
+ontology/               controlled vocabulary / semantics
+docs/                   specs / ADR / audit
+api/                    generated static API
+dist/                   public dashboard
+AGENTS.md                agent/development contract
+llms.txt                 agent-facing index
 ```
 
-機械可読な定義:
+Machine-readable contracts:
 
-- [プロジェクト・オントロジー](ontology/project.yaml)
-- [共通因果・証拠オントロジー](https://github.com/KAFKA2306/know/blob/main/ontology/causal-evidence-core.yaml)
-- [開発ガイド](AGENTS.md)
-- [エージェント向け索引](llms.txt)
+- [Project ontology](ontology/project.yaml)
+- [Causal/evidence core](https://github.com/KAFKA2306/know/blob/main/ontology/causal-evidence-core.yaml)
+- [AGENTS.md](AGENTS.md)
+- [llms.txt](llms.txt)
 
-## 注意
+## Limits
 
-- 本プロジェクトはBOOTH公式または各販売者によるものではありません
-- 商品価格、在庫、説明、利用規約は販売ページの最新情報を優先してください
-- 対応アバターや改変可否を、派生タグだけで判断しないでください
-- AI関連候補は販売ページの明示情報の索引であり、他商品の制作方法を断定しません
-- 商品画像、名称、説明文などの権利は各権利者に帰属します
+- BOOTH公式projectではない
+- price / stock / description / termsは変更される
+- seller pageの最新情報を優先する
+- derived tagだけでavatar compatibilityや改変可否を判断しない
+- AI candidate indexはseller-stated evidenceの索引であり、他商品の制作方法を断定しない
+- 商品画像・名称・説明等の権利は各権利者に帰属する
+
+## Done
+
+成功指標は収録商品数やtag数ではありません。
+
+**利用者が気になる商品を見つけたあと、購入前に「何が販売者の明示情報で、何がシステムの補助推定で、何がまだ不明か」を区別して判断できること**をDoneとします。
