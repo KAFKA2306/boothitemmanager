@@ -30,7 +30,7 @@ jobs:
           pip install uv
           uv venv
           source .venv/bin/activate
-          uv pip install pytest pytest-playwright pytest-asyncio requests pydantic
+          uv pip install pytest pytest-playwright pytest-asyncio requests pydantic pyyaml
           uv run playwright install --with-deps chromium
 
       - name: Build static site
@@ -46,6 +46,26 @@ jobs:
             cp -r api/details dist/api/
           fi
           echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
+
+      - name: Validate ontology tags
+        run: |
+          uv run python - <<'PY'
+          import re
+          import yaml
+
+          with open("ontology/tags.yaml", encoding="utf-8") as file:
+              data = yaml.safe_load(file)
+
+          pattern = re.compile(r"^[0-9]+(アバター|avatars|avatar|人|モデル)", re.I)
+          failures = []
+          for section, tags in data.items():
+              if not isinstance(tags, dict):
+                  continue
+              failures.extend(f"{section}/{tag}" for tag in tags if pattern.match(tag))
+
+          if failures:
+              raise SystemExit(f"numeric compatibility-style tags are not allowed: {failures}")
+          PY
 
       - name: Validate static sources
         run: |
