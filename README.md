@@ -2,7 +2,6 @@
 
 [![Build, Test and Deploy](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml)
 [![Static API integrity](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/static-api-integrity.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/static-api-integrity.yml)
-[![Agent Verification Harness](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/agent_verification.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/agent_verification.yml)
 
 **BOOTHで欲しい衣装を見つけても、「自分のアバターで使えるか」は商品タイトルだけでは分からない。**
 
@@ -115,7 +114,7 @@ shop内の1商品から他商品へ判定を伝播しません。
 
 をcanonical vocabularyへ自動昇格しません。
 
-## Distribution / Zero-Fat boundary
+## Distribution limits
 
 大規模datasetをPages制約へ収めるため、検索index・詳細data・APIを必要な単位へ分割します。
 
