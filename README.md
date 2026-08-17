@@ -1,5 +1,9 @@
 # BoothItemManager2
 
+[![Build, Test and Deploy](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml)
+[![Static API integrity](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/static-api-integrity.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/static-api-integrity.yml)
+[![Agent Verification Harness](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/agent_verification.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/agent_verification.yml)
+
 **BOOTHで欲しい衣装を見つけても、「自分のアバターで使えるか」は商品タイトルだけでは分からない。**
 
 対応アバター、価格、利用条件、カテゴリは販売者ごとに書き方が違います。派生タグや商品名から互換性・許諾を推測すると、販売者が一度も明示していないことまで「対応済み」に見えてしまいます。
