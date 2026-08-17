@@ -12,6 +12,17 @@
     return allItems.find(item => itemId(item) === String(id));
   }
 
+  function matchesSelectedAvatar(item) {
+    if (!filters.avatar) return true;
+    const avatar = metaAvatars.find(value => value.code === filters.avatar);
+    const accepted = new Set([filters.avatar, avatar?.name].filter(Boolean).map(value => String(value).toLowerCase()));
+    const targets = item.compatible_avatars || item.targets || [];
+    return targets.some(target => {
+      const value = typeof target === 'string' ? target : (target.name || target.code || '');
+      return accepted.has(String(value).toLowerCase());
+    });
+  }
+
   function addSkipLink() {
     if (document.querySelector('.ux-skip-link')) return;
     const link = document.createElement('a');
@@ -260,6 +271,18 @@
       originalRenderStaticFilters();
       enhanceFilterPills();
       syncControlsFromFilters();
+    };
+
+    const originalApplyFilters = applyFilters;
+    applyFilters = function wrappedApplyFilters() {
+      originalApplyFilters();
+      if (!filters.avatar) return;
+      const matched = filtered.filter(matchesSelectedAvatar);
+      if (matched.length === filtered.length) return;
+      filtered = matched;
+      displayedCount = 40;
+      renderGrid();
+      renderChips();
     };
   }
 
