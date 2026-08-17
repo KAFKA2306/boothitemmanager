@@ -50,6 +50,17 @@ def test_catalog_script_keeps_neutral_ux_only() -> None:
         assert removed not in script
 
 
+def test_avatar_filter_uses_compatibility_targets_not_general_tags() -> None:
+    script = (ROOT / "catalog-ux.js").read_text(encoding="utf-8")
+    start = script.index("function matchesSelectedAvatar(item)")
+    end = script.index("\n  function addSkipLink()", start)
+    helper = script[start:end]
+
+    assert "item.compatible_avatars || item.targets || []" in helper
+    assert "item.tags" not in helper
+    assert "filtered.filter(matchesSelectedAvatar)" in script
+
+
 def test_catalog_css_keeps_responsive_ux_without_removed_ui() -> None:
     css = (ROOT / "catalog-ux.css").read_text(encoding="utf-8")
     for marker in (
