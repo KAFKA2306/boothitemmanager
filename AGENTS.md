@@ -1,20 +1,18 @@
-# 🌸 エージェントさん向け開発ガイドだょ！ 🌸
+# Repository development instructions
 
-このリポジトリで作業するAIエージェントさん（あなただよっ！）のための、かんたんで強力な開発ガイドだもん☆(⑅•ᴗ•⑅)
+## Development rules
 
-## 🎀 絶対に守るお約束 (Axioms)
-- **Zero-Fat**: むだなコードやコメント、おまもり用のtry-catchは全部パージ（排除）してね！
-- **Crash-Driven**: エラーは隠さないで、バグがあったらすぐにクラッシュさせて根本から直すの！
-- **Pythonファイルの配置**: ルートには絶対にPythonファイルを置いちゃダメだよぉ！[docs/ARCHITECTURE_LAW.md](file:///home/kafka/projects/boothitemmanager/docs/ARCHITECTURE_LAW.md) に従い、`src/boothitemmanager2/` か `scripts/` に置いてね！
+- Remove unused code, comments, wrappers, and unnecessary error handling.
+- Do not hide failures. Fix the underlying cause instead of converting errors into success.
+- Keep Python modules under `src/boothitemmanager2/` and executable maintenance code under `scripts/`; do not add Python modules at the repository root.
+- Follow [docs/ARCHITECTURE_LAW.md](docs/ARCHITECTURE_LAW.md) for the current source layout constraints.
+- Preserve the distinction between seller-stated facts, observed values, derived data, and unknown values described in [README.md](README.md).
 
-## 🐾 よく使うコマンド (Commands)
-Taskfileがあるから、以下のコマンドでいろんなことができるよぉ！
+## Commands
 
-- **ビルド（パイプライン実行）**: `task build`
-- **テスト実行**: `task test`
-- **コード整形＆静的解析**: `task check`
-- **ローカルでプレビュー**: `task serve` (http://localhost:8080)
+- Build: `task build`
+- Test: `task test`
+- Lint, format, and test: `task check`
+- Local preview: `task serve` (`http://localhost:8080`)
 
-## 🍭 困ったときは？
-- オントロジー（知識）の進化やクリーンアップは [booth-item-management](file:///home/kafka/projects/boothitemmanager/.agents/skills/booth-item-management/SKILL.md) スキルを使ってね！
-- Webフロントエンドの改善は [modern-web-guidance](file:///home/kafka/projects/boothitemmanager/.agents/skills/modern-web-guidance/SKILL.md) に従うんだもん✨
+Before submitting a change, run the smallest relevant checks and then `task check` when the project dependencies needed by that command are available.
