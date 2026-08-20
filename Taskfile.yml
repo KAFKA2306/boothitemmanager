@@ -1,6 +1,21 @@
 version: '3'
 
 tasks:
+  bootstrap:
+    desc: Install the exact locked Python environment
+    cmds:
+      - uv sync --locked
+
+  check:
+    desc: Run the non-mutating fast quality gate used by prek and CI
+    cmds:
+      - uv run --locked python scripts/check.py
+
+  format:
+    desc: Apply Ruff formatting explicitly
+    cmds:
+      - uv run --locked ruff format src scripts tests
+
   build:
     desc: Build the published dashboard from the checked-in static API
     cmds:
@@ -14,14 +29,14 @@ tasks:
   refresh:
     desc: Re-observe a bounded BOOTH slice and update material catalogue changes
     cmds:
-      - python3 scripts/refresh_catalog.py --api-dir api --interval-minutes 15
-      - python3 scripts/audit_static_api.py api --report build/static-api-refresh-audit.json --max-bytes 4500000
+      - uv run --locked python scripts/refresh_catalog.py --api-dir api --interval-minutes 15
+      - uv run --locked python scripts/audit_static_api.py api --report build/static-api-refresh-audit.json --max-bytes 4500000
 
   rebuild-data:
     desc: Rebuild derived data from data/raw/index.ndjson when that source dataset is present
     cmds:
       - test -f data/raw/index.ndjson
-      - uv run python3 scripts/run_bulk_pipeline.py
+      - uv run --locked python scripts/run_bulk_pipeline.py
 
   serve:
     desc: Serve the generated site
@@ -32,7 +47,7 @@ tasks:
   mcp-serve:
     desc: Start the Model Context Protocol server for catalogue and SEO metadata
     cmds:
-      - uv run python3 scripts/mcp_seo_server.py
+      - uv run --locked python scripts/mcp_seo_server.py
 
   clean:
     desc: Clean build artifacts
@@ -43,24 +58,3 @@ tasks:
     desc: Clean metadata cache
     cmds:
       - rm -f booth_item_cache.json
-
-  lint:
-    desc: Lint code
-    cmds:
-      - uv run ruff check src
-
-  format:
-    desc: Format code
-    cmds:
-      - uv run ruff format src
-
-  test:
-    desc: Run tests
-    cmds:
-      - uv run pytest
-
-  check:
-    desc: Run lint, format, and tests
-    deps: [lint, format]
-    cmds:
-      - task: test

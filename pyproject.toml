@@ -8,11 +8,18 @@ dependencies = [
     "beautifulsoup4>=4.14.3",
     "jsonschema>=4.26.0",
     "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "prek",
+    "pyrefly",
     "pytest>=9.0.3",
     "pytest-asyncio>=1.4.0",
     "pytest-playwright>=0.8.0",
-    "pyyaml>=6.0.3",
-    "requests>=2.32.5",
+    "ruff",
 ]
 
 [tool.ruff]
@@ -26,3 +33,13 @@ ignore = ["D", "E501"]
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+
+[tool.pyrefly]
+project-includes = [
+    "src/boothitemmanager2/freshness.py",
+    "src/boothitemmanager2/crawler.py",
+    "scripts/build_ui.py",
+    "scripts/build_proof.py",
+]
+search-path = ["src"]
+python-version = "3.12"

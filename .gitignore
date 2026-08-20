@@ -21,6 +21,9 @@
 !data/graph/nodes.json
 !data/graph/edges.json
 !pyproject.toml
+!uv.lock
+!.python-version
+!prek.toml
 !README.md
 !CLAUDE.md
 !Taskfile.yml
@@ -46,6 +49,7 @@
 !scripts/build_ui.py
 !scripts/build_proof.py
 !scripts/refresh_catalog.py
+!scripts/check.py
 !llms.txt
 !AGENTS.md
 
