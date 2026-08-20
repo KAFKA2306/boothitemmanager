@@ -25,6 +25,36 @@ def test_build_injects_catalog_assets_without_removed_controls(tmp_path: Path) -
     assert html.count("catalog-ux.js") == 1
 
 
+def test_build_enforces_kafka_palette_and_cascade(tmp_path: Path) -> None:
+    output = tmp_path / "index.html"
+    build(ROOT / "index.html", output)
+    html = output.read_text(encoding="utf-8")
+    lower = html.lower()
+
+    for forbidden in (
+        "#00f0ff",
+        "#ff007a",
+        "#9d00ff",
+        "rgba(0, 240, 255",
+        "rgba(255, 0, 122",
+    ):
+        assert forbidden not in lower
+    assert '<meta name="theme-color" content="#F6F7FB">' in html
+    assert "--accent: var(--ks-blue)" in html
+    assert html.rfind("kafka-signal.css") > html.rfind("</style>")
+
+
+def test_kafka_theme_is_single_palette_contract() -> None:
+    css = (ROOT / "kafka-signal.css").read_text(encoding="utf-8")
+    for token in ("#F6F7FB", "#39445A", "#8D97AA", "#9CC8EB", "#C9B9E8", "#EBC5CF"):
+        assert token in css
+    for forbidden in ("#00f0ff", "#ff007a", "#9d00ff"):
+        assert forbidden not in css.lower()
+    assert ".logo-icon" in css and "box-shadow: none !important" in css
+    assert ":focus-visible" in css
+    assert "prefers-reduced-motion" in css
+
+
 def test_catalog_script_keeps_neutral_ux_only() -> None:
     script = (ROOT / "catalog-ux.js").read_text(encoding="utf-8")
     for marker in (

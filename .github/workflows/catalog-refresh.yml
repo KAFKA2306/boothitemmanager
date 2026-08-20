@@ -1,0 +1,93 @@
+name: Catalog refresh
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: booth-catalog-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MAX_KNOWN_PER_RUN: "120"
+      MAX_NEW_PER_RUN: "30"
+      BOOTH_REQUEST_INTERVAL_SECONDS: "1.25"
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install refresh dependencies
+        run: |
+          python -m pip install --disable-pip-version-check beautifulsoup4 requests pytest
+
+      - name: Validate refresh implementation
+        run: |
+          python -m py_compile \
+            src/boothitemmanager2/freshness.py \
+            src/boothitemmanager2/crawler.py \
+            scripts/refresh_catalog.py \
+            tests/test_freshness.py \
+            tests/test_refresh_catalog.py \
+            tests/test_crawler_cache.py
+          pytest tests/test_freshness.py tests/test_refresh_catalog.py tests/test_crawler_cache.py -q
+
+      - name: Observe bounded BOOTH slice
+        run: |
+          mkdir -p build
+          python scripts/refresh_catalog.py \
+            --api-dir api \
+            --interval-minutes 15 \
+            --report build/refresh-report.json
+
+      - name: Audit candidate static API
+        run: |
+          python scripts/audit_static_api.py api \
+            --report build/static-api-refresh-audit.json \
+            --max-bytes 4500000
+
+      - name: Detect material catalogue change
+        id: diff
+        run: |
+          if git diff --quiet -- api/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No material catalogue change; no commit and no deploy."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- api/
+          fi
+
+      - name: Commit validated catalogue change
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/
+          git commit -m "chore(catalog): refresh BOOTH observations"
+          git push origin HEAD:main
+
+      - name: Upload refresh evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-refresh-${{ github.run_id }}
+          path: |
+            build/refresh-report.json
+            build/static-api-refresh-audit.json
+          if-no-files-found: warn
+          retention-days: 30
