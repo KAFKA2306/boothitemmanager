@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source": "https://booth.pm",
+  "last_catalog_change_at": null,
+  "catalog_items": 40317,
+  "changed_items": 0,
+  "new_items": 0,
+  "unavailable_items": 0,
+  "refresh_interval_minutes": 15,
+  "known_item_refresh_cycle_hours": 84.0,
+  "status": "awaiting_first_scheduled_observation"
+}

@@ -41,10 +41,11 @@
 !test_duplicates.py
 !scripts/mcp_seo_server.py
 !scripts/seo_autofix.py
-!scripts/demo_harness.py
+!scripts/build_ui.py
+!scripts/build_proof.py
+!scripts/refresh_catalog.py
 !llms.txt
 !AGENTS.md
-
 
 # Force ignore clutter even within tracked categories if they appear (just in case)
 __pycache__/

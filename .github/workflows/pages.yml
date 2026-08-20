@@ -30,7 +30,7 @@ jobs:
           pip install uv
           uv venv
           source .venv/bin/activate
-          uv pip install pytest pytest-playwright pytest-asyncio requests pydantic pyyaml
+          uv pip install pytest pytest-playwright pytest-asyncio requests beautifulsoup4 pydantic pyyaml
           uv run playwright install --with-deps chromium
 
       - name: Build static site
@@ -45,7 +45,7 @@ jobs:
           if [ -d api/details ]; then
             cp -r api/details dist/api/
           fi
-          echo '{"items": 40317, "updated_at": "'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}' > dist/proof.json
+          python scripts/build_proof.py --api-dir api --output dist/proof.json
 
       - name: Validate ontology tags
         run: |
@@ -69,10 +69,27 @@ jobs:
 
       - name: Validate static sources
         run: |
-          python -m py_compile scripts/build_ui.py tests/test_catalog_ui.py
+          python -m py_compile \
+            scripts/build_ui.py \
+            scripts/build_proof.py \
+            scripts/refresh_catalog.py \
+            src/boothitemmanager2/freshness.py \
+            src/boothitemmanager2/crawler.py \
+            tests/test_catalog_ui.py \
+            tests/test_build_proof.py \
+            tests/test_freshness.py \
+            tests/test_refresh_catalog.py \
+            tests/test_crawler_cache.py
           node --check catalog-ux.js
           node --check kafka-signal.js
-          uv run pytest tests/test_catalog_ui.py tests/test_ai_tool_detector.py tests/e2e/test_browser.py -v
+          uv run pytest \
+            tests/test_catalog_ui.py \
+            tests/test_build_proof.py \
+            tests/test_freshness.py \
+            tests/test_refresh_catalog.py \
+            tests/test_crawler_cache.py \
+            tests/test_ai_tool_detector.py \
+            tests/e2e/test_browser.py -v
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
