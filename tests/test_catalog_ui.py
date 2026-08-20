@@ -18,11 +18,15 @@ def test_build_injects_catalog_assets_without_removed_controls(tmp_path: Path) -
     html = output.read_text(encoding="utf-8")
 
     assert '<link rel="stylesheet" href="catalog-ux.css">' in html
+    assert '<link rel="stylesheet" href="catalog-evidence.css">' in html
     assert '<script src="catalog-ux.js"></script>' in html
+    assert '<script src="catalog-evidence.js"></script>' in html
     assert "comparison.css" not in html
     assert "comparison.js" not in html
     assert html.count("catalog-ux.css") == 1
     assert html.count("catalog-ux.js") == 1
+    assert html.count("catalog-evidence.css") == 1
+    assert html.count("catalog-evidence.js") == 1
 
 
 def test_build_enforces_kafka_palette_and_cascade(tmp_path: Path) -> None:
@@ -78,6 +82,29 @@ def test_catalog_script_keeps_neutral_ux_only() -> None:
         "params.set('item'",
     ):
         assert removed not in script
+
+
+def test_compatibility_evidence_is_explicit_non_inferential_and_shareable() -> None:
+    script = (ROOT / "catalog-evidence.js").read_text(encoding="utf-8")
+    css = (ROOT / "catalog-evidence.css").read_text(encoding="utf-8")
+
+    for marker in (
+        "function renderCompatibilityEvidence(item)",
+        "販売ページ記載から抽出",
+        "不明 — このデータから販売者明示の対応先を確認できません。",
+        "検索・分類用であり、互換性の根拠ではありません。",
+        "BOOTHで最新情報を確認",
+        "購入・導入前の最終判断",
+        "last_observed_at || item?.last_changed_at",
+        "#item-${encodeURIComponent(String(id))}",
+        "function restoreSharedItem()",
+    ):
+        assert marker in script
+    assert "対応保証" not in script
+    assert "provenance" not in script
+    assert "params.set('item'" not in script
+    assert ".compatibility-evidence" in css
+    assert "@media (max-width: 520px)" in css
 
 
 def test_avatar_filter_uses_compatibility_targets_not_general_tags() -> None:

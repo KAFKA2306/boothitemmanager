@@ -69,7 +69,7 @@ def test_filter_generation(page: Page):
         assert int(count_text) > 0, f"Category {category} should have > 0 items, got {count_text}"
 
 
-def test_ui_rendering_and_modal(page: Page):
+def test_ui_rendering_modal_and_shared_detail_url(page: Page):
     page.goto("http://localhost:8080/")
     wait_for_catalogue(page)
 
@@ -82,10 +82,25 @@ def test_ui_rendering_and_modal(page: Page):
     modal = page.locator("#detail-dialog")
     expect(modal).to_be_visible()
     expect(page.locator("#modal-title")).not_to_be_empty()
+    original_title = page.locator("#modal-title").inner_text()
     expect(modal.locator(".ux-provenance-section")).to_have_count(0)
+    evidence = modal.locator(".compatibility-evidence")
+    expect(evidence).to_be_visible()
+    expect(evidence).to_contain_text("購入前の互換性確認")
+    expect(evidence).to_contain_text("最終判断")
+    expect(page.locator("#modal-booth-link")).to_contain_text("BOOTHで最新情報を確認")
+    expect(page).to_have_url(re.compile(r"#item-[^#]+$"))
+
+    shared_url = page.url
+    page.reload()
+    wait_for_catalogue(page)
+    expect(modal).to_be_visible(timeout=10000)
+    expect(page.locator("#modal-title")).to_have_text(original_title)
+    assert page.url == shared_url
 
     page.locator("#modal-close-btn").click()
     expect(modal).to_be_hidden()
+    assert "#item-" not in page.url
 
 
 def test_search_functionality_and_url_restore(page: Page):
@@ -137,6 +152,16 @@ def test_mobile_filter_dialog(page: Page):
     expect(dialog).to_be_hidden()
 
     expect(page.locator(".asset-card").first).to_be_visible()
+    assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+
+
+def test_compatibility_evidence_fits_narrow_mobile(page: Page):
+    page.set_viewport_size({"width": 320, "height": 700})
+    page.goto("http://localhost:8080/")
+    wait_for_catalogue(page)
+    page.locator(".asset-card").first.click()
+    evidence = page.locator("#detail-dialog .compatibility-evidence")
+    expect(evidence).to_be_visible()
     assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
 
 

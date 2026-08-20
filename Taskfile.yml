@@ -6,7 +6,7 @@ tasks:
     cmds:
       - mkdir -p dist dist/api
       - python3 scripts/build_ui.py --source index.html --output dist/index.html
-      - cp ai-tools.html catalog-ux.css catalog-ux.js kafka-signal.css kafka-signal.js dist/
+      - cp ai-tools.html catalog-ux.css catalog-ux.js catalog-evidence.css catalog-evidence.js kafka-signal.css kafka-signal.js dist/
       - cp api/*.json api/*.js dist/api/ 2>/dev/null || true
       - cp -r api/details dist/api/ 2>/dev/null || true
       - python3 scripts/build_proof.py --api-dir api --output dist/proof.json

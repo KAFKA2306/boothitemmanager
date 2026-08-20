@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p dist
           python scripts/build_ui.py --source index.html --output dist/index.html
-          cp ai-tools.html catalog-ux.css catalog-ux.js kafka-signal.css kafka-signal.js dist/
+          cp ai-tools.html catalog-ux.css catalog-ux.js catalog-evidence.css catalog-evidence.js kafka-signal.css kafka-signal.js dist/
           mkdir -p dist/api
           if [ -d api ]; then
             cp api/*.json api/*.js dist/api/ 2>/dev/null || true
@@ -81,6 +81,7 @@ jobs:
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py
           node --check catalog-ux.js
+          node --check catalog-evidence.js
           node --check kafka-signal.js
           uv run pytest \
             tests/test_catalog_ui.py \
