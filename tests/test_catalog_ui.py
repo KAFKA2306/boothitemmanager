@@ -84,7 +84,7 @@ def test_catalog_script_keeps_neutral_ux_only() -> None:
         assert removed not in script
 
 
-def test_compatibility_evidence_is_explicit_and_non_inferential() -> None:
+def test_compatibility_evidence_is_explicit_non_inferential_and_shareable() -> None:
     script = (ROOT / "catalog-evidence.js").read_text(encoding="utf-8")
     css = (ROOT / "catalog-evidence.css").read_text(encoding="utf-8")
 
@@ -96,10 +96,13 @@ def test_compatibility_evidence_is_explicit_and_non_inferential() -> None:
         "BOOTHで最新情報を確認",
         "購入・導入前の最終判断",
         "last_observed_at || item?.last_changed_at",
+        "#item-${encodeURIComponent(String(id))}",
+        "function restoreSharedItem()",
     ):
         assert marker in script
     assert "対応保証" not in script
     assert "provenance" not in script
+    assert "params.set('item'" not in script
     assert ".compatibility-evidence" in css
     assert "@media (max-width: 520px)" in css
 

@@ -109,22 +109,104 @@
     boothLink.insertAdjacentElement('afterend', section);
   }
 
-  function install() {
-    if (typeof window.fillModal !== 'function' || window.fillModal.__compatibilityEvidenceWrapped) return false;
-    const original = window.fillModal;
-    const wrapped = function wrappedFillModal(item) {
-      original(item);
-      renderCompatibilityEvidence(item);
-    };
-    wrapped.__compatibilityEvidenceWrapped = true;
-    window.fillModal = wrapped;
+  function sharedItemId() {
+    const match = /^#item-(.+)$/.exec(location.hash);
+    if (!match) return null;
+    try {
+      return decodeURIComponent(match[1]);
+    } catch {
+      return null;
+    }
+  }
+
+  function writeSharedItem(id) {
+    const hash = `#item-${encodeURIComponent(String(id))}`;
+    history.replaceState(null, '', `${location.pathname}${location.search}${hash}`);
+  }
+
+  function clearSharedItem() {
+    if (!sharedItemId()) return;
+    history.replaceState(null, '', `${location.pathname}${location.search}`);
+  }
+
+  function restoreSharedItem() {
+    const id = sharedItemId();
+    if (!id || typeof allItems === 'undefined' || !Array.isArray(allItems)) return false;
+    const exists = allItems.some(item => String(item?.id || item?.item_id || '') === id);
+    if (!exists) return false;
+    const modal = document.querySelector('#detail-dialog');
+    if (modal?.open && String(modal.dataset.sharedItem || '') === id) return true;
+    window.openModal(id);
+    if (modal) modal.dataset.sharedItem = id;
     return true;
   }
 
-  if (!install()) {
+  function install() {
+    if (typeof window.fillModal !== 'function' || typeof window.openModal !== 'function') return false;
+
+    if (!window.fillModal.__compatibilityEvidenceWrapped) {
+      const originalFillModal = window.fillModal;
+      const wrappedFillModal = function wrappedFillModal(item) {
+        originalFillModal(item);
+        renderCompatibilityEvidence(item);
+      };
+      wrappedFillModal.__compatibilityEvidenceWrapped = true;
+      window.fillModal = wrappedFillModal;
+    }
+
+    if (!window.openModal.__sharedDetailWrapped) {
+      const originalOpenModal = window.openModal;
+      const wrappedOpenModal = function wrappedOpenModal(id) {
+        originalOpenModal(id);
+        const modal = document.querySelector('#detail-dialog');
+        if (modal) modal.dataset.sharedItem = String(id);
+        writeSharedItem(id);
+      };
+      wrappedOpenModal.__sharedDetailWrapped = true;
+      window.openModal = wrappedOpenModal;
+    }
+
+    const modal = document.querySelector('#detail-dialog');
+    if (modal && !modal.dataset.sharedDetailCloseBound) {
+      modal.dataset.sharedDetailCloseBound = 'true';
+      modal.addEventListener('close', () => {
+        delete modal.dataset.sharedItem;
+        clearSharedItem();
+      });
+    }
+    return true;
+  }
+
+  function restoreWhenReady() {
+    if (restoreSharedItem()) return;
     const timer = window.setInterval(() => {
-      if (install()) window.clearInterval(timer);
+      if (restoreSharedItem()) window.clearInterval(timer);
     }, 50);
     window.setTimeout(() => window.clearInterval(timer), 20000);
   }
+
+  function start() {
+    if (install()) {
+      restoreWhenReady();
+      return;
+    }
+    const timer = window.setInterval(() => {
+      if (install()) {
+        window.clearInterval(timer);
+        restoreWhenReady();
+      }
+    }, 50);
+    window.setTimeout(() => window.clearInterval(timer), 20000);
+  }
+
+  window.addEventListener('hashchange', () => {
+    const modal = document.querySelector('#detail-dialog');
+    if (sharedItemId()) {
+      restoreSharedItem();
+    } else if (modal?.open) {
+      modal.close();
+    }
+  });
+
+  start();
 })();
