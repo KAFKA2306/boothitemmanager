@@ -83,6 +83,11 @@ def test_ui_rendering_and_modal(page: Page):
     expect(modal).to_be_visible()
     expect(page.locator("#modal-title")).not_to_be_empty()
     expect(modal.locator(".ux-provenance-section")).to_have_count(0)
+    evidence = modal.locator(".compatibility-evidence")
+    expect(evidence).to_be_visible()
+    expect(evidence).to_contain_text("購入前の互換性確認")
+    expect(evidence).to_contain_text("最終判断")
+    expect(page.locator("#modal-booth-link")).to_contain_text("BOOTHで最新情報を確認")
 
     page.locator("#modal-close-btn").click()
     expect(modal).to_be_hidden()
@@ -137,6 +142,16 @@ def test_mobile_filter_dialog(page: Page):
     expect(dialog).to_be_hidden()
 
     expect(page.locator(".asset-card").first).to_be_visible()
+    assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+
+
+def test_compatibility_evidence_fits_narrow_mobile(page: Page):
+    page.set_viewport_size({"width": 320, "height": 700})
+    page.goto("http://localhost:8080/")
+    wait_for_catalogue(page)
+    page.locator(".asset-card").first.click()
+    evidence = page.locator("#detail-dialog .compatibility-evidence")
+    expect(evidence).to_be_visible()
     assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
 
 

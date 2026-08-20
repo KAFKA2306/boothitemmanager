@@ -39,6 +39,8 @@
 !index.html
 !verify_fix.py
 !test_duplicates.py
+!catalog-evidence.css
+!catalog-evidence.js
 !scripts/mcp_seo_server.py
 !scripts/seo_autofix.py
 !scripts/build_ui.py

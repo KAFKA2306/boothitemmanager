@@ -10,10 +10,12 @@ from pathlib import Path
 CSS_MARKERS = (
     '<link rel="stylesheet" href="catalog-ux.css">',
     '<link rel="stylesheet" href="kafka-signal.css">',
+    '<link rel="stylesheet" href="catalog-evidence.css">',
 )
 JS_MARKERS = (
     '<script src="catalog-ux.js"></script>',
     '<script src="kafka-signal.js"></script>',
+    '<script src="catalog-evidence.js"></script>',
 )
 META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v2.0.0">'
 THEME_META = '<meta name="theme-color" content="#F6F7FB">'
