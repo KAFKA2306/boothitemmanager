@@ -108,7 +108,9 @@ def build(source: Path, destination: Path) -> None:
     lower = html.lower()
     leaked = [token for token in FORBIDDEN_NEON if token in lower]
     if leaked:
-        raise ValueError("forbidden legacy neon tokens remain in distribution: " + ", ".join(leaked))
+        raise ValueError(
+            "forbidden legacy neon tokens remain in distribution: " + ", ".join(leaked)
+        )
 
     if html.rfind("kafka-signal.css") < html.rfind("</style>"):
         raise ValueError("kafka-signal.css must be loaded after the inline legacy stylesheet")

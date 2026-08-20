@@ -23,9 +23,9 @@ def _read_object(path: Path) -> dict[str, Any]:
 def build_proof(api_dir: Path, *, built_at: datetime | None = None) -> dict[str, Any]:
     shards = sorted(
         api_dir.glob("catalog_summary_part*.json"),
-        key=lambda path: int(SHARD_RE.search(path.name).group(1))
-        if SHARD_RE.search(path.name)
-        else 10**9,
+        key=lambda path: (
+            int(SHARD_RE.search(path.name).group(1)) if SHARD_RE.search(path.name) else 10**9
+        ),
     )
     if not shards:
         raise ValueError("catalog has no summary shards")
