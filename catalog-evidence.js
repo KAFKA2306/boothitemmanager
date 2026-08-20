@@ -173,6 +173,13 @@
         delete modal.dataset.sharedItem;
         clearSharedItem();
       });
+      modal.addEventListener('cancel', () => queueMicrotask(clearSharedItem));
+    }
+
+    const closeButton = document.querySelector('#modal-close-btn');
+    if (closeButton && !closeButton.dataset.sharedDetailCloseBound) {
+      closeButton.dataset.sharedDetailCloseBound = 'true';
+      closeButton.addEventListener('click', () => queueMicrotask(clearSharedItem));
     }
     return true;
   }
