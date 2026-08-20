@@ -31,7 +31,13 @@ def test_build_enforces_kafka_palette_and_cascade(tmp_path: Path) -> None:
     html = output.read_text(encoding="utf-8")
     lower = html.lower()
 
-    for forbidden in ("#00f0ff", "#ff007a", "#9d00ff"):
+    for forbidden in (
+        "#00f0ff",
+        "#ff007a",
+        "#9d00ff",
+        "rgba(0, 240, 255",
+        "rgba(255, 0, 122",
+    ):
         assert forbidden not in lower
     assert '<meta name="theme-color" content="#F6F7FB">' in html
     assert "--accent: var(--ks-blue)" in html

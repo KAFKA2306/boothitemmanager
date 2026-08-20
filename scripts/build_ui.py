@@ -17,7 +17,13 @@ JS_MARKERS = (
 )
 META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v2.0.0">'
 THEME_META = '<meta name="theme-color" content="#F6F7FB">'
-FORBIDDEN_NEON = ("#00f0ff", "#ff007a", "#9d00ff")
+FORBIDDEN_NEON = (
+    "#00f0ff",
+    "#ff007a",
+    "#9d00ff",
+    "rgba(0, 240, 255",
+    "rgba(255, 0, 122",
+)
 
 LEGACY_ROOT = re.compile(
     r"(?s):root\s*\{\s*"
@@ -48,6 +54,19 @@ def _normalize_legacy_theme(html: str) -> str:
     if count != 1:
         raise ValueError("legacy catalogue theme block changed; refusing an unreviewed build")
     html = html.replace("12121a/00f0ff/", "F6F7FB/39445A/")
+    html = html.replace("#00f0ff", "var(--ks-blue)")
+    html = html.replace("#ff007a", "var(--ks-pink)")
+    html = html.replace("#9d00ff", "var(--ks-lilac)")
+    html = re.sub(
+        r"rgba\(\s*0\s*,\s*240\s*,\s*255\s*,\s*([0-9.]+)\s*\)",
+        r"rgb(156 200 235 / \1)",
+        html,
+    )
+    html = re.sub(
+        r"rgba\(\s*255\s*,\s*0\s*,\s*122\s*,\s*([0-9.]+)\s*\)",
+        r"rgb(235 197 207 / \1)",
+        html,
+    )
     return html
 
 
