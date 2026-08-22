@@ -152,7 +152,9 @@ def test_mobile_filter_dialog(page: Page):
     expect(dialog).to_be_hidden()
 
     expect(page.locator(".asset-card").first).to_be_visible()
-    assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+    assert page.evaluate(
+        "document.documentElement.scrollWidth <= document.documentElement.clientWidth"
+    )
 
 
 def test_compatibility_evidence_fits_narrow_mobile(page: Page):
@@ -162,7 +164,9 @@ def test_compatibility_evidence_fits_narrow_mobile(page: Page):
     page.locator(".asset-card").first.click()
     evidence = page.locator("#detail-dialog .compatibility-evidence")
     expect(evidence).to_be_visible()
-    assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+    assert page.evaluate(
+        "document.documentElement.scrollWidth <= document.documentElement.clientWidth"
+    )
 
 
 def test_ai_tool_evidence_page(page: Page):

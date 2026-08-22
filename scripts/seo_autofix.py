@@ -36,7 +36,9 @@ def audit_html_structure(html_content: str) -> dict[str, Any]:
         errors.append("HTML 'lang' attribute is missing")
         fixes_needed["lang"] = "ja"
     elif lang not in ["ja", "en"]:
-        warnings.append(f"HTML 'lang' attribute '{lang}' is not standard for this project (expected 'ja' or 'en')")
+        warnings.append(
+            f"HTML 'lang' attribute '{lang}' is not standard for this project (expected 'ja' or 'en')"
+        )
 
     # 2. Check title tag
     title_tag = soup.find("title")
@@ -109,7 +111,9 @@ def apply_fixes(html_content: str, audit_results: dict[str, Any]) -> tuple[str, 
     # 1. Fix lang attribute
     if "lang" in fixes_needed:
         # Regex to replace <html> with <html lang="ja">
-        modified_content = re.sub(r"<html([^>]*)>", r'<html\1 lang="ja">', modified_content, count=1)
+        modified_content = re.sub(
+            r"<html([^>]*)>", r'<html\1 lang="ja">', modified_content, count=1
+        )
         fixes_applied.append("Added lang='ja' to <html> tag.")
 
     # Helper to insert into <head>
@@ -169,9 +173,7 @@ def apply_fixes(html_content: str, audit_results: dict[str, Any]) -> tuple[str, 
             "applicationCategory": "SearchEngine",
             "operatingSystem": "All",
         }
-        json_ld_script = (
-            f'<script type="application/ld+json">\n    {json.dumps(default_json_ld, indent=2)}\n    </script>'
-        )
+        json_ld_script = f'<script type="application/ld+json">\n    {json.dumps(default_json_ld, indent=2)}\n    </script>'
         modified_content = insert_in_head(modified_content, json_ld_script)
         fixes_applied.append("Added missing JSON-LD structured data")
 
@@ -192,18 +194,26 @@ def apply_fixes(html_content: str, audit_results: dict[str, Any]) -> tuple[str, 
             img_fix_count += 1
 
     if img_fix_count > 0:
-        fixes_applied.append(f"Added alt='Asset Preview' to {img_fix_count} <img> tags (including template strings)")
+        fixes_applied.append(
+            f"Added alt='Asset Preview' to {img_fix_count} <img> tags (including template strings)"
+        )
 
     return modified_content, fixes_applied
 
 
-def write_kawaii_report(report_path: Path, audit_results: dict[str, Any], fixes_applied: list[str]) -> None:
+def write_kawaii_report(
+    report_path: Path, audit_results: dict[str, Any], fixes_applied: list[str]
+) -> None:
     """
     Writes the audit report in cute Japanese (kawaii style) as mandated.
     """
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
-    status_emoji = "🎀✨ココちゃん完璧だょ！✨🎀" if not audit_results["errors"] and not fixes_applied else "🌸なおしたょ！がんばったもん！🌸"
+    status_emoji = (
+        "🎀✨ココちゃん完璧だょ！✨🎀"
+        if not audit_results["errors"] and not fixes_applied
+        else "🌸なおしたょ！がんばったもん！🌸"
+    )
 
     lines = [
         f"# 🎀 SEO/AEO 診断＆自動お直しレポートだょ 🎀",
@@ -251,7 +261,12 @@ def write_kawaii_report(report_path: Path, audit_results: dict[str, Any], fixes_
 def main() -> None:
     parser = argparse.ArgumentParser(description="Auto-fix SEO and AEO issues in index.html")
     parser.add_argument("--html", type=Path, default=DEFAULT_HTML_PATH, help="Path to index.html")
-    parser.add_argument("--report", type=Path, default=DEFAULT_REPORT_PATH, help="Path to write kawaii markdown report")
+    parser.add_argument(
+        "--report",
+        type=Path,
+        default=DEFAULT_REPORT_PATH,
+        help="Path to write kawaii markdown report",
+    )
     args = parser.parse_args()
 
     html_path: Path = args.html

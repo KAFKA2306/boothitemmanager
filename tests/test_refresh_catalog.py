@@ -32,7 +32,7 @@ def product_html(
 
 
 def test_discover_item_urls_deduplicates_and_normalizes() -> None:
-    html = '''<a href="/ja/items/123">a</a><a href="https://booth.pm/ja/items/123?x=1">b</a><a href="/ja/items/456">c</a>'''
+    html = """<a href="/ja/items/123">a</a><a href="https://booth.pm/ja/items/123?x=1">b</a><a href="/ja/items/456">c</a>"""
     assert MOD.discover_item_urls(html) == {
         "123": "https://booth.pm/ja/items/123",
         "456": "https://booth.pm/ja/items/456",

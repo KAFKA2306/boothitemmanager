@@ -7,7 +7,14 @@ from typing import Any
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 from boothitemmanager2.storage import Item, ItemCategory, TagSet, AvatarRef
-from boothitemmanager2.quantitative_auditor import QuantitativeAuditor, format_report, CrawlStats, FilterEvidence, FeatureStats
+from boothitemmanager2.quantitative_auditor import (
+    QuantitativeAuditor,
+    format_report,
+    CrawlStats,
+    FilterEvidence,
+    FeatureStats,
+)
+
 
 def run_audit():
     catalog_path = "data/structured/catalog.json"
@@ -35,7 +42,7 @@ def run_audit():
             avatar_link=ts_data.get("avatar_link", []),
             material_property=ts_data.get("material_property", []),
             niche_subculture=ts_data.get("niche_subculture", []),
-            activity_scene=ts_data.get("activity_scene", [])
+            activity_scene=ts_data.get("activity_scene", []),
         )
 
         # targets
@@ -57,7 +64,9 @@ def run_audit():
 
         # category
         cat_str = data.get("category")
-        category = ItemCategory[cat_str] if cat_str in ItemCategory.__members__ else ItemCategory.ASSET
+        category = (
+            ItemCategory[cat_str] if cat_str in ItemCategory.__members__ else ItemCategory.ASSET
+        )
 
         item = Item(
             item_id=str(data.get("item_id", "")),
@@ -79,7 +88,7 @@ def run_audit():
             files=data.get("files", []),
             audit_status=data.get("audit_status", "UNVERIFIED"),
             trace_log=data.get("trace_log", {}),
-            raw_html_snippet=data.get("raw_html_snippet")
+            raw_html_snippet=data.get("raw_html_snippet"),
         )
         items.append(item)
 
@@ -98,20 +107,21 @@ def run_audit():
     filters = FilterEvidence(
         year_filter_count=sum(1 for i in items if i.published_at and i.published_at.year == 2026),
         popularity_filter_count=sum(1 for i in items if i.like_count and i.like_count > 100),
-        category_filter_count=sum(1 for i in items if i.category != ItemCategory.ASSET)
+        category_filter_count=sum(1 for i in items if i.category != ItemCategory.ASSET),
     )
 
     features = FeatureStats(
         color_search=color_search,
         style_search=style_search,
         avatar_reverse_search=avatar_rev_search,
-        cross_category_search=cross_category_search
+        cross_category_search=cross_category_search,
     )
 
     auditor = QuantitativeAuditor()
     report = auditor.run(items, crawl=crawl_stats, filters=filters, features=features)
 
     print(format_report(report))
+
 
 if __name__ == "__main__":
     run_audit()

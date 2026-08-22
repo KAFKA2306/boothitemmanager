@@ -14,7 +14,7 @@ import os
 import re
 import sys
 import time
-from dataclasses import dataclass
+from pydantic import BaseModel, ConfigDict
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
@@ -42,8 +42,9 @@ ITEM_RE = re.compile(r"^/ja/items/(\d+)(?:$|[?#])")
 USER_AGENT = "BoothItemManager2/1.0 (+https://github.com/KAFKA2306/boothitemmanager)"
 
 
-@dataclass
-class Observation:
+class Observation(BaseModel):
+    model_config = ConfigDict(strict=True)
+
     item_id: str
     source_url: str
     status_code: int
@@ -90,7 +91,10 @@ def _json_ld_products(soup: BeautifulSoup) -> Iterable[dict[str, Any]]:
             continue
         values = value if isinstance(value, list) else [value]
         for candidate in values:
-            if isinstance(candidate, dict) and candidate.get("@type") in {"Product", "IndividualProduct"}:
+            if isinstance(candidate, dict) and candidate.get("@type") in {
+                "Product",
+                "IndividualProduct",
+            }:
                 yield candidate
             if isinstance(candidate, dict) and isinstance(candidate.get("@graph"), list):
                 for nested in candidate["@graph"]:
@@ -362,9 +366,11 @@ def update_detail(api_dir: Path, obs: Observation, observed_at: str) -> bool:
 
 def write_summary_shard(api_dir: Path, number: int, rows: list[dict[str, Any]]) -> None:
     atomic_write_json(api_dir / f"catalog_summary_part{number}.json", rows, compact=True)
-    js = f"window.BOOTH_CATALOG_PART{number} = " + json.dumps(
-        rows, ensure_ascii=False, separators=(",", ":")
-    ) + ";\n"
+    js = (
+        f"window.BOOTH_CATALOG_PART{number} = "
+        + json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
+        + ";\n"
+    )
     atomic_write_text(api_dir / f"catalog_summary_part{number}.js", js)
 
 
@@ -555,9 +561,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-known", type=int, default=int(os.environ.get("MAX_KNOWN_PER_RUN", "120"))
     )
-    parser.add_argument(
-        "--max-new", type=int, default=int(os.environ.get("MAX_NEW_PER_RUN", "30"))
-    )
+    parser.add_argument("--max-new", type=int, default=int(os.environ.get("MAX_NEW_PER_RUN", "30")))
     parser.add_argument("--interval-minutes", type=int, default=15)
     parser.add_argument(
         "--request-interval",

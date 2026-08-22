@@ -31,7 +31,9 @@ def test_fresh_cache_skips_network(tmp_path: Path, monkeypatch) -> None:
     path.parent.mkdir(parents=True)
     path.write_text("cached", encoding="utf-8")
     monkeypatch.setattr(crawler, "DEFAULT_REQUEST_DELAY_SECONDS", 0)
-    monkeypatch.setattr(crawler, "_session", lambda: (_ for _ in ()).throw(AssertionError("network")))
+    monkeypatch.setattr(
+        crawler, "_session", lambda: (_ for _ in ()).throw(AssertionError("network"))
+    )
 
     block = crawler.fetch_html("https://booth.pm/ja/items/123", "t", cache_ttl_seconds=3600)
     assert block.result == "SUCCESS"

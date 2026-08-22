@@ -7,6 +7,7 @@ import pytest
 import requests
 from playwright.sync_api import Page, expect
 
+
 @pytest.fixture(scope="session", autouse=True)
 def start_seo_server() -> Generator[str, None, None]:
     # Start a thread-safe multi-threaded HTTP server inline to prevent blocking connections
@@ -19,7 +20,7 @@ server = ThreadingHTTPServer(('', 8081), lambda *a, **k: SilentHandler(*a, direc
 server.serve_forever()
 """
     process = subprocess.Popen([sys.executable, "-c", server_code])
-    
+
     # Poll until the server is ready to accept requests
     for _ in range(20):
         try:
@@ -32,9 +33,10 @@ server.serve_forever()
     else:
         process.terminate()
         raise RuntimeError("Could not start local test server on port 8081")
-        
+
     yield "http://localhost:8081"
     process.terminate()
+
 
 def test_seo_metadata(page: Page) -> None:
     js_errors: list[str] = []
@@ -42,7 +44,7 @@ def test_seo_metadata(page: Page) -> None:
 
     page.goto("http://localhost:8081/")
     expect(page.locator("#splash")).to_be_hidden(timeout=10000)
-    
+
     # Verify no script or runtime errors on load
     assert not js_errors, f"JavaScript errors occurred: {js_errors}"
 
@@ -53,20 +55,18 @@ def test_seo_metadata(page: Page) -> None:
 
     # Core SEO meta tags
     expect(page.locator('meta[name="description"]')).to_have_attribute(
-        "content", 
-        "Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly."
+        "content",
+        "Discover VRChat assets from Booth. Filter by avatar compatibility, style, color, category, and price instantly.",
     )
     expect(page.locator('meta[name="keywords"]')).to_have_attribute(
         "content",
-        "VRChat, Booth, 3D Assets, Avatar, Outfit, Accessory, Gimmick, Discovery, Search, Compatibility, PhysBone, Modular Avatar"
+        "VRChat, Booth, 3D Assets, Avatar, Outfit, Accessory, Gimmick, Discovery, Search, Compatibility, PhysBone, Modular Avatar",
     )
     expect(page.locator('meta[name="robots"]')).to_have_attribute(
-        "content",
-        "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        "content", "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     )
     expect(page.locator('link[rel="canonical"]')).to_have_attribute(
-        "href",
-        "https://boothitemmanager.pages.dev/"
+        "href", "https://boothitemmanager.pages.dev/"
     )
 
     # OpenGraph (OGP)
@@ -75,7 +75,7 @@ def test_seo_metadata(page: Page) -> None:
     )
     expect(page.locator('meta[property="og:description"]')).to_have_attribute(
         "content",
-        "Discover VRChat virtual assets, outfits, accessories, hairstyles, and gimmicks from Booth.pm. Filter instantly by base avatar compatibility, style, color, category, and price."
+        "Discover VRChat virtual assets, outfits, accessories, hairstyles, and gimmicks from Booth.pm. Filter instantly by base avatar compatibility, style, color, category, and price.",
     )
     expect(page.locator('meta[property="og:type"]')).to_have_attribute("content", "website")
     expect(page.locator('meta[property="og:url"]')).to_have_attribute(
@@ -87,20 +87,31 @@ def test_seo_metadata(page: Page) -> None:
     expect(page.locator('meta[property="og:site_name"]')).to_have_attribute(
         "content", "BoothItemManager2"
     )
-    expect(page.locator('meta[property="og:locale"]')).to_have_attribute(
-        "content", "ja_JP"
-    )
+    expect(page.locator('meta[property="og:locale"]')).to_have_attribute("content", "ja_JP")
 
     # Twitter Cards
-    expect(page.locator('meta[name="twitter:card"]')).to_have_attribute("content", "summary_large_image")
-    expect(page.locator('meta[name="twitter:title"]')).to_have_attribute("content", "BoothItemManager2 - VRChat Booth Asset Discovery")
-    expect(page.locator('meta[name="twitter:image"]')).to_have_attribute("content", "https://placehold.jp/24/12121a/00f0ff/1200x630.png?text=BoothItemManager2")
+    expect(page.locator('meta[name="twitter:card"]')).to_have_attribute(
+        "content", "summary_large_image"
+    )
+    expect(page.locator('meta[name="twitter:title"]')).to_have_attribute(
+        "content", "BoothItemManager2 - VRChat Booth Asset Discovery"
+    )
+    expect(page.locator('meta[name="twitter:image"]')).to_have_attribute(
+        "content", "https://placehold.jp/24/12121a/00f0ff/1200x630.png?text=BoothItemManager2"
+    )
 
     # GEO / AI Citations
-    expect(page.locator('meta[name="citation_title"]')).to_have_attribute("content", "BoothItemManager2 - VRChat Booth Asset Discovery")
-    expect(page.locator('meta[name="citation_author"]')).to_have_attribute("content", "BoothItemManager Contributors")
+    expect(page.locator('meta[name="citation_title"]')).to_have_attribute(
+        "content", "BoothItemManager2 - VRChat Booth Asset Discovery"
+    )
+    expect(page.locator('meta[name="citation_author"]')).to_have_attribute(
+        "content", "BoothItemManager Contributors"
+    )
     expect(page.locator('meta[name="ai-optimized"]')).to_have_attribute("content", "true")
-    expect(page.locator('meta[name="search-engine"]')).to_have_attribute("content", "generative-engine-optimization")
+    expect(page.locator('meta[name="search-engine"]')).to_have_attribute(
+        "content", "generative-engine-optimization"
+    )
+
 
 def test_structured_data_ld_json(page: Page) -> None:
     page.goto("http://localhost:8081/")
@@ -120,6 +131,7 @@ def test_structured_data_ld_json(page: Page) -> None:
     assert data["offers"]["price"] == "0"
     assert data["offers"]["priceCurrency"] == "JPY"
     assert len(data["featureList"]) >= 5
+
 
 def test_link_integrity_and_crawling(page: Page) -> None:
     page.goto("http://localhost:8081/")
@@ -178,13 +190,14 @@ def test_link_integrity_and_crawling(page: Page) -> None:
     page.locator("#modal-close-btn").click()
     expect(modal).to_be_hidden()
 
+
 def test_layout_and_responsive_audit(page: Page) -> None:
     page.goto("http://localhost:8081/")
     expect(page.locator("#splash")).to_be_hidden(timeout=10000)
 
     # 1. Desktop Viewport Layout Validation
     page.set_viewport_size({"width": 1280, "height": 800})
-    page.wait_for_timeout(200) # yield control to allow viewport recalculations
+    page.wait_for_timeout(200)  # yield control to allow viewport recalculations
 
     header = page.locator("header")
     aside = page.locator("aside")
@@ -233,6 +246,7 @@ def test_layout_and_responsive_audit(page: Page) -> None:
     # Header at y=0, main content stacks vertically beneath it
     assert mh_box["y"] == 0
     assert mm_box["y"] >= mh_box["y"] + mh_box["height"]
+
 
 def test_image_accessibility(page: Page) -> None:
     page.goto("http://localhost:8081/")

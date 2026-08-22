@@ -1,0 +1,12 @@
+minimum_prek_version = "0.2.0"
+
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "fast-quality-gate"
+name = "fast quality gate"
+language = "system"
+entry = "uv run --locked python scripts/check.py"
+pass_filenames = false
+always_run = true
