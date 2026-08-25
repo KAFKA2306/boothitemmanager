@@ -1,11 +1,11 @@
 {
-  "catalog_items": 41084,
-  "changed_items": 36,
+  "catalog_items": 41085,
+  "changed_items": 117,
   "known_item_refresh_cycle_hours": 85.75,
-  "last_catalog_change_at": "2026-08-25T21:27:11Z",
-  "new_items": 3,
+  "last_catalog_change_at": "2026-08-25T21:59:08Z",
+  "new_items": 1,
   "refresh_interval_minutes": 15,
   "schema_version": 1,
   "source": "https://booth.pm",
-  "unavailable_items": 2
+  "unavailable_items": 1
 }
