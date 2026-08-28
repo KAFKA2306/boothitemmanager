@@ -1,0 +1,42 @@
+name: BOOTH販売者向け分析の相談
+description: 公開BOOTHデータを使ったショップ・商品企画分析を相談する
+title: "販売者向け分析の相談: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このフォームの内容は公開Issueになります。氏名、メールアドレス、電話番号、非公開情報は書かないでください。
+  - type: input
+    id: shop
+    attributes:
+      label: BOOTHショップまたは商品URL
+      description: 公開されているURLだけを入力してください。
+      placeholder: https://example.booth.pm/
+    validations:
+      required: true
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: 相談したい内容
+      options:
+        - ショップ全体の競合・価格分析
+        - 新商品の価格帯・対応アバター調査
+        - 月次の市場変化レポート
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 確認したいこと
+      description: 公開情報だけで共有できる範囲で記入してください。
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: 公開Issueであることの確認
+      options:
+        - label: 個人情報や非公開情報を書いていません。
+          required: true
