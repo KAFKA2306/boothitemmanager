@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOOTH販売者向け市場レポート | BoothItemManager2</title>
+  <meta name="description" content="公開BOOTHカタログから、価格帯・カテゴリ構成・明示対応アバターを販売者単位で確認します。">
+  <link rel="canonical" href="https://boothitemmanager.pages.dev/seller/market-report/">
+  <link rel="stylesheet" href="../../kafka-signal.css">
+  <style>
+    body{margin:0;background:#f6f7fb;color:#20293a;font-family:Inter,system-ui,sans-serif}main{max-width:1040px;margin:auto;padding:32px 20px 64px}.panel{background:#fff;border:1px solid #e2e6ee;border-radius:16px;padding:24px;margin:18px 0}.muted{color:#667085}.form{display:flex;gap:10px;flex-wrap:wrap}input{flex:1;min-width:260px;padding:12px;border:1px solid #cbd2df;border-radius:10px;font-size:16px}button,.button{border:0;border-radius:10px;padding:12px 18px;background:#39445a;color:white;text-decoration:none;cursor:pointer;font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.metric{background:#f8fafc;border-radius:12px;padding:16px}.metric strong{display:block;font-size:24px;margin-top:6px}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid #e7eaf0}ul{padding-left:20px}.warning{background:#fff8e8;border-color:#ead7a4}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}a{color:#315c8a}@media(max-width:640px){table{font-size:14px}.panel{padding:18px}}
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="../../">BoothItemManager2へ戻る</a></p>
+  <h1>BOOTH販売者向け市場レポート</h1>
+  <p class="muted">公開カタログの観測値から、ショップの価格帯・カテゴリ構成・明示対応アバターを比較します。需要、売上、購入率は推測しません。</p>
+
+  <section class="panel">
+    <h2>ショップを選ぶ</h2>
+    <div class="form">
+      <input id="seller-input" list="seller-list" placeholder="販売者名または販売者ID" autocomplete="off">
+      <datalist id="seller-list"></datalist>
+      <button id="show-report" type="button">レポートを見る</button>
+    </div>
+    <p id="status" class="muted">データを読み込んでいます。</p>
+  </section>
+
+  <section id="report" hidden>
+    <div class="panel">
+      <h2 id="seller-name"></h2>
+      <p id="as-of" class="muted"></p>
+      <div class="grid">
+        <div class="metric">収録商品数<strong id="item-count"></strong></div>
+        <div class="metric">価格 第1四分位<strong id="q1"></strong></div>
+        <div class="metric">価格 中央値<strong id="median"></strong></div>
+        <div class="metric">価格 第3四分位<strong id="q3"></strong></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>カテゴリ別の価格比較</h2>
+      <table><thead><tr><th>カテゴリ</th><th>ショップ商品数</th><th>ショップ中央値</th><th>市場中央値</th><th>市場商品数</th></tr></thead><tbody id="category-body"></tbody></table>
+    </div>
+
+    <div class="panel">
+      <h2>明示対応アバター</h2>
+      <p class="muted">販売ページ由来の対応情報を正規化した件数です。商品ごとの最新条件はBOOTH販売ページで確認してください。</p>
+      <ul id="avatar-list"></ul>
+    </div>
+
+    <div class="panel warning">
+      <h2>検索用に導出した情報</h2>
+      <p>以下は販売者の明示事実ではなく、検索のために導出したタグです。</p>
+      <div class="grid">
+        <div><h3>スタイル</h3><ul id="style-list"></ul></div>
+        <div><h3>色</h3><ul id="color-list"></ul></div>
+        <div><h3>機能</h3><ul id="feature-list"></ul></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>ショップ全体の詳細分析</h2>
+      <p>無料ページは公開カタログから再現できる市場スナップショットです。新商品企画やショップ全体の比較について、有償分析の相談を受け付けます。</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/KAFKA2306/boothitemmanager/issues/new?template=seller-analysis.yml">有償分析を相談する</a>
+        <a href="https://github.com/KAFKA2306/boothitemmanager/issues/9">分析商品の検証状況を見る</a>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+const yen = value => value == null ? '不明' : `${Math.round(value).toLocaleString('ja-JP')}円`;
+const list = (id, rows) => {
+  const el = document.getElementById(id);
+  el.replaceChildren(...((rows && rows.length) ? rows : [{name:'明示情報なし', count:null}]).map(row => {
+    const li = document.createElement('li');
+    li.textContent = row.count == null ? row.name : `${row.name}: ${row.count}商品`;
+    return li;
+  }));
+};
+let data;
+fetch('../../api/seller_market_report.json', {cache:'no-store'})
+  .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+  .then(payload => {
+    data = payload;
+    const options = payload.sellers.map(seller => {
+      const option = document.createElement('option');
+      option.value = seller.seller_name;
+      option.label = `${seller.seller_name} (${seller.seller_id}) — ${seller.item_count}商品`;
+      return option;
+    });
+    document.getElementById('seller-list').replaceChildren(...options);
+    document.getElementById('status').textContent = `販売者 ${payload.seller_count.toLocaleString('ja-JP')}件。観測日時: ${payload.as_of || '不明'}`;
+  })
+  .catch(error => { document.getElementById('status').textContent = `レポートデータを読み込めません: ${error.message}`; });
+
+document.getElementById('show-report').addEventListener('click', () => {
+  if (!data) return;
+  const query = document.getElementById('seller-input').value.trim().toLowerCase();
+  const seller = data.sellers.find(row => row.seller_id.toLowerCase() === query || row.seller_name.toLowerCase() === query);
+  if (!seller) {
+    document.getElementById('status').textContent = '一致する販売者がありません。候補から販売者名を選んでください。';
+    document.getElementById('report').hidden = true;
+    return;
+  }
+  document.getElementById('status').textContent = '公開カタログの観測値からレポートを表示しています。';
+  document.getElementById('seller-name').textContent = `${seller.seller_name} の市場スナップショット`;
+  document.getElementById('as-of').textContent = `販売者ID: ${seller.seller_id} / 最終観測: ${seller.as_of || '不明'}`;
+  document.getElementById('item-count').textContent = seller.item_count.toLocaleString('ja-JP');
+  document.getElementById('q1').textContent = yen(seller.price.q1);
+  document.getElementById('median').textContent = yen(seller.price.median);
+  document.getElementById('q3').textContent = yen(seller.price.q3);
+  document.getElementById('category-body').replaceChildren(...seller.categories.map(row => {
+    const tr = document.createElement('tr');
+    [row.category, row.seller.count, yen(row.seller.median), yen(row.market.median), row.market.count].forEach(value => {
+      const td = document.createElement('td'); td.textContent = value; tr.appendChild(td);
+    });
+    return tr;
+  }));
+  list('avatar-list', seller.explicit_avatar_counts);
+  list('style-list', seller.derived.style);
+  list('color-list', seller.derived.color);
+  list('feature-list', seller.derived.feature);
+  document.getElementById('report').hidden = false;
+  history.replaceState(null, '', `?seller=${encodeURIComponent(seller.seller_id)}`);
+});
+
+const initialSeller = new URLSearchParams(location.search).get('seller');
+if (initialSeller) {
+  const timer = setInterval(() => {
+    if (!data) return;
+    clearInterval(timer);
+    document.getElementById('seller-input').value = initialSeller;
+    document.getElementById('show-report').click();
+  }, 50);
+}
+</script>
+</body>
+</html>
