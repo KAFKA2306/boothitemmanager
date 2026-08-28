@@ -52,9 +52,15 @@ def test_smoke_initialization(page: Page):
 
 def test_data_load_integrity(page: Page):
     page.goto("http://localhost:8080/")
-    status_text = page.locator("#status-text")
-    expect(status_text).to_contain_text("CONNECTED", timeout=20000)
-    expect(status_text).to_contain_text("40,0", timeout=20000)
+    wait_for_catalogue(page)
+
+    status = page.locator("#status-text").inner_text()
+    match = re.fullmatch(r"CONNECTED \[([1-9][\d,]*)\]", status)
+    assert match is not None, f"unexpected catalogue status: {status}"
+
+    status_count = int(match.group(1).replace(",", ""))
+    all_count = int(page.locator("#count-all").inner_text().replace(",", ""))
+    assert status_count == all_count
 
 
 def test_filter_generation(page: Page):
