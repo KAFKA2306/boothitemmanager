@@ -1,4 +1,13 @@
-from scripts.build_seller_market_report import build_report, percentile
+import importlib.util
+from pathlib import Path
+
+MODULE_PATH = Path(__file__).parents[1] / "scripts" / "build_seller_market_report.py"
+SPEC = importlib.util.spec_from_file_location("build_seller_market_report", MODULE_PATH)
+assert SPEC and SPEC.loader
+MODULE = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(MODULE)
+build_report = MODULE.build_report
+percentile = MODULE.percentile
 
 
 def test_percentile_interpolates_without_external_dependency():
