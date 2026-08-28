@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kafka2306.github.io/boothitemmanager/sitemap.xml
+Sitemap: https://boothitemmanager.pages.dev/sitemap.xml
