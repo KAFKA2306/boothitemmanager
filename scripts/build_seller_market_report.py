@@ -73,13 +73,11 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "style": Counter(),
                 "color": Counter(),
                 "feature": Counter(),
-                "source_urls": set(),
                 "observed_at": [],
             },
         )
         seller["prices"].append(float(price))
         seller["categories"][category].append(float(price))
-        seller["source_urls"].add(str(item.get("source_url") or ""))
         if isinstance(observed_at, str) and observed_at:
             seller["observed_at"].append(observed_at)
 
