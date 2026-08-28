@@ -16,7 +16,7 @@ def test_percentile_interpolates_without_external_dependency():
     assert percentile([], 0.5) is None
 
 
-def test_report_separates_observed_and_derived_fields():
+def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller():
     items = [
         {
             "creator_id": "shop-a",
@@ -48,12 +48,25 @@ def test_report_separates_observed_and_derived_fields():
             "targets": [],
             "tag_set": {},
         },
+        {
+            "creator_id": "unknown",
+            "creator_name": "Unknown Shop",
+            "source_url": "https://booth.pm/ja/items/4",
+            "price": 100,
+            "category": "ASSET",
+            "last_observed_at": "2026-08-29T02:00:00Z",
+            "targets": [],
+            "tag_set": {},
+        },
     ]
 
     report = build_report(items)
     seller = next(row for row in report["sellers"] if row["seller_id"] == "shop-a")
 
     assert report["as_of"] == "2026-08-29T01:00:00Z"
+    assert report["seller_count"] == 2
+    assert all(row["seller_id"] != "unknown" for row in report["sellers"])
+    assert "ASSET" not in report["market_by_category"]
     assert seller["item_count"] == 2
     assert seller["price"]["median"] == 2000
     assert seller["categories"][0]["market"]["median"] == 3000
