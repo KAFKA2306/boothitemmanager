@@ -7,6 +7,8 @@
 - Keep Python modules under `src/boothitemmanager2/` and executable maintenance code under `scripts/`; do not add Python modules at the repository root.
 - Follow [docs/ARCHITECTURE_LAW.md](docs/ARCHITECTURE_LAW.md) for the current source layout constraints.
 - Preserve the distinction between seller-stated facts, observed values, derived data, and unknown values described in [README.md](README.md).
+- 公開Webサイトがある場合、READMEの1行目にcanonical production URLを装飾なしの完全な`https://...` URLで置く。
+- `rel="canonical"`、`robots.txt`、`sitemap.xml`は同じcanonical production hostを参照し、別deployment hostをcanonicalにしない。
 
 ## Commands
 
