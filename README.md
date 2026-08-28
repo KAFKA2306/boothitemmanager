@@ -1,3 +1,5 @@
+https://boothitemmanager.pages.dev/
+
 # BoothItemManager2
 
 [![Build, Test and Deploy](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml/badge.svg)](https://github.com/KAFKA2306/boothitemmanager/actions/workflows/pages.yml)

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -149,3 +150,20 @@ def test_why_shown_panel_is_not_generated_or_styled() -> None:
     assert "この商品が表示された理由" not in script
     assert "現在の検索・カテゴリ・タグ条件に一致したため表示しています" not in script
     assert ".why-shown" not in css
+
+
+def test_public_search_metadata_uses_cloudflare_production() -> None:
+    production = "https://boothitemmanager.pages.dev/"
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
+    sitemap = ET.parse(ROOT / "sitemap.xml")
+
+    assert readme.splitlines()[0] == production
+    assert f'<link rel="canonical" href="{production}">' in html
+    assert f"Sitemap: {production}sitemap.xml" in robots
+
+    namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    locations = [node.text for node in sitemap.findall("s:url/s:loc", namespace)]
+    assert locations == [production, f"{production}ai-tools.html"]
+    assert all(location.startswith(production) for location in locations)
