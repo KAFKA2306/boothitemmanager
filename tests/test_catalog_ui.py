@@ -152,15 +152,20 @@ def test_why_shown_panel_is_not_generated_or_styled() -> None:
     assert ".why-shown" not in css
 
 
-def test_public_search_metadata_uses_cloudflare_production() -> None:
-    production = "https://boothitemmanager.pages.dev/"
+def test_public_search_metadata_uses_github_pages_production(tmp_path: Path) -> None:
+    production = "https://kafka2306.github.io/boothitemmanager/"
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    html = (ROOT / "index.html").read_text(encoding="utf-8")
     robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
     sitemap = ET.parse(ROOT / "sitemap.xml")
+    output = tmp_path / "index.html"
+    build(ROOT / "index.html", output)
+    html = output.read_text(encoding="utf-8")
 
     assert readme.splitlines()[0] == production
     assert f'<link rel="canonical" href="{production}">' in html
+    assert f'"url": "{production}"' in html
+    assert f'<meta property="og:url" content="{production}">' in html
+    assert "https://boothitemmanager.pages.dev/" not in html
     assert f"Sitemap: {production}sitemap.xml" in robots
 
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
