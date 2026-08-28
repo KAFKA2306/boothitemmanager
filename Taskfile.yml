@@ -49,12 +49,12 @@ tasks:
   lint:
     desc: Lint code
     cmds:
-      - uv run ruff check src scripts tests
+      - uv run ruff check src
 
   format:
     desc: Format code
     cmds:
-      - uv run ruff format src scripts tests
+      - uv run ruff format src
 
   test:
     desc: Run tests
