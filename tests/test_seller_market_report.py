@@ -2,6 +2,7 @@ import importlib.util
 from pathlib import Path
 
 MODULE_PATH = Path(__file__).parents[1] / "scripts" / "build_seller_market_report.py"
+PAGE_PATH = Path(__file__).parents[1] / "seller" / "market-report" / "index.html"
 SPEC = importlib.util.spec_from_file_location("build_seller_market_report", MODULE_PATH)
 assert SPEC and SPEC.loader
 MODULE = importlib.util.module_from_spec(SPEC)
@@ -73,3 +74,12 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
     assert seller["explicit_avatar_counts"] == [{"name": "桔梗", "count": 2}]
     assert seller["derived"]["style"] == [{"name": "Cute", "count": 2}]
     assert "需要" in report["evidence_contract"]["not_measured"]
+
+
+def test_selected_seller_is_carried_into_business_inquiry_title():
+    page = PAGE_PATH.read_text(encoding="utf-8")
+
+    assert 'id="business-inquiry"' in page
+    assert "template: 'seller-analysis.yml'" in page
+    assert "販売者向け分析の相談: ${seller.seller_name} (${seller.seller_id})" in page
+    assert "issues/new?${inquiryParams.toString()}" in page
