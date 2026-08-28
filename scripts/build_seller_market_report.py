@@ -11,6 +11,8 @@ from pathlib import Path
 from typing import Any
 
 DERIVED_TAG_FIELDS = ("style", "color", "feature")
+UNKNOWN_SELLER_IDS = {"unknown"}
+UNKNOWN_SELLER_NAMES = {"Unknown Shop"}
 
 
 def percentile(values: list[int | float], probability: float) -> float | None:
@@ -54,7 +56,14 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
         seller_name = str(item.get("creator_name") or "").strip()
         category = str(item.get("category") or "UNKNOWN").strip() or "UNKNOWN"
         price = item.get("price")
-        if not seller_id or not seller_name or not isinstance(price, (int, float)) or price < 0:
+        if (
+            not seller_id
+            or not seller_name
+            or seller_id in UNKNOWN_SELLER_IDS
+            or seller_name in UNKNOWN_SELLER_NAMES
+            or not isinstance(price, (int, float))
+            or price < 0
+        ):
             continue
 
         observed_at = item.get("last_observed_at")
@@ -134,6 +143,7 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
             "seller_and_price": "BOOTH観測値",
             "explicit_avatar_counts": "販売ページ由来の対応情報を正規化した値",
             "derived": "検索用に導出したタグ。販売者の明示事実とは別扱い",
+            "excluded": "販売者を特定できないplaceholderは販売者比較から除外",
             "not_measured": ["需要", "売上", "購入率"],
         },
         "market_by_category": market,
