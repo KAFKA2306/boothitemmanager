@@ -64,7 +64,7 @@
       <h2>ショップ全体の詳細分析</h2>
       <p>無料ページは公開カタログから再現できる市場スナップショットです。新商品企画やショップ全体の比較について、有償分析の相談を受け付けます。</p>
       <div class="actions">
-        <a class="button" href="https://github.com/KAFKA2306/boothitemmanager/issues/new?template=seller-analysis.yml">有償分析を相談する</a>
+        <a id="business-inquiry" class="button" href="https://github.com/KAFKA2306/boothitemmanager/issues/new?template=seller-analysis.yml">有償分析を相談する</a>
         <a href="https://github.com/KAFKA2306/boothitemmanager/issues/9">分析商品の検証状況を見る</a>
       </div>
     </div>
@@ -123,6 +123,12 @@ document.getElementById('show-report').addEventListener('click', () => {
   list('style-list', seller.derived.style);
   list('color-list', seller.derived.color);
   list('feature-list', seller.derived.feature);
+  const inquiry = document.getElementById('business-inquiry');
+  const inquiryParams = new URLSearchParams({
+    template: 'seller-analysis.yml',
+    title: `販売者向け分析の相談: ${seller.seller_name} (${seller.seller_id})`,
+  });
+  inquiry.href = `https://github.com/KAFKA2306/boothitemmanager/issues/new?${inquiryParams.toString()}`;
   document.getElementById('report').hidden = false;
   history.replaceState(null, '', `?seller=${encodeURIComponent(seller.seller_id)}`);
 });
