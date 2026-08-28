@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public catalogue HTML and enforce the shared theme and production URL contracts."""
+"""Build the public catalogue HTML and enforce the shared KAFKA theme contract."""
 
 from __future__ import annotations
 
@@ -19,8 +19,6 @@ JS_MARKERS = (
 )
 META_MARKER = '<meta name="kafka-signal-release" content="kafka-signal-v2.0.0">'
 THEME_META = '<meta name="theme-color" content="#F6F7FB">'
-LEGACY_PRODUCTION = "https://boothitemmanager.pages.dev/"
-PRODUCTION = "https://kafka2306.github.io/boothitemmanager/"
 FORBIDDEN_NEON = (
     "#00f0ff",
     "#ff007a",
@@ -82,7 +80,6 @@ def build(source: Path, destination: Path) -> None:
         raise ValueError("index.html has no closing body element")
 
     html = _normalize_legacy_theme(html)
-    html = html.replace(LEGACY_PRODUCTION, PRODUCTION)
 
     for marker in CSS_MARKERS:
         if marker not in html:
@@ -112,8 +109,6 @@ def build(source: Path, destination: Path) -> None:
     leaked = [token for token in FORBIDDEN_NEON if token in lower]
     if leaked:
         raise ValueError("forbidden legacy neon tokens remain in distribution: " + ", ".join(leaked))
-    if LEGACY_PRODUCTION in html:
-        raise ValueError("legacy production URL remains in distribution")
 
     if html.rfind("kafka-signal.css") < html.rfind("</style>"):
         raise ValueError("kafka-signal.css must be loaded after the inline legacy stylesheet")

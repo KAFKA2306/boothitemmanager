@@ -1,4 +1,4 @@
-https://kafka2306.github.io/boothitemmanager/
+https://boothitemmanager.pages.dev/
 
 # BoothItemManager2
 
@@ -11,8 +11,9 @@ https://kafka2306.github.io/boothitemmanager/
 
 BoothItemManager2 は、VRChat向けBOOTH商品を **販売者が明示した事実と、システムが導出した検索情報を分けたまま探し・比較する** 静的dashboardです。
 
+- Cloudflare Pages: https://boothitemmanager.pages.dev/
 - GitHub Pages: https://kafka2306.github.io/boothitemmanager/
-- AI tools evidence index: https://kafka2306.github.io/boothitemmanager/ai-tools.html
+- AI tools evidence index: https://boothitemmanager.pages.dev/ai-tools.html
 
 ## Vision
 
