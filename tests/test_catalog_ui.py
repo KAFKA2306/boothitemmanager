@@ -167,3 +167,17 @@ def test_public_search_metadata_uses_cloudflare_production() -> None:
     locations = [node.text for node in sitemap.findall("s:url/s:loc", namespace)]
     assert locations == [production, f"{production}ai-tools.html"]
     assert all(location.startswith(production) for location in locations)
+
+
+def test_task_build_uses_single_canonical_build_path() -> None:
+    taskfile = (ROOT / "Taskfile.yml").read_text(encoding="utf-8")
+    build_section = taskfile.split("  refresh:", 1)[0]
+
+    assert "bash build_static.sh" in build_section
+    assert "api/*.js" not in build_section
+    assert "|| true" not in build_section
+
+
+def test_repository_has_no_javascript_catalog_fallback_assets() -> None:
+    assert not (ROOT / "api" / "metadata.js").exists()
+    assert list((ROOT / "api").glob("catalog_summary_part*.js")) == []
