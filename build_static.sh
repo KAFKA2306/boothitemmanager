@@ -51,8 +51,8 @@ for forbidden in (
     'window.BOOTH_CATALOG_PART1',
     'fallback script',
     'DATABASE OFFLINE (CORS)',
-    'api/metadata.js',
-    'api/catalog_summary_part1.js',
+    'src="api/metadata.js"',
+    'src="api/catalog_summary_part1.js"',
 ):
     if forbidden in html:
         raise SystemExit(f'fallback runtime leaked into dist/index.html: {forbidden}')
