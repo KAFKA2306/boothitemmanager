@@ -50,6 +50,91 @@ THEME_ALIASES = """:root {
             --font-heading: 'Outfit', sans-serif;
         }"""
 
+CANONICAL_INIT = """        async function init() {
+            try {
+                const metadataResponse = await fetch('api/metadata.json');
+                if (!metadataResponse.ok) {
+                    throw new Error(`metadata.json request failed: HTTP ${metadataResponse.status}`);
+                }
+                const metadata = await metadataResponse.json();
+                metaAvatars = metadata.avatars || [];
+                metaStyles = metadata.styles || [];
+                metaColors = metadata.colors || [];
+                metaFeatures = metadata.features || [];
+
+                window.avatarDict = {};
+                metaAvatars.forEach(av => {
+                    window.avatarDict[av.code] = {
+                        name_ja: av.name,
+                        name_en: av.code
+                    };
+                });
+
+                renderStaticFilters();
+
+                const params = new URLSearchParams(window.location.search);
+                const rAv = params.get('avatar');
+                if (rAv) {
+                    const found = metaAvatars.find(a => a.code.toLowerCase() === rAv.toLowerCase() || a.name.toLowerCase() === rAv.toLowerCase());
+                    if (found) { filters.avatar = found.code; document.title = `${found.name} - BoothItemManager`; }
+                }
+
+                const shardIndexResponse = await fetch('api/v1/shards.json');
+                if (!shardIndexResponse.ok) {
+                    throw new Error(`api/v1/shards.json request failed: HTTP ${shardIndexResponse.status}`);
+                }
+                const shardIndex = await shardIndexResponse.json();
+                if (!Array.isArray(shardIndex.shards) || shardIndex.shards.length === 0) {
+                    throw new Error('api/v1/shards.json contains no catalog shards');
+                }
+
+                const shardPayloads = await Promise.all(shardIndex.shards.map(async shard => {
+                    if (!shard.path || typeof shard.path !== 'string') {
+                        throw new Error('catalog shard path is missing');
+                    }
+                    const response = await fetch(shard.path);
+                    if (!response.ok) {
+                        throw new Error(`${shard.path} request failed: HTTP ${response.status}`);
+                    }
+                    const rows = await response.json();
+                    if (!Array.isArray(rows)) {
+                        throw new Error(`${shard.path} must contain a JSON array`);
+                    }
+                    if (Number.isInteger(shard.records) && rows.length !== shard.records) {
+                        throw new Error(`${shard.path} record count mismatch: expected ${shard.records}, got ${rows.length}`);
+                    }
+                    return rows;
+                }));
+
+                allItems = shardPayloads.flat();
+                if (Number.isInteger(shardIndex.record_count) && allItems.length !== shardIndex.record_count) {
+                    throw new Error(`catalog record count mismatch: expected ${shardIndex.record_count}, got ${allItems.length}`);
+                }
+
+                DOM.splash.style.opacity = '0';
+                DOM.splash.style.pointerEvents = 'none';
+                setTimeout(() => { if (DOM.splash.parentNode) DOM.splash.remove(); }, 500);
+                DOM.dot.classList.add('connected');
+                DOM.text.textContent = `CONNECTED [${allItems.length.toLocaleString()}]`;
+
+                precomputeItemData();
+                applyFilters();
+                renderStaticFilters();
+                updateCounts();
+                bindEvents();
+                setupObserver();
+            } catch (e) {
+                console.error(e);
+                DOM.msg.innerHTML = `<span style="color:var(--ks-pink)">DATABASE OFFLINE</span><br><br><span style="color:var(--text-secondary); font-size:0.85rem; line-height:1.5; text-align:left; display:block; max-width:400px; margin:0 auto; padding:12px; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px;">${e.message}</span>`;
+                const spinner = document.querySelector('.spinner');
+                if (spinner) spinner.style.borderTopColor = 'var(--ks-pink)';
+            }
+        }"""
+
+LEGACY_INIT = re.compile(
+    r"(?s)        async function init\(\) \{.*?\n        \}\n\n        function renderStaticFilters\(\)"
+)
+
 
 def _normalize_legacy_theme(html: str) -> str:
     html, count = LEGACY_ROOT.subn(THEME_ALIASES, html, count=1)
@@ -72,6 +157,19 @@ def _normalize_legacy_theme(html: str) -> str:
     return html
 
 
+def _replace_legacy_data_loader(html: str) -> str:
+    html = html.replace('    <script src="api/metadata.js" defer></script>\n', '')
+    html = html.replace('    <script src="api/catalog_summary_part1.js" defer></script>\n', '')
+    html, count = LEGACY_INIT.subn(
+        CANONICAL_INIT + "\n\n        function renderStaticFilters()",
+        html,
+        count=1,
+    )
+    if count != 1:
+        raise ValueError("legacy catalogue data loader changed; refusing an unreviewed build")
+    return html
+
+
 def build(source: Path, destination: Path) -> None:
     html = source.read_text(encoding="utf-8")
     if "</head>" not in html:
@@ -79,6 +177,7 @@ def build(source: Path, destination: Path) -> None:
     if "</body>" not in html:
         raise ValueError("index.html has no closing body element")
 
+    html = _replace_legacy_data_loader(html)
     html = _normalize_legacy_theme(html)
 
     for marker in CSS_MARKERS:
@@ -99,11 +198,25 @@ def build(source: Path, destination: Path) -> None:
         "function renderGrid()",
         "function renderStaticFilters()",
         "function fillModal(d)",
+        "fetch('api/metadata.json')",
+        "fetch('api/v1/shards.json')",
         "init();",
     )
     missing = [marker for marker in required_runtime_markers if marker not in html]
     if missing:
         raise ValueError("existing catalogue runtime changed: " + ", ".join(missing))
+
+    forbidden_runtime_markers = (
+        "window.BOOTH_METADATA",
+        "window.BOOTH_CATALOG_PART1",
+        "fallback script",
+        "DATABASE OFFLINE (CORS)",
+        'src="api/metadata.js"',
+        'src="api/catalog_summary_part1.js"',
+    )
+    leaked_runtime = [marker for marker in forbidden_runtime_markers if marker in html]
+    if leaked_runtime:
+        raise ValueError("fallback runtime leaked into distribution: " + ", ".join(leaked_runtime))
 
     lower = html.lower()
     leaked = [token for token in FORBIDDEN_NEON if token in lower]
