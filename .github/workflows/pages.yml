@@ -34,22 +34,7 @@ jobs:
           uv run playwright install --with-deps chromium
 
       - name: Build static site
-        run: |
-          mkdir -p dist dist/api dist/seller/market-report
-          python scripts/build_ui.py --source index.html --output dist/index.html
-          cp ai-tools.html robots.txt sitemap.xml catalog-ux.css catalog-ux.js catalog-evidence.css catalog-evidence.js kafka-signal.css kafka-signal.js dist/
-          cp seller/market-report/index.html dist/seller/market-report/index.html
-          mkdir -p dist/api
-          if [ -d api ]; then
-            cp api/*.json api/*.js dist/api/ 2>/dev/null || true
-          fi
-          if [ -d api/details ]; then
-            cp -r api/details dist/api/
-          fi
-          python scripts/build_seller_market_report.py --api-dir api --output dist/api/seller_market_report.json
-          python scripts/build_proof.py --api-dir api --output dist/proof.json
-          test -s dist/api/seller_market_report.json
-          test -s dist/seller/market-report/index.html
+        run: bash build_static.sh
 
       - name: Validate ontology tags
         run: |
@@ -77,11 +62,13 @@ jobs:
             scripts/build_ui.py \
             scripts/build_proof.py \
             scripts/build_seller_market_report.py \
+            scripts/build_static_distribution.py \
             scripts/refresh_catalog.py \
             src/boothitemmanager2/freshness.py \
             src/boothitemmanager2/crawler.py \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
+            tests/test_build_static_distribution.py \
             tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
@@ -92,12 +79,23 @@ jobs:
           uv run pytest \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
+            tests/test_build_static_distribution.py \
             tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py \
             tests/test_ai_tool_detector.py \
             tests/e2e/test_browser.py -v
+
+      - name: Verify canonical runtime payload
+        run: |
+          test -s dist/api/metadata.json
+          test -s dist/api/v1/manifest.json
+          test -s dist/api/v1/shards.json
+          ! grep -Fq 'window.BOOTH_METADATA' dist/index.html
+          ! grep -Fq 'window.BOOTH_CATALOG_PART1' dist/index.html
+          ! grep -Fq 'fallback script' dist/index.html
+          ! grep -Fq 'DATABASE OFFLINE (CORS)' dist/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -128,7 +126,11 @@ jobs:
           root_html="$(curl --fail --silent --show-error https://kafka2306.github.io/boothitemmanager/)"
           report_html="$(curl --fail --silent --show-error https://kafka2306.github.io/boothitemmanager/seller/market-report/)"
           printf '%s' "$root_html" | grep -Fq 'BoothItemManager2'
+          printf '%s' "$root_html" | grep -Fq "fetch('api/v1/shards.json')"
+          ! printf '%s' "$root_html" | grep -Fq 'window.BOOTH_METADATA'
           printf '%s' "$report_html" | grep -Fq 'BOOTH販売者向け市場レポート'
+          curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/metadata.json
+          curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/v1/shards.json
           curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/seller_market_report.json
 
   cleanup-merged-branches:
