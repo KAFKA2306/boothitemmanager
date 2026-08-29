@@ -15,6 +15,7 @@ cp seller/market-report/index.html dist/seller/market-report/index.html
 
 # Canonical browser data is JSON only. Missing required data must fail the build.
 cp api/metadata.json dist/api/metadata.json
+cp api/ai_tool_candidates.json dist/api/ai_tool_candidates.json
 cp api/catalog_summary_part*.json dist/api/
 cp -r api/details dist/api/
 cp -r api/v1 dist/api/
@@ -64,6 +65,7 @@ print(json.dumps({
 }, ensure_ascii=False, sort_keys=True))
 PY
 
+test -s dist/api/ai_tool_candidates.json
 test -s dist/api/seller_market_report.json
 test -s dist/seller/market-report/index.html
 
