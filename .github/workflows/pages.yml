@@ -62,13 +62,11 @@ jobs:
             scripts/build_ui.py \
             scripts/build_proof.py \
             scripts/build_seller_market_report.py \
-            scripts/build_static_distribution.py \
             scripts/refresh_catalog.py \
             src/boothitemmanager2/freshness.py \
             src/boothitemmanager2/crawler.py \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
-            tests/test_build_static_distribution.py \
             tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
@@ -79,7 +77,6 @@ jobs:
           uv run pytest \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
-            tests/test_build_static_distribution.py \
             tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
