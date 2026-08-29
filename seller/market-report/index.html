@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BOOTH販売者向け市場レポート | BoothItemManager2</title>
-  <meta name="description" content="公開BOOTHカタログから、価格帯・カテゴリ構成・明示対応アバターを販売者単位で確認します。">
+  <meta name="description" content="公開BOOTHカタログから、価格帯・カテゴリ構成・明示対応アバター・類似商品を販売者単位で確認します。">
   <link rel="canonical" href="https://boothitemmanager.pages.dev/seller/market-report/">
   <link rel="stylesheet" href="../../kafka-signal.css">
   <style>
@@ -15,7 +15,7 @@
 <main>
   <p><a href="../../">BoothItemManager2へ戻る</a></p>
   <h1>BOOTH販売者向け市場レポート</h1>
-  <p class="muted">公開カタログの観測値から、ショップの価格帯・カテゴリ構成・明示対応アバターを比較します。需要、売上、購入率は推測しません。</p>
+  <p class="muted">公開カタログの観測値から、ショップの価格帯・カテゴリ構成・明示対応アバター・既存の類似商品参照を比較します。需要、売上、購入率は推測しません。</p>
 
   <section class="panel">
     <h2>ショップを選ぶ</h2>
@@ -42,6 +42,13 @@
     <div class="panel">
       <h2>カテゴリ別の価格比較</h2>
       <table><thead><tr><th>カテゴリ</th><th>ショップ商品数</th><th>ショップ中央値</th><th>市場中央値</th><th>市場商品数</th></tr></thead><tbody id="category-body"></tbody></table>
+    </div>
+
+    <div class="panel">
+      <h2>近い比較候補商品</h2>
+      <p class="muted">カタログ生成時の既存<code>similar_items</code>参照をショップ単位で集約した候補です。需要・売上順位ではありません。商品名から元のBOOTH販売ページを開けます。</p>
+      <table><thead><tr><th>商品</th><th>販売者</th><th>カテゴリ</th><th>価格</th><th>参照商品数</th></tr></thead><tbody id="comparable-body"></tbody></table>
+      <p id="comparable-empty" class="muted" hidden>比較候補はありません。</p>
     </div>
 
     <div class="panel">
@@ -119,6 +126,23 @@ document.getElementById('show-report').addEventListener('click', () => {
     });
     return tr;
   }));
+  const comparableRows = seller.comparable_items || [];
+  document.getElementById('comparable-body').replaceChildren(...comparableRows.map(row => {
+    const tr = document.createElement('tr');
+    const product = document.createElement('td');
+    const link = document.createElement('a');
+    link.href = row.source_url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = row.title;
+    product.appendChild(link);
+    tr.appendChild(product);
+    [row.seller_name, row.category, yen(row.price), row.similarity_reference_count].forEach(value => {
+      const td = document.createElement('td'); td.textContent = value; tr.appendChild(td);
+    });
+    return tr;
+  }));
+  document.getElementById('comparable-empty').hidden = comparableRows.length !== 0;
   list('avatar-list', seller.explicit_avatar_counts);
   list('style-list', seller.derived.style);
   list('color-list', seller.derived.color);
