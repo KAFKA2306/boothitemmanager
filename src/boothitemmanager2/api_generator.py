@@ -1,5 +1,7 @@
 import json
 import os
+import shutil
+import subprocess
 from collections import Counter
 from dataclasses import asdict
 from datetime import datetime
@@ -10,19 +12,11 @@ from .storage import Item
 
 
 def safe_rmtree(path: str):
-    import shutil
-    import os
-
     if os.path.exists(path):
-        try:
-            shutil.rmtree(path)
-        except Exception:
-            os.system(f"rm -rf {path}")
+        shutil.rmtree(path)
 
 
 def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -> TestBlock:
-    import shutil
-
     api_dir = "api"
     api_staging = "api_staging"
 
@@ -107,21 +101,11 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         part_id = (i // shard_size) + 1
         part_data = catalog_summaries[i : i + shard_size]
 
-        # Save JSON to staging
         with open(
             os.path.join(api_staging, f"catalog_summary_part{part_id}.json"), "w", encoding="utf-8"
         ) as f:
             json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
 
-        # Save JS fallback to staging
-        with open(
-            os.path.join(api_staging, f"catalog_summary_part{part_id}.js"), "w", encoding="utf-8"
-        ) as f:
-            f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
-            json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(";")
-
-        # Also save to dist if it exists
         if has_dist_api:
             with open(
                 os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.json"),
@@ -129,37 +113,21 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
                 encoding="utf-8",
             ) as f:
                 json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
-            with open(
-                os.path.join(dist_api_staging, f"catalog_summary_part{part_id}.js"),
-                "w",
-                encoding="utf-8",
-            ) as f:
-                f.write(f"window.BOOTH_CATALOG_PART{part_id} = ")
-                json.dump(part_data, f, ensure_ascii=False, separators=(",", ":"))
-                f.write(";")
 
     total_shards = (len(catalog_summaries) + shard_size - 1) // shard_size
 
-    # Regrow metadata.json using scripts/generate_metadata.py
-    os.system("python3 scripts/generate_metadata.py")
+    subprocess.run(["python3", "scripts/generate_metadata.py"], check=True)
 
     metadata_path = os.path.join(api_staging, "metadata.json")
     if not os.path.exists(metadata_path):
-        metadata_path = "api/metadata.json"
+        raise FileNotFoundError(f"canonical metadata is missing: {metadata_path}")
 
-    if os.path.exists(metadata_path):
-        with open(metadata_path, encoding="utf-8") as f:
-            meta_content = json.load(f)
+    with open(metadata_path, encoding="utf-8") as f:
+        meta_content = json.load(f)
 
-        # Inject shard info into metadata
-        meta_content["catalog_shards"] = total_shards
-        with open(os.path.join(api_staging, "metadata.json"), "w", encoding="utf-8") as f:
-            json.dump(meta_content, f, ensure_ascii=False, indent=2)
-
-        with open(os.path.join(api_staging, "metadata.js"), "w", encoding="utf-8") as f:
-            f.write("window.BOOTH_METADATA = ")
-            json.dump(meta_content, f, ensure_ascii=False, separators=(",", ":"))
-            f.write(";")
+    meta_content["catalog_shards"] = total_shards
+    with open(os.path.join(api_staging, "metadata.json"), "w", encoding="utf-8") as f:
+        json.dump(meta_content, f, ensure_ascii=False, indent=2)
 
     # Shard individual item data into 100 files to bypass Cloudflare file limits
     details_dir = os.path.join(api_staging, "details")
@@ -167,13 +135,11 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     shards = {str(i).zfill(2): {} for i in range(100)}
     for item in items:
-        # Determine shard ID from item_id suffix (numeric) or simple hash
         if item.item_id.isdigit():
             shard_id = str(int(item.item_id) % 100).zfill(2)
         else:
             shard_id = str(sum(ord(c) for c in item.item_id) % 100).zfill(2)
 
-        # Filter out internal/private fields from the public sharded files
         item_dict = asdict(item)
         item_dict.pop("user_state", None)
         item_dict.pop("trace_log", None)
@@ -185,7 +151,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         with open(shard_path, "w", encoding="utf-8") as f:
             json.dump(shard_data, f, ensure_ascii=False, separators=(",", ":"), default=serialize)
 
-    # Sync details directory to dist/api_staging/details if needed
     if has_dist_api:
         dist_details_dir = os.path.join(dist_api_staging, "details")
         if os.path.exists(dist_details_dir):
@@ -211,8 +176,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     with open(metrics_path, "w", encoding="utf-8") as f:
         json.dump(metrics, f, ensure_ascii=False, indent=2)
 
-    # Perform atomic swaps
-    # Swap api/
     if os.path.exists(api_dir):
         api_old = "api_old"
         if os.path.exists(api_old):
@@ -223,7 +186,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     else:
         os.rename(api_staging, api_dir)
 
-    # Swap dist/api/
     if has_dist_api:
         if os.path.exists(dist_api_dir):
             dist_api_old = os.path.join("dist", "api_old")
