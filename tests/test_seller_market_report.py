@@ -20,44 +20,56 @@ def test_percentile_interpolates_without_external_dependency():
 def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller():
     items = [
         {
+            "item_id": "1",
             "creator_id": "shop-a",
             "creator_name": "Shop A",
+            "title": "Outfit A1",
             "source_url": "https://booth.pm/ja/items/1",
             "price": 1000,
             "category": "OUTFIT",
             "last_observed_at": "2026-08-28T00:00:00Z",
             "targets": [{"code": "Kikyo", "name": "桔梗"}],
             "tag_set": {"style": ["Cute"], "color": ["Black"], "feature": ["ModularAvatar"]},
+            "similar_items": ["3", "2"],
         },
         {
+            "item_id": "2",
             "creator_id": "shop-a",
             "creator_name": "Shop A",
+            "title": "Outfit A2",
             "source_url": "https://booth.pm/ja/items/2",
             "price": 3000,
             "category": "OUTFIT",
             "last_observed_at": "2026-08-29T00:00:00Z",
             "targets": [{"code": "Kikyo", "name": "桔梗"}],
             "tag_set": {"style": ["Cute"], "color": ["White"], "feature": []},
+            "similar_items": ["3"],
         },
         {
+            "item_id": "3",
             "creator_id": "shop-b",
             "creator_name": "Shop B",
+            "title": "Comparable Outfit",
             "source_url": "https://booth.pm/ja/items/3",
             "price": 5000,
             "category": "OUTFIT",
             "last_observed_at": "2026-08-29T01:00:00Z",
             "targets": [],
             "tag_set": {},
+            "similar_items": ["1"],
         },
         {
+            "item_id": "4",
             "creator_id": "unknown",
             "creator_name": "Unknown Shop",
+            "title": "Unknown",
             "source_url": "https://booth.pm/ja/items/4",
             "price": 100,
             "category": "ASSET",
             "last_observed_at": "2026-08-29T02:00:00Z",
             "targets": [],
             "tag_set": {},
+            "similar_items": [],
         },
     ]
 
@@ -73,7 +85,20 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
     assert seller["categories"][0]["market"]["median"] == 3000
     assert seller["explicit_avatar_counts"] == [{"name": "桔梗", "count": 2}]
     assert seller["derived"]["style"] == [{"name": "Cute", "count": 2}]
+    assert seller["comparable_items"] == [
+        {
+            "item_id": "3",
+            "title": "Comparable Outfit",
+            "seller_id": "shop-b",
+            "seller_name": "Shop B",
+            "category": "OUTFIT",
+            "price": 5000,
+            "source_url": "https://booth.pm/ja/items/3",
+            "similarity_reference_count": 2,
+        }
+    ]
     assert "需要" in report["evidence_contract"]["not_measured"]
+    assert "similar_items" in report["evidence_contract"]["comparable_items"]
 
 
 def test_selected_seller_is_carried_into_business_inquiry_title():
@@ -83,3 +108,12 @@ def test_selected_seller_is_carried_into_business_inquiry_title():
     assert "template: 'seller-analysis.yml'" in page
     assert "販売者向け分析の相談: ${seller.seller_name} (${seller.seller_id})" in page
     assert "issues/new?${inquiryParams.toString()}" in page
+
+
+def test_market_report_renders_comparable_items_from_existing_similarity_data():
+    page = PAGE_PATH.read_text(encoding="utf-8")
+
+    assert 'id="comparable-body"' in page
+    assert "seller.comparable_items || []" in page
+    assert "row.source_url" in page
+    assert "row.similarity_reference_count" in page
