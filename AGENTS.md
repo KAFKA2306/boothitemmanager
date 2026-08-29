@@ -15,12 +15,22 @@
 - catalog本体: `api/catalog_summary_part*.json`
 - `dist/` はbuild生成物。直接編集しない。
 
+## 作業目的ごとの最小読込先
+
+- catalog読込・接続障害: `scripts/build_ui.py` の `CANONICAL_INIT`、`build_static.sh`、`api/v1/shards.json`
+- 検索・絞り込み・カード操作: `catalog-ux.js` と `tests/test_catalog_ui.py`
+- 対応アバター等の根拠表示: `catalog-evidence.js`、`catalog-evidence.css`、`tests/test_catalog_ui.py`
+- static API生成: `src/boothitemmanager2/api_generator.py` と関連test
+- catalog更新: `scripts/refresh_catalog.py` と `tests/test_refresh_catalog.py`
+- 販売者レポート: `scripts/build_seller_market_report.py`、`seller/market-report/index.html`、`tests/test_seller_market_report.py`
+- deployment: `.github/workflows/pages.yml` と `build_static.sh`
+
 ## コンテキストを節約する読み方
 
-1. まずこの`AGENTS.md`と対象ファイルだけを読む。
+1. まずこの`AGENTS.md`と上の対象ファイルだけを読む。
 2. catalog全体を知るために`api/catalog_summary_part*.json`や`api/details/*`を全件読み込まない。最初に`api/v1/manifest.json`、`api/v1/shards.json`、`api/metadata.json`を見る。
 3. 実データ確認が必要な場合だけ、対象ID・対象shard・必要な行へ絞る。
-4. UI変更では`index.html`全体を読み直す前に、対象要素・関数名を検索して必要な範囲だけ読む。
+4. `index.html`は大きい。UI変更では対象要素・関数名を検索し、必要な範囲だけ読む。catalog読込処理は`index.html`全体ではなく`CANONICAL_INIT`から確認する。
 5. `dist/`、Actions artifact、過去commitをsourceの代わりにしない。現在branchのsourceと生成規則を優先する。
 6. 同じ処理を別scriptやTaskへ複製しない。`task build`もCIも`build_static.sh`を使う。
 
