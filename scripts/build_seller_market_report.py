@@ -49,6 +49,7 @@ def _counter_top(counter: Counter[str], limit: int = 20) -> list[dict[str, Any]]
 def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
     sellers: dict[str, dict[str, Any]] = {}
     market_prices: defaultdict[str, list[float]] = defaultdict(list)
+    item_by_id: dict[str, dict[str, Any]] = {}
     as_of_values: list[str] = []
 
     for item in items:
@@ -66,6 +67,10 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
         ):
             continue
 
+        item_id = str(item.get("item_id") or "").strip()
+        if item_id:
+            item_by_id[item_id] = item
+
         observed_at = item.get("last_observed_at")
         if isinstance(observed_at, str) and observed_at:
             as_of_values.append(observed_at)
@@ -82,11 +87,14 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "style": Counter(),
                 "color": Counter(),
                 "feature": Counter(),
+                "item_ids": [],
                 "observed_at": [],
             },
         )
         seller["prices"].append(float(price))
         seller["categories"][category].append(float(price))
+        if item_id:
+            seller["item_ids"].append(item_id)
         if isinstance(observed_at, str) and observed_at:
             seller["observed_at"].append(observed_at)
 
@@ -119,6 +127,45 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                     "market": market[category],
                 }
             )
+
+        comparable_counts: Counter[str] = Counter()
+        for item_id in seller["item_ids"]:
+            item = item_by_id[item_id]
+            similar_items = item.get("similar_items") or []
+            if not isinstance(similar_items, list):
+                continue
+            for similar_id in similar_items:
+                candidate_id = str(similar_id).strip()
+                candidate = item_by_id.get(candidate_id)
+                if not candidate:
+                    continue
+                if str(candidate.get("creator_id") or "").strip() == seller["seller_id"]:
+                    continue
+                comparable_counts[candidate_id] += 1
+
+        comparable_items = []
+        for candidate_id, reference_count in sorted(
+            comparable_counts.items(),
+            key=lambda row: (
+                -row[1],
+                str(item_by_id[row[0]].get("title") or ""),
+                row[0],
+            ),
+        )[:12]:
+            candidate = item_by_id[candidate_id]
+            comparable_items.append(
+                {
+                    "item_id": candidate_id,
+                    "title": str(candidate.get("title") or candidate_id),
+                    "seller_id": str(candidate.get("creator_id") or ""),
+                    "seller_name": str(candidate.get("creator_name") or ""),
+                    "category": str(candidate.get("category") or "UNKNOWN"),
+                    "price": candidate.get("price"),
+                    "source_url": str(candidate.get("source_url") or ""),
+                    "similarity_reference_count": reference_count,
+                }
+            )
+
         seller_rows.append(
             {
                 "seller_id": seller["seller_id"],
@@ -131,6 +178,7 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "derived": {
                     field: _counter_top(seller[field]) for field in DERIVED_TAG_FIELDS
                 },
+                "comparable_items": comparable_items,
             }
         )
 
@@ -143,6 +191,7 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
             "seller_and_price": "BOOTH観測値",
             "explicit_avatar_counts": "販売ページ由来の対応情報を正規化した値",
             "derived": "検索用に導出したタグ。販売者の明示事実とは別扱い",
+            "comparable_items": "既存のsimilar_items参照を販売者単位で集約した比較候補。需要や売上の順位ではない",
             "excluded": "販売者を特定できないplaceholderは販売者比較から除外",
             "not_measured": ["需要", "売上", "購入率"],
         },
