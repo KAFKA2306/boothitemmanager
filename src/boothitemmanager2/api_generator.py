@@ -1,7 +1,6 @@
 import json
 import os
 import shutil
-import subprocess
 from collections import Counter
 from dataclasses import asdict
 from datetime import datetime
@@ -20,7 +19,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     api_dir = "api"
     api_staging = "api_staging"
 
-    # Prepare staging for api/
     if os.path.exists(api_staging):
         safe_rmtree(api_staging)
     if os.path.exists(api_dir):
@@ -28,7 +26,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
     else:
         os.makedirs(api_staging, exist_ok=True)
 
-    # Prepare staging for dist/api/ if it exists
     dist_api_dir = os.path.join("dist", "api")
     dist_api_staging = os.path.join("dist", "api_staging")
     has_dist_api = os.path.exists(dist_api_dir)
@@ -51,7 +48,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
             return obj.value
         return str(obj)
 
-    # Optimized catalog summary parts for instant page load
     catalog_summaries = []
     items_with_compat = 0
     for item in items:
@@ -95,7 +91,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     avatar_compatibility_rate = (items_with_compat / len(items)) * 100 if items else 0
 
-    # Consistently shard into 5000-item blocks to stay under 25MiB
     shard_size = 5000
     for i in range(0, len(catalog_summaries), shard_size):
         part_id = (i // shard_size) + 1
@@ -116,8 +111,6 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
 
     total_shards = (len(catalog_summaries) + shard_size - 1) // shard_size
 
-    subprocess.run(["python3", "scripts/generate_metadata.py"], check=True)
-
     metadata_path = os.path.join(api_staging, "metadata.json")
     if not os.path.exists(metadata_path):
         raise FileNotFoundError(f"canonical metadata is missing: {metadata_path}")
@@ -126,10 +119,9 @@ def generate_api(items: list[Item], graph_data: dict[str, Any], trace_id: str) -
         meta_content = json.load(f)
 
     meta_content["catalog_shards"] = total_shards
-    with open(os.path.join(api_staging, "metadata.json"), "w", encoding="utf-8") as f:
+    with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(meta_content, f, ensure_ascii=False, indent=2)
 
-    # Shard individual item data into 100 files to bypass Cloudflare file limits
     details_dir = os.path.join(api_staging, "details")
     os.makedirs(details_dir, exist_ok=True)
 
