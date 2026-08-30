@@ -29,7 +29,6 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from boothitemmanager2.freshness import (  # noqa: E402
     atomic_write_json,
-    atomic_write_text,
     isoformat_utc,
     refresh_cycle_hours,
     stable_refresh_batch,
@@ -362,10 +361,6 @@ def update_detail(api_dir: Path, obs: Observation, observed_at: str) -> bool:
 
 def write_summary_shard(api_dir: Path, number: int, rows: list[dict[str, Any]]) -> None:
     atomic_write_json(api_dir / f"catalog_summary_part{number}.json", rows, compact=True)
-    js = f"window.BOOTH_CATALOG_PART{number} = " + json.dumps(
-        rows, ensure_ascii=False, separators=(",", ":")
-    ) + ";\n"
-    atomic_write_text(api_dir / f"catalog_summary_part{number}.js", js)
 
 
 def _load_metadata(api_dir: Path) -> dict[str, Any]:
@@ -378,12 +373,6 @@ def _load_metadata(api_dir: Path) -> dict[str, Any]:
 
 def _write_metadata(api_dir: Path, metadata: dict[str, Any]) -> None:
     atomic_write_json(api_dir / "metadata.json", metadata)
-    atomic_write_text(
-        api_dir / "metadata.js",
-        "window.BOOTH_METADATA = "
-        + json.dumps(metadata, ensure_ascii=False, separators=(",", ":"))
-        + ";\n",
-    )
 
 
 def fetch(session: requests.Session, url: str, timeout: float) -> requests.Response:
