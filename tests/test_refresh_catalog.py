@@ -86,3 +86,13 @@ def test_new_item_is_conservative_asset_without_invented_compatibility() -> None
     assert row["compatible_avatars"] == []
     assert row["tags"] == []
     assert row["author"] == "Unknown Shop"
+
+
+def test_refresh_persists_browser_data_as_json_only(tmp_path: Path) -> None:
+    MOD.write_summary_shard(tmp_path, 1, [{"id": "123"}])
+    MOD._write_metadata(tmp_path, {"catalog_shards": 1})
+
+    assert (tmp_path / "catalog_summary_part1.json").is_file()
+    assert (tmp_path / "metadata.json").is_file()
+    assert not (tmp_path / "catalog_summary_part1.js").exists()
+    assert not (tmp_path / "metadata.js").exists()
