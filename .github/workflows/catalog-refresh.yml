@@ -55,6 +55,10 @@ jobs:
             --interval-minutes 15 \
             --report build/refresh-report.json
 
+      - name: Keep repository data JSON-only
+        run: |
+          rm -f api/metadata.js api/catalog_summary_part*.js
+
       - name: Audit candidate static API
         run: |
           python scripts/audit_static_api.py api \
