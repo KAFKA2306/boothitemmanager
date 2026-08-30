@@ -55,9 +55,13 @@ jobs:
             --interval-minutes 15 \
             --report build/refresh-report.json
 
-      - name: Keep repository data JSON-only
+      - name: Verify repository data stays JSON-only
         run: |
-          rm -f api/metadata.js api/catalog_summary_part*.js
+          test ! -e api/metadata.js
+          if compgen -G 'api/catalog_summary_part*.js' > /dev/null; then
+            echo 'catalog refresh recreated forbidden JavaScript fallback assets' >&2
+            exit 1
+          fi
 
       - name: Audit candidate static API
         run: |
