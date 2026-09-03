@@ -74,6 +74,9 @@ jobs:
           node --check catalog-ux.js
           node --check catalog-evidence.js
           node --check kafka-signal.js
+
+      - name: Validate unit tests
+        run: |
           uv run pytest \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
