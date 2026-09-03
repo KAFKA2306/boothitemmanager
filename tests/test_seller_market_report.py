@@ -81,6 +81,7 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
     assert all(row["seller_id"] != "unknown" for row in report["sellers"])
     assert "ASSET" not in report["market_by_category"]
     assert seller["item_count"] == 2
+    assert seller["item_ids"] == ["1", "2"]
     assert seller["price"]["median"] == 2000
     assert seller["categories"][0]["market"]["median"] == 3000
     assert seller["explicit_avatar_counts"] == [{"name": "桔梗", "count": 2}]
@@ -101,13 +102,27 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
     assert "similar_items" in report["evidence_contract"]["comparable_items"]
 
 
-def test_selected_seller_is_carried_into_business_inquiry_title():
+def test_seller_page_accepts_booth_item_url_without_guessing_shop_identity():
+    page = PAGE_PATH.read_text(encoding="utf-8")
+
+    assert "BOOTH商品URL、販売者名、販売者ID" in page
+    assert "booth\\.pm" in page
+    assert "item_ids || []" in page
+    assert "includes(itemId)" in page
+    assert "収録済みのBOOTH商品URL" in page
+
+
+def test_selected_seller_is_carried_into_business_inquiry_purposes():
     page = PAGE_PATH.read_text(encoding="utf-8")
 
     assert 'id="business-inquiry"' in page
+    assert 'id="new-product-inquiry"' in page
+    assert 'id="monthly-report-inquiry"' in page
     assert "template: 'seller-analysis.yml'" in page
-    assert "販売者向け分析の相談: ${seller.seller_name} (${seller.seller_id})" in page
-    assert "issues/new?${inquiryParams.toString()}" in page
+    assert "ショップ全体の分析相談" in page
+    assert "新商品企画の分析相談" in page
+    assert "月次レポートの相談" in page
+    assert "issues/new?${params.toString()}" in page
 
 
 def test_market_report_renders_comparable_items_from_existing_similarity_data():
@@ -117,3 +132,15 @@ def test_market_report_renders_comparable_items_from_existing_similarity_data():
     assert "seller.comparable_items || []" in page
     assert "row.source_url" in page
     assert "row.similarity_reference_count" in page
+
+
+def test_report_restore_waits_for_data_once_and_share_failures_are_visible():
+    page = PAGE_PATH.read_text(encoding="utf-8")
+
+    assert "setInterval" not in page
+    assert "if (initialSeller) showSellerReport(initialSeller);" in page
+    assert 'id="share-report"' in page
+    assert "navigator.share" in page
+    assert "navigator.clipboard?.writeText" in page
+    assert "共有できません" in page
+    assert "URLをコピーできません" in page

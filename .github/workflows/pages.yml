@@ -74,15 +74,22 @@ jobs:
           node --check catalog-ux.js
           node --check catalog-evidence.js
           node --check kafka-signal.js
+
+      - name: Validate seller report unit tests
+        run: uv run pytest tests/test_seller_market_report.py -v
+
+      - name: Validate remaining unit tests
+        run: |
           uv run pytest \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
-            tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py \
-            tests/test_ai_tool_detector.py \
-            tests/e2e/test_browser.py -v
+            tests/test_ai_tool_detector.py -v
+
+      - name: Validate browser user flows
+        run: uv run pytest tests/e2e/test_browser.py -v
 
       - name: Verify canonical runtime payload
         run: |

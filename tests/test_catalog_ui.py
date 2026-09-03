@@ -165,7 +165,11 @@ def test_public_search_metadata_uses_cloudflare_production() -> None:
 
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     locations = [node.text for node in sitemap.findall("s:url/s:loc", namespace)]
-    assert locations == [production, f"{production}ai-tools.html"]
+    assert locations == [
+        production,
+        f"{production}ai-tools.html",
+        f"{production}seller/market-report/",
+    ]
     assert all(location.startswith(production) for location in locations)
 
 

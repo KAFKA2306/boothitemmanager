@@ -171,6 +171,7 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "seller_id": seller["seller_id"],
                 "seller_name": seller["seller_name"],
                 "item_count": len(seller["prices"]),
+                "item_ids": sorted(set(seller["item_ids"])),
                 "as_of": max(seller["observed_at"]) if seller["observed_at"] else None,
                 "price": price_summary(seller["prices"]),
                 "categories": category_rows,
