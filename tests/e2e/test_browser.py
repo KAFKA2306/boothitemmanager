@@ -1,6 +1,8 @@
+import json
 import re
 import subprocess
 import time
+from pathlib import Path
 
 import pytest
 import requests
@@ -182,3 +184,30 @@ def test_ai_tool_evidence_page(page: Page):
     expect(page.locator(".card").first).to_be_visible()
     expect(page.get_by_text("ショップがAI関連ツールを販売していても")).to_be_visible()
     assert js_errors == []
+
+
+def test_seller_market_report_accepts_real_catalog_item_url_and_restores(page: Page):
+    payload = json.loads(Path("dist/api/seller_market_report.json").read_text(encoding="utf-8"))
+    seller = next(row for row in payload["sellers"] if row.get("item_ids"))
+    item_id = seller["item_ids"][0]
+
+    response = page.goto("http://localhost:8080/seller/market-report/")
+    assert response.status == 200
+    expect(page.locator("#status")).to_contain_text("販売者", timeout=10000)
+
+    page.locator("#seller-input").fill(f"https://booth.pm/ja/items/{item_id}")
+    page.locator("#show-report").click()
+
+    expect(page.locator("#report")).to_be_visible()
+    expect(page.locator("#seller-name")).to_have_text(f"{seller['seller_name']} の市場スナップショット")
+    expect(page.locator("#item-count")).to_have_text(f"{seller['item_count']:,}")
+    expect(page).to_have_url(re.compile(r"[?&]seller="))
+    expect(page.locator("#business-inquiry")).to_have_attribute("href", re.compile(r"title="))
+    expect(page.locator("#new-product-inquiry")).to_have_attribute("href", re.compile(r"title="))
+    expect(page.locator("#monthly-report-inquiry")).to_have_attribute("href", re.compile(r"title="))
+
+    restored_url = page.url
+    page.reload()
+    expect(page.locator("#report")).to_be_visible(timeout=10000)
+    expect(page.locator("#seller-name")).to_have_text(f"{seller['seller_name']} の市場スナップショット")
+    assert page.url == restored_url
