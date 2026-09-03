@@ -81,8 +81,10 @@ jobs:
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py \
-            tests/test_ai_tool_detector.py \
-            tests/e2e/test_browser.py -v
+            tests/test_ai_tool_detector.py -v
+
+      - name: Validate browser user flows
+        run: uv run pytest tests/e2e/test_browser.py -v
 
       - name: Verify canonical runtime payload
         run: |
