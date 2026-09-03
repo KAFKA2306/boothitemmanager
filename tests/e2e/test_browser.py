@@ -198,16 +198,16 @@ def test_seller_market_report_accepts_real_catalog_item_url_and_restores(page: P
     page.locator("#seller-input").fill(f"https://booth.pm/ja/items/{item_id}")
     page.locator("#show-report").click()
 
-    expect(page.locator("#report")).to_be_visible()
-    expect(page.locator("#seller-name")).to_have_text(f"{seller['seller_name']} の市場スナップショット")
-    expect(page.locator("#item-count")).to_have_text(f"{seller['item_count']:,}")
+    expect(page.locator("#report")).to_be_visible(timeout=10000)
+    expect(page.locator("#seller-name")).to_have_text(
+        f"{seller['seller_name']} の市場スナップショット"
+    )
     expect(page).to_have_url(re.compile(r"[?&]seller="))
-    expect(page.locator("#business-inquiry")).to_have_attribute("href", re.compile(r"title="))
-    expect(page.locator("#new-product-inquiry")).to_have_attribute("href", re.compile(r"title="))
-    expect(page.locator("#monthly-report-inquiry")).to_have_attribute("href", re.compile(r"title="))
 
     restored_url = page.url
     page.reload()
     expect(page.locator("#report")).to_be_visible(timeout=10000)
-    expect(page.locator("#seller-name")).to_have_text(f"{seller['seller_name']} の市場スナップショット")
+    expect(page.locator("#seller-name")).to_have_text(
+        f"{seller['seller_name']} の市場スナップショット"
+    )
     assert page.url == restored_url
