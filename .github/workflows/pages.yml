@@ -75,12 +75,14 @@ jobs:
           node --check catalog-evidence.js
           node --check kafka-signal.js
 
-      - name: Validate unit tests
+      - name: Validate seller report unit tests
+        run: uv run pytest tests/test_seller_market_report.py -v
+
+      - name: Validate remaining unit tests
         run: |
           uv run pytest \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
-            tests/test_seller_market_report.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py \
