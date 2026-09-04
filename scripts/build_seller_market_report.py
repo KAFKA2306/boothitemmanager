@@ -46,36 +46,57 @@ def _counter_top(counter: Counter[str], limit: int = 20) -> list[dict[str, Any]]
     ]
 
 
+def _market_item_exclusion_reason(item: dict[str, Any]) -> str | None:
+    seller_id = str(item.get("creator_id") or "").strip()
+    seller_name = str(item.get("creator_name") or "").strip()
+    if (
+        not seller_id
+        or not seller_name
+        or seller_id in UNKNOWN_SELLER_IDS
+        or seller_name in UNKNOWN_SELLER_NAMES
+    ):
+        return "seller_unknown"
+
+    price = item.get("price")
+    if not isinstance(price, (int, float)) or price < 0:
+        return "price_unavailable"
+
+    observed_at = item.get("last_observed_at")
+    if str(item.get("source_status") or "").strip().lower() != "observed" or not (
+        isinstance(observed_at, str) and observed_at.strip()
+    ):
+        return "observation_unverified"
+
+    return None
+
+
 def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
     sellers: dict[str, dict[str, Any]] = {}
     market_prices: defaultdict[str, list[float]] = defaultdict(list)
     item_by_id: dict[str, dict[str, Any]] = {}
     as_of_values: list[str] = []
+    excluded_reasons: Counter[str] = Counter()
+    included_item_count = 0
 
     for item in items:
-        seller_id = str(item.get("creator_id") or "").strip()
-        seller_name = str(item.get("creator_name") or "").strip()
-        category = str(item.get("category") or "UNKNOWN").strip() or "UNKNOWN"
-        price = item.get("price")
-        if (
-            not seller_id
-            or not seller_name
-            or seller_id in UNKNOWN_SELLER_IDS
-            or seller_name in UNKNOWN_SELLER_NAMES
-            or not isinstance(price, (int, float))
-            or price < 0
-        ):
+        exclusion_reason = _market_item_exclusion_reason(item)
+        if exclusion_reason:
+            excluded_reasons[exclusion_reason] += 1
             continue
+
+        seller_id = str(item["creator_id"]).strip()
+        seller_name = str(item["creator_name"]).strip()
+        category = str(item.get("category") or "UNKNOWN").strip() or "UNKNOWN"
+        price = float(item["price"])
+        observed_at = str(item["last_observed_at"]).strip()
+        included_item_count += 1
 
         item_id = str(item.get("item_id") or "").strip()
         if item_id:
             item_by_id[item_id] = item
 
-        observed_at = item.get("last_observed_at")
-        if isinstance(observed_at, str) and observed_at:
-            as_of_values.append(observed_at)
-
-        market_prices[category].append(float(price))
+        as_of_values.append(observed_at)
+        market_prices[category].append(price)
         seller = sellers.setdefault(
             seller_id,
             {
@@ -91,12 +112,11 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "observed_at": [],
             },
         )
-        seller["prices"].append(float(price))
-        seller["categories"][category].append(float(price))
+        seller["prices"].append(price)
+        seller["categories"][category].append(price)
         if item_id:
             seller["item_ids"].append(item_id)
-        if isinstance(observed_at, str) and observed_at:
-            seller["observed_at"].append(observed_at)
+        seller["observed_at"].append(observed_at)
 
         for target in item.get("targets") or []:
             if isinstance(target, dict):
@@ -172,7 +192,7 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "seller_name": seller["seller_name"],
                 "item_count": len(seller["prices"]),
                 "item_ids": sorted(set(seller["item_ids"])),
-                "as_of": max(seller["observed_at"]) if seller["observed_at"] else None,
+                "as_of": max(seller["observed_at"]),
                 "price": price_summary(seller["prices"]),
                 "categories": category_rows,
                 "explicit_avatar_counts": _counter_top(seller["avatars"]),
@@ -184,16 +204,21 @@ def build_report(items: list[dict[str, Any]]) -> dict[str, Any]:
         )
 
     seller_rows.sort(key=lambda row: (-row["item_count"], row["seller_name"], row["seller_id"]))
+    excluded_item_count = sum(excluded_reasons.values())
     return {
         "schema_version": 1,
         "as_of": max(as_of_values) if as_of_values else None,
         "source": "api/details/shard_*.json",
+        "included_item_count": included_item_count,
+        "excluded_item_count": excluded_item_count,
+        "excluded_reasons": dict(sorted(excluded_reasons.items())),
         "evidence_contract": {
+            "inclusion": "source_status=observed かつ last_observed_at がある商品だけを市場集計に使用",
             "seller_and_price": "BOOTH観測値",
             "explicit_avatar_counts": "販売ページ由来の対応情報を正規化した値",
             "derived": "検索用に導出したタグ。販売者の明示事実とは別扱い",
             "comparable_items": "既存のsimilar_items参照を販売者単位で集約した比較候補。需要や売上の順位ではない",
-            "excluded": "販売者を特定できないplaceholderは販売者比較から除外",
+            "excluded": "販売者不明、価格不明、または現在の観測証拠がない商品は市場集計から除外",
             "not_measured": ["需要", "売上", "購入率"],
         },
         "market_by_category": market,
@@ -228,7 +253,11 @@ def main() -> int:
         json.dumps(report, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )
     print(
-        f"Built seller market report: {report['seller_count']} sellers, as_of={report['as_of']}"
+        "Built seller market report: "
+        f"{report['seller_count']} sellers, "
+        f"{report['included_item_count']} observed items, "
+        f"{report['excluded_item_count']} excluded, "
+        f"as_of={report['as_of']}"
     )
     return 0
 
