@@ -17,7 +17,7 @@ def test_percentile_interpolates_without_external_dependency():
     assert percentile([], 0.5) is None
 
 
-def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller():
+def test_report_separates_observed_and_derived_fields_and_rejects_unverified_rows():
     items = [
         {
             "item_id": "1",
@@ -27,10 +27,11 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
             "source_url": "https://booth.pm/ja/items/1",
             "price": 1000,
             "category": "OUTFIT",
+            "source_status": "observed",
             "last_observed_at": "2026-08-28T00:00:00Z",
             "targets": [{"code": "Kikyo", "name": "桔梗"}],
             "tag_set": {"style": ["Cute"], "color": ["Black"], "feature": ["ModularAvatar"]},
-            "similar_items": ["3", "2"],
+            "similar_items": ["3", "2", "5"],
         },
         {
             "item_id": "2",
@@ -40,6 +41,7 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
             "source_url": "https://booth.pm/ja/items/2",
             "price": 3000,
             "category": "OUTFIT",
+            "source_status": "observed",
             "last_observed_at": "2026-08-29T00:00:00Z",
             "targets": [{"code": "Kikyo", "name": "桔梗"}],
             "tag_set": {"style": ["Cute"], "color": ["White"], "feature": []},
@@ -53,6 +55,7 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
             "source_url": "https://booth.pm/ja/items/3",
             "price": 5000,
             "category": "OUTFIT",
+            "source_status": "observed",
             "last_observed_at": "2026-08-29T01:00:00Z",
             "targets": [],
             "tag_set": {},
@@ -66,10 +69,24 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
             "source_url": "https://booth.pm/ja/items/4",
             "price": 100,
             "category": "ASSET",
+            "source_status": "observed",
             "last_observed_at": "2026-08-29T02:00:00Z",
             "targets": [],
             "tag_set": {},
             "similar_items": [],
+        },
+        {
+            "item_id": "5",
+            "creator_id": "shop-c",
+            "creator_name": "Shop C",
+            "title": "Old unverified price",
+            "source_url": "https://booth.pm/ja/items/5",
+            "price": 99999,
+            "category": "OUTFIT",
+            "audit_status": "UNVERIFIED",
+            "targets": [],
+            "tag_set": {},
+            "similar_items": ["1"],
         },
     ]
 
@@ -78,8 +95,15 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
 
     assert report["as_of"] == "2026-08-29T01:00:00Z"
     assert report["seller_count"] == 2
-    assert all(row["seller_id"] != "unknown" for row in report["sellers"])
+    assert report["included_item_count"] == 3
+    assert report["excluded_item_count"] == 2
+    assert report["excluded_reasons"] == {
+        "observation_unverified": 1,
+        "seller_unknown": 1,
+    }
+    assert all(row["seller_id"] not in {"unknown", "shop-c"} for row in report["sellers"])
     assert "ASSET" not in report["market_by_category"]
+    assert report["market_by_category"]["OUTFIT"]["median"] == 3000
     assert seller["item_count"] == 2
     assert seller["item_ids"] == ["1", "2"]
     assert seller["price"]["median"] == 2000
@@ -99,6 +123,7 @@ def test_report_separates_observed_and_derived_fields_and_rejects_unknown_seller
         }
     ]
     assert "需要" in report["evidence_contract"]["not_measured"]
+    assert "source_status=observed" in report["evidence_contract"]["inclusion"]
     assert "similar_items" in report["evidence_contract"]["comparable_items"]
 
 
