@@ -1,8 +1,8 @@
 {
-  "catalog_items": 43798,
-  "changed_items": 110,
+  "catalog_items": 43828,
+  "changed_items": 70,
   "known_item_refresh_cycle_hours": 91.25,
-  "last_catalog_change_at": "2026-09-14T18:37:31Z",
+  "last_catalog_change_at": "2026-09-14T22:04:43Z",
   "new_items": 30,
   "refresh_interval_minutes": 15,
   "schema_version": 1,
