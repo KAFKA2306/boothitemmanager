@@ -22,6 +22,7 @@ if str(SCRIPT_DIR) not in sys.path:
 from build_seller_market_report import _market_item_exclusion_reason, load_items
 
 NOT_MEASURED = ["demand", "sales", "conversion", "profitability"]
+EXCLUDED_CATEGORIES = {"AVATAR"}
 
 
 def _explicit_targets(item: dict[str, Any]) -> set[str]:
@@ -60,7 +61,7 @@ def build_opportunities(
 
     for item in eligible:
         category = str(item.get("category") or "UNKNOWN").strip() or "UNKNOWN"
-        if category == "UNKNOWN":
+        if category == "UNKNOWN" or category in EXCLUDED_CATEGORIES:
             continue
         category_count[category] += 1
 
@@ -170,6 +171,7 @@ def build_opportunities(
             "minimum_category_items": min_category_count,
             "minimum_avatar_items": min_avatar_count,
             "minimum_expected_pair_items": min_expected_count,
+            "excluded_categories": sorted(EXCLUDED_CATEGORIES),
         },
         "evidence_contract": {
             "uses_only": [
