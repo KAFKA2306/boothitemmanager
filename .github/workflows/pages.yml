@@ -76,7 +76,7 @@ jobs:
           node --check kafka-signal.js
 
       - name: Validate seller report unit tests
-        run: uv run pytest tests/test_seller_market_report.py -v
+        run: uv run pytest tests/test_seller_market_report.py tests/test_market_opportunities.py -v
 
       - name: Validate remaining unit tests
         run: |
@@ -96,6 +96,7 @@ jobs:
           test -s dist/api/metadata.json
           test -s dist/api/v1/manifest.json
           test -s dist/api/v1/shards.json
+          test -s dist/api/market_opportunities.json
           ! grep -Fq 'window.BOOTH_METADATA' dist/index.html
           ! grep -Fq 'window.BOOTH_CATALOG_PART1' dist/index.html
           ! grep -Fq 'fallback script' dist/index.html
@@ -136,6 +137,7 @@ jobs:
           curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/metadata.json
           curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/v1/shards.json
           curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/seller_market_report.json
+          curl --fail --silent --show-error --output /dev/null https://kafka2306.github.io/boothitemmanager/api/market_opportunities.json
 
   cleanup-merged-branches:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
