@@ -23,6 +23,7 @@
 - static API生成: `src/boothitemmanager2/api_generator.py` と関連test
 - catalog更新: `scripts/refresh_catalog.py` と `tests/test_refresh_catalog.py`
 - 販売者レポート: `scripts/build_seller_market_report.py`、`seller/market-report/index.html`、`tests/test_seller_market_report.py`
+- 市場ギャップ・商品意図: `scripts/build_market_opportunities.py`、`.github/workflows/market-intent.yml`、`tests/test_market_opportunities.py`
 - deployment: `.github/workflows/pages.yml` と `build_static.sh`
 
 ## コンテキストを節約する読み方
