@@ -118,3 +118,19 @@ def test_issue_keeps_hypothesis_and_falsification_together():
     assert "需要の証明ではありません" in body
     assert "validate_demand_before_prototype" in body
     assert "image2outfit" in body
+
+
+def test_avatar_product_category_is_not_a_compatibility_opportunity():
+    items = [
+        item(str(index), category="AVATAR", avatar="Avatar A")
+        for index in range(1, 11)
+    ]
+    report = build_opportunities(
+        items,
+        min_category_count=1,
+        min_avatar_count=1,
+        min_expected_count=0.1,
+    )
+
+    assert report["opportunities"] == []
+    assert report["method"]["excluded_categories"] == ["AVATAR"]
