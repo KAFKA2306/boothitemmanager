@@ -62,12 +62,14 @@ jobs:
             scripts/build_ui.py \
             scripts/build_proof.py \
             scripts/build_seller_market_report.py \
+            scripts/build_market_opportunities.py \
             scripts/refresh_catalog.py \
             src/boothitemmanager2/freshness.py \
             src/boothitemmanager2/crawler.py \
             tests/test_catalog_ui.py \
             tests/test_build_proof.py \
             tests/test_seller_market_report.py \
+            tests/test_market_opportunities.py \
             tests/test_freshness.py \
             tests/test_refresh_catalog.py \
             tests/test_crawler_cache.py
