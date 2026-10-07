@@ -1,6 +1,12 @@
 name: Autonomous market intent
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "api/**"
+      - "scripts/build_market_opportunities.py"
+      - ".github/workflows/market-intent.yml"
   schedule:
     - cron: "13 * * * *"
   workflow_dispatch: {}
