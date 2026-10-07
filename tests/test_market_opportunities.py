@@ -133,4 +133,20 @@ def test_avatar_product_category_is_not_a_compatibility_opportunity():
     )
 
     assert report["opportunities"] == []
-    assert report["method"]["excluded_categories"] == ["AVATAR"]
+    assert "OUTFIT" in report["method"]["eligible_categories"]
+    assert "AVATAR" not in report["method"]["eligible_categories"]
+
+
+def test_noncanonical_category_is_not_a_product_intent():
+    items = [
+        item(str(index), category="ANIMATION", avatar="Avatar A")
+        for index in range(1, 11)
+    ]
+    report = build_opportunities(
+        items,
+        min_category_count=1,
+        min_avatar_count=1,
+        min_expected_count=0.1,
+    )
+
+    assert report["opportunities"] == []
