@@ -65,6 +65,7 @@ AEO / GEO、ontology、similarity、static APIは価値そのものではあり�
 - 類似度 + noveltyで関連商品探索
 - duplicate / evidence gap / classification conflict監査
 - seller evidenceに基づくAI-related tool候補抽出
+- 観測済み供給からカテゴリ×明示対応avatarの不足を商品機会仮説として自動生成
 - static API再利用
 - AEO / GEO向け構造化情報生成
 
@@ -91,6 +92,14 @@ seller public listing
 - calculated similarity / novelty
 
 これらを一つの「商品属性」へ潰しません。
+
+## Autonomous market intent
+
+`scripts/build_market_opportunities.py` は、観測済み商品だけを使ってカテゴリ×明示対応avatarの供給ギャップを計算し、`dist/api/market_opportunities.json` を生成します。
+
+GitHub Actionsの `Autonomous market intent` は毎時これを再計算し、最上位仮説を1つのcanonical Issueへ作成または更新します。同じ目的のIssueを増殖させません。
+
+このscoreは**需要・売上・購入率・収益性の予測ではありません**。あくまで「観測カタログ上で相対的に供給が薄い組み合わせ」の優先度です。選ばれた意図は独立した需要シグナルで反証可能にし、支持された場合だけ制作側へ渡します。
 
 ## AI-related tool evidence
 

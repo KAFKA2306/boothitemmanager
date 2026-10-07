@@ -21,6 +21,7 @@ cp -r api/details dist/api/
 cp -r api/v1 dist/api/
 
 python scripts/build_seller_market_report.py --api-dir api --output dist/api/seller_market_report.json
+python scripts/build_market_opportunities.py --api-dir api --output dist/api/market_opportunities.json
 python scripts/build_proof.py --api-dir api --output dist/proof.json
 
 python - <<'PY'
@@ -67,6 +68,7 @@ PY
 
 test -s dist/api/ai_tool_candidates.json
 test -s dist/api/seller_market_report.json
+test -s dist/api/market_opportunities.json
 test -s dist/seller/market-report/index.html
 
 echo "Build complete. Files in dist/:"
