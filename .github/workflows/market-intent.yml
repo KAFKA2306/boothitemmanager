@@ -77,7 +77,7 @@ jobs:
             const issues = await github.paginate(github.rest.issues.listForRepo, {
               owner: context.repo.owner,
               repo: context.repo.repo,
-              state: 'open',
+              state: 'all',
               per_page: 100,
             });
             const current = issues.find(issue =>
@@ -95,7 +95,7 @@ jobs:
               return;
             }
 
-            if (current.title === title && current.body === body) {
+            if (current.state === 'open' && current.title === title && current.body === body) {
               core.notice(`market intent unchanged; issue #${current.number} remains canonical`);
               return;
             }
@@ -106,5 +106,6 @@ jobs:
               issue_number: current.number,
               title,
               body,
+              state: 'open',
             });
             core.notice(`updated autonomous market intent issue #${current.number}`);
