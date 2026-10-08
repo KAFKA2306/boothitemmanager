@@ -80,3 +80,19 @@ validation:
   semantic: Separate seller statements, marketplace observations, normalized values, derived tags, compatibility, and license observations.
   evidence: Verify source snapshots, mapping rules, duplicate decisions, compatibility evidence, and rights boundaries.
   publication: Static API and dashboard must match the validated catalog and expose source links and classification status.
+
+operational_model:
+  implementation_status: "Existing hourly intent job updates a canonical Issue; production handoff requires separate demand validation."
+  canonical_sources: ["scripts/build_market_opportunities.py","dist/api/market_opportunities.json","ontology/project.yaml"]
+  objects: ["Listing","Seller","Avatar","Category","SupplyGap","DemandEvidence","ProductIntent","Issue"]
+  links:
+    - ["Listing","OFFERED_BY","Seller"]
+    - ["Listing","EXPLICITLY_COMPATIBLE_WITH","Avatar"]
+    - ["SupplyGap","DESCRIBES","Category"]
+    - ["DemandEvidence","SUPPORTS","ProductIntent"]
+  actions:
+    - id: "update_canonical_market_intent"
+      preconditions: "Supply gap computed from observed listings and explicit avatar compatibility. Demand, sales, conversion and profitability are UNKNOWN, and must not be claimed from supply scarcity."
+      recorded_effect: "Update one canonical GitHub Issue with scored supply-gap hypothesis, input fingerprint, and unresolved demand fields."
+      rollback_or_recovery: "Do not promote to image2outfit unless independent demand evidence satisfies an explicit handoff rule; retain rejected hypotheses."
+  outcome_metrics: ["observed_supply_coverage","distinct_supported_avatar_category_pairs","demand_validation_count","supported_production_handoffs"]
