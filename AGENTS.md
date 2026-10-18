@@ -61,3 +61,9 @@
 - **Range:** Combine code, data, tests, runtime/UI, and domain expertise when that materially improves the outcome, while respecting canonical owners and avoiding duplicate systems.
 - **Speed:** Complete authorized read-only and reversible work through implementation, focused checks, and read-back without unnecessary approval loops. Bound retries and stop at the proven outcome.
 - These principles never bypass repository-specific security, privacy, permission, publication, spending, destructive-action, or release boundaries. State verified results and any remaining `UNVERIFIED` layers.
+
+## Compute-scaling adoption
+
+BOOTH discovery: Scale recall/search breadth, ranking and local-OSS reranking/market-intent candidates against fixed catalog snapshots and labeled queries. Measure relevance, diversity, unsupported compatibility/licensing claims, latency, memory and static-artifact size. Seller-stated avatar compatibility, license and real sales/transactions remain authoritative; inferred demand stays explicitly unverified. Reuse current scripts, catalog evidence, Taskfile and Pages build without new paid APIs or duplicated catalog owners.
+
+Adopt a higher-compute path only after an identical-input baseline comparison and exact-revision verification; record input/model revision, budget, measured quality and measured resource usage. A no-gain result means keeping the existing path.
