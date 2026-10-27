@@ -2127,7 +2127,7 @@
     "Standard Build",
     "Tall Build"
   ],
-  "catalog_shards": 10,
+  "catalog_shards": 11,
   "categories": [
     {
       "aliases": [
@@ -2944,5 +2944,5 @@
     "Yami Kawaii",
     "Yume Kawaii"
   ],
-  "updated_at": "2026-10-27T06:16:08Z"
+  "updated_at": "2026-10-27T12:30:32Z"
 }
