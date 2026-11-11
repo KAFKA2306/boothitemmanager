@@ -90,18 +90,18 @@ jobs:
               !issue.pull_request && (issue.body || '').includes(marker)
             );
 
+            // Supply-gap hypotheses are not validated demand: do not create new
+            // implementation issues or reopen a human-closed canonical issue.
             if (!current) {
-              const created = await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title,
-                body,
-              });
-              core.notice(`created autonomous market intent issue #${created.data.number}`);
+              core.notice('no canonical issue; retain hypothesis in generated JSON only');
+              return;
+            }
+            if (current.state === 'closed') {
+              core.notice(`canonical issue #${current.number} is closed; respect decision`);
               return;
             }
 
-            if (current.state === 'open' && current.title === title && current.body === body) {
+            if (current.title === title && current.body === body) {
               core.notice(`market intent unchanged; issue #${current.number} remains canonical`);
               return;
             }
@@ -112,6 +112,5 @@ jobs:
               issue_number: current.number,
               title,
               body,
-              state: 'open',
-            });
+             });
             core.notice(`updated autonomous market intent issue #${current.number}`);
